@@ -1,0 +1,177 @@
+{
+  "game": "Radical Dreamers",
+  "description": "A standalone adventure featuring the team that would become the basis for Chrono Cross. Serge, Kid, and Gil are treasure hunters hired to infiltrate Viper Manor and steal the Frozen Flame.",
+  "episodes": [
+    {
+      "id": "episode_1",
+      "name": "The Frozen Flame",
+      "description": "The main story - the Radical Dreamers infiltrate Viper Manor to steal the legendary Frozen Flame.",
+      "chapters": [
+        {
+          "id": "ch1",
+          "name": "The Contract",
+          "description": "The party accepts a job from a mysterious client to steal the Frozen Flame.",
+          "choices": []
+        },
+        {
+          "id": "ch2",
+          "name": "Infiltrating Viper Manor",
+          "description": "The team sneaks into the manor, avoiding guards and traps.",
+          "choices": []
+        },
+        {
+          "id": "ch3",
+          "name": "Confronting the Guards",
+          "description": "Battle through the manor's defenders.",
+          "choices": []
+        },
+        {
+          "id": "ch4",
+          "name": "The Treasure Room",
+          "description": "Find and claim the Frozen Flame.",
+          "choices": []
+        },
+        {
+          "id": "ch5",
+          "name": "Escape",
+          "description": "Escape from Viper Manor with the treasure.",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "id": "episode_2",
+      "name": "Nonsensical",
+      "description": "A surreal alternate episode with randomized events and unusual scenarios.",
+      "chapters": [
+        {
+          "id": "ns1",
+          "name": "Dream Beginnings",
+          "description": "Start in an unfamiliar location with strange events.",
+          "choices": []
+        },
+        {
+          "id": "ns2",
+          "name": "Unusual Encounters",
+          "description": "Meet unusual characters and face bizarre challenges.",
+          "choices": []
+        },
+        {
+          "id": "ns3",
+          "name": "The Endless Staircase",
+          "description": "Navigate through an infinite series of rooms.",
+          "choices": []
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Serge",
+      "role": "Leader",
+      "description": "The calm and capable leader of the Radical Dreamers. He wields a sword and leads the party."
+    },
+    {
+      "name": "Kid",
+      "role": "Thief",
+      "description": "A skilled thief with a mysterious past. She uses dual blades and has high evasion."
+    },
+    {
+      "name": "Gil",
+      "role": "Mage",
+      "description": "A hot-headed magic user who specializes in fire and lightning spells."
+    },
+    {
+      "name": "Mana",
+      "role": "Support",
+      "description": "A mysterious girl with powerful magical abilities. Joins the party later."
+    },
+    {
+      "name": "Karsh",
+      "role": "Heavy Hitter",
+      "description": "A strong warrior with high physical attack. Leader of the opposing group."
+    },
+    {
+      "name": "Zoah",
+      "role": "Tank",
+      "description": "A powerful fighter with high HP and defense. Represents the opposite team."
+    }
+  ],
+  "gameplay_modes": [
+    {
+      "mode": "Story Mode",
+      "description": "The main narrative experience with linear progression through Viper Manor.",
+      "outcomes": [
+        "Success - Get the Frozen Flame",
+        "Failure - Get caught or defeated"
+      ]
+    },
+    {
+      "mode": "Nonsensical Mode",
+      "description": "A surreal alternate mode with randomized encounters and surreal storytelling."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Dream Sanctuary",
+      "description": "A mysterious hub area where the team prepares for missions."
+    },
+    {
+      "name": "Karsh's Castle",
+      "description": "The fortress of the rival treasure hunting team led by Karsh."
+    },
+    {
+      "name": "Marbule Ruins",
+      "description": "Ancient ruins with treasure and enemies."
+    },
+    {
+      "name": "Island of the Dead",
+      "description": "A haunted island with powerful enemies and rare items."
+    },
+    {
+      "name": "Viper Manor (Past)",
+      "description": "The historical version of Viper Manor, accessible through time travel."
+    }
+  ],
+  "connection_to_chrono_cross": {
+    "description": "Radical Dreamers serves as a prototype for Chrono Cross. Many elements were reused and expanded:",
+    "shared_elements": [
+      "Serge - Main protagonist in both",
+      "Kid - Thief character, appears in both",
+      "Viper Manor - Key location in both games",
+      "The Frozen Flame - Important artifact",
+      "Multiple timelines/dimensions concept",
+      "Team-based treasure hunting theme"
+    ],
+    "differences": [
+      "Radical Dreamers is much shorter (2-3 hours)",
+      "Simpler graphics and gameplay",
+      "Only 3 playable characters initially",
+      "No real time travel (uses dream/surreal elements)",
+      "Two teams instead of one (Radical Dreamers vs. Karsh's team)"
+    ]
+  },
+  "endings": [
+    {
+      "id": "good_ending",
+      "name": "Success",
+      "description": "The team successfully steals the Frozen Flame and escapes.",
+      "requirements": ["Complete all chapters", "Defeat all enemies"],
+      "outcome": "Get the Frozen Flame and complete the contract"
+    },
+    {
+      "id": "bad_ending",
+      "name": "Failure",
+      "description": "The team is defeated or caught.",
+      "requirements": ["Party wiped out"],
+      "outcome": "Game over"
+    }
+  ],
+  "themes": [
+    "Treasure hunting",
+    "Friendship and rivalry",
+    "Dreams vs reality",
+    "Multiple dimensions",
+    "Redemption"
+  ]
+}

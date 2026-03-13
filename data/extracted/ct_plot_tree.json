@@ -1,0 +1,202 @@
+{
+  "game": "Chrono Trigger",
+  "description": "A time-traveling RPG where a group of friends must prevent the apocalypse caused by the alien entity Lavos.",
+  "eras": [
+    {
+      "name": "Prehistoric Era",
+      "year": "60000000 BC",
+      "description": "The age of dinosaurs and primitive humans",
+      "locations": ["Ioka Village", "Terra Cave", "Cave of the Masamune"],
+      "key_events": [
+        {
+          "id": "prehistory_1",
+          "name": "Meeting Ayla",
+          "description": "Crono and Marle travel to 60000 BC and meet Ayla, the cavewoman leader.",
+          "choices": [],
+          "unlocks": ["Ayla joins party"]
+        },
+        {
+          "id": "prehistory_2", 
+          "name": "Kashum Challenge",
+          "description": "Defeat thereptile monsters to prove your worth.",
+          "choices": [],
+          "unlocks": ["Access to Dream Stone"]
+        }
+      ]
+    },
+    {
+      "name": "Medieval Era",
+      "year": "1000 AD",
+      "description": "The age of knights and castles, ruled by Guardia",
+      "locations": ["Guardia Castle", "Cave", "King's Table"],
+      "key_events": [
+        {
+          "id": "medieval_1",
+          "name": "The Millenial Fair",
+          "description": "The starting point - Crono meets Marle at the fair.",
+          "choices": [],
+          "unlocks": []
+        },
+        {
+          "id": "medieval_2",
+          "name": "Time Travel Incident",
+          "description": "Marle is transported to 1000 AD by the time machine, starting the adventure.",
+          "choices": [],
+          "unlocks": ["Time travel mechanism discovered"]
+        },
+        {
+          "id": "medieval_3",
+          "name": "The Frog Cure",
+          "description": "Find the materials to cure Frog's curse.",
+          "choices": [
+            {
+              "id": "frog_cure_choice",
+              "text": "Give the Green Dream to the Frog?",
+              "options": [
+                {"text": "Yes - Frog becomes human", "outcome": "Frog joins as human, loses sword skills"},
+                {"text": "No - Keep Frog as he is", "outcome": "Frog stays as knight, retains abilities"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Ages",
+      "year": "600 AD",
+      "description": "The dark period when Guardia fell to the Kingdom of Guardia",
+      "locations": ["Denadorok Mountains", "Cave of the Fiendlord"],
+      "key_events": [
+        {
+          "id": "dark_1",
+          "name": "Magus's Castle",
+          "description": "Confront the Mystic Lord at his castle.",
+          "choices": [],
+          "unlocks": []
+        }
+      ]
+    },
+    {
+      "name": "Future Era",
+      "year": "2100 AD",
+      "description": "Post-apocalyptic world destroyed by Lavos",
+      "locations": ["End of Time", "Factory", "Ocean Palace"],
+      "key_events": [
+        {
+          "id": "future_1",
+          "name": "The Apocalypse",
+          "description": "See the devastated future caused by Lavos.",
+          "choices": [],
+          "unlocks": []
+        }
+      ]
+    },
+    {
+      "name": "The Ocean Palace Era",
+      "year": "1999 AD",
+      "description": "The final days before Lavos awakens",
+      "locations": ["Ocean Palace", "Sun Palace"],
+      "key_events": [
+        {
+          "id": "ocean_1",
+          "name": "Lavos Awakens",
+          "description": "The party travels to the Ocean Palace to stop Lavos from waking.",
+          "choices": [],
+          "unlocks": []
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "id": "ending_1",
+      "name": "The Cosmic Race",
+      "description": "Complete the race at the Sun Shrine to gain the ultimate power.",
+      "requirements": ["Complete all time travels", "Race completed"],
+      "outcome": "Use the Chrono Trigger to erase Lavos from history"
+    },
+    {
+      "id": "ending_2",
+      "name": "The Moon Anchor",
+      "description": "Give the Moon Stone to the Guru.",
+      "requirements": ["Moon Stone obtained"],
+      "outcome": "The moon falls, destroying Lavos"
+    },
+    {
+      "id": "ending_3",
+      "name": "The Dream Project",
+      "description": "Complete Lucca's father's project.",
+      "requirements": ["Taban's gift obtained"],
+      "outcome": "Lucca creates a new timeline where Lavos never existed"
+    },
+    {
+      "id": "ending_4",
+      "name": "The Legendary Hero",
+      "description": "Defeat Lavos with the Hero's Badge.",
+      "requirements": ["Hero Badge obtained"],
+      "outcome": "Crono becomes the legendary hero"
+    }
+  ],
+  "character_arcs": [
+    {
+      "character": "Crono",
+      "arc": "Silent protagonist who learns about responsibility through time travel"
+    },
+    {
+      "character": "Marle",
+      "arc": "Princess who discovers her true identity and learns about duty"
+    },
+    {
+      "character": "Lucca",
+      "arc": "Inventor who reconciles with her father's legacy"
+    },
+    {
+      "character": "Frog",
+      "arc": "Cursed knight seeking redemption and honor"
+    },
+    {
+      "character": "Robo",
+      "arc": "Robot who learns what it means to have a heart"
+    },
+    {
+      "character": "Ayla",
+      "arc": "Primitive warrior who values strength and honesty"
+    },
+    {
+      "character": "Magus",
+      "arc": "Prince seeking revenge against Lavos, ultimately finding peace"
+    }
+  ],
+  "branching_decisions": [
+    {
+      "id": "frog_cure",
+      "point": "Medieval Era",
+      "description": "Cure Frog's curse",
+      "choice": "Give Green Dream to Frog",
+      "options": [
+        {"text": "Yes", "effects": ["Frog becomes human", "Changes available endings"]},
+        {"text": "No", "effects": ["Frog stays as knight", "Access to better techs"]}
+      ]
+    },
+    {
+      "id": "marle_fate",
+      "point": "Future Era",
+      "description": "Marle's sacrifice",
+      "choice": "Save Marle in 2100 AD",
+      "options": [
+        {"text": "Save her", "effects": ["Continue with full party"]},
+        {"text": "Don't intervene", "effects": ["Story continues differently"]}
+      ]
+    },
+    {
+      "id": "magus_join",
+      "point": "600 AD",
+      "description": "Magus joins the party",
+      "choice": "Defeat Magus or spare him",
+      "options": [
+        {"text": "Spare him", "effects": ["Magus joins party"]},
+        {"text": "Defeat him", "effects": ["Get the Masamune"]}
+      ]
+    }
+  ]
+}

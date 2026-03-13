@@ -1,0 +1,262 @@
+{
+  "game": "Chrono Cross",
+  "description": "A sequel to Chrono Trigger where Serge, a young man from a coastal village, discovers he exists in two parallel timelines and must save both worlds from the cataclysmic Event Horizon.",
+  "worlds": [
+    {
+      "name": "Home (Linear World)",
+      "year": "1010 AD",
+      "description": "The world where Serge grew up - a peaceful coastal village, El Nido",
+      "locations": ["Arni Village", "Dead Sea", "Fort Dragonia", "Hermes Village"],
+      "key_events": [
+        {
+          "id": "home_1",
+          "name": "The Disappearing Girl",
+          "description": "Kid appears at Serge's home and asks him to investigate the Dead Sea.",
+          "choices": [],
+          "unlocks": ["Dead Sea exploration"]
+        },
+        {
+          "id": "home_2",
+          "name": "Kidnapping at the Beach",
+          "description": "Serge is kidnapped by Lynx and taken to the Dead Sea.",
+          "choices": [],
+          "unlocks": ["Enter Dead Sea", "Meet FATE"]
+        },
+        {
+          "id": "home_3",
+          "name": "Rescue at the Dead Sea",
+          "description": "Serge and Kid rescue Radius and use the dimension tube to escape.",
+          "choices": [],
+          "unlocks": ["Access to Home dimensions"]
+        },
+        {
+          "id": "home_4",
+          "name": "Viper Manor",
+          "description": "The party infiltrates Viper Manor to rescue the Dragon God.",
+          "choices": [],
+          "unlocks": []
+        }
+      ]
+    },
+    {
+      "name": "Another World (Anti-Linear World)",
+      "year": "1010 AD (Alternate)",
+      "description": "The parallel world where Serge died as a child - now ruled by Lynx",
+      "locations": ["Arni Village (Ruined)", "Dead Sea (Frozen)", "Fort Dragonia (Active)"],
+      "key_events": [
+        {
+          "id": "another_1",
+          "name": "Waking in Another World",
+          "description": "Serge wakes up in the world where he died as a child.",
+          "choices": [],
+          "unlocks": []
+        },
+        {
+          "id": "another_2",
+          "name": "Meeting Guinevere",
+          "description": "Serge meets Guinevere, who helps him understand the two timelines.",
+          "choices": [],
+          "unlocks": []
+        },
+        {
+          "id": "another_3",
+          "name": "Confronting Lynx",
+          "description": "The party confronts Lynx in Fort Dragonia.",
+          "choices": [],
+          "unlocks": []
+        }
+      ]
+    }
+  ],
+  "story_arcs": [
+    {
+      "id": "arc_1",
+      "name": "The Dead Sea Incident",
+      "description": "Serge investigates the mysterious Dead Sea and discovers the existence of parallel worlds."
+    },
+    {
+      "id": "arc_2", 
+      "name": "The Dragon God Hunt",
+      "description": "The party travels across El Nido to collect the Dragon's tears and summon the Dragon God."
+    },
+    {
+      "id": "arc_3",
+      "name": "The Frozen Flame",
+      "description": "The party seeks the Frozen Flame to power the time-traveling device."
+    },
+    {
+      "id": "arc_4",
+      "name": "Confronting FATE",
+      "description": "The revelation that FATE, the computer from 2400 AD, has been manipulating history."
+    },
+    {
+      "id": "arc_5",
+      "name": "The Ultimate Choice",
+      "description": "Serge must choose between saving one world or merging them together."
+    }
+  ],
+  "endings": [
+    {
+      "id": "ending_1",
+      "name": "Divine Wind Fall",
+      "description": "Defeat the Time Devourer and destroy FATE.",
+      "requirements": ["Complete all storyline", "Defeat Time Devourer"],
+      "outcome": "The worlds are saved, but the timeline is altered"
+    },
+    {
+      "id": "ending_2",
+      "name": "The Frozen Flame",
+      "description": "Use the Frozen Flame to restore the timeline.",
+      "requirements": ["Frozen Flame obtained"],
+      "outcome": "Timeline is reset to before Lavos awakened"
+    },
+    {
+      "id": "ending_3",
+      "name": "Dimensional merge",
+      "description": "Merge both worlds together.",
+      "requirements": ["Complete all dimensions"],
+      "outcome": "A new unified world is created"
+    }
+  ],
+  "character_arcs": [
+    {
+      "character": "Serge",
+      "arc": "The silent protagonist who discovers he is the key to saving both timelines. He struggles with his identity and the choice between two worlds."
+    },
+    {
+      "character": "Kid",
+      "arc": "A thief seeking revenge for her mother's death. She struggles with the truth about her origins and her relationship with Serge."
+    },
+    {
+      "character": "Guinevere",
+      "arc": "A mysterious woman from another dimension who guides Serge. Her true identity is revealed as Princess Elise of Guardia."
+    },
+    {
+      "character": "Harle",
+      "arc": "A playful yet mysterious member of the party. She is actually a member of the Demi-Human race sent to observe the timeline."
+    },
+    {
+      "character": "Lynx",
+      "arc": "The main antagonist who was once Serge's friend. He seeks to destroy FATE but uses questionable methods."
+    },
+    {
+      "character": "Viper",
+      "arc": "Leader of the Deists and father to several party members. He seeks to restore his family honor."
+    },
+    {
+      "character": "Frog",
+      "arc": "An anthropomorphic frog who is actually Glenn, Frog's descendant from Chrono Trigger."
+    },
+    {
+      "character": "Radius",
+      "arc": "A veteran soldier seeking to rescue his daughter. He carries the guilt of the war."
+    },
+    {
+      "character": "Marcie",
+      "arc": "A young girl with psychic abilities who joins the party to find her missing father."
+    },
+    {
+      "character": "Doc",
+      "arc": "A doctor who joined the resistance against the Dragon God. He seeks to cure the spread of the status effects."
+    },
+    {
+      "character": "Starky",
+      "arc": "An alien who crash-landed on Earth. Joins the party to find a way home."
+    },
+    {
+      "character": "Sprigg",
+      "arc": "A shape-shifting creature who can transform into other party members. Her true form is unknown."
+    }
+  ],
+  "branching_decisions": [
+    {
+      "id": "serge_fate",
+      "point": "Dead Sea",
+      "description": "Serge's choice in the Dead Sea",
+      "choice": "Escape with Kid or stay and fight",
+      "options": [
+        {"text": "Escape with Kid", "effects": ["Progress story", "Radius joins"]},
+        {"text": "Stay and fight", "effects": ["Get different items", "Learn about FATE earlier"]}
+      ]
+    },
+    {
+      "id": "dragon_god",
+      "point": "Viper Manor",
+      "description": "Summon the Dragon God",
+      "choice": "Summon or destroy the Dragon God",
+      "options": [
+        {"text": "Summon", "effects": ["Dragon God joins party", "Access to stronger attacks"]},
+        {"text": "Destroy", "effects": ["Get the Mastermune", "Different ending path"]}
+      ]
+    },
+    {
+      "id": "fate_choice",
+      "point": "Temporal Rift",
+      "description": "Confronting FATE",
+      "choice": "Destroy FATE or reprogram it",
+      "options": [
+        {"text": "Destroy FATE", "effects": ["Ultimate ending", "Both worlds saved"]},
+        {"text": "Reprogram", "effects": ["FATE becomes ally", "Alternate ending"]}
+      ]
+    },
+    {
+      "id": "harle_choice",
+      "point": "Moon",
+      "description": "Harle's departure",
+      "choice": "Let Harle go or bring her along",
+      "options": [
+        {"text": "Let her go", "effects": ["Emotional ending", "Special scene"]},
+        {"text": "Bring her", "effects": ["Full party for final battle"]}
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "name": "Deists",
+      "description": "Worshippers of the Dragon God, led by Viper",
+      "members": ["Viper", "Skelly", "Turner"]
+    },
+    {
+      "name": "Dragons",
+      "description": "Ancient beings who serve as guardians",
+      "members": ["Dragon God", "Dario"]
+    },
+    {
+      "name": "Half-Dragons",
+      "description": "Human-dragon hybrids",
+      "members": ["Harle", "Radius"]
+    },
+    {
+      "name": "FATE",
+      "description": "The governing AI from the future",
+      "members": []
+    },
+    {
+      "name": "Resistance",
+      "description": "Those who oppose the Dragon God's rule",
+      "members": ["Radius", "Doc", "Marcie", "Starky", "Sprigg"]
+    }
+  ],
+  "important_locations": [
+    {
+      "name": "Dead Sea",
+      "description": "An inland sea that connects the two dimensions. It appears differently in each world."
+    },
+    {
+      "name": "Viper Manor",
+      "description": "The headquarters of the Deists, located in the mountains."
+    },
+    {
+      "name": "Fort Dragonia",
+      "description": "The ancient fort built by the Dragons, now used by FATE."
+    },
+    {
+      "name": "Hermes Village",
+      "description": "A peaceful village hidden in the mountains, home to the goddess."
+    },
+    {
+      "name": "Temporal Rift",
+      "description": "The space between dimensions where FATE resides."
+    }
+  ]
+}
