@@ -1,14 +1,50 @@
 # Chrono Series MCP Server
 
-A comprehensive MCP server for analyzing Chrono Trigger, Chrono Cross, and Radical Dreamers ROMs.
+A comprehensive MCP server and web UI for analyzing Chrono Trigger, Chrono Cross, and Radical Dreamers ROMs.
+
+## Features
+
+- **Web UI** - Browse all game data at http://localhost:5000
+- **MCP Server** - AI/LLM integration at http://localhost:8080/mcp
+- **REST API** - Full REST API with search, pagination, export
+- **Containerized** - Docker/Podman ready
 
 ## Available Games
 
-| Game | Platforms | Characters | Items | Enemies |
-|------|----------|------------|-------|---------|
-| **Chrono Trigger** | SNES, DS, PS1, MSU1 | 7 | 40 | 25 |
-| **Chrono Cross** | PS1 | 15 | 14 | 10 |
-| **Radical Dreamers** | SNES | 6 | 5 | 4 |
+| Game | Total Items | Categories |
+|------|-------------|------------|
+| **Chrono Trigger** | 9,975 | 31 |
+| **Chrono Cross** | 7,623 | 21 |
+| **Radical Dreamers** | 4,099 | 11 |
+
+**Total: 21,697 items across 63 categories**
+
+## Quick Start
+
+```bash
+# Run container
+podman run -d -p 5000:5000 -p 8080:8080 chrono-mcp
+
+# Or build locally
+podman build -t chrono-mcp .
+```
+
+## Web UI (Port 5000)
+
+- Browse all game data
+- Search across games
+- Dark/light theme
+- Mobile responsive
+
+## API Endpoints
+
+- `GET /api/games` - List games
+- `GET /api/<game>/<category>` - Get category data (paginated)
+- `GET /api/search?q=<query>` - Fuzzy search
+- `GET /api/export/<game>/<category>/csv` - Export CSV
+- `GET /health` - Health check
+
+See `/docs/SELF_HOSTING.md` for full documentation.
 
 ## MCP Tools
 

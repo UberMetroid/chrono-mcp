@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  chronomcp:
+    build: .
+    image: chrono-mcp:latest
+    container_name: chrono-mcp
+    ports:
+      - "5000:5000"
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data:ro
+    environment:
+      - CHRONO_BASE=/app
+      - WEB_PORT=5000
+      - MCP_PORT=8080
+      - MCP_TRANSPORT=http
+      - FLASK_DEBUG=false
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '1.0'
+        reservations:
+          memory: 256M
+          cpus: '0.5'
+    networks:
+      - chrononet
+
+  # Optional: Nginx reverse proxy
+  nginx:
+    image: nginx:latest
+    container_name: chrono-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - chronomcp
+    restart: unless-stopped
+    networks:
+      - chrononet
+
+networks:
+  chrononet:
+    driver: bridge

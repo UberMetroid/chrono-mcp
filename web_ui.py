@@ -6,32 +6,232 @@ Run: python web_ui.py
 """
 
 import json
+import logging
 import os
+import re
+import time
+import uuid
+from functools import wraps
 from pathlib import Path
-from flask import Flask, render_template_string, jsonify, request
+from typing import Any, Callable, Dict, List, Optional, Union
+from flask import Flask, Response, g, jsonify, render_template_string, request
+from flask_cors import CORS
+
+# Type aliases
+JSON = Union[Dict[str, Any], List[Any]]
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger("chrono_web")
 
 app = Flask(__name__)
 
+# Enable CORS for all routes
+CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+# Request ID middleware
+@app.before_request
+def add_request_id() -> None:
+    """Add unique request ID to each request"""
+    g.request_id = request.headers.get('X-Request-ID', str(uuid.uuid4()))
+
+@app.after_request
+def add_request_id_to_response(response: Response) -> Response:
+    """Add request ID to response headers"""
+    response.headers['X-Request-ID'] = g.get('request_id', 'unknown')
+    return response
+
+# Application version
+VERSION: str = "1.0.0"
+
 # Configuration
-BASE_DIR = Path(os.environ.get("CHRONO_BASE", "/home/jeryd/Code/Chrono_Series"))
-DATA_DIR = BASE_DIR / "data"
+BASE_DIR: Path = Path(os.environ.get("CHRONO_BASE", "/home/jeryd/Code/Chrono_Series"))
+DATA_DIR: Path = BASE_DIR / "data"
+
+# Optional API Authentication (disabled by default)
+API_KEY: str = os.environ.get("API_KEY", "")
+AUTH_ENABLED: bool = bool(API_KEY)
+
+# Public endpoints that don't require auth
+PUBLIC_ENDPOINTS: set = {'/health', '/api/ready', '/api/version', '/', '/api/games', 
+                   '/api/search', '/api/export', '/data/art', '/data/audio', '/api/categories'}
+
+# Cache globals
+_data_cache: Optional[JSON] = None
+_load_error: Optional[str] = None
+_cache_hits: int = 0
+_cache_misses: int = 0
+
+# Retry configuration
+MAX_RETRIES: int = 3
+RETRY_DELAY: float = 0.5
+
+# Max search results
+MAX_SEARCH_RESULTS: int = 500
+
+# Input validation
+def sanitize_input(value: str, max_length: int = 100) -> str:
+    """Sanitize user input"""
+    if not value:
+        return ""
+    # Remove potentially dangerous characters
+    value = re.sub(r'[<>"\';\\]', '', value)
+    return value[:max_length]
+
+def validate_game_name(name: str) -> str:
+    """Validate and normalize game name"""
+    name = sanitize_input(name)
+    # Only allow alphanumeric, space, hyphen
+    return re.sub(r'[^a-zA-Z0-9 \-]', '', name)
 
 _data_cache = None
+_load_error = None
+_cache_hits = 0
+_cache_misses = 0
 
-# Load data
+# Retry configuration
+MAX_RETRIES = 3
+RETRY_DELAY = 0.5  # seconds
+
+# Load data with caching and retry
 def load_data(force_reload=False):
-    """Load all game data"""
-    global _data_cache
-    if _data_cache is None or force_reload:
-        with open(DATA_DIR / "extracted/chrono_master_complete.json") as f:
-            _data_cache = json.load(f)
+    """Load all game data with retry logic"""
+    global _data_cache, _load_error, _cache_hits, _cache_misses
+    
+    if _data_cache is not None and not force_reload:
+        _cache_hits += 1
+        return _data_cache
+    
+    _cache_misses += 1
+    
+    last_error = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            data_file = DATA_DIR / "extracted/chrono_master_complete.json"
+            with open(data_file) as f:
+                _data_cache = json.load(f)
+            _load_error = None
+            logger.info(f"Data loaded successfully (attempt {attempt + 1})")
+            return _data_cache
+        except json.JSONDecodeError as e:
+            last_error = f"JSON parse error: {e}"
+            _data_cache = {"games": {}}
+            logger.error(f"JSON parse error: {e}")
+        except FileNotFoundError as e:
+            last_error = f"File not found: {e}"
+            _data_cache = {"games": {}}
+            logger.error(f"File not found: {e}")
+        except IOError as e:
+            last_error = f"IO error: {e}"
+            logger.warning(f"IO error (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
+            # Retry for IO errors
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(RETRY_DELAY * (attempt + 1))
+        except Exception as e:
+            last_error = f"Load error: {e}"
+            _data_cache = {"games": {}}
+            logger.error(f"Load error: {e}")
+    
+    _load_error = last_error
     return _data_cache
+
+def clear_cache():
+    """Clear the data cache"""
+    global _data_cache
+    _data_cache = None
+
+def get_cache_stats():
+    """Get cache statistics"""
+    return {
+        "hits": _cache_hits,
+        "misses": _cache_misses,
+        "size_bytes": len(str(_data_cache)) if _data_cache else 0
+    }
+
+# Cache stats endpoint
+@app.route('/api/cache/stats')
+def cache_stats():
+    """Get cache statistics"""
+    return jsonify(get_cache_stats())
+
+@app.route('/api/cache/clear')
+def cache_clear():
+    """Clear the data cache"""
+    clear_cache()
+    logger.info("Cache cleared")
+    return jsonify({"status": "ok", "message": "Cache cleared"})
+
+# Request logging
+@app.before_request
+def log_request():
+    """Log incoming requests"""
+    logger.info(f"Request: {request.method} {request.path} [ID: {g.get('request_id', 'unknown')}]")
+
+# Error handlers
+@app.errorhandler(404)
+def not_found(e):
+    logger.warning(f"404 Not Found: {request.path}")
+    return jsonify({"error": "Not found"}), 404
+
+@app.errorhandler(500)
+def internal_error(e):
+    logger.error(f"500 Internal Error: {request.path}")
+    return jsonify({"error": "Internal server error"}), 500
 
 @app.route('/api/refresh')
 def api_refresh():
     """Force reload data from files"""
     load_data(force_reload=True)
     return jsonify({"status": "ok", "message": "Data refreshed"})
+
+@app.route('/health')
+def health_check():
+    """Health check endpoint for container orchestration"""
+    health = {
+        "status": "healthy",
+        "version": VERSION
+    }
+    
+    # Check data file exists and is readable
+    try:
+        data_file = DATA_DIR / "extracted/chrono_master_complete.json"
+        if data_file.exists():
+            health["data_file"] = "ok"
+        else:
+            health["data_file"] = "missing"
+            health["status"] = "degraded"
+    except Exception as e:
+        health["data_file"] = str(e)
+        health["status"] = "unhealthy"
+    
+    # Check data can be loaded
+    try:
+        load_data()
+        health["data_load"] = "ok"
+    except Exception as e:
+        health["data_load"] = str(e)
+        health["status"] = "unhealthy"
+    
+    status_code = 200 if health["status"] == "healthy" else 503
+    return jsonify(health), status_code
+
+@app.route('/api/ready')
+def ready_check():
+    """Readiness check - includes all dependencies"""
+    return jsonify({"ready": True, "service": "chrono-mcp", "version": VERSION})
+
+@app.route('/api/version')
+def version_check():
+    """Version information"""
+    return jsonify({
+        "version": VERSION,
+        "service": "chrono-mcp",
+        "web_ui": True,
+        "mcp_server": True
+    })
 
 @app.route('/')
 def index():
@@ -44,9 +244,27 @@ def api_games():
     data = load_data()
     return jsonify(list(data.get("games", {}).keys()))
 
+@app.route('/api/categories')
+def api_categories():
+    """Get all available categories across all games"""
+    data = load_data()
+    all_categories = set()
+    
+    for game_data in data.get("games", {}).values():
+        for key, value in game_data.items():
+            if isinstance(value, list):
+                all_categories.add(key)
+    
+    return jsonify(sorted(all_categories))
+
 @app.route('/api/<game>')
 def api_game(game):
     """Get game data"""
+    # Validate input
+    game = validate_game_name(game)
+    if not game:
+        return jsonify({"error": "Invalid game name"})
+    
     data = load_data()
     games = data.get("games", {})
     
@@ -63,9 +281,109 @@ def api_game(game):
     
     return jsonify({"error": "Game not found"})
 
+@app.route('/api/export/<game>')
+def api_export_game_json(game):
+    """Export game data as JSON"""
+    game = validate_game_name(game)
+    if not game:
+        return jsonify({"error": "Invalid game name"})
+    
+    data = load_data()
+    games = data.get("games", {})
+    
+    game_key = game.replace("%20", " ")
+    if game_key in games:
+        return jsonify(games[game_key])
+    
+    for g in games:
+        if game.lower() in g.lower():
+            return jsonify(games[g])
+    
+    return jsonify({"error": "Game not found"})
+
+@app.route('/api/export/<game>/<category>')
+def api_export_category_json(game, category):
+    """Export category as JSON"""
+    game = validate_game_name(game)
+    category = sanitize_input(category, max_length=50)
+    
+    if not game or not category:
+        return jsonify({"error": "Invalid parameters"})
+    
+    data = load_data()
+    games = data.get("games", {})
+    
+    game_key = game.replace("%20", " ")
+    if game_key not in games:
+        for g in games:
+            if game.lower() in g.lower():
+                game_key = g
+                break
+    
+    if game_key in games:
+        cat_data = games[game_key].get(category, [])
+        return jsonify(cat_data)
+    
+    return jsonify({"error": "Category not found"})
+
+@app.route('/api/export/<game>/<category>/csv')
+def api_export_category_csv(game, category):
+    """Export category as CSV"""
+    import csv
+    import io
+    
+    game = validate_game_name(game)
+    category = sanitize_input(category, max_length=50)
+    
+    if not game or not category:
+        return jsonify({"error": "Invalid parameters"})
+    
+    data = load_data()
+    games = data.get("games", {})
+    
+    game_key = game.replace("%20", " ")
+    if game_key not in games:
+        for g in games:
+            if game.lower() in g.lower():
+                game_key = g
+                break
+    
+    if game_key in games:
+        cat_data = games[game_key].get(category, [])
+        
+        if not cat_data or not isinstance(cat_data, list):
+            return jsonify({"error": "No data to export"})
+        
+        # Create CSV
+        output = io.StringIO()
+        if isinstance(cat_data[0], dict):
+            writer = csv.DictWriter(output, fieldnames=cat_data[0].keys())
+            writer.writeheader()
+            writer.writerows(cat_data)
+        else:
+            writer = csv.writer(output)
+            writer.writerow([category])
+            for item in cat_data:
+                writer.writerow([item])
+        
+        return output.getvalue(), 200, {'Content-Type': 'text/csv'}
+    
+    return jsonify({"error": "Category not found"})
+
 @app.route('/api/<game>/<category>')
 def api_category(game, category):
-    """Get specific category (characters, items, etc.)"""
+    """Get specific category (characters, items, etc.) with optional pagination"""
+    # Validate inputs
+    game = validate_game_name(game)
+    category = sanitize_input(category, max_length=50)
+    
+    # Pagination parameters
+    page = max(1, int(request.args.get('page', 1)))
+    per_page = min(100, max(1, int(request.args.get('per_page', 20))))
+    
+    if not game or not category:
+        return jsonify({"error": "Invalid parameters"})
+    
     data = load_data()
     games = data.get("games", {})
     
@@ -79,37 +397,106 @@ def api_category(game, category):
     
     if game_key in games:
         cat_data = games[game_key].get(category, [])
-        return jsonify(cat_data)
+        
+        # Apply pagination
+        total = len(cat_data)
+        start = (page - 1) * per_page
+        end = start + per_page
+        paginated_data = cat_data[start:end]
+        
+        return jsonify({
+            "data": paginated_data,
+            "pagination": {
+                "page": page,
+                "per_page": per_page,
+                "total": total,
+                "pages": (total + per_page - 1) // per_page
+            }
+        })
     
     return jsonify({"error": "Not found"})
 
 @app.route('/api/search')
 def api_search():
-    """Search across all games"""
-    query = request.args.get('q', '').lower()
+    """Search across all games with fuzzy matching"""
+    import difflib
+    
+    query = request.args.get('q', '')
+    game_filter = request.args.get('game', '')
+    category_filter = request.args.get('category', '')
+    fuzzy = request.args.get('fuzzy', 'true').lower() == 'true'
+    threshold = float(request.args.get('threshold', '0.6'))
+    
+    # Sanitize input
+    query = sanitize_input(query, max_length=50).lower()
+    game_filter = sanitize_input(game_filter, max_length=50)
+    category_filter = sanitize_input(category_filter, max_length=50)
+    
+    if not query:
+        return jsonify({"query": "", "matches": [], "error": "Empty query"})
+    
     data = load_data()
-    results = {"query": query, "matches": []}
+    results = {"query": query, "matches": [], "count": 0}
     
     for game_name, game_data in data.get("games", {}).items():
+        # Filter by game if specified
+        if game_filter and game_filter.lower() not in game_name.lower():
+            continue
+            
         for category, items in game_data.items():
+            # Filter by category if specified
+            if category_filter and category_filter.lower() not in category.lower():
+                continue
+                
             if isinstance(items, list):
                 for item in items:
                     if isinstance(item, dict):
                         for key, val in item.items():
-                            if isinstance(val, str) and query in val.lower():
+                            if isinstance(val, str):
+                                val_lower = val.lower()
+                                if fuzzy:
+                                    ratio = difflib.SequenceMatcher(None, query, val_lower).ratio()
+                                    if ratio >= threshold:
+                                        results["matches"].append({
+                                            "game": game_name,
+                                            "category": category,
+                                            "field": key,
+                                            "match": val,
+                                            "score": round(ratio, 2)
+                                        })
+                                elif query in val_lower:
+                                    results["matches"].append({
+                                        "game": game_name,
+                                        "category": category,
+                                        "field": key,
+                                        "match": val,
+                                        "score": 1.0
+                                    })
+                    elif isinstance(item, str):
+                        if fuzzy:
+                            ratio = difflib.SequenceMatcher(None, query, item.lower()).ratio()
+                            if ratio >= threshold:
                                 results["matches"].append({
                                     "game": game_name,
                                     "category": category,
-                                    "data": item
+                                    "match": item,
+                                    "score": round(ratio, 2)
                                 })
-                                break
-                    elif isinstance(item, str) and query in item.lower():
-                        results["matches"].append({
-                            "game": game_name,
-                            "category": category,
-                            "data": item
-                        })
+                        elif query in item.lower():
+                            results["matches"].append({
+                                "game": game_name,
+                                "category": category,
+                                "match": item,
+                                "score": 1.0
+                            })
+        
+        # Limit results to prevent memory issues
+        if len(results["matches"]) >= MAX_SEARCH_RESULTS:
+            results["truncated"] = True
+            results["matches"] = results["matches"][:MAX_SEARCH_RESULTS]
+            break
     
+    results["count"] = len(results["matches"])
     return jsonify(results)
 
 @app.route('/api/images')
@@ -133,6 +520,11 @@ def api_images():
 @app.route('/data/art/<filename>')
 def serve_image(filename):
     """Serve extracted images"""
+    # Validate filename to prevent path traversal
+    filename = sanitize_input(filename, max_length=200)
+    if '..' in filename or '/' in filename or '\\' in filename:
+        return jsonify({"error": "Invalid filename"})
+    
     from flask import send_from_directory
     return send_from_directory(DATA_DIR / "art", filename)
 
@@ -157,6 +549,11 @@ def api_audio():
 @app.route('/data/audio/<filename>')
 def serve_audio(filename):
     """Serve audio files"""
+    # Validate filename to prevent path traversal
+    filename = sanitize_input(filename, max_length=200)
+    if '..' in filename or '/' in filename or '\\' in filename:
+        return jsonify({"error": "Invalid filename"})
+    
     from flask import send_from_directory
     return send_from_directory(DATA_DIR / "audio", filename)
 
@@ -165,48 +562,78 @@ HTML_TEMPLATE = '''
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crono MCP</title>
     <style>
+        :root {
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --accent: #e94560;
+            --text: #eee;
+            --border: #0f3460;
+        }
+        .light-theme {
+            --bg-primary: #f5f5f5;
+            --bg-secondary: #ffffff;
+            --text: #333333;
+            --border: #ddd;
+        }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
-               background: #1a1a2e; color: #eee; padding: 20px; }
-        h1 { color: #e94560; margin-bottom: 20px; }
+               background: var(--bg-primary); color: var(--text); padding: 20px; }
+        h1 { color: var(--accent); margin-bottom: 20px; }
         .search-box { margin-bottom: 30px; }
         .search-box input { width: 100%; padding: 15px; font-size: 18px; 
-                           background: #16213e; border: 2px solid #e94560; 
-                           color: #fff; border-radius: 8px; }
+                           background: var(--bg-secondary); border: 2px solid var(--accent); 
+                           color: var(--text); border-radius: 8px; }
         .games { display: flex; gap: 20px; flex-wrap: wrap; }
-        .game-card { background: #16213e; padding: 20px; border-radius: 12px; 
-                    min-width: 250px; flex: 1; border: 2px solid #0f3460; }
-        .game-card h2 { color: #e94560; margin-bottom: 15px; }
-        .game-card h3 { color: #0f3460; background: #e94560; padding: 5px 10px; 
+        .game-card { background: var(--bg-secondary); padding: 20px; border-radius: 12px; 
+                    min-width: 250px; flex: 1; border: 2px solid var(--border); }
+        .game-card h2 { color: var(--accent); margin-bottom: 15px; }
+        .game-card h3 { color: var(--text); background: var(--accent); padding: 5px 10px; 
                        border-radius: 4px; margin: 10px 0 5px; }
         .game-card ul { list-style: none; }
-        .game-card li { padding: 8px; border-bottom: 1px solid #0f3460; }
-        .game-card li:hover { background: #0f3460; }
-        .category-btn { background: #0f3460; color: #fff; border: none; padding: 10px 20px; 
+        .game-card li { padding: 8px; border-bottom: 1px solid var(--border); }
+        .game-card li:hover { background: var(--border); }
+        .category-btn { background: var(--border); color: var(--text); border: none; padding: 10px 20px; 
                        margin: 5px; border-radius: 6px; cursor: pointer; }
-        .category-btn:hover { background: #e94560; }
+        .category-btn:hover { background: var(--accent); }
         .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
                  background: rgba(0,0,0,0.8); z-index: 100; }
-        .modal-content { background: #16213e; margin: 50px auto; padding: 30px; 
+        .modal-content { background: var(--bg-secondary); margin: 50px auto; padding: 30px; 
                         max-width: 800px; border-radius: 12px; max-height: 80vh; overflow-y: auto; }
         .close { float: right; font-size: 30px; cursor: pointer; }
         table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #0f3460; }
-        th { background: #e94560; }
-        tr:hover { background: #0f3460; }
-        .header { display: flex; justify-content: space-between; align-items: center; }
-        .refresh-btn { background: #e94560; color: #fff; border: none; padding: 10px 20px; 
-                     border-radius: 6px; cursor: pointer; margin-left: 20px; }
-        .refresh-btn:hover { background: #ff6b8a; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid var(--border); }
+        th { background: var(--accent); color: white; }
+        tr:hover { background: var(--border); }
+        .header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        .header-buttons { display: flex; gap: 10px; }
+        .btn { background: var(--accent); color: #fff; border: none; padding: 10px 20px; 
+                     border-radius: 6px; cursor: pointer; }
+        .btn:hover { opacity: 0.9; }
         .status { font-size: 12px; color: #888; }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            .games { flex-direction: column; }
+            .game-card { min-width: 100%; }
+            .header { flex-direction: column; align-items: flex-start; }
+            .header-buttons { width: 100%; }
+            .btn { flex: 1; }
+            .modal-content { margin: 10px; padding: 15px; max-height: 90vh; }
+            table { font-size: 14px; }
+            th, td { padding: 6px; }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>⚔️ Crono MCP</h1>
-        <button class="refresh-btn" onclick="refreshData()">🔄 Refresh Data</button>
+        <h1>Chrono MCP</h1>
+        <div class="header-buttons">
+            <button class="btn" onclick="toggleTheme()">🌓 Theme</button>
+            <button class="btn" onclick="refreshData()">🔄 Refresh</button>
+        </div>
     </div>
     <p class="status" id="status">Data loads automatically from JSON files</p>
     
@@ -283,6 +710,16 @@ HTML_TEMPLATE = '''
             document.getElementById('modal').style.display = 'none';
         }
         
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+            localStorage.setItem('theme', document.body.classList.contains('light-theme') ? 'light' : 'dark');
+        }
+        
+        // Load saved theme
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light-theme');
+        }
+        
         async function refreshData() {
             gameData = {};  // Clear cache
             await fetch('/api/refresh').then(r => r.json());
@@ -334,4 +771,4 @@ HTML_TEMPLATE = '''
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     debug = os.environ.get("FLASK_DEBUG", "false").lower() == "true"
-    app.run(host="0.0.0.0", port=port, debug=debug)
+    app.run(host="0.0.0.0", port=port, debug=debug, threaded=True)

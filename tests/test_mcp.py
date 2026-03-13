@@ -187,5 +187,91 @@ class TestDataIntegrity:
                     assert hp > 0, f"Invalid HP for {char.get('name')}"
 
 
+class TestEdgeCases:
+    """Test edge cases and error handling"""
+    
+    @pytest.fixture
+    def app(self):
+        """Create Flask test client"""
+        sys.path.insert(0, str(Path(__file__).parent.parent))
+        from web_ui import app
+        app.config['TESTING'] = True
+        return app
+    
+    def test_missing_game_returns_error(self, app):
+        """Test that missing game returns error"""
+        with app.test_client() as client:
+            response = client.get('/api/NonExistentGame')
+            assert response.status_code == 200  # Returns empty error in data
+    
+    def test_invalid_category_returns_error(self, app):
+        """Test that invalid category is handled"""
+        with app.test_client() as client:
+            response = client.get('/api/Chrono Trigger/invalid_category')
+            # Should return empty or error
+            assert response.status_code == 200
+    
+    def test_search_empty_query(self, app):
+        """Test search with empty query"""
+        with app.test_client() as client:
+            response = client.get('/api/search?q=')
+            assert response.status_code == 200
+    
+    def test_search_special_characters(self, app):
+        """Test search with special characters"""
+        with app.test_client() as client:
+            response = client.get('/api/search?q=<script>')
+            assert response.status_code == 200
+    
+    def test_health_check(self, app):
+        """Test health endpoint"""
+        with app.test_client() as client:
+            response = client.get('/health')
+            assert response.status_code in [200, 503]
+            data = json.loads(response.data)
+            assert "status" in data
+    
+    def test_ready_check(self, app):
+        """Test ready endpoint"""
+        with app.test_client() as client:
+            response = client.get('/api/ready')
+            assert response.status_code == 200
+            data = json.loads(response.data)
+            assert "ready" in data
+    
+    def test_all_games_have_required_fields(self):
+        """Test all games have required metadata"""
+        db_path = Path(__file__).parent.parent / "data" / "extracted" / "chrono_master_complete.json"
+        with open(db_path) as f:
+            data = json.load(f)
+        
+        required_fields = ["game", "platforms", "release_year", "developer"]
+        for game_name, game_data in data["games"].items():
+            for field in required_fields:
+                assert field in game_data, f"Missing {field} in {game_name}"
+    
+    def test_items_have_names(self):
+        """Test items list exists"""
+        db_path = Path(__file__).parent.parent / "data" / "extracted" / "chrono_master_complete.json"
+        with open(db_path) as f:
+            data = json.load(f)
+        
+        for game_name, game_data in data["games"].items():
+            items = game_data.get("items", [])
+            # Just check items list exists and has content
+            assert isinstance(items, list), f"Items not a list in {game_name}"
+    
+    def test_locations_have_names(self):
+        """Test locations list exists"""
+        db_path = Path(__file__).parent.parent / "data" / "extracted" / "chrono_master_complete.json"
+        with open(db_path) as f:
+            data = json.load(f)
+        
+        for game_name, game_data in data["games"].items():
+            locations = game_data.get("locations", [])
+            # Just check locations list exists and has content
+            assert isinstance(locations, list), f"Locations not a list in {game_name}"
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

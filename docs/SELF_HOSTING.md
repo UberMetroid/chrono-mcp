@@ -48,6 +48,8 @@ docker run -d -p 5000:5000 chrono-mcp
 
 **URL:** http://localhost:8080/mcp
 
+**Note:** The MCP server uses the MCP protocol (streamable-http transport). Clients must use the MCP protocol to communicate with it. Direct HTTP requests without MCP client headers will receive a 406 response. Use an MCP-compatible client like Claude Desktop, Cursor, or other MCP clients.
+
 ### Environment Variables
 
 | Variable | Default | Description |
@@ -55,6 +57,22 @@ docker run -d -p 5000:5000 chrono-mcp
 | `CHRONO_BASE` | `/app` | Base directory |
 | `WEB_PORT` | `5000` | Web UI port |
 | `MCP_PORT` | `8080` | MCP server port |
+| `API_KEY` | (none) | Optional API key for authentication |
+
+### Optional Authentication
+
+To enable API authentication, set the `API_KEY` environment variable:
+
+```bash
+docker run -d -p 5000:5000 -e API_KEY=your-secret-key chrono-mcp
+```
+
+Then access the API with:
+```bash
+curl -H "Authorization: Bearer your-secret-key" http://localhost:5000/api/games
+```
+
+Health check and public endpoints remain accessible without authentication.
 
 ### Docker Compose Example
 
@@ -71,6 +89,53 @@ services:
       - ./data:/app/data:ro
     environment:
       - CHRONO_BASE=/app
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '1.0'
+```
+
+Or use `docker-compose.yml` in the repo for full configuration with healthchecks.
+
+### Rate Limiting (Nginx)
+
+Rate limiting is best handled at the reverse proxy level. Add to nginx.conf:
+
+```nginx
+http {
+    limit_req_zone $binary_remote_addr zone=api_limit:10m rate=10r/s;
+    
+    server {
+        location /api/ {
+            limit_req zone=api_limit burst=20 nodelay;
+        }
+    }
+}
+```
+
+### Timeout Handling
+
+Timeouts should be configured at the reverse proxy level:
+
+```nginx
+location / {
+    proxy_pass http://chrono-mcp:5000;
+    proxy_connect_timeout 30s;
+    proxy_send_timeout 30s;
+    proxy_read_timeout 30s;
+}
+```
+
+### Connection Pooling
+
+For high-traffic deployments, use a reverse proxy with connection pooling (nginx, haproxy, etc.). Flask's built-in server is single-threaded by default - use gunicorn for production:
+
+```bash
+pip install gunicorn
+gunicorn -w 4 -b 0.0.0.0:5000 web_ui:app
+```
 
   # Optional: Reverse proxy with HTTPS
   nginx:

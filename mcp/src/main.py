@@ -932,11 +932,21 @@ def advanced_filter(
 
 
 if __name__ == "__main__":
+    import sys
+    
+    # Add parent directory to path for imports
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+    
     transport = os.environ.get("MCP_TRANSPORT", "stdio")
     
     if transport == "http":
         host = os.environ.get("MCP_HOST", "0.0.0.0")
         port = int(os.environ.get("MCP_PORT", "8080"))
+        
+        # Run MCP with HTTP transport
+        # Note: MCP protocol uses streamable-http which requires
+        # clients to send Accept: text/event-stream header
+        # For simple health checks, use /health endpoint after server starts
         mcp.run(transport="streamable-http", host=host, port=port)
     else:
         mcp.run(transport="stdio")

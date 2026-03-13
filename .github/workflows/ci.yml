@@ -32,9 +32,37 @@ jobs:
         python -c "import json; json.load(open('data/extracted/chrono_master_complete.json'))"
         echo "Data files valid"
 
-  build:
+  security:
     runs-on: ubuntu-latest
     needs: test
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Check Python dependencies for vulnerabilities
+      run: |
+        pip install safety
+        safety check || true
+    
+    - name: Run Bandit security scan
+      run: |
+        pip install bandit
+        bandit -r . -x ./tests,./data,./docs -f json -o bandit-report.json || true
+        bandit -r . -x ./tests,./data,./docs || true
+    
+    - name: Run Semgrep static analysis
+      uses: returntocorp/semgrep-action@v1
+      with:
+        config: auto
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [test, security]
     
     steps:
     - uses: actions/checkout@v4
@@ -50,6 +78,14 @@ jobs:
         tags: chronomcp:latest
         cache-from: type=gha
         cache-to: type=gha,mode=max
+    
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: 'chronomcp:latest'
+        format: 'json'
+        output: 'trivy-report.json'
+        severity: 'CRITICAL,HIGH'
     
     - name: Test container
       run: |
