@@ -125,6 +125,30 @@ def serve_image(filename):
     from flask import send_from_directory
     return send_from_directory(DATA_DIR / "art", filename)
 
+@app.route('/api/audio')
+def api_audio():
+    """List available audio files"""
+    import os
+    audio_dir = DATA_DIR / "audio"
+    if not audio_dir.exists():
+        return jsonify({"audio": []})
+    
+    audio = []
+    for f in os.listdir(audio_dir):
+        if f.endswith(('.wav', '.mp3', '.ogg')):
+            audio.append({
+                "name": f,
+                "path": f"/data/audio/{f}"
+            })
+    
+    return jsonify({"audio": audio[:100]})
+
+@app.route('/data/audio/<filename>')
+def serve_audio(filename):
+    """Serve audio files"""
+    from flask import send_from_directory
+    return send_from_directory(DATA_DIR / "audio", filename)
+
 # Simple HTML template
 HTML_TEMPLATE = '''
 <!DOCTYPE html>
