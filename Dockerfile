@@ -1,10 +1,20 @@
+# Stage 1: Build
+FROM python:3.11-slim as builder
+
+WORKDIR /build
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
+
+# Stage 2: Production
 FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy only installed packages
+COPY --from=builder /install /usr/local
 
+# Copy application
 COPY lib/ ./lib/
 COPY data/ ./data/
 COPY docs/ ./docs/
@@ -14,11 +24,14 @@ COPY web_ui.py ./
 RUN touch /app/lib/__init__.py
 
 ENV CHRONO_BASE=/app
-ENV MCP_TRANSPORT=http
-ENV MCP_PORT=8080
 ENV WEB_PORT=5000
+ENV MCP_PORT=8080
 
-EXPOSE 8080 5000
+# Labels
+LABEL maintainer="Chrono MCP"
+LABEL description="Chrono ROM Tools - MCP server and web UI"
 
-# Default: Run MCP server
-CMD ["python", "-c", "import sys; sys.path.insert(0, '/app'); from lib.chrono import *; sys.path.insert(0, '/app/mcp'); from src import main; main.mcp.run(transport='streamable-http', host='0.0.0.0', port=8080)"]
+EXPOSE 5000 8080
+
+# Run web UI by default
+CMD ["python", "web_ui.py"]
