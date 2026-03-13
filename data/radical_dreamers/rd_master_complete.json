@@ -4,6 +4,8 @@
     "SNES",
     "Satellaview"
   ],
+  "release_year": 1996,
+  "developer": "Square",
   "characters": [
     {
       "id": 0,
@@ -36,28 +38,186 @@
       "mp": 40,
       "str": 6,
       "def": 3
+    },
+    {
+      "id": 4,
+      "name": "Karsh",
+      "hp": 110,
+      "mp": 10,
+      "str": 15,
+      "def": 8
+    },
+    {
+      "id": 5,
+      "name": "Zoah",
+      "hp": 120,
+      "mp": 5,
+      "str": 18,
+      "def": 10
     }
   ],
   "locations": [
     {
-      "id": 0,
-      "name": "The Dream Sanctuary",
+      "name": "Dream Sanctuary",
       "type": "hub"
     },
     {
-      "id": 1,
       "name": "Karsh's Castle",
       "type": "dungeon"
     },
     {
-      "id": 2,
       "name": "Marbule Ruins",
       "type": "dungeon"
     },
     {
-      "id": 3,
       "name": "Island of the Dead",
       "type": "dungeon"
+    },
+    {
+      "name": "Viper Manor (Past)",
+      "type": "dungeon"
     }
-  ]
+  ],
+  "items": [
+    {
+      "id": 0,
+      "name": "Potion",
+      "effect": "HP+30",
+      "price": 10
+    },
+    {
+      "id": 1,
+      "name": "Ether",
+      "effect": "MP+10",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "name": "Antidote",
+      "effect": "Cure poison",
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Gold",
+      "effect": "Currency",
+      "price": 0
+    },
+    {
+      "id": 4,
+      "name": "Key",
+      "effect": "Opens doors",
+      "price": 0
+    }
+  ],
+  "enemies": [
+    {
+      "id": 0,
+      "name": "Bat",
+      "hp": 10,
+      "exp": 1,
+      "type": "enemy"
+    },
+    {
+      "id": 1,
+      "name": "Ghost",
+      "hp": 20,
+      "exp": 3,
+      "type": "enemy"
+    },
+    {
+      "id": 2,
+      "name": "Skeleton",
+      "hp": 30,
+      "exp": 5,
+      "type": "enemy"
+    },
+    {
+      "id": 3,
+      "name": "Zombie",
+      "hp": 40,
+      "exp": 8,
+      "type": "enemy"
+    },
+    {
+      "id": 4,
+      "name": "Darkforce",
+      "hp": 100,
+      "exp": 20,
+      "type": "boss"
+    },
+    {
+      "id": 5,
+      "name": "Karsh",
+      "hp": 500,
+      "exp": 100,
+      "type": "boss"
+    }
+  ],
+  "techs": [
+    {
+      "name": "Attack",
+      "owner": "Serge"
+    },
+    {
+      "name": "Slash",
+      "owner": "Serge"
+    },
+    {
+      "name": "Fire",
+      "owner": "Kid"
+    },
+    {
+      "name": "Ice",
+      "owner": "Kid"
+    },
+    {
+      "name": "Power Strike",
+      "owner": "Gil"
+    },
+    {
+      "name": "Heal",
+      "owner": "Mana"
+    },
+    {
+      "name": "Lightning",
+      "owner": "Mana"
+    },
+    {
+      "name": "Power Smash",
+      "owner": "Karsh"
+    },
+    {
+      "name": "War Cry",
+      "owner": "Zoah"
+    }
+  ],
+  "elements": [
+    {
+      "name": "Fire",
+      "weakness": "Water"
+    },
+    {
+      "name": "Ice",
+      "weakness": "Fire"
+    },
+    {
+      "name": "Lightning",
+      "weakness": "Earth"
+    }
+  ],
+  "shops": [
+    {
+      "name": "Dream Shop",
+      "location": "Dream Sanctuary"
+    }
+  ],
+  "dialog": {
+    "count": 1282,
+    "source": "rd_dialog_complete.json"
+  },
+  "treasure": {
+    "count": 50,
+    "source": "rd_treasure.json"
+  }
 }
