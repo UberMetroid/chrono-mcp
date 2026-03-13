@@ -875,145 +875,192 @@
       ],
       "techs": [
         {
-          "name": "Dark"
+          "name": "Slash",
+          "owner": "Crono"
         },
         {
-          "name": "Saber"
+          "name": "Lightning",
+          "owner": "Crono"
         },
         {
-          "name": "Slasher"
+          "name": "Lightning 2",
+          "owner": "Crono"
         },
         {
-          "name": "Shock"
+          "name": "Lightning 3",
+          "owner": "Crono"
         },
         {
-          "name": "Wave"
+          "name": "Cyclone",
+          "owner": "Crono"
         },
         {
-          "name": "DarkScythe"
+          "name": "Spincut",
+          "owner": "Crono"
         },
         {
-          "name": "Slasher"
+          "name": "Confuse",
+          "owner": "Crono"
         },
         {
-          "name": "Dark"
+          "name": "Heal",
+          "owner": "Marle"
         },
         {
-          "name": "Mail"
+          "name": "Heal 2",
+          "owner": "Marle"
         },
         {
-          "name": "Flash"
+          "name": "Heal 3",
+          "owner": "Marle"
         },
         {
-          "name": "Mail"
+          "name": "Cure",
+          "owner": "Marle"
         },
         {
-          "name": "Lightning"
+          "name": "Arce",
+          "owner": "Marle"
         },
         {
-          "name": "Spincut"
+          "name": "Fire",
+          "owner": "Lucca"
         },
         {
-          "name": "Lightning2"
+          "name": "Fire 2",
+          "owner": "Lucca"
         },
         {
-          "name": "Luminaire"
+          "name": "Fire 3",
+          "owner": "Lucca"
         },
         {
-          "name": "Aura"
+          "name": "Flare",
+          "owner": "Lucca"
         },
         {
-          "name": "Provoke"
+          "name": "Ice",
+          "owner": "Lucca"
         },
         {
-          "name": "Ice"
+          "name": "Ice 2",
+          "owner": "Lucca"
         },
         {
-          "name": "Ice"
+          "name": "Ice 3",
+          "owner": "Lucca"
         },
         {
-          "name": "Life"
+          "name": "Hypnowave",
+          "owner": "Lucca"
         },
         {
-          "name": "Flame"
+          "name": "Gunslinger",
+          "owner": "Lucca"
         },
         {
-          "name": "Toss"
+          "name": "Matador",
+          "owner": "Lucca"
         },
         {
-          "name": "Hypno"
+          "name": "Leap Slash",
+          "owner": "Frog"
         },
         {
-          "name": "Wave"
+          "name": "Blade Beam",
+          "owner": "Frog"
         },
         {
-          "name": "Fire"
+          "name": "Bolt Beam",
+          "owner": "Frog"
         },
         {
-          "name": "Napalm"
+          "name": "Dark Saber",
+          "owner": "Frog"
         },
         {
-          "name": "Heal"
+          "name": "Frog Squash",
+          "owner": "Frog"
         },
         {
-          "name": "Leap"
+          "name": "Flail",
+          "owner": "Frog"
         },
         {
-          "name": "Slash"
+          "name": "Heel",
+          "owner": "Frog"
         },
         {
-          "name": "Ice"
+          "name": "Rocket Punch",
+          "owner": "Robo"
         },
         {
-          "name": "Fire"
+          "name": "Laser",
+          "owner": "Robo"
         },
         {
-          "name": "Dark"
+          "name": "Electro Slash",
+          "owner": "Robo"
         },
         {
-          "name": "Bomb"
+          "name": "Healing",
+          "owner": "Robo"
         },
         {
-          "name": "Dark"
+          "name": "Healing 2",
+          "owner": "Robo"
         },
         {
-          "name": "Mist"
+          "name": "Uzzi Punch",
+          "owner": "Robo"
         },
         {
-          "name": "Black"
+          "name": "Spin Kick",
+          "owner": "Ayla"
         },
         {
-          "name": "Hole"
+          "name": "Kick",
+          "owner": "Ayla"
         },
         {
-          "name": "Strike"
+          "name": "Boulder Toss",
+          "owner": "Ayla"
         },
         {
-          "name": "DarkE"
+          "name": "Drill Kick",
+          "owner": "Ayla"
         },
         {
-          "name": "Darkb"
+          "name": "Hurricane",
+          "owner": "Ayla"
         },
         {
-          "name": "Darkm"
+          "name": "Dark Mist",
+          "owner": "Magus"
         },
         {
-          "name": "Volt"
+          "name": "Dark Bomb",
+          "owner": "Magus"
         },
         {
-          "name": "Strike"
+          "name": "Fire 2",
+          "owner": "Magus"
         },
         {
-          "name": "Volt"
+          "name": "Ice 2",
+          "owner": "Magus"
         },
         {
-          "name": "Dark"
+          "name": "Lightning 2",
+          "owner": "Magus"
         },
         {
-          "name": "Dark"
+          "name": "Ninja",
+          "owner": "Magus"
         },
         {
-          "name": "Dark"
+          "name": "Magic Seal",
+          "owner": "Magus"
         }
       ],
       "combos": [
@@ -2703,6 +2750,2341 @@
           "enemy_id": 56,
           "common_drop": 40,
           "rare_drop": 0
+        }
+      ],
+      "dialog": [
+        {
+          "id": 0,
+          "offset": "0x2d2",
+          "text": "BELTHASAR? ...na? my ?? mal?e?MAGUS AZALA? Absol??y Nt??O pb?Q? H ? spok?? ?? St?g syvi???? ??g??? f"
+        },
+        {
+          "id": 1,
+          "offset": "0x3d0",
+          "text": "K?? c?ty?lmps H?B ? f?w?? ??? 7 AYLA J ?? L?os...BELTHASARWe 3 ???? ? saw will??lp ? climb ?D?? P?k?"
+        },
+        {
+          "id": 2,
+          "offset": "0x400",
+          "text": "K?? c?ty?lmps H?B ? f?w?? ???"
+        },
+        {
+          "id": 3,
+          "offset": "0x24a4",
+          "text": "PUNDERLING? I j?t w?Fo kmp H???r app??i?? ribb?? Sw?l ? c?tye ?f?? Y??? No?AYLASTRANGE CREATURE? Mum"
+        },
+        {
+          "id": 4,
+          "offset": "0x4a5f",
+          "text": "? will ? do?? Wake up?? Sth?pAZALA? Rd ?ar...?Fv??????Sta? ?r?...RED?BOSS? S??h??T?? mak? ? cry? ???"
+        },
+        {
+          "id": 5,
+          "offset": "0x8b50",
+          "text": "NIZBEL? Hold ????? ? a speciM p????O g?t NizHl wa def??d ?? AZALA? Absol??y Nt??O pb?Q? H ? spok?? ?"
+        },
+        {
+          "id": 6,
+          "offset": "0x8c61",
+          "text": "? will ? do?? Shop?? J?t l??AZALA? We...? N f?ye... FUNDERLING? T?? ?ar?? ? bug ???Hb ?? do I ? ? p?"
+        },
+        {
+          "id": 7,
+          "offset": "0xb217",
+          "text": "? will ? do?? Shop?? J?t l?? ?? L?os...?? L?os...?? L?os...?? L?os...J JC?? L?os...?? L?os...?? L?os"
+        },
+        {
+          "id": 8,
+          "offset": "0xb35e",
+          "text": "dK BOSS? My p?s?M d?m??To H K? ? Sew???Gribb?? f?? c?ty?lmps H?B ? f?w?? ???? will ? do?? Shop?? J?t"
+        },
+        {
+          "id": 9,
+          "offset": "0xb3b4",
+          "text": "?? c?ty?lmps H?B ? f?w?? ???"
+        },
+        {
+          "id": 10,
+          "offset": "0xb3d8",
+          "text": "?? c?ty?lmps H?B ? f?w?? ???BOSS? AB ? Ell ?rZlf a fGg??ribb?? GRIBBIT? i JBOSS? AB ? Ell ?rZlf a fG"
+        },
+        {
+          "id": 11,
+          "offset": "0xd344",
+          "text": "A w? will ? do?? Shop?? J?t l??XzGUARD? LnR shb ?em??HEE HEE?w w d"
+        },
+        {
+          "id": 12,
+          "offset": "0xd5d8",
+          "text": "XXXXXXXXmpw"
+        },
+        {
+          "id": 13,
+          "offset": "0xd81c",
+          "text": "AGUARD? LnR shb ?em??HEE HEE?GUARD? LnR shb ?em??HEE HEE?GUARD? LnR shb ?em??HEE HEE?GUARD? LnR shb "
+        },
+        {
+          "id": 14,
+          "offset": "0xe6f6",
+          "text": "1?? Fir?? lnR Z? c?Z up ??LmC Squ??"
+        },
+        {
+          "id": 15,
+          "offset": "0xe779",
+          "text": "0?? Fir?? lnR Z? c?Z up ??LmC Squ??"
+        },
+        {
+          "id": 16,
+          "offset": "0xe7fc",
+          "text": "y?? Fir?? lnR Z? c?Z up ??LmC Squ??"
+        },
+        {
+          "id": 17,
+          "offset": "0xe87f",
+          "text": "z?? Fir?? lnR Z? c?Z up ??LmC Squ??"
+        },
+        {
+          "id": 18,
+          "offset": "0x101f4",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok??i"
+        },
+        {
+          "id": 19,
+          "offset": "0x1067a",
+          "text": "?W?R w? L w?d??uvy ??s? ?? GoodCss??VERY ni? s?Cry?iA cyi?s c?? ? ?grjd ???SU unkNwn pb? kmps ? ZMd?"
+        },
+        {
+          "id": 20,
+          "offset": "0x11149",
+          "text": "JKHb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? who ? op?d ??do???I l?? zs ? ?r ?Bs??Only by"
+        },
+        {
+          "id": 21,
+          "offset": "0x1447f",
+          "text": "BELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram? T ?? F?gn L??C? ? imag??? ? ?side ??L"
+        },
+        {
+          "id": 22,
+          "offset": "0x14588",
+          "text": "BELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram? T ?? F?gn L??C? ? imag??? ? ?side ??L"
+        },
+        {
+          "id": 23,
+          "offset": "0x1466a",
+          "text": "BELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram? T ?? F?gn L??C? ? imag??? ? ?side ??L"
+        },
+        {
+          "id": 24,
+          "offset": "0x14742",
+          "text": "BELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram? T ?? F?gn L??C? ? imag??? ? ?side ??L"
+        },
+        {
+          "id": 25,
+          "offset": "0x1481e",
+          "text": "BELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram? T ?? F?gn L??C? ? imag??? ? ?side ??L"
+        },
+        {
+          "id": 26,
+          "offset": "0x1c90e",
+          "text": "BOSS? S??h??T?? mak? ? cry? ???I?m g?na ?ll Krawli?? ? j?t?said??F?? ???? P z?STRANGE CREATURE? Pl?Z"
+        },
+        {
+          "id": 27,
+          "offset": "0x1ce72",
+          "text": "?? ? a ??ly ??u?????LnR gn ? ? ? shb? OKAY??BOSS? SUgR cs???LnR scram? grribb??"
+        },
+        {
+          "id": 28,
+          "offset": "0x1e6bc",
+          "text": "STRANGE CREATURE? Pl?Z? do Nt?d?tyb my slumHr?CGot a ?t ? g?t ?uff?AYLAFGUARD? LnR shb ?em??HEE HEE?"
+        },
+        {
+          "id": 29,
+          "offset": "0x1f78f",
+          "text": "OdpJ? will ? do?? Shop?? J?t l??S"
+        },
+        {
+          "id": 30,
+          "offset": "0x20c88",
+          "text": "d ?? Fir?? lnR Z? c?Z up ??LmC Squ??No doz? ?f? Nw??"
+        },
+        {
+          "id": 31,
+          "offset": "0x20f9a",
+          "text": "S BELTHASAR? ...na? my ?? mal?e?? will ? do?? Shop?? J?t l?? CRONOUNDERLINGW? wa a bridge ???I SAW ?"
+        },
+        {
+          "id": 32,
+          "offset": "0x21121",
+          "text": "BOSS? My p?s?M d?m??To H K? ? Sew???Gribb?? BOSS? My p?s?M d?m??To H K? ? Sew???Gribb?? A A"
+        },
+        {
+          "id": 33,
+          "offset": "0x21e18",
+          "text": "BOSS? My p?s?M d?m??To H K? ? Sew???Gribb??UNDERLING? B...b? ?R true? ribb?...No doz? ?f? Nw?? G ?? "
+        },
+        {
+          "id": 34,
+          "offset": "0x21ec6",
+          "text": "AYLA i ? will ? do?? Shop?? J?t l?? m"
+        },
+        {
+          "id": 35,
+          "offset": "0x21ecc",
+          "text": "dd CRONO MAGUS AZALA? Absol??y Nt??O pb?Q? H ? spok??FUNDERLING? B...b? ?R true? ribb?... \u2665 CRONOAYL"
+        },
+        {
+          "id": 36,
+          "offset": "0x21ed2",
+          "text": "MAGUS S MAGUS i Q M?? ??? Nsy??H?? takA??M?? ??? Nsy??H?? takA??M?? ??? Nsy??H?? takA??M?? ??? Nsy??"
+        },
+        {
+          "id": 37,
+          "offset": "0x21f8b",
+          "text": "AYLAMAGUSS s iMAGUSFROBO"
+        },
+        {
+          "id": 38,
+          "offset": "0x21f91",
+          "text": "d iMAGUS GGGGROBO MAGUSm"
+        },
+        {
+          "id": 39,
+          "offset": "0x21f97",
+          "text": "? will ? do?? Shop?? J?t l??"
+        },
+        {
+          "id": 40,
+          "offset": "0x22493",
+          "text": "BOSS? My p?s?M d?m??To H K? ? Sew???Gribb?? BOSS? My p?s?M d?m??To H K? ? Sew???Gribb?? No doz? ?f? "
+        },
+        {
+          "id": 41,
+          "offset": "0x22530",
+          "text": "BELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram?SIR KRAWLIE? Ha???????GUARD? Hm?e?e?e?"
+        },
+        {
+          "id": 42,
+          "offset": "0x22580",
+          "text": "O odds will H aga?? ?...?B? ? ? true ?os??O w?ld ? ? ?r ?Bs??Op?? Nw? ? ?? do?? K take?w? ? f?????My"
+        },
+        {
+          "id": 43,
+          "offset": "0x2269b",
+          "text": "O odds will H aga?? ?...?B? ? ? true ?os??O w?ld ? ? ?r ?Bs??Op?? Nw? ? ?? do?? K take?w? ? f?????My"
+        },
+        {
+          "id": 44,
+          "offset": "0x2296a",
+          "text": "? Got 1 ??i f? Got 1 ??i f? Got 1 ??i f? Got 1 ??i f? Got 1 ?? ? Got 1 ??iBELTHASAR? ...na? my ?? ma"
+        },
+        {
+          "id": 45,
+          "offset": "0x22998",
+          "text": "? Got 1 ??i f mBOSS? My p?s?M d?m??To H K? ? Sew???Gribb??"
+        },
+        {
+          "id": 46,
+          "offset": "0x2391d",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok?? AYLABELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? s"
+        },
+        {
+          "id": 47,
+          "offset": "0x23bec",
+          "text": "?? ? a ??ly ??u?????LnR gn ? ? ? shb? OKAY??N? will ? do?? Shop?? J?t l??AYLAROBO"
+        },
+        {
+          "id": 48,
+          "offset": "0x23bef",
+          "text": "?? ???? P z?"
+        },
+        {
+          "id": 49,
+          "offset": "0x23bfe",
+          "text": "?? ? a ??ly ??u?????LnR gn ? ? ? shb? OKAY??? will ? do?? Shop?? J?t l???? Next lnR v?? Guardia?Catl"
+        },
+        {
+          "id": 50,
+          "offset": "0x23c01",
+          "text": "MARLEROBO?? Next lnR v?? Guardia?Catle? ?r hU?"
+        },
+        {
+          "id": 51,
+          "offset": "0x23eef",
+          "text": "AYLA F"
+        },
+        {
+          "id": 52,
+          "offset": "0x23ef8",
+          "text": "Hey??We?? got a c???r? lHey??We?? got a c???r? lHey??We?? got a c???r? lHey??We?? got a c???r? lHey?"
+        },
+        {
+          "id": 53,
+          "offset": "0x24038",
+          "text": "JHb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? who ? op?d ??do???I l?? zs ? ?r ?Bs??Only by "
+        },
+        {
+          "id": 54,
+          "offset": "0x2430f",
+          "text": "GUARD? LnR shb ?em??HEE HEE?"
+        },
+        {
+          "id": 55,
+          "offset": "0x24987",
+          "text": "Sm ya aGuB??w N"
+        },
+        {
+          "id": 56,
+          "offset": "0x2498a",
+          "text": "N ?? St?g syvi???? ??g??? fS? N"
+        },
+        {
+          "id": 57,
+          "offset": "0x25063",
+          "text": "UNDERLING? I j?t w?Fo kmp H???r app??i?? ribb???? F?gn L??C? ? imag??? ? ?side ??L arm? m?t s?ll lik"
+        },
+        {
+          "id": 58,
+          "offset": "0x25066",
+          "text": "AYLAfBOSS? AB ? Ell ?rZlf a fGg??ribb?? GRIBBIT??? F?gn L??C? ? imag??? ? ?side ??L arm? m?t s?ll li"
+        },
+        {
+          "id": 59,
+          "offset": "0x25506",
+          "text": "6p \u2665 \u2665 ?? ? a ??ly ??u?????LnR gn ? ? ? shb? OKAY??"
+        },
+        {
+          "id": 60,
+          "offset": "0x2564d",
+          "text": "G?? St?g syvi???? ??g??? fS?Got a ?t ? g?t ?uff?"
+        },
+        {
+          "id": 61,
+          "offset": "0x263c5",
+          "text": "J CCCCCCCCGot a ?t ? g?t ?uff?CRONO??K my ul?m?e c???...AZALAWe f?ye..."
+        },
+        {
+          "id": 62,
+          "offset": "0x2668d",
+          "text": "? will ? do?? Shop?? J?t l?? ? will ? do?? Shop?? J?t l??UNDERLINGW? wa a bridge ???I SAW ?? rrrrib?"
+        },
+        {
+          "id": 63,
+          "offset": "0x2680e",
+          "text": "UNDERLING? T?? ?ar?? ? bug ???Hb ?? do I ? ? p? up ???r dri?l? ribb??NIZBEL? Hold ????? ? a speciM p"
+        },
+        {
+          "id": 64,
+          "offset": "0x2685d",
+          "text": "BOSS? Gribb?? gribb?? GRIBBIT? AZALA? Absol??y Nt??O pb?Q? H ? spok?? dAZALA? H?r L ??ly voi???T?ll "
+        },
+        {
+          "id": 65,
+          "offset": "0x26b65",
+          "text": "STRANGE CREATURE? E?? na? ? ???mal?e? O p?d?t s?m?rs...?Sm ya aGuB??wwwwwwwwwwwwwwwwwHb I ?? ? ?tyn "
+        },
+        {
+          "id": 66,
+          "offset": "0x27162",
+          "text": "ff?? LnR go? ??i"
+        },
+        {
+          "id": 67,
+          "offset": "0x27165",
+          "text": "9 AYLA"
+        },
+        {
+          "id": 68,
+          "offset": "0x272c7",
+          "text": "A cyi?s c?? ? ?grjd ???SU unkNwn pb? kmps ? ZMd?AZALA? H?r L ??ly voi???T?ll so? HcU ? H? ??fri?ds?A"
+        },
+        {
+          "id": 69,
+          "offset": "0x27316",
+          "text": "CRONOMAGUS"
+        },
+        {
+          "id": 70,
+          "offset": "0x276d5",
+          "text": "gAZALA? H?r L ??ly voi???T?ll so? HcU ? H? ??fri?ds? owCJBELTHASARWe 3 ???? ? saw will??lp ? climb ?"
+        },
+        {
+          "id": 71,
+          "offset": "0x278ad",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok??AZALA? Absol??y Nt??O pb?Q? H ? spok??AZALA? Absol??y Nt??O pb"
+        },
+        {
+          "id": 72,
+          "offset": "0x278bf",
+          "text": "JJJJJJJJJJ UNDERLING? T?? ?ar?? ? bug ???Hb ?? do I ? ? p? up ???r dri?l? ribb??BELTHASARWe 3 ???? ?"
+        },
+        {
+          "id": 73,
+          "offset": "0x27d2e",
+          "text": "iM?? ??? Nsy??H?? takA??Hb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? who ? op?d ??do???I l?"
+        },
+        {
+          "id": 74,
+          "offset": "0x2963c",
+          "text": "KwJJJJJJJ"
+        },
+        {
+          "id": 75,
+          "offset": "0x2964b",
+          "text": "wJJJJJJJ"
+        },
+        {
+          "id": 76,
+          "offset": "0x29661",
+          "text": "Kwdddd"
+        },
+        {
+          "id": 77,
+          "offset": "0x29685",
+          "text": "OZ j?t d??t Zll ?o w?l? ho? ho??w BELTHASAR? ...na? my ?? mal?e?BELTHASAR? ...na? my ?? mal?e?BELTHA"
+        },
+        {
+          "id": 78,
+          "offset": "0x296d1",
+          "text": "gM?? ??? Nsy??H?? takA??BOSS? S??h??T?? mak? ? cry? ???I?m g?na ?ll Krawli?? ? j?t?said??JBOSS? My p"
+        },
+        {
+          "id": 79,
+          "offset": "0x296e6",
+          "text": "1?? L?os..."
+        },
+        {
+          "id": 80,
+          "offset": "0x2983a",
+          "text": "UNDERLING? Ribb?...ribb?? ribb??AZALA? Mwa ? ?? W?h P B???Tyr?o I En f?vy ex?rm??e??oZ fil?y ap?? l"
+        },
+        {
+          "id": 81,
+          "offset": "0x2a4d7",
+          "text": "?? W?l? cU ? folks? lnR do?? ??d?? z?? will ? do?? Shop?? J?t l??Hey??We?? got a c???r? Hb I ?? ? ?t"
+        },
+        {
+          "id": 82,
+          "offset": "0x2a6b9",
+          "text": "?? W?l? cU ? folks? lnR do?? ??d?? z?Hb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? who ? op?"
+        },
+        {
+          "id": 83,
+          "offset": "0x2b7dc",
+          "text": "J AZALA? Absol??y Nt??O pb?Q? H ? spok?? GUARDWe 3 ?m ? Mmo? ??YtAZALAW?gh ? mh H w f???p??h? w?ill "
+        },
+        {
+          "id": 84,
+          "offset": "0x2c138",
+          "text": "\u2665ROBOCM?? ??? Nsy??H?? takA?? BOSS? My p?s?M d?m??To H K? ? Sew???Gribb??i BOSS? My p?s?M d?m??To H "
+        },
+        {
+          "id": 85,
+          "offset": "0x2c8b1",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok??"
+        },
+        {
+          "id": 86,
+          "offset": "0x2cada",
+          "text": "CM??a?s?? ni??fAZALA? Mwa ? ?? W?h P B???Tyr?o I En f?vy ex?rm??e??oZ fil?y ap??BELTHASAR? Hop aboar"
+        },
+        {
+          "id": 87,
+          "offset": "0x2ceaf",
+          "text": "BELTHASAR? ENugh??O ?? ?s cU Y ? ????mpt ?D?? P?k?? IX ? ?ly?l?? ? ? ? ?viv? ?r?fri?d??O ?? pGgram I"
+        },
+        {
+          "id": 88,
+          "offset": "0x2cfcd",
+          "text": "OZ j?t d??t Zll ?o w?l? ho? ho???? ??J"
+        },
+        {
+          "id": 89,
+          "offset": "0x2cfd6",
+          "text": "GBELTHASAR? On ?D?? P?k? ? will?f??? pb? ? ???e life??B? ? ac?v?A? pb?? ??de?ad m?t H imp?t?F??spa??"
+        },
+        {
+          "id": 90,
+          "offset": "0x2d023",
+          "text": "?? W?l? cU ? folks? lnR do?? ??d?? z? ?? F?ye??? ab?t f?ye?JiGUARD? LnR shb ?em??HEE HEE??? ROLL THE"
+        },
+        {
+          "id": 91,
+          "offset": "0x2d14b",
+          "text": "G BELTHASAR? On ?D?? P?k? ? will?f??? pb? ? ???e life??B? ? ac?v?A? pb?? ??de?ad m?t H imp?t?F??spa?"
+        },
+        {
+          "id": 92,
+          "offset": "0x2d44d",
+          "text": "?? ???? P z?BELTHASARWe 3 ???? ? saw will??lp ? climb ?D?? P?k????? ?ds my ?ssage??Nb I m?t ak ? Y a"
+        },
+        {
+          "id": 93,
+          "offset": "0x2d9a5",
+          "text": "FNo doz? ?f? Nw??? will ? do?? Shop?? J?t l??? will ? do?? Shop?? J?t l?? GUARD? LnR shb ?em??HEE HE"
+        },
+        {
+          "id": 94,
+          "offset": "0x2db99",
+          "text": "iBELTHASAR? ...na? my ?? mal?e?Pt"
+        },
+        {
+          "id": 95,
+          "offset": "0x2e7a7",
+          "text": "UNDERLING? Riiiiiiiiib???IX ?t ? ?l? ribb??zC8 ? will ? do?? Shop?? J?t l??Hey??We?? got a c???r? BE"
+        },
+        {
+          "id": 96,
+          "offset": "0x2e94f",
+          "text": "J ?? I?? C? uB??ood why???C w?ld w?Fo run Y 3?hwqt a ??tl... ?? L?os... ?? ?????R ?d? M?dy? ?? ?R w?"
+        },
+        {
+          "id": 97,
+          "offset": "0x2fa94",
+          "text": "? will ? do?? Wake up?? Sth? w A cyi?s c?? ? ?grjd ???SU unkNwn pb? kmps ? ZMd?A cyi?s c?? ? ?grjd ?"
+        },
+        {
+          "id": 98,
+          "offset": "0x2fb5f",
+          "text": "BELTHASAR? ...na? my ?? mal?e?NA cyi?s c?? ? ?grjd ???SU unkNwn pb? kmps ? ZMd?BOSS? Gribb?? gribb??"
+        },
+        {
+          "id": 99,
+          "offset": "0x2fba4",
+          "text": "A cyi?s c?? ? ?grjd ???SU unkNwn pb? kmps ? ZMd?"
+        },
+        {
+          "id": 100,
+          "offset": "0x2fbbe",
+          "text": "A cyi?s c?? ? ?grjd ???SU unkNwn pb? kmps ? ZMd??? ?R w?d???La? ?? fi????Vos? ?? big...BELTHASARWe 3"
+        },
+        {
+          "id": 101,
+          "offset": "0x2fc1a",
+          "text": "UNDERLING? P?sr sw?l? K ??bridge op?s? ribb??STRANGE CREATURE? Mumble? mumble?? Take ?f?? Gn ?f?UNDE"
+        },
+        {
+          "id": 102,
+          "offset": "0x30a81",
+          "text": "SIR KRAWLIE? Ha???????GUARD? Hm?e?e?e?e??SIR KRAWLIE? Har?r?r?r??GUARD? HAHAHAHAHA??SIR KRAWLIE? HEE"
+        },
+        {
+          "id": 103,
+          "offset": "0x30ac3",
+          "text": "BELTHASAR? ...na? my ?? mal?e? BOSS? Fool??Grribb???O?R Nz ??JAYLASIR KRAWLIE? Huh?BOSS? My p?s?M d?"
+        },
+        {
+          "id": 104,
+          "offset": "0x3175f",
+          "text": "UNDERLING? T?? ?ar?? ? bug ???Hb ?? do I ? ? p? up ???r dri?l? ribb??... SIR KRAWLIE? Ha???????GUARD"
+        },
+        {
+          "id": 105,
+          "offset": "0x3179c",
+          "text": "?? c?ty?lmps H?B ? f?w?? ???Hb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? who ? op?d ??do???"
+        },
+        {
+          "id": 106,
+          "offset": "0x3180d",
+          "text": "AYLAI?? c?ty?lmps H?B ? f?w?? ???UNDERLING? I j?t w?Fo kmp H???r app??i?? ribb??"
+        },
+        {
+          "id": 107,
+          "offset": "0x31a49",
+          "text": "BOSS? Fool??Grribb???O?R Nz ??BOSS? Fool??Grribb???O?R Nz ??"
+        },
+        {
+          "id": 108,
+          "offset": "0x31ae9",
+          "text": "BOSS? My p?s?M d?m??To H K? ? Sew???Gribb??E JBOSS? My p?s?M d?m??To H K? ? Sew???Gribb??Hey??We?? g"
+        },
+        {
+          "id": 109,
+          "offset": "0x3203d",
+          "text": "?? GoodCss??VERY ni? s?Cry?FUNDERLINGW? wa a bridge ???I SAW ?? rrrrib??BELTHASAR? ...na? my ?? mal?"
+        },
+        {
+          "id": 110,
+          "offset": "0x32754",
+          "text": "BOSS? My p?s?M d?m??To H K? ? Sew???Gribb??CRONO"
+        },
+        {
+          "id": 111,
+          "offset": "0x3278e",
+          "text": "CRONO?? F?gn L??C? ? imag??? ? ?side ??L arm? m?t s?ll like? No doz? ?f? Nw??CRONO?? F?gn L??C? ? im"
+        },
+        {
+          "id": 112,
+          "offset": "0x32842",
+          "text": "?We W?s ? Ti?... I?Hlie? I ? ?ard ?? devi??AZALA? Absol??y Nt??O pb?Q? H ? spok??GUARD? LnR shb ?em?"
+        },
+        {
+          "id": 113,
+          "offset": "0x32e04",
+          "text": "Sw?l ? c?tye ?f?? Y??? No? ?? ?? GO?STRANGE CREATUREWe pGf?s?R?pGgramm? wa? ? a ZnZ? D?bn eu?gy??So?"
+        },
+        {
+          "id": 114,
+          "offset": "0x32e9b",
+          "text": "STRANGE CREATURE? I will Nw d?i? a??ssage fGm ? pGf?s??AZALA? H?r L ??ly voi???T?ll so? HcU ? H? ??f"
+        },
+        {
+          "id": 115,
+          "offset": "0x32e9f",
+          "text": "GUARD? LnR shb ?em??HEE HEE?O p?d?t s?m?rs...?O p?d?t s?m?rs...?O p?d?t s?m?rs...?O p?d?t s?m?rs...?"
+        },
+        {
+          "id": 116,
+          "offset": "0x32ea2",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok?? BELTHASAR? ...na? my ?? mal?e?"
+        },
+        {
+          "id": 117,
+          "offset": "0x32ea5",
+          "text": "GUARD? LnR shb ?em??HEE HEE?SIR KRAWLIE? Huh?GUARD? LnR shb ?em??HEE HEE?GUARD? LnR shb ?em??HEE HEE"
+        },
+        {
+          "id": 118,
+          "offset": "0x32eea",
+          "text": "BELTHASAR? ...na? my ?? mal?e? BELTHASAR? ...na? my ?? mal?e? STRANGE CREATURE? SE?d ?? didf I??IX ?"
+        },
+        {
+          "id": 119,
+          "offset": "0x32f60",
+          "text": "oSIR KRAWLIE? Cs? ?Gugh ??Zw? lik?y bn ???Oy m?t ? a d?? w?h??W??ll ?al ?m a l?s??oSIR KRAWLIE? Cs? "
+        },
+        {
+          "id": 120,
+          "offset": "0x32f7b",
+          "text": "BOSS? Fool??Grribb???O?R Nz ?? MAGUSBOSS? Fool??Grribb???O?R Nz ?? BOSS? Fool??Grribb???O?R Nz ????K"
+        },
+        {
+          "id": 121,
+          "offset": "0x33001",
+          "text": "CRONO Sw?l ? c?tye ?f?? Y??? No?C?? Bad p????M?h d?g??UNDERLING? I j?t w?Fo kmp H???r app??i?? ribb?"
+        },
+        {
+          "id": 122,
+          "offset": "0x33870",
+          "text": "STRANGE CREATURE? I will Nw d?i? a??ssage fGm ? pGf?s??KINO? ???? ? do?? OZ j?t d??t Zll ?o w?l? ho?"
+        },
+        {
+          "id": 123,
+          "offset": "0x33b13",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok??CCCCCCCCCCCRlSTRANGE CREATURE? Ca?i???O Ti? Ax? ? ?t ? ?d??mBE"
+        },
+        {
+          "id": 124,
+          "offset": "0x34270",
+          "text": "? will ? do?? Wake up?? Sth?MARLEBELTHASARWe 3 ???? ? saw will??lp ? climb ?D?? P?k????? ?ds my ?ssa"
+        },
+        {
+          "id": 125,
+          "offset": "0x34768",
+          "text": "BELTHASAR? Oh? y?h??BeYi go? why d???... ?? F?ward? ??UNDERLING? Ribb?...ribb?? ribb??CRONO"
+        },
+        {
+          "id": 126,
+          "offset": "0x3480c",
+          "text": "u2 BOSS? S??h??T?? mak? ? cry? ???I?m g?na ?ll Krawli?? ? j?t?said?? ?? F?ward? ??LUCCA ?? Bad p????"
+        },
+        {
+          "id": 127,
+          "offset": "0x34e3f",
+          "text": "AZALA? H?r L ??ly voi???T?ll so? HcU ? H? ??fri?ds?? will ? do?? Shop?? J?t l??BELTHASARWe 3 ???? ? "
+        },
+        {
+          "id": 128,
+          "offset": "0x34e6f",
+          "text": "LUCCAqGUARDWe 3 ?m ? Mmo? ?? ? will ? do?? Shop?? J?t l??? will ? do?? Shop?? J?t l??? will ? do?? S"
+        },
+        {
+          "id": 129,
+          "offset": "0x351fe",
+          "text": "? will ? do?? Shop?? J?t l??AYLA BELTHASAR? Nmd a C?C??O magici?? Nol?e? Bekkl? c?ld?w?p g up ? w?k "
+        },
+        {
+          "id": 130,
+          "offset": "0x35390",
+          "text": "?? Wb...P ? amaz?...?Hb do ? ?ll ? f?t fGm ??ba????K my ul?m?e c???...??K my ul?m?e c???..."
+        },
+        {
+          "id": 131,
+          "offset": "0x35393",
+          "text": "AZALA? No...It Ef H...??C?l?? ?jnIruly ? sidd?? ? ap???L??n? prim??? K ln ? H kNwn??We Rep??s f?u br"
+        },
+        {
+          "id": 132,
+          "offset": "0x3554b",
+          "text": "FlBELTHASAR? W?h?? C?C? VeR?N po?t ? go? ? ?D?? P?k???Nb? scram?MAGUSBOSS? Gribb?? gribb?? GRIBBIT??"
+        },
+        {
+          "id": 133,
+          "offset": "0x35825",
+          "text": "?? W?l? cU ? folks? lnR do?? ??d?? z?ABELTHASAR? ...na? my ?? mal?e? ?? GoodCss??VERY ni? s?Cry? JSI"
+        },
+        {
+          "id": 134,
+          "offset": "0x35a53",
+          "text": "CRONOH"
+        },
+        {
+          "id": 135,
+          "offset": "0x35cc8",
+          "text": "uwxH q ?? La...L?os??C?? Next lnR v?? Guardia?Catle? ?r hU? O odds will H aga?? ?...?B? ? ? true ?os"
+        },
+        {
+          "id": 136,
+          "offset": "0x35ed4",
+          "text": "?? F?ye??? ab?t f?ye? ?? Hi ho? ???Sh? up??Gn ???A AYLASIR KRAWLIE? J?t ln ?m cU??Gugh ???Oy?ll H lo"
+        },
+        {
+          "id": 137,
+          "offset": "0x360a2",
+          "text": "?? Wb...P ? amaz?...?Hb do ? ?ll ? f?t fGm ??ba??Hey??We?? got a c???r?0UNDERLING? Hey? Boss???R ?r "
+        },
+        {
+          "id": 138,
+          "offset": "0x362b4",
+          "text": "\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665\u2665h"
+        },
+        {
+          "id": 139,
+          "offset": "0x363fa",
+          "text": "?? W?l? cU ? folks? lnR do?? ??d?? z?UNDERLING? Ribb?...ribb?? ribb??"
+        },
+        {
+          "id": 140,
+          "offset": "0x3662b",
+          "text": "Sm ya aGuB??STRANGE CREATUREWe pGf?s?R?pGgramm? wa? ? a ZnZ? D?bn eu?gy??So?? I? ?o? will H abl? slm"
+        },
+        {
+          "id": 141,
+          "offset": "0x367ba",
+          "text": "wO AZALAWe f?ye..."
+        },
+        {
+          "id": 142,
+          "offset": "0x367ca",
+          "text": "? will ? do?? Shop?? J?t l??AZALA? Absol??y Nt??O pb?Q? H ? spok??BOSS? S??h??T?? mak? ? cry? ???I?m"
+        },
+        {
+          "id": 143,
+          "offset": "0x3686b",
+          "text": "CU aga??GUARD? LnR shb ?em??HEE HEE? A2"
+        },
+        {
+          "id": 144,
+          "offset": "0x368c3",
+          "text": "AZALA? Absol??y Nt??O pb?Q? H ? spok??O LUCCAFROG FDF AYLA?? F?ye??? ab?t f?ye?BOSS? S??h??T?? mak? "
+        },
+        {
+          "id": 145,
+          "offset": "0x369ba",
+          "text": "AZALA? Rd ?ar...?Fv??????Sta? ?r?...RED??? ???? P z?O p?d?t s?m?rs...??? ???? P z?O p?d?t s?m?rs...?"
+        },
+        {
+          "id": 146,
+          "offset": "0x36cba",
+          "text": "STRANGE CREATURE? In?r???s Y ???? mal??? a fol?ws??O Y B??n d?p?yr ?? gauge??UZ ? L ? R B??nqB C?tGl"
+        },
+        {
+          "id": 147,
+          "offset": "0x36cc8",
+          "text": "AAAAAASTRANGE CREATURE? In?r???s Y ???? mal??? a fol?ws??O Y B??n d?p?yr ?? gauge??UZ ? L ? R B??nqB"
+        },
+        {
+          "id": 148,
+          "offset": "0x36dc0",
+          "text": "No????Go aGuB ba? K p?sr sw?l?BELTHASAR? ...na? my ?? mal?e?"
+        },
+        {
+          "id": 149,
+          "offset": "0x381b1",
+          "text": "gGUARD? LnR shb ?em??HEE HEE?CRONOROBO?? c?ty?lmps H?B ? f?w?? ???tCRONOROBO?? c?ty?lmps H?B ? f?w??"
+        },
+        {
+          "id": 150,
+          "offset": "0x382cc",
+          "text": "STRANGE CREATURE? E?? na? ? ???mal?e? STRANGE CREATURE? E?? na? ? ???mal?e? STRANGE CREATURE? E?? na"
+        },
+        {
+          "id": 151,
+          "offset": "0x384fa",
+          "text": "I AYLAGUARD? LnR shb ?em??HEE HEE?c No????Go aGuB ba? K p?sr sw?l?LUCCA No????Go aGuB ba? K p?sr sw?"
+        },
+        {
+          "id": 152,
+          "offset": "0x3858e",
+          "text": "M??a?s?? ni??UMARLE"
+        },
+        {
+          "id": 153,
+          "offset": "0x38680",
+          "text": "No doz? ?f? Nw??No doz? ?f? Nw??Hb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? who ? op?d ??d"
+        },
+        {
+          "id": 154,
+          "offset": "0x386bb",
+          "text": "4 ?? ???? P z? AZALA? No...It Ef H...??C?l?? ?jnIruly ? sidd?? ? ap???L??n? prim??? K ln ? H kNwn??W"
+        },
+        {
+          "id": 155,
+          "offset": "0x38799",
+          "text": "oUNDERLING? Ribb?...ribb?? ribb?? ?? ???? P z?AZALA? Absol??y Nt??O pb?Q? H ? spok???? Fir?? lnR Z? "
+        },
+        {
+          "id": 156,
+          "offset": "0x387fc",
+          "text": "X O odds will H aga?? ?...?B? ? ? true ?os??O w?ld ? ? ?r ?Bs??Op?? Nw? ? ?? do?? K take?w? ? f?????"
+        },
+        {
+          "id": 157,
+          "offset": "0x38a5c",
+          "text": "? F?B 1 ??KINO? ???Hyry???KINO? ???Hyry??? Sw?l ? c?tye ?f?? Y??? No? Sw?l ? c?tye ?f?? Y??? No? Sw?"
+        },
+        {
+          "id": 158,
+          "offset": "0x38af3",
+          "text": "O?R a diary??H?R ? ?? page??IX v o???O f?h?n ?ta? if I make e?e?slS?t N?e??I?d r?? ? my gums scrapd "
+        },
+        {
+          "id": 159,
+          "offset": "0x38c1c",
+          "text": "SIR KRAWLIE? Ha???????GUARD? Hm?e?e?e?e??SIR KRAWLIE? Har?r?r?r??GUARD? HAHAHAHAHA??SIR KRAWLIE? HEE"
+        },
+        {
+          "id": 160,
+          "offset": "0x3920d",
+          "text": "BOSS? S??h??T?? mak? ? cry? ???I?m g?na ?ll Krawli?? ? j?t?said?? BOSS? S??h??T?? mak? ? cry? ???I?m"
+        },
+        {
+          "id": 161,
+          "offset": "0x398b8",
+          "text": "CRONO CRONO CRONO?W? ? ? mrie p????I?? got a bad fml? ab?J?... ?W?...mo?QGugh ???CRONO CRONO?W? ? ? "
+        },
+        {
+          "id": 162,
+          "offset": "0x39bb9",
+          "text": "SIR KRAWLIE? Huh?Sh? up??Gn ???"
+        },
+        {
+          "id": 163,
+          "offset": "0x39e5f",
+          "text": "AZALA? No...It Ef H...??C?l?? ?jnIruly ? sidd?? ? ap???L??n? prim??? K ln ? H kNwn??We Rep??s f?u br"
+        },
+        {
+          "id": 164,
+          "offset": "0x3a232",
+          "text": "SIR KRAWLIE? Huh?"
+        },
+        {
+          "id": 165,
+          "offset": "0x3a24c",
+          "text": "UNDERLING? B...b? ?R true? ribb?...?? St?g syvi???? ??g??? fS??W? ? ? mrie p????I?? got a bad fml? a"
+        },
+        {
+          "id": 166,
+          "offset": "0x3a8a3",
+          "text": "UNDERLING? B...b? ?R true? ribb?..."
+        },
+        {
+          "id": 167,
+          "offset": "0x3aa1c",
+          "text": "AZALA? No...It Ef H...??C?l?? ?jnIruly ? sidd?? ? ap???L??n? prim??? K ln ? H kNwn??We Rep??s f?u br"
+        },
+        {
+          "id": 168,
+          "offset": "0x3b033",
+          "text": "?? ???? P z?AZALA? H?r L ??ly voi???T?ll so? HcU ? H? ??fri?ds? AZALA? No...It Ef H...??C?l?? ?jnIru"
+        },
+        {
+          "id": 169,
+          "offset": "0x3b2ff",
+          "text": "?? ? a ??ly ??u?????LnR gn ? ? ? shb? OKAY??UNDERLING? B...b? ?R true? ribb?...??K my ul?m?e c???..."
+        },
+        {
+          "id": 170,
+          "offset": "0x3ba85",
+          "text": "GUARD? BK?s??M?t ?p?Fo Sir Krawlie? ?? Wb...P ? amaz?...?Hb do ? ?ll ? f?t fGm ??ba??BELTHASAR? ...n"
+        },
+        {
+          "id": 171,
+          "offset": "0x3bc12",
+          "text": "m ?? F?ye??? ab?t f?ye? UNDERLING? B...b? ?R true? ribb?..."
+        },
+        {
+          "id": 172,
+          "offset": "0x3bc21",
+          "text": "GUARD? LnR shb ?em??HEE HEE?g"
+        },
+        {
+          "id": 173,
+          "offset": "0x3be07",
+          "text": "BELTHASAR? ...na? my ?? mal?e???K my ul?m?e c???... ?? ???? P z?AZALA? So...? ? ? ? ?????? ? ?? ?n??"
+        },
+        {
+          "id": 174,
+          "offset": "0x3c150",
+          "text": "UNDERLING? Riiiiiiiiib???IX ?t ? ?l? ribb??"
+        },
+        {
+          "id": 175,
+          "offset": "0x3c685",
+          "text": "?? ?? GO?R \u266aGUARD? ? No doz? ?f? Nw?? ?? Bad p????M?h d?g??UNDERLING? B...b? ?R true? ribb?...No doz"
+        },
+        {
+          "id": 176,
+          "offset": "0x3ca89",
+          "text": "BELTHASAR? ...na? my ?? mal?e??? La...L?os?? Hb I ?? ? ?tyn hU...?B? I ? gGwn frail...?So ?...YOU? w"
+        },
+        {
+          "id": 177,
+          "offset": "0x3ca92",
+          "text": "?? L?os...Impossible??? Okh??Ln ? ul?m??lid?hb Hg?? BELTHASAR? ...na? my ?? mal?e?"
+        },
+        {
+          "id": 178,
+          "offset": "0x3d00b",
+          "text": "?? Fir?? lnR Z? c?Z up ??LmC Squ??GUARD? LnR shb ?em??HEE HEE?"
+        },
+        {
+          "id": 179,
+          "offset": "0x3d13c",
+          "text": "SIR KRAWLIE? J?t ln ?m cU??Gugh ???Oy?ll H loppd li??M??a?s?? ni??GUARD? BK?s??M?t ?p?Fo Sir Krawlie"
+        },
+        {
+          "id": 180,
+          "offset": "0x3d255",
+          "text": "?? St?g syvi???? ??g??? fS? SIR KRAWLIE? Ha???????GUARD? Hm?e?e?e?e??SIR KRAWLIE? Har?r?r?r??GUARD? "
+        },
+        {
+          "id": 181,
+          "offset": "0x3d295",
+          "text": "MARLEBOSS? J?t sh? up K p?h? will ya??GRIBBIT?BOSS? J?t sh? up K p?h? will ya??GRIBBIT?BOSS? J?t sh?"
+        },
+        {
+          "id": 182,
+          "offset": "0x3d699",
+          "text": "T T T T ?? ??LUCCABELTHASAR? Oh? y?h??BeYi go? why d???...OZ j?t d??t Zll ?o w?l? ho? ho?? AZALA? We"
+        },
+        {
+          "id": 183,
+          "offset": "0x3d6a2",
+          "text": "?? ?? pOZ j?t d??t Zll ?o w?l? ho? ho??"
+        },
+        {
+          "id": 184,
+          "offset": "0x3d942",
+          "text": "KINO? ???Hyry??? MARLE ??K my ul?m?e c???...z p UAZALA? We...? N f?ye... ??K my ul?m?e c???..."
+        },
+        {
+          "id": 185,
+          "offset": "0x3d9ea",
+          "text": "MAGUS ?W? m?t H ? ???i??B?tsar spoke ??a"
+        },
+        {
+          "id": 186,
+          "offset": "0x3dd2f",
+          "text": "dKINO? ???? ? do??AYLAUNDERLING? Gn ?? ribb?? AYLABELTHASAR? ...na? my ?? mal?e?BELTHASAR? Hop aboar"
+        },
+        {
+          "id": 187,
+          "offset": "0x3dda1",
+          "text": "NIZBEL? Hold ????? ? a speciM p????O g?t NizHl wa def??d ?? AYLA AYLA?? ??rAYLAl BELTHASAR? ...na? m"
+        },
+        {
+          "id": 188,
+          "offset": "0x3df54",
+          "text": "?? Fir?? lnR Z? c?Z up ??LmC Squ??GUARD? LnR shb ?em??HEE HEE? AZALA? H?r L ??ly voi???T?ll so? HcU "
+        },
+        {
+          "id": 189,
+          "offset": "0x3f04d",
+          "text": "O p?d?t s?m?rs...?"
+        },
+        {
+          "id": 190,
+          "offset": "0x3f8f0",
+          "text": "\u2665MGUARD? LnR shb ?em??HEE HEE?"
+        },
+        {
+          "id": 191,
+          "offset": "0x3fc67",
+          "text": "\u2665 \u2665 \u2665 G"
+        },
+        {
+          "id": 192,
+          "offset": "0x4003b",
+          "text": "Sw?l ? c?tye ?f?? Y??? No? fOZ j?t d??t Zll ?o w?l? ho? ho??fVfVf?? We?? ?tta ???? GoodCss??VERY ni?"
+        },
+        {
+          "id": 193,
+          "offset": "0x40439",
+          "text": "f pSIR KRAWLIE? Cs? ?Gugh ??Zw? lik?y bn ???Oy m?t ? a d?? w?h??W??ll ?al ?m a l?s??"
+        },
+        {
+          "id": 194,
+          "offset": "0x4081a",
+          "text": "BELTHASARWe 3 ???? ? saw will??lp ? climb ?D?? P?k????? ?ds my ?ssage??Nb I m?t ak ? Y a f?????? c?t"
+        },
+        {
+          "id": 195,
+          "offset": "0x40c43",
+          "text": "UNDERLING? P?sr sw?l? K ??bridge op?s? ribb?? UNDERLING? Riiiiiiiiib???IX ?t ? ?l? ribb???? ?????R ?"
+        },
+        {
+          "id": 196,
+          "offset": "0x410c1",
+          "text": "GUARDWe 3 ?m ? Mmo? ??AZALA? We...? N f?ye..."
+        },
+        {
+          "id": 197,
+          "offset": "0x4111a",
+          "text": "?? L?os...Impossible? ?? We?? ?tta ???? AzMa...?...? Nt Ygn...c ?? GoodCss??VERY ni? s?Cry? ?? F?war"
+        },
+        {
+          "id": 198,
+          "offset": "0x41150",
+          "text": "AZALA? So...? ? ? ? ?????? ? ?? ?n??O shbdbn??Todh V??ll H a c?cl?i???Will ? H ? Rep??s? ? ? silly?a"
+        },
+        {
+          "id": 199,
+          "offset": "0x41260",
+          "text": "STRANGE CREATURE? I will Nw d?i? a??ssage fGm ? pGf?s??"
+        }
+      ],
+      "credits": [
+        {
+          "id": 0,
+          "text": "Q)kJjJ{J"
+        },
+        {
+          "id": 1,
+          "text": "^u^t^d"
+        },
+        {
+          "id": 2,
+          "text": "JJJ?2L"
+        },
+        {
+          "id": 3,
+          "text": "0@N0aH"
+        },
+        {
+          "id": 4,
+          "text": "0G0I0J0G@pFpJpI"
+        },
+        {
+          "id": 5,
+          "text": "2<Hr"
+        },
+        {
+          "id": 6,
+          "text": "{ky("
+        },
+        {
+          "id": 7,
+          "text": "Z`lp"
+        },
+        {
+          "id": 8,
+          "text": "BB!F"
+        },
+        {
+          "id": 9,
+          "text": "U!R "
+        },
+        {
+          "id": 10,
+          "text": "RRQQ"
+        },
+        {
+          "id": 11,
+          "text": "@t@s@c"
+        },
+        {
+          "id": 12,
+          "text": "sLxD$*4+T"
+        },
+        {
+          "id": 13,
+          "text": "S[WZWISH"
+        },
+        {
+          "id": 14,
+          "text": "D*;X"
+        },
+        {
+          "id": 15,
+          "text": "v@~jnoog"
+        },
+        {
+          "id": 16,
+          "text": "AS S(R-"
+        },
+        {
+          "id": 17,
+          "text": "4L$\\ XaO"
+        },
+        {
+          "id": 18,
+          "text": "80XP"
+        },
+        {
+          "id": 19,
+          "text": "KTKT"
+        },
+        {
+          "id": 20,
+          "text": "FO^O"
+        },
+        {
+          "id": 21,
+          "text": "D4(H"
+        },
+        {
+          "id": 22,
+          "text": "@q@o"
+        },
+        {
+          "id": 23,
+          "text": "NaN`NqNp"
+        },
+        {
+          "id": 24,
+          "text": "e7f7u"
+        },
+        {
+          "id": 25,
+          "text": "@ABCDEFG"
+        },
+        {
+          "id": 26,
+          "text": "hhJjZzJZ"
+        },
+        {
+          "id": 27,
+          "text": "P@@A"
+        },
+        {
+          "id": 28,
+          "text": "@A?A"
+        },
+        {
+          "id": 29,
+          "text": "OHIJKL"
+        },
+        {
+          "id": 30,
+          "text": "P/T("
+        },
+        {
+          "id": 31,
+          "text": "98mlX1"
+        },
+        {
+          "id": 32,
+          "text": "UPUP"
+        },
+        {
+          "id": 33,
+          "text": "B@kj"
+        },
+        {
+          "id": 34,
+          "text": "?\"Sr"
+        },
+        {
+          "id": 35,
+          "text": "^s^r^b"
+        },
+        {
+          "id": 36,
+          "text": "y hD"
+        },
+        {
+          "id": 37,
+          "text": "F:B>B>"
+        },
+        {
+          "id": 38,
+          "text": "RQRPR@"
+        },
+        {
+          "id": 39,
+          "text": "tzYnz"
+        },
+        {
+          "id": 40,
+          "text": "3'tN"
+        },
+        {
+          "id": 41,
+          "text": "PaTA"
+        },
+        {
+          "id": 42,
+          "text": "J*J;J:J)"
+        },
+        {
+          "id": 43,
+          "text": "@rH^a"
+        },
+        {
+          "id": 44,
+          "text": "M?M%M"
+        },
+        {
+          "id": 45,
+          "text": "5ReRERuR"
+        },
+        {
+          "id": 46,
+          "text": "rEpS!\""
+        },
+        {
+          "id": 47,
+          "text": "L04h"
+        },
+        {
+          "id": 48,
+          "text": "l3'm"
+        },
+        {
+          "id": 49,
+          "text": "H!D/"
+        },
+        {
+          "id": 50,
+          "text": "AHmNH"
+        },
+        {
+          "id": 51,
+          "text": "A&A%A"
+        },
+        {
+          "id": 52,
+          "text": "Tlt,"
+        },
+        {
+          "id": 53,
+          "text": "zdBV`~@"
+        },
+        {
+          "id": 54,
+          "text": "!IB*"
+        },
+        {
+          "id": 55,
+          "text": "\"9Jq"
+        },
+        {
+          "id": 56,
+          "text": "BCDEd"
+        },
+        {
+          "id": 57,
+          "text": ",E,E"
+        },
+        {
+          "id": 58,
+          "text": "S\"]h"
+        },
+        {
+          "id": 59,
+          "text": "%V$V"
+        },
+        {
+          "id": 60,
+          "text": "hx(8"
+        },
+        {
+          "id": 61,
+          "text": "7hYe"
+        },
+        {
+          "id": 62,
+          "text": " (BBw"
+        },
+        {
+          "id": 63,
+          "text": "jijX8;[i"
+        },
+        {
+          "id": 64,
+          "text": "B0C0 G0H0D"
+        },
+        {
+          "id": 65,
+          "text": "r1g`"
+        },
+        {
+          "id": 66,
+          "text": "WAOC"
+        },
+        {
+          "id": 67,
+          "text": "MEBB"
+        },
+        {
+          "id": 68,
+          "text": "i,_y"
+        },
+        {
+          "id": 69,
+          "text": "WZWIWHWY"
+        },
+        {
+          "id": 70,
+          "text": "X{Y{"
+        },
+        {
+          "id": 71,
+          "text": "Ac@r"
+        },
+        {
+          "id": 72,
+          "text": "TcK "
+        },
+        {
+          "id": 73,
+          "text": "z/l3"
+        },
+        {
+          "id": 74,
+          "text": "AqPGV"
+        },
+        {
+          "id": 75,
+          "text": "(7Po"
+        },
+        {
+          "id": 76,
+          "text": "fBwBw"
+        },
+        {
+          "id": 77,
+          "text": "`KEJ3"
+        },
+        {
+          "id": 78,
+          "text": "abab"
+        },
+        {
+          "id": 79,
+          "text": "onml>?vut<="
+        },
+        {
+          "id": 80,
+          "text": "S9S8W'S&"
+        },
+        {
+          "id": 81,
+          "text": "sI>\""
+        },
+        {
+          "id": 82,
+          "text": "RzV1'"
+        },
+        {
+          "id": 83,
+          "text": "JrJaJ`Jq"
+        },
+        {
+          "id": 84,
+          "text": "7ddMm"
+        },
+        {
+          "id": 85,
+          "text": "LC8G"
+        },
+        {
+          "id": 86,
+          "text": "onmlvutL"
+        },
+        {
+          "id": 87,
+          "text": "  gg"
+        },
+        {
+          "id": 88,
+          "text": "`_Ze"
+        },
+        {
+          "id": 89,
+          "text": "Ae>>b"
+        },
+        {
+          "id": 90,
+          "text": "t1$hC "
+        },
+        {
+          "id": 91,
+          "text": "H|Dr "
+        },
+        {
+          "id": 92,
+          "text": "WsWrW1S0"
+        },
+        {
+          "id": 93,
+          "text": "T}T^"
+        },
+        {
+          "id": 94,
+          "text": "HR g"
+        },
+        {
+          "id": 95,
+          "text": "~~Vn"
+        },
+        {
+          "id": 96,
+          "text": "PN`^"
+        },
+        {
+          "id": 97,
+          "text": "X%X$"
+        },
+        {
+          "id": 98,
+          "text": "|crAaAc@"
+        },
+        {
+          "id": 99,
+          "text": "Z1Z0Z3Z"
+        }
+      ],
+      "music": {
+        "ost_1": {
+          "name": "Chrono_Trigger_OST_1",
+          "track_count": 23,
+          "tracks": [
+            {
+              "filename": "01 - A Premonition.mp3",
+              "size_mb": 0.66
+            },
+            {
+              "filename": "02 - Chrono Trigger.mp3",
+              "size_mb": 2.32
+            },
+            {
+              "filename": "03 - Morning Sunlight.mp3",
+              "size_mb": 1.08
+            },
+            {
+              "filename": "04 - Peaceful Days.mp3",
+              "size_mb": 3.22
+            },
+            {
+              "filename": "05 - Memories of Green.mp3",
+              "size_mb": 4.42
+            },
+            {
+              "filename": "06 - Guardia Millenial Fair.mp3",
+              "size_mb": 3.76
+            },
+            {
+              "filename": "07 - Gonzalez's Song.mp3",
+              "size_mb": 0.81
+            },
+            {
+              "filename": "08 - A Strange Happening.mp3",
+              "size_mb": 1.97
+            },
+            {
+              "filename": "09 - Wind Scene.mp3",
+              "size_mb": 3.87
+            },
+            {
+              "filename": "10 - Goodnight.mp3",
+              "size_mb": 0.16
+            },
+            {
+              "filename": "11 - Secret of The Forest.mp3",
+              "size_mb": 5.46
+            },
+            {
+              "filename": "12 - Battle 1.mp3",
+              "size_mb": 2.84
+            },
+            {
+              "filename": "13 - Guardia Castle.mp3",
+              "size_mb": 3.98
+            },
+            {
+              "filename": "14 - Huh.mp3",
+              "size_mb": 0.11
+            },
+            {
+              "filename": "15 - Manoria Cathedral.mp3",
+              "size_mb": 1.41
+            },
+            {
+              "filename": "16 - A Prayer To The Road That Leads.mp3",
+              "size_mb": 0.23
+            },
+            {
+              "filename": "17 - Silent Light.mp3",
+              "size_mb": 2.74
+            },
+            {
+              "filename": "18 - Boss Battle.mp3",
+              "size_mb": 2.26
+            },
+            {
+              "filename": "19 - Frog's Theme.mp3",
+              "size_mb": 2.09
+            },
+            {
+              "filename": "20 - Fanfare 1.mp3",
+              "size_mb": 1.46
+            },
+            {
+              "filename": "21 - The Trial.mp3",
+              "size_mb": 4.28
+            },
+            {
+              "filename": "22 - The Hidden Truth.mp3",
+              "size_mb": 1.13
+            },
+            {
+              "filename": "23 - A Shot of Crisis.mp3",
+              "size_mb": 3.08
+            }
+          ]
+        },
+        "ost_2": {
+          "name": "Chrono_Trigger_OST_2",
+          "track_count": 24,
+          "tracks": [
+            {
+              "filename": "01 - Ruined World.mp3",
+              "size_mb": 3.9
+            },
+            {
+              "filename": "02 - Mystery of The Past.mp3",
+              "size_mb": 0.14
+            },
+            {
+              "filename": "03 - Dome-16's Ruin.mp3",
+              "size_mb": 1.8
+            },
+            {
+              "filename": "04 - People Who Threw Away The Will To Live.mp3",
+              "size_mb": 3.58
+            },
+            {
+              "filename": "05 - Lavos' Theme.mp3",
+              "size_mb": 5.93
+            },
+            {
+              "filename": "06 - The Day The World Revived.mp3",
+              "size_mb": 1.64
+            },
+            {
+              "filename": "07 - Robo Gang Johnny.mp3",
+              "size_mb": 2.7
+            },
+            {
+              "filename": "08 - Bike Chase.mp3",
+              "size_mb": 1.83
+            },
+            {
+              "filename": "09 - Robo's Theme.mp3",
+              "size_mb": 1.78
+            },
+            {
+              "filename": "10 - Remains of Factory.mp3",
+              "size_mb": 3.63
+            },
+            {
+              "filename": "11 - Battle 2.mp3",
+              "size_mb": 2.49
+            },
+            {
+              "filename": "12 - Fanfare 2.mp3",
+              "size_mb": 0.15
+            },
+            {
+              "filename": "13 - The Brink of Time.mp3",
+              "size_mb": 2.9
+            },
+            {
+              "filename": "14 - Delightful Spekkio.mp3",
+              "size_mb": 3.23
+            },
+            {
+              "filename": "15 - Fanfare 3.mp3",
+              "size_mb": 0.12
+            },
+            {
+              "filename": "16 - Underground Sewer.mp3",
+              "size_mb": 2.76
+            },
+            {
+              "filename": "17 - Boss Battle 2.mp3",
+              "size_mb": 3.08
+            },
+            {
+              "filename": "18 - Primitive Mountain.mp3",
+              "size_mb": 3.57
+            },
+            {
+              "filename": "19 - Ayla's Theme.mp3",
+              "size_mb": 1.61
+            },
+            {
+              "filename": "20 - Rhythm of Wind, Sky, And Earth.mp3",
+              "size_mb": 2.13
+            },
+            {
+              "filename": "21 - Burn! Bobonga!.mp3",
+              "size_mb": 2.53
+            },
+            {
+              "filename": "22 - Magus' Castle.mp3",
+              "size_mb": 0.56
+            },
+            {
+              "filename": "23 - Confusing Melody.mp3",
+              "size_mb": 1.91
+            },
+            {
+              "filename": "24 - Battle With Magus.mp3",
+              "size_mb": 4.06
+            }
+          ]
+        },
+        "ost_3": {
+          "name": "Chrono_Trigger_OST_3",
+          "track_count": 0,
+          "tracks": []
+        }
+      },
+      "sfx": [
+        {
+          "file": "ct_sfx_000.wav",
+          "offset": "0x200000"
+        },
+        {
+          "file": "ct_sfx_001.wav",
+          "offset": "0x200100"
+        },
+        {
+          "file": "ct_sfx_002.wav",
+          "offset": "0x200200"
+        },
+        {
+          "file": "ct_sfx_003.wav",
+          "offset": "0x200300"
+        },
+        {
+          "file": "ct_sfx_004.wav",
+          "offset": "0x200600"
+        },
+        {
+          "file": "ct_sfx_005.wav",
+          "offset": "0x200700"
+        },
+        {
+          "file": "ct_sfx_006.wav",
+          "offset": "0x200800"
+        },
+        {
+          "file": "ct_sfx_007.wav",
+          "offset": "0x200900"
+        },
+        {
+          "file": "ct_sfx_008.wav",
+          "offset": "0x200a00"
+        },
+        {
+          "file": "ct_sfx_009.wav",
+          "offset": "0x200b00"
+        },
+        {
+          "file": "ct_sfx_010.wav",
+          "offset": "0x200c00"
+        },
+        {
+          "file": "ct_sfx_011.wav",
+          "offset": "0x200d00"
+        },
+        {
+          "file": "ct_sfx_012.wav",
+          "offset": "0x200e00"
+        },
+        {
+          "file": "ct_sfx_013.wav",
+          "offset": "0x200f00"
+        },
+        {
+          "file": "ct_sfx_014.wav",
+          "offset": "0x201000"
+        },
+        {
+          "file": "ct_sfx_015.wav",
+          "offset": "0x201100"
+        },
+        {
+          "file": "ct_sfx_016.wav",
+          "offset": "0x201200"
+        },
+        {
+          "file": "ct_sfx_017.wav",
+          "offset": "0x201300"
+        },
+        {
+          "file": "ct_sfx_018.wav",
+          "offset": "0x201400"
+        },
+        {
+          "file": "ct_sfx_019.wav",
+          "offset": "0x201500"
+        }
+      ],
+      "animations": [
+        {
+          "offset": "0x240120",
+          "frame_count": 15,
+          "speed": 15,
+          "sample": "0f360f360f360f360f360f360f360f36"
+        },
+        {
+          "offset": "0x240140",
+          "frame_count": 15,
+          "speed": 15,
+          "sample": "0f360f360f360f360f360f360f360f36"
+        },
+        {
+          "offset": "0x2401c0",
+          "frame_count": 10,
+          "speed": 77,
+          "sample": "0a3a4d150945e714a508ff7f7c6b3f57"
+        },
+        {
+          "offset": "0x2402e0",
+          "frame_count": 13,
+          "speed": 76,
+          "sample": "0d014c398b2de714a508ff7f1a3f7967"
+        },
+        {
+          "offset": "0x240460",
+          "frame_count": 4,
+          "speed": 46,
+          "sample": "04252e0d8410e714a508ff7f957e9c53"
+        },
+        {
+          "offset": "0x2408c0",
+          "frame_count": 19,
+          "speed": 245,
+          "sample": "135af57db4486e3910590a291030e714"
+        },
+        {
+          "offset": "0x2408e0",
+          "frame_count": 16,
+          "speed": 75,
+          "sample": "10594b1d1030e7148408ff7f7d4fbf31"
+        },
+        {
+          "offset": "0x240e60",
+          "frame_count": 20,
+          "speed": 223,
+          "sample": "1432df021c015126a81d2f19c9188618"
+        },
+        {
+          "offset": "0x240e80",
+          "frame_count": 6,
+          "speed": 154,
+          "sample": "062d9a251408ce4586088f25d6112a15"
+        },
+        {
+          "offset": "0x240f40",
+          "frame_count": 15,
+          "speed": 15,
+          "sample": "0f360f360f360f3686149f6fda3e1036"
+        },
+        {
+          "offset": "0x241060",
+          "frame_count": 13,
+          "speed": 54,
+          "sample": "0d1536159224c720430c9c6ff7520000"
+        },
+        {
+          "offset": "0x2411e0",
+          "frame_count": 19,
+          "speed": 104,
+          "sample": "13156845ca05e714a508ff7fdf571c27"
+        },
+        {
+          "offset": "0x241360",
+          "frame_count": 8,
+          "speed": 13,
+          "sample": "08290d090815e7148408ff7fdf4ea97e"
+        },
+        {
+          "offset": "0x241460",
+          "frame_count": 14,
+          "speed": 154,
+          "sample": "0e119a0af20c3a0f5111fa245314ce45"
+        },
+        {
+          "offset": "0x2414c0",
+          "frame_count": 15,
+          "speed": 204,
+          "sample": "0f3acc2d2819e70cdf2bbb122d096308"
+        },
+        {
+          "offset": "0x241580",
+          "frame_count": 9,
+          "speed": 154,
+          "sample": "091d9a57924eeb394629e1248318410c"
+        },
+        {
+          "offset": "0x241700",
+          "frame_count": 20,
+          "speed": 193,
+          "sample": "1420c158c4792169bf16ff05b476bb05"
+        },
+        {
+          "offset": "0x242860",
+          "frame_count": 12,
+          "speed": 44,
+          "sample": "0cbb2cbb48bb6cbb90bbb0bbd0bbecbb"
+        },
+        {
+          "offset": "0x243380",
+          "frame_count": 20,
+          "speed": 255,
+          "sample": "1415ff00ca37cb37ff00000067ff0000"
+        },
+        {
+          "offset": "0x2435a0",
+          "frame_count": 14,
+          "speed": 255,
+          "sample": "0e0fff00d6d7d8d7ff00000069ff0000"
+        }
+      ],
+      "maps": [
+        {
+          "offset": "0x100e00",
+          "width": 256,
+          "height": 256,
+          "tile_types": 14
+        },
+        {
+          "offset": "0x105d00",
+          "width": 140,
+          "height": 128,
+          "tile_types": 26
+        },
+        {
+          "offset": "0x10ca00",
+          "width": 255,
+          "height": 255,
+          "tile_types": 10
+        },
+        {
+          "offset": "0x115800",
+          "width": 240,
+          "height": 241,
+          "tile_types": 30
+        },
+        {
+          "offset": "0x115a00",
+          "width": 242,
+          "height": 241,
+          "tile_types": 20
+        },
+        {
+          "offset": "0x115e00",
+          "width": 250,
+          "height": 249,
+          "tile_types": 26
+        },
+        {
+          "offset": "0x12ea00",
+          "width": 246,
+          "height": 226,
+          "tile_types": 30
+        },
+        {
+          "offset": "0x12eb00",
+          "width": 123,
+          "height": 123,
+          "tile_types": 30
+        },
+        {
+          "offset": "0x12ec00",
+          "width": 12,
+          "height": 12,
+          "tile_types": 30
+        },
+        {
+          "offset": "0x12ed00",
+          "width": 38,
+          "height": 102,
+          "tile_types": 30
+        },
+        {
+          "offset": "0x132600",
+          "width": 64,
+          "height": 208,
+          "tile_types": 17
+        },
+        {
+          "offset": "0x133a00",
+          "width": 224,
+          "height": 128,
+          "tile_types": 12
+        },
+        {
+          "offset": "0x134300",
+          "width": 15,
+          "height": 62,
+          "tile_types": 15
+        },
+        {
+          "offset": "0x157e00",
+          "width": 128,
+          "height": 224,
+          "tile_types": 12
+        },
+        {
+          "offset": "0x1c0300",
+          "width": 84,
+          "height": 85,
+          "tile_types": 17
+        },
+        {
+          "offset": "0x1c0500",
+          "width": 121,
+          "height": 122,
+          "tile_types": 14
+        },
+        {
+          "offset": "0x1c2b00",
+          "width": 108,
+          "height": 109,
+          "tile_types": 19
+        },
+        {
+          "offset": "0x1c3000",
+          "width": 241,
+          "height": 242,
+          "tile_types": 12
+        },
+        {
+          "offset": "0x1c3200",
+          "width": 10,
+          "height": 11,
+          "tile_types": 14
+        },
+        {
+          "offset": "0x1c3800",
+          "width": 8,
+          "height": 9,
+          "tile_types": 22
+        }
+      ],
+      "versions": {
+        "snes": {
+          "name": "Super Nintendo",
+          "year": 1995,
+          "languages": [
+            "JP",
+            "US",
+            "EU"
+          ]
+        },
+        "ps1": {
+          "name": "PlayStation",
+          "year": 1999,
+          "languages": [
+            "US",
+            "JP",
+            "EU"
+          ]
+        },
+        "ds": {
+          "name": "Nintendo DS",
+          "year": 2008,
+          "languages": [
+            "JP",
+            "US",
+            "EU",
+            "FR"
+          ]
+        },
+        "msu1": {
+          "name": "MSU-1 Patch (Orchestral)",
+          "year": 2018,
+          "languages": [
+            "US"
+          ]
+        }
+      },
+      "boss_locations": [
+        {
+          "name": "Dragon",
+          "location": "Laruba Ranch"
+        },
+        {
+          "name": "Mud Imp",
+          "location": "Denadoro Mountains"
+        },
+        {
+          "name": "Yeti",
+          "location": "Ice Peak"
+        },
+        {
+          "name": "Golem",
+          "location": "Frog's Theme"
+        },
+        {
+          "name": "Nizbel",
+          "location": "Denadoro Mountains"
+        },
+        {
+          "name": "Nizbel II",
+          "location": "Denadoro Mountains"
+        },
+        {
+          "name": "Magus",
+          "location": "Magus's Castle"
+        },
+        {
+          "name": "Lavos Spawn",
+          "location": "Ocean Palace"
+        },
+        {
+          "name": "Lavos",
+          "location": "Chrono Trigger"
+        }
+      ],
+      "game_flags": [
+        {
+          "offset": "0x1c3c40",
+          "flag_count": 52,
+          "sample": "000000000000000000e0f0e000f0f0f000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1c3c80",
+          "flag_count": 58,
+          "sample": "00000000000000000000000000000000000000000000000000e0f0e000f0f0f0"
+        },
+        {
+          "offset": "0x1cdf80",
+          "flag_count": 58,
+          "sample": "0000000000000000000000000000000000e0f0e000f0f0f00000000000000000"
+        },
+        {
+          "offset": "0x1cdfc0",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce000",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce040",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce080",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce0c0",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce100",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce140",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce180",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce1c0",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce200",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce240",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce280",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce2c0",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce300",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce340",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce380",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x1ce3c0",
+          "flag_count": 64,
+          "sample": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "save_structure": [
+        {
+          "offset": "0x1e0000",
+          "char1_hp": 758,
+          "char2_hp": 756,
+          "sample": "f6020000f402f5020000000023034f000503000003030403000000005e005f00"
+        },
+        {
+          "offset": "0x1e6000",
+          "char1_hp": 115,
+          "char2_hp": 126,
+          "sample": "730000007e007200820083007600810007dcf7dc05ecf5ec000000007000ca40"
+        },
+        {
+          "offset": "0x1e8000",
+          "char1_hp": 40,
+          "char2_hp": 14,
+          "sample": "28000e000e000e0028000e00270028000e000e000e000e00b8def1cbb5f5e2cb"
+        },
+        {
+          "offset": "0x1fa000",
+          "char1_hp": 7312,
+          "char2_hp": 7617,
+          "sample": "901c8437c11d13001d57d8808ff17cbd00cf6ff37bcc2ee3ec60f308377f10e0"
+        }
+      ],
+      "minimaps": [
+        {
+          "offset": "0x180600",
+          "width": 46,
+          "height": 62,
+          "tiles": 32
+        },
+        {
+          "offset": "0x180b00",
+          "width": 43,
+          "height": 60,
+          "tiles": 38
+        },
+        {
+          "offset": "0x181100",
+          "width": 7,
+          "height": 32,
+          "tiles": 33
+        },
+        {
+          "offset": "0x182600",
+          "width": 53,
+          "height": 12,
+          "tiles": 38
+        },
+        {
+          "offset": "0x182d00",
+          "width": 30,
+          "height": 9,
+          "tiles": 44
+        },
+        {
+          "offset": "0x183700",
+          "width": 21,
+          "height": 59,
+          "tiles": 38
+        },
+        {
+          "offset": "0x183900",
+          "width": 16,
+          "height": 64,
+          "tiles": 35
+        },
+        {
+          "offset": "0x183b00",
+          "width": 7,
+          "height": 41,
+          "tiles": 30
+        },
+        {
+          "offset": "0x184d00",
+          "width": 50,
+          "height": 15,
+          "tiles": 38
+        },
+        {
+          "offset": "0x184f00",
+          "width": 16,
+          "height": 7,
+          "tiles": 25
+        },
+        {
+          "offset": "0x185000",
+          "width": 6,
+          "height": 6,
+          "tiles": 37
+        },
+        {
+          "offset": "0x185100",
+          "width": 7,
+          "height": 56,
+          "tiles": 36
+        },
+        {
+          "offset": "0x185300",
+          "width": 6,
+          "height": 5,
+          "tiles": 34
+        },
+        {
+          "offset": "0x185400",
+          "width": 52,
+          "height": 32,
+          "tiles": 31
+        },
+        {
+          "offset": "0x185c00",
+          "width": 6,
+          "height": 42,
+          "tiles": 42
+        }
+      ],
+      "worldmap": [
+        {
+          "offset": "0x115800",
+          "width": 240,
+          "height": 241,
+          "tile_refs": 30
+        },
+        {
+          "offset": "0x115e00",
+          "width": 250,
+          "height": 249,
+          "tile_refs": 25
+        },
+        {
+          "offset": "0x12d200",
+          "width": 258,
+          "height": 258,
+          "tile_refs": 24
+        },
+        {
+          "offset": "0x12ea00",
+          "width": 246,
+          "height": 226,
+          "tile_refs": 30
+        }
+      ],
+      "cutscenes": [
+        {
+          "offset": "0x100200",
+          "command_count": 40,
+          "sample": "0000000000000000030304070b0c0b0c0000000000000000c0c0e0e070f070f0"
+        },
+        {
+          "offset": "0x100300",
+          "command_count": 46,
+          "sample": "fcfcfcfcd8f898f8f0f0c0c00000000000000000000000000101000103020b0c"
+        },
+        {
+          "offset": "0x100500",
+          "command_count": 47,
+          "sample": "000000000000000080000000000000003f003e001b030c000200000000000000"
+        },
+        {
+          "offset": "0x100600",
+          "command_count": 53,
+          "sample": "7f017f013f0000003f3f3f3f3f3f000000000000000000000000000100020004"
+        },
+        {
+          "offset": "0x100700",
+          "command_count": 34,
+          "sample": "030332025800840004002401010303074e0e3303110110002000448483c3c1e1"
+        },
+        {
+          "offset": "0x100900",
+          "command_count": 32,
+          "sample": "1f1e0f0e6fec1f7d031f000300000000f0f0e1e1c6c7383ec0f800c000000000"
+        },
+        {
+          "offset": "0x100b00",
+          "command_count": 34,
+          "sample": "00000000080ecd3300000000000008081c143e221c223d020000000000000000"
+        },
+        {
+          "offset": "0x100c00",
+          "command_count": 34,
+          "sample": "3f40bfc07f807f800000010102030203050605060b0c0b0cbfc07f80ff00ff00"
+        },
+        {
+          "offset": "0x100e00",
+          "command_count": 43,
+          "sample": "0001000101000100000000800080808000000000000000000000000000000000"
+        },
+        {
+          "offset": "0x100f00",
+          "command_count": 53,
+          "sample": "000004001a16fe01000000000000000000000000000028380000000000008080"
+        },
+        {
+          "offset": "0x101000",
+          "command_count": 53,
+          "sample": "0000000003020601000000000000000000000c127c9cc43a0000000000000000"
+        },
+        {
+          "offset": "0x101200",
+          "command_count": 37,
+          "sample": "50702858265f710f141c283870700003008000004ace02030c0e020201010000"
+        },
+        {
+          "offset": "0x101300",
+          "command_count": 42,
+          "sample": "02030303000000005a67a5dd58b860e080800000000000003bf55fde81810000"
+        },
+        {
+          "offset": "0x101400",
+          "command_count": 42,
+          "sample": "0080000000000000020300000000000000000002060600000000808040406060"
+        },
+        {
+          "offset": "0x101500",
+          "command_count": 34,
+          "sample": "203029311e17263b0000101020206161a1e1e0a0dc3cd03020206060a0e040c0"
         }
       ]
     },
