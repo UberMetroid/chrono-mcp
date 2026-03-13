@@ -29,3 +29,15 @@ data/art/
 data/audio/
 data/full/
 data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
