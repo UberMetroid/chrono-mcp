@@ -7,83 +7,57 @@
   "characters": [
     {
       "id": 0,
-      "name": "Karsh",
+      "name": "Serge",
       "hp": 100,
-      "mp": 20
+      "mp": 20,
+      "str": 10,
+      "def": 5
     },
     {
       "id": 1,
-      "name": "Marika",
-      "hp": 90,
-      "mp": 30
+      "name": "Kid",
+      "hp": 80,
+      "mp": 30,
+      "str": 8,
+      "def": 4
     },
     {
       "id": 2,
-      "name": "Miranda",
-      "hp": 85,
-      "mp": 35
+      "name": "Gil",
+      "hp": 90,
+      "mp": 15,
+      "str": 12,
+      "def": 6
     },
     {
       "id": 3,
-      "name": "Jaken",
-      "hp": 110,
-      "mp": 10
+      "name": "Mana",
+      "hp": 70,
+      "mp": 40,
+      "str": 6,
+      "def": 3
     }
   ],
   "locations": [
     {
       "id": 0,
-      "name": "Thorn",
-      "type": "town"
+      "name": "The Dream Sanctuary",
+      "type": "hub"
     },
     {
       "id": 1,
-      "name": "Laruba",
-      "type": "village"
+      "name": "Karsh's Castle",
+      "type": "dungeon"
     },
     {
       "id": 2,
-      "name": "Mine",
+      "name": "Marbule Ruins",
       "type": "dungeon"
     },
     {
       "id": 3,
-      "name": "Fort",
+      "name": "Island of the Dead",
       "type": "dungeon"
-    }
-  ],
-  "items": [
-    {
-      "id": 0,
-      "name": "Potion",
-      "type": "item"
-    },
-    {
-      "id": 1,
-      "name": "Ether",
-      "type": "item"
-    },
-    {
-      "id": 2,
-      "name": "Antidote",
-      "type": "item"
-    }
-  ],
-  "enemies": [
-    {
-      "id": 0,
-      "name": "Bat",
-      "hp": 10
-    },
-    {
-      "id": 1,
-      "name": "Rat",
-      "hp": 20
-    },
-    {
-      "id": 2,
-      "name": "Soldier",
-      "hp": 50
     }
   ]
 }

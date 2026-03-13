@@ -11,7 +11,7 @@
       "mp": 30,
       "str": 18,
       "def": 10,
-      "weapon": "sword"
+      "element": "non-elemental"
     },
     {
       "id": 1,
@@ -20,7 +20,7 @@
       "mp": 45,
       "str": 12,
       "def": 8,
-      "weapon": "dagger"
+      "element": "shadow"
     },
     {
       "id": 2,
@@ -29,7 +29,7 @@
       "mp": 50,
       "str": 14,
       "def": 9,
-      "weapon": "staff"
+      "element": "white"
     },
     {
       "id": 3,
@@ -38,70 +38,70 @@
       "mp": 35,
       "str": 16,
       "def": 12,
-      "weapon": "sword"
+      "element": "dark"
     },
     {
       "id": 4,
-      "name": "Riddel",
-      "hp": 155,
-      "mp": 40,
-      "str": 15,
-      "def": 8,
-      "weapon": "bow"
-    },
-    {
-      "id": 5,
-      "name": "Machina",
+      "name": "Lynx",
       "hp": 200,
       "mp": 20,
       "str": 22,
       "def": 15,
-      "weapon": "fist"
+      "element": "shadow"
     },
     {
-      "id": 6,
-      "name": "Karsh",
+      "id": 5,
+      "name": "Viper",
       "hp": 190,
-      "mp": 25,
-      "str": 20,
-      "def": 14,
-      "weapon": "sword"
-    },
-    {
-      "id": 7,
-      "name": "Zoah",
-      "hp": 210,
       "mp": 15,
       "str": 25,
       "def": 12,
-      "weapon": "fist"
+      "element": "earth"
+    },
+    {
+      "id": 6,
+      "name": "Frog",
+      "hp": 160,
+      "mp": 40,
+      "str": 18,
+      "def": 10,
+      "element": "water"
+    },
+    {
+      "id": 7,
+      "name": "Radius",
+      "hp": 200,
+      "mp": 25,
+      "str": 20,
+      "def": 18,
+      "element": "non-elemental"
     },
     {
       "id": 8,
-      "name": "Marcy",
+      "name": "Marcie",
       "hp": 140,
       "mp": 55,
       "str": 10,
-      "def": 6,
-      "weapon": "staff"
+      "def": 7,
+      "element": "wind"
     },
     {
       "id": 9,
-      "name": "Orl",
-      "hp": 175,
-      "mp": 30,
-      "str": 17,
+      "name": "Doc",
+      "hp": 150,
+      "mp": 50,
+      "str": 14,
       "def": 10,
-      "weapon": "sword"
+      "element": "lightning"
     },
     {
       "id": 10,
-      "name": "Miki",
-      "hp": 160,
-      "mp": 35,
-      "str": 14,
-      "def": 9,
-      "weapon": "fist"
+      "name": "Harle (Astral)",
+      "hp": 180,
+      "mp": 40,
+      "str": 18,
+      "def": 14,
+      "element": "dark"
     }
   ],
   "elements": [
@@ -112,18 +112,18 @@
     },
     {
       "id": 1,
+      "name": "Ice",
+      "color": "cyan"
+    },
+    {
+      "id": 2,
       "name": "Water",
       "color": "blue"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Lightning",
       "color": "yellow"
-    },
-    {
-      "id": 3,
-      "name": "Ice",
-      "color": "cyan"
     },
     {
       "id": 4,
@@ -137,129 +137,75 @@
     },
     {
       "id": 6,
-      "name": "Holy",
-      "color": "white"
+      "name": "Dark",
+      "color": "purple"
     },
     {
       "id": 7,
-      "name": "Dark",
-      "color": "purple"
+      "name": "Holy",
+      "color": "white"
     }
   ],
   "locations": [
     {
       "id": 0,
       "name": "Home",
-      "world": "Home"
+      "type": "town",
+      "region": "Home"
     },
     {
       "id": 1,
-      "name": "Dead Sea",
-      "world": "Home"
+      "name": "Arni Village",
+      "type": "town",
+      "region": "Coast"
     },
     {
       "id": 2,
-      "name": "Waterway",
-      "world": "Home"
+      "name": "Lucca's Theater",
+      "type": "building",
+      "region": "Coast"
     },
     {
       "id": 3,
-      "name": "Fort Dragonia",
-      "world": "Home"
+      "name": "Marbule",
+      "type": "town",
+      "region": "West"
     },
     {
       "id": 4,
       "name": "Guldove",
-      "world": "Home"
+      "type": "town",
+      "region": "Islands"
     },
     {
       "id": 5,
-      "name": "Terminus",
-      "world": "Home"
+      "name": "Termina",
+      "type": "town",
+      "region": "Central"
     },
     {
       "id": 6,
-      "name": "Sea of Eden",
-      "world": "Home"
+      "name": "Viper Manor",
+      "type": "dungeon",
+      "region": "West"
     },
     {
       "id": 7,
-      "name": "Another World",
-      "world": "Another"
+      "name": "Dead Sea",
+      "type": "dungeon",
+      "region": "Islands"
     },
     {
       "id": 8,
-      "name": "Shadow",
-      "world": "Another"
+      "name": "Fort Dragonia",
+      "type": "dungeon",
+      "region": "Islands"
     },
     {
       "id": 9,
-      "name": "Rain",
-      "world": "Another"
-    }
-  ],
-  "items": [
-    {
-      "id": 0,
-      "name": "Epee",
-      "type": "weapon"
-    },
-    {
-      "id": 1,
-      "name": "Dagger",
-      "type": "weapon"
-    },
-    {
-      "id": 2,
-      "name": "Staff",
-      "type": "weapon"
-    },
-    {
-      "id": 3,
-      "name": "Bow",
-      "type": "weapon"
-    },
-    {
-      "id": 4,
-      "name": "Fist",
-      "type": "weapon"
-    },
-    {
-      "id": 5,
-      "name": "Axe",
-      "type": "weapon"
-    }
-  ],
-  "enemies": [
-    {
-      "id": 0,
-      "name": "Goblin",
-      "hp": 30,
-      "exp": 5
-    },
-    {
-      "id": 1,
-      "name": "Bat",
-      "hp": 15,
-      "exp": 2
-    },
-    {
-      "id": 2,
-      "name": "Skeleton",
-      "hp": 40,
-      "exp": 8
-    },
-    {
-      "id": 3,
-      "name": "Ghost",
-      "hp": 35,
-      "exp": 6
-    },
-    {
-      "id": 4,
-      "name": "Slime",
-      "hp": 25,
-      "exp": 3
+      "name": "Temporal Vortex",
+      "type": "dungeon",
+      "region": "Other"
     }
   ]
 }

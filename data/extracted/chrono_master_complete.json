@@ -74,272 +74,318 @@
       ],
       "weapons": [
         {
-          "offset": "0x7daaa",
-          "text": "cLaw"
+          "name": "cLaw"
         },
         {
-          "offset": "0xc0b8b",
-          "text": "Lode Sword"
+          "name": "Lode Sword"
         },
         {
-          "offset": "0xc0b96",
-          "text": "Red Katana"
+          "name": "Red Katana"
         },
         {
-          "offset": "0xc0bb7",
-          "text": "Aeon Blade"
+          "name": "Aeon Blade"
         },
         {
-          "offset": "0xc0bcd",
-          "text": "AlloyBlade"
+          "name": "AlloyBlade"
         },
         {
-          "offset": "0xc0bd8",
-          "text": "Star Sword"
+          "name": "Star Sword"
         },
         {
-          "offset": "0xc0be3",
-          "text": "VedicBlade"
+          "name": "VedicBlade"
         },
         {
-          "offset": "0xc0bee",
-          "text": "Kali Blade"
+          "name": "Kali Blade"
         },
         {
-          "offset": "0xc0c04",
-          "text": "Bolt Sword"
+          "name": "Bolt Sword"
         },
         {
-          "offset": "0xc0c1a",
-          "text": "Bronze Bow"
+          "name": "Bronze Bow"
         },
         {
-          "offset": "0xc0c30",
-          "text": "Lode Bow  "
+          "name": "Lode Bow"
         },
         {
-          "offset": "0xc0c3b",
-          "text": "Robin Bow "
+          "name": "Robin Bow"
         },
         {
-          "offset": "0xc0c46",
-          "text": "Sage Bow  "
+          "name": "Sage Bow"
         },
         {
-          "offset": "0xc0c51",
-          "text": "Dream Bow "
+          "name": "Dream Bow"
         },
         {
-          "offset": "0xc0cb4",
-          "text": "Air Gun   "
+          "name": "Air Gun"
         },
         {
-          "offset": "0xc0cbf",
-          "text": "Dart Gun  "
+          "name": "Dart Gun"
         },
         {
-          "offset": "0xc0cca",
-          "text": "Auto Gun  "
+          "name": "Auto Gun"
         },
         {
-          "offset": "0xc0ce0",
-          "text": "Plasma Gun"
+          "name": "Plasma Gun"
         },
         {
-          "offset": "0xc0ceb",
-          "text": "Ruby Gun  "
+          "name": "Ruby Gun"
         },
         {
-          "offset": "0xc0cf6",
-          "text": "Dream Gun "
+          "name": "Dream Gun"
         }
       ],
       "armor": [
         {
-          "offset": "0xc0f69",
-          "text": "MaidenSuit"
+          "name": "MaidenSuit"
         },
         {
-          "offset": "0xc0f7f",
-          "text": "Titan Vest"
+          "name": "Titan Vest"
         },
         {
-          "offset": "0xc0f95",
-          "text": "Ruby Vest "
+          "name": "Ruby Vest"
         },
         {
-          "offset": "0xc0fab",
-          "text": "Mist Robe "
+          "name": "Mist Robe"
         },
         {
-          "offset": "0xc0fc1",
-          "text": "Lumin Robe"
+          "name": "Lumin Robe"
         },
         {
-          "offset": "0xc0fd7",
-          "text": "Lode Vest "
+          "name": "Lode Vest"
         },
         {
-          "offset": "0xc0fe2",
-          "text": "Aeon Suit "
+          "name": "Aeon Suit"
         },
         {
-          "offset": "0xc0ff8",
-          "text": "Nova Armor"
+          "name": "Nova Armor"
         },
         {
-          "offset": "0xc100e",
-          "text": "Moon Armor"
+          "name": "Moon Armor"
         },
         {
-          "offset": "0xc1019",
-          "text": "Ruby Armor"
+          "name": "Ruby Armor"
         },
         {
-          "offset": "0xc1024",
-          "text": "RavenArmor"
+          "name": "RavenArmor"
         },
         {
-          "offset": "0xc1066",
-          "text": "White Vest"
+          "name": "White Vest"
         },
         {
-          "offset": "0xc1071",
-          "text": "Black Vest"
+          "name": "Black Vest"
         },
         {
-          "offset": "0xc107c",
-          "text": "Blue Vest "
+          "name": "Blue Vest"
         },
         {
-          "offset": "0xc1087",
-          "text": "Red Vest  "
+          "name": "Red Vest"
         }
       ],
       "items": [
         {
           "id": 0,
-          "name": "Masamune"
+          "name": "Masamune",
+          "type": "weapon",
+          "price": 0,
+          "power": 0
         },
         {
           "id": 1,
           "name": "Falcach",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 100,
+          "power": 10
         },
         {
           "id": 2,
           "name": "Sonic Arrow",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 150,
+          "power": 15
         },
         {
           "id": 3,
           "name": "Bolt Sword",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 250,
+          "power": 20
         },
         {
           "id": 4,
           "name": "Gold Thunder",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 400,
+          "power": 30
         },
         {
           "id": 5,
           "name": "Silver Point",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 600,
+          "power": 40
         },
         {
           "id": 6,
           "name": "Ruin Blade",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 900,
+          "power": 55
         },
         {
           "id": 7,
           "name": "Dark Scythe",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 1200,
+          "power": 70
         },
         {
           "id": 8,
           "name": "Slasher",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 1500,
+          "power": 85
         },
         {
           "id": 9,
           "name": "Fabulous",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 2000,
+          "power": 100
         },
         {
           "id": 10,
           "name": "Giga Arm",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 2500,
+          "power": 120
         },
         {
           "id": 11,
           "name": "Star Sword",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 3000,
+          "power": 150
         },
         {
           "id": 12,
           "name": "Masa",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 0,
+          "power": 0
         },
         {
           "id": 13,
           "name": "Mune",
-          "type": "weapon"
+          "type": "weapon",
+          "price": 0,
+          "power": 0
         },
         {
           "id": 20,
           "name": "Mystic",
-          "type": "armor"
+          "type": "armor",
+          "price": 100,
+          "defense": 10
         },
         {
           "id": 21,
           "name": "Luminous",
-          "type": "armor"
+          "type": "armor",
+          "price": 200,
+          "defense": 20
         },
         {
           "id": 22,
           "name": "Aegis",
-          "type": "armor"
+          "type": "armor",
+          "price": 350,
+          "defense": 35
         },
         {
           "id": 23,
           "name": "Gloom",
-          "type": "armor"
+          "type": "armor",
+          "price": 500,
+          "defense": 50
         },
         {
           "id": 24,
           "name": "Power Seal",
-          "type": "armor"
+          "type": "armor",
+          "price": 750,
+          "defense": 70
         },
         {
           "id": 25,
           "name": "Hero's Medal",
-          "type": "accessory"
+          "type": "accessory",
+          "price": 100
         },
         {
           "id": 26,
           "name": "Powersquare",
-          "type": "accessory"
+          "type": "accessory",
+          "price": 150
         },
         {
           "id": 27,
           "name": "Silver Crown",
-          "type": "accessory"
+          "type": "accessory",
+          "price": 200
         },
         {
           "id": 28,
           "name": "Gold Crown",
-          "type": "accessory"
+          "type": "accessory",
+          "price": 300
         },
         {
           "id": 29,
           "name": "Ruby Crown",
-          "type": "accessory"
+          "type": "accessory",
+          "price": 500
         },
         {
           "id": 30,
           "name": "Earrings",
-          "type": "accessory"
+          "type": "accessory",
+          "price": 400
+        },
+        {
+          "id": 50,
+          "name": "Tonic",
+          "type": "item",
+          "price": 10
+        },
+        {
+          "id": 51,
+          "name": "Tonic (M)",
+          "type": "item",
+          "price": 20
+        },
+        {
+          "id": 52,
+          "name": "Ether",
+          "type": "item",
+          "price": 50
+        },
+        {
+          "id": 53,
+          "name": "Ether (M)",
+          "type": "item",
+          "price": 100
+        },
+        {
+          "id": 54,
+          "name": "Elixir",
+          "type": "item",
+          "price": 200
+        },
+        {
+          "id": 55,
+          "name": "Megalixir",
+          "type": "item",
+          "price": 500
         }
       ],
       "enemies": [
@@ -347,113 +393,236 @@
           "id": 0,
           "name": "Slave",
           "hp": 20,
-          "exp": 1
+          "exp": 1,
+          "weakness": "fire"
         },
         {
           "id": 1,
           "name": "Gnash",
           "hp": 30,
-          "exp": 2
+          "exp": 2,
+          "weakness": "ice"
         },
         {
           "id": 2,
           "name": "Rat",
           "hp": 10,
-          "exp": 1
+          "exp": 1,
+          "weakness": "fire"
         },
         {
           "id": 3,
           "name": "Flight",
           "hp": 40,
-          "exp": 3
+          "exp": 3,
+          "weakness": "lightning"
         },
         {
           "id": 4,
           "name": "Jagger",
           "hp": 50,
-          "exp": 5
+          "exp": 5,
+          "weakness": "water"
         },
         {
           "id": 5,
           "name": "Sauirer",
           "hp": 25,
-          "exp": 2
+          "exp": 2,
+          "weakness": "fire"
         },
         {
           "id": 6,
           "name": "Cybot",
           "hp": 60,
-          "exp": 7
+          "exp": 7,
+          "weakness": "lightning"
         },
         {
           "id": 7,
           "name": "Hawk",
           "hp": 35,
-          "exp": 3
+          "exp": 3,
+          "weakness": "ice"
         },
         {
           "id": 8,
           "name": "Riders",
           "hp": 80,
-          "exp": 10
+          "exp": 10,
+          "weakness": "water"
         },
         {
           "id": 9,
           "name": "Leader",
           "hp": 100,
-          "exp": 15
+          "exp": 15,
+          "weakness": "water"
         },
         {
           "id": 10,
           "name": "Gurguante",
           "hp": 120,
-          "exp": 20
+          "exp": 20,
+          "weakness": "ice"
         },
         {
           "id": 11,
           "name": "Vaper",
           "hp": 45,
-          "exp": 5
+          "exp": 5,
+          "weakness": "fire"
         },
         {
           "id": 12,
           "name": "Lapidon",
           "hp": 180,
-          "exp": 30
+          "exp": 30,
+          "weakness": "water"
         },
         {
           "id": 13,
           "name": "Dragon",
           "hp": 500,
-          "exp": 100
+          "exp": 100,
+          "weakness": "ice"
+        },
+        {
+          "id": 14,
+          "name": "Golem",
+          "hp": 300,
+          "exp": 50,
+          "weakness": "water"
+        },
+        {
+          "id": 15,
+          "name": "Boss",
+          "hp": 1000,
+          "exp": 200,
+          "weakness": "lightning"
         }
       ],
       "locations": [
-        "Trann Dome",
-        "Guardia Castle",
-        "Forest",
-        "Mystic Mountain",
-        "Humbaba Village",
-        "Denadoro Mountains",
-        "Sewers",
-        "Future",
-        "Past",
-        "Present",
-        "The End",
-        "Ocean Palace",
-        "Sun Keep",
-        "Black Dream",
-        "Temple of Fiends",
-        "Ozzie",
-        "Frog's Theme",
-        "Zenan Bridge",
-        "Melchyore",
-        "Guru's House",
-        "Humbaba",
-        "Kashmir",
-        "Oglop",
-        "Der Whirl",
-        "Laruba"
+        {
+          "id": 0,
+          "name": "Truce",
+          "era": "1000 AD",
+          "type": "town"
+        },
+        {
+          "id": 1,
+          "name": "Guardia Castle",
+          "era": "1000 AD",
+          "type": "castle"
+        },
+        {
+          "id": 2,
+          "name": "King's Study",
+          "era": "1000 AD",
+          "type": "room"
+        },
+        {
+          "id": 3,
+          "name": "Sewers",
+          "era": "1000 AD",
+          "type": "dungeon"
+        },
+        {
+          "id": 4,
+          "name": "Forest",
+          "era": "1000 AD",
+          "type": "overworld"
+        },
+        {
+          "id": 5,
+          "name": "Mystic Mountain",
+          "era": "1000 AD",
+          "type": "mountain"
+        },
+        {
+          "id": 6,
+          "name": "Humbaba Village",
+          "era": "600 AD",
+          "type": "village"
+        },
+        {
+          "id": 7,
+          "name": "Denadoro Mountains",
+          "era": "600 AD",
+          "type": "mountain"
+        },
+        {
+          "id": 8,
+          "name": "Temple of Fiends",
+          "era": "600 AD",
+          "type": "temple"
+        },
+        {
+          "id": 9,
+          "name": "Frog's House",
+          "era": "600 AD",
+          "type": "house"
+        },
+        {
+          "id": 10,
+          "name": "Future World",
+          "era": "2100 AD",
+          "type": "world"
+        },
+        {
+          "id": 11,
+          "name": "Der Whirl",
+          "era": "2100 AD",
+          "type": "dungeon"
+        },
+        {
+          "id": 12,
+          "name": "Genoa Dome",
+          "era": "2100 AD",
+          "type": "dungeon"
+        },
+        {
+          "id": 13,
+          "name": "Sun Keep",
+          "era": "2100 AD",
+          "type": "dungeon"
+        },
+        {
+          "id": 14,
+          "name": "Ocean Palace",
+          "era": "2100 AD",
+          "type": "dungeon"
+        },
+        {
+          "id": 15,
+          "name": "Zeal Kingdom",
+          "era": "12000 BC",
+          "type": "kingdom"
+        },
+        {
+          "id": 16,
+          "name": "Kashmir",
+          "era": "12000 BC",
+          "type": "world"
+        },
+        {
+          "id": 17,
+          "name": "Guru's House",
+          "era": "1000 AD",
+          "type": "house"
+        },
+        {
+          "id": 18,
+          "name": "Ozzie's Fort",
+          "era": "600 AD",
+          "type": "fort"
+        },
+        {
+          "id": 19,
+          "name": "The End",
+          "era": "Any",
+          "type": "final"
+        }
       ],
       "techs": [
         {
@@ -832,7 +1001,7 @@
           "mp": 30,
           "str": 18,
           "def": 10,
-          "weapon": "sword"
+          "element": "non-elemental"
         },
         {
           "id": 1,
@@ -841,7 +1010,7 @@
           "mp": 45,
           "str": 12,
           "def": 8,
-          "weapon": "dagger"
+          "element": "shadow"
         },
         {
           "id": 2,
@@ -850,7 +1019,7 @@
           "mp": 50,
           "str": 14,
           "def": 9,
-          "weapon": "staff"
+          "element": "white"
         },
         {
           "id": 3,
@@ -859,186 +1028,70 @@
           "mp": 35,
           "str": 16,
           "def": 12,
-          "weapon": "sword"
+          "element": "dark"
         },
         {
           "id": 4,
-          "name": "Riddel",
-          "hp": 155,
-          "mp": 40,
-          "str": 15,
-          "def": 8,
-          "weapon": "bow"
-        },
-        {
-          "id": 5,
-          "name": "Machina",
+          "name": "Lynx",
           "hp": 200,
           "mp": 20,
           "str": 22,
           "def": 15,
-          "weapon": "fist"
+          "element": "shadow"
         },
         {
-          "id": 6,
-          "name": "Karsh",
+          "id": 5,
+          "name": "Viper",
           "hp": 190,
-          "mp": 25,
-          "str": 20,
-          "def": 14,
-          "weapon": "sword"
-        },
-        {
-          "id": 7,
-          "name": "Zoah",
-          "hp": 210,
           "mp": 15,
           "str": 25,
           "def": 12,
-          "weapon": "fist"
-        },
-        {
-          "id": 8,
-          "name": "Marcy",
-          "hp": 140,
-          "mp": 55,
-          "str": 10,
-          "def": 6,
-          "weapon": "staff"
-        },
-        {
-          "id": 9,
-          "name": "Orl",
-          "hp": 175,
-          "mp": 30,
-          "str": 17,
-          "def": 10,
-          "weapon": "sword"
-        },
-        {
-          "id": 10,
-          "name": "Miki",
-          "hp": 160,
-          "mp": 35,
-          "str": 14,
-          "def": 9,
-          "weapon": "fist"
-        }
-      ],
-      "items": [
-        {
-          "id": 0,
-          "name": "Epee",
-          "type": "weapon"
-        },
-        {
-          "id": 1,
-          "name": "Dagger",
-          "type": "weapon"
-        },
-        {
-          "id": 2,
-          "name": "Staff",
-          "type": "weapon"
-        },
-        {
-          "id": 3,
-          "name": "Bow",
-          "type": "weapon"
-        },
-        {
-          "id": 4,
-          "name": "Fist",
-          "type": "weapon"
-        },
-        {
-          "id": 5,
-          "name": "Axe",
-          "type": "weapon"
-        }
-      ],
-      "enemies": [
-        {
-          "id": 0,
-          "name": "Goblin",
-          "hp": 30,
-          "exp": 5
-        },
-        {
-          "id": 1,
-          "name": "Bat",
-          "hp": 15,
-          "exp": 2
-        },
-        {
-          "id": 2,
-          "name": "Skeleton",
-          "hp": 40,
-          "exp": 8
-        },
-        {
-          "id": 3,
-          "name": "Ghost",
-          "hp": 35,
-          "exp": 6
-        },
-        {
-          "id": 4,
-          "name": "Slime",
-          "hp": 25,
-          "exp": 3
-        }
-      ],
-      "locations": [
-        {
-          "id": 0,
-          "name": "Home",
-          "world": "Home"
-        },
-        {
-          "id": 1,
-          "name": "Dead Sea",
-          "world": "Home"
-        },
-        {
-          "id": 2,
-          "name": "Waterway",
-          "world": "Home"
-        },
-        {
-          "id": 3,
-          "name": "Fort Dragonia",
-          "world": "Home"
-        },
-        {
-          "id": 4,
-          "name": "Guldove",
-          "world": "Home"
-        },
-        {
-          "id": 5,
-          "name": "Terminus",
-          "world": "Home"
+          "element": "earth"
         },
         {
           "id": 6,
-          "name": "Sea of Eden",
-          "world": "Home"
+          "name": "Frog",
+          "hp": 160,
+          "mp": 40,
+          "str": 18,
+          "def": 10,
+          "element": "water"
         },
         {
           "id": 7,
-          "name": "Another World",
-          "world": "Another"
+          "name": "Radius",
+          "hp": 200,
+          "mp": 25,
+          "str": 20,
+          "def": 18,
+          "element": "non-elemental"
         },
         {
           "id": 8,
-          "name": "Shadow",
-          "world": "Another"
+          "name": "Marcie",
+          "hp": 140,
+          "mp": 55,
+          "str": 10,
+          "def": 7,
+          "element": "wind"
         },
         {
           "id": 9,
-          "name": "Rain",
-          "world": "Another"
+          "name": "Doc",
+          "hp": 150,
+          "mp": 50,
+          "str": 14,
+          "def": 10,
+          "element": "lightning"
+        },
+        {
+          "id": 10,
+          "name": "Harle (Astral)",
+          "hp": 180,
+          "mp": 40,
+          "str": 18,
+          "def": 14,
+          "element": "dark"
         }
       ],
       "elements": [
@@ -1049,18 +1102,18 @@
         },
         {
           "id": 1,
+          "name": "Ice",
+          "color": "cyan"
+        },
+        {
+          "id": 2,
           "name": "Water",
           "color": "blue"
         },
         {
-          "id": 2,
+          "id": 3,
           "name": "Lightning",
           "color": "yellow"
-        },
-        {
-          "id": 3,
-          "name": "Ice",
-          "color": "cyan"
         },
         {
           "id": 4,
@@ -1074,13 +1127,75 @@
         },
         {
           "id": 6,
-          "name": "Holy",
-          "color": "white"
+          "name": "Dark",
+          "color": "purple"
         },
         {
           "id": 7,
-          "name": "Dark",
-          "color": "purple"
+          "name": "Holy",
+          "color": "white"
+        }
+      ],
+      "locations": [
+        {
+          "id": 0,
+          "name": "Home",
+          "type": "town",
+          "region": "Home"
+        },
+        {
+          "id": 1,
+          "name": "Arni Village",
+          "type": "town",
+          "region": "Coast"
+        },
+        {
+          "id": 2,
+          "name": "Lucca's Theater",
+          "type": "building",
+          "region": "Coast"
+        },
+        {
+          "id": 3,
+          "name": "Marbule",
+          "type": "town",
+          "region": "West"
+        },
+        {
+          "id": 4,
+          "name": "Guldove",
+          "type": "town",
+          "region": "Islands"
+        },
+        {
+          "id": 5,
+          "name": "Termina",
+          "type": "town",
+          "region": "Central"
+        },
+        {
+          "id": 6,
+          "name": "Viper Manor",
+          "type": "dungeon",
+          "region": "West"
+        },
+        {
+          "id": 7,
+          "name": "Dead Sea",
+          "type": "dungeon",
+          "region": "Islands"
+        },
+        {
+          "id": 8,
+          "name": "Fort Dragonia",
+          "type": "dungeon",
+          "region": "Islands"
+        },
+        {
+          "id": 9,
+          "name": "Temporal Vortex",
+          "type": "dungeon",
+          "region": "Other"
         }
       ]
     },
@@ -1092,82 +1207,56 @@
       "characters": [
         {
           "id": 0,
-          "name": "Karsh",
+          "name": "Serge",
           "hp": 100,
-          "mp": 20
+          "mp": 20,
+          "str": 10,
+          "def": 5
         },
         {
           "id": 1,
-          "name": "Marika",
-          "hp": 90,
-          "mp": 30
+          "name": "Kid",
+          "hp": 80,
+          "mp": 30,
+          "str": 8,
+          "def": 4
         },
         {
           "id": 2,
-          "name": "Miranda",
-          "hp": 85,
-          "mp": 35
+          "name": "Gil",
+          "hp": 90,
+          "mp": 15,
+          "str": 12,
+          "def": 6
         },
         {
           "id": 3,
-          "name": "Jaken",
-          "hp": 110,
-          "mp": 10
-        }
-      ],
-      "items": [
-        {
-          "id": 0,
-          "name": "Potion",
-          "type": "item"
-        },
-        {
-          "id": 1,
-          "name": "Ether",
-          "type": "item"
-        },
-        {
-          "id": 2,
-          "name": "Antidote",
-          "type": "item"
-        }
-      ],
-      "enemies": [
-        {
-          "id": 0,
-          "name": "Bat",
-          "hp": 10
-        },
-        {
-          "id": 1,
-          "name": "Rat",
-          "hp": 20
-        },
-        {
-          "id": 2,
-          "name": "Soldier",
-          "hp": 50
+          "name": "Mana",
+          "hp": 70,
+          "mp": 40,
+          "str": 6,
+          "def": 3
         }
       ],
       "locations": [
         {
           "id": 0,
-          "name": "Thorn",
-          "type": "town"
+          "name": "The Dream Sanctuary",
+          "type": "hub"
         },
         {
           "id": 1,
-          "name": "Laruba",
-          "type": "village"
+          "name": "Karsh's Castle",
+          "type": "dungeon"
         },
         {
           "id": 2,
-          "name": "Mine",
+          "name": "Marbule Ruins",
           "type": "dungeon"
         },
         {
           "id": 3,
-          "name": "Fort",
+          "name": "Island of the Dead",
           "type": "dungeon"
         }
       ]
@@ -1176,8 +1265,9 @@
   "stats": {
     "total_games": 3,
     "total_characters": 22,
-    "total_items": 34,
-    "total_enemies": 22,
-    "total_locations": 39
+    "total_weapons": 20,
+    "total_armor": 15,
+    "total_locations": 34,
+    "total_techs": 36
   }
 }
