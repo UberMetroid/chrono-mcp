@@ -1,0 +1,122 @@
+[
+  {
+    "file": "cc_sfx_000.wav",
+    "offset": "0x300400"
+  },
+  {
+    "file": "cc_sfx_001.wav",
+    "offset": "0x301600"
+  },
+  {
+    "file": "cc_sfx_002.wav",
+    "offset": "0x301a00"
+  },
+  {
+    "file": "cc_sfx_003.wav",
+    "offset": "0x301c00"
+  },
+  {
+    "file": "cc_sfx_004.wav",
+    "offset": "0x302000"
+  },
+  {
+    "file": "cc_sfx_005.wav",
+    "offset": "0x302200"
+  },
+  {
+    "file": "cc_sfx_006.wav",
+    "offset": "0x302400"
+  },
+  {
+    "file": "cc_sfx_007.wav",
+    "offset": "0x302600"
+  },
+  {
+    "file": "cc_sfx_008.wav",
+    "offset": "0x302800"
+  },
+  {
+    "file": "cc_sfx_009.wav",
+    "offset": "0x302a00"
+  },
+  {
+    "file": "cc_sfx_010.wav",
+    "offset": "0x302e00"
+  },
+  {
+    "file": "cc_sfx_011.wav",
+    "offset": "0x303200"
+  },
+  {
+    "file": "cc_sfx_012.wav",
+    "offset": "0x304400"
+  },
+  {
+    "file": "cc_sfx_013.wav",
+    "offset": "0x304800"
+  },
+  {
+    "file": "cc_sfx_014.wav",
+    "offset": "0x304a00"
+  },
+  {
+    "file": "cc_sfx_015.wav",
+    "offset": "0x304c00"
+  },
+  {
+    "file": "cc_sfx_016.wav",
+    "offset": "0x304e00"
+  },
+  {
+    "file": "cc_sfx_017.wav",
+    "offset": "0x305000"
+  },
+  {
+    "file": "cc_sfx_018.wav",
+    "offset": "0x305200"
+  },
+  {
+    "file": "cc_sfx_019.wav",
+    "offset": "0x305400"
+  },
+  {
+    "file": "cc_sfx_020.wav",
+    "offset": "0x305600"
+  },
+  {
+    "file": "cc_sfx_021.wav",
+    "offset": "0x305800"
+  },
+  {
+    "file": "cc_sfx_022.wav",
+    "offset": "0x305a00"
+  },
+  {
+    "file": "cc_sfx_023.wav",
+    "offset": "0x305c00"
+  },
+  {
+    "file": "cc_sfx_024.wav",
+    "offset": "0x305e00"
+  },
+  {
+    "file": "cc_sfx_025.wav",
+    "offset": "0x306000"
+  },
+  {
+    "file": "cc_sfx_026.wav",
+    "offset": "0x306200"
+  },
+  {
+    "file": "cc_sfx_027.wav",
+    "offset": "0x306400"
+  },
+  {
+    "file": "cc_sfx_028.wav",
+    "offset": "0x306600"
+  },
+  {
+    "file": "cc_sfx_029.wav",
+    "offset": "0x306800"
+  }
+]

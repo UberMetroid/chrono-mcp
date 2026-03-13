@@ -1,0 +1,152 @@
+[
+  {
+    "offset": "0x180400",
+    "tileset": 67,
+    "tilemap": 96
+  },
+  {
+    "offset": "0x191e00",
+    "tileset": 1,
+    "tilemap": 16
+  },
+  {
+    "offset": "0x19ef00",
+    "tileset": 2,
+    "tilemap": 14
+  },
+  {
+    "offset": "0x19fd00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x19fe00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x19ff00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1a5200",
+    "tileset": 0,
+    "tilemap": 51
+  },
+  {
+    "offset": "0x1afd00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1afe00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1aff00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b7a00",
+    "tileset": 27,
+    "tilemap": 34
+  },
+  {
+    "offset": "0x1b8000",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8100",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8200",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8300",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8400",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8500",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8600",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8700",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8800",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8900",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8a00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8b00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8c00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8d00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8e00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b8f00",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b9000",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b9100",
+    "tileset": 0,
+    "tilemap": 0
+  },
+  {
+    "offset": "0x1b9200",
+    "tileset": 0,
+    "tilemap": 0
+  }
+]

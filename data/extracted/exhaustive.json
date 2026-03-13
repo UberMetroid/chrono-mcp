@@ -1,0 +1,1479 @@
+{
+  "Radical Dreamers": {
+    "file_size_mb": 2.0,
+    "byte_analysis": [
+      {
+        "offset": "0x0",
+        "null_pct": 9.7,
+        "printable_pct": 26.2,
+        "high_pct": 37.3
+      },
+      {
+        "offset": "0x100000",
+        "null_pct": 1.1,
+        "printable_pct": 45.3,
+        "high_pct": 47.7
+      }
+    ],
+    "named_sections": [],
+    "common_2byte_patterns": [
+      {
+        "pattern": "0000",
+        "count": 16546
+      },
+      {
+        "pattern": "ffff",
+        "count": 11722
+      },
+      {
+        "pattern": "0001",
+        "count": 3491
+      },
+      {
+        "pattern": "0100",
+        "count": 3245
+      },
+      {
+        "pattern": "ff00",
+        "count": 2791
+      },
+      {
+        "pattern": "0007",
+        "count": 2190
+      },
+      {
+        "pattern": "00ff",
+        "count": 2109
+      },
+      {
+        "pattern": "0101",
+        "count": 2068
+      },
+      {
+        "pattern": "0002",
+        "count": 1972
+      },
+      {
+        "pattern": "ff01",
+        "count": 1914
+      },
+      {
+        "pattern": "8000",
+        "count": 1570
+      },
+      {
+        "pattern": "0003",
+        "count": 1551
+      },
+      {
+        "pattern": "0200",
+        "count": 1450
+      },
+      {
+        "pattern": "0004",
+        "count": 1324
+      },
+      {
+        "pattern": "0300",
+        "count": 1075
+      },
+      {
+        "pattern": "01ff",
+        "count": 1001
+      },
+      {
+        "pattern": "0700",
+        "count": 886
+      },
+      {
+        "pattern": "0400",
+        "count": 873
+      },
+      {
+        "pattern": "ff02",
+        "count": 859
+      },
+      {
+        "pattern": "0005",
+        "count": 848
+      },
+      {
+        "pattern": "0301",
+        "count": 832
+      },
+      {
+        "pattern": "0102",
+        "count": 766
+      },
+      {
+        "pattern": "0006",
+        "count": 758
+      },
+      {
+        "pattern": "c000",
+        "count": 741
+      },
+      {
+        "pattern": "0080",
+        "count": 735
+      },
+      {
+        "pattern": "0008",
+        "count": 719
+      },
+      {
+        "pattern": "7fff",
+        "count": 715
+      },
+      {
+        "pattern": "ff07",
+        "count": 714
+      },
+      {
+        "pattern": "0201",
+        "count": 712
+      },
+      {
+        "pattern": "0103",
+        "count": 711
+      },
+      {
+        "pattern": "8080",
+        "count": 707
+      },
+      {
+        "pattern": "4000",
+        "count": 679
+      },
+      {
+        "pattern": "feff",
+        "count": 669
+      },
+      {
+        "pattern": "0800",
+        "count": 651
+      },
+      {
+        "pattern": "2000",
+        "count": 648
+      },
+      {
+        "pattern": "1000",
+        "count": 631
+      },
+      {
+        "pattern": "ff03",
+        "count": 631
+      },
+      {
+        "pattern": "8001",
+        "count": 626
+      },
+      {
+        "pattern": "07ff",
+        "count": 625
+      },
+      {
+        "pattern": "0808",
+        "count": 602
+      },
+      {
+        "pattern": "0303",
+        "count": 546
+      },
+      {
+        "pattern": "000f",
+        "count": 524
+      },
+      {
+        "pattern": "1d08",
+        "count": 511
+      },
+      {
+        "pattern": "0180",
+        "count": 506
+      },
+      {
+        "pattern": "e000",
+        "count": 501
+      },
+      {
+        "pattern": "c0c0",
+        "count": 495
+      },
+      {
+        "pattern": "0701",
+        "count": 474
+      },
+      {
+        "pattern": "0010",
+        "count": 467
+      },
+      {
+        "pattern": "0107",
+        "count": 458
+      },
+      {
+        "pattern": "0110",
+        "count": 453
+      },
+      {
+        "pattern": "1010",
+        "count": 445
+      },
+      {
+        "pattern": "0f00",
+        "count": 436
+      },
+      {
+        "pattern": "c001",
+        "count": 431
+      },
+      {
+        "pattern": "0202",
+        "count": 431
+      },
+      {
+        "pattern": "fe01",
+        "count": 431
+      },
+      {
+        "pattern": "0020",
+        "count": 430
+      },
+      {
+        "pattern": "00c0",
+        "count": 426
+      },
+      {
+        "pattern": "0707",
+        "count": 423
+      },
+      {
+        "pattern": "fffe",
+        "count": 422
+      },
+      {
+        "pattern": "ff04",
+        "count": 419
+      },
+      {
+        "pattern": "0040",
+        "count": 414
+      },
+      {
+        "pattern": "1f01",
+        "count": 397
+      },
+      {
+        "pattern": "0600",
+        "count": 396
+      },
+      {
+        "pattern": "fefe",
+        "count": 391
+      },
+      {
+        "pattern": "0500",
+        "count": 387
+      },
+      {
+        "pattern": "f000",
+        "count": 387
+      },
+      {
+        "pattern": "7f7f",
+        "count": 382
+      },
+      {
+        "pattern": "0401",
+        "count": 379
+      },
+      {
+        "pattern": "ff81",
+        "count": 378
+      },
+      {
+        "pattern": "010f",
+        "count": 377
+      },
+      {
+        "pattern": "0f0f",
+        "count": 375
+      },
+      {
+        "pattern": "ff7f",
+        "count": 374
+      },
+      {
+        "pattern": "0203",
+        "count": 362
+      },
+      {
+        "pattern": "01fe",
+        "count": 354
+      },
+      {
+        "pattern": "bdbd",
+        "count": 353
+      },
+      {
+        "pattern": "0f01",
+        "count": 350
+      },
+      {
+        "pattern": "e0e0",
+        "count": 350
+      },
+      {
+        "pattern": "7f01",
+        "count": 345
+      },
+      {
+        "pattern": "1f00",
+        "count": 343
+      },
+      {
+        "pattern": "000c",
+        "count": 343
+      },
+      {
+        "pattern": "ff05",
+        "count": 343
+      },
+      {
+        "pattern": "bfff",
+        "count": 341
+      },
+      {
+        "pattern": "011f",
+        "count": 338
+      },
+      {
+        "pattern": "001f",
+        "count": 332
+      },
+      {
+        "pattern": "017f",
+        "count": 328
+      },
+      {
+        "pattern": "8141",
+        "count": 325
+      },
+      {
+        "pattern": "f0f0",
+        "count": 324
+      },
+      {
+        "pattern": "0404",
+        "count": 317
+      },
+      {
+        "pattern": "3f3f",
+        "count": 316
+      },
+      {
+        "pattern": "fdff",
+        "count": 316
+      },
+      {
+        "pattern": "4001",
+        "count": 315
+      },
+      {
+        "pattern": "01c0",
+        "count": 315
+      },
+      {
+        "pattern": "0104",
+        "count": 314
+      },
+      {
+        "pattern": "0181",
+        "count": 314
+      },
+      {
+        "pattern": "000b",
+        "count": 313
+      },
+      {
+        "pattern": "1f1f",
+        "count": 312
+      },
+      {
+        "pattern": "0009",
+        "count": 311
+      },
+      {
+        "pattern": "00e0",
+        "count": 310
+      },
+      {
+        "pattern": "4040",
+        "count": 309
+      },
+      {
+        "pattern": "0381",
+        "count": 305
+      }
+    ],
+    "game_terms": {
+      "names": [],
+      "places": [],
+      "items": [],
+      "techs": []
+    },
+    "null_4byte_blocks": 7810
+  },
+  "Chrono Trigger": {
+    "file_size_mb": 4.0,
+    "byte_analysis": [
+      {
+        "offset": "0x0",
+        "null_pct": 8.4,
+        "printable_pct": 27.0,
+        "high_pct": 42.0
+      },
+      {
+        "offset": "0x100000",
+        "null_pct": 23.6,
+        "printable_pct": 23.5,
+        "high_pct": 27.6
+      },
+      {
+        "offset": "0x200000",
+        "null_pct": 15.0,
+        "printable_pct": 26.1,
+        "high_pct": 33.7
+      },
+      {
+        "offset": "0x300000",
+        "null_pct": 9.7,
+        "printable_pct": 27.2,
+        "high_pct": 34.1
+      }
+    ],
+    "named_sections": [
+      {
+        "name": "code",
+        "marker": "CODE",
+        "offsets": [
+          "0x310c0",
+          "0x37a1e"
+        ]
+      },
+      {
+        "name": "sound",
+        "marker": "SOUND",
+        "offsets": [
+          "0x37339",
+          "0x1151ef",
+          "0x11520a",
+          "0x11561b",
+          "0x3da0ef",
+          "0x3da10a",
+          "0x3da51c"
+        ]
+      },
+      {
+        "name": "music",
+        "marker": "MUSIC",
+        "offsets": [
+          "0x11519c",
+          "0x3da09c"
+        ]
+      },
+      {
+        "name": "font",
+        "marker": "FONT",
+        "offsets": [
+          "0x30ebe"
+        ]
+      },
+      {
+        "name": "map",
+        "marker": "MAP",
+        "offsets": [
+          "0x37430",
+          "0x11556b",
+          "0x11559f",
+          "0x1c8302",
+          "0x3da47b",
+          "0x3da4af"
+        ]
+      }
+    ],
+    "common_2byte_patterns": [
+      {
+        "pattern": "0000",
+        "count": 14037
+      },
+      {
+        "pattern": "ffff",
+        "count": 4929
+      },
+      {
+        "pattern": "01f0",
+        "count": 1551
+      },
+      {
+        "pattern": "ff00",
+        "count": 1493
+      },
+      {
+        "pattern": "f001",
+        "count": 1280
+      },
+      {
+        "pattern": "0100",
+        "count": 1192
+      },
+      {
+        "pattern": "e220",
+        "count": 1042
+      },
+      {
+        "pattern": "0200",
+        "count": 1024
+      },
+      {
+        "pattern": "00ff",
+        "count": 957
+      },
+      {
+        "pattern": "c220",
+        "count": 953
+      },
+      {
+        "pattern": "00fe",
+        "count": 912
+      },
+      {
+        "pattern": "0300",
+        "count": 904
+      },
+      {
+        "pattern": "0001",
+        "count": 888
+      },
+      {
+        "pattern": "efef",
+        "count": 863
+      },
+      {
+        "pattern": "0400",
+        "count": 801
+      },
+      {
+        "pattern": "0003",
+        "count": 693
+      },
+      {
+        "pattern": "01f8",
+        "count": 693
+      },
+      {
+        "pattern": "0002",
+        "count": 640
+      },
+      {
+        "pattern": "0006",
+        "count": 596
+      },
+      {
+        "pattern": "0120",
+        "count": 551
+      },
+      {
+        "pattern": "0020",
+        "count": 503
+      },
+      {
+        "pattern": "0603",
+        "count": 491
+      },
+      {
+        "pattern": "feff",
+        "count": 490
+      },
+      {
+        "pattern": "0500",
+        "count": 477
+      },
+      {
+        "pattern": "fe00",
+        "count": 473
+      },
+      {
+        "pattern": "f801",
+        "count": 472
+      },
+      {
+        "pattern": "1000",
+        "count": 469
+      },
+      {
+        "pattern": "0600",
+        "count": 457
+      },
+      {
+        "pattern": "0101",
+        "count": 452
+      },
+      {
+        "pattern": "0024",
+        "count": 452
+      },
+      {
+        "pattern": "c450",
+        "count": 449
+      },
+      {
+        "pattern": "8000",
+        "count": 438
+      },
+      {
+        "pattern": "0008",
+        "count": 429
+      },
+      {
+        "pattern": "000a",
+        "count": 427
+      },
+      {
+        "pattern": "c464",
+        "count": 419
+      },
+      {
+        "pattern": "2401",
+        "count": 417
+      },
+      {
+        "pattern": "a900",
+        "count": 412
+      },
+      {
+        "pattern": "0010",
+        "count": 411
+      },
+      {
+        "pattern": "0a0a",
+        "count": 406
+      },
+      {
+        "pattern": "c478",
+        "count": 403
+      },
+      {
+        "pattern": "0040",
+        "count": 402
+      },
+      {
+        "pattern": "0004",
+        "count": 399
+      },
+      {
+        "pattern": "00f0",
+        "count": 399
+      },
+      {
+        "pattern": "0800",
+        "count": 398
+      },
+      {
+        "pattern": "0404",
+        "count": 390
+      },
+      {
+        "pattern": "2000",
+        "count": 387
+      },
+      {
+        "pattern": "c446",
+        "count": 379
+      },
+      {
+        "pattern": "0080",
+        "count": 374
+      },
+      {
+        "pattern": "a901",
+        "count": 373
+      },
+      {
+        "pattern": "0007",
+        "count": 369
+      },
+      {
+        "pattern": "f000",
+        "count": 366
+      },
+      {
+        "pattern": "ff01",
+        "count": 366
+      },
+      {
+        "pattern": "4000",
+        "count": 353
+      },
+      {
+        "pattern": "2402",
+        "count": 346
+      },
+      {
+        "pattern": "0085",
+        "count": 335
+      },
+      {
+        "pattern": "0700",
+        "count": 327
+      },
+      {
+        "pattern": "0090",
+        "count": 325
+      },
+      {
+        "pattern": "bf00",
+        "count": 310
+      },
+      {
+        "pattern": "c47f",
+        "count": 310
+      },
+      {
+        "pattern": "1865",
+        "count": 308
+      },
+      {
+        "pattern": "0320",
+        "count": 307
+      },
+      {
+        "pattern": "00d0",
+        "count": 304
+      },
+      {
+        "pattern": "1869",
+        "count": 304
+      },
+      {
+        "pattern": "0202",
+        "count": 304
+      },
+      {
+        "pattern": "c640",
+        "count": 301
+      },
+      {
+        "pattern": "0f00",
+        "count": 293
+      },
+      {
+        "pattern": "f003",
+        "count": 292
+      },
+      {
+        "pattern": "0060",
+        "count": 290
+      },
+      {
+        "pattern": "1b00",
+        "count": 290
+      },
+      {
+        "pattern": "c43c",
+        "count": 289
+      },
+      {
+        "pattern": "0104",
+        "count": 286
+      },
+      {
+        "pattern": "f0ff",
+        "count": 284
+      },
+      {
+        "pattern": "0303",
+        "count": 282
+      },
+      {
+        "pattern": "e000",
+        "count": 282
+      },
+      {
+        "pattern": "a9ff",
+        "count": 280
+      },
+      {
+        "pattern": "000f",
+        "count": 280
+      },
+      {
+        "pattern": "a200",
+        "count": 275
+      },
+      {
+        "pattern": "0102",
+        "count": 270
+      },
+      {
+        "pattern": "4a4a",
+        "count": 269
+      },
+      {
+        "pattern": "720d",
+        "count": 267
+      },
+      {
+        "pattern": "0018",
+        "count": 265
+      },
+      {
+        "pattern": "001b",
+        "count": 261
+      },
+      {
+        "pattern": "000c",
+        "count": 260
+      },
+      {
+        "pattern": "2e01",
+        "count": 260
+      },
+      {
+        "pattern": "e8e8",
+        "count": 259
+      },
+      {
+        "pattern": "0220",
+        "count": 258
+      },
+      {
+        "pattern": "00f8",
+        "count": 255
+      },
+      {
+        "pattern": "7be2",
+        "count": 252
+      },
+      {
+        "pattern": "200f",
+        "count": 248
+      },
+      {
+        "pattern": "0005",
+        "count": 245
+      },
+      {
+        "pattern": "09c4",
+        "count": 245
+      },
+      {
+        "pattern": "20a9",
+        "count": 244
+      },
+      {
+        "pattern": "bd00",
+        "count": 242
+      },
+      {
+        "pattern": "aabd",
+        "count": 239
+      },
+      {
+        "pattern": "00a9",
+        "count": 239
+      },
+      {
+        "pattern": "0201",
+        "count": 239
+      },
+      {
+        "pattern": "200a",
+        "count": 238
+      },
+      {
+        "pattern": "0aaa",
+        "count": 234
+      },
+      {
+        "pattern": "c408",
+        "count": 234
+      },
+      {
+        "pattern": "f002",
+        "count": 232
+      }
+    ],
+    "game_terms": {
+      "names": [],
+      "places": [],
+      "items": [
+        {
+          "term": "MAP",
+          "count": 6,
+          "first": "0x37430"
+        }
+      ],
+      "techs": []
+    },
+    "null_4byte_blocks": 164302
+  },
+  "Chrono Cross": {
+    "file_size_mb": 702.53,
+    "byte_analysis": [
+      {
+        "offset": "0x0",
+        "null_pct": 39.2,
+        "printable_pct": 22.2,
+        "high_pct": 22.2
+      },
+      {
+        "offset": "0x100000",
+        "null_pct": 23.9,
+        "printable_pct": 26.9,
+        "high_pct": 29.5
+      },
+      {
+        "offset": "0x200000",
+        "null_pct": 15.1,
+        "printable_pct": 28.5,
+        "high_pct": 39.0
+      },
+      {
+        "offset": "0x300000",
+        "null_pct": 5.5,
+        "printable_pct": 31.0,
+        "high_pct": 47.3
+      }
+    ],
+    "named_sections": [
+      {
+        "name": "data",
+        "marker": "DATA",
+        "offsets": [
+          "0x239d40",
+          "0x239d80",
+          "0x25ef57",
+          "0x25ef77",
+          "0x25f0b6",
+          "0x25f0e8",
+          "0x25f121",
+          "0x25f15c",
+          "0x25f18b",
+          "0x25f1a1"
+        ]
+      },
+      {
+        "name": "code",
+        "marker": "CODE",
+        "offsets": [
+          "0x20f9686",
+          "0x15b44e1c",
+          "0x15bc1c6c",
+          "0x15bc8684",
+          "0x15d235d1",
+          "0x15dcb648",
+          "0x15e54bb9",
+          "0x15e54d7c",
+          "0x15f50a5c",
+          "0x1a7aa354"
+        ]
+      },
+      {
+        "name": "bss",
+        "marker": "BSS",
+        "offsets": [
+          "0x2f7fd1",
+          "0x338687",
+          "0x434f9a",
+          "0x435093",
+          "0x4d085b",
+          "0x4d35de",
+          "0x4d365e",
+          "0xe90d7b",
+          "0xe90df4",
+          "0xe9233a"
+        ]
+      },
+      {
+        "name": "music",
+        "marker": "MUSIC",
+        "offsets": [
+          "0x1beae6cc",
+          "0x1beae808",
+          "0x1beae814"
+        ]
+      },
+      {
+        "name": "map",
+        "marker": "MAP",
+        "offsets": [
+          "0xc0704",
+          "0x2f9cdc",
+          "0x3bfee0",
+          "0xd3ab05",
+          "0x2432ebe",
+          "0x24332ba",
+          "0x25e7c40",
+          "0x26823b0",
+          "0x349af34",
+          "0x4fdc311"
+        ]
+      }
+    ],
+    "common_2byte_patterns": [
+      {
+        "pattern": "0000",
+        "count": 150514
+      },
+      {
+        "pattern": "0800",
+        "count": 5585
+      },
+      {
+        "pattern": "0200",
+        "count": 5416
+      },
+      {
+        "pattern": "0400",
+        "count": 5187
+      },
+      {
+        "pattern": "1000",
+        "count": 4511
+      },
+      {
+        "pattern": "ffff",
+        "count": 4502
+      },
+      {
+        "pattern": "023c",
+        "count": 4040
+      },
+      {
+        "pattern": "0100",
+        "count": 3581
+      },
+      {
+        "pattern": "1800",
+        "count": 3281
+      },
+      {
+        "pattern": "2110",
+        "count": 3209
+      },
+      {
+        "pattern": "000c",
+        "count": 2946
+      },
+      {
+        "pattern": "2120",
+        "count": 2742
+      },
+      {
+        "pattern": "bd27",
+        "count": 2728
+      },
+      {
+        "pattern": "0300",
+        "count": 2706
+      },
+      {
+        "pattern": "1400",
+        "count": 2608
+      },
+      {
+        "pattern": "e003",
+        "count": 2338
+      },
+      {
+        "pattern": "4010",
+        "count": 2228
+      },
+      {
+        "pattern": "4300",
+        "count": 2200
+      },
+      {
+        "pattern": "2000",
+        "count": 2006
+      },
+      {
+        "pattern": "0224",
+        "count": 1965
+      },
+      {
+        "pattern": "4000",
+        "count": 1934
+      },
+      {
+        "pattern": "020c",
+        "count": 1835
+      },
+      {
+        "pattern": "0e80",
+        "count": 1700
+      },
+      {
+        "pattern": "033c",
+        "count": 1682
+      },
+      {
+        "pattern": "4014",
+        "count": 1608
+      },
+      {
+        "pattern": "2128",
+        "count": 1574
+      },
+      {
+        "pattern": "0880",
+        "count": 1479
+      },
+      {
+        "pattern": "0780",
+        "count": 1441
+      },
+      {
+        "pattern": "1c00",
+        "count": 1389
+      },
+      {
+        "pattern": "0c00",
+        "count": 1366
+      },
+      {
+        "pattern": "0002",
+        "count": 1358
+      },
+      {
+        "pattern": "bfaf",
+        "count": 1334
+      },
+      {
+        "pattern": "0424",
+        "count": 1328
+      },
+      {
+        "pattern": "2118",
+        "count": 1326
+      },
+      {
+        "pattern": "bf8f",
+        "count": 1320
+      },
+      {
+        "pattern": "0500",
+        "count": 1295
+      },
+      {
+        "pattern": "8000",
+        "count": 1267
+      },
+      {
+        "pattern": "4224",
+        "count": 1258
+      },
+      {
+        "pattern": "428c",
+        "count": 1235
+      },
+      {
+        "pattern": "0008",
+        "count": 1188
+      },
+      {
+        "pattern": "0600",
+        "count": 1161
+      },
+      {
+        "pattern": "801f",
+        "count": 1143
+      },
+      {
+        "pattern": "4230",
+        "count": 1117
+      },
+      {
+        "pattern": "ff00",
+        "count": 1105
+      },
+      {
+        "pattern": "2802",
+        "count": 1091
+      },
+      {
+        "pattern": "0680",
+        "count": 1063
+      },
+      {
+        "pattern": "0020",
+        "count": 1060
+      },
+      {
+        "pattern": "010c",
+        "count": 1057
+      },
+      {
+        "pattern": "2800",
+        "count": 977
+      },
+      {
+        "pattern": "8010",
+        "count": 975
+      },
+      {
+        "pattern": "2400",
+        "count": 965
+      },
+      {
+        "pattern": "6200",
+        "count": 942
+      },
+      {
+        "pattern": "b0af",
+        "count": 940
+      },
+      {
+        "pattern": "b08f",
+        "count": 927
+      },
+      {
+        "pattern": "043c",
+        "count": 846
+      },
+      {
+        "pattern": "8424",
+        "count": 842
+      },
+      {
+        "pattern": "2180",
+        "count": 841
+      },
+      {
+        "pattern": "3000",
+        "count": 837
+      },
+      {
+        "pattern": "4400",
+        "count": 819
+      },
+      {
+        "pattern": "62ac",
+        "count": 816
+      },
+      {
+        "pattern": "2310",
+        "count": 811
+      },
+      {
+        "pattern": "0980",
+        "count": 807
+      },
+      {
+        "pattern": "2130",
+        "count": 762
+      },
+      {
+        "pattern": "628c",
+        "count": 757
+      },
+      {
+        "pattern": "0700",
+        "count": 740
+      },
+      {
+        "pattern": "7400",
+        "count": 709
+      },
+      {
+        "pattern": "b1af",
+        "count": 695
+      },
+      {
+        "pattern": "8200",
+        "count": 685
+      },
+      {
+        "pattern": "a2af",
+        "count": 678
+      },
+      {
+        "pattern": "5000",
+        "count": 676
+      },
+      {
+        "pattern": "b18f",
+        "count": 674
+      },
+      {
+        "pattern": "2410",
+        "count": 630
+      },
+      {
+        "pattern": "0a00",
+        "count": 627
+      },
+      {
+        "pattern": "e8ff",
+        "count": 614
+      },
+      {
+        "pattern": "6324",
+        "count": 611
+      },
+      {
+        "pattern": "3800",
+        "count": 610
+      },
+      {
+        "pattern": "828c",
+        "count": 604
+      },
+      {
+        "pattern": "638c",
+        "count": 604
+      },
+      {
+        "pattern": "2c00",
+        "count": 600
+      },
+      {
+        "pattern": "013c",
+        "count": 599
+      },
+      {
+        "pattern": "0524",
+        "count": 580
+      },
+      {
+        "pattern": "0403",
+        "count": 569
+      },
+      {
+        "pattern": "a000",
+        "count": 555
+      },
+      {
+        "pattern": "6400",
+        "count": 548
+      },
+      {
+        "pattern": "0324",
+        "count": 544
+      },
+      {
+        "pattern": "0208",
+        "count": 542
+      },
+      {
+        "pattern": "438c",
+        "count": 541
+      },
+      {
+        "pattern": "0108",
+        "count": 536
+      },
+      {
+        "pattern": "6000",
+        "count": 521
+      },
+      {
+        "pattern": "0900",
+        "count": 497
+      },
+      {
+        "pattern": "2002",
+        "count": 496
+      },
+      {
+        "pattern": "0624",
+        "count": 492
+      },
+      {
+        "pattern": "00ff",
+        "count": 489
+      },
+      {
+        "pattern": "b2af",
+        "count": 485
+      },
+      {
+        "pattern": "b28f",
+        "count": 482
+      },
+      {
+        "pattern": "2188",
+        "count": 479
+      },
+      {
+        "pattern": "1200",
+        "count": 478
+      },
+      {
+        "pattern": "0580",
+        "count": 478
+      },
+      {
+        "pattern": "3400",
+        "count": 473
+      },
+      {
+        "pattern": "0d00",
+        "count": 467
+      }
+    ],
+    "game_terms": {
+      "names": [
+        {
+          "term": "ROBO",
+          "count": 5,
+          "first": "0xa7a6c1a"
+        },
+        {
+          "term": "AYLA",
+          "count": 7,
+          "first": "0x5a5e74a"
+        },
+        {
+          "term": "KID",
+          "count": 289,
+          "first": "0x32558e"
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "term": "KEY",
+          "count": 49,
+          "first": "0x14c1133"
+        },
+        {
+          "term": "MAP",
+          "count": 454,
+          "first": "0xc0704"
+        }
+      ],
+      "techs": [
+        {
+          "term": "FIRE",
+          "count": 1,
+          "first": "0x137d4c1c"
+        },
+        {
+          "term": "ICE",
+          "count": 115,
+          "first": "0x3eecc8"
+        },
+        {
+          "term": "SLASH",
+          "count": 1,
+          "first": "0x1596b1cc"
+        }
+      ]
+    },
+    "null_4byte_blocks": 52494877
+  }
+}

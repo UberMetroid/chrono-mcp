@@ -1,0 +1,126 @@
+[
+  {
+    "id": 0,
+    "name": "Masamune"
+  },
+  {
+    "id": 1,
+    "name": "Falcach",
+    "type": "weapon"
+  },
+  {
+    "id": 2,
+    "name": "Sonic Arrow",
+    "type": "weapon"
+  },
+  {
+    "id": 3,
+    "name": "Bolt Sword",
+    "type": "weapon"
+  },
+  {
+    "id": 4,
+    "name": "Gold Thunder",
+    "type": "weapon"
+  },
+  {
+    "id": 5,
+    "name": "Silver Point",
+    "type": "weapon"
+  },
+  {
+    "id": 6,
+    "name": "Ruin Blade",
+    "type": "weapon"
+  },
+  {
+    "id": 7,
+    "name": "Dark Scythe",
+    "type": "weapon"
+  },
+  {
+    "id": 8,
+    "name": "Slasher",
+    "type": "weapon"
+  },
+  {
+    "id": 9,
+    "name": "Fabulous",
+    "type": "weapon"
+  },
+  {
+    "id": 10,
+    "name": "Giga Arm",
+    "type": "weapon"
+  },
+  {
+    "id": 11,
+    "name": "Star Sword",
+    "type": "weapon"
+  },
+  {
+    "id": 12,
+    "name": "Masa",
+    "type": "weapon"
+  },
+  {
+    "id": 13,
+    "name": "Mune",
+    "type": "weapon"
+  },
+  {
+    "id": 20,
+    "name": "Mystic",
+    "type": "armor"
+  },
+  {
+    "id": 21,
+    "name": "Luminous",
+    "type": "armor"
+  },
+  {
+    "id": 22,
+    "name": "Aegis",
+    "type": "armor"
+  },
+  {
+    "id": 23,
+    "name": "Gloom",
+    "type": "armor"
+  },
+  {
+    "id": 24,
+    "name": "Power Seal",
+    "type": "armor"
+  },
+  {
+    "id": 25,
+    "name": "Hero's Medal",
+    "type": "accessory"
+  },
+  {
+    "id": 26,
+    "name": "Powersquare",
+    "type": "accessory"
+  },
+  {
+    "id": 27,
+    "name": "Silver Crown",
+    "type": "accessory"
+  },
+  {
+    "id": 28,
+    "name": "Gold Crown",
+    "type": "accessory"
+  },
+  {
+    "id": 29,
+    "name": "Ruby Crown",
+    "type": "accessory"
+  },
+  {
+    "id": 30,
+    "name": "Earrings",
+    "type": "accessory"
+  }
+]

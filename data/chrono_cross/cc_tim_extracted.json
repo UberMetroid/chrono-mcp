@@ -1,0 +1,162 @@
+[
+  {
+    "index": 0,
+    "offset": "0x5bfc",
+    "width": 47,
+    "height": 608,
+    "type": "8-bit",
+    "file": "cc_tim_0000_47x608.ppm"
+  },
+  {
+    "index": 1,
+    "offset": "0x16760",
+    "width": 28,
+    "height": 1,
+    "type": "4-bit",
+    "file": "cc_tim_0001_28x1.ppm"
+  },
+  {
+    "index": 2,
+    "offset": "0x16778",
+    "width": 32,
+    "height": 57,
+    "type": "16-bit",
+    "file": "cc_tim_0002_32x57.ppm"
+  },
+  {
+    "index": 3,
+    "offset": "0x16864",
+    "width": 32,
+    "height": 28,
+    "type": "16-bit",
+    "file": "cc_tim_0003_32x28.ppm"
+  },
+  {
+    "index": 4,
+    "offset": "0x16874",
+    "width": 16,
+    "height": 8,
+    "type": "16-bit",
+    "file": "cc_tim_0004_16x8.ppm"
+  },
+  {
+    "index": 5,
+    "offset": "0x16878",
+    "width": 8,
+    "height": 40,
+    "type": "8-bit",
+    "file": "cc_tim_0005_8x40.ppm"
+  },
+  {
+    "index": 6,
+    "offset": "0x169c8",
+    "width": 8,
+    "height": 24,
+    "type": "8-bit",
+    "file": "cc_tim_0006_8x24.ppm"
+  },
+  {
+    "index": 7,
+    "offset": "0x16a30",
+    "width": 40,
+    "height": 10,
+    "type": "4-bit",
+    "file": "cc_tim_0007_40x10.ppm"
+  },
+  {
+    "index": 8,
+    "offset": "0x16b38",
+    "width": 16,
+    "height": 255,
+    "type": "8-bit",
+    "file": "cc_tim_0008_16x255.ppm"
+  },
+  {
+    "index": 9,
+    "offset": "0x16d80",
+    "width": 6,
+    "height": 20,
+    "type": "4-bit",
+    "file": "cc_tim_0009_6x20.ppm"
+  },
+  {
+    "index": 10,
+    "offset": "0x16e30",
+    "width": 24,
+    "height": 28,
+    "type": "4-bit",
+    "file": "cc_tim_0010_24x28.ppm"
+  },
+  {
+    "index": 11,
+    "offset": "0x16e34",
+    "width": 28,
+    "height": 32,
+    "type": "8-bit",
+    "file": "cc_tim_0011_28x32.ppm"
+  },
+  {
+    "index": 12,
+    "offset": "0x16e38",
+    "width": 32,
+    "height": 36,
+    "type": "16-bit",
+    "file": "cc_tim_0012_32x36.ppm"
+  },
+  {
+    "index": 13,
+    "offset": "0x16fd8",
+    "width": 28,
+    "height": 27,
+    "type": "16-bit",
+    "file": "cc_tim_0013_28x27.ppm"
+  },
+  {
+    "index": 14,
+    "offset": "0x17060",
+    "width": 8,
+    "height": 32,
+    "type": "8-bit",
+    "file": "cc_tim_0014_8x32.ppm"
+  },
+  {
+    "index": 15,
+    "offset": "0x17368",
+    "width": 32,
+    "height": 65,
+    "type": "16-bit",
+    "file": "cc_tim_0015_32x65.ppm"
+  },
+  {
+    "index": 16,
+    "offset": "0x17604",
+    "width": 20,
+    "height": 24,
+    "type": "4-bit",
+    "file": "cc_tim_0016_20x24.ppm"
+  },
+  {
+    "index": 17,
+    "offset": "0x17760",
+    "width": 1,
+    "height": 19,
+    "type": "4-bit",
+    "file": "cc_tim_0017_1x19.ppm"
+  },
+  {
+    "index": 18,
+    "offset": "0x17788",
+    "width": 2,
+    "height": 14,
+    "type": "4-bit",
+    "file": "cc_tim_0018_2x14.ppm"
+  },
+  {
+    "index": 19,
+    "offset": "0x17964",
+    "width": 256,
+    "height": 20,
+    "type": "4-bit",
+    "file": "cc_tim_0019_256x20.ppm"
+  }
+]

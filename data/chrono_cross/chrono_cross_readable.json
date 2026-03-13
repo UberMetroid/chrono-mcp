@@ -1,0 +1,1538 @@
+[
+  {
+    "region": "shop_menu",
+    "text": "Which Element do"
+  },
+  {
+    "region": "shop_menu",
+    "text": "you want to buy?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "you want to sell?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "How many do you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "want to buy?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "want to sell?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "The rest of the Elements"
+  },
+  {
+    "region": "shop_menu",
+    "text": "are currently allocated"
+  },
+  {
+    "region": "shop_menu",
+    "text": "to the listed members."
+  },
+  {
+    "region": "shop_menu",
+    "text": "From whose Grid do"
+  },
+  {
+    "region": "shop_menu",
+    "text": "you want to remove"
+  },
+  {
+    "region": "shop_menu",
+    "text": "an Element to sell?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "I'll trade you goods for"
+  },
+  {
+    "region": "shop_menu",
+    "text": "your unwanted Elements."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which goods do you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "want to trade me for?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Select the Elements from"
+  },
+  {
+    "region": "shop_menu",
+    "text": "your current stock that"
+  },
+  {
+    "region": "shop_menu",
+    "text": "you want to trade in."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Make the exchange?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "How can I help you?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "What do you want"
+  },
+  {
+    "region": "shop_menu",
+    "text": "me to forge?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "me to disassemble?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "What do you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which weapon do you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "want me to make?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which armor do you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which accessory do"
+  },
+  {
+    "region": "shop_menu",
+    "text": "you want me to make?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Forge ahead?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Not enough raw materials"
+  },
+  {
+    "region": "shop_menu",
+    "text": "to make that weapon!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "to make that armor!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "to make that accessory!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "You don't have"
+  },
+  {
+    "region": "shop_menu",
+    "text": "enough money!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Here you go..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "I hope you like it!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "want to disassemble?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which accessory do you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "OK to disassemble it?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "I can't disassemble what"
+  },
+  {
+    "region": "shop_menu",
+    "text": "you still have equipped."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Disassembly complete!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "You can't carry more than"
+  },
+  {
+    "region": "shop_menu",
+    "text": "99 materials, so I bought"
+  },
+  {
+    "region": "shop_menu",
+    "text": "the surplus from you!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which weapon do"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Which armor do"
+  },
+  {
+    "region": "shop_menu",
+    "text": "I can't buy what you"
+  },
+  {
+    "region": "shop_menu",
+    "text": "still have e"
+  },
+  {
+    "region": "shop_menu",
+    "text": "SAVE DATA TO YOUR MEMORY CARD."
+  },
+  {
+    "region": "shop_menu",
+    "text": "LOAD DATA FROM YOUR MEMORY CARD."
+  },
+  {
+    "region": "shop_menu",
+    "text": "SELECT A MEMORY CARD SLOT TO USE..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARD SLOT 1"
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARD SLOT 2"
+  },
+  {
+    "region": "shop_menu",
+    "text": "CHECKING THE MEMORY CARD"
+  },
+  {
+    "region": "shop_menu",
+    "text": "IN MEMORY CARD SLOT 1..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "IN MEMORY CARD SLOT 2..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "PLEASE DO NOT OPEN THE"
+  },
+  {
+    "region": "shop_menu",
+    "text": "DISC COVER OR REMOVE/INSERT"
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARDS OR CONTROLLERS!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "PLEASE SELECT A BLOCK..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "DATA FROM ANOTHER GAME TITLE"
+  },
+  {
+    "region": "shop_menu",
+    "text": "EMPTY BLOCK"
+  },
+  {
+    "region": "shop_menu",
+    "text": "SAVING DATA TO THE MEMORY CARD"
+  },
+  {
+    "region": "shop_menu",
+    "text": "PREVIOUS DATA WILL"
+  },
+  {
+    "region": "shop_menu",
+    "text": "BE OVERWRITTEN!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "OKAY TO PROCEED?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "NO DATA EXISTS!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "LOADING DATA FROM THE MEMORY"
+  },
+  {
+    "region": "shop_menu",
+    "text": "CARD IN MEMORY CARD SLOT 1..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "CARD IN MEMORY CARD SLOT 2..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "THE MEMORY CARD IN"
+  },
+  {
+    "region": "shop_menu",
+    "text": "HAS NOT BEEN FORMATTED!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "DO YOU WANT TO FORMAT IT?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "NOW FORMATTING THE MEMORY"
+  },
+  {
+    "region": "shop_menu",
+    "text": "NO MEMORY CARD FOUND"
+  },
+  {
+    "region": "shop_menu",
+    "text": "IN MEMORY CARD SLOT 1!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "IN MEMORY CARD SLOT 2!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "FAILED TO SAVE DATA TO THE MEMORY"
+  },
+  {
+    "region": "shop_menu",
+    "text": "CARD IN MEMORY CARD SLOT 1!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "PLEASE TRY AGAIN!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "CARD IN MEMORY CARD SLOT 2!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "FAILED TO LOAD DATA FROM THE MEMORY"
+  },
+  {
+    "region": "shop_menu",
+    "text": "THE PREVIOUSLY SAVED DATA"
+  },
+  {
+    "region": "shop_menu",
+    "text": "ON THE MEMORY CARD IN MEMORY"
+  },
+  {
+    "region": "shop_menu",
+    "text": "CARD SLOT 1 IS UNUSABLE!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "CARD SLOT 2 IS UNUSABLE!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "NO PREVIOUSLY SAVED DATA ON THE"
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARD IN MEMORY CARD SLOT 1!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARD IN MEMORY CARD SLOT 2!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "FAILED TO FORMAT THE MEMORY"
+  },
+  {
+    "region": "shop_menu",
+    "text": "INSUFFICIENT FREE BLOCKS"
+  },
+  {
+    "region": "shop_menu",
+    "text": "ON THE MEMORY CARD IN"
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARD SLOT 1!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "MEMORY CARD SLOT 2!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Remove all the currently"
+  },
+  {
+    "region": "shop_menu",
+    "text": "allocated Elements from"
+  },
+  {
+    "region": "shop_menu",
+    "text": "the Element Grid."
+  },
+  {
+    "region": "shop_menu",
+    "text": "osen Element"
+  },
+  {
+    "region": "shop_menu",
+    "text": "from the Element Grid."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Rearrange the Elements"
+  },
+  {
+    "region": "shop_menu",
+    "text": "in all Grids to achieve"
+  },
+  {
+    "region": "shop_menu",
+    "text": "a recommended setup."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Fill empty Grid positions"
+  },
+  {
+    "region": "shop_menu",
+    "text": "with recommended Elements"
+  },
+  {
+    "region": "shop_menu",
+    "text": "from your current stock."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Whole Party"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Sort Elements by..."
+  },
+  {
+    "region": "shop_menu",
+    "text": "    - Innate Attribute Color First"
+  },
+  {
+    "region": "shop_menu",
+    "text": "    - Attack First"
+  },
+  {
+    "region": "shop_menu",
+    "text": "    - Healing & Supplemental First"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Auto Allocate"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Fill Blanks"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Window Frame"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Cursor Position"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Accuracy Selection"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Button Pressed ="
+  },
+  {
+    "region": "shop_menu",
+    "text": "Vibration Function"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Stick Sensitivity"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Custom Window Frame"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gArnian Wood"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gSimple Line"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gTropical Paradise"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gSnakes & Orbs"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gPorre's Furnace"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gValencian Cloth"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gQuill and Papyrus"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gIron Plate"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gMonster's Mouth"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gInfrared Vision"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gTea For Three"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gOur Favorite Martian"
+  },
+  {
+    "region": "shop_menu",
+    "text": "gGuldovian Stitch"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Field Screen Controller Configuration"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Cancel/Hold down to run"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Open/Close Key Items Window"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Open Menu Screen"
+  },
+  {
+    "region": "shop_menu",
+    "text": "(Same function as "
+  },
+  {
+    "region": "shop_menu",
+    "text": "Slow Motion"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Fast Forward"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Change direction on the spot"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Battle Screen Controller Configuration"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Change character (=right button)"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Change view (at target selection)"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Change character (=left button)"
+  },
+  {
+    "region": "shop_menu",
+    "text": " button to choose/confirm."
+  },
+  {
+    "region": "shop_menu",
+    "text": " to remove all Elements."
+  },
+  {
+    "region": "shop_menu",
+    "text": " to unequip all accessories."
+  },
+  {
+    "region": "shop_menu",
+    "text": "This data lets you continue the game in a strong state."
+  },
+  {
+    "region": "shop_menu",
+    "text": "This game data has been completed."
+  },
+  {
+    "region": "shop_menu",
+    "text": "Alright to proceed?"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Exchange Rate"
+  },
+  {
+    "region": "shop_menu",
+    "text": "No. in Stock"
+  },
+  {
+    "region": "shop_menu",
+    "text": " Elements only!"
+  },
+  {
+    "region": "shop_menu",
+    "text": "All Element Colors"
+  },
+  {
+    "region": "shop_menu",
+    "text": " levels' worth"
+  },
+  {
+    "region": "shop_menu",
+    "text": " levels' worth to go"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Requirement fulfilled."
+  },
+  {
+    "region": "shop_menu",
+    "text": "No. equipped"
+  },
+  {
+    "region": "shop_menu",
+    "text": "No. stockpiled"
+  },
+  {
+    "region": "shop_menu",
+    "text": "Needed / Stock"
+  },
+  {
+    "region": "shop_menu",
+    "text": "After Separation / Stock"
+  },
+  {
+    "region": "shop_menu",
+    "text": "ELEMENT SHOP"
+  },
+  {
+    "region": "shop_menu",
+    "text": "No. allocated"
+  },
+  {
+    "region": "battle_menu",
+    "text": "TRADING POST"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Single Ally"
+  },
+  {
+    "region": "battle_menu",
+    "text": "All Foes&Allies"
+  },
+  {
+    "region": "battle_menu",
+    "text": "ngle Foe/Ally"
+  },
+  {
+    "region": "battle_menu",
+    "text": "(Only if Innate color "
+  },
+  {
+    "region": "battle_menu",
+    "text": "Cancel/Hold down to walk"
+  },
+  {
+    "region": "battle_menu",
+    "text": "An Ancient Fort -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Chasing phantoms in one's dreams..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Arni Village -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Where the tides start to turn..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Opassa Beach -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "A calling from beyond time..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Nothing has changed but everything!"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Cape Howl -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "A reminder of one's former self..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Heading North -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "In search of some answers..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "The Port Town of Termina -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "The pride of the Acacia Dragoons..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "$Viper Manor -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Where lies the key to the past..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Where ripples become waves..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "@Hermit's Hideaway -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Meeting with the 'other' swordsman..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "HFrom Pirate Ship to Ghost Ship -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "A mariner's worst nightmare..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "POn to Water Dragon Isle -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "In search of the dragon blue..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "\\Fort Dragonia -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Ancient dragons' dream in ruins..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "dTemporal Vortex -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Where lost souls wander..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "lBack from the Darkness -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "And on with a new journey..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "pThe Lost Portal -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Isolation of people from the world..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "tTermina - "
+  },
+  {
+    "region": "battle_menu",
+    "text": "Knight or day...?"
+  },
+  {
+    "region": "battle_menu",
+    "text": "The village of the demi-humans..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "The Masamune -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "The blood-stained sword of evil..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "The Dead Sea -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "A place forsaken by the gods..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "A Portal Reopened -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "And the planet began to shake..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Back to Viper Manor -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "A captive audience awaits..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Surprise Attack!!! -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Pursuers with heavy-hearts..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "To the Sea of Eden -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Through the hidden holes in time..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "The Arbiter of Time -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "On whom the three Fates smile..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Terra Tower -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Caught in an echo of time..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "Chrono Cross -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "The point where destinies meet..."
+  },
+  {
+    "region": "battle_menu",
+    "text": "For all the Dreamers -"
+  },
+  {
+    "region": "battle_menu",
+    "text": "Our planet's dream is not over yet..."
+  },
+  {
+    "region": "0x250000",
+    "text": "u\\99B?5CLLLLLUdK: "
+  },
+  {
+    "region": "0x250000",
+    "text": "~pfffZZZZZZSB:...BJX`mv||xxxx`. Y"
+  },
+  {
+    "region": "0x250000",
+    "text": "pffZZSZZZZSSB:((.:BJJXXSSB:( .l"
+  },
+  {
+    "region": "0x250000",
+    "text": "~ppffZZSSJJBBBBB:::( ( "
+  },
+  {
+    "region": "0x250000",
+    "text": "pppppcSSSJBBBJJB::. ( "
+  },
+  {
+    "region": "0x250000",
+    "text": "pp~~pcSSSJBBJJSBB.  "
+  },
+  {
+    "region": "0x270000",
+    "text": "QZ]RTYR P\\`T[XPY_&"
+  },
+  {
+    "region": "0x270000",
+    "text": ":WW`^_]TZ`^ CLTYMZb DSPWW&"
+  },
+  {
+    "region": "0x270000",
+    "text": "EPX[P] XL_P]TLW QZ]"
+  },
+  {
+    "region": "0x270000",
+    "text": "=PRPYOL]d _PX[P] XL_P]TLW"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 WL]RP ZL] XLOP Q]ZX"
+  },
+  {
+    "region": "0x270000",
+    "text": "L RTLY_ QT^SMZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": ">LOP Z`_ ZQ OPYLOZ]T_P&"
+  },
+  {
+    "region": "0x270000",
+    "text": ">LOP Z`_ ZQ CLTYMZb DSPWW&"
+  },
+  {
+    "region": "0x270000",
+    "text": "ESP ^PNZYO LOaPY_ ZQ _SP"
+  },
+  {
+    "region": "0x270000",
+    "text": "SZWd ^bZ]O >L^LX`YPg"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 VYTQP XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 ]ZO XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 bLYO XLOP Z`_ ZQ"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 ^bZ]O XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": ":YaZVP^ SP]ZTN [ZbP]^"
+  },
+  {
+    "region": "0x270000",
+    "text": "bSPY NZXMTYPO bT_S _SP"
+  },
+  {
+    "region": "0x270000",
+    "text": "9P]Zs^ DSTPWO LYO >POLWg"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 ^[PNTLW _]T[WP#MWLOPO"
+  },
+  {
+    "region": "0x270000",
+    "text": "bPL[ZY `^PO PcNW`^TaPWd"
+  },
+  {
+    "region": "0x270000",
+    "text": "ESP O]LRZY ^bZ]O "
+  },
+  {
+    "region": "0x270000",
+    "text": "ESP O]LRZY ^bZ]O"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 SLYOR`Y XLOP Z`_ ZQ"
+  },
+  {
+    "region": "0x270000",
+    "text": "[ZbP]Q`W ^SZNVbLaP^&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 [TNVLc XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "!8ZZO QZ] bSPY dZ` SLaP"
+  },
+  {
+    "region": "0x270000",
+    "text": "L MZYP _Z [TNVg\""
+  },
+  {
+    "region": "0x270000",
+    "text": "]PTYQZ]NPO bT_S ^ZXP"
+  },
+  {
+    "region": "0x270000",
+    "text": "2Y Lc XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "ESP WPRPYOL]d SLXXP]"
+  },
+  {
+    "region": "0x270000",
+    "text": "ZQ _SP MWLNV^XT_S^&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 MZZXP]LYR XLOP Z`_ ZQ"
+  },
+  {
+    "region": "0x270000",
+    "text": "ESP Q`YN_TZY ZQ _SP^P"
+  },
+  {
+    "region": "0x270000",
+    "text": "NL]O^ T^ `YMPWTPaLMWP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 WL]RP ^[ZZY XLOP Q]ZX"
+  },
+  {
+    "region": "0x270000",
+    "text": "MZYP& !8ZZO QZ] ^XLNVTYR"
+  },
+  {
+    "region": "0x270000",
+    "text": "NSTWO]PYs^ MZ__ZX^"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 WLOWP XLOP Z`_ ZQ"
+  },
+  {
+    "region": "0x270000",
+    "text": "RZZO QZ] ^XLNVTYRg\""
+  },
+  {
+    "region": "0x270000",
+    "text": "YZY#^_TNV OPYLOZ]T_P&"
+  },
+  {
+    "region": "0x270000",
+    "text": "!DZ PL^d _Z NWPLYg\""
+  },
+  {
+    "region": "0x270000",
+    "text": "ZQ CLTYMZb DSPWW&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 RWZaP XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "=TRS_ L]XZ] XLOP Q]ZX"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 dPWWZb#NZWZ]PO"
+  },
+  {
+    "region": "0x270000",
+    "text": "7Z] QPXLWP `^P ZYWdg"
+  },
+  {
+    "region": "0x270000",
+    "text": "4STWO]PYs^ ^TeP ZYWd&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2`_ZXL_TNLWWd ]PNZaP]^"
+  },
+  {
+    "region": "0x270000",
+    "text": "]PLWWd MLO _L^_Pg"
+  },
+  {
+    "region": "0x270000",
+    "text": "STX WZZV QPXTYTYP& !3`_ dZ`"
+  },
+  {
+    "region": "0x270000",
+    "text": "NLY bPL] T_ ZY dZ`] SPLOg\""
+  },
+  {
+    "region": "0x270000",
+    "text": "A]Z_PN_TZY LRLTY^_ [ZT^ZY&"
+  },
+  {
+    "region": "0x270000",
+    "text": "SP]Zs^ NZWWPN_TZY& A]ZaP^"
+  },
+  {
+    "region": "0x270000",
+    "text": "SP]Zs^ NZWWPN_TZY&"
+  },
+  {
+    "region": "0x270000",
+    "text": "2 SPWXP_ XLOP Q]ZX MZYP&"
+  },
+  {
+    "region": "0x270000",
+    "text": "ZQ 9A dZ` SLaP O`]TYR"
+  },
+  {
+    "region": "0x270000",
+    "text": "A]Z_PN_TZY LRLTY^_"
+  },
+  {
+    "region": "0x270000",
+    "text": "2Y_T8]PPY LYO R]PPY"
+  },
+  {
+    "region": "0x270000",
+    "text": "2Y_TJPWWZb LYO dPWWZb"
+  },
+  {
+    "region": "0x270000",
+    "text": "2Y_THST_P LYO bST_P"
+  },
+  {
+    "region": "0x270000",
+    "text": "A]Z_PN_TZY LRLTY^_ "
+  },
+  {
+    "region": "0x270000",
+    "text": "2Y_T3WLNV LYO MWLNV"
+  },
+  {
+    "region": "0x270000",
+    "text": "bT_S dZ`] 6WPXPY_ AZbP]"
+  },
+  {
+    "region": "0x270000",
+    "text": "=PaPW TYN]PL^PO Md )&"
+  },
+  {
+    "region": "0x270000",
+    "text": "=PaPW TYN]PL^PO Md *&"
+  },
+  {
+    "region": "0x270000",
+    "text": "DWTRS_Wd TYN]PL^P^ _SP"
+  },
+  {
+    "region": "0x270000",
+    "text": "LXZ`Y_ ZQ RZWO ]PNPTaPO"
+  },
+  {
+    "region": "0x270000",
+    "text": "CPO`NP^ _SP OLXLRP OZYP"
+  },
+  {
+    "region": "0x270000",
+    "text": "Md LWW VTYO^ ZQ L__LNV^"
+  },
+  {
+    "region": "0x270000",
+    "text": "dZ` ]PNPTaP Q]ZX PYPXTP^&"
+  },
+  {
+    "region": "0x270000",
+    "text": ":YN]PL^P^ _SP OLXLRP OZYP"
+  },
+  {
+    "region": "0x270000",
+    "text": "dZ` XLVP ZY dZ`] PYPXTP^&"
+  },
+  {
+    "region": "0x270000",
+    "text": "PNPTaPO _Z bPL[ZY&"
+  },
+  {
+    "region": "0x270000",
+    "text": "!=Zb#WPaPW 6WPXPY_^ ZYWd&\""
+  },
+  {
+    "region": "0x270000",
+    "text": "L__LNV^ ]PNPTaPO _Z bPL[ZY&"
+  },
+  {
+    "region": "0x270000",
+    "text": "`^PO TY 5Z[[PWRLYR LMTWT_d&"
+  },
+  {
+    "region": "0x270000",
+    "text": "A]Z_PN_TZY Q]ZX _SP QW`"
+  },
+  {
+    "region": "0x270000",
+    "text": "=PaPW TYN]PL^PO Md 0&"
+  },
+  {
+    "region": "0x290000",
+    "text": "pP BIbA+4+',FOMaV]J"
+  },
+  {
+    "region": "0x2c0000",
+    "text": "F/( 2QchcQQhocF:/"
+  },
+  {
+    "region": "0x2c0000",
+    "text": " 5qwwwwwqwqS__L{"
+  },
+  {
+    "region": "0x2d0000",
+    "text": " QbbRG@222@GIIPPIIPY`qvvxxohG<"
+  },
+  {
+    "region": "0x2e0000",
+    "text": "~fXKPB2*     #)arC:JOOJOOOUZZs"
+  },
+  {
+    "region": "0x2e0000",
+    "text": "~ffffpp\\VKKKAA5* "
+  },
+  {
+    "region": "0x2e0000",
+    "text": "VVVVVVVVVVVQQQQIIIIIIIIIIE????433* "
+  },
+  {
+    "region": "0x2f0000",
+    "text": " 4IIQQQI?44LZZMNXdrwa="
+  },
+  {
+    "region": "0x2f0000",
+    "text": " ?IVVVVVVQQQQIE/"
+  },
+  {
+    "region": "0x2f0000",
+    "text": "/Hdd[wwxnnhhh[: )LLG19?"
+  },
+  {
+    "region": "0x2f0000",
+    "text": "LZdddR) /Hlhgg_gZ_hZH)6RZLG?1?."
+  },
+  {
+    "region": "0x300000",
+    "text": "::?iqH6EE0EXHBX`MBBMBXk`H?HNE(\" "
+  },
+  {
+    "region": "0x300000",
+    "text": " )8CLLLKLLLLLLLLLLLK]]]SS5!"
+  },
+  {
+    "region": "0x300000",
+    "text": " 38<IIILLLLLLLLLLLKKKGB;5#"
+  },
+  {
+    "region": "0x300000",
+    "text": " 3BGGGGGGGKGKKLLGB;#q^"
+  },
+  {
+    "region": "0x310000",
+    "text": "wbbbbbnnnhhbbbYDDDD:0 "
+  },
+  {
+    "region": "0x310000",
+    "text": "iiibYYYYXXPPPD::0+ "
+  },
+  {
+    "region": "0x310000",
+    "text": "pbpbYPPPPPPD::0+ "
+  },
+  {
+    "region": "0x320000",
+    "text": "  ''  -:=@HFFXxxXXFCPSXSSp"
+  },
+  {
+    "region": "0x330000",
+    "text": " '\"#;daF<FSSXapppppp"
+  },
+  {
+    "region": "0x330000",
+    "text": "   \"#;T[SFFFFSSSSSSXXXiryymmm[PCF<5<iwwwyrmmmr"
+  },
+  {
+    "region": "0x340000",
+    "text": "vg`d\\\\PPPIPPP= (;PdZ"
+  },
+  {
+    "region": "0x340000",
+    "text": "   ,;CCCC;EEEERVV\\\\ivv"
+  },
+  {
+    "region": "0x350000",
+    "text": "~vuee\\OSTTTTaaTS\\\\eu~e !---k"
+  },
+  {
+    "region": "0x350000",
+    "text": "uMGJSTTaaaaTTaaaaaTTTTf= "
+  },
+  {
+    "region": "0x360000",
+    "text": "^;KPCCB;B;;2 %BVeeeerz"
+  },
+  {
+    "region": "0x360000",
+    "text": "jBBPKCCKCCC5 *Ceeorzz"
+  },
+  {
+    "region": "0x360000",
+    "text": "tK5PPPKPP]]; *Keozr"
+  },
+  {
+    "region": "0x360000",
+    "text": "gCB;;;KK;BCCC;*%;;2KoeC2DXccppD BPj"
+  },
+  {
+    "region": "0x370000",
+    "text": "9 Dk]XMkkkkk]k]9Xu"
+  },
+  {
+    "region": "0x370000",
+    "text": "wmmmmmmmeeeeeeeme39D "
+  },
+  {
+    "region": "0x370000",
+    "text": "vggggvvjRD-   .=v"
+  },
+  {
+    "region": "0x380000",
+    "text": " 7\\{{seVRIIIC=CRV`````eekkkkeeee``\\AAT\\VRC/,,=az"
+  },
+  {
+    "region": "0x380000",
+    "text": "~uk`\\\\VIR\\`ekekksuuu{uu{{ukeeTTe```e\\R/ ,Tz"
+  },
+  {
+    "region": "0x380000",
+    "text": "wcXD3-3KXZ? (7V`eeeeeeek"
+  },
+  {
+    "region": "0x390000",
+    "text": " S,IIIIOLVVV]VVN;6"
+  },
+  {
+    "region": "0x390000",
+    "text": "}sTB:&+BTTZgTOOLLL "
+  },
+  {
+    "region": "0x390000",
+    "text": "kkkkg[[PFFF99FFFPPSSS[cclxyl[c[[PF9.   "
+  },
+  {
+    "region": "0x390000",
+    "text": "~~~~~oolccccccccclsyyyxc[[[PF..   "
+  },
+  {
+    "region": "0x390000",
+    "text": "~~xolllllllllsxyyysc[[PF9.   "
+  },
+  {
+    "region": "0x390000",
+    "text": "~~~xxxxxyyysssyyyylc[PF9..  "
+  },
+  {
+    "region": "0x390000",
+    "text": "yyyyyyysl[[PF9.  "
+  },
+  {
+    "region": "0x390000",
+    "text": "yyyyyyysc[[F9.. "
+  },
+  {
+    "region": "0x390000",
+    "text": "yysc]SSSSEE:+   "
+  },
+  {
+    "region": "0x3a0000",
+    "text": "SccYCPC/   /CPPP<'"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "zvvzvqlkkll_dd_S #"
+  },
+  {
+    "region": "0x3b0000",
+    "text": " --Gd@!9EEEEEBBBBBBBBBEEENNNNN``||"
+  },
+  {
+    "region": "0x3b0000",
+    "text": ">GGSGGO>88  GbUYUUUU"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "-GGOOGS_dlG-- 8YdY_d "
+  },
+  {
+    "region": "0x3b0000",
+    "text": " >GOOGO_dhl>-- Gdd_dS"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "zvzqlllkhhhdhhhdhhO #n"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "zvvvlllrlkdddddhdddS n"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "zzvrlqlkkhdhddhhhY8 "
+  },
+  {
+    "region": "0x3b0000",
+    "text": "zzzzvqllkkkkl_hddhO R"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "vvvvvvvkkkdkld__S  "
+  },
+  {
+    "region": "0x3b0000",
+    "text": " ;MMMMMclcMMMMMMMMS"
+  },
+  {
+    "region": "0x3b0000",
+    "text": " PcMM[c[MSttllMMDDAA&"
+  },
+  {
+    "region": "0x3b0000",
+    "text": "hY $JYYYGGGJJ((99KT@KK?66Urrb?$"
+  },
+  {
+    "region": "0x3b0000",
+    "text": " $$JbbbbbrrbrrrbUJ?bbUKU("
+  },
+  {
+    "region": "0x3c0000",
+    "text": "!!0EZT 0hqhZTZZME8!"
+  },
+  {
+    "region": "0x3c0000",
+    "text": "!088MM 8ZhhhTZhhTTTE 0h"
+  },
+  {
+    "region": "0x3c0000",
+    "text": "!888MT  ZTTTMTZZZTMM8Mq"
+  },
+  {
+    "region": "0x3c0000",
+    "text": "`NmvrrrrvkkB3.0%%%%! <KdpppV"
+  },
+  {
+    "region": "0x3d0000",
+    "text": "ssbbbbbbbiiibSC "
+  },
+  {
+    "region": "0x3d0000",
+    "text": "{shbZZZbbbbbbSC "
+  },
+  {
+    "region": "0x3e0000",
+    "text": "> ^qfqqf^^fqwwwwwwwwww"
+  },
+  {
+    "region": "0x3e0000",
+    "text": "+ri9ccWcqqc1 +BWccWcccccWWWW"
+  },
+  {
+    "region": "0x3e0000",
+    "text": "dIZ`fkl~sdls~vsf`XJ=+  "
+  },
+  {
+    "region": "0x3e0000",
+    "text": "MJJHH]ddMVlslsk`XXPC8.#  "
+  },
+  {
+    "region": "0x3e0000",
+    "text": "o%6HWOHOdsld]kfXPPXPI=/'  "
+  },
+  {
+    "region": "0x3e0000",
+    "text": "3JXH?Wf]VO]kfZXLLLLPLC8+# "
+  },
+  {
+    "region": "0x3f0000",
+    "text": "ObbWWbboobbWTLLQVZaQ?/+%   "
+  },
+  {
+    "region": "0x3f0000",
+    "text": "'KYVYbibbYTKKKI<3//++% "
+  },
+  {
+    "region": "0x3f0000",
+    "text": "H:YYYisoiobbbbYTLI??</% "
+  },
+  {
+    "region": "0x3f0000",
+    "text": "'VYYosssossssib``VQI</% "
+  }
+]

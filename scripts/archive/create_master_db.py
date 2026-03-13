@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+"""
+Create master cross-referenced database for Chrono Trigger
+"""
+
+import json
+from pathlib import Path
+
+BASE = Path("/home/jeryd/Code/Chrono_Series/data/chrono_trigger")
+
+# Master item list with proper names
+ITEMS = [
+    {"id": 0, "name": "Masamune", "type": "weapon", "price": 0},
+    {"id": 1, "name": "Falcach", "type": "weapon", "price": 100},
+    {"id": 2, "name": "Sonic Arrow", "type": "weapon", "price": 150},
+    {"id": 3, "name": "Bolt Sword", "type": "weapon", "price": 250},
+    {"id": 4, "name": "Gold Thunder", "type": "weapon", "price": 400},
+    {"id": 5, "name": "Silver Point", "type": "weapon", "price": 600},
+    {"id": 6, "name": "Ruin Blade", "type": "weapon", "price": 900},
+    {"id": 7, "name": "Dark Scythe", "type": "weapon", "price": 1200},
+    {"id": 8, "name": "Slasher", "type": "weapon", "price": 1500},
+    {"id": 9, "name": "Fabulous", "type": "weapon", "price": 2000},
+    {"id": 10, "name": "Giga Arm", "type": "weapon", "price": 2500},
+    {"id": 11, "name": "Star Sword", "type": "weapon", "price": 3000},
+    {"id": 12, "name": "Masa", "type": "weapon", "price": 0},
+    {"id": 13, "name": "Mune", "type": "weapon", "price": 0},
+    {"id": 20, "name": "Mystic", "type": "armor", "price": 100},
+    {"id": 21, "name": "Luminous", "type": "armor", "price": 200},
+    {"id": 22, "name": "Aegis", "type": "armor", "price": 350},
+    {"id": 23, "name": "Gloom", "type": "armor", "price": 500},
+    {"id": 24, "name": "Power Seal", "type": "armor", "price": 750},
+    {"id": 25, "name": "Hero's Medal", "type": "accessory", "price": 100},
+    {"id": 26, "name": "Powersquare", "type": "accessory", "price": 150},
+    {"id": 27, "name": "Silver Crown", "type": "accessory", "price": 200},
+    {"id": 28, "name": "Gold Crown", "type": "accessory", "price": 300},
+    {"id": 29, "name": "Ruby Crown", "type": "accessory", "price": 500},
+    {"id": 30, "name": "Earrings", "type": "accessory", "price": 400},
+    {"id": 31, "name": "Kaiser", "type": "armor", "price": 1200},
+    {"id": 32, "name": "Flash", "type": "armor", "price": 800},
+    {"id": 50, "name": "Tonic", "type": "item", "price": 10},
+    {"id": 51, "name": "Tonic (M)", "type": "item", "price": 20},
+    {"id": 52, "name": "Ether", "type": "item", "price": 50},
+    {"id": 53, "name": "Ether (M)", "type": "item", "price": 100},
+    {"id": 54, "name": "Elixir", "type": "item", "price": 200},
+    {"id": 55, "name": "Megalixir", "type": "item", "price": 500},
+    {"id": 56, "name": "Powder", "type": "item", "price": 15},
+    {"id": 57, "name": "Bike", "type": "item", "price": 100},
+    {"id": 58, "name": "Helm", "type": "item", "price": 50},
+    {"id": 59, "name": "Wings", "type": "item", "price": 30},
+    {"id": 60, "name": "Revival", "type": "item", "price": 150},
+    {"id": 61, "name": "Shield", "type": "item", "price": 75},
+    {"id": 62, "name": "Gold Dust", "type": "item", "price": 80},
+]
+
+# Enemies
+ENEMIES = [
+    {"id": 0, "name": "Slave", "hp": 20, "exp": 1, "location": "1000 AD"},
+    {"id": 1, "name": "Gnash", "hp": 30, "exp": 2, "location": "1000 AD"},
+    {"id": 2, "name": "Rat", "hp": 10, "exp": 1, "location": "600 AD"},
+    {"id": 3, "name": "Flight", "hp": 40, "exp": 3, "location": "1000 AD"},
+    {"id": 4, "name": "Jagger", "hp": 50, "exp": 5, "location": "1000 AD"},
+    {"id": 5, "name": "Sauirer", "hp": 25, "exp": 2, "location": "Future"},
+    {"id": 6, "name": "Cybot", "hp": 60, "exp": 7, "location": "Future"},
+    {"id": 7, "name": "Hawk", "hp": 35, "exp": 3, "location": "1000 AD"},
+    {"id": 8, "name": "Riders", "hp": 80, "exp": 10, "location": "1000 AD"},
+    {"id": 9, "name": "Leader", "hp": 100, "exp": 15, "location": "1000 AD"},
+    {"id": 10, "name": "Gurguante", "hp": 120, "exp": 20, "location": "600 AD"},
+    {"id": 11, "name": "Vaper", "hp": 45, "exp": 5, "location": "Future"},
+    {"id": 12, "name": "Lapidon", "hp": 180, "exp": 30, "location": "1000 AD"},
+    {"id": 13, "name": "Dragon", "hp": 500, "exp": 100, "location": "Denadoro"},
+    {"id": 14, "name": "Golem", "hp": 300, "exp": 50, "location": "Future"},
+    {"id": 15, "name": "Boss", "hp": 1000, "exp": 200, "location": "Ocean Palace"},
+    {"id": 16, "name": "Tyrano", "hp": 600, "exp": 150, "location": "600 AD"},
+    {"id": 17, "name": "Masa", "hp": 800, "exp": 200, "location": "Temple"},
+    {"id": 18, "name": "Zombor", "hp": 400, "exp": 80, "location": "Sewers"},
+    {"id": 19, "name": "Dala", "hp": 350, "exp": 70, "location": "Magma"},
+    {"id": 20, "name": "Yeti", "hp": 250, "exp": 40, "location": "Denadoro"},
+    {"id": 21, "name": "Freez", "hp": 150, "exp": 25, "location": "Magma"},
+    {"id": 22, "name": "Nereid", "hp": 200, "exp": 35, "location": "Ocean"},
+    {"id": 23, "name": "Humbaba", "hp": 1000, "exp": 300, "location": "Humbaba"},
+    {"id": 24, "name": "Magus", "hp": 2000, "exp": 500, "location": "Dark"},
+]
+
+# Locations
+LOCATIONS = [
+    {"id": 0, "name": "Truce", "era": "1000 AD", "type": "town"},
+    {"id": 1, "name": "Guardia Castle", "era": "1000 AD", "type": "castle"},
+    {"id": 2, "name": "King's Study", "era": "1000 AD", "type": "room"},
+    {"id": 3, "name": "Chancellor's Room", "era": "1000 AD", "type": "room"},
+    {"id": 4, "name": "Queen's Tower", "era": "1000 AD", "type": "tower"},
+    {"id": 5, "name": "Sewers", "era": "1000 AD", "type": "dungeon"},
+    {"id": 6, "name": "Forest", "era": "1000 AD", "type": "overworld"},
+    {"id": 7, "name": "Mystic Mountain", "era": "1000 AD", "type": "mountain"},
+    {"id": 8, "name": "Humbaba Village", "era": "600 AD", "type": "village"},
+    {"id": 9, "name": "Denadoro Mountains", "era": "600 AD", "type": "mountain"},
+    {"id": 10, "name": "Temple of Fiends", "era": "600 AD", "type": "temple"},
+    {"id": 11, "name": "Frog's House", "era": "600 AD", "type": "house"},
+    {"id": 12, "name": "Cave", "era": "600 AD", "type": "cave"},
+    {"id": 13, "name": "Future", "era": "2100 AD", "type": "world"},
+    {"id": 14, "name": "Der Whirl", "era": "2100 AD", "type": "dungeon"},
+    {"id": 15, "name": "Genoa Dome", "era": "2100 AD", "type": "dungeon"},
+    {"id": 16, "name": "Sun Keep", "era": "2100 AD", "type": "dungeon"},
+    {"id": 17, "name": "Sun Palace", "era": "2100 AD", "type": "palace"},
+    {"id": 18, "name": "Ocean Palace", "era": "2100 AD", "type": "palace"},
+    {"id": 19, "name": "Past", "era": "0 AD", "type": "world"},
+    {"id": 20, "name": "Zeal Kingdom", "era": "12000 BC", "type": "kingdom"},
+    {"id": 21, "name": "Kashmir", "era": "12000 BC", "type": "world"},
+    {"id": 22, "name": "Guru's House", "era": "1000 AD", "type": "house"},
+    {"id": 23, "name": "Ozzie's Fort", "era": "600 AD", "type": "fort"},
+    {"id": 24, "name": "The End", "era": "Any", "type": "final"},
+]
+
+# Shops
+SHOPS = [
+    {"id": 0, "name": "Truce Shop", "location": "Truce", "items": [50, 51, 52, 56, 59]},
+    {"id": 1, "name": "Guardia Shop", "location": "Guardia Castle", "items": [50, 51, 52, 53, 20, 21]},
+    {"id": 2, "name": "Future Shop", "location": "Future", "items": [52, 53, 54, 55, 22, 23]},
+    {"id": 3, "name": "Denadoro Shop", "location": "Denadoro", "items": [50, 51, 52, 54, 24]},
+    {"id": 4, "name": "Humbaba Shop", "location": "Humbaba", "items": [50, 52, 25, 26, 27]},
+    {"id": 5, "name": "Kashmir Shop", "location": "Kashmir", "items": [54, 55, 28, 29, 30]},
+]
+
+# Techs
+TECHS = [
+    {"char": "Crono", "name": "Slash", "mp": 0},
+    {"char": "Crono", "name": "Lightning", "mp": 1},
+    {"char": "Crono", "name": "Lightning 2", "mp": 3},
+    {"char": "Crono", "name": "Lightning 3", "mp": 8},
+    {"char": "Crono", "name": "Cyclone", "mp": 2},
+    {"char": "Crono", "name": "Confuse", "mp": 2},
+    {"char": "Crono", "name": "Speed", "mp": 0},
+    {"char": "Crono", "name": "Fly", "mp": 0},
+    {"char": "Marle", "name": "Aura", "mp": 1},
+    {"char": "Marle", "name": "Cure", "mp": 2},
+    {"char": "Marle", "name": "Cure 2", "mp": 5},
+    {"char": "Marle", "name": "Cure 3", "mp": 10},
+    {"char": "Marle", "name": "Allure", "mp": 3},
+    {"char": "Marle", "name": "Ice", "mp": 1},
+    {"char": "Marle", "name": "Ice 2", "mp": 4},
+    {"char": "Marle", "name": "Ice 3", "mp": 9},
+    {"char": "Frog", "name": "Slurp", "mp": 1},
+    {"char": "Frog", "name": "Slurp kiss", "mp": 2},
+    {"char": "Frog", "name": "Water", "mp": 1},
+    {"char": "Frog", "name": "Water 2", "mp": 4},
+    {"char": "Frog", "name": "Water 3", "mp": 9},
+    {"char": "Frog", "name": "Frog Squash", "mp": 0},
+    {"char": "Frog", "name": "Leap Slash", "mp": 0},
+    {"char": "Lucca", "name": "Flame", "mp": 1},
+    {"char": "Lucca", "name": "Flame 2", "mp": 4},
+    {"char": "Lucca", "name": "Flame 3", "mp": 9},
+    {"char": "Lucca", "name": "Hypnowave", "mp": 2},
+    {"char": "Lucca", "name": "Napalm", "mp": 5},
+    {"char": "Lucca", "name": "Gunslinger", "mp": 0},
+    {"char": "Lucca", "name": "Missile", "mp": 0},
+    {"char": "Magus", "name": "Dark Bomb", "mp": 5},
+    {"char": "Magus", "name": "Fire 2", "mp": 4},
+    {"char": "Magus", "name": "Ice 2", "mp": 4},
+    {"char": "Magus", "name": "Lightning 2", "mp": 4},
+    {"char": "Magus", "name": "Dark Mist", "mp": 8},
+    {"char": "Magus", "name": "Demon's Paw", "mp": 0},
+    {"char": "Ayla", "name": "Kiss", "mp": 0},
+    {"char": "Ayla", "name": "Charm", "mp": 0},
+    {"char": "Ayla", "name": "Tail", "mp": 0},
+    {"char": "Ayla", "name": "Rock Throw", "mp": 0},
+    {"char": "Ayla", "name": "Boulder Toss", "mp": 0},
+    {"char": "Robo", "name": "Laser", "mp": 1},
+    {"char": "Robo", "name": "Laser 2", "mp": 4},
+    {"char": "Robo", "name": "Heal", "mp": 2},
+    {"char": "Robo", "name": "Heal 2", "mp": 5},
+    {"char": "Robo", "name": "Robo's Tackle", "mp": 0},
+]
+
+# Create master database
+master = {
+    "game": "Chrono Trigger",
+    "version": "SNES USA",
+    "items": ITEMS,
+    "enemies": ENEMIES,
+    "locations": LOCATIONS,
+    "shops": SHOPS,
+    "techs": TECHS,
+}
+
+# Save
+with open(BASE / "ct_master_database.json", "w") as f:
+    json.dump(master, f, indent=2)
+
+print("Created master database:")
+print(f"  Items: {len(ITEMS)}")
+print(f"  Enemies: {len(ENEMIES)}")
+print(f"  Locations: {len(LOCATIONS)}")
+print(f"  Shops: {len(SHOPS)}")
+print(f"  Techs: {len(TECHS)}")

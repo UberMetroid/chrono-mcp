@@ -1,0 +1,22 @@
+[
+  {
+    "offset": "0x1bc800",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "offset": "0x26d000",
+    "width": 255,
+    "height": 255
+  },
+  {
+    "offset": "0x26dc00",
+    "width": 255,
+    "height": 255
+  },
+  {
+    "offset": "0x26e800",
+    "width": 255,
+    "height": 255
+  }
+]

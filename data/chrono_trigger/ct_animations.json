@@ -1,0 +1,302 @@
+[
+  {
+    "offset": "0x240120",
+    "frame_count": 15,
+    "speed": 15,
+    "sample": "0f360f360f360f360f360f360f360f36"
+  },
+  {
+    "offset": "0x240140",
+    "frame_count": 15,
+    "speed": 15,
+    "sample": "0f360f360f360f360f360f360f360f36"
+  },
+  {
+    "offset": "0x2401c0",
+    "frame_count": 10,
+    "speed": 77,
+    "sample": "0a3a4d150945e714a508ff7f7c6b3f57"
+  },
+  {
+    "offset": "0x2402e0",
+    "frame_count": 13,
+    "speed": 76,
+    "sample": "0d014c398b2de714a508ff7f1a3f7967"
+  },
+  {
+    "offset": "0x240460",
+    "frame_count": 4,
+    "speed": 46,
+    "sample": "04252e0d8410e714a508ff7f957e9c53"
+  },
+  {
+    "offset": "0x2408c0",
+    "frame_count": 19,
+    "speed": 245,
+    "sample": "135af57db4486e3910590a291030e714"
+  },
+  {
+    "offset": "0x2408e0",
+    "frame_count": 16,
+    "speed": 75,
+    "sample": "10594b1d1030e7148408ff7f7d4fbf31"
+  },
+  {
+    "offset": "0x240e60",
+    "frame_count": 20,
+    "speed": 223,
+    "sample": "1432df021c015126a81d2f19c9188618"
+  },
+  {
+    "offset": "0x240e80",
+    "frame_count": 6,
+    "speed": 154,
+    "sample": "062d9a251408ce4586088f25d6112a15"
+  },
+  {
+    "offset": "0x240f40",
+    "frame_count": 15,
+    "speed": 15,
+    "sample": "0f360f360f360f3686149f6fda3e1036"
+  },
+  {
+    "offset": "0x241060",
+    "frame_count": 13,
+    "speed": 54,
+    "sample": "0d1536159224c720430c9c6ff7520000"
+  },
+  {
+    "offset": "0x2411e0",
+    "frame_count": 19,
+    "speed": 104,
+    "sample": "13156845ca05e714a508ff7fdf571c27"
+  },
+  {
+    "offset": "0x241360",
+    "frame_count": 8,
+    "speed": 13,
+    "sample": "08290d090815e7148408ff7fdf4ea97e"
+  },
+  {
+    "offset": "0x241460",
+    "frame_count": 14,
+    "speed": 154,
+    "sample": "0e119a0af20c3a0f5111fa245314ce45"
+  },
+  {
+    "offset": "0x2414c0",
+    "frame_count": 15,
+    "speed": 204,
+    "sample": "0f3acc2d2819e70cdf2bbb122d096308"
+  },
+  {
+    "offset": "0x241580",
+    "frame_count": 9,
+    "speed": 154,
+    "sample": "091d9a57924eeb394629e1248318410c"
+  },
+  {
+    "offset": "0x241700",
+    "frame_count": 20,
+    "speed": 193,
+    "sample": "1420c158c4792169bf16ff05b476bb05"
+  },
+  {
+    "offset": "0x242860",
+    "frame_count": 12,
+    "speed": 44,
+    "sample": "0cbb2cbb48bb6cbb90bbb0bbd0bbecbb"
+  },
+  {
+    "offset": "0x243380",
+    "frame_count": 20,
+    "speed": 255,
+    "sample": "1415ff00ca37cb37ff00000067ff0000"
+  },
+  {
+    "offset": "0x2435a0",
+    "frame_count": 14,
+    "speed": 255,
+    "sample": "0e0fff00d6d7d8d7ff00000069ff0000"
+  },
+  {
+    "offset": "0x243680",
+    "frame_count": 2,
+    "speed": 237,
+    "sample": "02ecedffeeefff00a0c1ff00f0ff0000"
+  },
+  {
+    "offset": "0x2437e0",
+    "frame_count": 3,
+    "speed": 255,
+    "sample": "033fff0046034703ff00000053ff0000"
+  },
+  {
+    "offset": "0x2439a0",
+    "frame_count": 10,
+    "speed": 12,
+    "sample": "0a0b0c0d0e0fff00e835e935ff000000"
+  },
+  {
+    "offset": "0x243ac0",
+    "frame_count": 20,
+    "speed": 255,
+    "sample": "1415ff00ea39eb39ff00000056ff0000"
+  },
+  {
+    "offset": "0x243c00",
+    "frame_count": 1,
+    "speed": 74,
+    "sample": "01874aff3a3b3c3dff00000061626361"
+  },
+  {
+    "offset": "0x243d20",
+    "frame_count": 3,
+    "speed": 54,
+    "sample": "03353637ff0000004467677bff000000"
+  },
+  {
+    "offset": "0x244280",
+    "frame_count": 14,
+    "speed": 255,
+    "sample": "0e0fff00d0d1d2d1ff00000069ff0000"
+  },
+  {
+    "offset": "0x244500",
+    "frame_count": 3,
+    "speed": 255,
+    "sample": "033fff0046034703ff00000053ff0000"
+  },
+  {
+    "offset": "0x2447a0",
+    "frame_count": 3,
+    "speed": 4,
+    "sample": "03010402ff0000004f4e38a1ff000000"
+  },
+  {
+    "offset": "0x244a40",
+    "frame_count": 2,
+    "speed": 1,
+    "sample": "02030104ff0000005554a5a4ff000000"
+  },
+  {
+    "offset": "0x244d40",
+    "frame_count": 1,
+    "speed": 255,
+    "sample": "013dff0042014301ff00000051ff0000"
+  },
+  {
+    "offset": "0x244de0",
+    "frame_count": 16,
+    "speed": 18,
+    "sample": "101112131415ff00fbfcfdfcfdff0000"
+  },
+  {
+    "offset": "0x244fa0",
+    "frame_count": 16,
+    "speed": 255,
+    "sample": "1011ff001213ff0014ff000001ff0000"
+  },
+  {
+    "offset": "0x244fc0",
+    "frame_count": 18,
+    "speed": 255,
+    "sample": "1213ff0014ff000002ff0000020a020b"
+  },
+  {
+    "offset": "0x245020",
+    "frame_count": 1,
+    "speed": 8,
+    "sample": "01070809ff0000000eff00000f01ff00"
+  },
+  {
+    "offset": "0x245140",
+    "frame_count": 2,
+    "speed": 2,
+    "sample": "020c020dff00000003ff0000030e030f"
+  },
+  {
+    "offset": "0x2451e0",
+    "frame_count": 18,
+    "speed": 255,
+    "sample": "1213ff001617ff001aff00001cff0000"
+  },
+  {
+    "offset": "0x245380",
+    "frame_count": 16,
+    "speed": 17,
+    "sample": "10011101ff00000012ff000003ff0000"
+  },
+  {
+    "offset": "0x2453c0",
+    "frame_count": 6,
+    "speed": 7,
+    "sample": "06010701ff00000002ff000008020902"
+  },
+  {
+    "offset": "0x245460",
+    "frame_count": 20,
+    "speed": 255,
+    "sample": "1412ff0016ff000003ff00000d0e0f03"
+  },
+  {
+    "offset": "0x2454a0",
+    "frame_count": 8,
+    "speed": 10,
+    "sample": "08090a0b1415160102ff00000c0d0e0f"
+  },
+  {
+    "offset": "0x2454c0",
+    "frame_count": 16,
+    "speed": 18,
+    "sample": "10111213ff0000001011121314151603"
+  },
+  {
+    "offset": "0x2455c0",
+    "frame_count": 9,
+    "speed": 11,
+    "sample": "090a0b0aff0000000aff00000aff0000"
+  },
+  {
+    "offset": "0x245600",
+    "frame_count": 12,
+    "speed": 255,
+    "sample": "0c11ff0004ff000003040504ff000000"
+  },
+  {
+    "offset": "0x245620",
+    "frame_count": 13,
+    "speed": 255,
+    "sample": "0d12ff000d12ff0007ff000006070807"
+  },
+  {
+    "offset": "0x2456e0",
+    "frame_count": 9,
+    "speed": 11,
+    "sample": "090a0b0aff0000000aff00000aff0000"
+  },
+  {
+    "offset": "0x245720",
+    "frame_count": 3,
+    "speed": 5,
+    "sample": "0304050403040504ff00000003040504"
+  },
+  {
+    "offset": "0x245740",
+    "frame_count": 6,
+    "speed": 8,
+    "sample": "0607080706070807ff00000006070807"
+  },
+  {
+    "offset": "0x245760",
+    "frame_count": 9,
+    "speed": 11,
+    "sample": "090a0b0a090a0b0aff000000090a0b0a"
+  },
+  {
+    "offset": "0x2457a0",
+    "frame_count": 15,
+    "speed": 16,
+    "sample": "0f1110ff1516150e1819180e0eff0000"
+  }
+]

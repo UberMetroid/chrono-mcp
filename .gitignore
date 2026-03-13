@@ -1,0 +1,31 @@
+# ROM files - DO NOT UPLOAD
+*.sfc
+*.smc
+*.bin
+*.iso
+*.nds
+*.gba
+*.zip
+*.pcm
+*.cue
+
+# Game directories with ROMs
+Chrono Trigger/
+Chrono Cross/
+Radical Dreamers/
+
+# Large binary files - use scripts to regenerate
+*.wav
+*.mp3
+*.ogg
+*.ppm
+*.raw
+
+# Keep extracted JSON data
+!data/**/*.json
+
+# Large art/audio data
+data/art/
+data/audio/
+data/full/
+data/raw/

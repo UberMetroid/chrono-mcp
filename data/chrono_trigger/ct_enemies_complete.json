@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "name": "Slave",
+    "hp": 20,
+    "exp": 1
+  },
+  {
+    "id": 1,
+    "name": "Gnash",
+    "hp": 30,
+    "exp": 2
+  },
+  {
+    "id": 2,
+    "name": "Rat",
+    "hp": 10,
+    "exp": 1
+  },
+  {
+    "id": 3,
+    "name": "Flight",
+    "hp": 40,
+    "exp": 3
+  },
+  {
+    "id": 4,
+    "name": "Jagger",
+    "hp": 50,
+    "exp": 5
+  },
+  {
+    "id": 5,
+    "name": "Sauirer",
+    "hp": 25,
+    "exp": 2
+  },
+  {
+    "id": 6,
+    "name": "Cybot",
+    "hp": 60,
+    "exp": 7
+  },
+  {
+    "id": 7,
+    "name": "Hawk",
+    "hp": 35,
+    "exp": 3
+  },
+  {
+    "id": 8,
+    "name": "Riders",
+    "hp": 80,
+    "exp": 10
+  },
+  {
+    "id": 9,
+    "name": "Leader",
+    "hp": 100,
+    "exp": 15
+  },
+  {
+    "id": 10,
+    "name": "Gurguante",
+    "hp": 120,
+    "exp": 20
+  },
+  {
+    "id": 11,
+    "name": "Vaper",
+    "hp": 45,
+    "exp": 5
+  },
+  {
+    "id": 12,
+    "name": "Lapidon",
+    "hp": 180,
+    "exp": 30
+  },
+  {
+    "id": 13,
+    "name": "Dragon",
+    "hp": 500,
+    "exp": 100
+  }
+]

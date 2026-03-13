@@ -1,0 +1,1610 @@
+[
+  {
+    "offset": "0x24d8",
+    "text": "          Licensed  by          Sony Computer Entertainment Amer  ica "
+  },
+  {
+    "offset": "0x673bc",
+    "text": "PutDrawEnv(%08x)..."
+  },
+  {
+    "offset": "0x74e54",
+    "text": "CdlReadS"
+  },
+  {
+    "offset": "0x74e60",
+    "text": "CdlSeekP"
+  },
+  {
+    "offset": "0x74e6c",
+    "text": "CdlSeekL"
+  },
+  {
+    "offset": "0x74ec8",
+    "text": "CdlDemute"
+  },
+  {
+    "offset": "0x74ed4",
+    "text": "CdlMute"
+  },
+  {
+    "offset": "0x74ef4",
+    "text": "CdlStop"
+  },
+  {
+    "offset": "0x74f08",
+    "text": "CdlReadN"
+  },
+  {
+    "offset": "0x74f7c",
+    "text": "DataReady"
+  },
+  {
+    "offset": "0x74fa0",
+    "text": "%s:(%s) Sync=%s, Ready=%s"
+  },
+  {
+    "offset": "0x75020",
+    "text": "CD_ready"
+  },
+  {
+    "offset": "0x7616c",
+    "text": "packet buffer"
+  },
+  {
+    "offset": "0x7623c",
+    "text": "cd read"
+  },
+  {
+    "offset": "0x10f1b4",
+    "text": "kz_GetKabuShockPos()"
+  },
+  {
+    "offset": "0x10f2c8",
+    "text": "kz_GetHitType()"
+  },
+  {
+    "offset": "0x10f2d8",
+    "text": "kz_GetDeath()"
+  },
+  {
+    "offset": "0x10f388",
+    "text": "kz_Erase()"
+  },
+  {
+    "offset": "0x10f688",
+    "text": "Kz_ActionRead()"
+  },
+  {
+    "offset": "0x10f6bc",
+    "text": "Kz_ActionRead()"
+  },
+  {
+    "offset": "0x10f704",
+    "text": "Kz_ActionRead()"
+  },
+  {
+    "offset": "0x18967e",
+    "text": "BUFf3CVfvf"
+  },
+  {
+    "offset": "0x18e498",
+    "text": "kill"
+  },
+  {
+    "offset": "0x18ef74",
+    "text": "kill\" "
+  },
+  {
+    "offset": "0x191a28",
+    "text": "kill# "
+  },
+  {
+    "offset": "0x191b00",
+    "text": "kill\" "
+  },
+  {
+    "offset": "0x191c2c",
+    "text": "kill# "
+  },
+  {
+    "offset": "0x1e2093",
+    "text": "ZGSeeA===LA.$"
+  },
+  {
+    "offset": "0x202b26",
+    "text": "YHIT0H\\G"
+  },
+  {
+    "offset": "0x204688",
+    "text": "qdaaaEaLaWE%9"
+  },
+  {
+    "offset": "0x208a43",
+    "text": "W'XC(vsEE="
+  },
+  {
+    "offset": "0x23b318",
+    "text": "Auto Allocate"
+  },
+  {
+    "offset": "0x23eac8",
+    "text": "V33\"3Seev"
+  },
+  {
+    "offset": "0x25e8c6",
+    "text": "are currently allocated"
+  },
+  {
+    "offset": "0x25f714",
+    "text": "allocated Elements from"
+  },
+  {
+    "offset": "0x25f98f",
+    "text": "    - Healing & Supplemental First"
+  },
+  {
+    "offset": "0x25f9c7",
+    "text": "Auto Allocate"
+  },
+  {
+    "offset": "0x25fc69",
+    "text": "Cancel/Hold down to run"
+  },
+  {
+    "offset": "0x25fced",
+    "text": "Slow Motion"
+  },
+  {
+    "offset": "0x25fd6a",
+    "text": "Cancel"
+  },
+  {
+    "offset": "0x25fd72",
+    "text": "Change character (=right button)"
+  },
+  {
+    "offset": "0x25fdb7",
+    "text": "Change character (=left button)"
+  },
+  {
+    "offset": "0x25fdd8",
+    "text": "Change character (=right button)"
+  },
+  {
+    "offset": "0x25ffbb",
+    "text": "BLACKSMITH'S"
+  },
+  {
+    "offset": "0x25fff1",
+    "text": "No. allocated"
+  },
+  {
+    "offset": "0x260010",
+    "text": "Price"
+  },
+  {
+    "offset": "0x2601f2",
+    "text": "white)"
+  },
+  {
+    "offset": "0x2601fa",
+    "text": "black)"
+  },
+  {
+    "offset": "0x26021f",
+    "text": "White"
+  },
+  {
+    "offset": "0x260226",
+    "text": "Black"
+  },
+  {
+    "offset": "0x260240",
+    "text": "Cancel/Hold down to walk"
+  },
+  {
+    "offset": "0x260488",
+    "text": "Where ripples become waves..."
+  },
+  {
+    "offset": "0x260505",
+    "text": "A mariner's worst nightmare..."
+  },
+  {
+    "offset": "0x2605c5",
+    "text": "lBack from the Darkness -"
+  },
+  {
+    "offset": "0x2607c6",
+    "text": "The Arbiter of Time -"
+  },
+  {
+    "offset": "0x267c5c",
+    "text": "whit"
+  },
+  {
+    "offset": "0x2771b8",
+    "text": ">ZY^_P]^s STOP^&"
+  },
+  {
+    "offset": "0x284fd4",
+    "text": "RIk]SEEcz"
+  },
+  {
+    "offset": "0x286b60",
+    "text": "sEE/U"
+  },
+  {
+    "offset": "0x2963e7",
+    "text": "sEE44E"
+  },
+  {
+    "offset": "0x296dc7",
+    "text": "qAAWeFF[W4"
+  },
+  {
+    "offset": "0x29b585",
+    "text": "iCE4e"
+  },
+  {
+    "offset": "0x29f57c",
+    "text": "feel"
+  },
+  {
+    "offset": "0x2c2c19",
+    "text": "seeeeeZPPHAEE==5,,,,5555EHZm"
+  },
+  {
+    "offset": "0x2e04c6",
+    "text": "_,ekILLLD29C%_a"
+  },
+  {
+    "offset": "0x30252a",
+    "text": "sEES?3.."
+  },
+  {
+    "offset": "0x30656e",
+    "text": "}lSEEN"
+  },
+  {
+    "offset": "0x306b9a",
+    "text": "siN?0((?SEEN0HUU-"
+  },
+  {
+    "offset": "0x309ba5",
+    "text": "sSEE?:-\"\""
+  },
+  {
+    "offset": "0x33e46a",
+    "text": "iCe3j\\"
+  },
+  {
+    "offset": "0x343c14",
+    "text": "7ttSEe"
+  },
+  {
+    "offset": "0x367f6f",
+    "text": "}raWLE>5+(+#(++25>Tlllrrrw}rffffhaWE-6(-+Z"
+  },
+  {
+    "offset": "0x368717",
+    "text": "-9>PKKTTKYf\\PIEEPfuqaWE-2BL\\\\TLEEEI6"
+  },
+  {
+    "offset": "0x36946f",
+    "text": "\\HIT\\T9/9"
+  },
+  {
+    "offset": "0x38fc8d",
+    "text": "}so\\TOICC:;LSSEE;ELOTZ"
+  },
+  {
+    "offset": "0x397ee3",
+    "text": "NXssssc]]]SEE2+"
+  },
+  {
+    "offset": "0x397f5b",
+    "text": "zmmmmmmzd7Pc]]SSEE:++"
+  },
+  {
+    "offset": "0x397fdb",
+    "text": "zmmdddddd57PSEE:2+"
+  },
+  {
+    "offset": "0x399c81",
+    "text": "yysc]SSSSEE:+   "
+  },
+  {
+    "offset": "0x399d01",
+    "text": "yss]SEEEEE:2+  "
+  },
+  {
+    "offset": "0x399e00",
+    "text": "ysc]SEE::::2+!"
+  },
+  {
+    "offset": "0x39ffa9",
+    "text": " /JfhhiTm"
+  },
+  {
+    "offset": "0x3ba239",
+    "text": "sZssee~~~"
+  },
+  {
+    "offset": "0x3ba608",
+    "text": "ee~~sees~seZ7I)"
+  },
+  {
+    "offset": "0x3ba679",
+    "text": "~~sssee"
+  },
+  {
+    "offset": "0x3ba70e",
+    "text": "seeesZ="
+  },
+  {
+    "offset": "0x3baafd",
+    "text": "ZZseees"
+  },
+  {
+    "offset": "0x3eecc7",
+    "text": "PICEA>2(!"
+  },
+  {
+    "offset": "0x3f5b68",
+    "text": "RICERE"
+  },
+  {
+    "offset": "0x3f99b5",
+    "text": "''1ICEMIIIU_b__lz|"
+  },
+  {
+    "offset": "0x3f9fff",
+    "text": "tSyooeSeeH\\pp"
+  },
+  {
+    "offset": "0x421d27",
+    "text": "|qjSEEK@8/'  "
+  },
+  {
+    "offset": "0x421da7",
+    "text": "|qfSEEEI8/' "
+  },
+  {
+    "offset": "0x421f28",
+    "text": "oaUSEE@@//)"
+  },
+  {
+    "offset": "0x421fa7",
+    "text": "|oaUSEE@@3))"
+  },
+  {
+    "offset": "0x422128",
+    "text": "soaaSEE@33)"
+  },
+  {
+    "offset": "0x424fa1",
+    "text": "sssseeW@,((("
+  },
+  {
+    "offset": "0x425022",
+    "text": "seeWK@,"
+  },
+  {
+    "offset": "0x4350b4",
+    "text": "elleleleleleelseess{"
+  },
+  {
+    "offset": "0x4351b4",
+    "text": "leleleleleleleseseess{"
+  },
+  {
+    "offset": "0x4376d2",
+    "text": "sseeaaaaJTJJTJJTTJJVVTTVaeaeeless{zzzzzkx"
+  },
+  {
+    "offset": "0x437752",
+    "text": "ssseeeeaaTTJJJJTJJTTTa"
+  },
+  {
+    "offset": "0x437982",
+    "text": "{{sssseeaaaaaTTaaaaaaeaeeeeee{{{{{;;EEJVYVVkkx"
+  },
+  {
+    "offset": "0x437b86",
+    "text": "xx{{{ssseseeeseeess{s{s{{{x"
+  },
+  {
+    "offset": "0x4650b8",
+    "text": "QaWeMeZn"
+  },
+  {
+    "offset": "0x481b92",
+    "text": "nSEE["
+  },
+  {
+    "offset": "0x481f9c",
+    "text": "dSEE!!))"
+  },
+  {
+    "offset": "0x484eff",
+    "text": "!EQIICE}"
+  },
+  {
+    "offset": "0x508697",
+    "text": "see^is"
+  },
+  {
+    "offset": "0x50f0a6",
+    "text": "'AWeesxs"
+  },
+  {
+    "offset": "0x50fbc0",
+    "text": ",,,,,,AWeee^iinsx|xsePIAP^^enex"
+  },
+  {
+    "offset": "0x50fe40",
+    "text": "',,,,,,,,AIIPP^insssi^WPWnWAAWeiine^nsiix"
+  },
+  {
+    "offset": "0x52dfeb",
+    "text": "seee{"
+  },
+  {
+    "offset": "0x52e068",
+    "text": "seekk[O66A"
+  },
+  {
+    "offset": "0x531ec0",
+    "text": "%%%%--666AO[eksee[[OOAA66-%%"
+  },
+  {
+    "offset": "0x5367f8",
+    "text": "Obstinate Blacksmith"
+  },
+  {
+    "offset": "0x54401b",
+    "text": "]-AQ:.?=^^^cslOw:Zu"
+  },
+  {
+    "offset": "0x5b5fb6",
+    "text": "+seeR\\R?4+ "
+  },
+  {
+    "offset": "0x5b72f9",
+    "text": "?\\\\eeesee?"
+  },
+  {
+    "offset": "0x5c70c7",
+    "text": "swyysEEw"
+  },
+  {
+    "offset": "0x5f1e50",
+    "text": "/jseeZ===."
+  },
+  {
+    "offset": "0x601cf5",
+    "text": "ssTUNXkiyyryoiiSS>77''\""
+  },
+  {
+    "offset": "0x609e70",
+    "text": "vb|awe|c"
+  },
+  {
+    "offset": "0x626540",
+    "text": "{{o{eeeeeSeeoo{{"
+  },
+  {
+    "offset": "0x6265bf",
+    "text": "{{{eeeSSSSSeeee{{"
+  },
+  {
+    "offset": "0x626861",
+    "text": "{oeSeeeeeeeSDIS{SSSSSeeeeeee{"
+  },
+  {
+    "offset": "0x6268e2",
+    "text": "eeSSSeSeeeeI/S{eeeeeooooeeeeeSeeSIo"
+  },
+  {
+    "offset": "0x626977",
+    "text": "oooeSSID9////9SSeeSSe"
+  },
+  {
+    "offset": "0x628aa6",
+    "text": "UK*#HH5/<ISee"
+  },
+  {
+    "offset": "0x629069",
+    "text": "I/#*///See9"
+  },
+  {
+    "offset": "0x62e8f8",
+    "text": "Cursed Voodoo Doll"
+  },
+  {
+    "offset": "0x6570a7",
+    "text": "sEER\\lH"
+  },
+  {
+    "offset": "0x659a08",
+    "text": "A 'Flower Child'"
+  },
+  {
+    "offset": "0x66eee0",
+    "text": "IlElIfEf"
+  },
+  {
+    "offset": "0x66f1d0",
+    "text": "peqaweu``"
+  },
+  {
+    "offset": "0x66f5b0",
+    "text": "u`qawepe"
+  },
+  {
+    "offset": "0x687fb2",
+    "text": "sEE045F"
+  },
+  {
+    "offset": "0x688010",
+    "text": "sEE88EEE8E8EU"
+  },
+  {
+    "offset": "0x6882c0",
+    "text": "sEEEEMUUUMEE8M"
+  },
+  {
+    "offset": "0x68911d",
+    "text": "zsEEn"
+  },
+  {
+    "offset": "0x6c55a1",
+    "text": "EEEMSMSEEEE333%%%%"
+  },
+  {
+    "offset": "0x6c55c6",
+    "text": "%%333AEESYSYSEE33/"
+  },
+  {
+    "offset": "0x6c6501",
+    "text": "SYZYZYZYZYZSYSEE33)!"
+  },
+  {
+    "offset": "0x6db384",
+    "text": "KicK("
+  },
+  {
+    "offset": "0x6fa5c3",
+    "text": "SeeV"
+  },
+  {
+    "offset": "0x70479f",
+    "text": "$8_-iCe"
+  },
+  {
+    "offset": "0x704a24",
+    "text": ",~Aw-iCe"
+  },
+  {
+    "offset": "0x720f53",
+    "text": "\"3=Seeevv000<6<<<@@@DKKPPZ]qx"
+  },
+  {
+    "offset": "0x720fd3",
+    "text": "\"\"3HHSeee0006<6<<<@@DKKPZZhq"
+  },
+  {
+    "offset": "0x72555d",
+    "text": "\"\"\"\"33=HSSeevvvvv"
+  },
+  {
+    "offset": "0x72578f",
+    "text": "\"!\")3HSeevveeev"
+  },
+  {
+    "offset": "0x72590d",
+    "text": "!\"\")3=HSSeeeeSev"
+  },
+  {
+    "offset": "0x72598d",
+    "text": "\"!\"33=HSSeeSeev"
+  },
+  {
+    "offset": "0x725a0b",
+    "text": "!\"!\"!3=HHSSeeSSev"
+  },
+  {
+    "offset": "0x726bfd",
+    "text": "\")3\"\")\"3==SSeeeSSeeeeeSHHH==333))\"!!"
+  },
+  {
+    "offset": "0x764b84",
+    "text": "Ig=hIt=u"
+  },
+  {
+    "offset": "0x7651d4",
+    "text": "=u=hItIgP"
+  },
+  {
+    "offset": "0x7860c8",
+    "text": "Ig=hIt=u"
+  },
+  {
+    "offset": "0x786848",
+    "text": "=u=hItIg "
+  },
+  {
+    "offset": "0x7c9f3c",
+    "text": "sof]]SEEEESESSYjvppi"
+  },
+  {
+    "offset": "0x80dab9",
+    "text": "WzVHVV_VbbVb_bbSEE2>22HH__k"
+  },
+  {
+    "offset": "0x80e231",
+    "text": "zbSEEE_Vk}bV>-("
+  },
+  {
+    "offset": "0x83401c",
+    "text": "%8Z~lSEEE*ES0SSZZGG"
+  },
+  {
+    "offset": "0x83495c",
+    "text": "*Ell~~SEElEzS4"
+  },
+  {
+    "offset": "0x834e58",
+    "text": "8Szzl0******00SEESEbl>-C-"
+  },
+  {
+    "offset": "0x885487",
+    "text": "!!!!'$)$,,,,5;;@@FH@@IHITYZaggjgeeSVQQSQQZZ`````Y`Yi`n|"
+  },
+  {
+    "offset": "0x886b34",
+    "text": "oSEEEEEHHE@H@>>>>>@HLVZ``YYYWPPWPWMMMMMMMMM[[^hhixx||"
+  },
+  {
+    "offset": "0x886c34",
+    "text": "{_SESEEJEHHHF@>>5>>@LQV`aYYYWWWPWPWMMMMAAMMNM[[[hhiiknn|nx|nnw|"
+  },
+  {
+    "offset": "0x8a4048",
+    "text": "+\"2Ice=\""
+  },
+  {
+    "offset": "0x8bb1a0",
+    "text": "tslic\\b\\YUWWWRURKKDH@9@LLICE@@@@CLQ_jmY"
+  },
+  {
+    "offset": "0x8c0a11",
+    "text": "'/RRWRUJIF888<8<<<FISPIIIHLLILLLLLLILLLLLLUJSNJJILPPLLLICCEEFHJPLVUURRQLLIICIIHHFCICEH@@@7;2926,/(-2-6.1)#))##"
+  },
+  {
+    "offset": "0x8c0b12",
+    "text": "+/vY]ULI<B88868<;<ILJIIIIIILIKKLLLKILLLKLLPJPJILIILLLHHHE<<EIILLLUYVUVVULIICCFCIHIHC@;;;9;92///$,,,,-**))###"
+  },
+  {
+    "offset": "0x8ca641",
+    "text": "$.5255+5eSeer"
+  },
+  {
+    "offset": "0x8ef491",
+    "text": "i}vveZSKKJSEE;;Eh"
+  },
+  {
+    "offset": "0x8f46ee",
+    "text": "sicer"
+  },
+  {
+    "offset": "0x8f4736",
+    "text": "pUSSEEKZZc_cZ?Geeipruv~}"
+  },
+  {
+    "offset": "0x8f500e",
+    "text": "{USDFMMuUUSEE;E5;;7.-*# "
+  },
+  {
+    "offset": "0x8f8011",
+    "text": "seem~"
+  },
+  {
+    "offset": "0x8f896e",
+    "text": "KicEJSZZZZccK;(\""
+  },
+  {
+    "offset": "0x903ded",
+    "text": "C0883888AALEaX[icefsc"
+  },
+  {
+    "offset": "0x9052cf",
+    "text": "jvrjaWE><7;;6/116GJTZddiost|"
+  },
+  {
+    "offset": "0x90660f",
+    "text": "aQNQRaWE>-\".'>z"
+  },
+  {
+    "offset": "0x90c11c",
+    "text": "aWELH>4.+.48H$"
+  },
+  {
+    "offset": "0x90ce2c",
+    "text": "vcacaWefqqufjcc^UMLEALEAAAA8A8848AA4+ "
+  },
+  {
+    "offset": "0x95103e",
+    "text": "xxmmdYYdmmxxssssee\\YYYOhhrz"
+  },
+  {
+    "offset": "0x95111f",
+    "text": "((((>=DSSZdRSRRDHM>>D=>VY[YrzzxrmdYdVYdhmmssseee\\HHH?YYhhmr"
+  },
+  {
+    "offset": "0x95121c",
+    "text": "(((((((5>MRSSS\\SSMD>=>(((5*>?CY]dmhdYYVYYYhmmmsseee\\HH???OYhhmhhrYHHMVHVYVHHH>7**\"%\"\"\"\"\"\"\"("
+  },
+  {
+    "offset": "0x96633c",
+    "text": "=gQ;\\sICe"
+  },
+  {
+    "offset": "0x9b78d7",
+    "text": "\"\"&   \"&&&&\",166;>>N?NXedssssseeceev"
+  },
+  {
+    "offset": "0x9b79dd",
+    "text": "  &&&,,.6;66>>?NXedesseee\\J\\ceex"
+  },
+  {
+    "offset": "0x9b7be0",
+    "text": "  \",.1.1;;NNXdXdddesseeJBBJ\\\\X\\Jccg{"
+  },
+  {
+    "offset": "0xa04911",
+    "text": "QQ66,FFMSSEEHJTTYTTJJAEE@@66GFG6F6,3d>'+8DI"
+  },
+  {
+    "offset": "0xa0a1dd",
+    "text": "{kaWeu"
+  },
+  {
+    "offset": "0xa3a237",
+    "text": "XKsEEXgguasXXKPbXlggllbgsbEAPPlPA,%%EPA"
+  },
+  {
+    "offset": "0xa4b66a",
+    "text": "|see>>>>,,,,\"\"\"\""
+  },
+  {
+    "offset": "0xa6e5c2",
+    "text": "%6ASSeeujjmmgqz"
+  },
+  {
+    "offset": "0xb05cd4",
+    "text": "R7HOOaOoane%V9 6LOOBBUFF9&:k"
+  },
+  {
+    "offset": "0xb18314",
+    "text": "###(PYseeGGGGGGGPSYYfYSA<8V"
+  },
+  {
+    "offset": "0xb19f8a",
+    "text": "rzpuuhhldldee^`^YRRSISIISIGSSSeelzzzs~ssfeSGGGAGAGAGAGAGAQ"
+  },
+  {
+    "offset": "0xb1d5cb",
+    "text": "&'>seeYGAAAAAGPVc>"
+  },
+  {
+    "offset": "0xb1dedd",
+    "text": "seeeeeY`YYS8+"
+  },
+  {
+    "offset": "0xb25971",
+    "text": "qsvseesvvvvvvu"
+  },
+  {
+    "offset": "0xb25a67",
+    "text": "sssgssssssgsseeeeeeeieievvvvvii[AAAV"
+  },
+  {
+    "offset": "0xb25b77",
+    "text": "sseee[eeVJViVeivVAAA[Vv"
+  },
+  {
+    "offset": "0xb26ec9",
+    "text": "zzzsqsee```JJ`J?I?????----4--      "
+  },
+  {
+    "offset": "0xb53522",
+    "text": "<Mwwkkickw"
+  },
+  {
+    "offset": "0xb86914",
+    "text": ")VSEE+"
+  },
+  {
+    "offset": "0xb87e64",
+    "text": "SEE7K~"
+  },
+  {
+    "offset": "0xc2926a",
+    "text": "|see>>>>,,,,\"\"\"\""
+  },
+  {
+    "offset": "0xce6c94",
+    "text": "V33\"3Seev"
+  },
+  {
+    "offset": "0xd5702d",
+    "text": "yseel"
+  },
+  {
+    "offset": "0xd72240",
+    "text": "ciceil"
+  },
+  {
+    "offset": "0xda2f86",
+    "text": "vm0)0'0#'#################'#'/3?CIIICEICCIIIRR[[I2;;;??I2)/;//)2//));?C?CMll"
+  },
+  {
+    "offset": "0xda3138",
+    "text": "/)/2//)#/)))/:;2)2?CICEg"
+  },
+  {
+    "offset": "0xde591d",
+    "text": "CUTK'"
+  },
+  {
+    "offset": "0xe94164",
+    "text": "IcEq@`@q"
+  },
+  {
+    "offset": "0xe94194",
+    "text": "QiJqIcEq"
+  },
+  {
+    "offset": "0xe944d4",
+    "text": "IcEq@`@q"
+  },
+  {
+    "offset": "0xe944e4",
+    "text": "QiJqIcEq"
+  },
+  {
+    "offset": "0xec1ef7",
+    "text": "[g[SEE^"
+  },
+  {
+    "offset": "0xec2886",
+    "text": "%,EL6fEELE66Nh"
+  },
+  {
+    "offset": "0xeeb098",
+    "text": "see^v"
+  },
+  {
+    "offset": "0xeeb70c",
+    "text": "eZZZeesssesssssee (("
+  },
+  {
+    "offset": "0xf149f5",
+    "text": "?sEEEE:/'"
+  },
+  {
+    "offset": "0xf3b417",
+    "text": "see^"
+  },
+  {
+    "offset": "0xf3b495",
+    "text": "ssees"
+  },
+  {
+    "offset": "0xf600d9",
+    "text": "'55=FXpf^P^XXXXfePLPXXPFFF==FEELEF==FF=FF==FEFLFFEEELEE=F==F==="
+  },
+  {
+    "offset": "0xf85a27",
+    "text": "r\\ssmeemsmSEE\\\\m"
+  },
+  {
+    "offset": "0xfa1c57",
+    "text": "r\\ssmeemsmSEE\\\\m"
+  },
+  {
+    "offset": "0xfb58d7",
+    "text": "sseeYSRSSSMGEEEEEEEEEMEE=E=ES"
+  },
+  {
+    "offset": "0xfb5957",
+    "text": "see_SSSMGMHGEEEEEEEEEEEH==E=Eq"
+  },
+  {
+    "offset": "0xfb59d6",
+    "text": "sseeRYMGMHMEEHEH=:H=HEH==E3=EEe"
+  },
+  {
+    "offset": "0xfb5ab5",
+    "text": "seeE=ks_QJD=EDJZa|"
+  },
+  {
+    "offset": "0xfb5b37",
+    "text": "SEEkwhSJJEDDMQ^h"
+  },
+  {
+    "offset": "0xfb5b55",
+    "text": "seee_YSRSMGGEGENGEEHEEEEEEM5\"Eems"
+  },
+  {
+    "offset": "0xfb5d83",
+    "text": "~see_YSSE55'',,5'-EEGEEEGE'5Q_k^_es"
+  },
+  {
+    "offset": "0xfb5f02",
+    "text": "see\\SS8SeSGNGSSRS_Ye,E5MM_MEEMM^iho"
+  },
+  {
+    "offset": "0xfb5f81",
+    "text": "seeYSY=SeSRGGRSSYemM=MeeSEEEEMSZ^hmo"
+  },
+  {
+    "offset": "0xfb6180",
+    "text": "seSEE"
+  },
+  {
+    "offset": "0xfb61e8",
+    "text": "sSEE=EDE=EDJai}"
+  },
+  {
+    "offset": "0xfb6999",
+    "text": "kSEEJMMQJLMai"
+  },
+  {
+    "offset": "0xfb6a19",
+    "text": "sSEEEMMQMJQZa"
+  },
+  {
+    "offset": "0xfb836a",
+    "text": "eEESSSeeYM "
+  },
+  {
+    "offset": "0xfe6ec6",
+    "text": "_sseeeeeeeeee___e_U"
+  },
+  {
+    "offset": "0xfe6f49",
+    "text": "ksskseseseeee__e"
+  },
+  {
+    "offset": "0xffdf58",
+    "text": "kill"
+  },
+  {
+    "offset": "0xffea34",
+    "text": "kill\" "
+  },
+  {
+    "offset": "0x10014e8",
+    "text": "kill# "
+  },
+  {
+    "offset": "0x10015c0",
+    "text": "kill\" "
+  },
+  {
+    "offset": "0x10016ec",
+    "text": "kill# "
+  },
+  {
+    "offset": "0x10392a6",
+    "text": "YHIT0H\\G"
+  },
+  {
+    "offset": "0x10396a8",
+    "text": "qdaaaEaLaWE%9"
+  },
+  {
+    "offset": "0x104e897",
+    "text": "NICeoH"
+  },
+  {
+    "offset": "0x105e482",
+    "text": "See[[[[Y[Y`D"
+  },
+  {
+    "offset": "0x105f82d",
+    "text": "~mmmaaWOOOOOaWaaaWeaeWJ@655670((,\"#"
+  },
+  {
+    "offset": "0x107fa1b",
+    "text": "W'XC(vsEE="
+  },
+  {
+    "offset": "0x1098e3b",
+    "text": "ZGSeeA===LA.$~~"
+  },
+  {
+    "offset": "0x10f4ef9",
+    "text": "%)+HXK]B*BsucKCy"
+  },
+  {
+    "offset": "0x1139d2a",
+    "text": "hz__hh_SSS]qqqicUt"
+  },
+  {
+    "offset": "0x11a779a",
+    "text": "hz__hh_SSS]qqqicUt"
+  },
+  {
+    "offset": "0x11b053c",
+    "text": ",KSeeaaSSKSK."
+  },
+  {
+    "offset": "0x11dee92",
+    "text": "uuumuzmzmzmYM[RMR>D[aWEEEAKZTEAEEGEKKKKKRTTRRKKE[je`e`WW`oooj[Z[`eoojee`e[WWKW"
+  },
+  {
+    "offset": "0x123b850",
+    "text": "ciceil"
+  },
+  {
+    "offset": "0x1270f83",
+    "text": "@I9^THITR:-**&$"
+  },
+  {
+    "offset": "0x1277326",
+    "text": "f[HHITTIITN"
+  },
+  {
+    "offset": "0x12773a7",
+    "text": "RPHHTHITIQ"
+  },
+  {
+    "offset": "0x1277d89",
+    "text": "$+1161166666.$**66@HIHITR^ffqfR[C"
+  },
+  {
+    "offset": "0x1277e8a",
+    "text": "<<<66B6661*$*6:@:B@IHITR^^RT:--::"
+  },
+  {
+    "offset": "0x1277f8b",
+    "text": "B99B6B61*$*6:@:@:BIHITTTRH@-$$"
+  },
+  {
+    "offset": "0x127808c",
+    "text": "9B9<96**6:@CB:@CBHITT^RRH@6*"
+  },
+  {
+    "offset": "0x127823c",
+    "text": "99FBB6666@CBCBC@HITT^^^TTH:6!"
+  },
+  {
+    "offset": "0x1278586",
+    "text": "vqqfd[d[[RECHHITHITHIHB6::9@IIV"
+  },
+  {
+    "offset": "0x1278708",
+    "text": "qpfddfdff[PHHPTTTHIHIHITT:I"
+  },
+  {
+    "offset": "0x1278806",
+    "text": "q~qqpfdf[[[[[RPHH^TTIHHITTht"
+  },
+  {
+    "offset": "0x127890c",
+    "text": "pff[R[[[RHHHITTTTT^`"
+  },
+  {
+    "offset": "0x1278cdd",
+    "text": "<NJIBB@HITICBHBHBITTTHIHTI:::HBHIPHH"
+  },
+  {
+    "offset": "0x1278e5f",
+    "text": "JI@IIVTVTIHIHTTIHIH@HIT@:6:@@CBIT"
+  },
+  {
+    "offset": "0x1278f60",
+    "text": "B@IITV^TIHITIHCIIHIHITI@66:@@@@@"
+  },
+  {
+    "offset": "0x1278fe0",
+    "text": "6@IVV^cTTTHIHII@HIIHITC@*66:6@BI"
+  },
+  {
+    "offset": "0x127bbbd",
+    "text": "$1BBQINTNIIBIBIBBB666$&***66::CCBCC@::::BHIT^"
+  },
+  {
+    "offset": "0x12965e5",
+    "text": "-Yp~kddYOHHACCHCIBCIHBIHITa"
+  },
+  {
+    "offset": "0x12c0a72",
+    "text": "-7/cUT5"
+  },
+  {
+    "offset": "0x1319df8",
+    "text": "!2--1<C:-Lm`HiTGMs"
+  },
+  {
+    "offset": "0x13461ec",
+    "text": "!2--1<C:-Lm`HiTG"
+  },
+  {
+    "offset": "0x13691f0",
+    "text": ",KSeeaaSSKSK."
+  },
+  {
+    "offset": "0x13b4cf4",
+    "text": "&;C;3.3.V>>>>Vjeeseeese>22"
+  },
+  {
+    "offset": "0x13b8c9b",
+    "text": "eesees{ees}"
+  },
+  {
+    "offset": "0x13c035e",
+    "text": "{seee)"
+  },
+  {
+    "offset": "0x13c0650",
+    "text": "ejVeeeesee"
+  },
+  {
+    "offset": "0x13c3934",
+    "text": "H<HSeeeess"
+  },
+  {
+    "offset": "0x13c4d23",
+    "text": "esees]ss"
+  },
+  {
+    "offset": "0x13c4da4",
+    "text": "see}"
+  },
+  {
+    "offset": "0x13c7172",
+    "text": "{seee)"
+  },
+  {
+    "offset": "0x13c7464",
+    "text": "ejVeeeesee"
+  },
+  {
+    "offset": "0x13c8436",
+    "text": ").sees]ss"
+  },
+  {
+    "offset": "0x13c84b6",
+    "text": "^Hsee}"
+  },
+  {
+    "offset": "0x13eb6a9",
+    "text": "seeekks"
+  },
+  {
+    "offset": "0x141a643",
+    "text": "SEES66.2+"
+  },
+  {
+    "offset": "0x1423a89",
+    "text": "SSEESE6EE62)"
+  },
+  {
+    "offset": "0x1423b06",
+    "text": "-\")ESEESEES4"
+  },
+  {
+    "offset": "0x1429b83",
+    "text": ".SEE?."
+  },
+  {
+    "offset": "0x1429cfe",
+    "text": "ESEESE6EE?2"
+  },
+  {
+    "offset": "0x1429d7d",
+    "text": ")ESEESSES44)"
+  },
+  {
+    "offset": "0x1429dfe",
+    "text": "EE?ESEE\""
+  },
+  {
+    "offset": "0x142d4d6",
+    "text": "6SEESE6EE6%"
+  },
+  {
+    "offset": "0x142d556",
+    "text": "6SEESESE**)"
+  },
+  {
+    "offset": "0x143a385",
+    "text": "V]]bNH:]HTT]H:H:Cut]t"
+  },
+  {
+    "offset": "0x143d352",
+    "text": "2EEESEE6?22"
+  },
+  {
+    "offset": "0x1443184",
+    "text": "h_ccut"
+  },
+  {
+    "offset": "0x1444b12",
+    "text": "viihhitt~"
+  },
+  {
+    "offset": "0x1454cc0",
+    "text": "cYVYYYY\\Y\\YYVVVVVVPVVPPPPPPPPVVVVVVVVVVVVVVVVYVVYYY\\\\\\\\\\Y\\\\\\Y\\\\]p`E@FEELOaE>>@QMM-EEE7 66,6,"
+  },
+  {
+    "offset": "0x1463606",
+    "text": "SEEEf6f"
+  },
+  {
+    "offset": "0x14aba59",
+    "text": "etG{7777eT\";IT7aqawe7===8=<==<<LZ<<x"
+  },
+  {
+    "offset": "0x14c050e",
+    "text": "SEEEEEEEML$EdYdddddsddy?O6Z<XZ<>XX!BF"
+  },
+  {
+    "offset": "0x14c060f",
+    "text": "*SEEEMmI4dYdYddssdssssMZ<<NG>TARMEE<"
+  },
+  {
+    "offset": "0x14c45d1",
+    "text": "XguSTND+"
+  },
+  {
+    "offset": "0x1512544",
+    "text": "d??AJSee"
+  },
+  {
+    "offset": "0x152ff81",
+    "text": "}[Y<YYYZeSeeeeeegyxomeeeeZeeeoeeoomxoeooeeoeeeeZeZeeeeeeeeeggZVVWWLL.777..//:/)"
+  },
+  {
+    "offset": "0x153a6a4",
+    "text": "^XcXYXbHXRRRJJJJRWXRXCWCBWice]CC4=GaalddQG3HTfljcHRVI\\fhfK"
+  },
+  {
+    "offset": "0x15b1102",
+    "text": "!!&&!!&.uSSEEE@0)I))6)+)"
+  },
+  {
+    "offset": "0x15b68c2",
+    "text": "_sseeeeeeeeee___e_U"
+  },
+  {
+    "offset": "0x15b6945",
+    "text": "ksskseseseeee__e"
+  },
+  {
+    "offset": "0x1624b4f",
+    "text": "seeq"
+  },
+  {
+    "offset": "0x16254bf",
+    "text": "seseee_XPe855855558>8CM_w"
+  },
+  {
+    "offset": "0x165eb43",
+    "text": "nkkRR=I=IHIHITIIIITW\\l"
+  },
+  {
+    "offset": "0x166b011",
+    "text": "lIHITH==Tw"
+  },
+  {
+    "offset": "0x16aabae",
+    "text": "UdDFUdSEEE5USD&"
+  },
+  {
+    "offset": "0x173fd86",
+    "text": "UdDFUdSEEE5USD&"
+  },
+  {
+    "offset": "0x174a135",
+    "text": "sEE4"
+  },
+  {
+    "offset": "0x17b532a",
+    "text": "V)555>>>>[[f[RRNSSeeppj"
+  },
+  {
+    "offset": "0x17c6356",
+    "text": "UdDFUdSEEE5USD&"
+  },
+  {
+    "offset": "0x17f6964",
+    "text": "uk[[[OAWE9II/6'VgPLG:60;:;::$0%;;;%0122;%%%;%%%%12;GGTGGGT?Tg"
+  },
+  {
+    "offset": "0x180190b",
+    "text": "nnnnnseeXhTe=TTKKKK=88^X8HHKHB88#88BH8HBH8+++H88++++##+#"
+  },
+  {
+    "offset": "0x1804098",
+    "text": "wennsee^"
+  },
+  {
+    "offset": "0x186bcda",
+    "text": "UdDFUdSEEE5USD&"
+  },
+  {
+    "offset": "0x1896cda",
+    "text": "sEE1&"
+  },
+  {
+    "offset": "0x18975df",
+    "text": "``SEEE`h_4>{{nr~"
+  },
+  {
+    "offset": "0x1897c1b",
+    "text": "SEEhhS4Sr"
+  },
+  {
+    "offset": "0x1898f50",
+    "text": "VE`hSEEVh"
+  },
+  {
+    "offset": "0x18c8f3e",
+    "text": "6EEWSEE;JS]<SSXJ,/,%#%%#%,%"
+  },
+  {
+    "offset": "0x18ce53e",
+    "text": "6EEWSEE;JS]<SSXJ,/,%#%%#%,%"
+  },
+  {
+    "offset": "0x19cecf8",
+    "text": "-:JCCUTTUTE<66E_rr"
+  },
+  {
+    "offset": "0x19d1035",
+    "text": "vqoicUTEEQqiEEA611;1_"
+  },
+  {
+    "offset": "0x19d1ba9",
+    "text": "<cJCcciiccUU[cccoiUcUUUiiicirTUTUE<CCUTZNTJJXJ:-"
+  },
+  {
+    "offset": "0x19d5608",
+    "text": "cJr~<ETUThhhicE-6<-;>"
+  },
+  {
+    "offset": "0x1a04f48",
+    "text": ",0?ISee>"
+  },
+  {
+    "offset": "0x1a51c1c",
+    "text": "xmmzmPpwiidSEE55+"
+  },
+  {
+    "offset": "0x1a533d4",
+    "text": "xx|kli\\SEE=+1?; "
+  },
+  {
+    "offset": "0x1a53b99",
+    "text": "!!!``WSEEEEWEE;5+55"
+  },
+  {
+    "offset": "0x1a617a0",
+    "text": "CXXWSSEEG==LWSSWNNNCNNONNGOiiidg"
+  },
+  {
+    "offset": "0x1a6770b",
+    "text": "\"\")9gl;::5;CSEE"
+  },
+  {
+    "offset": "0x1a7f8cc",
+    "text": "AWE0"
+  },
+  {
+    "offset": "0x1ac2103",
+    "text": "\"*333ES^SEE5^*2-9$"
+  },
+  {
+    "offset": "0x1b01ee5",
+    "text": ")66CH]WZWCHAR]kr"
+  },
+  {
+    "offset": "0x1b24bfe",
+    "text": "hz__hh_SSS]qqqicUt"
+  },
+  {
+    "offset": "0x1b285f5",
+    "text": "eSeeqqk"
+  },
+  {
+    "offset": "0x1b5bfc7",
+    "text": "ue^SESEEE^MMEEE>E66MM"
+  },
+  {
+    "offset": "0x1b7dbf6",
+    "text": "hz__hh_SSS]qqqicUt"
+  },
+  {
+    "offset": "0x1b815ed",
+    "text": "eSeeqqk"
+  },
+  {
+    "offset": "0x1be8b51",
+    "text": "vSSeeNeN6eNNHe22H26+"
+  },
+  {
+    "offset": "0x1beb73f",
+    "text": "vvSeeHSSSevv"
+  },
+  {
+    "offset": "0x1bf0c82",
+    "text": "a\\\\lFU\\lbUFFFU"
+  },
+  {
+    "offset": "0x1bfdd87",
+    "text": "vvSeeHSSSevv"
+  },
+  {
+    "offset": "0x1c07c86",
+    "text": "vm0)0'0#'#################'#'/3?CIIICEICCIIIRR[[I2;;;??I2)/;//)2//));?C?CMll"
+  },
+  {
+    "offset": "0x1c07e38",
+    "text": "/)/2//)#/)))/:;2)2?CICEg"
+  },
+  {
+    "offset": "0x1c28dc8",
+    "text": "]ysssseess"
+  },
+  {
+    "offset": "0x1c679a9",
+    "text": "vSSeeNeN6eNNHe22H26+"
+  },
+  {
+    "offset": "0x1c6a597",
+    "text": "vvSeeHSSSevv"
+  },
+  {
+    "offset": "0x1c6fada",
+    "text": "a\\\\lFU\\lbUFFFU"
+  },
+  {
+    "offset": "0x1c7cbdf",
+    "text": "vvSeeHSSSevv"
+  },
+  {
+    "offset": "0x1c86ade",
+    "text": "vm0)0'0#'#################'#'/3?CIIICEICCIIIRR[[I2;;;??I2)/;//)2//));?C?CMll"
+  },
+  {
+    "offset": "0x1c86c90",
+    "text": "/)/2//)#/)))/:;2)2?CICEg"
+  },
+  {
+    "offset": "0x1cf2122",
+    "text": "seettfeeteeQ=;55E+!+!"
+  },
+  {
+    "offset": "0x1cf24e3",
+    "text": "seEe1+!"
+  },
+  {
+    "offset": "0x1d0a6bd",
+    "text": "cjyyup_XZPSEEE"
+  },
+  {
+    "offset": "0x1d0a702",
+    "text": "pjpXSZSEEER"
+  },
+  {
+    "offset": "0x1d0a892",
+    "text": "PX_^pww{wwVW]kkilll"
+  },
+  {
+    "offset": "0x1d89e59",
+    "text": "cjyyup_XZPSEEE"
+  },
+  {
+    "offset": "0x1d89e9e",
+    "text": "pjpXSZSEEER"
+  },
+  {
+    "offset": "0x1d8a02e",
+    "text": "PX_^pww{wwVW]kkilll"
+  },
+  {
+    "offset": "0x1df8034",
+    "text": "MEMOOOOOMOW[agagafaWWaWWWaWWOWMaW[fagfeeLb^^]N1#GR5"
+  },
+  {
+    "offset": "0x1e1dd3a",
+    "text": "_sseeeeeeeeee___e_U"
+  },
+  {
+    "offset": "0x1e1ddbd",
+    "text": "ksskseseseeee__e"
+  },
+  {
+    "offset": "0x1e8c294",
+    "text": "MEMOOOOOMOW[agagafaWWaWWWaWWOWMaW[fagfeeLb^^]N1#GR5"
+  },
+  {
+    "offset": "0x1eb1f9a",
+    "text": "_sseeeeeeeeee___e_U"
+  },
+  {
+    "offset": "0x1eb201d",
+    "text": "ksskseseseeee__e"
+  },
+  {
+    "offset": "0x1ef7ff9",
+    "text": "0%#0..:E.59S.:::H`E9:EV``]HEH[SEEE99:].%.:3"
+  },
+  {
+    "offset": "0x1ef8207",
+    "text": "09SSEE:St"
+  },
+  {
+    "offset": "0x1f01239",
+    "text": "c]]SEESjtojccc}"
+  },
+  {
+    "offset": "0x1f02525",
+    "text": "#50SEES:(S`$.E9*&"
+  },
+  {
+    "offset": "0x1f086c4",
+    "text": "/pppX^^^Z^XVAS]]SNASEEE:ENett"
+  },
+  {
+    "offset": "0x1f0d178",
+    "text": "H`bc`9K`SEE30$"
+  },
+  {
+    "offset": "0x1f0fde6",
+    "text": "HSEEE:*"
+  },
+  {
+    "offset": "0x1f194d7",
+    "text": "ttN[N[ottc[j[j][o[:TSEEEAAE;3$2;:333::5"
+  },
+  {
+    "offset": "0x1f1ac1d",
+    "text": "0H`i```V':TTTTTH]ccjiiiHVic]ccjr`T::Tccccccccccc`TSS]``]]SE9`b`c`TSEE:E"
+  },
+  {
+    "offset": "0x1f1ad21",
+    "text": ">biii`'5]cc`````cirvbKHl]`ccc``TES`jc`c]`c`]]]HEEAS]TSASAHHH`TTSEE:"
+  },
+  {
+    "offset": "0x1f1cd31",
+    "text": "`icE"
+  },
+  {
+    "offset": "0x1f1cdb9",
+    "text": "ESEE039  *"
+  },
+  {
+    "offset": "0x1f398d7",
+    "text": "%.7XKA2AKD]]CUTEO[ZZZIs"
+  },
+  {
+    "offset": "0x1f4ba23",
+    "text": "\"*333ES^SEE5^*2-9$"
+  },
+  {
+    "offset": "0x1f51966",
+    "text": "seettfeeteeQ=;55E+!+!"
+  },
+  {
+    "offset": "0x1fea693",
+    "text": "%.7XKA2AKD]]CUTEO[ZZZIs"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "game": "Chrono Cross",
+  "version": "PS1 Disc 1",
+  "size": 736651104,
+  "character_references": {
+    "Serge": 0,
+    "Kid": 289,
+    "Harle": 0,
+    "Lynx": 0,
+    "Koris": 0,
+    "Mach": 0,
+    "Razzer": 0,
+    "Zoah": 1,
+    "Leena": 0,
+    "Orlha": 0,
+    "Miki": 21
+  },
+  "location_references": {
+    "Home": 0,
+    "Arnel": 0,
+    "Marbule": 0,
+    "Guldove": 0,
+    "Dead Sea": 0
+  },
+  "menu_region": "0x25ef52",
+  "menu_strings": [
+    {
+      "text": "SAVE DATA TO YOUR MEMORY CARD."
+    },
+    {
+      "text": "LOAD DATA FROM YOUR MEMORY CARD."
+    },
+    {
+      "text": "SELECT A MEMORY CARD SLOT TO USE..."
+    },
+    {
+      "text": "MEMORY CARD SLOT 1"
+    },
+    {
+      "text": "MEMORY CARD SLOT 2"
+    },
+    {
+      "text": "CHECKING THE MEMORY CARD"
+    },
+    {
+      "text": "IN MEMORY CARD SLOT 1..."
+    },
+    {
+      "text": "CHECKING THE MEMORY CARD"
+    },
+    {
+      "text": "IN MEMORY CARD SLOT 2..."
+    },
+    {
+      "text": "PLEASE DO NOT OPEN THE"
+    },
+    {
+      "text": "DISC COVER OR REMOVE/INSERT"
+    },
+    {
+      "text": "MEMORY CARDS OR CONTROLLERS!"
+    },
+    {
+      "text": "PLEASE SELECT A BLOCK..."
+    },
+    {
+      "text": "DATA FROM ANOTHER GAME TITLE"
+    },
+    {
+      "text": "EMPTY BLOCK"
+    },
+    {
+      "text": "SAVING DATA TO THE MEMORY CARD"
+    },
+    {
+      "text": "IN MEMORY CARD SLOT 1..."
+    },
+    {
+      "text": "SAVING DATA TO THE MEMORY CARD"
+    },
+    {
+      "text": "IN MEMORY CAR"
+    }
+  ],
+  "title_offset": "0x9340"
+}

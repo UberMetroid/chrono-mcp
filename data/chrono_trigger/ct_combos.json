@@ -1,0 +1,272 @@
+[
+  {
+    "char1": 6,
+    "char2": 2,
+    "combo_id": 220,
+    "tech_ids": [
+      72,
+      3
+    ]
+  },
+  {
+    "char1": 1,
+    "char2": 4,
+    "combo_id": 128,
+    "tech_ids": [
+      95,
+      128
+    ]
+  },
+  {
+    "char1": 1,
+    "char2": 5,
+    "combo_id": 1,
+    "tech_ids": [
+      231,
+      174
+    ]
+  },
+  {
+    "char1": 7,
+    "char2": 2,
+    "combo_id": 62,
+    "tech_ids": [
+      32,
+      12
+    ]
+  },
+  {
+    "char1": 6,
+    "char2": 1,
+    "combo_id": 0,
+    "tech_ids": [
+      15,
+      23
+    ]
+  },
+  {
+    "char1": 3,
+    "char2": 2,
+    "combo_id": 0,
+    "tech_ids": [
+      16,
+      11
+    ]
+  },
+  {
+    "char1": 6,
+    "char2": 1,
+    "combo_id": 5,
+    "tech_ids": [
+      32,
+      16
+    ]
+  },
+  {
+    "char1": 3,
+    "char2": 7,
+    "combo_id": 0,
+    "tech_ids": [
+      247,
+      0
+    ]
+  },
+  {
+    "char1": 2,
+    "char2": 1,
+    "combo_id": 8,
+    "tech_ids": [
+      4,
+      3
+    ]
+  },
+  {
+    "char1": 5,
+    "char2": 1,
+    "combo_id": 1,
+    "tech_ids": [
+      0,
+      8
+    ]
+  },
+  {
+    "char1": 2,
+    "char2": 1,
+    "combo_id": 16,
+    "tech_ids": [
+      0,
+      244
+    ]
+  },
+  {
+    "char1": 8,
+    "char2": 6,
+    "combo_id": 0,
+    "tech_ids": [
+      222,
+      65
+    ]
+  },
+  {
+    "char1": 1,
+    "char2": 3,
+    "combo_id": 0,
+    "tech_ids": [
+      0,
+      4
+    ]
+  },
+  {
+    "char1": 4,
+    "char2": 8,
+    "combo_id": 18,
+    "tech_ids": [
+      7,
+      14
+    ]
+  },
+  {
+    "char1": 3,
+    "char2": 8,
+    "combo_id": 36,
+    "tech_ids": [
+      125,
+      114
+    ]
+  },
+  {
+    "char1": 4,
+    "char2": 8,
+    "combo_id": 63,
+    "tech_ids": [
+      2,
+      47
+    ]
+  },
+  {
+    "char1": 6,
+    "char2": 4,
+    "combo_id": 12,
+    "tech_ids": [
+      25,
+      24
+    ]
+  },
+  {
+    "char1": 3,
+    "char2": 6,
+    "combo_id": 1,
+    "tech_ids": [
+      1,
+      5
+    ]
+  },
+  {
+    "char1": 2,
+    "char2": 1,
+    "combo_id": 20,
+    "tech_ids": [
+      54,
+      7
+    ]
+  },
+  {
+    "char1": 1,
+    "char2": 4,
+    "combo_id": 6,
+    "tech_ids": [
+      154,
+      0
+    ]
+  },
+  {
+    "char1": 4,
+    "char2": 5,
+    "combo_id": 32,
+    "tech_ids": [
+      34,
+      0
+    ]
+  },
+  {
+    "char1": 2,
+    "char2": 1,
+    "combo_id": 50,
+    "tech_ids": [
+      42,
+      41
+    ]
+  },
+  {
+    "char1": 4,
+    "char2": 3,
+    "combo_id": 6,
+    "tech_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "char1": 3,
+    "char2": 5,
+    "combo_id": 129,
+    "tech_ids": [
+      235,
+      219
+    ]
+  },
+  {
+    "char1": 1,
+    "char2": 5,
+    "combo_id": 60,
+    "tech_ids": [
+      250,
+      198
+    ]
+  },
+  {
+    "char1": 8,
+    "char2": 4,
+    "combo_id": 14,
+    "tech_ids": [
+      66,
+      159
+    ]
+  },
+  {
+    "char1": 6,
+    "char2": 3,
+    "combo_id": 1,
+    "tech_ids": [
+      8,
+      2
+    ]
+  },
+  {
+    "char1": 3,
+    "char2": 5,
+    "combo_id": 98,
+    "tech_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "char1": 2,
+    "char2": 5,
+    "combo_id": 7,
+    "tech_ids": [
+      6,
+      2
+    ]
+  },
+  {
+    "char1": 8,
+    "char2": 6,
+    "combo_id": 167,
+    "tech_ids": [
+      1,
+      0
+    ]
+  }
+]

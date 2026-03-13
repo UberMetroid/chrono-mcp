@@ -1,0 +1,1546 @@
+[
+  {
+    "offset": "0x671e8",
+    "text": "<NULL>"
+  },
+  {
+    "offset": "0x67294",
+    "text": "SetGraphDebug:level:%d,type:%d reverse:%d"
+  },
+  {
+    "offset": "0x6733c",
+    "text": "ClearImage"
+  },
+  {
+    "offset": "0x67348",
+    "text": "ClearImage2"
+  },
+  {
+    "offset": "0x67354",
+    "text": "LoadImage"
+  },
+  {
+    "offset": "0x67360",
+    "text": "StoreImage"
+  },
+  {
+    "offset": "0x6736c",
+    "text": "MoveImage"
+  },
+  {
+    "offset": "0x6743c",
+    "text": "LoadImage2"
+  },
+  {
+    "offset": "0x74cd4",
+    "text": "c:/work/cdrom/prog/debug.prg"
+  },
+  {
+    "offset": "0x74d6c",
+    "text": "battle(now construction) 1999/3/3"
+  },
+  {
+    "offset": "0x75586",
+    "text": "ActionStart"
+  },
+  {
+    "offset": "0x75f00",
+    "text": "         eye:          %4x,%4x,%4x"
+  },
+  {
+    "offset": "0x76267",
+    "text": "start =%B"
+  },
+  {
+    "offset": "0x76360",
+    "text": "debug %B"
+  },
+  {
+    "offset": "0xa7c8c",
+    "text": "OBJHEAD SHADOW"
+  },
+  {
+    "offset": "0xc0864",
+    "text": "DEBUG=%xh %d "
+  },
+  {
+    "offset": "0x10f26d",
+    "text": "NULL"
+  },
+  {
+    "offset": "0x10f454",
+    "text": "kz_GetBeta()"
+  },
+  {
+    "offset": "0x10f464",
+    "text": "kz_CallDamage()"
+  },
+  {
+    "offset": "0x10f474",
+    "text": "kz_CallDamageTarget()"
+  },
+  {
+    "offset": "0x10f48c",
+    "text": "kz_ChgEye()"
+  },
+  {
+    "offset": "0x10f6a6",
+    "text": "NULL"
+  },
+  {
+    "offset": "0x10f76c",
+    "text": "NULL"
+  },
+  {
+    "offset": "0x10f7a4",
+    "text": "Kz_ActionStart()"
+  },
+  {
+    "offset": "0x10f7c3",
+    "text": "NULL"
+  },
+  {
+    "offset": "0x10f7dc",
+    "text": "Kz_ActionStart()"
+  },
+  {
+    "offset": "0x10f818",
+    "text": "Kz_ActionStart()"
+  },
+  {
+    "offset": "0x10f850",
+    "text": "Kz_ActionStart()"
+  },
+  {
+    "offset": "0x10f888",
+    "text": "Kz_ActionStart()[D"
+  },
+  {
+    "offset": "0x15a474",
+    "text": "c:\\work\\cdrom\\battle\\effects\\enct.prd"
+  },
+  {
+    "offset": "0x15c57c",
+    "text": "yellbluenijixgrexwhixblaxredxyelxbluxnijxoffegreewhieblaeredeyelebluenijwin4wakustatcoloetracamiugreugr1upurureduyelubluunijpauselefmarkslowelmeccba"
+  },
+  {
+    "offset": "0x17ebe4",
+    "text": "star"
+  },
+  {
+    "offset": "0x18e468",
+    "text": "eyes\" "
+  },
+  {
+    "offset": "0x18e584",
+    "text": "eyes"
+  },
+  {
+    "offset": "0x190478",
+    "text": "eyes"
+  },
+  {
+    "offset": "0x1e69c9",
+    "text": "ooxjBKeYE77-+3@K^{"
+  },
+  {
+    "offset": "0x1f5316",
+    "text": "vgEL,"
+  },
+  {
+    "offset": "0x257af2",
+    "text": "$eyeQeQ+$"
+  },
+  {
+    "offset": "0x25eb21",
+    "text": "Forge ahead?"
+  },
+  {
+    "offset": "0x25fbc1",
+    "text": "gMonster's Mouth"
+  },
+  {
+    "offset": "0x25fd32",
+    "text": "Battle Screen Controller Configuration"
+  },
+  {
+    "offset": "0x260324",
+    "text": "Where the tides start to turn..."
+  },
+  {
+    "offset": "0x2603dc",
+    "text": "Heading North -"
+  },
+  {
+    "offset": "0x2604e3",
+    "text": "HFrom Pirate Ship to Ghost Ship -"
+  },
+  {
+    "offset": "0x260525",
+    "text": "POn to Water Dragon Isle -"
+  },
+  {
+    "offset": "0x260540",
+    "text": "In search of the dragon blue..."
+  },
+  {
+    "offset": "0x260561",
+    "text": "\\Fort Dragonia -"
+  },
+  {
+    "offset": "0x260572",
+    "text": "Ancient dragons' dream in ruins..."
+  },
+  {
+    "offset": "0x260643",
+    "text": "Knight or day...?"
+  },
+  {
+    "offset": "0x2606fe",
+    "text": "And the planet began to shake..."
+  },
+  {
+    "offset": "0x26076b",
+    "text": "Pursuers with heavy-hearts..."
+  },
+  {
+    "offset": "0x260876",
+    "text": "Our planet's dream is not over yet..."
+  },
+  {
+    "offset": "0x2819f6",
+    "text": "$eyeQeQ+$"
+  },
+  {
+    "offset": "0x2a46fc",
+    "text": "rj\\IIICCC;6//////6BBGUUhhbUG"
+  },
+  {
+    "offset": "0x2a9329",
+    "text": "!;Gel;L"
+  },
+  {
+    "offset": "0x2bf2a8",
+    "text": "BuG3"
+  },
+  {
+    "offset": "0x2d66fa",
+    "text": "Ak:B`fox"
+  },
+  {
+    "offset": "0x2d68f9",
+    "text": "&MebRYYfox"
+  },
+  {
+    "offset": "0x2f0b72",
+    "text": "  **44?FFFLYYSLC<<CLLSSS/"
+  },
+  {
+    "offset": "0x2f6751",
+    "text": "#3Bat"
+  },
+  {
+    "offset": "0x2f9e08",
+    "text": "EYE #33:@GG"
+  },
+  {
+    "offset": "0x329b18",
+    "text": "BAT\\;lt?s"
+  },
+  {
+    "offset": "0x34148d",
+    "text": "m\"\"buG>c1"
+  },
+  {
+    "offset": "0x3433f8",
+    "text": "sbbUGGUUb"
+  },
+  {
+    "offset": "0x343477",
+    "text": "sbbUG<<<GGUb"
+  },
+  {
+    "offset": "0x3434f7",
+    "text": "hhUGUUUbUGGUUs"
+  },
+  {
+    "offset": "0x34bd92",
+    "text": "bUg````XKKDDDDKKDD<5,,/////#######222222FFFFFSSkkzz"
+  },
+  {
+    "offset": "0x3ac376",
+    "text": "oeYelU"
+  },
+  {
+    "offset": "0x3ac4f7",
+    "text": "eYel1"
+  },
+  {
+    "offset": "0x3ae605",
+    "text": "a\"2)#5Wuumcc[[[cccc[OFOXXs"
+  },
+  {
+    "offset": "0x3c2416",
+    "text": "WtllflY\\"
+  },
+  {
+    "offset": "0x3c2946",
+    "text": "dwulffflYd"
+  },
+  {
+    "offset": "0x3c29c6",
+    "text": "dwulffflYp"
+  },
+  {
+    "offset": "0x3cd3c9",
+    "text": "Abat\\"
+  },
+  {
+    "offset": "0x3f98fc",
+    "text": "eyeHHSH=ep"
+  },
+  {
+    "offset": "0x41039f",
+    "text": "/FQW__WOLFCA660,&%%%"
+  },
+  {
+    "offset": "0x41c2e0",
+    "text": "}eYE9)"
+  },
+  {
+    "offset": "0x428a37",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x436161",
+    "text": "6&!!269B9.6KB95B66&&6CBB!!!!6UUBUGU^vU"
+  },
+  {
+    "offset": "0x437a82",
+    "text": "x{{x{{seeeaaaaaaaaaeaeeeesess{{x{{EYEYYkhkxx"
+  },
+  {
+    "offset": "0x4386e4",
+    "text": "EYEYkYE/%*"
+  },
+  {
+    "offset": "0x44e8a4",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x463360",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x476228",
+    "text": "Rockin' Bard Superstar"
+  },
+  {
+    "offset": "0x476291",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x481c10",
+    "text": "fLYL[d"
+  },
+  {
+    "offset": "0x487f54",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x492fc6",
+    "text": "yppeeYeejt"
+  },
+  {
+    "offset": "0x49c0ea",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x49deb8",
+    "text": "mQmBaTbB"
+  },
+  {
+    "offset": "0x4b0278",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x4b9aea",
+    "text": "0=L=FFLYooo"
+  },
+  {
+    "offset": "0x4b9b0a",
+    "text": "0=L=FFLYooo"
+  },
+  {
+    "offset": "0x4bf1e5",
+    "text": "'*'*'$0**===FFFLYaaaaaaaaYa[LBFdp"
+  },
+  {
+    "offset": "0x4c3ad9",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x4d6a12",
+    "text": "Left-handed"
+  },
+  {
+    "offset": "0x4eb4c8",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x4fe3fb",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x52268a",
+    "text": "Origin: Water Dragon Is."
+  },
+  {
+    "offset": "0x536860",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x548520",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x55b45d",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x56ecb3",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x581be6",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x594ab8",
+    "text": "Noble Knight"
+  },
+  {
+    "offset": "0x594b13",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x59cd0c",
+    "text": "999EYE.@{{"
+  },
+  {
+    "offset": "0x5a7a45",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x5bb2b0",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x5c904b",
+    "text": "RRHoRN:9((=MM\\Mdddmnm~~~"
+  },
+  {
+    "offset": "0x5ceb0a",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x5e3eff",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x5f76f8",
+    "text": "Cute Baby Dragon"
+  },
+  {
+    "offset": "0x608aba",
+    "text": "Origin: Another Planet"
+  },
+  {
+    "offset": "0x61b0ff",
+    "text": "Left-handed"
+  },
+  {
+    "offset": "0x66d2d6",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x680198",
+    "text": "Skeleton Clown"
+  },
+  {
+    "offset": "0x6801f9",
+    "text": "Left-handed"
+  },
+  {
+    "offset": "0x6927f5",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x6a44cf",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x6b7d20",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x6cba54",
+    "text": "f_foX_Xo "
+  },
+  {
+    "offset": "0x6cbaf4",
+    "text": "XofoX_f_"
+  },
+  {
+    "offset": "0x6dd259",
+    "text": "Left-handed"
+  },
+  {
+    "offset": "0x6e67b0",
+    "text": "%7JUbbbbbbbbbbossw"
+  },
+  {
+    "offset": "0x6e682f",
+    "text": "+77Ubbbbbbbbbossw"
+  },
+  {
+    "offset": "0x6f0188",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x6f8cf4",
+    "text": "%3FOXOI::,%%"
+  },
+  {
+    "offset": "0x6fc086",
+    "text": "||||||||||||y_62(###(2EEZgel"
+  },
+  {
+    "offset": "0x6fc478",
+    "text": "FOxaa9Xx9X%$"
+  },
+  {
+    "offset": "0x701e5b",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x716920",
+    "text": "Left-handed"
+  },
+  {
+    "offset": "0x728eb8",
+    "text": "Cyborg Assassin"
+  },
+  {
+    "offset": "0x728f15",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x73b51d",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x747273",
+    "text": "{{uffl{uuxulnunulli"
+  },
+  {
+    "offset": "0x75090a",
+    "text": "Left-handed"
+  },
+  {
+    "offset": "0x7bae7c",
+    "text": "yawStarS"
+  },
+  {
+    "offset": "0x7baebc",
+    "text": "jakStarS"
+  },
+  {
+    "offset": "0x7cd2b3",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x7e1d18",
+    "text": "Noble Knight"
+  },
+  {
+    "offset": "0x7e1d73",
+    "text": "Right-handed"
+  },
+  {
+    "offset": "0x7ea010",
+    "text": "999EYE.@{{"
+  },
+  {
+    "offset": "0x8ac1c0",
+    "text": "\"+=OeyyyyeyeyexeeZ>"
+  },
+  {
+    "offset": "0x8aee8c",
+    "text": "ODOeeyeO=)+=II82\""
+  },
+  {
+    "offset": "0x8d28ea",
+    "text": "3:BBUg"
+  },
+  {
+    "offset": "0x952ccf",
+    "text": "'3BUglgtggW<<8) ##2JQ``g`JJB8--###"
+  },
+  {
+    "offset": "0xa5f8f2",
+    "text": "~'KPbat"
+  },
+  {
+    "offset": "0xa80629",
+    "text": ":::FOX^^bb/>::v"
+  },
+  {
+    "offset": "0xa86486",
+    "text": ">*66666HObeye;]9))+G+GGEWG+GcaW"
+  },
+  {
+    "offset": "0xb02a08",
+    "text": "OK?/9/LaOB799Qe]B,6FOXH6RWRB"
+  },
+  {
+    "offset": "0xb080a2",
+    "text": "B9BBUgKWggK"
+  },
+  {
+    "offset": "0xb0c802",
+    "text": "L_QO]QLLLXXLYeYe7LYjejoaN<9&&,,,,BOFBevfLYf 6LLJHJ_QLQ_hL,<LYL<6<-"
+  },
+  {
+    "offset": "0xb18216",
+    "text": "\"-#+flYGAGAAAQ//6PGY[A9VNN\\"
+  },
+  {
+    "offset": "0xb1c549",
+    "text": "uuuslslfefefeeeYeYYSSGGGGGGP[[ww"
+  },
+  {
+    "offset": "0xb1cd77",
+    "text": "uzulsleeeeeeeYeeYYYY[G[SPG[G[YfQ"
+  },
+  {
+    "offset": "0xb1cf76",
+    "text": "zzuuuleleeeeeeYe`YSSS[[GG[G[ff<"
+  },
+  {
+    "offset": "0xb1d175",
+    "text": "zzzuullldleeeeeYeY`Y[[G[G[SYf8o"
+  },
+  {
+    "offset": "0xb1d4a6",
+    "text": "~zusllldeeeefeYefY[Y[G[SSYY+"
+  },
+  {
+    "offset": "0xb68f7f",
+    "text": "b0Ofly"
+  },
+  {
+    "offset": "0xcd39fe",
+    "text": "eyeey"
+  },
+  {
+    "offset": "0xcd3b5a",
+    "text": ":BsQ}dYyeyey"
+  },
+  {
+    "offset": "0xcd4224",
+    "text": " eyeY"
+  },
+  {
+    "offset": "0xcd429c",
+    "text": ",eyeB"
+  },
+  {
+    "offset": "0xcd4396",
+    "text": "UeYeYY"
+  },
+  {
+    "offset": "0xd14813",
+    "text": "\"(4EYEYYYH"
+  },
+  {
+    "offset": "0xdfdbd0",
+    "text": "`t`0Gm@L@GEL\\m"
+  },
+  {
+    "offset": "0xe10b88",
+    "text": "EyEn^y^n"
+  },
+  {
+    "offset": "0xe52536",
+    "text": ";gEL"
+  },
+  {
+    "offset": "0xe5c0de",
+    "text": "YeYeYeYeYY"
+  },
+  {
+    "offset": "0xe5ca48",
+    "text": "yylyylffly"
+  },
+  {
+    "offset": "0xe76a19",
+    "text": "====GGAGAMMAA1   "
+  },
+  {
+    "offset": "0xeaccaf",
+    "text": ",DDTDTTDDDDDUabatttrraaXUIIIIIIUUUDD,#"
+  },
+  {
+    "offset": "0xee90b5",
+    "text": "#>5K>&E#/E5'>>K5UnEyE"
+  },
+  {
+    "offset": "0xef8a85",
+    "text": "gggELLUcr"
+  },
+  {
+    "offset": "0xf09b42",
+    "text": "+Fox)\"S"
+  },
+  {
+    "offset": "0xf37d47",
+    "text": "zzzozoojbUGG888GOr{"
+  },
+  {
+    "offset": "0xf37dc4",
+    "text": "zzoooooooojbUGG8888Gdr"
+  },
+  {
+    "offset": "0xf3d6b8",
+    "text": "6b9U?bAT@"
+  },
+  {
+    "offset": "0xf5f5ad",
+    "text": "haNd"
+  },
+  {
+    "offset": "0xf7c24c",
+    "text": "EgElIgIk@"
+  },
+  {
+    "offset": "0xf7c25c",
+    "text": ">h>kEgEl`"
+  },
+  {
+    "offset": "0xf92900",
+    "text": "`t`0Gm@L@GEL\\m"
+  },
+  {
+    "offset": "0xf9847c",
+    "text": "EgElIgIk@"
+  },
+  {
+    "offset": "0xf9848c",
+    "text": ">h>kEgEl`"
+  },
+  {
+    "offset": "0xffdf28",
+    "text": "eyes\" "
+  },
+  {
+    "offset": "0xffe044",
+    "text": "eyes"
+  },
+  {
+    "offset": "0xffff38",
+    "text": "eyes"
+  },
+  {
+    "offset": "0x1092c9e",
+    "text": "vgEL,"
+  },
+  {
+    "offset": "0x1099721",
+    "text": "ooxjBKeYE77-+3@K^{"
+  },
+  {
+    "offset": "0x10b0d3a",
+    "text": "EBUgUIINUccVQUIUV[Q[fcfd[cdd"
+  },
+  {
+    "offset": "0x10faf3f",
+    "text": "c6Boss"
+  },
+  {
+    "offset": "0x112f3e0",
+    "text": "lJ*LfLYf"
+  },
+  {
+    "offset": "0x113b8c4",
+    "text": "oozeo__Zi_2"
+  },
+  {
+    "offset": "0x117dae4",
+    "text": "\\@/$BHK31TeYe"
+  },
+  {
+    "offset": "0x1180b21",
+    "text": "K%$BTB0,BKwB,4K4BaT$4Ba40,044,$"
+  },
+  {
+    "offset": "0x1181ec2",
+    "text": "B00Ba>>BaTTB"
+  },
+  {
+    "offset": "0x1193301",
+    "text": "eYeTBBB4111/(("
+  },
+  {
+    "offset": "0x1193522",
+    "text": "F1BYYTeYeeTYe$%"
+  },
+  {
+    "offset": "0x11935a0",
+    "text": "{qZFFYF4Fe{eYYeeYee%"
+  },
+  {
+    "offset": "0x1193e62",
+    "text": "{{eY1YeueeYeYu"
+  },
+  {
+    "offset": "0x1193edc",
+    "text": "{{jejjYFFF1eYeeeu{{"
+  },
+  {
+    "offset": "0x1194e88",
+    "text": "eY{eeeeYe{"
+  },
+  {
+    "offset": "0x1196b1d",
+    "text": "BeYeeff"
+  },
+  {
+    "offset": "0x1198649",
+    "text": ",11(/(11#BYueeQB,TaHeeeYeTfeqqeeYFFFF1##"
+  },
+  {
+    "offset": "0x1198a34",
+    "text": ",,>)44e>,,HaQaH1{uHHjeQQQYeYQeeeYYqqqaHaaeYe{{{eYYFFF11FFFFFd[d[d[ddC"
+  },
+  {
+    "offset": "0x1199f13",
+    "text": "0>>>>>>>>HHHQQeeaHQaYeeeq{eY{eYYeYeYQQYQH{qeeej{jj{jjZYYFFFF1HF4F"
+  },
+  {
+    "offset": "0x119a414",
+    "text": "HHHHHH>>HHHHHHHHeYeYjYeYjYYFF{(S("
+  },
+  {
+    "offset": "0x11a0f65",
+    "text": "eYeTBBB4111/(("
+  },
+  {
+    "offset": "0x11a1186",
+    "text": "F1BYYTeYeeTYe$%"
+  },
+  {
+    "offset": "0x11a1204",
+    "text": "{qZFFYF4Fe{eYYeeYee%"
+  },
+  {
+    "offset": "0x11a1a96",
+    "text": "{{eY1YeueeYeYu{{{u"
+  },
+  {
+    "offset": "0x11a1b10",
+    "text": "{{jejjYFFF1eYeeeu{{"
+  },
+  {
+    "offset": "0x11af499",
+    "text": "\"(8=BOSS\\SKQQHK=SQ,KKQt"
+  },
+  {
+    "offset": "0x12348f7",
+    "text": "eYeeeekX<H*"
+  },
+  {
+    "offset": "0x1263131",
+    "text": ";G;22>22)(();ZbUgZZUMKKZgLZ;rgLZSG>22))(()5;;;KZK"
+  },
+  {
+    "offset": "0x127c6ad",
+    "text": "Nc_lnnulluuuujjjjuuuu"
+  },
+  {
+    "offset": "0x128d015",
+    "text": "CCEOYdkk{Yk{YEEEYEH["
+  },
+  {
+    "offset": "0x128e9fc",
+    "text": "&&&&-7AEEEYE"
+  },
+  {
+    "offset": "0x128fbad",
+    "text": "ebUG(Uey"
+  },
+  {
+    "offset": "0x12916c6",
+    "text": "gZryeyey"
+  },
+  {
+    "offset": "0x129e3df",
+    "text": "m;;;;;;;KLLL;;;22(2((((2(((2(2(2(2(0((0(2,02;eye"
+  },
+  {
+    "offset": "0x129eb3d",
+    "text": "eye;;;;;;=;;22;22222(222(2(2222)2)225;>2222525;KgZ"
+  },
+  {
+    "offset": "0x129ebbd",
+    "text": "eye;;;;;;KKG;22222)2(2(22222(22)2222;;;25252522KZU"
+  },
+  {
+    "offset": "0x129ec3d",
+    "text": "eye2;;;;;;LL;;22222(2222222222)2)222;KGG;>;;255KUZ"
+  },
+  {
+    "offset": "0x1309a74",
+    "text": "AAKfullllYYlYhYDKYYfYfXXYflYlllu"
+  },
+  {
+    "offset": "0x1309d87",
+    "text": "\\lYKYllflYlfFF\\\\fluuuu"
+  },
+  {
+    "offset": "0x130c7d2",
+    "text": "MnfFF:2FR\\fFLYUUUU"
+  },
+  {
+    "offset": "0x1317741",
+    "text": "\"\"\"///\"\"(/333/////0/0888I888@8@ISISSISSSSSSSShSB99EEBEUUUUddddUUhdUUUUU:LWKl\\cnuLLCK@39;333333339937viss"
+  },
+  {
+    "offset": "0x1326c02",
+    "text": ".5=AAFA5.5775AAAKKflflYYfuu"
+  },
+  {
+    "offset": "0x1326e01",
+    "text": "7FARFLA=AAAKAAAKuuflYXlllu"
+  },
+  {
+    "offset": "0x1344e1f",
+    "text": "6?>TQQOHs{-'.:LWKl\\cnuLLCK"
+  },
+  {
+    "offset": "0x1347b38",
+    "text": "oozeo__Zi_2"
+  },
+  {
+    "offset": "0x134f237",
+    "text": "|UKKPPPYeeYeYeeu"
+  },
+  {
+    "offset": "0x136827d",
+    "text": "\"(8=BOSS\\SKQQHK=SQ,KKQt"
+  },
+  {
+    "offset": "0x13ac7ec",
+    "text": "7OanllL4cNzgELLEL774B++DX"
+  },
+  {
+    "offset": "0x13aece0",
+    "text": "(EgEL5BE6747BLlD7:DCCXq"
+  },
+  {
+    "offset": "0x13b5b90",
+    "text": "fD:fOX"
+  },
+  {
+    "offset": "0x13d915f",
+    "text": "0>[eye&"
+  },
+  {
+    "offset": "0x13db4de",
+    "text": "Dkpz[eye[[T&>T[[[>D>9L[kp"
+  },
+  {
+    "offset": "0x13db75d",
+    "text": "&9TY99>T[[eT&309eyeT>D["
+  },
+  {
+    "offset": "0x13e4183",
+    "text": "|UKKPPPYeeYeYeeu"
+  },
+  {
+    "offset": "0x1417c29",
+    "text": "flY?:NLJ"
+  },
+  {
+    "offset": "0x141a832",
+    "text": "$EYE"
+  },
+  {
+    "offset": "0x142e920",
+    "text": ":]]NHNNT]VV]a]buG0m"
+  },
+  {
+    "offset": "0x143af0d",
+    "text": "QTTTHbTb]TbTHbbabaTTHbTabTTbA]TTT]TT+=3"
+  },
+  {
+    "offset": "0x143af60",
+    "text": "bAT}bbbTbbTQQQb"
+  },
+  {
+    "offset": "0x143b10a",
+    "text": "TTTaHTT:bATTH]TaTT]TTbTTbTTIILJL=+"
+  },
+  {
+    "offset": "0x143b2ff",
+    "text": "U:%2222?2bTA]TbaT]TTbT]TTbA+3JL1#"
+  },
+  {
+    "offset": "0x143b7a0",
+    "text": ")2<,9+999999999Q9999999TLLTbaTbbbTb::TlQbf"
+  },
+  {
+    "offset": "0x143cbd7",
+    "text": "2A?AATflY,"
+  },
+  {
+    "offset": "0x14484fc",
+    "text": "+AAbbbaTa]abjljjjtttjjabjttjttj"
+  },
+  {
+    "offset": "0x144e54b",
+    "text": "abaTVabbVjala"
+  },
+  {
+    "offset": "0x1452ba1",
+    "text": "faWQ[jfQZo^E=>GEL`hEB@?>OE>@0)>VVVVYYYVVYYVYVYYVYVYYY]YY]\\]\\Y\\Y\\]\\]\\]]\\]cccecceez"
+  },
+  {
+    "offset": "0x145ff33",
+    "text": "tbaTNTTT"
+  },
+  {
+    "offset": "0x146d881",
+    "text": "t]T]]]bbb|babVbaT]TTA"
+  },
+  {
+    "offset": "0x146dd18",
+    "text": "ljataabjbaTtb"
+  },
+  {
+    "offset": "0x146de18",
+    "text": "bba]jbaTVabb"
+  },
+  {
+    "offset": "0x146fb7c",
+    "text": "jj]bjjbatTHHH"
+  },
+  {
+    "offset": "0x148c414",
+    "text": "whveye"
+  },
+  {
+    "offset": "0x149c904",
+    "text": "eye1"
+  },
+  {
+    "offset": "0x149c9a8",
+    "text": "eye1"
+  },
+  {
+    "offset": "0x149c9e0",
+    "text": "eye0"
+  },
+  {
+    "offset": "0x149ca8c",
+    "text": "eye1"
+  },
+  {
+    "offset": "0x149f704",
+    "text": "eye1"
+  },
+  {
+    "offset": "0x14a17dc",
+    "text": "eye1"
+  },
+  {
+    "offset": "0x14c0f22",
+    "text": "vfWfkvfvffff+-!fA;P[MMEYYYYYYEYEEEEEEEEC99D-"
+  },
+  {
+    "offset": "0x14c0fb0",
+    "text": "!V\"4MEYEYYYYYYYEdEYEEEYEEEE8D"
+  },
+  {
+    "offset": "0x14c1131",
+    "text": "+DKEYEYdddddddYdddYEYdYY>I="
+  },
+  {
+    "offset": "0x14c3c7d",
+    "text": "@DDqqNqz]czrrccrP?LiPPPPYdsdnEYEEMEEE999;1"
+  },
+  {
+    "offset": "0x14c4000",
+    "text": ".DD]z]L?6@LrcPLPPPLEsdYndnMEEMEYEE9EEE99999E4"
+  },
+  {
+    "offset": "0x14c43a0",
+    "text": ".`EYEEdsdsssssssssssssssn{c8?88"
+  },
+  {
+    "offset": "0x14c459f",
+    "text": "kDREYEdddsssssssssyyssssss"
+  },
+  {
+    "offset": "0x14ca0c7",
+    "text": "m]rwm]]]]zzPP?L@@.CggddYEEYYEMEEMMEYEEME[g?"
+  },
+  {
+    "offset": "0x14ca449",
+    "text": ".aP.Ic@......PYMMYEYYM99YYEMEEEEMEEYEEM[["
+  },
+  {
+    "offset": "0x14ca708",
+    "text": "MYMEMYM99EdEEEEEEEEEMYEEYE"
+  },
+  {
+    "offset": "0x14cd63d",
+    "text": "&[[[R@PSPLL..@MEMY99EYEEEEEMEEEEEMMMM"
+  },
+  {
+    "offset": "0x14cd6ca",
+    "text": "&M[MYE9EYEEE9EEEMEEEMMME)"
+  },
+  {
+    "offset": "0x14cd749",
+    "text": ".1YE[M99EYEEEEEEEMEMMMEEM"
+  },
+  {
+    "offset": "0x14cdacb",
+    "text": "RMEME4%EE99EEEEEEEMEYEE4"
+  },
+  {
+    "offset": "0x14cdbc5",
+    "text": ".6 ...CMMEE49EE9EEEEMEEEEEYEEC"
+  },
+  {
+    "offset": "0x14cde7a",
+    "text": ".[MMME99EEEEEEEEEEEEEYEYC"
+  },
+  {
+    "offset": "0x14d0ed4",
+    "text": "99EEEEEEEEEYEEEYYY9"
+  },
+  {
+    "offset": "0x14d0f54",
+    "text": "99EEEEEEEEMMEEEYEMC"
+  },
+  {
+    "offset": "0x14d13d4",
+    "text": "Y9EMMMEYEMYYYYMYdMYdg[gYuguuguuuo`gooo"
+  },
+  {
+    "offset": "0x14f2f34",
+    "text": "!V\"4MEYEYYYY"
+  },
+  {
+    "offset": "0x14f30b5",
+    "text": "+DKEYEYdddd"
+  },
+  {
+    "offset": "0x14f47b5",
+    "text": "`EYEEdsdsss?88"
+  },
+  {
+    "offset": "0x14f49b5",
+    "text": "REYEdddssss?8*8))TeawSXX|X|"
+  },
+  {
+    "offset": "0x151db62",
+    "text": "$$(BATVGTV6"
+  },
+  {
+    "offset": "0x158fd33",
+    "text": ">LFLYRRRLRRXXb`iqqqbRbRYkktq"
+  },
+  {
+    "offset": "0x159e62b",
+    "text": " '***********3**311C91%%1+++;4+44444=949=;I;IC;;6FLYq"
+  },
+  {
+    "offset": "0x15f2e10",
+    "text": "~|wwtmlg_____T_ZZZTTTLLLLLGGEGGGGGGGGELG"
+  },
+  {
+    "offset": "0x15f3c20",
+    "text": "sa[QLLEGELVhs"
+  },
+  {
+    "offset": "0x15f5a71",
+    "text": "wwlmmmdddgdgggda__ZTTQLLGGGCECE;;;;272;27;2;;2;;GELKQV["
+  },
+  {
+    "offset": "0x15f689b",
+    "text": "ysna[VQKKKEE;;;;E;E;;;E;E;GELQKKEE>EE;;E;E>E>//////////>L]]QGLGGGZ|"
+  },
+  {
+    "offset": "0x15f8c55",
+    "text": "|||tttmmmggggZa_a]aZZZZZZZVTVTQTLLLLLLGGEEECEC;;;;C;;;;;;;2;;;;;;;;;;C;;;;EGEGELQVZagnm"
+  },
+  {
+    "offset": "0x15f8ed6",
+    "text": "|}txtmmjgjg]g]_ZZZT]TTTTTQPLLLLIGGC;C7;7772-2-222222-2-222272;7;;2;;;;;;CEGELEGEEGELKL"
+  },
+  {
+    "offset": "0x15fa10c",
+    "text": "KKKKKEEKKKLKLKLKLGGELLGLLLLLGLLGGGLPLNLNLNG>=====D=DDHDHDHHHHHHHHHHHHHHHHHHHHHHHHDHDDDDDDDDDDD<D<<<<<<<<<6661601000)%\"!%"
+  },
+  {
+    "offset": "0x162c93b",
+    "text": "\"(4EYEYYYH"
+  },
+  {
+    "offset": "0x164cb6c",
+    "text": "\"Jh?JQ9B>QBLeQeYeYep"
+  },
+  {
+    "offset": "0x1661a45",
+    "text": "$?^heqeYee~~VEEBB3(3L+"
+  },
+  {
+    "offset": "0x166c2b9",
+    "text": "\"2Q+BQQLJQ9LBBLBBEB9W.$$ZgEpeYeeeee^VQ3;pWW\\WPI@I::IIIW"
+  },
+  {
+    "offset": "0x1717eeb",
+    "text": "yflyffWs"
+  },
+  {
+    "offset": "0x1758798",
+    "text": "Z[a2)RRGRGGGGRA-989-98A88A98AAGGA6GRRBATGBRR999<X888>==+=;b;bW"
+  },
+  {
+    "offset": "0x1762267",
+    "text": "{xi922 A6.6A666.2LhYeYeYYLD53@?P}"
+  },
+  {
+    "offset": "0x1766b0c",
+    "text": "YeYeepB)X<<399,&,6& "
+  },
+  {
+    "offset": "0x1769e55",
+    "text": "}g\\g}jP}}jgj}gElgjhjg"
+  },
+  {
+    "offset": "0x176c360",
+    "text": "Q\\j`gjKK\\`jjBRThp}2BRBATTThTTgBghYhgge}P\\Q"
+  },
+  {
+    "offset": "0x176e705",
+    "text": "D?5@?TeYeeeY?e\\L\\\\PK??5\\pyY)"
+  },
+  {
+    "offset": "0x1776b0d",
+    "text": "P@AZLT[XLR[6egeL[XT[Z[[9TqaZXZZZLLGB66ZTLXRXBGA8DA!"
+  },
+  {
+    "offset": "0x177cf8d",
+    "text": "LpjhKTPYLYDDLDYTYeYLLYjYYeeeYEE5Ej"
+  },
+  {
+    "offset": "0x177d4aa",
+    "text": ")639<AB<BDDeYeTYeLDYTL<YDDPYP%"
+  },
+  {
+    "offset": "0x177e464",
+    "text": "LLLYTe\\gKPgeeYe\\\\YegPElKEQP\\g`EMIQ"
+  },
+  {
+    "offset": "0x17874df",
+    "text": "*`kjju|I@/lj`jjjD%@EYe\\YT"
+  },
+  {
+    "offset": "0x1787ca8",
+    "text": "YYD@KKPYeYe\\YYeP3.5@D5%.3515\".P\\l`lE"
+  },
+  {
+    "offset": "0x179182f",
+    "text": "|k``]EMEMlHEH\\jg`EQj`\\YjPEKg`YPPTD@L??\\TLeYeY5P"
+  },
+  {
+    "offset": "0x17918b1",
+    "text": "jju`EEQHHQHQ\\\\\\g\\KY\\YK?YYD\\eYeYYLP5YgYYYTehhLh"
+  },
+  {
+    "offset": "0x1791ab8",
+    "text": "yHEEE/@HKH@K\\ggPLLDDK63.DLLLTYeYehpeppqrqpq"
+  },
+  {
+    "offset": "0x1791d00",
+    "text": "YYeYe@K@533'K"
+  },
+  {
+    "offset": "0x179e8e6",
+    "text": "[,3B@BDDhpheTBLhYeYeYYLD53"
+  },
+  {
+    "offset": "0x17ee847",
+    "text": "%%%;;PTGGeLgg"
+  },
+  {
+    "offset": "0x183d618",
+    "text": "UC=QUQQQQ]Q* &5GGele&5&& &Q?=?===?q"
+  },
+  {
+    "offset": "0x185214a",
+    "text": "Q* &5GGele&5&& &"
+  },
+  {
+    "offset": "0x188e62d",
+    "text": "%LPP;CUPL-LCCPPCCCCPPPPPPPC]a]PGPP>>GPP]]C>GC>erq>->XemeG;55;5>;]T_TeYe_e_TTdre"
+  },
+  {
+    "offset": "0x188e912",
+    "text": "X]eeyeme_eTGGGGmm_TT[eOrent"
+  },
+  {
+    "offset": "0x18c94ea",
+    "text": "zvB+FOXcdSVQXQXOF;.4B>F;B<4><F<B.<4F~"
+  },
+  {
+    "offset": "0x18ce9ba",
+    "text": "zvB+FOXcdSVQXQXOF;.4B>F;B<4><F<B.<4F~"
+  },
+  {
+    "offset": "0x18d41a4",
+    "text": "bAtj"
+  },
+  {
+    "offset": "0x1911cf4",
+    "text": "eye###Iei[D[D)"
+  },
+  {
+    "offset": "0x191f55a",
+    "text": "|ssslbATObAb"
+  },
+  {
+    "offset": "0x191f5d6",
+    "text": "ss|||skslbATcA"
+  },
+  {
+    "offset": "0x192baa7",
+    "text": "eyee;X"
+  },
+  {
+    "offset": "0x192bb28",
+    "text": "Xeye"
+  },
+  {
+    "offset": "0x192bc2d",
+    "text": "eye#;I"
+  },
+  {
+    "offset": "0x195c6b5",
+    "text": "fLYw"
+  },
+  {
+    "offset": "0x195cd1c",
+    "text": "$$$$+(/((/1<<CCCCCNNNNYYYboss"
+  },
+  {
+    "offset": "0x1966ddc",
+    "text": "ffly"
+  },
+  {
+    "offset": "0x196b66f",
+    "text": "!Foxf"
+  },
+  {
+    "offset": "0x196bf78",
+    "text": "TTTJF88>EYFFoxxxfT8'!'88+!"
+  },
+  {
+    "offset": "0x19b4daf",
+    "text": "hZBATZ"
+  },
+  {
+    "offset": "0x1a01385",
+    "text": "fLYw"
+  },
+  {
+    "offset": "0x1a019ec",
+    "text": "$$$$+(/((/1<<CCCCCNNNNYYYboss"
+  },
+  {
+    "offset": "0x1a05bef",
+    "text": "eYYeYeks"
+  },
+  {
+    "offset": "0x1a09090",
+    "text": "%333YYeeekknnkkeeYe"
+  },
+  {
+    "offset": "0x1a55c4b",
+    "text": "~zeYeYI??777((((1,"
+  },
+  {
+    "offset": "0x1a623f4",
+    "text": "SS[dNUH633DIPPeeYYeZeYemmePYYeYYYYMBYYZMSG=+>=b>GGEWW=SWOGOOLELaaaddPD"
+  },
+  {
+    "offset": "0x1a67197",
+    "text": "Fly("
+  },
+  {
+    "offset": "0x1a8a177",
+    "text": "$BaT"
+  },
+  {
+    "offset": "0x1aaa144",
+    "text": ".?.)/6884D^diSA6ADSSMivvvoidddD"
+  },
+  {
+    "offset": "0x1aaa1c4",
+    "text": "#?KI@44ADDS^vi^D8ASX^Ldopvoidd"
+  },
+  {
+    "offset": "0x1aaa34e",
+    "text": "|i^^i^^^SDSvv}vovoid "
+  },
+  {
+    "offset": "0x1aaa3d0",
+    "text": "vi^i^^SSL^}v}}void"
+  },
+  {
+    "offset": "0x1af17fc",
+    "text": "fOx|"
+  },
+  {
+    "offset": "0x1b06ded",
+    "text": "_FIYFYPIIPPYYgYPQQIpeYe0PQYPgeepeYYeYQPYYg"
+  },
+  {
+    "offset": "0x1b06e66",
+    "text": "gMPF:IYI0F0<0<<IPPYPYPIIIIZZeIQIPQYeYeyYZeYPYYPey"
+  },
+  {
+    "offset": "0x1b06edf",
+    "text": "yy_PMYePYYP:FPF<:<<:F<YPPP0PPI0IZQYeZYeQIYpeppeeppYeYepYp"
+  },
+  {
+    "offset": "0x1b08509",
+    "text": "eYeeeYY"
+  },
+  {
+    "offset": "0x1b09af8",
+    "text": "L$<eye$$>>F`w"
+  },
+  {
+    "offset": "0x1b12f0d",
+    "text": "W=tW:QqeeyeJyssa|sqq"
+  },
+  {
+    "offset": "0x1b27af6",
+    "text": "rffLYY"
+  },
+  {
+    "offset": "0x1b53ce0",
+    "text": "=3+eYE-+32=3=ezelu"
+  },
+  {
+    "offset": "0x1b5be4a",
+    "text": "lyl~eRUEBEYE4E444C"
+  },
+  {
+    "offset": "0x1b80aee",
+    "text": "rffLYY"
+  },
+  {
+    "offset": "0x1c05ab7",
+    "text": "Fox$pd"
+  },
+  {
+    "offset": "0x1c18e03",
+    "text": "!Foxf"
+  },
+  {
+    "offset": "0x1c1970c",
+    "text": "TTTJF88>EYFFoxxxfT8'!'88+!"
+  },
+  {
+    "offset": "0x1c22980",
+    "text": "ffly"
+  },
+  {
+    "offset": "0x1cf91b4",
+    "text": "ffly"
+  },
+  {
+    "offset": "0x1d0670d",
+    "text": "fLYw"
+  },
+  {
+    "offset": "0x1d06c44",
+    "text": "$$$$+(/((/1<<CCCCCNNNNYYYboss"
+  },
+  {
+    "offset": "0x1d4fc70",
+    "text": "  .999.*9GGGBUGUZGGBGZZUZGUGZZZZjlZUUCUUUilUNT9"
+  },
+  {
+    "offset": "0x1d5d931",
+    "text": "]BUGGUX"
+  },
+  {
+    "offset": "0x1d8bd0e",
+    "text": "WBAt"
+  },
+  {
+    "offset": "0x1dfaa0e",
+    "text": "s|lilsggegUUULUUU99222LXLLXXUUXUUeUeUeegeeUUUUU[UU[U[[U[U[[e[[e[[Ufeg[fgffgffgff[fggglllwwwwwwslg[[ULLULXV^b{{VX^eXLLeeeiUE9[|eiegel"
+  },
+  {
+    "offset": "0x1e0e447",
+    "text": "!Foxf"
+  },
+  {
+    "offset": "0x1e0ed50",
+    "text": "TTTJF88>EYFFoxxxfT8'!'88+!"
+  },
+  {
+    "offset": "0x1e17cb7",
+    "text": "!Foxf"
+  },
+  {
+    "offset": "0x1e185c0",
+    "text": "TTTJF88>EYFFoxxxfT8'!'88+!"
+  },
+  {
+    "offset": "0x1e8ec6e",
+    "text": "s|lilsggegUUULUUU99222LXLLXXUUXUUeUeUeegeeUUUUU[UU[U[[U[U[[e[[e[[Ufeg[fgffgffgff[fggglllwwwwwwslg[[ULLULXV^b{{VX^eXLLeeeiUE9[|eiegel"
+  },
+  {
+    "offset": "0x1ea26a7",
+    "text": "!Foxf"
+  },
+  {
+    "offset": "0x1ea2fb0",
+    "text": "TTTJF88>EYFFoxxxfT8'!'88+!"
+  },
+  {
+    "offset": "0x1f0dba1",
+    "text": "5KVVbXL@7777FOXxvvvpX^O^^p"
+  },
+  {
+    "offset": "0x1f0dca5",
+    "text": "<VGGGG1+++777FOXp"
+  },
+  {
+    "offset": "0x1f0dd27",
+    "text": "5GGKGG++++++77FOXx"
+  },
+  {
+    "offset": "0x1f3e198",
+    "text": "ffly"
+  }
+]

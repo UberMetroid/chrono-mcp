@@ -1,0 +1,1602 @@
+[
+  {
+    "offset": "0x210590",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 0,
+    "movement_type": 41088,
+    "dialog_id": 65488
+  },
+  {
+    "offset": "0x211eb0",
+    "sprite_id": 2,
+    "x": 1121,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 127
+  },
+  {
+    "offset": "0x213020",
+    "sprite_id": 24,
+    "x": 100,
+    "y": 48,
+    "movement_type": 44980,
+    "dialog_id": 80
+  },
+  {
+    "offset": "0x213290",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 64,
+    "movement_type": 10173,
+    "dialog_id": 65504
+  },
+  {
+    "offset": "0x2136e0",
+    "sprite_id": 2,
+    "x": 1089,
+    "y": 16,
+    "movement_type": 44976,
+    "dialog_id": 127
+  },
+  {
+    "offset": "0x213e90",
+    "sprite_id": 2,
+    "x": 1121,
+    "y": 56,
+    "movement_type": 10161,
+    "dialog_id": 127
+  },
+  {
+    "offset": "0x214e50",
+    "sprite_id": 3,
+    "x": 11,
+    "y": 0,
+    "movement_type": 9,
+    "dialog_id": 892
+  },
+  {
+    "offset": "0x214f10",
+    "sprite_id": 16,
+    "x": 0,
+    "y": 8,
+    "movement_type": 0,
+    "dialog_id": 44
+  },
+  {
+    "offset": "0x214fa0",
+    "sprite_id": 8,
+    "x": 0,
+    "y": 44,
+    "movement_type": 0,
+    "dialog_id": 800
+  },
+  {
+    "offset": "0x214fd0",
+    "sprite_id": 76,
+    "x": 0,
+    "y": 776,
+    "movement_type": 91,
+    "dialog_id": 4
+  },
+  {
+    "offset": "0x215030",
+    "sprite_id": 44,
+    "x": 0,
+    "y": 800,
+    "movement_type": 93,
+    "dialog_id": 16
+  },
+  {
+    "offset": "0x216b60",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 32,
+    "movement_type": 10173,
+    "dialog_id": 65512
+  },
+  {
+    "offset": "0x217730",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 24,
+    "movement_type": 10173,
+    "dialog_id": 65416
+  },
+  {
+    "offset": "0x218ea0",
+    "sprite_id": 2,
+    "x": 1089,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 127
+  },
+  {
+    "offset": "0x2198c0",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 56,
+    "movement_type": 10173,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x21a850",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 48,
+    "movement_type": 10173,
+    "dialog_id": 65424
+  },
+  {
+    "offset": "0x21c830",
+    "sprite_id": 2,
+    "x": 1153,
+    "y": 56,
+    "movement_type": 41890,
+    "dialog_id": 127
+  },
+  {
+    "offset": "0x21d2e0",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 40,
+    "movement_type": 10173,
+    "dialog_id": 65432
+  },
+  {
+    "offset": "0x220070",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 168,
+    "movement_type": 10173,
+    "dialog_id": 65480
+  },
+  {
+    "offset": "0x22ad50",
+    "sprite_id": 48,
+    "x": 1121,
+    "y": 20,
+    "movement_type": 44547,
+    "dialog_id": 32799
+  },
+  {
+    "offset": "0x232130",
+    "sprite_id": 8,
+    "x": 992,
+    "y": 80,
+    "movement_type": 10173,
+    "dialog_id": 65408
+  },
+  {
+    "offset": "0x239e10",
+    "sprite_id": 2,
+    "x": 0,
+    "y": 5,
+    "movement_type": 0,
+    "dialog_id": 4
+  },
+  {
+    "offset": "0x239e70",
+    "sprite_id": 29,
+    "x": 0,
+    "y": 14,
+    "movement_type": 0,
+    "dialog_id": 30
+  },
+  {
+    "offset": "0x239ed0",
+    "sprite_id": 76,
+    "x": 0,
+    "y": 77,
+    "movement_type": 0,
+    "dialog_id": 108
+  },
+  {
+    "offset": "0x239f00",
+    "sprite_id": 108,
+    "x": 0,
+    "y": 109,
+    "movement_type": 0,
+    "dialog_id": 26962
+  },
+  {
+    "offset": "0x239f30",
+    "sprite_id": 123,
+    "x": 0,
+    "y": 124,
+    "movement_type": 0,
+    "dialog_id": 126
+  },
+  {
+    "offset": "0x23af50",
+    "sprite_id": 15,
+    "x": 0,
+    "y": 210,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x23c7b0",
+    "sprite_id": 210,
+    "x": 165,
+    "y": 103,
+    "movement_type": 169,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x23d0e0",
+    "sprite_id": 46,
+    "x": 16,
+    "y": 49,
+    "movement_type": 83,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x23d200",
+    "sprite_id": 44,
+    "x": 0,
+    "y": 880,
+    "movement_type": 220,
+    "dialog_id": 16
+  },
+  {
+    "offset": "0x23ed00",
+    "sprite_id": 44,
+    "x": 0,
+    "y": 864,
+    "movement_type": 218,
+    "dialog_id": 16
+  },
+  {
+    "offset": "0x23f1e0",
+    "sprite_id": 14,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x23f2a0",
+    "sprite_id": 6,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 234
+  },
+  {
+    "offset": "0x241340",
+    "sprite_id": 24,
+    "x": 24,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 31601
+  },
+  {
+    "offset": "0x2413a0",
+    "sprite_id": 18,
+    "x": 0,
+    "y": 0,
+    "movement_type": 47904,
+    "dialog_id": 21883
+  },
+  {
+    "offset": "0x2413d0",
+    "sprite_id": 306,
+    "x": 0,
+    "y": 0,
+    "movement_type": 30851,
+    "dialog_id": 39317
+  },
+  {
+    "offset": "0x241730",
+    "sprite_id": 273,
+    "x": 0,
+    "y": 0,
+    "movement_type": 4352,
+    "dialog_id": 4369
+  },
+  {
+    "offset": "0x241760",
+    "sprite_id": 17,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 4369
+  },
+  {
+    "offset": "0x243140",
+    "sprite_id": 165,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 48288
+  },
+  {
+    "offset": "0x243680",
+    "sprite_id": 233,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 48352
+  },
+  {
+    "offset": "0x2438c0",
+    "sprite_id": 44,
+    "x": 0,
+    "y": 768,
+    "movement_type": 247,
+    "dialog_id": 16
+  },
+  {
+    "offset": "0x244550",
+    "sprite_id": 164,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 31392
+  },
+  {
+    "offset": "0x245e70",
+    "sprite_id": 4,
+    "x": 12,
+    "y": 16,
+    "movement_type": 0,
+    "dialog_id": 8
+  },
+  {
+    "offset": "0x2464a0",
+    "sprite_id": 140,
+    "x": 0,
+    "y": 863,
+    "movement_type": 239,
+    "dialog_id": 4
+  },
+  {
+    "offset": "0x2466e0",
+    "sprite_id": 16,
+    "x": 1,
+    "y": 288,
+    "movement_type": 4228,
+    "dialog_id": 15556
+  },
+  {
+    "offset": "0x2467d0",
+    "sprite_id": 140,
+    "x": 0,
+    "y": 879,
+    "movement_type": 239,
+    "dialog_id": 4
+  },
+  {
+    "offset": "0x246a70",
+    "sprite_id": 7,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x247040",
+    "sprite_id": 32,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 25971
+  },
+  {
+    "offset": "0x2470a0",
+    "sprite_id": 1,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x2472e0",
+    "sprite_id": 298,
+    "x": 0,
+    "y": 814,
+    "movement_type": 79,
+    "dialog_id": 11
+  },
+  {
+    "offset": "0x248450",
+    "sprite_id": 15,
+    "x": 1529,
+    "y": 509,
+    "movement_type": 4048,
+    "dialog_id": 63744
+  },
+  {
+    "offset": "0x249710",
+    "sprite_id": 17,
+    "x": 255,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 40848
+  },
+  {
+    "offset": "0x249bc0",
+    "sprite_id": 1,
+    "x": 16,
+    "y": 256,
+    "movement_type": 0,
+    "dialog_id": 40848
+  },
+  {
+    "offset": "0x24a100",
+    "sprite_id": 250,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x24a970",
+    "sprite_id": 9,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 40848
+  },
+  {
+    "offset": "0x24ab50",
+    "sprite_id": 256,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 4096
+  },
+  {
+    "offset": "0x24ab80",
+    "sprite_id": 15,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x24b060",
+    "sprite_id": 16,
+    "x": 0,
+    "y": 256,
+    "movement_type": 16,
+    "dialog_id": 272
+  },
+  {
+    "offset": "0x24b1b0",
+    "sprite_id": 4,
+    "x": 64,
+    "y": 16,
+    "movement_type": 0,
+    "dialog_id": 8
+  },
+  {
+    "offset": "0x24b300",
+    "sprite_id": 31,
+    "x": 0,
+    "y": 0,
+    "movement_type": 496,
+    "dialog_id": 272
+  },
+  {
+    "offset": "0x24c200",
+    "sprite_id": 245,
+    "x": 1008,
+    "y": 0,
+    "movement_type": 2480,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x24c9b0",
+    "sprite_id": 242,
+    "x": 0,
+    "y": 203,
+    "movement_type": 2272,
+    "dialog_id": 501
+  },
+  {
+    "offset": "0x24d070",
+    "sprite_id": 24,
+    "x": 0,
+    "y": 0,
+    "movement_type": 4115,
+    "dialog_id": 8
+  },
+  {
+    "offset": "0x24d730",
+    "sprite_id": 1,
+    "x": 352,
+    "y": 385,
+    "movement_type": 0,
+    "dialog_id": 26209
+  },
+  {
+    "offset": "0x24e120",
+    "sprite_id": 29,
+    "x": 17,
+    "y": 0,
+    "movement_type": 16,
+    "dialog_id": 41160
+  },
+  {
+    "offset": "0x24e780",
+    "sprite_id": 59,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x24f170",
+    "sprite_id": 273,
+    "x": 0,
+    "y": 242,
+    "movement_type": 1760,
+    "dialog_id": 4352
+  },
+  {
+    "offset": "0x24fad0",
+    "sprite_id": 53,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 50752
+  },
+  {
+    "offset": "0x24fe60",
+    "sprite_id": 49,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 17472
+  },
+  {
+    "offset": "0x2555c0",
+    "sprite_id": 258,
+    "x": 0,
+    "y": 0,
+    "movement_type": 256,
+    "dialog_id": 257
+  },
+  {
+    "offset": "0x2582f0",
+    "sprite_id": 16,
+    "x": 1,
+    "y": 1056,
+    "movement_type": 2113,
+    "dialog_id": 3170
+  },
+  {
+    "offset": "0x2583e0",
+    "sprite_id": 4,
+    "x": 20,
+    "y": 16,
+    "movement_type": 0,
+    "dialog_id": 8
+  },
+  {
+    "offset": "0x2584a0",
+    "sprite_id": 11,
+    "x": 0,
+    "y": 0,
+    "movement_type": 45056,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x2586b0",
+    "sprite_id": 2,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x258bc0",
+    "sprite_id": 11,
+    "x": 0,
+    "y": 1271,
+    "movement_type": 0,
+    "dialog_id": 28672
+  },
+  {
+    "offset": "0x258d40",
+    "sprite_id": 7,
+    "x": 0,
+    "y": 1271,
+    "movement_type": 0,
+    "dialog_id": 57200
+  },
+  {
+    "offset": "0x259a00",
+    "sprite_id": 127,
+    "x": 0,
+    "y": 0,
+    "movement_type": 65506,
+    "dialog_id": 53247
+  },
+  {
+    "offset": "0x259a30",
+    "sprite_id": 191,
+    "x": 0,
+    "y": 764,
+    "movement_type": 36704,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x25b080",
+    "sprite_id": 63,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x25b200",
+    "sprite_id": 79,
+    "x": 0,
+    "y": 0,
+    "movement_type": 24576,
+    "dialog_id": 59
+  },
+  {
+    "offset": "0x25d090",
+    "sprite_id": 107,
+    "x": 0,
+    "y": 767,
+    "movement_type": 32576,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x25d240",
+    "sprite_id": 3,
+    "x": 0,
+    "y": 832,
+    "movement_type": 0,
+    "dialog_id": 45056
+  },
+  {
+    "offset": "0x25d570",
+    "sprite_id": 2,
+    "x": 0,
+    "y": 1632,
+    "movement_type": 0,
+    "dialog_id": 45056
+  },
+  {
+    "offset": "0x25d840",
+    "sprite_id": 61,
+    "x": 0,
+    "y": 191,
+    "movement_type": 32656,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x260270",
+    "sprite_id": 222,
+    "x": 0,
+    "y": 269,
+    "movement_type": 0,
+    "dialog_id": 322
+  },
+  {
+    "offset": "0x260b10",
+    "sprite_id": 16,
+    "x": 1,
+    "y": 0,
+    "movement_type": 32767,
+    "dialog_id": 31
+  },
+  {
+    "offset": "0x260ba0",
+    "sprite_id": 272,
+    "x": 273,
+    "y": 17,
+    "movement_type": 272,
+    "dialog_id": 4368
+  },
+  {
+    "offset": "0x2616e0",
+    "sprite_id": 340,
+    "x": 356,
+    "y": 1,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x261fe0",
+    "sprite_id": 144,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x2620a0",
+    "sprite_id": 128,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x262c40",
+    "sprite_id": 152,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x262cd0",
+    "sprite_id": 168,
+    "x": 0,
+    "y": 293,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x262d00",
+    "sprite_id": 96,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x263030",
+    "sprite_id": 106,
+    "x": 0,
+    "y": 286,
+    "movement_type": 13558,
+    "dialog_id": 2054
+  },
+  {
+    "offset": "0x263060",
+    "sprite_id": 120,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x2633f0",
+    "sprite_id": 228,
+    "x": 0,
+    "y": 293,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x263450",
+    "sprite_id": 20,
+    "x": 0,
+    "y": 221,
+    "movement_type": 376,
+    "dialog_id": 4097
+  },
+  {
+    "offset": "0x2647a0",
+    "sprite_id": 276,
+    "x": 0,
+    "y": 293,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x265490",
+    "sprite_id": 128,
+    "x": 8,
+    "y": 338,
+    "movement_type": 13558,
+    "dialog_id": 3586
+  },
+  {
+    "offset": "0x2654f0",
+    "sprite_id": 88,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x265520",
+    "sprite_id": 56,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x265550",
+    "sprite_id": 24,
+    "x": 0,
+    "y": 284,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x265580",
+    "sprite_id": 21,
+    "x": 0,
+    "y": 160,
+    "movement_type": 0,
+    "dialog_id": 284
+  },
+  {
+    "offset": "0x265910",
+    "sprite_id": 184,
+    "x": 0,
+    "y": 293,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x265dc0",
+    "sprite_id": 196,
+    "x": 0,
+    "y": 293,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x266060",
+    "sprite_id": 9,
+    "x": 0,
+    "y": 85,
+    "movement_type": 0,
+    "dialog_id": 293
+  },
+  {
+    "offset": "0x2661b0",
+    "sprite_id": 66,
+    "x": 0,
+    "y": 467,
+    "movement_type": 13558,
+    "dialog_id": 3077
+  },
+  {
+    "offset": "0x266420",
+    "sprite_id": 154,
+    "x": 0,
+    "y": 293,
+    "movement_type": 13558,
+    "dialog_id": 2056
+  },
+  {
+    "offset": "0x267740",
+    "sprite_id": 5,
+    "x": 0,
+    "y": 155,
+    "movement_type": 16,
+    "dialog_id": 60988
+  },
+  {
+    "offset": "0x267e90",
+    "sprite_id": 3,
+    "x": 0,
+    "y": 0,
+    "movement_type": 65460,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x2683d0",
+    "sprite_id": 106,
+    "x": 106,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 106
+  },
+  {
+    "offset": "0x2686d0",
+    "sprite_id": 149,
+    "x": 13,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 144
+  },
+  {
+    "offset": "0x268790",
+    "sprite_id": 332,
+    "x": 348,
+    "y": 364,
+    "movement_type": 380,
+    "dialog_id": 396
+  },
+  {
+    "offset": "0x2694e0",
+    "sprite_id": 20,
+    "x": 0,
+    "y": 32,
+    "movement_type": 119,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x2696c0",
+    "sprite_id": 40,
+    "x": 0,
+    "y": 20,
+    "movement_type": 0,
+    "dialog_id": 41
+  },
+  {
+    "offset": "0x2696f0",
+    "sprite_id": 20,
+    "x": 0,
+    "y": 45,
+    "movement_type": 119,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x269900",
+    "sprite_id": 20,
+    "x": 0,
+    "y": 47,
+    "movement_type": 119,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x269ae0",
+    "sprite_id": 44,
+    "x": 20,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 9
+  },
+  {
+    "offset": "0x269b10",
+    "sprite_id": 20,
+    "x": 0,
+    "y": 120,
+    "movement_type": 34,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x269ed0",
+    "sprite_id": 50,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 99
+  },
+  {
+    "offset": "0x269fc0",
+    "sprite_id": 64,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x26a0e0",
+    "sprite_id": 67,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 149
+  },
+  {
+    "offset": "0x26a2f0",
+    "sprite_id": 84,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 131
+  },
+  {
+    "offset": "0x26a320",
+    "sprite_id": 60,
+    "x": 2,
+    "y": 117,
+    "movement_type": 12578,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26ad10",
+    "sprite_id": 44,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 464
+  },
+  {
+    "offset": "0x26b100",
+    "sprite_id": 60,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 509
+  },
+  {
+    "offset": "0x26b130",
+    "sprite_id": 15,
+    "x": 2,
+    "y": 508,
+    "movement_type": 0,
+    "dialog_id": 2055
+  },
+  {
+    "offset": "0x26b310",
+    "sprite_id": 60,
+    "x": 0,
+    "y": 10,
+    "movement_type": 1,
+    "dialog_id": 421
+  },
+  {
+    "offset": "0x26b490",
+    "sprite_id": 136,
+    "x": 0,
+    "y": 513,
+    "movement_type": 0,
+    "dialog_id": 8320
+  },
+  {
+    "offset": "0x26b520",
+    "sprite_id": 52,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 276
+  },
+  {
+    "offset": "0x26b640",
+    "sprite_id": 225,
+    "x": 0,
+    "y": 0,
+    "movement_type": 141,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x26b760",
+    "sprite_id": 10,
+    "x": 1,
+    "y": 438,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26b7f0",
+    "sprite_id": 16,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x26bb50",
+    "sprite_id": 10,
+    "x": 1,
+    "y": 212,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26bd60",
+    "sprite_id": 10,
+    "x": 1,
+    "y": 238,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26bf70",
+    "sprite_id": 33,
+    "x": 0,
+    "y": 219,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26c150",
+    "sprite_id": 23,
+    "x": 20,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 152
+  },
+  {
+    "offset": "0x26c330",
+    "sprite_id": 28,
+    "x": 10,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 471
+  },
+  {
+    "offset": "0x26c570",
+    "sprite_id": 10,
+    "x": 1,
+    "y": 242,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26c960",
+    "sprite_id": 23,
+    "x": 10,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 302
+  },
+  {
+    "offset": "0x26cd50",
+    "sprite_id": 2,
+    "x": 36,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 286
+  },
+  {
+    "offset": "0x26cd80",
+    "sprite_id": 10,
+    "x": 1,
+    "y": 312,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26cf60",
+    "sprite_id": 5,
+    "x": 45,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 291
+  },
+  {
+    "offset": "0x26d080",
+    "sprite_id": 255,
+    "x": 255,
+    "y": 255,
+    "movement_type": 255,
+    "dialog_id": 255
+  },
+  {
+    "offset": "0x26d0e0",
+    "sprite_id": 255,
+    "x": 0,
+    "y": 129,
+    "movement_type": 0,
+    "dialog_id": 64
+  },
+  {
+    "offset": "0x26d110",
+    "sprite_id": 129,
+    "x": 0,
+    "y": 64,
+    "movement_type": 12800,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x26d6e0",
+    "sprite_id": 255,
+    "x": 0,
+    "y": 136,
+    "movement_type": 0,
+    "dialog_id": 128
+  },
+  {
+    "offset": "0x26d710",
+    "sprite_id": 136,
+    "x": 0,
+    "y": 128,
+    "movement_type": 256,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x26d830",
+    "sprite_id": 8,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 255
+  },
+  {
+    "offset": "0x26db00",
+    "sprite_id": 255,
+    "x": 0,
+    "y": 1,
+    "movement_type": 0,
+    "dialog_id": 16512
+  },
+  {
+    "offset": "0x26e190",
+    "sprite_id": 10,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 311
+  },
+  {
+    "offset": "0x26ebb0",
+    "sprite_id": 12,
+    "x": 20,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 398
+  },
+  {
+    "offset": "0x26ed30",
+    "sprite_id": 255,
+    "x": 0,
+    "y": 8,
+    "movement_type": 0,
+    "dialog_id": 1152
+  },
+  {
+    "offset": "0x26edc0",
+    "sprite_id": 20,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 478
+  },
+  {
+    "offset": "0x26f150",
+    "sprite_id": 1,
+    "x": 0,
+    "y": 1152,
+    "movement_type": 8192,
+    "dialog_id": 16
+  },
+  {
+    "offset": "0x26f1b0",
+    "sprite_id": 13,
+    "x": 1,
+    "y": 16,
+    "movement_type": 32,
+    "dialog_id": 355
+  },
+  {
+    "offset": "0x26f1e0",
+    "sprite_id": 16,
+    "x": 4,
+    "y": 357,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x26f3c0",
+    "sprite_id": 50,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 459
+  },
+  {
+    "offset": "0x26f4b0",
+    "sprite_id": 256,
+    "x": 0,
+    "y": 255,
+    "movement_type": 255,
+    "dialog_id": 255
+  },
+  {
+    "offset": "0x26f5d0",
+    "sprite_id": 14,
+    "x": 30,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 174
+  },
+  {
+    "offset": "0x26f7e0",
+    "sprite_id": 70,
+    "x": 40,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 423
+  },
+  {
+    "offset": "0x270950",
+    "sprite_id": 40,
+    "x": 576,
+    "y": 9,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x270a40",
+    "sprite_id": 300,
+    "x": 320,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x270a70",
+    "sprite_id": 300,
+    "x": 1088,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x270aa0",
+    "sprite_id": 300,
+    "x": 576,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 65535
+  },
+  {
+    "offset": "0x2722a0",
+    "sprite_id": 262,
+    "x": 16,
+    "y": 23,
+    "movement_type": 2659,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x272330",
+    "sprite_id": 19,
+    "x": 1377,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x2735c0",
+    "sprite_id": 257,
+    "x": 0,
+    "y": 64,
+    "movement_type": 8,
+    "dialog_id": 32
+  },
+  {
+    "offset": "0x273650",
+    "sprite_id": 64,
+    "x": 8,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x273710",
+    "sprite_id": 256,
+    "x": 0,
+    "y": 32,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x273a70",
+    "sprite_id": 8,
+    "x": 0,
+    "y": 1,
+    "movement_type": 1,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x273b00",
+    "sprite_id": 128,
+    "x": 0,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x274220",
+    "sprite_id": 96,
+    "x": 218,
+    "y": 202,
+    "movement_type": 224,
+    "dialog_id": 46737
+  },
+  {
+    "offset": "0x2755d0",
+    "sprite_id": 200,
+    "x": 52,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x275600",
+    "sprite_id": 10,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x275630",
+    "sprite_id": 26,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x275660",
+    "sprite_id": 9,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x275690",
+    "sprite_id": 100,
+    "x": 100,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x275780",
+    "sprite_id": 98,
+    "x": 16,
+    "y": 2,
+    "movement_type": 0,
+    "dialog_id": 0
+  },
+  {
+    "offset": "0x275840",
+    "sprite_id": 76,
+    "x": 16,
+    "y": 32,
+    "movement_type": 4106,
+    "dialog_id": 576
+  },
+  {
+    "offset": "0x275900",
+    "sprite_id": 34,
+    "x": 0,
+    "y": 16,
+    "movement_type": 0,
+    "dialog_id": 2
+  },
+  {
+    "offset": "0x275a20",
+    "sprite_id": 166,
+    "x": 32,
+    "y": 0,
+    "movement_type": 0,
+    "dialog_id": 20
+  },
+  {
+    "offset": "0x277a90",
+    "sprite_id": 38,
+    "x": 32,
+    "y": 32,
+    "movement_type": 19518,
+    "dialog_id": 20559
+  },
+  {
+    "offset": "0x2784e0",
+    "sprite_id": 32,
+    "x": 32,
+    "y": 32,
+    "movement_type": 32,
+    "dialog_id": 32
+  },
+  {
+    "offset": "0x27eea0",
+    "sprite_id": 257,
+    "x": 1,
+    "y": 1,
+    "movement_type": 38179,
+    "dialog_id": 5176
+  },
+  {
+    "offset": "0x2840c0",
+    "sprite_id": 7,
+    "x": 1028,
+    "y": 4,
+    "movement_type": 10247,
+    "dialog_id": 10280
+  },
+  {
+    "offset": "0x288200",
+    "sprite_id": 379,
+    "x": 513,
+    "y": 514,
+    "movement_type": 514,
+    "dialog_id": 514
+  },
+  {
+    "offset": "0x28ea70",
+    "sprite_id": 1,
+    "x": 0,
+    "y": 256,
+    "movement_type": 1283,
+    "dialog_id": 9501
+  },
+  {
+    "offset": "0x299690",
+    "sprite_id": 1,
+    "x": 256,
+    "y": 257,
+    "movement_type": 1281,
+    "dialog_id": 6178
+  },
+  {
+    "offset": "0x2999c0",
+    "sprite_id": 257,
+    "x": 257,
+    "y": 257,
+    "movement_type": 257,
+    "dialog_id": 5144
+  },
+  {
+    "offset": "0x299cc0",
+    "sprite_id": 256,
+    "x": 0,
+    "y": 256,
+    "movement_type": 257,
+    "dialog_id": 5154
+  },
+  {
+    "offset": "0x299e40",
+    "sprite_id": 256,
+    "x": 1,
+    "y": 0,
+    "movement_type": 257,
+    "dialog_id": 5144
+  },
+  {
+    "offset": "0x29a470",
+    "sprite_id": 2,
+    "x": 0,
+    "y": 256,
+    "movement_type": 257,
+    "dialog_id": 6691
+  },
+  {
+    "offset": "0x29a5f0",
+    "sprite_id": 5,
+    "x": 0,
+    "y": 1,
+    "movement_type": 257,
+    "dialog_id": 5911
+  },
+  {
+    "offset": "0x29a770",
+    "sprite_id": 18,
+    "x": 0,
+    "y": 256,
+    "movement_type": 257,
+    "dialog_id": 5911
+  },
+  {
+    "offset": "0x29a8f0",
+    "sprite_id": 26,
+    "x": 0,
+    "y": 257,
+    "movement_type": 257,
+    "dialog_id": 5911
+  },
+  {
+    "offset": "0x29f750",
+    "sprite_id": 257,
+    "x": 514,
+    "y": 257,
+    "movement_type": 257,
+    "dialog_id": 256
+  },
+  {
+    "offset": "0x2a07a0",
+    "sprite_id": 256,
+    "x": 1283,
+    "y": 1285,
+    "movement_type": 2827,
+    "dialog_id": 514
+  },
+  {
+    "offset": "0x2a1a00",
+    "sprite_id": 257,
+    "x": 513,
+    "y": 514,
+    "movement_type": 514,
+    "dialog_id": 514
+  },
+  {
+    "offset": "0x2a1d00",
+    "sprite_id": 257,
+    "x": 1,
+    "y": 256,
+    "movement_type": 0,
+    "dialog_id": 513
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "offset": "0x100c1c",
+    "hp_values": [
+      255,
+      255,
+      255,
+      255,
+      255,
+      255,
+      771
+    ],
+    "likely_characters": [
+      "Crono",
+      "Marle",
+      "Lucca",
+      "Robo",
+      "Frog",
+      "Ayla",
+      "Magus"
+    ]
+  }
+]

@@ -1,0 +1,265 @@
+{
+  "game": "Chrono Cross",
+  "platforms": [
+    "PS1"
+  ],
+  "characters": [
+    {
+      "id": 0,
+      "name": "Serge",
+      "hp": 180,
+      "mp": 30,
+      "str": 18,
+      "def": 10,
+      "weapon": "sword"
+    },
+    {
+      "id": 1,
+      "name": "Kid",
+      "hp": 150,
+      "mp": 45,
+      "str": 12,
+      "def": 8,
+      "weapon": "dagger"
+    },
+    {
+      "id": 2,
+      "name": "Guinevere",
+      "hp": 160,
+      "mp": 50,
+      "str": 14,
+      "def": 9,
+      "weapon": "staff"
+    },
+    {
+      "id": 3,
+      "name": "Harle",
+      "hp": 170,
+      "mp": 35,
+      "str": 16,
+      "def": 12,
+      "weapon": "sword"
+    },
+    {
+      "id": 4,
+      "name": "Riddel",
+      "hp": 155,
+      "mp": 40,
+      "str": 15,
+      "def": 8,
+      "weapon": "bow"
+    },
+    {
+      "id": 5,
+      "name": "Machina",
+      "hp": 200,
+      "mp": 20,
+      "str": 22,
+      "def": 15,
+      "weapon": "fist"
+    },
+    {
+      "id": 6,
+      "name": "Karsh",
+      "hp": 190,
+      "mp": 25,
+      "str": 20,
+      "def": 14,
+      "weapon": "sword"
+    },
+    {
+      "id": 7,
+      "name": "Zoah",
+      "hp": 210,
+      "mp": 15,
+      "str": 25,
+      "def": 12,
+      "weapon": "fist"
+    },
+    {
+      "id": 8,
+      "name": "Marcy",
+      "hp": 140,
+      "mp": 55,
+      "str": 10,
+      "def": 6,
+      "weapon": "staff"
+    },
+    {
+      "id": 9,
+      "name": "Orl",
+      "hp": 175,
+      "mp": 30,
+      "str": 17,
+      "def": 10,
+      "weapon": "sword"
+    },
+    {
+      "id": 10,
+      "name": "Miki",
+      "hp": 160,
+      "mp": 35,
+      "str": 14,
+      "def": 9,
+      "weapon": "fist"
+    }
+  ],
+  "elements": [
+    {
+      "id": 0,
+      "name": "Fire",
+      "color": "red"
+    },
+    {
+      "id": 1,
+      "name": "Water",
+      "color": "blue"
+    },
+    {
+      "id": 2,
+      "name": "Lightning",
+      "color": "yellow"
+    },
+    {
+      "id": 3,
+      "name": "Ice",
+      "color": "cyan"
+    },
+    {
+      "id": 4,
+      "name": "Earth",
+      "color": "brown"
+    },
+    {
+      "id": 5,
+      "name": "Wind",
+      "color": "green"
+    },
+    {
+      "id": 6,
+      "name": "Holy",
+      "color": "white"
+    },
+    {
+      "id": 7,
+      "name": "Dark",
+      "color": "purple"
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Home",
+      "world": "Home"
+    },
+    {
+      "id": 1,
+      "name": "Dead Sea",
+      "world": "Home"
+    },
+    {
+      "id": 2,
+      "name": "Waterway",
+      "world": "Home"
+    },
+    {
+      "id": 3,
+      "name": "Fort Dragonia",
+      "world": "Home"
+    },
+    {
+      "id": 4,
+      "name": "Guldove",
+      "world": "Home"
+    },
+    {
+      "id": 5,
+      "name": "Terminus",
+      "world": "Home"
+    },
+    {
+      "id": 6,
+      "name": "Sea of Eden",
+      "world": "Home"
+    },
+    {
+      "id": 7,
+      "name": "Another World",
+      "world": "Another"
+    },
+    {
+      "id": 8,
+      "name": "Shadow",
+      "world": "Another"
+    },
+    {
+      "id": 9,
+      "name": "Rain",
+      "world": "Another"
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "name": "Epee",
+      "type": "weapon"
+    },
+    {
+      "id": 1,
+      "name": "Dagger",
+      "type": "weapon"
+    },
+    {
+      "id": 2,
+      "name": "Staff",
+      "type": "weapon"
+    },
+    {
+      "id": 3,
+      "name": "Bow",
+      "type": "weapon"
+    },
+    {
+      "id": 4,
+      "name": "Fist",
+      "type": "weapon"
+    },
+    {
+      "id": 5,
+      "name": "Axe",
+      "type": "weapon"
+    }
+  ],
+  "enemies": [
+    {
+      "id": 0,
+      "name": "Goblin",
+      "hp": 30,
+      "exp": 5
+    },
+    {
+      "id": 1,
+      "name": "Bat",
+      "hp": 15,
+      "exp": 2
+    },
+    {
+      "id": 2,
+      "name": "Skeleton",
+      "hp": 40,
+      "exp": 8
+    },
+    {
+      "id": 3,
+      "name": "Ghost",
+      "hp": 35,
+      "exp": 6
+    },
+    {
+      "id": 4,
+      "name": "Slime",
+      "hp": 25,
+      "exp": 3
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "offset": "0x1c0000",
+    "item_id": 3,
+    "quantity": 0,
+    "region": "0300000001000200210000001f002000"
+  },
+  {
+    "offset": "0x1c0010",
+    "item_id": 17,
+    "quantity": 0,
+    "region": "110000000f001000310000002f003000"
+  },
+  {
+    "offset": "0x1c0080",
+    "item_id": 36,
+    "quantity": 0,
+    "region": "24000000220023001400000012001300"
+  },
+  {
+    "offset": "0x1c0090",
+    "item_id": 52,
+    "quantity": 0,
+    "region": "340000003200330004e0f4e004f0f4f0"
+  },
+  {
+    "offset": "0x1c00a0",
+    "item_id": 42,
+    "quantity": 0,
+    "region": "2a000000034002001740000019401840"
+  },
+  {
+    "offset": "0x1c00b0",
+    "item_id": 10,
+    "quantity": 0,
+    "region": "0a00000008000900f042000047403a40"
+  },
+  {
+    "offset": "0x1c00f0",
+    "item_id": 3,
+    "quantity": 0,
+    "region": "030000002b4002001a4000001c401b40"
+  },
+  {
+    "offset": "0x1c0100",
+    "item_id": 13,
+    "quantity": 0,
+    "region": "0d0000000b000c00004300002c403c40"
+  },
+  {
+    "offset": "0x1c0120",
+    "item_id": 25,
+    "quantity": 0,
+    "region": "1900000017001800084000000a400940"
+  },
+  {
+    "offset": "0x1c0130",
+    "item_id": 71,
+    "quantity": 0,
+    "region": "47000000f0023a0004e1f4e104f1f4f1"
+  },
+  {
+    "offset": "0x1c0170",
+    "item_id": 28,
+    "quantity": 0,
+    "region": "1c0000001a001b000b4000000d400c40"
+  },
+  {
+    "offset": "0x1c0180",
+    "item_id": 44,
+    "quantity": 0,
+    "region": "2c00000000033c0004e0f4e004f0f4f0"
+  },
+  {
+    "offset": "0x1c0190",
+    "item_id": 29,
+    "quantity": 0,
+    "region": "1d00000000000e004e40000000004f40"
+  },
+  {
+    "offset": "0x1c01a0",
+    "item_id": 64,
+    "quantity": 0,
+    "region": "4000000000003f005e40000000005f40"
+  },
+  {
+    "offset": "0x1c01e0",
+    "item_id": 61,
+    "quantity": 0,
+    "region": "3d0000000000060052404a0000005340"
+  },
+  {
+    "offset": "0x1c01f0",
+    "item_id": 68,
+    "quantity": 0,
+    "region": "440000000000430062405a0000006340"
+  },
+  {
+    "offset": "0x1c0230",
+    "item_id": 46,
+    "quantity": 0,
+    "region": "2e00000000000e005640000000005740"
+  },
+  {
+    "offset": "0x1c0240",
+    "item_id": 64,
+    "quantity": 0,
+    "region": "4000000000003f006640000000006740"
+  },
+  {
+    "offset": "0x1c02b0",
+    "item_id": 81,
+    "quantity": 0,
+    "region": "51000000000050004140000000004240"
+  },
+  {
+    "offset": "0x1c02c0",
+    "item_id": 97,
+    "quantity": 0,
+    "region": "6100000000006000ffe0efe0fff0eff0"
+  },
+  {
+    "offset": "0x1c0300",
+    "item_id": 84,
+    "quantity": 85,
+    "region": "5400550000006a404240414000000040"
+  },
+  {
+    "offset": "0x1c0350",
+    "item_id": 89,
+    "quantity": 0,
+    "region": "59000000000058004840000000004940"
+  },
+  {
+    "offset": "0x1c0370",
+    "item_id": 5,
+    "quantity": 0,
+    "region": "05000000054004005b4000005d405c40"
+  },
+  {
+    "offset": "0x1c0380",
+    "item_id": 77,
+    "quantity": 0,
+    "region": "4d0000004b004c006b4000006d406c40"
+  },
+  {
+    "offset": "0x1c03c0",
+    "item_id": 5,
+    "quantity": 0,
+    "region": "05000000054004008140000083408240"
+  },
+  {
+    "offset": "0x1c03f0",
+    "item_id": 93,
+    "quantity": 0,
+    "region": "5d0000005b005c007600000074007500"
+  },
+  {
+    "offset": "0x1c0410",
+    "item_id": 5,
+    "quantity": 0,
+    "region": "0500000005400400800000007e007f00"
+  },
+  {
+    "offset": "0x1c0940",
+    "item_id": 36,
+    "quantity": 0,
+    "region": "24000000320133017601000023012401"
+  },
+  {
+    "offset": "0x1c0970",
+    "item_id": 17,
+    "quantity": 0,
+    "region": "110000000f008301310000002f003000"
+  },
+  {
+    "offset": "0x1c09e0",
+    "item_id": 36,
+    "quantity": 0,
+    "region": "24000000220023009401000012009301"
+  },
+  {
+    "offset": "0x1c09f0",
+    "item_id": 52,
+    "quantity": 0,
+    "region": "340000003200330004e0f4e004f0f4f0"
+  },
+  {
+    "offset": "0x1c0a10",
+    "item_id": 17,
+    "quantity": 0,
+    "region": "110000000f009201310000002f003000"
+  },
+  {
+    "offset": "0x1c0a30",
+    "item_id": 33,
+    "quantity": 0,
+    "region": "210000001f002000110000000f009f01"
+  },
+  {
+    "offset": "0x1c0a40",
+    "item_id": 49,
+    "quantity": 0,
+    "region": "310000002f00300004e0f4e004f0f4f0"
+  },
+  {
+    "offset": "0x1c0a60",
+    "item_id": 22,
+    "quantity": 0,
+    "region": "1600000000005c013540000000003640"
+  },
+  {
+    "offset": "0x1c0ad0",
+    "item_id": 38,
+    "quantity": 0,
+    "region": "26000000000025005a41000000001640"
+  },
+  {
+    "offset": "0x1c0ae0",
+    "item_id": 54,
+    "quantity": 0,
+    "region": "3600000000003500ffe0efe0fff0eff0"
+  },
+  {
+    "offset": "0x1c0b20",
+    "item_id": 36,
+    "quantity": 0,
+    "region": "24000000220023007601000012007501"
+  },
+  {
+    "offset": "0x1c0b30",
+    "item_id": 52,
+    "quantity": 0,
+    "region": "340000003200330004e0f4e004f0f4f0"
+  },
+  {
+    "offset": "0x1c0dc0",
+    "item_id": 5,
+    "quantity": 0,
+    "region": "05000000aa01ab018140000083408240"
+  },
+  {
+    "offset": "0x1c0df0",
+    "item_id": 93,
+    "quantity": 0,
+    "region": "5d0000005b005c008f410000b9419041"
+  },
+  {
+    "offset": "0x1c16b0",
+    "item_id": 33,
+    "quantity": 0,
+    "region": "210000001f002000110000000f001000"
+  },
+  {
+    "offset": "0x1c16c0",
+    "item_id": 49,
+    "quantity": 0,
+    "region": "310000002f00300004e0f4e004f0f4f0"
+  },
+  {
+    "offset": "0x1c16d0",
+    "item_id": 7,
+    "quantity": 0,
+    "region": "070000000000d8002540000000002640"
+  },
+  {
+    "offset": "0x1c16e0",
+    "item_id": 22,
+    "quantity": 0,
+    "region": "16000000000015003540000000003640"
+  },
+  {
+    "offset": "0x1c1700",
+    "item_id": 38,
+    "quantity": 0,
+    "region": "26000000000025001540000000001640"
+  },
+  {
+    "offset": "0x1c1710",
+    "item_id": 54,
+    "quantity": 0,
+    "region": "3600000000003500ffe0efe0fff0eff0"
+  },
+  {
+    "offset": "0x1c17c0",
+    "item_id": 5,
+    "quantity": 0,
+    "region": "05000000e002040017020000fa02fb02"
+  },
+  {
+    "offset": "0x1c2850",
+    "item_id": 2,
+    "quantity": 1,
+    "region": "02000100000000002200230000009240"
+  },
+  {
+    "offset": "0x1c2860",
+    "item_id": 18,
+    "quantity": 19,
+    "region": "12001300000031003200330000000000"
+  },
+  {
+    "offset": "0x1c28a0",
+    "item_id": 7,
+    "quantity": 0,
+    "region": "07000000000006002700030000002600"
+  },
+  {
+    "offset": "0x1c28b0",
+    "item_id": 23,
+    "quantity": 0,
+    "region": "17000000000016003700000000003600"
+  },
+  {
+    "offset": "0x1c2920",
+    "item_id": 93,
+    "quantity": 0,
+    "region": "5d00000003405c004d00000000004c00"
+  },
+  {
+    "offset": "0x1c29e0",
+    "item_id": 74,
+    "quantity": 0,
+    "region": "4a000000000049006a40694000006b40"
+  },
+  {
+    "offset": "0x1c29f0",
+    "item_id": 90,
+    "quantity": 91,
+    "region": "5a005b00000059007a40794000007b40"
+  },
+  {
+    "offset": "0x1c2b20",
+    "item_id": 27,
+    "quantity": 0,
+    "region": "1b00000000001a000000c3003a003b00"
+  },
+  {
+    "offset": "0x1c2bc0",
+    "item_id": 12,
+    "quantity": 13,
+    "region": "0c000d00000000002d402c400000dd40"
+  },
+  {
+    "offset": "0x1c2c10",
+    "item_id": 2,
+    "quantity": 1,
+    "region": "02000100000000002200230000009240"
+  },
+  {
+    "offset": "0x1c2c20",
+    "item_id": 18,
+    "quantity": 19,
+    "region": "12001300f300f4003200330000000000"
+  },
+  {
+    "offset": "0x1c2c40",
+    "item_id": 3,
+    "quantity": 0,
+    "region": "03000000260027000000000016001700"
+  },
+  {
+    "offset": "0x1c2c60",
+    "item_id": 2,
+    "quantity": 1,
+    "region": "02000100000000001e001f0092000000"
+  },
+  {
+    "offset": "0x1c2c70",
+    "item_id": 14,
+    "quantity": 15,
+    "region": "0e000f00f300f4003340324000000000"
+  },
+  {
+    "offset": "0x1c2c90",
+    "item_id": 92,
+    "quantity": 93,
+    "region": "5c005d00004003404c004d0000400040"
+  },
+  {
+    "offset": "0x1c2da0",
+    "item_id": 66,
+    "quantity": 67,
+    "region": "42004300000000006140604000000000"
+  },
+  {
+    "offset": "0x1c2db0",
+    "item_id": 80,
+    "quantity": 81,
+    "region": "50005100e50000007140704000000000"
+  },
+  {
+    "offset": "0x1c2f20",
+    "item_id": 2,
+    "quantity": 1,
+    "region": "020001000000000008e0f8e8f8dbf8f8"
+  },
+  {
+    "offset": "0x1c2f40",
+    "item_id": 64,
+    "quantity": 65,
+    "region": "40004100ee40ed400000000000000000"
+  },
+  {
+    "offset": "0x1c3200",
+    "item_id": 10,
+    "quantity": 11,
+    "region": "0a000b000040004081408040a140a040"
+  },
+  {
+    "offset": "0x1c3210",
+    "item_id": 12,
+    "quantity": 13,
+    "region": "0c000d0000409240914090400040b040"
+  },
+  {
+    "offset": "0x1c3240",
+    "item_id": 2,
+    "quantity": 1,
+    "region": "020001000000000008e1f8e8f8dcf8f8"
+  },
+  {
+    "offset": "0x1c3800",
+    "item_id": 8,
+    "quantity": 9,
+    "region": "08000900350200003302340200000000"
+  },
+  {
+    "offset": "0x1c38d0",
+    "item_id": 57,
+    "quantity": 0,
+    "region": "3900000000000000f8dcf8e908eaf8f9"
+  },
+  {
+    "offset": "0x1c3b10",
+    "item_id": 9,
+    "quantity": 0,
+    "region": "090000002e0231020000000051022900"
+  },
+  {
+    "offset": "0x1c3b20",
+    "item_id": 25,
+    "quantity": 0,
+    "region": "19000000000041020000c30038003840"
+  },
+  {
+    "offset": "0x1c4040",
+    "item_id": 94,
+    "quantity": 95,
+    "region": "5e005f0000400040e041df410040c300"
+  },
+  {
+    "offset": "0x1c4130",
+    "item_id": 94,
+    "quantity": 95,
+    "region": "5e005f00000000004f40f2410000e540"
+  },
+  {
+    "offset": "0x1c4790",
+    "item_id": 2,
+    "quantity": 1,
+    "region": "02000100000000002000210000000000"
+  },
+  {
+    "offset": "0x1c47e0",
+    "item_id": 64,
+    "quantity": 65,
+    "region": "40004100000000005f405e4000000000"
+  },
+  {
+    "offset": "0x1c4f10",
+    "item_id": 6,
+    "quantity": 0,
+    "region": "06000000000005002600000000002500"
+  },
+  {
+    "offset": "0x1c4f20",
+    "item_id": 22,
+    "quantity": 0,
+    "region": "16000000000015003600000000003500"
+  },
+  {
+    "offset": "0x1c4f40",
+    "item_id": 40,
+    "quantity": 0,
+    "region": "28000000000027001800000000001700"
+  },
+  {
+    "offset": "0x1c4f50",
+    "item_id": 56,
+    "quantity": 0,
+    "region": "380000000000370000dff0df00eff0ef"
+  },
+  {
+    "offset": "0x1c4f60",
+    "item_id": 10,
+    "quantity": 0,
+    "region": "0a000000000009002a00000000002900"
+  },
+  {
+    "offset": "0x1c4f70",
+    "item_id": 26,
+    "quantity": 0,
+    "region": "1a000000000019003a00000000003900"
+  },
+  {
+    "offset": "0x1c4fb0",
+    "item_id": 72,
+    "quantity": 0,
+    "region": "48000000000047006800000000006700"
+  },
+  {
+    "offset": "0x1c4fc0",
+    "item_id": 88,
+    "quantity": 0,
+    "region": "58000000000057003740000000003840"
+  },
+  {
+    "offset": "0x1c5000",
+    "item_id": 64,
+    "quantity": 0,
+    "region": "4000000000003f002000000000001f00"
+  },
+  {
+    "offset": "0x1c5010",
+    "item_id": 16,
+    "quantity": 0,
+    "region": "1000000000000f003000000000002f00"
+  },
+  {
+    "offset": "0x1c5030",
+    "item_id": 34,
+    "quantity": 0,
+    "region": "22000000000021001200000000001100"
+  },
+  {
+    "offset": "0x1c5040",
+    "item_id": 50,
+    "quantity": 0,
+    "region": "320000000000310000def0de00eef0ee"
+  },
+  {
+    "offset": "0x1c5050",
+    "item_id": 4,
+    "quantity": 0,
+    "region": "04000000000003002400000000002300"
+  },
+  {
+    "offset": "0x1c5060",
+    "item_id": 20,
+    "quantity": 0,
+    "region": "14000000000013003400000000003300"
+  },
+  {
+    "offset": "0x1c5080",
+    "item_id": 96,
+    "quantity": 0,
+    "region": "6000000000005f005000000000004f00"
+  },
+  {
+    "offset": "0x1c50a0",
+    "item_id": 66,
+    "quantity": 0,
+    "region": "42000000000041006200000000006100"
+  },
+  {
+    "offset": "0x1c50b0",
+    "item_id": 82,
+    "quantity": 0,
+    "region": "52000000000051003140000000003240"
+  },
+  {
+    "offset": "0x1c50d0",
+    "item_id": 100,
+    "quantity": 0,
+    "region": "64000000000063005400000000005300"
+  },
+  {
+    "offset": "0x1c52d0",
+    "item_id": 10,
+    "quantity": 0,
+    "region": "0a00000000000900b70000000000b600"
+  },
+  {
+    "offset": "0x1c52e0",
+    "item_id": 26,
+    "quantity": 0,
+    "region": "1a000000000019003a00000000003900"
+  },
+  {
+    "offset": "0x1c5320",
+    "item_id": 72,
+    "quantity": 0,
+    "region": "4800000000004700c70000000000c600"
+  },
+  {
+    "offset": "0x1c5330",
+    "item_id": 88,
+    "quantity": 0,
+    "region": "58000000000057003740000000003840"
+  }
+]

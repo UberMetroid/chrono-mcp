@@ -1,0 +1,126 @@
+{
+  "filename": "Chrono_Trigger_(USA)_(MSU1).sfc",
+  "pcm_tracks": 63,
+  "text_entries": [
+    {
+      "offset": "0x1800",
+      "text": "u+ \u0000\u0003FdE `\u000b \u0000\u001d[  x||+ t t \u0000\u0002F `\u000b \u0000\u001d[  u||+ t \u0000\u0001F `"
+    },
+    {
+      "offset": "0x1a00",
+      "text": "\u0007\u0004`)~\u0011)~\t)~\u0001`dn0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }"
+    },
+    {
+      "offset": "0x2d00",
+      "text": "\u0010\u0004\t\u0002)\u000f\u001e4\u00154\u0004\u0003\u0000\u0018\u00194m\u001f4\u001f4\u0018\u001a4m 4 4\u001f40\u0018JJJJ )\u0000\u0018mo4o4x,~ "
+    },
+    {
+      "offset": "0x4000",
+      "text": "{8\n\u000e@\u0018`6@U@]@@@EAAAAAAAAAA|>n_n_n_n_\u0001 \u007f:\u0001 \u007f;\u0001 \u007f=d<"
+    },
+    {
+      "offset": "0x5e00",
+      "text": "ggg\fh)hFhhhh\u0013i=idiiiAii\u0012j\u001fjAEjtjjjjA kKkvkkkAk\u0004B\u001cl"
+    },
+    {
+      "offset": "0x5f00",
+      "text": "777'8[8t88888\u00199N9h:\u0007:7:l2Z4n_:\u001b;E;;:K;;\u0005<===0>\u0011<n_"
+    },
+    {
+      "offset": "0x6f00",
+      "text": "H\u0000\u0002N -`K\u0000\u0000H@\u0000N\u0001JM -0K\u0000\u0001H -pK0\u0000H@\u0000N\u0001JM -K0\u0001H - Tq``"
+    },
+    {
+      "offset": "0x7b00",
+      "text": "R\u001a% R\\TRJ% R0~J)\u0001@0~ \n\n\n\u0006~ !!\\TR\u001a% R0~J)\u0001@0~ \n\n\n\u0004~"
+    },
+    {
+      "offset": "0x7c00",
+      "text": "J% R0~J)\u0001@0~ \n\n\n\u0002~ !!\u0006~!\u0007~!T\\\n\u001a%!TR`J%!TX\u00012J% R0~J"
+    },
+    {
+      "offset": "0x8a00",
+      "text": "0\u0018i\u00100`\u0000\u0002\u0017 ,.\u0018i .-08 0`\u0010,.\u0018i\u0010.-08\u00100`\u0000\u0002\u0015,-.8 .08 0`,"
+    },
+    {
+      "offset": "0x8b00",
+      "text": "`\u000f d8p\u0000h \u0007 d. ` 0\u0018edh \u0002Q d8p\u0000\u0018e0h \t d.d0 `\u000f\u0011 \u0010\u00000\u0018e"
+    },
+    {
+      "offset": "0x8c00",
+      "text": "\u0001 \u0000\u0018bf\u0018d8p\u0000\u0018e0h  #\u0005d0d1` b8p\u0000f \u0012 b\u0018ip\u0000f O\u0016\u0010\u000f b\u0018ip\u0000"
+    },
+    {
+      "offset": "0x8d00",
+      "text": "f \u0007 d. `K\u000fd1d/\u0001 \u0000\u0018bf\u0018d\u0018e0h  #\u0003d0` b8p\u0000f \u0012 b\u0018ip\u0000f O"
+    },
+    {
+      "offset": "0x8e00",
+      "text": "80hd0b8p\u0000\u0018e.f \u0007 d. `;\u000e1d/\u0001 \u0000\u0018b\u0018ip\u0000e.f\u0018d8p\u0000\u0018e0h  #\t"
+    },
+    {
+      "offset": "0x8f00",
+      "text": "b8p\u0000\u0018e.f\u0018d8p\u0000\u0018e0h  #\t d0d. `  , b\u0018ip\u0000e.f V b8p\u0000e.f"
+    },
+    {
+      "offset": "0x9000",
+      "text": "ip\u0000e.f X b8p\u0000e.fd\u0018e08p\u0000h \u0003_\u0000.\f b\u0018ip\u0000e.f % b8p\u0000e.fd"
+    },
+    {
+      "offset": "0x9100",
+      "text": "\u0003_\u0000U\u000b b8p\u0000e.f % b\u0018ip\u0000e.fd\u0018e08p\u0000h / d.d0 ` b\u0018ip\u0000\u0018e."
+    },
+    {
+      "offset": "0x9200",
+      "text": "\u0001\u0012)\u0004\n\nN\u0000\u0004)\u0002\n\n\nO\u0016)\u0004\n\nI\u001aN\u0000\u0004)\u0002\n\n\nI\u001aO\n\u0002dN\u000e\u0002dO.\u0018e;\u0018e$\u0018e"
+    },
+    {
+      "offset": "0x9300",
+      "text": "C\u000bI\u001aJJJJCdD<)\u000f\n<\u0010\u0004\t\u0002)\u000f<=0\nJJJJFdE\u000bI\u001aJJJJEdF=)\u000f\n=\u0010\u0004"
+    },
+    {
+      "offset": "0x9b00",
+      "text": "fJT\u000b\u0018eT8VT!ET\u0010%D)\u007ffJIT\u000b\u0018eT8VT!ET\u0010\u0002!\\)\u0003j\\)\u0004lZJJ)\u0010\t "
+    },
+    {
+      "offset": "0xc400",
+      "text": "eKDH\u0004L\u0018e\u0001LLH\fL\u0018e\tLTH\u0014L\u0018e\u0011L\\H\u001cL\u0018e\u0019L \u0006HK\u000eHK\u0016HK\u001eHK&HK"
+    },
+    {
+      "offset": "0xf500",
+      "text": "@=:8531/-+)'&$\"! \u001f\u001d\u001c\u001b\u001a\u001a\u0018\u0017\u0017\u0016\u0015\u0015\u0014\u0014\u0013@=;86420.,*)&%$\"! "
+    },
+    {
+      "offset": "0xf600",
+      "text": "@><:9754210.-+*)(&&$$\"!! \u001f\u001e\u001d\u001c\u001c\u001b\u001a@><;9765320/.,+*)'"
+    },
+    {
+      "offset": "0xf800",
+      "text": "\u0000\u0003\u0006\t\f\u0010\u0013\u0016\u0019\u001c\u001f\"%(+.1369<?ADGILNQSUXZ\\^`bdfhjkmopqstuv"
+    },
+    {
+      "offset": "0xf900",
+      "text": "\u0000\u0001\u0003\u0004\u0006\u0007\t\n\f\u000e\u000f\u0011\u0012\u0014\u0015\u0017\u0019\u001a\u001c\u001d\u001f \"$%'(*+-.0135689;<>?ABDEGHJK"
+    },
+    {
+      "offset": "0xfb00",
+      "text": "\u0000\u0001\u0003\u0004\u0006\u0007\t\n\f\u000e\u000f\u0011\u0012\u0014\u0015\u0017\u0019\u001a\u001c\u001d\u001f \"$%'(*+-.0135689;<>?ABDEGHJK"
+    },
+    {
+      "offset": "0x10000",
+      "text": "L\u001b\u0000LE\u0000L\u001f\u0000Lv\u0000Lz\u0000Lr\u0000L\u0010LP\u0000Le\u0000\\e\\\" \u0002 =(\" 4\"\u0003\u0000\"\f\u0000\"\u0012\u0000L4H"
+    },
+    {
+      "offset": "0x12000",
+      "text": "6!c!    i!\u0003\"!: \": K\"_\"\"\": : : )#: _\"\": : : : : \u0003\u0000\u0000"
+    },
+    {
+      "offset": "0x17a00",
+      "text": "vNwwwwwwwwwwwww\u000bx\u000bx\u000bx\u000bx\u000bx\u000bx\u0001y\u0001y\u0001y\u0001y\u0001y\u0001y\u0001y\u0001y\u000bx\u000bx\u000bx\u000b"
+    },
+    {
+      "offset": "0x17b00",
+      "text": "ZLLZZZZZZZZZLLLLLLL\\\u0012]\u0018]\u001d]]]]]]]]]]^^\u0013_______Y`_``"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "offset": "0x11c600",
+    "width": 24,
+    "height": 80,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x11d000",
+    "width": 26,
+    "height": 114,
+    "tile_types": 19
+  },
+  {
+    "offset": "0x135e00",
+    "width": 24,
+    "height": 98,
+    "tile_types": 17
+  },
+  {
+    "offset": "0x142400",
+    "width": 24,
+    "height": 69,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x14ce00",
+    "width": 160,
+    "height": 179,
+    "tile_types": 30
+  },
+  {
+    "offset": "0x151a00",
+    "width": 210,
+    "height": 165,
+    "tile_types": 26
+  },
+  {
+    "offset": "0x15aa00",
+    "width": 56,
+    "height": 57,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x15ae00",
+    "width": 74,
+    "height": 75,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x15b800",
+    "width": 8,
+    "height": 10,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x15be00",
+    "width": 88,
+    "height": 89,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x16e000",
+    "width": 24,
+    "height": 139,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x18a800",
+    "width": 30,
+    "height": 32,
+    "tile_types": 30
+  },
+  {
+    "offset": "0x194000",
+    "width": 21,
+    "height": 20,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x195a00",
+    "width": 127,
+    "height": 64,
+    "tile_types": 18
+  },
+  {
+    "offset": "0x196c00",
+    "width": 92,
+    "height": 93,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x197800",
+    "width": 161,
+    "height": 162,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x199400",
+    "width": 63,
+    "height": 198,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x19a000",
+    "width": 63,
+    "height": 180,
+    "tile_types": 19
+  },
+  {
+    "offset": "0x19ac00",
+    "width": 63,
+    "height": 183,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x19ae00",
+    "width": 192,
+    "height": 197,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x19da00",
+    "width": 29,
+    "height": 19,
+    "tile_types": 20
+  },
+  {
+    "offset": "0x1a4a00",
+    "width": 77,
+    "height": 100,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x1a5000",
+    "width": 33,
+    "height": 16,
+    "tile_types": 18
+  },
+  {
+    "offset": "0x1a5600",
+    "width": 63,
+    "height": 308,
+    "tile_types": 21
+  },
+  {
+    "offset": "0x1a6600",
+    "width": 132,
+    "height": 155,
+    "tile_types": 17
+  },
+  {
+    "offset": "0x1a7000",
+    "width": 442,
+    "height": 444,
+    "tile_types": 19
+  },
+  {
+    "offset": "0x1a7400",
+    "width": 174,
+    "height": 194,
+    "tile_types": 17
+  },
+  {
+    "offset": "0x1a7a00",
+    "width": 63,
+    "height": 152,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x1a8000",
+    "width": 358,
+    "height": 404,
+    "tile_types": 15
+  },
+  {
+    "offset": "0x1b8000",
+    "width": 26,
+    "height": 23,
+    "tile_types": 21
+  },
+  {
+    "offset": "0x1bb000",
+    "width": 17,
+    "height": 16,
+    "tile_types": 17
+  },
+  {
+    "offset": "0x1bc800",
+    "width": 512,
+    "height": 512,
+    "tile_types": 21
+  },
+  {
+    "offset": "0x1bec00",
+    "width": 226,
+    "height": 73,
+    "tile_types": 17
+  },
+  {
+    "offset": "0x214000",
+    "width": 24,
+    "height": 83,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x21c400",
+    "width": 24,
+    "height": 100,
+    "tile_types": 16
+  },
+  {
+    "offset": "0x266c00",
+    "width": 48,
+    "height": 104,
+    "tile_types": 17
+  },
+  {
+    "offset": "0x26d000",
+    "width": 255,
+    "height": 255,
+    "tile_types": 26
+  },
+  {
+    "offset": "0x273c00",
+    "width": 8,
+    "height": 176,
+    "tile_types": 28
+  },
+  {
+    "offset": "0x275600",
+    "width": 10,
+    "height": 100,
+    "tile_types": 30
+  },
+  {
+    "offset": "0x42ba00",
+    "width": 12,
+    "height": 27,
+    "tile_types": 21
+  },
+  {
+    "offset": "0x42bc00",
+    "width": 44,
+    "height": 91,
+    "tile_types": 24
+  },
+  {
+    "offset": "0x42be00",
+    "width": 9,
+    "height": 155,
+    "tile_types": 24
+  },
+  {
+    "offset": "0x42c200",
+    "width": 68,
+    "height": 245,
+    "tile_types": 23
+  },
+  {
+    "offset": "0x42cc00",
+    "width": 33,
+    "height": 414,
+    "tile_types": 23
+  },
+  {
+    "offset": "0x42ce00",
+    "width": 16,
+    "height": 446,
+    "tile_types": 19
+  },
+  {
+    "offset": "0x42fa00",
+    "width": 250,
+    "height": 316,
+    "tile_types": 20
+  },
+  {
+    "offset": "0x43ba00",
+    "width": 30,
+    "height": 21,
+    "tile_types": 27
+  },
+  {
+    "offset": "0x43f200",
+    "width": 90,
+    "height": 39,
+    "tile_types": 21
+  },
+  {
+    "offset": "0x440400",
+    "width": 54,
+    "height": 78,
+    "tile_types": 22
+  },
+  {
+    "offset": "0x443600",
+    "width": 270,
+    "height": 28,
+    "tile_types": 17
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "rom_size": 736651104,
+  "rom_size_mb": 702.53,
+  "format": "PS1 CD-ROM (ISO9660)",
+  "iso_partition_offset": 37657,
+  "compression": {
+    "potential_lzss_blocks": 1418376
+  },
+  "images": {
+    "tim_signatures": 311379
+  },
+  "system": {
+    "config_offset": 51957
+  }
+}

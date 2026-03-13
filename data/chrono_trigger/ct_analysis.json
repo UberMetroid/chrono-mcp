@@ -1,0 +1,18 @@
+{
+  "rom_size": 4194304,
+  "rom_size_mb": 4.0,
+  "compression": {
+    "lzss_0x10_blocks": 5709,
+    "lzss_0x11_blocks": 2179,
+    "total_compressed_blocks": 7888
+  },
+  "string_references": {
+    "hp": 56,
+    "mp": 24
+  },
+  "known_offsets": {
+    "credits": "0x250000-0x320000",
+    "substring_table": "0x1EC800",
+    "dialog_region": "0x100000-0x250000"
+  }
+}

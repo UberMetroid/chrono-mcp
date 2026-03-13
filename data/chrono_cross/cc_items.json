@@ -1,0 +1,546 @@
+[
+  {
+    "offset": "0x672f0",
+    "text": "SetDispMask(%d)..."
+  },
+  {
+    "offset": "0xbfcb8",
+    "text": "BOOT"
+  },
+  {
+    "offset": "0x10f41c",
+    "text": "kz_CheckEquipBraveShield()"
+  },
+  {
+    "offset": "0x16628c",
+    "text": "elm mask"
+  },
+  {
+    "offset": "0x1e36ac",
+    "text": "bOOtWWKt"
+  },
+  {
+    "offset": "0x25e9c5",
+    "text": "your current stock that"
+  },
+  {
+    "offset": "0x25ea4e",
+    "text": "What do you want"
+  },
+  {
+    "offset": "0x25ea6d",
+    "text": "What do you want"
+  },
+  {
+    "offset": "0x25ea92",
+    "text": "What do you"
+  },
+  {
+    "offset": "0x25ead3",
+    "text": "Which armor do you"
+  },
+  {
+    "offset": "0x25eb63",
+    "text": "to make that weapon!"
+  },
+  {
+    "offset": "0x25eb92",
+    "text": "to make that armor!"
+  },
+  {
+    "offset": "0x25ebc0",
+    "text": "to make that accessory!"
+  },
+  {
+    "offset": "0x25ec45",
+    "text": "Which armor do you"
+  },
+  {
+    "offset": "0x25eccd",
+    "text": "I can't disassemble what"
+  },
+  {
+    "offset": "0x25ed90",
+    "text": "Which armor do"
+  },
+  {
+    "offset": "0x25edf7",
+    "text": "I can't buy what you"
+  },
+  {
+    "offset": "0x25fb03",
+    "text": "gArnian Wood"
+  },
+  {
+    "offset": "0x25fb25",
+    "text": "gShellfish"
+  },
+  {
+    "offset": "0x25fb85",
+    "text": "gValencian Cloth"
+  },
+  {
+    "offset": "0x25fbb1",
+    "text": "gIron Plate"
+  },
+  {
+    "offset": "0x2603ab",
+    "text": "Cape Howl -"
+  },
+  {
+    "offset": "0x260737",
+    "text": "A captive audience awaits..."
+  },
+  {
+    "offset": "0x28514c",
+    "text": "||gEm"
+  },
+  {
+    "offset": "0x2a8b6d",
+    "text": "|HATTTXTHHHA=@DSallr]Ln"
+  },
+  {
+    "offset": "0x2f4be2",
+    "text": "3[HQpnvqjcccWWOODDO^^JWcv"
+  },
+  {
+    "offset": "0x332265",
+    "text": "bBkwiPPP55<CaPCdd[T"
+  },
+  {
+    "offset": "0x336420",
+    "text": "pIrOn"
+  },
+  {
+    "offset": "0x3649dd",
+    "text": "iqwlhaT?<P\\l"
+  },
+  {
+    "offset": "0x365a30",
+    "text": "AWhaTC\\rwYKrhhYCWaaaahlhP4"
+  },
+  {
+    "offset": "0x3681f9",
+    "text": "}haTILW\\fu}whhffaYLLTTTLL4+2##"
+  },
+  {
+    "offset": "0x40bec0",
+    "text": "Gold`[TQJEEEEEEBBB777)1#J2Q##"
+  },
+  {
+    "offset": "0x4379b2",
+    "text": "hhYhaTPEE;3"
+  },
+  {
+    "offset": "0x438354",
+    "text": "YYhhhaTVakVJVkxkJ;Thhhx"
+  },
+  {
+    "offset": "0x449168",
+    "text": "*?TahshaT?05$*"
+  },
+  {
+    "offset": "0x449691",
+    "text": "5M555?5=TaaMTahsshaTTT????5<>I9,,,<C`jy"
+  },
+  {
+    "offset": "0x449710",
+    "text": "*WaM>MT5?hssaTen~~~_TahaTaTTTMIZ,<<C`jr"
+  },
+  {
+    "offset": "0x449790",
+    "text": ">hhaTThTMh~~hahh~"
+  },
+  {
+    "offset": "0x44e838",
+    "text": "Masked Magician"
+  },
+  {
+    "offset": "0x4ab6a0",
+    "text": "wOOd"
+  },
+  {
+    "offset": "0x51d110",
+    "text": "FBBOOTTNNT`wwww`MMRRRM1&&1+177177O[O[c~"
+  },
+  {
+    "offset": "0x56cea8",
+    "text": "woodYYYYYYYYYYYYYdY@>["
+  },
+  {
+    "offset": "0x56cf25",
+    "text": "wwoodYYOOOOOIIIIIOOOII0G["
+  },
+  {
+    "offset": "0x56ec58",
+    "text": "Pirate Captain"
+  },
+  {
+    "offset": "0x58a294",
+    "text": "PjYQPPYYYYPQPQPPPQCAP4)B"
+  },
+  {
+    "offset": "0x5f428b",
+    "text": "WOODf"
+  },
+  {
+    "offset": "0x5f438b",
+    "text": "WOODI{"
+  },
+  {
+    "offset": "0x5f7759",
+    "text": "Front-left-clawed"
+  },
+  {
+    "offset": "0x6801eb",
+    "text": "Build: Boney"
+  },
+  {
+    "offset": "0x6883c0",
+    "text": "gEMUgMMEMME8EU"
+  },
+  {
+    "offset": "0x688440",
+    "text": "gEMUsgUEEEEEEs"
+  },
+  {
+    "offset": "0x68d30b",
+    "text": "+MgEMU]]M]nM*"
+  },
+  {
+    "offset": "0x76b998",
+    "text": "hat|"
+  },
+  {
+    "offset": "0x7c6598",
+    "text": "zwzqqkie\\\\WWWOODOWOOODOOOWWOODIIOOVWOIAAIAIAIDIOD"
+  },
+  {
+    "offset": "0x88710a",
+    "text": " *//6D66:AIPTVVVVVVSQTQQLHHC@CHHHLTVZagemgemmmem_b___bZVTTIICICIILTTYZaYffYffffkkpkffhYhWWWWWWWPPMPIIPPTffffffYYaYafaaaaaYVWTWYTYYaffYYY^hh^hhhhhcchccccXKKU<=&&  "
+  },
+  {
+    "offset": "0x8912e3",
+    "text": "gemqee"
+  },
+  {
+    "offset": "0x8b8edf",
+    "text": "y~~woold^^\\VVVSSNFBBEEH@HIJSVc|W"
+  },
+  {
+    "offset": "0x90a31d",
+    "text": ".8<<8>Hato"
+  },
+  {
+    "offset": "0xa70441",
+    "text": "):GEMM=4"
+  },
+  {
+    "offset": "0xa71c5b",
+    "text": "#$JCAP"
+  },
+  {
+    "offset": "0xb10b7d",
+    "text": "~g~irONS&Q>"
+  },
+  {
+    "offset": "0xb584ba",
+    "text": "ATWOOLEBE:EOWWO::BOWikn|nE"
+  },
+  {
+    "offset": "0xeeae1c",
+    "text": "~sdseedesed~~"
+  },
+  {
+    "offset": "0xfb628d",
+    "text": " 55EGSeMGMGEMEEMMESm"
+  },
+  {
+    "offset": "0xfc45da",
+    "text": "zhcRMJIA4479==99AAA979AE99AASSEEDM_SIMSSW\\\\\\\\jr}"
+  },
+  {
+    "offset": "0x1099074",
+    "text": "bOOtWWKt"
+  },
+  {
+    "offset": "0x10ea57a",
+    "text": "l`PFAQml``PPPP9897RL>REEN`hON\\IIRONN`eNENPPPll"
+  },
+  {
+    "offset": "0x11875a9",
+    "text": "wwwhhhhaTK"
+  },
+  {
+    "offset": "0x11876a8",
+    "text": "wwwh__hhaTw"
+  },
+  {
+    "offset": "0x118d771",
+    "text": "wIPPPPPPPIIIIIIIIIIAAAAAAAAAAAAACAPAPPIIPAAAAAA+8+\"\"+"
+  },
+  {
+    "offset": "0x118d9de",
+    "text": "hThaThhTThaTTTK78++\"\"\"++++8+8888888+88888AAA7A088880A8AAPPAA7888++0"
+  },
+  {
+    "offset": "0x12356e0",
+    "text": "SgET]]TottcTTcaP_X=XY"
+  },
+  {
+    "offset": "0x131cc0a",
+    "text": "^Q?arGGG1%<GGHQHaT6VG"
+  },
+  {
+    "offset": "0x132b213",
+    "text": "r<1THaTQt|Tp{"
+  },
+  {
+    "offset": "0x1342aa7",
+    "text": "HQHaT"
+  },
+  {
+    "offset": "0x13d79d6",
+    "text": "Fen`?77P`ggeM?7.57.**+.?M?7FTnM."
+  },
+  {
+    "offset": "0x142bf75",
+    "text": "sW\"F!KgUIhat"
+  },
+  {
+    "offset": "0x143995c",
+    "text": ":2%,:+?9QQQTTTbbAATT]TATTATbabTHaTbbTCTT"
+  },
+  {
+    "offset": "0x1439a5b",
+    "text": "R?2.ATT]TTTAbTTTTlTTA]TTaabTbHATTHTb]aTTT"
+  },
+  {
+    "offset": "0x143b00b",
+    "text": "2TTT]TT]]]TbTTTbAT]TTTHATTTTTTb]D=>JL=,"
+  },
+  {
+    "offset": "0x146d26b",
+    "text": "bTHATHA++Ttj]_N,"
+  },
+  {
+    "offset": "0x146eef9",
+    "text": "t]TATTTAHHATT]T]b:"
+  },
+  {
+    "offset": "0x146ef76",
+    "text": "baAHHHTHA]HHHTHATHTa]"
+  },
+  {
+    "offset": "0x146eff4",
+    "text": "HH:ATHAT|b]TTTTHTTaTTT:"
+  },
+  {
+    "offset": "0x146f3b5",
+    "text": "ttA]HATHAHGgJ/"
+  },
+  {
+    "offset": "0x146f74f",
+    "text": "OjtaTjTHaT"
+  },
+  {
+    "offset": "0x146fbbb",
+    "text": "t[btj[QCAHAHAATHTTTTCATHAHAHTTCAb}jb[ltHAHAHAHAT]HHATbbT]]fjjtbttlb]bbblatTHHA"
+  },
+  {
+    "offset": "0x146fc3b",
+    "text": "[tllTAAAAAAATHAAHACAHHATAAAA]TAHbtjjjttTAAAAHAHbTAAHatjbbtbtjjbttjb]jjltbtaTAH"
+  },
+  {
+    "offset": "0x14d3c0d",
+    "text": "gogou[ggEMMMEEYYYYYYYYYYY[dYYggggoog``u`ggouooo`[`oouoggooug`[uoouuggouo"
+  },
+  {
+    "offset": "0x14dfd60",
+    "text": "hATVQqIgo"
+  },
+  {
+    "offset": "0x1644563",
+    "text": "}rcaPP:::@WWmmcZacmccc@8"
+  },
+  {
+    "offset": "0x16ab78e",
+    "text": "3$CaPA23\""
+  },
+  {
+    "offset": "0x16ac0d2",
+    "text": "'2CaP23R##("
+  },
+  {
+    "offset": "0x1740966",
+    "text": "3$CaPA23\""
+  },
+  {
+    "offset": "0x17412aa",
+    "text": "'2CaP23R##("
+  },
+  {
+    "offset": "0x1769f61",
+    "text": "gEMPt}Yj"
+  },
+  {
+    "offset": "0x177698d",
+    "text": "gLG3Rh[XL[R?hhheqq[hqqhATraahRLLGGB?,!GGGAGBBGGGA< 6X9,26!&"
+  },
+  {
+    "offset": "0x17b0076",
+    "text": "aRCCaplp"
+  },
+  {
+    "offset": "0x17c6f36",
+    "text": "3$CaPA23\""
+  },
+  {
+    "offset": "0x17c787a",
+    "text": "'2CaP23R##("
+  },
+  {
+    "offset": "0x17e6f04",
+    "text": "]bRb]YYJpp[U. //E9/IIVq_caPPaPZgZC:>::>;1GXT;114=K=424=24,#,+!!!#,!!,+,!2!!,!!"
+  },
+  {
+    "offset": "0x17e9c82",
+    "text": "kc[VVVcaPVLLCPMGGMGGTG;???G?2?=2;2;2,-!*!%!"
+  },
+  {
+    "offset": "0x17ee999",
+    "text": "$-GeMG"
+  },
+  {
+    "offset": "0x17fc2b5",
+    "text": "5C?51:>>:-GeM;"
+  },
+  {
+    "offset": "0x1806ad4",
+    "text": "qcgcaPZZgs"
+  },
+  {
+    "offset": "0x180d185",
+    "text": "GeMGMGMMGZg"
+  },
+  {
+    "offset": "0x181924d",
+    "text": "GeMGMGMMGZg"
+  },
+  {
+    "offset": "0x186c8ba",
+    "text": "3$CaPA23\""
+  },
+  {
+    "offset": "0x186d1fe",
+    "text": "'2CaP23R##("
+  },
+  {
+    "offset": "0x1883e86",
+    "text": "\"*:@::0*0/0:0/0:BGBBBOOT[n}}{}MRBHMHYdM@0,.,.66+H[6,MRRRRB="
+  },
+  {
+    "offset": "0x1885ad3",
+    "text": "\"**00***0/0:@@@@@GOG@@@BOOT[dd[[T[em}"
+  },
+  {
+    "offset": "0x1885cd5",
+    "text": "!!****00@@G@@::@@@@@BOOTOT[d[[[[[n"
+  },
+  {
+    "offset": "0x18a3539",
+    "text": "\"** ,Gemv~~NUUUXSSUbSS]S]fb]SXbbbSfb________f_e__fmmmrrry"
+  },
+  {
+    "offset": "0x18b8f62",
+    "text": "%CC;-P>-LPLLCL8;NCCAPALP>;;;%;CC;;;;>/z"
+  },
+  {
+    "offset": "0x196d34b",
+    "text": "CCAp"
+  },
+  {
+    "offset": "0x1a4d566",
+    "text": "%-++50,-5=DP[[[[ggllllgpgem~~zz~zmxxmm"
+  },
+  {
+    "offset": "0x1a618fb",
+    "text": "%++(1.17;?;;;;;;;;;55;=<C><55><NWEGENOiX`XCCNNO`UaaX<0=ESWOOddiiaadddlddd"
+  },
+  {
+    "offset": "0x1b096cc",
+    "text": "&55LavlhvwqqbhaT2<TUah`hq"
+  },
+  {
+    "offset": "0x1bd7dbf",
+    "text": "ACYhAt"
+  },
+  {
+    "offset": "0x1bde6f6",
+    "text": "_WPAACAPt"
+  },
+  {
+    "offset": "0x1be134d",
+    "text": "WAAWPPP_cP,0,AAPAWA9,$$ 0A0$0cC,00AJArWCAPqPWWq"
+  },
+  {
+    "offset": "0x1be1bb8",
+    "text": "JWWWAAJA9CAPAJWWWWWWWWWWW_PWWWWWWWWWWWWW_____"
+  },
+  {
+    "offset": "0x1be55d7",
+    "text": "_QQPCCCCAP"
+  },
+  {
+    "offset": "0x1beacab",
+    "text": "=00$00AACAP0"
+  },
+  {
+    "offset": "0x1c1aadf",
+    "text": "CCAp"
+  },
+  {
+    "offset": "0x1c56c17",
+    "text": "ACYhAt"
+  },
+  {
+    "offset": "0x1c5d54e",
+    "text": "_WPAACAPt"
+  },
+  {
+    "offset": "0x1c601a5",
+    "text": "WAAWPPP_cP,0,AAPAWA9,$$ 0A0$0cC,00AJArWCAPqPWWq"
+  },
+  {
+    "offset": "0x1c60a10",
+    "text": "JWWWAAJA9CAPAJWWWWWWWWWWW_PWWWWWWWWWWWWW_____"
+  },
+  {
+    "offset": "0x1c6442f",
+    "text": "_QQPCCCCAP"
+  },
+  {
+    "offset": "0x1c69b03",
+    "text": "=00$00AACAP0"
+  },
+  {
+    "offset": "0x1e10123",
+    "text": "CCAp"
+  },
+  {
+    "offset": "0x1e19993",
+    "text": "CCAp"
+  },
+  {
+    "offset": "0x1e4fed4",
+    "text": "+Hat"
+  },
+  {
+    "offset": "0x1ea4383",
+    "text": "CCAp"
+  },
+  {
+    "offset": "0x1efec9a",
+    "text": "g4M)CaPPPCYYYgC8MMC88C88C8awaCPPPPRCCPCCMYGJJ=,==,!!"
+  }
+]

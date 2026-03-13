@@ -1,0 +1,302 @@
+[
+  {
+    "offset": "0x248710",
+    "enemy_id": 85,
+    "common_drop": 84,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a820",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a8a0",
+    "enemy_id": 10,
+    "common_drop": 10,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a8b0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a9a0",
+    "enemy_id": 10,
+    "common_drop": 10,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a9c0",
+    "enemy_id": 5,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a9d0",
+    "enemy_id": 10,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24a9e0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24aa40",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24aac0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24aad0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24abb0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24abe0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24abf0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24acd0",
+    "enemy_id": 10,
+    "common_drop": 10,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24acf0",
+    "enemy_id": 5,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ad00",
+    "enemy_id": 10,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ad10",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ad30",
+    "enemy_id": 15,
+    "common_drop": 15,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ad40",
+    "enemy_id": 15,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ad90",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ae10",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ae20",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24aed0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24aee0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24af60",
+    "enemy_id": 10,
+    "common_drop": 10,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24af70",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b610",
+    "enemy_id": 15,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b620",
+    "enemy_id": 15,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b690",
+    "enemy_id": 15,
+    "common_drop": 15,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b6e0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b710",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b720",
+    "enemy_id": 20,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b790",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b7a0",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b7b0",
+    "enemy_id": 5,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b800",
+    "enemy_id": 10,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b920",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24b930",
+    "enemy_id": 5,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ba10",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ba30",
+    "enemy_id": 26,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24ba70",
+    "enemy_id": 15,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24bb00",
+    "enemy_id": 5,
+    "common_drop": 15,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24bb20",
+    "enemy_id": 5,
+    "common_drop": 15,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24bb30",
+    "enemy_id": 5,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24bb40",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x24bc00",
+    "enemy_id": 5,
+    "common_drop": 5,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x258e10",
+    "enemy_id": 11,
+    "common_drop": 63,
+    "rare_drop": 39
+  },
+  {
+    "offset": "0x260080",
+    "enemy_id": 3,
+    "common_drop": 0,
+    "rare_drop": 0
+  },
+  {
+    "offset": "0x26cea0",
+    "enemy_id": 56,
+    "common_drop": 40,
+    "rare_drop": 0
+  }
+]

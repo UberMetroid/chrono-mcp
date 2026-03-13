@@ -1,0 +1,167 @@
+{
+  "Radical Dreamers": {
+    "enemies": {
+      "Lizard": {
+        "offset": "0x1aab7d",
+        "context": "..@to.@Imp.K...@to.@Lizard.M.M.M...@.from.@evil.@m"
+      }
+    },
+    "items": {
+      "ARMOR": {
+        "count": 1,
+        "first_offset": "0x170ef6"
+      }
+    },
+    "techs": {
+      "DREAM": {
+        "count": 1,
+        "first_offset": "0xffc8"
+      }
+    },
+    "locations": {}
+  },
+  "Chrono Trigger": {
+    "enemies": {
+      "BAT": {
+        "offset": "0x373e9",
+        "context": "TA ET...ENIC` NI.S`@BATTL.EnPKOn.S`M.AM../..Uh *.."
+      }
+    },
+    "items": {
+      "MAP": {
+        "count": 6,
+        "first_offset": "0x37430"
+      }
+    },
+    "techs": {
+      "BASH": {
+        "count": 1,
+        "first_offset": "0x1157b9"
+      },
+      "CHRONO": {
+        "count": 1,
+        "first_offset": "0xffc0"
+      },
+      "TRIGGER": {
+        "count": 1,
+        "first_offset": "0xffc7"
+      },
+      "HIT": {
+        "count": 6,
+        "first_offset": "0x1155fb"
+      }
+    },
+    "locations": {
+      "SEA": {
+        "count": 1,
+        "first_offset": "0x1a562f"
+      }
+    }
+  },
+  "Chrono Cross": {
+    "enemies": {
+      "DRAGON": {
+        "offset": "0x15936088",
+        "context": "...............'....DRAGON.............&....LIIA.."
+      },
+      "BAT": {
+        "offset": "0x329b18",
+        "context": "...-.....>F8S(g.....BAT\\;lt?s..k.n.w.............."
+      },
+      "WOLF": {
+        "offset": "0x4103a5",
+        "context": "...........x../FQW__WOLFCA660,&%%%..eaJJJ<*......<"
+      },
+      "OGRE": {
+        "offset": "0xebf7ef2",
+        "context": "??zggj/.BiB==VXzOGGCOGREU]GGE...G...3)............"
+      },
+      "Fish": {
+        "offset": "0x4eb468",
+        "context": ".........r..........Fisherman & Ferryman..Age: 16 "
+      }
+    },
+    "items": {
+      "AXE": {
+        "count": 30,
+        "first_offset": "0x36b1de9"
+      },
+      "VEST": {
+        "count": 5,
+        "first_offset": "0x1198ca3a"
+      },
+      "RING": {
+        "count": 2,
+        "first_offset": "0x1cf5b777"
+      },
+      "CAP": {
+        "count": 95,
+        "first_offset": "0x58a2a6"
+      },
+      "SEED": {
+        "count": 59,
+        "first_offset": "0xfc45f7"
+      },
+      "MAP": {
+        "count": 454,
+        "first_offset": "0xc0704"
+      },
+      "KEY": {
+        "count": 49,
+        "first_offset": "0x14c1133"
+      }
+    },
+    "techs": {
+      "SLASH": {
+        "count": 1,
+        "first_offset": "0x1596b1cc"
+      },
+      "FIRE": {
+        "count": 1,
+        "first_offset": "0x137d4c1c"
+      },
+      "ICE": {
+        "count": 115,
+        "first_offset": "0x3eecc8"
+      },
+      "CHRONO": {
+        "count": 2,
+        "first_offset": "0x9340"
+      },
+      "TIME": {
+        "count": 2,
+        "first_offset": "0x1645a6ce"
+      },
+      "KICK": {
+        "count": 8,
+        "first_offset": "0x561f704"
+      },
+      "HIT": {
+        "count": 253,
+        "first_offset": "0x202b27"
+      },
+      "ATTACK": {
+        "count": 2,
+        "first_offset": "0x10f6f8"
+      },
+      "WAVE": {
+        "count": 6,
+        "first_offset": "0x11e268a5"
+      }
+    },
+    "locations": {
+      "TOWN": {
+        "count": 1,
+        "first_offset": "0x1f4714ee"
+      },
+      "CITY": {
+        "count": 9,
+        "first_offset": "0x12acd4a0"
+      },
+      "SEA": {
+        "count": 119,
+        "first_offset": "0x1414de3"
+      }
+    }
+  }
+}

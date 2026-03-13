@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "extraction_date": "2026-03-12",
+  "games": {
+    "radical_dreamers": {
+      "rom": "BS Radical Dreamers (Demiforce v1.4).sfc",
+      "size": "2MB",
+      "format": "SNES",
+      "encoding": "ASCII",
+      "extracted": {
+        "dialog_lines": 3721
+      }
+    },
+    "chrono_cross": {
+      "rom": "Chrono Cross (Disc 1).bin",
+      "size": "702MB",
+      "format": "PS1 CD-ROM",
+      "encoding": "PS1 standard",
+      "extracted": {
+        "readable_strings": 384,
+        "tim_images_extracted": 20,
+        "tim_images_png": 20
+      }
+    },
+    "chrono_trigger": {
+      "rom": "Chrono Trigger (USA).sfc",
+      "size": "4MB",
+      "format": "SNES HiROM",
+      "encoding": "Custom (0xA0-0xB9 = A-Z, 0xBA-0xD3 = a-z, 0xD4-0xDD = 0-9)",
+      "compression": "LZSS (0x10 = 4KB window, 0x11 = 2KB window)",
+      "substring_table_offset": "0x1EC800",
+      "extracted": {
+        "dialog_entries": 251,
+        "credits_entries": 8467,
+        "substring_table_entries": 150
+      }
+    }
+  },
+  "mcp_server": {
+    "status": "configured",
+    "tools": 20,
+    "data_source": "extracted JSON files"
+  }
+}

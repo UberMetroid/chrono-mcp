@@ -1,0 +1,122 @@
+[
+  {
+    "offset": "0x202800",
+    "flag_count": 54
+  },
+  {
+    "offset": "0x202c00",
+    "flag_count": 50
+  },
+  {
+    "offset": "0x203140",
+    "flag_count": 53
+  },
+  {
+    "offset": "0x203540",
+    "flag_count": 52
+  },
+  {
+    "offset": "0x204cc0",
+    "flag_count": 52
+  },
+  {
+    "offset": "0x205600",
+    "flag_count": 53
+  },
+  {
+    "offset": "0x205a00",
+    "flag_count": 58
+  },
+  {
+    "offset": "0x207180",
+    "flag_count": 53
+  },
+  {
+    "offset": "0x207ac0",
+    "flag_count": 55
+  },
+  {
+    "offset": "0x207ec0",
+    "flag_count": 56
+  },
+  {
+    "offset": "0x209640",
+    "flag_count": 51
+  },
+  {
+    "offset": "0x20b080",
+    "flag_count": 52
+  },
+  {
+    "offset": "0x2102c0",
+    "flag_count": 62
+  },
+  {
+    "offset": "0x210300",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x2148c0",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214900",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214940",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214980",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x2149c0",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214a00",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214a40",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214a80",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214ac0",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214b00",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214b40",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214b80",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214bc0",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214c00",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214c40",
+    "flag_count": 64
+  },
+  {
+    "offset": "0x214c80",
+    "flag_count": 64
+  }
+]

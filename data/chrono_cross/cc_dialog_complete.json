@@ -1,0 +1,2290 @@
+[
+  {
+    "offset": "0x9bdd",
+    "text": "D\uff88\uff88f/\uff69\uff88USx\u561b\uff9c i"
+  },
+  {
+    "offset": "0x15d84",
+    "text": "Sony Computer Entertainment Inc. for North America area"
+  },
+  {
+    "offset": "0x67228",
+    "text": "$Id: sys.c,v 1.140 1998/01/12 07:52:27 noda Exp yos $"
+  },
+  {
+    "offset": "0x69c13",
+    "text": " # 5 I ` p   \uff6a \uff7d \uff94   "
+  },
+  {
+    "offset": "0x6d71f",
+    "text": "=P_ QZP MP L _P^_#SZ^_"
+  },
+  {
+    "offset": "0x74656",
+    "text": "YZ_ MP dP"
+  },
+  {
+    "offset": "0x74d90",
+    "text": "do not select!!!!!"
+  },
+  {
+    "offset": "0x75034",
+    "text": "%s: no param"
+  },
+  {
+    "offset": "0x7504c",
+    "text": "$Id: bios.c,v 1.86 1997/03/28 07:42:42 makoto Exp yos $"
+  },
+  {
+    "offset": "0x750c4",
+    "text": "$Id: intr.c,v 1.75 1997/02/07 09:00:36 makoto Exp $"
+  },
+  {
+    "offset": "0x752a4",
+    "text": "wait (reset)"
+  },
+  {
+    "offset": "0x752b4",
+    "text": "wait (wrdy H -> L)"
+  },
+  {
+    "offset": "0x752c8",
+    "text": "wait (dmaf clear/W)"
+  },
+  {
+    "offset": "0x75ec0",
+    "text": "              set camera by %x"
+  },
+  {
+    "offset": "0x75fb0",
+    "text": "Fatal error in InputBit!"
+  },
+  {
+    "offset": "0x76267",
+    "text": "start =%B"
+  },
+  {
+    "offset": "0x76838",
+    "text": "wait (IRQ/ON)"
+  },
+  {
+    "offset": "0x76848",
+    "text": "wait (IRQ/OFF)"
+  },
+  {
+    "offset": "0x783b0",
+    "text": "Error: Can't push matrix,stack(max 20) is full!"
+  },
+  {
+    "offset": "0x783e1",
+    "text": "Error: Can't pop matrix,stack is empty!"
+  },
+  {
+    "offset": "0x7840a",
+    "text": "This function is not implemented."
+  },
+  {
+    "offset": "0x10822d",
+    "text": "a ^\uff79\uff75\u98e2d#\uff83C.s\uff7183P"
+  },
+  {
+    "offset": "0x10f6f8",
+    "text": "ATTACK RES"
+  },
+  {
+    "offset": "0x166280",
+    "text": "grow data"
+  },
+  {
+    "offset": "0x1662a4",
+    "text": "item data"
+  },
+  {
+    "offset": "0x1eb847",
+    "text": "I \uff7dC\u6ef81U$\uff6c/\u6392"
+  },
+  {
+    "offset": "0x202724",
+    "text": "\uff92[0g\uff82\u9707\u65afC I"
+  },
+  {
+    "offset": "0x214318",
+    "text": "Please select a name..."
+  },
+  {
+    "offset": "0x239c08",
+    "text": "Alright to proceed?"
+  },
+  {
+    "offset": "0x25e829",
+    "text": "Which Element do"
+  },
+  {
+    "offset": "0x25e83a",
+    "text": "you want to buy?"
+  },
+  {
+    "offset": "0x25e85d",
+    "text": "you want to sell?"
+  },
+  {
+    "offset": "0x25e870",
+    "text": "How many do you"
+  },
+  {
+    "offset": "0x25e880",
+    "text": "want to buy?"
+  },
+  {
+    "offset": "0x25e89e",
+    "text": "want to sell?"
+  },
+  {
+    "offset": "0x25e8ad",
+    "text": "The rest of the Elements"
+  },
+  {
+    "offset": "0x25e8c6",
+    "text": "are currently allocated"
+  },
+  {
+    "offset": "0x25e8de",
+    "text": "to the listed members."
+  },
+  {
+    "offset": "0x25e8f6",
+    "text": "From whose Grid do"
+  },
+  {
+    "offset": "0x25e909",
+    "text": "you want to remove"
+  },
+  {
+    "offset": "0x25e91c",
+    "text": "an Element to sell?"
+  },
+  {
+    "offset": "0x25e931",
+    "text": "Thank you"
+  },
+  {
+    "offset": "0x25e950",
+    "text": "I'll trade you goods for"
+  },
+  {
+    "offset": "0x25e969",
+    "text": "your unwanted Elements."
+  },
+  {
+    "offset": "0x25e982",
+    "text": "Which goods do you"
+  },
+  {
+    "offset": "0x25e995",
+    "text": "want to trade me for?"
+  },
+  {
+    "offset": "0x25e9ac",
+    "text": "Select the Elements from"
+  },
+  {
+    "offset": "0x25e9c5",
+    "text": "your current stock that"
+  },
+  {
+    "offset": "0x25e9dd",
+    "text": "you want to trade in."
+  },
+  {
+    "offset": "0x25e9f4",
+    "text": "Make the exchange?"
+  },
+  {
+    "offset": "0x25ea07",
+    "text": "          Yes"
+  },
+  {
+    "offset": "0x25ea15",
+    "text": "          No"
+  },
+  {
+    "offset": "0x25ea39",
+    "text": "How can I help you?"
+  },
+  {
+    "offset": "0x25ea4e",
+    "text": "What do you want"
+  },
+  {
+    "offset": "0x25ea5f",
+    "text": "me to forge?"
+  },
+  {
+    "offset": "0x25ea7e",
+    "text": "me to disassemble?"
+  },
+  {
+    "offset": "0x25ea92",
+    "text": "What do you"
+  },
+  {
+    "offset": "0x25eaad",
+    "text": "Which weapon do you"
+  },
+  {
+    "offset": "0x25eac1",
+    "text": "want me to make?"
+  },
+  {
+    "offset": "0x25ead3",
+    "text": "Which armor do you"
+  },
+  {
+    "offset": "0x25eaf8",
+    "text": "Which accessory do"
+  },
+  {
+    "offset": "0x25eb0b",
+    "text": "you want me to make?"
+  },
+  {
+    "offset": "0x25eb63",
+    "text": "to make that weapon!"
+  },
+  {
+    "offset": "0x25eb92",
+    "text": "to make that armor!"
+  },
+  {
+    "offset": "0x25ebc0",
+    "text": "to make that accessory!"
+  },
+  {
+    "offset": "0x25ebd9",
+    "text": "You don't have"
+  },
+  {
+    "offset": "0x25ebf7",
+    "text": "Here you go..."
+  },
+  {
+    "offset": "0x25ec06",
+    "text": "I hope you like it!"
+  },
+  {
+    "offset": "0x25ec2f",
+    "text": "want to disassemble?"
+  },
+  {
+    "offset": "0x25ec6e",
+    "text": "Which accessory do you"
+  },
+  {
+    "offset": "0x25ec9b",
+    "text": "OK to disassemble it?"
+  },
+  {
+    "offset": "0x25eccd",
+    "text": "I can't disassemble what"
+  },
+  {
+    "offset": "0x25ece6",
+    "text": "you still have equipped."
+  },
+  {
+    "offset": "0x25ed22",
+    "text": "You can't carry more than"
+  },
+  {
+    "offset": "0x25ed3c",
+    "text": "99 materials, so I bought"
+  },
+  {
+    "offset": "0x25ed56",
+    "text": "the surplus from you!"
+  },
+  {
+    "offset": "0x25ed6d",
+    "text": "Which weapon do"
+  },
+  {
+    "offset": "0x25ed90",
+    "text": "Which armor do"
+  },
+  {
+    "offset": "0x25edf7",
+    "text": "I can't buy what you"
+  },
+  {
+    "offset": "0x25ee0c",
+    "text": "still have e\uff6e.\u6ce8S\uff80i\uff97\uff8a\uff61}5"
+  },
+  {
+    "offset": "0x25ef52",
+    "text": "SAVE DATA TO YOUR MEMORY CARD."
+  },
+  {
+    "offset": "0x25ef72",
+    "text": "LOAD DATA FROM YOUR MEMORY CARD."
+  },
+  {
+    "offset": "0x25ef94",
+    "text": "SELECT A MEMORY CARD SLOT TO USE..."
+  },
+  {
+    "offset": "0x25efe5",
+    "text": "CHECKING THE MEMORY CARD"
+  },
+  {
+    "offset": "0x25effe",
+    "text": "IN MEMORY CARD SLOT 1..."
+  },
+  {
+    "offset": "0x25f031",
+    "text": "IN MEMORY CARD SLOT 2..."
+  },
+  {
+    "offset": "0x25f04b",
+    "text": "PLEASE DO NOT OPEN THE"
+  },
+  {
+    "offset": "0x25f062",
+    "text": "DISC COVER OR REMOVE/INSERT"
+  },
+  {
+    "offset": "0x25f07e",
+    "text": "MEMORY CARDS OR CONTROLLERS!"
+  },
+  {
+    "offset": "0x25f09c",
+    "text": "PLEASE SELECT A BLOCK..."
+  },
+  {
+    "offset": "0x25f0b6",
+    "text": "DATA FROM ANOTHER GAME TITLE"
+  },
+  {
+    "offset": "0x25f0e1",
+    "text": "SAVING DATA TO THE MEMORY CARD"
+  },
+  {
+    "offset": "0x25f153",
+    "text": "PREVIOUS DATA WILL"
+  },
+  {
+    "offset": "0x25f176",
+    "text": "OKAY TO PROCEED?"
+  },
+  {
+    "offset": "0x25f188",
+    "text": "NO DATA EXISTS!"
+  },
+  {
+    "offset": "0x25f199",
+    "text": "LOADING DATA FROM THE MEMORY"
+  },
+  {
+    "offset": "0x25f1b6",
+    "text": "CARD IN MEMORY CARD SLOT 1..."
+  },
+  {
+    "offset": "0x25f1f2",
+    "text": "CARD IN MEMORY CARD SLOT 2..."
+  },
+  {
+    "offset": "0x25f211",
+    "text": "THE MEMORY CARD IN"
+  },
+  {
+    "offset": "0x25f237",
+    "text": "HAS NOT BEEN FORMATTED!"
+  },
+  {
+    "offset": "0x25f24f",
+    "text": "DO YOU WANT TO FORMAT IT?"
+  },
+  {
+    "offset": "0x25f2c3",
+    "text": "NOW FORMATTING THE MEMORY"
+  },
+  {
+    "offset": "0x25f335",
+    "text": "NO MEMORY CARD FOUND"
+  },
+  {
+    "offset": "0x25f34a",
+    "text": "IN MEMORY CARD SLOT 1!"
+  },
+  {
+    "offset": "0x25f377",
+    "text": "IN MEMORY CARD SLOT 2!"
+  },
+  {
+    "offset": "0x25f38f",
+    "text": "FAILED TO SAVE DATA TO THE MEMORY"
+  },
+  {
+    "offset": "0x25f3b1",
+    "text": "CARD IN MEMORY CARD SLOT 1!"
+  },
+  {
+    "offset": "0x25f402",
+    "text": "CARD IN MEMORY CARD SLOT 2!"
+  },
+  {
+    "offset": "0x25f431",
+    "text": "FAILED TO LOAD DATA FROM THE MEMORY"
+  },
+  {
+    "offset": "0x25f4d7",
+    "text": "THE PREVIOUSLY SAVED DATA"
+  },
+  {
+    "offset": "0x25f4f1",
+    "text": "ON THE MEMORY CARD IN MEMORY"
+  },
+  {
+    "offset": "0x25f50e",
+    "text": "CARD SLOT 1 IS UNUSABLE!"
+  },
+  {
+    "offset": "0x25f55f",
+    "text": "CARD SLOT 2 IS UNUSABLE!"
+  },
+  {
+    "offset": "0x25f579",
+    "text": "NO PREVIOUSLY SAVED DATA ON THE"
+  },
+  {
+    "offset": "0x25f599",
+    "text": "MEMORY CARD IN MEMORY CARD SLOT 1!"
+  },
+  {
+    "offset": "0x25f5dd",
+    "text": "MEMORY CARD IN MEMORY CARD SLOT 2!"
+  },
+  {
+    "offset": "0x25f601",
+    "text": "FAILED TO FORMAT THE MEMORY"
+  },
+  {
+    "offset": "0x25f68c",
+    "text": "ON THE MEMORY CARD IN"
+  },
+  {
+    "offset": "0x25f6fb",
+    "text": "Remove all the currently"
+  },
+  {
+    "offset": "0x25f72c",
+    "text": "the Element Grid."
+  },
+  {
+    "offset": "0x25f885",
+    "text": "from the Element Grid."
+  },
+  {
+    "offset": "0x25f89d",
+    "text": "Rearrange the Elements"
+  },
+  {
+    "offset": "0x25f8b4",
+    "text": "in all Grids to achieve"
+  },
+  {
+    "offset": "0x25f8cc",
+    "text": "a recommended setup."
+  },
+  {
+    "offset": "0x25f8fc",
+    "text": "with recommended Elements"
+  },
+  {
+    "offset": "0x25f916",
+    "text": "from your current stock."
+  },
+  {
+    "offset": "0x25f97c",
+    "text": "    - Attack First"
+  },
+  {
+    "offset": "0x25fb99",
+    "text": "\u201cQuill and Papyrus\u201d"
+  },
+  {
+    "offset": "0x25fbea",
+    "text": "\u201cTea For Three\u201d"
+  },
+  {
+    "offset": "0x25fc69",
+    "text": "Cancel/Hold down to run"
+  },
+  {
+    "offset": "0x25fc9f",
+    "text": "Open Menu Screen"
+  },
+  {
+    "offset": "0x25fd14",
+    "text": "Change direction on the spot"
+  },
+  {
+    "offset": "0x25fd32",
+    "text": "Battle Screen Controller Configuration"
+  },
+  {
+    "offset": "0x25fd72",
+    "text": "Change character (=right button)"
+  },
+  {
+    "offset": "0x25fd94",
+    "text": "Change view (at target selection)"
+  },
+  {
+    "offset": "0x25fdb7",
+    "text": "Change character (=left button)"
+  },
+  {
+    "offset": "0x25fe23",
+    "text": " button to choose/confirm."
+  },
+  {
+    "offset": "0x25fe3f",
+    "text": " to remove all Elements."
+  },
+  {
+    "offset": "0x25fe59",
+    "text": " to unequip all accessories."
+  },
+  {
+    "offset": "0x25fe77",
+    "text": "This data lets you continue the game in a strong state."
+  },
+  {
+    "offset": "0x25feb0",
+    "text": "This game data has been completed."
+  },
+  {
+    "offset": "0x25fee8",
+    "text": "            Yes"
+  },
+  {
+    "offset": "0x25fef8",
+    "text": "            No"
+  },
+  {
+    "offset": "0x25ff17",
+    "text": "No. in Stock"
+  },
+  {
+    "offset": "0x25ff5a",
+    "text": " levels' worth to go"
+  },
+  {
+    "offset": "0x260240",
+    "text": "Cancel/Hold down to walk"
+  },
+  {
+    "offset": "0x2602dd",
+    "text": "An Ancient Fort -"
+  },
+  {
+    "offset": "0x2602ef",
+    "text": "Chasing phantoms in one's dreams..."
+  },
+  {
+    "offset": "0x260315",
+    "text": "Arni Village -"
+  },
+  {
+    "offset": "0x260324",
+    "text": "Where the tides start to turn..."
+  },
+  {
+    "offset": "0x260356",
+    "text": "A calling from beyond time..."
+  },
+  {
+    "offset": "0x260385",
+    "text": "Nothing has changed but everything!"
+  },
+  {
+    "offset": "0x2603b7",
+    "text": "A reminder of one's former self..."
+  },
+  {
+    "offset": "0x2603dc",
+    "text": "Heading North -"
+  },
+  {
+    "offset": "0x2603ec",
+    "text": "In search of some answers..."
+  },
+  {
+    "offset": "0x26040b",
+    "text": "The Port Town of Termina -"
+  },
+  {
+    "offset": "0x260426",
+    "text": "The pride of the Acacia Dragoons..."
+  },
+  {
+    "offset": "0x26045a",
+    "text": "Where lies the key to the past..."
+  },
+  {
+    "offset": "0x260488",
+    "text": "Where ripples become waves..."
+  },
+  {
+    "offset": "0x2604bc",
+    "text": "Meeting with the 'other' swordsman..."
+  },
+  {
+    "offset": "0x2604e3",
+    "text": "HFrom Pirate Ship to Ghost Ship -"
+  },
+  {
+    "offset": "0x260505",
+    "text": "A mariner's worst nightmare..."
+  },
+  {
+    "offset": "0x260525",
+    "text": "POn to Water Dragon Isle -"
+  },
+  {
+    "offset": "0x260540",
+    "text": "In search of the dragon blue..."
+  },
+  {
+    "offset": "0x260572",
+    "text": "Ancient dragons' dream in ruins..."
+  },
+  {
+    "offset": "0x2605a9",
+    "text": "Where lost souls wander..."
+  },
+  {
+    "offset": "0x2605c5",
+    "text": "lBack from the Darkness -"
+  },
+  {
+    "offset": "0x2605df",
+    "text": "And on with a new journey..."
+  },
+  {
+    "offset": "0x260610",
+    "text": "Isolation of people from the world..."
+  },
+  {
+    "offset": "0x260643",
+    "text": "Knight or day...?"
+  },
+  {
+    "offset": "0x260661",
+    "text": "The village of the demi-humans..."
+  },
+  {
+    "offset": "0x260685",
+    "text": "The Masamune -"
+  },
+  {
+    "offset": "0x260694",
+    "text": "The blood-stained sword of evil..."
+  },
+  {
+    "offset": "0x2606c8",
+    "text": "A place forsaken by the gods..."
+  },
+  {
+    "offset": "0x2606fe",
+    "text": "And the planet began to shake..."
+  },
+  {
+    "offset": "0x260720",
+    "text": "\u5eddack to Viper Manor -"
+  },
+  {
+    "offset": "0x260737",
+    "text": "A captive audience awaits..."
+  },
+  {
+    "offset": "0x26076b",
+    "text": "Pursuers with heavy-hearts..."
+  },
+  {
+    "offset": "0x26078a",
+    "text": "\uff6cTo the Sea of Eden -"
+  },
+  {
+    "offset": "0x2607a0",
+    "text": "Through the hidden holes in time..."
+  },
+  {
+    "offset": "0x2607c5",
+    "text": "\uff78The Arbiter of Time -"
+  },
+  {
+    "offset": "0x2607dc",
+    "text": "On whom the three Fates smile..."
+  },
+  {
+    "offset": "0x2607fe",
+    "text": "\uff83Terra Tower -"
+  },
+  {
+    "offset": "0x26080d",
+    "text": "Caught in an echo of time..."
+  },
+  {
+    "offset": "0x26082b",
+    "text": "\uff8aChrono Cross -"
+  },
+  {
+    "offset": "0x26083b",
+    "text": "The point where destinies meet..."
+  },
+  {
+    "offset": "0x26085e",
+    "text": "\uff91For all the Dreamers -"
+  },
+  {
+    "offset": "0x260876",
+    "text": "Our planet's dream is not over yet..."
+  },
+  {
+    "offset": "0x276cc1",
+    "text": " ! # % ; = ? N P R a c e t v x    "
+  },
+  {
+    "offset": "0x2796c1",
+    "text": ">PXZ]TeP^ XZY^_P]^ _Z MP"
+  },
+  {
+    "offset": "0x429bdf",
+    "text": "I \uff63^\uff61r\u6d0c\uff6fK\uff90z\"+m"
+  },
+  {
+    "offset": "0x487ef8",
+    "text": "Lord of El Nido"
+  },
+  {
+    "offset": "0x49c088",
+    "text": "Lady of Viper Manor"
+  },
+  {
+    "offset": "0x4b0218",
+    "text": "One of the 4 Devas"
+  },
+  {
+    "offset": "0x4d69a8",
+    "text": "'Diva' of the 4 Devas"
+  },
+  {
+    "offset": "0x4f629b",
+    "text": "0\uff74\u5178\u5144%Xzh32\uff8f\uff93a%]\uff79\uff78@ A"
+  },
+  {
+    "offset": "0x510998",
+    "text": "The 'Wonder Dog' ???"
+  },
+  {
+    "offset": "0x522668",
+    "text": "A Forest Fairy"
+  },
+  {
+    "offset": "0x55b3f8",
+    "text": "Arni Village Chief"
+  },
+  {
+    "offset": "0x581b88",
+    "text": "Gutsy Mother of 2"
+  },
+  {
+    "offset": "0x5f2161",
+    "text": "A llRGGLG=333FGRRad\u25a0jJ"
+  },
+  {
+    "offset": "0x608a98",
+    "text": "A Stray 'Gray'"
+  },
+  {
+    "offset": "0x62e91e",
+    "text": "Origin: Far East"
+  },
+  {
+    "offset": "0x643ce8",
+    "text": "A Total Vegetable"
+  },
+  {
+    "offset": "0x659a08",
+    "text": "A 'Flower Child'"
+  },
+  {
+    "offset": "0x6a448c",
+    "text": "Origin: The Ocean"
+  },
+  {
+    "offset": "0x6c9068",
+    "text": "Cave Girl"
+  },
+  {
+    "offset": "0x7168b8",
+    "text": "Village Physician"
+  },
+  {
+    "offset": "0x92bf96",
+    "text": ")&&\uff70\uff81\uff75\u629cm(V\uff6f\u6ad3P A"
+  },
+  {
+    "offset": "0x96ba27",
+    "text": "29/#I\uff6c\uff6c\uff68\uff6c\uff74\uff78\uff8f\uff9d\u809b\uff80\uff94u5x\uff7fI I"
+  },
+  {
+    "offset": "0x9a89ff",
+    "text": "a ]&9%ABM&='5%E)%&ACM%I`Y$Q@abM"
+  },
+  {
+    "offset": "0x9eacb2",
+    "text": "A (\uff66\u77e3\uff97\uff97\uff9c\u7be5\uff75\uff66\u30c2;K\uff79\uff95k62\""
+  },
+  {
+    "offset": "0xa87e69",
+    "text": "A eH'D\uff98w\u6ecc\uff93Q0_u^)\u5553"
+  },
+  {
+    "offset": "0xa9741b",
+    "text": "i -+>'-BTVT1"
+  },
+  {
+    "offset": "0xab1ed7",
+    "text": "A V`.$.\uff6d!\uff6b9\uff6e!%"
+  },
+  {
+    "offset": "0xbb18ec",
+    "text": "E2\"B 9Ie2D I"
+  },
+  {
+    "offset": "0xbdb49f",
+    "text": "A \uff6fo\uff80<YE%"
+  },
+  {
+    "offset": "0xc31057",
+    "text": "bSPY SP OPNTOPO _Z MP L QT^SP]XLY&"
+  },
+  {
+    "offset": "0xc312aa",
+    "text": "AP]QPN_ QZ] XLVTYR ^_ZNV _Z MP"
+  },
+  {
+    "offset": "0xc31ebc",
+    "text": "HSd T_ T^ ^LTO _Z MP L XPXPY_Z "
+  },
+  {
+    "offset": "0xc31edc",
+    "text": "ZQ 8L]LT bTWW YPaP] MP VYZbY&"
+  },
+  {
+    "offset": "0xc320d1",
+    "text": "DLTO _Z MP LMWP _Z NZY_]ZW _SP _TOP^&"
+  },
+  {
+    "offset": "0xc3252e",
+    "text": "MWLNV^XT_S bTWW MP _SP]Pg ;`^_"
+  },
+  {
+    "offset": "0xf84612",
+    "text": "X\uff97\u4e9eF\uff7a\uff6c\u7344\uff86\uff78\u58f1VCS#p\uff8fpj, a"
+  },
+  {
+    "offset": "0xfd1eb5",
+    "text": "A \uff75\uff7bXT\uff87\"\uff87z\uff831'\u4f552E\uff82>\uff8b\uff73\uff83"
+  },
+  {
+    "offset": "0x10879f9",
+    "text": "\uff7c\u8ed2pXpXgp@  I"
+  },
+  {
+    "offset": "0x10e6963",
+    "text": " A \" A) )--%% ))))%+89>8>D>EDDERREORRhhphRRRRh\u30f4\uff62\uff6e\uff6e\uff6e\uff77\uff7b\uff77\uff6e\uff6e\uff77\uff7b\uff79\uff6e\uff65\uff62\uff88\uff7c\u7bedp[[UL77779"
+  },
+  {
+    "offset": "0x10ea786",
+    "text": "(699LI8) E>EIII88EN8 I"
+  },
+  {
+    "offset": "0x138e862",
+    "text": "A \"?(J(G "
+  },
+  {
+    "offset": "0x14e0af9",
+    "text": "eD++)!eG A"
+  },
+  {
+    "offset": "0x14ed225",
+    "text": "A /\u6021\u60e7\u60d8\uff8e\uff9a\uff6f\uff6f\uff6f\u60e7\u6021}}__J"
+  },
+  {
+    "offset": "0x14fa6a6",
+    "text": "i ,\"\uff7dc\uff72\uff83iAw"
+  },
+  {
+    "offset": "0x15061a6",
+    "text": "I\u30006\u87f6\uff6cWJ\uff7e\uff99\uff8a"
+  },
+  {
+    "offset": "0x1654ab6",
+    "text": "5d\\\\\\\\\\nwg\uff74\u77bf\u9764\uff88\uff8e\uff9a\uff93\uff96\uff8e\uff8e\uff96\uff95\uff95\uff89\uff95\uff9c\u7459\u7c56\uff9d\u7c54\uff7f\u8c6a\uff6a\uff75\uff75\uff75\uff74\uff85\uff85\u66a2\uff7d\uff68nnuu& ,5AI\uff7dn,  A"
+  },
+  {
+    "offset": "0x16633c8",
+    "text": "i P/>*l\u9edd}\u2606\u51aa|~)8\u6c90X\uff9bg~"
+  },
+  {
+    "offset": "0x1759bba",
+    "text": "! ,&,&2  A"
+  },
+  {
+    "offset": "0x1765097",
+    "text": "Dq\uff9ay\u60f7\uff8f\uff62\uff755 a"
+  },
+  {
+    "offset": "0x1775b90",
+    "text": "a ]j\uff92R&-\uff9b\uff85D\u6b69eB(hM"
+  },
+  {
+    "offset": "0x18c9a1d",
+    "text": "a fs\u7725\uff8d\u52e4\u6ff1\uff8d\uff81\"\u8fbbY\uff9cc\uff97,"
+  },
+  {
+    "offset": "0x194adb8",
+    "text": "i Y:\u5afa\uff80\u54b3+\u9285$\uff98"
+  },
+  {
+    "offset": "0x1993319",
+    "text": "w4\uff9c\uff8e4P9\uff753\uff9fK8\uff84S i"
+  },
+  {
+    "offset": "0x19c7b8b",
+    "text": "A 0h\uff61vvo/</"
+  },
+  {
+    "offset": "0x19c9ec3",
+    "text": "<!! A M,*"
+  },
+  {
+    "offset": "0x1d2c3b1",
+    "text": "K\uff63\uff73\uff6aa\uff7e\uff94Z\uff93tR\uff66\uff90 I"
+  },
+  {
+    "offset": "0x1d31738",
+    "text": "i b\uff65#\uff9d!W\uff88\uff81`\uff66/"
+  },
+  {
+    "offset": "0x1f0d288",
+    "text": "A Ao\u0434teNeeo]V0S]TE?A;EA9K:"
+  },
+  {
+    "offset": "0x1f5aafd",
+    "text": "I \uff797\uff6dHDd\uff77b"
+  },
+  {
+    "offset": "0x1f5bf68",
+    "text": "\uff80a\uff6c1\uff9ccbSAk\uff88\uff71 I"
+  },
+  {
+    "offset": "0x1fe3154",
+    "text": "A \uff75t\uff74R\uff8d\u69a7\u8a3a"
+  },
+  {
+    "offset": "0x210c8e4",
+    "text": "A  5AB-)-   "
+  },
+  {
+    "offset": "0x210dd5d",
+    "text": " ))))-)5AABBA<JL??JJJJIAIJJA7I7 -5)7JJJSIJLIS\\foJIIIJ-!7-- A "
+  },
+  {
+    "offset": "0x22fc986",
+    "text": "Ci\uff7bpY(\uff93G\u75d4N\uff87\uff8a i"
+  },
+  {
+    "offset": "0x23636ff",
+    "text": "i \uff8eVm(\u74cf\uff85R"
+  },
+  {
+    "offset": "0x238377b",
+    "text": "\uff81\uff800\u7476\u976dL| a"
+  },
+  {
+    "offset": "0x242b549",
+    "text": "A A E!=\"-#!$"
+  },
+  {
+    "offset": "0x2447cec",
+    "text": ":TN%B\uff70\uff6f\u0423STk\u5c3d>k))SU^m\uff6a\uff75\uff76|800 A"
+  },
+  {
+    "offset": "0x2476962",
+    "text": "a\uff61\uff82\uff85\uff67\u80f8\u7704\uff79i2[\u58ecti A"
+  },
+  {
+    "offset": "0x2487ff4",
+    "text": "\u5d6f\uff7d( 8C8Oaa\u5d6f\uff6b\u5294\u8154OC A"
+  },
+  {
+    "offset": "0x24ed6ed",
+    "text": "'!*5.4 ) A"
+  },
+  {
+    "offset": "0x261d2e2",
+    "text": "1II1TT:=)==IT{}TI@Tgggm}w\u7b52\uff69\uff66\uff70\uff70\uff70\u5c08wg\uff7d\uff82\u0436\u52aa\u2523\u8b04\uff63\uff63\uff8e\uff7d\u5ff0\uff6b\uff88\u5b0c\u5bc3\uff91\uff8cw\u6842NNjs\u7d3a\u6bcbaNNk\u6e1b\uff78\u60a6[Hkkak\uff78\uff89\uff78\u9707aSel\u4f9b\uff7e\uff86\uff89n\u69fduL I"
+  },
+  {
+    "offset": "0x26ec036",
+    "text": "i @cyj\uff75.\uff94\u71c93 !"
+  },
+  {
+    "offset": "0x2725cb7",
+    "text": "<C\u9d1f=Vx5/A$.h`d]1[ i"
+  },
+  {
+    "offset": "0x277daf5",
+    "text": "He \u62ff#\uff90`i\uff9fU\uff64^q"
+  },
+  {
+    "offset": "0x2835081",
+    "text": "H\uff97\uff808` A \u72fc\uff9e"
+  },
+  {
+    "offset": "0x284247a",
+    "text": " A %#O\uff93\uff91?#"
+  },
+  {
+    "offset": "0x288fd1b",
+    "text": " R`iRbbL3 A"
+  },
+  {
+    "offset": "0x28977d0",
+    "text": " 93 A 3 .9."
+  },
+  {
+    "offset": "0x28a9fb9",
+    "text": "T\uff7b46\uff93n\u8182 A"
+  },
+  {
+    "offset": "0x29c87f7",
+    "text": ")p\u9375\uff74$\uff64\uff84[ A"
+  },
+  {
+    "offset": "0x2c6538d",
+    "text": "a  \uff7a\uff95\u72a2WBd\uff78\u7317\uff78\u97cb\u59e8"
+  },
+  {
+    "offset": "0x2d01186",
+    "text": "a EH*-\uff62Ld}\uff9c=\uff94\u8d14\u2212b\u5b5a\uff8d"
+  },
+  {
+    "offset": "0x2d54528",
+    "text": "A \uff67\u6566\uff82\uff96\uff99\uff80:\uff8ax\uff7d\uff7f"
+  },
+  {
+    "offset": "0x2ef948c",
+    "text": "\uff82#[\u8aa8\uff7eN\u5835\u7b56 A"
+  },
+  {
+    "offset": "0x307a27e",
+    "text": "I ;MP]PKeh``PM9"
+  },
+  {
+    "offset": "0x331efbd",
+    "text": "\uff94\uff89+\uff69`\uff840T1\u878d\u7968\uff68\u4f36g \uff97m\u9293s\uff71 a"
+  },
+  {
+    "offset": "0x33d4770",
+    "text": "a u\u7b0f\uff9c\uff9a%\uff63\u634c\uff81"
+  },
+  {
+    "offset": "0x35b7392",
+    "text": "` #\"I\uff68 c I"
+  },
+  {
+    "offset": "0x36e2d44",
+    "text": "A \uff90\u731cq(\uff72\uff6cM\uff78\uff7b@Np"
+  },
+  {
+    "offset": "0x37f3def",
+    "text": "I a\u7893\uff976cu\uff75\uff7f"
+  },
+  {
+    "offset": "0x3924ffc",
+    "text": "A d\u7d1b@($<\u69fb"
+  },
+  {
+    "offset": "0x39847cb",
+    "text": "i P\uff9a\\N)A\"\u788d\u9b25/\uff64"
+  },
+  {
+    "offset": "0x3b4625a",
+    "text": "A A@5B[\u7948'"
+  },
+  {
+    "offset": "0x3b90ea3",
+    "text": "i d9\uff6e\uff6f\uff90;'Yd"
+  },
+  {
+    "offset": "0x3c139cc",
+    "text": "a )\u305eM_f\uff70S!\uff71\uff7f\uff94)\uff82W"
+  },
+  {
+    "offset": "0x3d1afad",
+    "text": "HP c\uff8e-\uff99g@cbZ \u6901\uff841$"
+  },
+  {
+    "offset": "0x3d60079",
+    "text": "A `\u69cbGfW\u9ae6\uff94"
+  },
+  {
+    "offset": "0x3ea1411",
+    "text": "8>9801%&5aaaaaaaaLLYL===LLY\uff80\u84c1\u8420\uff7b\uff69\uff8c\uff9f\uff9f\uff97\uff62 A"
+  },
+  {
+    "offset": "0x3ebe9bc",
+    "text": "\uff8b#\uff78\uff67F\\p\uff89\u8def:h\uff842+\u5dbc\u6115\u7ac8!\u536e9e\uff8f\u4f0d0y An"
+  },
+  {
+    "offset": "0x40d39b1",
+    "text": "o_8GGFFFFFFVFFF8GG6 I"
+  },
+  {
+    "offset": "0x429530e",
+    "text": "%~\"\uff80\u9662\u2533bWB a"
+  },
+  {
+    "offset": "0x42dfb08",
+    "text": "\u305e\uff74z\u30c6\uff90\uff6a\uff8b A"
+  },
+  {
+    "offset": "0x451530e",
+    "text": "E8 i MWXWMMGMXW"
+  },
+  {
+    "offset": "0x483f143",
+    "text": "A !/< <S;KKKK/NhhUN\u30cb=ln~"
+  },
+  {
+    "offset": "0x49019b0",
+    "text": "j\u8fe2\u568f\uff81%\uff6c\u68b9\uff6cD i"
+  },
+  {
+    "offset": "0x49430fc",
+    "text": "&-  I< XX\"6& my"
+  },
+  {
+    "offset": "0x4948849",
+    "text": "I <Rjjj<<- "
+  },
+  {
+    "offset": "0x49662bc",
+    "text": "I $$8$1$[ "
+  },
+  {
+    "offset": "0x4bd52c6",
+    "text": "y\uff72&\uff8dx\uff88\u0439\uff6bE a"
+  },
+  {
+    "offset": "0x4e05c52",
+    "text": " (MTR A R "
+  },
+  {
+    "offset": "0x4e5d75b",
+    "text": "^rh+i1\uff62\uff91h'\uff61kMIE\uff89 I"
+  },
+  {
+    "offset": "0x4f41f42",
+    "text": "A } \u672e>0u'\u6295\uff82\uff96"
+  },
+  {
+    "offset": "0x51c5e52",
+    "text": "A !H+:\u868an\u30b0 $):\uff6dj\uff6cCA\uff68\uff94*y"
+  },
+  {
+    "offset": "0x52274e6",
+    "text": "a \u6216Q\uff64\uff9e\u51dd\uff8eE"
+  },
+  {
+    "offset": "0x5255d14",
+    "text": "a X\uff79R\uff88\uff77\uff78\uff7e\u5333K\u888d\uff8d\uff8c\uff63"
+  },
+  {
+    "offset": "0x527cb3e",
+    "text": "\uff62b\uff89\uff7d\u9f72 i u"
+  },
+  {
+    "offset": "0x54cbda0",
+    "text": "xOkz\\q+ i"
+  },
+  {
+    "offset": "0x54f38cd",
+    "text": "L7 ,;>Z;N^c\u30e3d\u30bfh\uff7esJ\u90edzdXl\u98a8\u4e07\u6a35\u9baa\uff67s I"
+  },
+  {
+    "offset": "0x55ba079",
+    "text": "i \\\uff91q=\uff8b\u8328\u7db8E\uff9a"
+  },
+  {
+    "offset": "0x55f40dc",
+    "text": "\u5f7f\\3Z\u7a92Wk I"
+  },
+  {
+    "offset": "0x56519e6",
+    "text": "\uff7f\uff85\uff98\uff7d,\u79d5\u572d%/|\u9036J\uff63P a"
+  },
+  {
+    "offset": "0x5716e2e",
+    "text": "\uff93# I \uff61$)="
+  },
+  {
+    "offset": "0x573631e",
+    "text": "\uff7eU] A \uff8d\uff94-[\uff7a\uff7f\uff9c\uff8e\uff8d"
+  },
+  {
+    "offset": "0x57f8c90",
+    "text": "!(((06;8<DMW\uff68\uff67\"       i"
+  },
+  {
+    "offset": "0x580fc26",
+    "text": "A KB.\uff7bs?\uff90`J\uff992\uff72\uff73i\u5f82"
+  },
+  {
+    "offset": "0x58695c0",
+    "text": "nP/tKx AT"
+  },
+  {
+    "offset": "0x58e8437",
+    "text": "M\u9d1f0\u5bb3N\u0445\uff82\uff989 I"
+  },
+  {
+    "offset": "0x58fa9d4",
+    "text": "t a \uff936\u64b0\uff9a\uff9a\uff9c\uff99\uff6b"
+  },
+  {
+    "offset": "0x5964e4b",
+    "text": "A \uff79\u60bcj:\\\uff9b5\u675f\uff6c\uff87"
+  },
+  {
+    "offset": "0x5a0a21a",
+    "text": "3#E\uff61;H\uff88 it"
+  },
+  {
+    "offset": "0x5b95bf6",
+    "text": "AN e0BPfaH\uff7e"
+  },
+  {
+    "offset": "0x5c49873",
+    "text": "i A\u590a\uff87\uff90f24"
+  },
+  {
+    "offset": "0x5c61314",
+    "text": "\uff78s\"\uff76\uff73j\uff97eeOWp\u6a9091 I"
+  },
+  {
+    "offset": "0x5ca054e",
+    "text": "\uff7a\uff8b\u90f5/\u4eb3+K\u53a9\uff8e\u8cbdC{\uff79\u8af3\uff90 A"
+  },
+  {
+    "offset": "0x5da99fa",
+    "text": "\u8af8E}#\uff8f\u97b4n/\uff93]C\u56de\uff87 a"
+  },
+  {
+    "offset": "0x5e845f8",
+    "text": "a \uff90i2v6\u6714\u7e23\u9f61"
+  },
+  {
+    "offset": "0x5ea8042",
+    "text": "=\uff9c:e\uff82L:J\u7e55 I"
+  },
+  {
+    "offset": "0x5f5bbf1",
+    "text": "I \u6f84r\uff8b\uff64\uff84.\uff6bHX\uff8b"
+  },
+  {
+    "offset": "0x5f7bdb8",
+    "text": "I w-\uff7eO%\uff83Zf<\uff61|IzR"
+  },
+  {
+    "offset": "0x63b2471",
+    "text": "-|bk \uff7c\uff9dv\uff95]\uff9a&-\u9f9c\uff73:\uff94B\uff63 I\uff93\uff67>\uff93(iF\u3059le i"
+  },
+  {
+    "offset": "0x63e849c",
+    "text": "oR 2ARA0 "
+  },
+  {
+    "offset": "0x65075df",
+    "text": "pT\uff830BWA\uff80+9\uff92\uff6e&&\u8fce\uff8c\uff79n\uff67\uff7d\u7815\u9ef7( iN"
+  },
+  {
+    "offset": "0x65dfcc6",
+    "text": "A \uff88_I\uff7cL\u5cf6ud"
+  },
+  {
+    "offset": "0x67dc9dc",
+    "text": "\uff75\uff71\u5190\uff84;[\uff67at4LL( i"
+  },
+  {
+    "offset": "0x68423bb",
+    "text": "\uff64\uff8c\uff92[\uff94Dxy\uff629 i"
+  },
+  {
+    "offset": "0x6947876",
+    "text": "\uff85ol\uff85_\uff73 in"
+  },
+  {
+    "offset": "0x695264f",
+    "text": "_=0\uff9a\uff92)\u8526 a"
+  },
+  {
+    "offset": "0x6acc456",
+    "text": "o\uff96W\uff8c\u96cc}\uff7em\uff72\uff7e\u7aaeI\u873b\uff84 I"
+  },
+  {
+    "offset": "0x6b2816e",
+    "text": "\u9102)C%p\uff6c?\uff87ixH A"
+  },
+  {
+    "offset": "0x6ba6fb9",
+    "text": "CWC)ChQQ<7.3zpp\uff7a\uff96 A"
+  },
+  {
+    "offset": "0x6d44783",
+    "text": "A xo\uff79\u65e0\uff98\u9119\uff9b<\uff74"
+  },
+  {
+    "offset": "0x6d64d68",
+    "text": "\uff69\uff80m \uff90\u976dL| a"
+  },
+  {
+    "offset": "0x6d7e779",
+    "text": "\uff65~\u5a2f<\uff90q\uff90UY\u866b\u60f0l])\uff6e(A My"
+  },
+  {
+    "offset": "0x6e9fc6a",
+    "text": "A \u80aaR%xh+\uff88"
+  },
+  {
+    "offset": "0x6ea416a",
+    "text": "\uff8eaA\uff61[P\u2025R I"
+  },
+  {
+    "offset": "0x6f5996c",
+    "text": "$\uff6f=\uff88\u2025R4 I"
+  },
+  {
+    "offset": "0x6fc8271",
+    "text": "\uff93Pk`\uff75mz\uff75\uff98 a"
+  },
+  {
+    "offset": "0x707871d",
+    "text": "\uff66\uff9b%\u5b8b\uff73\u9698N\uff69 a"
+  },
+  {
+    "offset": "0x73ac6af",
+    "text": "I nF\uff96\uff74%\uff8eh@"
+  },
+  {
+    "offset": "0x73b587a",
+    "text": "a \u5664\uff88#/x 5\uff73\u72f7\uff6d"
+  },
+  {
+    "offset": "0x74f6023",
+    "text": "X '\u78c67i` a"
+  },
+  {
+    "offset": "0x764fb31",
+    "text": "\uff91?c\uff67o\uff7d\uff3c>q% I"
+  },
+  {
+    "offset": "0x76c0468",
+    "text": "W&\u8c9e\uff81\u7503d\uff9an\uff70Oc\uff8e\uff74F8N\uff61 i"
+  },
+  {
+    "offset": "0x76ec74f",
+    "text": "\uff7bI\uff81\uff6aQ\uff9e06\uff98\u253b\u6216\uff3c>q% I"
+  },
+  {
+    "offset": "0x77c7d6d",
+    "text": "I \u7136F\uff89ABn."
+  },
+  {
+    "offset": "0x789e5e5",
+    "text": "I ***==JJ>>MY%4I_`__M>A"
+  },
+  {
+    "offset": "0x7a4734a",
+    "text": "$$+4'(\uff99\uff99\uff99\u73e5\u747e\u91d6\uff99\uff99\uff99\u924b\uff71\uff88\u9950]][4B[x}}}h+'h}xmmxrh I"
+  },
+  {
+    "offset": "0x7a6c153",
+    "text": "A &mx:AAJA:"
+  },
+  {
+    "offset": "0x7b1b89a",
+    "text": "A Bj=k)\u042c\uff85I\uff66Qp"
+  },
+  {
+    "offset": "0x7b4d0dd",
+    "text": "--- 9HHH9!  *- I"
+  },
+  {
+    "offset": "0x7b4d194",
+    "text": "7I9ITRRRRR977 I"
+  },
+  {
+    "offset": "0x7b4f612",
+    "text": " 9_____9 I"
+  },
+  {
+    "offset": "0x7eb7dfb",
+    "text": "i \uff81e\u8087\uff64\u7dbac\uff82"
+  },
+  {
+    "offset": "0x8051e18",
+    "text": "A h\u63d6b\uff9d\u52f9T?\uff67`"
+  },
+  {
+    "offset": "0x82371b2",
+    "text": "At \uff97\uff82\uff7bN\uff7c\"Y\uff91=\uff85._\uff81\u5c28"
+  },
+  {
+    "offset": "0x83ddb66",
+    "text": "A w\uff62<\uff85\u5a11q6\uff8b|"
+  },
+  {
+    "offset": "0x848d652",
+    "text": "I \uff9f\uff80`\u253fB\uff6f?"
+  },
+  {
+    "offset": "0x84c237a",
+    "text": "oF ^\uff8f\uff77C\uff74\uff89#3"
+  },
+  {
+    "offset": "0x8507bff",
+    "text": "\u8abc1T\uff9dx\u82fbS\u745e\uff85\uff6e\uff81\u7564\uff82> a"
+  },
+  {
+    "offset": "0x890de65",
+    "text": "\uff74\u8ec5eQ\"A\uff7f>\uff64a In"
+  },
+  {
+    "offset": "0x8a4d260",
+    "text": "tO \uff7f\uff6aJt4@D"
+  },
+  {
+    "offset": "0x8a9aa18",
+    "text": "^\uff66+3\uff9b+\uff89q\uff91\uff64\u7cf6\uff72\u9172 A"
+  },
+  {
+    "offset": "0x8aa344e",
+    "text": "e'\uff84\uff69\uff62Q] i"
+  },
+  {
+    "offset": "0x8b70b20",
+    "text": "A d\u7d1bB\uff88$<\u68e0"
+  },
+  {
+    "offset": "0x8bc4056",
+    "text": "a=aI#MAQ a"
+  },
+  {
+    "offset": "0x8bd27eb",
+    "text": "\uff99;.\uff7b`[5S\uff67\u78bc a"
+  },
+  {
+    "offset": "0x8cbdb62",
+    "text": "Of 7a\uff65\u6566\uff9aa<R666*"
+  },
+  {
+    "offset": "0x8cd9575",
+    "text": "A !7_\u4e16\uff62\u88fe\u55d4&\\\uff73\u5c3b\uff73\uff73A\u6589\uff62\u795e\u4e16\u9306_KK"
+  },
+  {
+    "offset": "0x8d1e598",
+    "text": "A V\uff63X\uff8bN\uff82\uff6d"
+  },
+  {
+    "offset": "0x8d5c300",
+    "text": "\u6bbbc\\VVVVKEE66//$- $ A"
+  },
+  {
+    "offset": "0x8df4827",
+    "text": "Z\uff66f\u7c4d\u803ff**Y\u30c7,   a"
+  },
+  {
+    "offset": "0x8ebbc48",
+    "text": "a \uff8co\u5ced\uff89\uff9f\uff9a R\uff8d@\uff6f\uff84"
+  },
+  {
+    "offset": "0x905d959",
+    "text": "A\u9870\uff9dXNN24==j\u540d\uff8c\u4e16z\u55da\uff9d; i"
+  },
+  {
+    "offset": "0x928dafa",
+    "text": "\u8981\u5b80^q\u89da\uff70/ A"
+  },
+  {
+    "offset": "0x9317e44",
+    "text": "A\u6211DlD70\u9f3e2vL hP"
+  },
+  {
+    "offset": "0x952f3fe",
+    "text": "\uff6b\u898f\"*\uff9c\uff8a-q\uff72 i"
+  },
+  {
+    "offset": "0x9532222",
+    "text": "i 9D1_-h\uff85"
+  },
+  {
+    "offset": "0x96f2ba0",
+    "text": "\"B\", A ,\uff70"
+  },
+  {
+    "offset": "0x973c4f8",
+    "text": "\u93d7\u53e4O~7cD\uff81.\uff78 I"
+  },
+  {
+    "offset": "0x98cd2d8",
+    "text": "i =13$\u304ffJ\u7566"
+  },
+  {
+    "offset": "0x9a17aa9",
+    "text": "-\uff6f1\uff68*,\u5f35\u6fa1n\u60f9\u81a9 I"
+  },
+  {
+    "offset": "0x9a75430",
+    "text": "\uff65\uff8a\uff6c\uff78o\u7d17\uff96-<'E i"
+  },
+  {
+    "offset": "0x9ad2ce8",
+    "text": "A cG\uff9cl\u87ab\u65cbS\uff7e*\u543e\uff6dZ\uff67\\\u602f"
+  },
+  {
+    "offset": "0x9c4b345",
+    "text": "A )))2))))2222269:99@@@@@@F@FFFFFFFFFFUhppU\uff7c\u887e\uff6f\uff6dp)2:Zi~_\uff67:\u51f9\u60652))))26@)\uff8b\uff97"
+  },
+  {
+    "offset": "0x9c60bf4",
+    "text": "d\uff83V,O[F\uff73\uff97[\uff71 a"
+  },
+  {
+    "offset": "0x9cefc8b",
+    "text": "\u71cewG\u5704\uff64\uff77\uff81\u6f919e] a"
+  },
+  {
+    "offset": "0x9d1edf0",
+    "text": "a Km\u671d\u611a\uff96\u51db\uff85\u6042"
+  },
+  {
+    "offset": "0x9e188e5",
+    "text": "A Z`IH0\uff88I"
+  },
+  {
+    "offset": "0x9e1c9d9",
+    "text": "i \uff65^*g\uff6c\u76bf\uff8dS;[!\u8b33IP;6m`2"
+  },
+  {
+    "offset": "0x9e2e777",
+    "text": "2?\uff93%\uff6ci\uff9fxB I"
+  },
+  {
+    "offset": "0x9fad427",
+    "text": "i 2\u254be\u7549YY~1@ "
+  },
+  {
+    "offset": "0x9fcc7ba",
+    "text": "\u3088\u4f10\uff75G A \u7b4bRC(\uff8cd\uff78\uff90r\uff84@\uff6c"
+  },
+  {
+    "offset": "0x9fda6b5",
+    "text": ";'2[_RAZ$$ I"
+  },
+  {
+    "offset": "0x9fe0ab0",
+    "text": "S\uff75\uff78\uff86\uff83\uff83\uff65\u5cd9\uff83\uff71\uff7d\uff86\uff86\uff71\uff78\uff9b\uff87\uff61{xT\uff61\uff64\uff61\u599b\uff71\uff76\uff7e\uff87\uff77\u5c50\uff61\uff87\uff77\u6cdd\u4e9c\u7f70\uff87\uff73\uff71\uff73\u97c3\u88f9\uff9b\uff86z\uff82}I>7A7,*9* AiiTj@66:Sjq}}gizca\u6d9bw\u4fe3>Db A"
+  },
+  {
+    "offset": "0xa056422",
+    "text": "-\u5b9d>\uff93{\uff7c\u920e\u51db\uff80 I"
+  },
+  {
+    "offset": "0xa0ca41f",
+    "text": "Fv\uff7dv\u7aef\"\uff79 a"
+  },
+  {
+    "offset": "0xa0d90fc",
+    "text": "\uff83J\uff679\uff6a\uff94\uff72\uff9e5>\u898f\uff70\uff9c\uff78~/\uff7b@ A "
+  },
+  {
+    "offset": "0xa0e2601",
+    "text": "\uff7bP\uff62L\uff9c6\u72ce, A"
+  },
+  {
+    "offset": "0xa2c57b0",
+    "text": "A \uff8f!\uff8d\uff721!\uff9dD"
+  },
+  {
+    "offset": "0xa2f4699",
+    "text": "\uff96\uff87\u9470f\u8c7c=\uff98\uff95\uff61iI\uff86\u8036 A"
+  },
+  {
+    "offset": "0xa32a538",
+    "text": "\u7ae0P\uff66\uff95wV$d i"
+  },
+  {
+    "offset": "0xa6d374d",
+    "text": "a \uff88X]p#I\u2016z"
+  },
+  {
+    "offset": "0xa7c247a",
+    "text": "))9AAFTDDDHD/ A "
+  },
+  {
+    "offset": "0xa924acd",
+    "text": "i w\uff9f\uff94H\uff79\uff854\uff8d\uff98n"
+  },
+  {
+    "offset": "0xaa0a960",
+    "text": " A %%;z\u9ac4afnha\u520al[\uff72"
+  },
+  {
+    "offset": "0xab92447",
+    "text": "A $\uff90H;4f\uff89"
+  },
+  {
+    "offset": "0xac435f5",
+    "text": "a \u5bfa\uff87\uff94\u608d+S\uff86\uff7c\uff76"
+  },
+  {
+    "offset": "0xaca21f1",
+    "text": "a ?\uff95p\uff71V&\uff68"
+  },
+  {
+    "offset": "0xacbc698",
+    "text": "/155D;;G: A"
+  },
+  {
+    "offset": "0xacd0dc5",
+    "text": "\uff9ei\uff87\u306e\uff71- On"
+  },
+  {
+    "offset": "0xacf4b29",
+    "text": "=!= i i l"
+  },
+  {
+    "offset": "0xacf4e81",
+    "text": "=\uff61= i l i"
+  },
+  {
+    "offset": "0xad79668",
+    "text": "EAsV0\uff73q0 A"
+  },
+  {
+    "offset": "0xae9cbeb",
+    "text": "\uff6a A \uff73x\uff90 9\u58a8"
+  },
+  {
+    "offset": "0xaf11ba8",
+    "text": "\uff65\uff90\uff69\uff90mZa I"
+  },
+  {
+    "offset": "0xafa26eb",
+    "text": "A }\uff7e\uff70`$'\u5713sL[\u5484\u5a36"
+  },
+  {
+    "offset": "0xb480770",
+    "text": "\u6ff3\uff78\u771f\u97a8\u64d8\uff87 A \uff74\"=)\uff97"
+  },
+  {
+    "offset": "0xb4b3b74",
+    "text": "OK :a``O1"
+  },
+  {
+    "offset": "0xb5a83be",
+    "text": "A /\uff9d$n\uff7c9n\uff7d\u5df1a\u5708B$\uff66\u5769"
+  },
+  {
+    "offset": "0xb61d226",
+    "text": "00 9909II900  I"
+  },
+  {
+    "offset": "0xb6410e3",
+    "text": "xx\uff39\u63e3XOo' A"
+  },
+  {
+    "offset": "0xba2f83f",
+    "text": "7L-#!7 an "
+  },
+  {
+    "offset": "0xbd400e5",
+    "text": "I 8<D\uff7f\uff7f\uff76\u672a\uff76@"
+  },
+  {
+    "offset": "0xbea5512",
+    "text": "\u555ca@\uff63K4( i"
+  },
+  {
+    "offset": "0xbecb038",
+    "text": "a \uff88g\"\uff75\uff7f6\u9924W"
+  },
+  {
+    "offset": "0xc0cbcac",
+    "text": "a ]j\uff92R&-\uff9b\uff85D\u6b69eB(hM\uff78\uff8d"
+  },
+  {
+    "offset": "0xc124d01",
+    "text": "t'\u6a21v0W\uff6e\u79aa*Ji\uff83\uff7da\u98aa\uff8d I"
+  },
+  {
+    "offset": "0xc14332f",
+    "text": "\u8151q\uff9ay\u60f7\uff8f\uff62\uff755 a"
+  },
+  {
+    "offset": "0xc153e28",
+    "text": "a ]j\uff92R&-\uff9b\uff85D#\uff9cr\u500f\uff7b34\uff93mD4\uff9f\u5e7f="
+  },
+  {
+    "offset": "0xc2f8c3c",
+    "text": "R\uff7ee`)(\uff8b\uff71\uff67\uff9c\uff66\uff72\uff9f0%% i"
+  },
+  {
+    "offset": "0xc3578e2",
+    "text": "A 8\uff6e\u5bcc\uff8eFl\uff78\u8944KJs\uff79/\"\uff9d\uff65"
+  },
+  {
+    "offset": "0xc443848",
+    "text": "a \uff65W\uff99\uff74M1#L"
+  },
+  {
+    "offset": "0xc47615c",
+    "text": "\u8a17\u30cec'g\u251d\uff68@A\uff6fJ i"
+  },
+  {
+    "offset": "0xc5bba91",
+    "text": "a 9BQ$,F\uff70\uff9c~{\uff68A"
+  },
+  {
+    "offset": "0xc5f8fdc",
+    "text": "A N)\uff96,\uff89|hQ\uff6d|#}\uff85A5!"
+  },
+  {
+    "offset": "0xc61530e",
+    "text": "\uff93\uff84L2\uff62\uff63k1 a"
+  },
+  {
+    "offset": "0xc64de66",
+    "text": "A }\u82d4\uff9b\uff65\uff65\uff65\u8358::x}N\u0418"
+  },
+  {
+    "offset": "0xc669430",
+    "text": "A 1!03I4T!"
+  },
+  {
+    "offset": "0xc67e890",
+    "text": "G{IZHWSC+ I"
+  },
+  {
+    "offset": "0xc67f9d8",
+    "text": "lc[\"D4+222[[HWSC+ I"
+  },
+  {
+    "offset": "0xc680b61",
+    "text": "\uff75\uff9d}HWSC+ I"
+  },
+  {
+    "offset": "0xc72e410",
+    "text": "a *\u684d\uff6c|\uff7f\uff9b\uff7f|\uff70\uff8f\uff6c\uff9b\uff7d|\uff91\uff91\uff6d\uff8a\u895e\u97c8\u73e5"
+  },
+  {
+    "offset": "0xc74b832",
+    "text": "A lz1w\u7d99($"
+  },
+  {
+    "offset": "0xc750a15",
+    "text": "9eXP\uff72\uff72ss4::(]#(###B##:(u:#<*^Y@\uff75\uff7e\uff7e\uff83\uff83\uff95\uff95\uff95\uff6at\u5700D\u98a8\uff69L\\@Lw\u5bf3\u51c6gX a \uff9a"
+  },
+  {
+    "offset": "0xc750e1a",
+    "text": "A #=DB0;dqt\uff65T\uff69\uff65\uff65\uff65\uff78\uff72\uff85\uff87\uff6aK:"
+  },
+  {
+    "offset": "0xc76872a",
+    "text": "I&\uff6aR\u599br\uff75\u0424 I"
+  },
+  {
+    "offset": "0xc79214e",
+    "text": "4\u68cd}^Q1>Q\u7dd2\uff82h>dba\u643ab\u50ad;:/SF'PR+3@NG A"
+  },
+  {
+    "offset": "0xc7aa45d",
+    "text": "A AQ:7&dU_:M7A"
+  },
+  {
+    "offset": "0xc7d0ef3",
+    "text": "]Z^))i )X5I5\u50b7<IkG, A"
+  },
+  {
+    "offset": "0xc7d7adf",
+    "text": "Q!0HDAk a"
+  },
+  {
+    "offset": "0xc884d87",
+    "text": "i \u559e\uff6f\u887e\uff90B89bSS\uff82\uff73"
+  },
+  {
+    "offset": "0xc8a219f",
+    "text": "A \uff89lN.\uff9b\uff3c\uff72\uff98"
+  },
+  {
+    "offset": "0xc9a7f69",
+    "text": "i \uff81\uff94;XdO\u7c271G\uff69Q\uff61:"
+  },
+  {
+    "offset": "0xca17f22",
+    "text": "i EQ\uff65'&rGN\uff8dD"
+  },
+  {
+    "offset": "0xcca8dac",
+    "text": "A \uff62\uff89EA@!J"
+  },
+  {
+    "offset": "0xcd2786b",
+    "text": "I\uff90R\uff8c\\\uff3c\uff90 A"
+  },
+  {
+    "offset": "0xcd7c2c2",
+    "text": "APO\uff91\u6b4e\uff96\u8587AZ\u9bb4W\uff6ft\u9e7d,}\u8d8ac\uff6f a"
+  },
+  {
+    "offset": "0xce25869",
+    "text": "i P(\uff6d\u5c0e0sF\uff91"
+  },
+  {
+    "offset": "0xce5b950",
+    "text": "w0w u0u a"
+  },
+  {
+    "offset": "0xcf251c6",
+    "text": "a R\uff79\u5b73kNNFTe\uff52\uff65\u6d63\uff6fF\u6dfa\uff80\uff6f\uff79\uff65\uff79\uff6f\uff6f\uff6f\uff65\uff6fr\"\"))--)-5---7===========KKX\u0397\uff7d\uff87\uff9c\u8d16\u8d16\uff9d\uff90\uff8d\uff8d\uff8d\uff9d\uff9d\uff9d\uff9d\uff97\uff90\uff90\uff97\uff90\uff8d\uff87\uff87\uff80\uff79\uff87\uff87\uff8d\uff88\uff97\uff87\uff97\uff88\uff8d\uff97\uff9d\u842c\uff97\uff8d\uff9d-)\"7-"
+  },
+  {
+    "offset": "0xcf3e822",
+    "text": "a ))) ))7"
+  },
+  {
+    "offset": "0xcf71ff7",
+    "text": "R\uff72ms\uff7f\uff71\uff6e\uff85'\u89b2) iS"
+  },
+  {
+    "offset": "0xcff4edb",
+    "text": "\uff92q\u677e%\uff75,}\uff69\uff6d\u5e63N>\uff89\uff64 I"
+  },
+  {
+    "offset": "0xd082f5b",
+    "text": "R\uff96\uff7a\u55daY']& A"
+  },
+  {
+    "offset": "0xd083150",
+    "text": "\uff9b\uff69ZfNFP9@ %%A%>== A"
+  },
+  {
+    "offset": "0xd0e3346",
+    "text": "A TVT8\u95d4\uff97V"
+  },
+  {
+    "offset": "0xd19cea1",
+    "text": "\u555c\uff61 \uff63K<$ i"
+  },
+  {
+    "offset": "0xd1f9386",
+    "text": "F** I 7777"
+  },
+  {
+    "offset": "0xd268ece",
+    "text": "\u8482\uff6b\uff77\uff91\uff9c\uff8fR]N@ bUT \uff87\uff89\uff7f\uff87\u5a18\u97f5\uff76\uff77\u8413\uff84\uff96\uff96\uff96\uff84\uff96\uff84\uff96\uff96\uff96\uff9a\uff9a\uff9a\uff85\uff9a\uff9a\uff9a\uff96\uff96\uff96\uff96\uff96\uff96\uff96\uff96\uff96\uff95\uff95\uff96\uff96\uff96\uff9a\uff9b\uff8d\u970f\uff9e\uff9f\u7c90\u7c90\uff7e\uff7e\uff8e\u84d0"
+  },
+  {
+    "offset": "0xd32bff4",
+    "text": "\u6191\uff8cN\uff7b3m\uff7e$ A"
+  },
+  {
+    "offset": "0xd37b64e",
+    "text": "\u91cb\u906f}\uff7c\uff8b}R6). I"
+  },
+  {
+    "offset": "0xd53005f",
+    "text": "\u6b63gL\u4f30\u6556o\uff92\uff9aI A"
+  },
+  {
+    "offset": "0xd58abef",
+    "text": "A /kbY2\uff712s"
+  },
+  {
+    "offset": "0xd597ef7",
+    "text": "\uff92\uff4f8%\u70b8}\uff69\uff6d\u5e63N>\uff89\uff64 I"
+  },
+  {
+    "offset": "0xd5ff4e8",
+    "text": "a ;\uff9f\uff87yvOW\uff66J\uff780e=\u9419"
+  },
+  {
+    "offset": "0xd611af3",
+    "text": "I \uff84\uff8f\uff8fd\u7b8d\uff71\u65c3\uff76 \u5faa\uff88F"
+  },
+  {
+    "offset": "0xd8e53a2",
+    "text": "a L\uff65Q\u547cz\u53ebVK"
+  },
+  {
+    "offset": "0xd8e9c80",
+    "text": "At \uff6fh3-.i\u8630'4ex"
+  },
+  {
+    "offset": "0xd96c206",
+    "text": "U\uff9d\uff6eudP\u6de1\uff72\uff99\u7f70 a"
+  },
+  {
+    "offset": "0xd9c24aa",
+    "text": "#\u5eb6!a\u6230Z\u5ba4\uff78+# A"
+  },
+  {
+    "offset": "0xd9dd04e",
+    "text": "A \uff8f)(T\uff86\u7a3f\uff7f\uff95)T\uff9b\uff8b\uff80"
+  },
+  {
+    "offset": "0xda159c0",
+    "text": "  \"  ,WRRRRRWjWRO\"C  (O . A A . . "
+  },
+  {
+    "offset": "0xda6c3c2",
+    "text": "Or TR\u5317X&?]=L"
+  },
+  {
+    "offset": "0xdb8ac76",
+    "text": "a \u65d2('\uff8aQ\u66feT\uff9e\uff9d\uff6a\u7334i\uff94P}\u86cd\""
+  },
+  {
+    "offset": "0xdcd2346",
+    "text": "@NZNI$, I "
+  },
+  {
+    "offset": "0xdd27176",
+    "text": "#\u30f5%:Wv\uff65\u2202;4{h=\uff88\uff7eq i"
+  },
+  {
+    "offset": "0xdfed5cd",
+    "text": "t]\uff6bD\uff87X2\uff81y I"
+  },
+  {
+    "offset": "0xe1be337",
+    "text": ",94A9,# A "
+  },
+  {
+    "offset": "0xe325d5b",
+    "text": " I jy2/GQ\u251c<z\u60e7\u75c7\uff62\uff7dQn"
+  },
+  {
+    "offset": "0xe4dd3b4",
+    "text": "5\uff7d\uff80J\uff93\uff84\u5cf6\u67d17i\uff7d\uff89 A"
+  },
+  {
+    "offset": "0xe510e06",
+    "text": "Xg0\uff7a\uff6c\u7344\uff86\uff78\u58f1VCS#p\uff8fpj, a"
+  },
+  {
+    "offset": "0xe572bbb",
+    "text": "^i\uff76D}\u00b0< I .\uff80\"L"
+  },
+  {
+    "offset": "0xe6284ba",
+    "text": "I \uff64\u6ca1r\uff65S\u597d\uff8f\uff80\uff61"
+  },
+  {
+    "offset": "0xe6a524b",
+    "text": "\uff7d*m1\u6f80K\uff62 a"
+  },
+  {
+    "offset": "0xe7e801b",
+    "text": "NA##/(^) A"
+  },
+  {
+    "offset": "0xe8b7b9d",
+    "text": "i \uff92GC.I\uff65\uff9dm\u9739Q\uff6c"
+  },
+  {
+    "offset": "0xe8d63d0",
+    "text": "&AZrA\uff71{  A &"
+  },
+  {
+    "offset": "0xe8d7862",
+    "text": "{\u98fddrrZ&  A"
+  },
+  {
+    "offset": "0xe8daac3",
+    "text": "A At\uff73ZA&  & "
+  },
+  {
+    "offset": "0xe8f7197",
+    "text": "1MX911DcD A"
+  },
+  {
+    "offset": "0xe8fdcb0",
+    "text": "\u6096u@3\uff67<]\uff91$n I"
+  },
+  {
+    "offset": "0xe9955a2",
+    "text": "A bp\uff6cb\uff96\uff6d\uff89\uff65"
+  },
+  {
+    "offset": "0xe99de7d",
+    "text": "+//J\uff80{>Y{{\\@\u6295CH\u708ea6'Y@L an +\u9396{@+"
+  },
+  {
+    "offset": "0xe9dd188",
+    "text": "6'Y@L an +\u9396{@+"
+  },
+  {
+    "offset": "0xea1993b",
+    "text": "A f,I\uff81-a/"
+  },
+  {
+    "offset": "0xeba1997",
+    "text": "|nm`:) I  I*"
+  },
+  {
+    "offset": "0xebcec3a",
+    "text": "NG\uff70'\uff68!\u63f6fH\u8f38p\u300e@ It"
+  },
+  {
+    "offset": "0xebdf4b3",
+    "text": "I 2o=H/H\\qc\u6182"
+  },
+  {
+    "offset": "0xebe9b64",
+    "text": "\uff6d\uff61\u8b58\uff6f\u5b57\uff96\uff86\u55fda\uff6f\uff91\u8373\uff99\u734f\uff88\uff71\uff71\uff78\u6919\uff6f\uff88\uff88\uff98\uff8c\uff7a\uff97\uff7b\uff7b\uff8c\uff97\u63c9\uff73\uff7c\uff8c\uff97\uff6c\uff84\uff7f\uff8d\uff6a@\u540d\uff8c\uff74\uff66j\u03c0\uff8c\uff7403EnYc\uff8e\uff9e\uff8e\uff85m\u7248\uff8e\uff92\uff8e\uff81\uff97\u80ad\uff9b\uff9b\uff87\uff6e\uff8c\uff75\uff7c\uff87\uff9b\uff74\u805ag\uff97vGUh^\uff6e\uff90\uff90\uff76\uff9d\uff9d\uff8b\uff8b\uff90\u97a8\u5e7cP3 a"
+  },
+  {
+    "offset": "0xec46f57",
+    "text": "I -\u84c4N$I\uff73\uff81\uff89"
+  },
+  {
+    "offset": "0xeca24d1",
+    "text": "a M<m\uff6e\uff9fd\uff9b\u6c55*zkq\uff79xq2 G"
+  },
+  {
+    "offset": "0xecefd01",
+    "text": ".e7F\uff61\uff6e],v i"
+  },
+  {
+    "offset": "0xeff26a4",
+    "text": "\uff9bi\uff866+J\uff64v\u8e2aW\uff66\uff83f i"
+  },
+  {
+    "offset": "0xf0524e3",
+    "text": "\uff6e\uff81\u5b75\uff9bi\uff866+J\uff64v\u8e2aW\uff66\uff83f i"
+  },
+  {
+    "offset": "0xf1880d5",
+    "text": "A ' <\uff63\uff63\uff82\uff82\u8449yI%"
+  },
+  {
+    "offset": "0xf1ba248",
+    "text": "A  %  5 &,"
+  },
+  {
+    "offset": "0xf315857",
+    "text": "A }}99}\u7e4b_IIMMVMTMVMVGVTT)6P\uff69g`O`cZ\uff73\uff83\u5bc9mzz\u8102\u6b63\uff95\uff83\uff79\uff83\uff8e\uff95\uff83\uff8e\u8dcf\u8dcb\u8d6d\uff8e\uff9e\uff8e\uff73\uff63\uff66\u6df1\u5ef6mc!"
+  },
+  {
+    "offset": "0xf34122d",
+    "text": "\u88f9\u8842\uff77\uff77\uff6c\u4f57\uff94\uff94\uff77 I"
+  },
+  {
+    "offset": "0xf39017a",
+    "text": "\u6904\uff7f\uff84\uff76k\u8ce0>'\u62d7N A"
+  },
+  {
+    "offset": "0xf3f3374",
+    "text": "I /Nv\uff8d\uff8d\u5b95\u59ffUb"
+  },
+  {
+    "offset": "0xf46ae99",
+    "text": "Ti0\u60e7\u60f6\uff84\uff73\u60e7\uff73  i"
+  },
+  {
+    "offset": "0xf5dca29",
+    "text": "A !\u82f4\uff77\uff9e\uff61d\u83a0Mb\uff9aF."
+  },
+  {
+    "offset": "0xf658aa5",
+    "text": "i \u506c\uff7f\uff92\uff84H}:H\uff99"
+  },
+  {
+    "offset": "0xf7927eb",
+    "text": "A .8$A8A$"
+  },
+  {
+    "offset": "0xfb233c8",
+    "text": "\u75ff\uff796#n~\uff8a\uff6d\uff83\uff781\uff85\uff92\uff66\uff7e\uff6f|; i"
+  },
+  {
+    "offset": "0xfd235f8",
+    "text": "\u789ann]lV\uff7d a"
+  },
+  {
+    "offset": "0xfd64e64",
+    "text": "A W\u9790\u7aaf;\u300e\u79a7\uff88\uff73\u6936\"_\uff73\uff9a\u9b6f\uff9be\uff9bIcISL \u74ca\uff77\u7bdd="
+  },
+  {
+    "offset": "0xfd8bef6",
+    "text": "\uff826\u87fe\uff7fe'\u7d0dxj[\uff74` I"
+  },
+  {
+    "offset": "0xfee1012",
+    "text": "m4X$\u9d7a#\u4eba\uff8e) hE"
+  },
+  {
+    "offset": "0x69c13",
+    "text": " # 5 I ` p "
+  },
+  {
+    "offset": "0x25ee0c",
+    "text": "still have e"
+  },
+  {
+    "offset": "0x25fb9a",
+    "text": "gQuill and Papyrus"
+  },
+  {
+    "offset": "0x25fbeb",
+    "text": "gTea For Three"
+  },
+  {
+    "offset": "0x2606b9",
+    "text": "The Dead Sea -"
+  },
+  {
+    "offset": "0x2606ea",
+    "text": "A Portal Reopened -"
+  },
+  {
+    "offset": "0x260721",
+    "text": "Back to Viper Manor -"
+  },
+  {
+    "offset": "0x26078b",
+    "text": "To the Sea of Eden -"
+  },
+  {
+    "offset": "0x2607c6",
+    "text": "The Arbiter of Time -"
+  },
+  {
+    "offset": "0x2607ff",
+    "text": "Terra Tower -"
+  },
+  {
+    "offset": "0x26082c",
+    "text": "Chrono Cross -"
+  },
+  {
+    "offset": "0x26085f",
+    "text": "For all the Dreamers -"
+  },
+  {
+    "offset": "0x276cc1",
+    "text": " ! # % ; = ? N P R a c e t v x "
+  },
+  {
+    "offset": "0x28d312",
+    "text": "a ?a??XX) )"
+  },
+  {
+    "offset": "0x30a14f",
+    "text": "i @TTT5CPPooYC@.%%%+5e"
+  },
+  {
+    "offset": "0x3456a1",
+    "text": "vpp``\\`\\`\\ A"
+  },
+  {
+    "offset": "0x387253",
+    "text": "I ,,\"7==CR`"
+  },
+  {
+    "offset": "0x38bbbd",
+    "text": "GTk`\\\\\\`C I"
+  },
+  {
+    "offset": "0x5f2161",
+    "text": "A llRGGLG=333FGRRad"
+  },
+  {
+    "offset": "0x8361bb",
+    "text": "a   8% %8LcxnL88;"
+  },
+  {
+    "offset": "0xb07299",
+    "text": "lWKB99]Y22Q{fOQYQf2LLY2 did"
+  },
+  {
+    "offset": "0xf508bb",
+    "text": "}tkaaaaaaZ]RC^WWWWWWWQWWWWH=)  i"
+  },
+  {
+    "offset": "0x10879fc",
+    "text": "pXpXgp@  I"
+  },
+  {
+    "offset": "0x10e6963",
+    "text": " A \" A) )--%% ))))%+89>8>D>EDDERREORRhhphRRRRh"
+  },
+  {
+    "offset": "0x14a9a1d",
+    "text": "A &&&&&&&$$+"
+  },
+  {
+    "offset": "0x15123bf",
+    "text": "a GG[V\\l\\vSSJJL"
+  },
+  {
+    "offset": "0x1656c1e",
+    "text": "I   %,55,,%,&&%&&%&&&&&&&"
+  },
+  {
+    "offset": "0x16e1ad9",
+    "text": "S'0700.' i"
+  },
+  {
+    "offset": "0x17f234f",
+    "text": "9OOAOEA./9 A"
+  },
+  {
+    "offset": "0x19b580d",
+    "text": "!@@@@@SSSS@00@@ a"
+  },
+  {
+    "offset": "0x1a73d26",
+    "text": "A  )1laauu"
+  },
+  {
+    "offset": "0x1ba40ee",
+    "text": "Kfa.?qy IS"
+  },
+  {
+    "offset": "0x1be07ce",
+    "text": "A $$$ $ $W"
+  },
+  {
+    "offset": "0x1faab83",
+    "text": "a %R)B)/QB"
+  }
+]

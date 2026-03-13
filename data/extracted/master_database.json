@@ -1,0 +1,30 @@
+{
+  "games": {
+    "Chrono Trigger": {
+      "items": 111,
+      "weapons": 37,
+      "armor": 24,
+      "enemies": 218,
+      "locations": 78,
+      "techs": 69,
+      "dialog": 251,
+      "credits": 8467
+    },
+    "Chrono Cross": {
+      "items": 136,
+      "weapons": 116,
+      "armor": 0,
+      "enemies": 386,
+      "locations": 2014,
+      "techs": 402,
+      "dialog": 384,
+      "tim_images": 4637
+    },
+    "Radical Dreamers": {
+      "items": 751,
+      "enemies": 589,
+      "locations": 1038,
+      "dialog": 2523
+    }
+  }
+}

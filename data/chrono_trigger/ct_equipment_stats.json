@@ -1,0 +1,302 @@
+[
+  {
+    "item_id": 3,
+    "attack": 1,
+    "defense": 2,
+    "sample": "030000000100020021000000"
+  },
+  {
+    "item_id": 17,
+    "attack": 15,
+    "defense": 16,
+    "sample": "110000000f00100031000000"
+  },
+  {
+    "item_id": 36,
+    "attack": 34,
+    "defense": 35,
+    "sample": "240000002200230014000000"
+  },
+  {
+    "item_id": 52,
+    "attack": 50,
+    "defense": 51,
+    "sample": "340000003200330004e0f4e0"
+  },
+  {
+    "item_id": 42,
+    "attack": 16387,
+    "defense": 2,
+    "sample": "2a0000000340020017400000"
+  },
+  {
+    "item_id": 10,
+    "attack": 8,
+    "defense": 9,
+    "sample": "0a00000008000900f0420000"
+  },
+  {
+    "item_id": 3,
+    "attack": 16427,
+    "defense": 2,
+    "sample": "030000002b4002001a400000"
+  },
+  {
+    "item_id": 13,
+    "attack": 11,
+    "defense": 12,
+    "sample": "0d0000000b000c0000430000"
+  },
+  {
+    "item_id": 25,
+    "attack": 23,
+    "defense": 24,
+    "sample": "190000001700180008400000"
+  },
+  {
+    "item_id": 71,
+    "attack": 752,
+    "defense": 58,
+    "sample": "47000000f0023a0004e1f4e1"
+  },
+  {
+    "item_id": 3,
+    "attack": 16427,
+    "defense": 2,
+    "sample": "030000402b40020039000000"
+  },
+  {
+    "item_id": 28,
+    "attack": 26,
+    "defense": 27,
+    "sample": "1c0000001a001b000b400000"
+  },
+  {
+    "item_id": 44,
+    "attack": 768,
+    "defense": 60,
+    "sample": "2c00000000033c0004e0f4e0"
+  },
+  {
+    "item_id": 29,
+    "attack": 0,
+    "defense": 14,
+    "sample": "1d00000000000e004e400000"
+  },
+  {
+    "item_id": 64,
+    "attack": 0,
+    "defense": 63,
+    "sample": "4000000000003f005e400000"
+  },
+  {
+    "item_id": 61,
+    "attack": 0,
+    "defense": 6,
+    "sample": "3d0000000000060052404a00"
+  },
+  {
+    "item_id": 68,
+    "attack": 0,
+    "defense": 67,
+    "sample": "440000000000430062405a00"
+  },
+  {
+    "item_id": 46,
+    "attack": 0,
+    "defense": 14,
+    "sample": "2e00000000000e0056400000"
+  },
+  {
+    "item_id": 64,
+    "attack": 0,
+    "defense": 63,
+    "sample": "4000000000003f0066400000"
+  },
+  {
+    "item_id": 81,
+    "attack": 0,
+    "defense": 80,
+    "sample": "510000000000500041400000"
+  },
+  {
+    "item_id": 97,
+    "attack": 0,
+    "defense": 96,
+    "sample": "6100000000006000ffe0efe0"
+  },
+  {
+    "item_id": 84,
+    "attack": 0,
+    "defense": 16490,
+    "sample": "5400550000006a4042404140"
+  },
+  {
+    "item_id": 100,
+    "attack": 0,
+    "defense": 16384,
+    "sample": "6400650000000040f7e0e7e3"
+  },
+  {
+    "item_id": 89,
+    "attack": 0,
+    "defense": 88,
+    "sample": "590000000000580048400000"
+  },
+  {
+    "item_id": 5,
+    "attack": 16389,
+    "defense": 4,
+    "sample": "05000000054004005b400000"
+  },
+  {
+    "item_id": 77,
+    "attack": 75,
+    "defense": 76,
+    "sample": "4d0000004b004c006b400000"
+  },
+  {
+    "item_id": 5,
+    "attack": 16389,
+    "defense": 4,
+    "sample": "050000000540040081400000"
+  },
+  {
+    "item_id": 93,
+    "attack": 91,
+    "defense": 92,
+    "sample": "5d0000005b005c0076000000"
+  },
+  {
+    "item_id": 5,
+    "attack": 16389,
+    "defense": 4,
+    "sample": "050000000540040080000000"
+  },
+  {
+    "item_id": 36,
+    "attack": 306,
+    "defense": 307,
+    "sample": "240000003201330176010000"
+  },
+  {
+    "item_id": 17,
+    "attack": 15,
+    "defense": 387,
+    "sample": "110000000f00830131000000"
+  },
+  {
+    "item_id": 36,
+    "attack": 34,
+    "defense": 35,
+    "sample": "240000002200230094010000"
+  },
+  {
+    "item_id": 52,
+    "attack": 50,
+    "defense": 51,
+    "sample": "340000003200330004e0f4e0"
+  },
+  {
+    "item_id": 17,
+    "attack": 15,
+    "defense": 402,
+    "sample": "110000000f00920131000000"
+  },
+  {
+    "item_id": 33,
+    "attack": 31,
+    "defense": 32,
+    "sample": "210000001f00200011000000"
+  },
+  {
+    "item_id": 49,
+    "attack": 47,
+    "defense": 48,
+    "sample": "310000002f00300004e0f4e0"
+  },
+  {
+    "item_id": 22,
+    "attack": 0,
+    "defense": 348,
+    "sample": "1600000000005c0135400000"
+  },
+  {
+    "item_id": 38,
+    "attack": 0,
+    "defense": 37,
+    "sample": "26000000000025005a410000"
+  },
+  {
+    "item_id": 54,
+    "attack": 0,
+    "defense": 53,
+    "sample": "3600000000003500ffe0efe0"
+  },
+  {
+    "item_id": 36,
+    "attack": 34,
+    "defense": 35,
+    "sample": "240000002200230076010000"
+  },
+  {
+    "item_id": 52,
+    "attack": 50,
+    "defense": 51,
+    "sample": "340000003200330004e0f4e0"
+  },
+  {
+    "item_id": 5,
+    "attack": 426,
+    "defense": 427,
+    "sample": "05000000aa01ab0181400000"
+  },
+  {
+    "item_id": 93,
+    "attack": 91,
+    "defense": 92,
+    "sample": "5d0000005b005c008f410000"
+  },
+  {
+    "item_id": 33,
+    "attack": 31,
+    "defense": 32,
+    "sample": "210000001f00200011000000"
+  },
+  {
+    "item_id": 49,
+    "attack": 47,
+    "defense": 48,
+    "sample": "310000002f00300004e0f4e0"
+  },
+  {
+    "item_id": 7,
+    "attack": 0,
+    "defense": 216,
+    "sample": "070000000000d80025400000"
+  },
+  {
+    "item_id": 22,
+    "attack": 0,
+    "defense": 21,
+    "sample": "160000000000150035400000"
+  },
+  {
+    "item_id": 38,
+    "attack": 0,
+    "defense": 37,
+    "sample": "260000000000250015400000"
+  },
+  {
+    "item_id": 54,
+    "attack": 0,
+    "defense": 53,
+    "sample": "3600000000003500ffe0efe0"
+  },
+  {
+    "item_id": 5,
+    "attack": 736,
+    "defense": 4,
+    "sample": "05000000e002040017020000"
+  }
+]

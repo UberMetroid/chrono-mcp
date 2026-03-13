@@ -1,0 +1,446 @@
+[
+  {
+    "offset": "0x2a3ba",
+    "text": "  Weapon    Helmet    Armor   Accessory"
+  },
+  {
+    "offset": "0x6f0c4",
+    "text": "t Cape"
+  },
+  {
+    "offset": "0x6f0f0",
+    "text": "d Woods"
+  },
+  {
+    "offset": "0x6f26a",
+    "text": " Cape"
+  },
+  {
+    "offset": "0xc0b6a",
+    "text": "Wood Sword"
+  },
+  {
+    "offset": "0xc0b75",
+    "text": "Iron Blade"
+  },
+  {
+    "offset": "0xc0c25",
+    "text": "Iron Bow  "
+  },
+  {
+    "offset": "0xc0d7a",
+    "text": "Stone Arm "
+  },
+  {
+    "offset": "0xc0df3",
+    "text": "Iron Sword"
+  },
+  {
+    "offset": "0xc0e6c",
+    "text": "Iron Fist "
+  },
+  {
+    "offset": "0xc0f74",
+    "text": "Iron Suit "
+  },
+  {
+    "offset": "0xc0f8a",
+    "text": "Gold Suit "
+  },
+  {
+    "offset": "0xc0fed",
+    "text": "ZodiacCape"
+  },
+  {
+    "offset": "0xc102f",
+    "text": "Gloom Cape"
+  },
+  {
+    "offset": "0xc10b3",
+    "text": "Hide Cap  "
+  },
+  {
+    "offset": "0xc10be",
+    "text": "BronzeHelm"
+  },
+  {
+    "offset": "0xc10c9",
+    "text": "Iron Helm "
+  },
+  {
+    "offset": "0xc10df",
+    "text": "Gold Helm "
+  },
+  {
+    "offset": "0xc10ea",
+    "text": "Rock Helm "
+  },
+  {
+    "offset": "0xc1100",
+    "text": "Glow Helm "
+  },
+  {
+    "offset": "0xc110b",
+    "text": "Lode Helm "
+  },
+  {
+    "offset": "0xc1116",
+    "text": "Aeon Helm "
+  },
+  {
+    "offset": "0xc1121",
+    "text": "Prism Helm"
+  },
+  {
+    "offset": "0xc112c",
+    "text": "Doom Helm "
+  },
+  {
+    "offset": "0xc1137",
+    "text": "Dark Helm "
+  },
+  {
+    "offset": "0xc1142",
+    "text": "Gloom Helm"
+  },
+  {
+    "offset": "0xc114d",
+    "text": "Safe Helm "
+  },
+  {
+    "offset": "0xc1158",
+    "text": "Taban Helm"
+  },
+  {
+    "offset": "0xc1163",
+    "text": "Sight Cap "
+  },
+  {
+    "offset": "0xc116e",
+    "text": "Memory Cap"
+  },
+  {
+    "offset": "0xc119a",
+    "text": "Haste Helm"
+  },
+  {
+    "offset": "0xc11a7",
+    "text": "bow Helm"
+  },
+  {
+    "offset": "0xc11b0",
+    "text": "MermaidCap           "
+  },
+  {
+    "offset": "0xc11dc",
+    "text": "PowerGlove"
+  },
+  {
+    "offset": "0xc11f2",
+    "text": "MagicScarf"
+  },
+  {
+    "offset": "0xc1208",
+    "text": "Dash Ring "
+  },
+  {
+    "offset": "0xc1213",
+    "text": "Hit Ring  "
+  },
+  {
+    "offset": "0xc121e",
+    "text": "Power Ring"
+  },
+  {
+    "offset": "0xc1229",
+    "text": "Magic Ring"
+  },
+  {
+    "offset": "0xc1234",
+    "text": "Wall Ring "
+  },
+  {
+    "offset": "0xc123f",
+    "text": "SilverErng"
+  },
+  {
+    "offset": "0xc124a",
+    "text": "Gold Erng "
+  },
+  {
+    "offset": "0xc1255",
+    "text": "SilverStud"
+  },
+  {
+    "offset": "0xc1260",
+    "text": "Gold Stud "
+  },
+  {
+    "offset": "0xc1276",
+    "text": "Charm Top "
+  },
+  {
+    "offset": "0xc12c3",
+    "text": "PowerScarf"
+  },
+  {
+    "offset": "0xc12ce",
+    "text": "Speed Belt"
+  },
+  {
+    "offset": "0xc12ef",
+    "text": "SilverRock"
+  },
+  {
+    "offset": "0xc1305",
+    "text": "Gold Rock "
+  },
+  {
+    "offset": "0xc131b",
+    "text": "MuscleRing"
+  },
+  {
+    "offset": "0xc1368",
+    "text": "PrismSpecs            Tonic      Mid Tonic  Full Tonic Ether      Mid Ether  Full Ether Elixir     HyperEther MegaElixir Heal       Revive     Shelter    Power Meal Lapis      Barrier    Shield     Power Tab  Magic Tab  Speed Tab  Petal      Fang       Horn       Feather    Seed       Bike Key   Pendant    Gate Key   PrismShard C"
+  },
+  {
+    "offset": "0xc14b4",
+    "text": " Trigger Tools      Jerky      Dreamstone Race Log   Moon Stone Sun Stone  Ruby Knife Yakra Key  Clone      Toma"
+  },
+  {
+    "offset": "0xc1525",
+    "text": "s Pop 2 Petals   2 Fangs    2 Horns    2 Feathers                                                                                                                         Cyclone    Slash      "
+  },
+  {
+    "offset": "0xc1746",
+    "text": "Water     "
+  },
+  {
+    "offset": "0xc1767",
+    "text": "Water 2   "
+  },
+  {
+    "offset": "0xc1772",
+    "text": "Cure 2    Frog SquashKiss       Rollo Kick Cat Attack Rock Throw Charm      Tail Spin  Dino Tail  Triple Kick"
+  },
+  {
+    "offset": "0xc182d",
+    "text": "DarkMatterAura Whirl Ice Sword  Ice Sword 2Fire Whirl Fire Sword FireSword 2Rocket RollMax CycloneSuper Volt X Strike   SwordStreamSpire      Drill Kick Volt Bite  Falcon Hit Antipode   Antipode 2 Antipode 3 Aura Beam  Ice Tackle Cure Touch Ice Water  Glacier    Double CureTwin Charm Ice Toss   Cube Toss  Fire Punch Fire TackleDoublevBombFlame Kick Fire Whirl Blaze Kick Blade Toss Bubble SnapCure Wave  Boogie     Spin Kick  Beast Toss Slurp Kiss Bubble Hit Drop Kick  Red Pin    Line Bomb  Frog Flare Delta ForceLifeline   Arc ImpulseFinal Kick Fire Zone  Delta StormGatlingKickTriple RaidTwister    3D Attack  DarkEternalOmega FlareSpin StrikePoyozoDanceGrand Dream"
+  },
+  {
+    "offset": "0xc6577",
+    "text": "             Blue Imp   Green Imp  Stone Imp  Mud Imp    Roly       Poly       Rolypoly   Roly Rider            Blue EagletGold EagletRed Eaglet            Avian ChaosImp Ace    Bantam Imp Gnasher    Gnawer     Naga"
+  },
+  {
+    "offset": "0xc664f",
+    "text": "ette             Ruminator             Octopod    Octoblush  Octobino   Zeal       Fly Trap   Meat Eater Man Eater  Krakker    Egder      Defunct    Departed   Deceased   Decedent   Macabre    Reaper     Guard      Sentry     Free LancerOutlaw     Giga Mutant           TerraMutant           Juggler    Retinite   Mage                  Reptite    Blue ShieldYodu De    Incognito  PeepingDoomBoss Orb   Side Kick             Jinn BottleEvilweevil Tempurite  Diablos    Gargoyle   Grimalkin  Hench      T"
+  },
+  {
+    "offset": "0xc6b99",
+    "text": " MuneAzala      Nizbel     Nizbel II  Slash      Slash      Flea       Flea Plus  Dalton     Dalton PlusMutant     Metal Mute Super SlashOzzie      Ozzie      Great OzzieHeckran    Gigasaur   Leaper     Fossil Ape Tank Head  Frog King  Octorider  Zeal                             Zombor                                      Display    Mega Mutant           Super SlashFlea Plus  BlackTyranoRust TyranoMotherBrain           Atropos XR Cybot      Lavos      Lavos      Lavos      Lavos      Lavos      Yakra XIII Tubster    Lavos      Lavos                            Lavos      Lavos Core Bit        Byte       Giga Gaia                        Guardian   Red Scout  Blue Scout Lavos Spawn           Laser Guard                                                                  Spekkio    Spekkio    Spekkio    Spekkio    Spekkio    Spekkio    Lavos      Lavos      Lavos      Lavos      Lavos      Lavos      Lavos                 Hexapod               Flea"
+  },
+  {
+    "offset": "0x18d72d",
+    "text": " Gold Ro"
+  },
+  {
+    "offset": "0x18e20d",
+    "text": "Rawboot"
+  },
+  {
+    "offset": "0x18e546",
+    "text": " woods"
+  },
+  {
+    "offset": "0x18f93e",
+    "text": " wood b"
+  },
+  {
+    "offset": "0x18f96a",
+    "text": "wood"
+  },
+  {
+    "offset": "0x18f9ce",
+    "text": " wood"
+  },
+  {
+    "offset": "0x1ecb20",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ecbb8",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ecbdf",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ecbfc",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ed63d",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ed6f7",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ed79a",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ed7d9",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ed871",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x1ef8bd",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x370d40",
+    "text": "wood"
+  },
+  {
+    "offset": "0x37a714",
+    "text": " boot"
+  },
+  {
+    "offset": "0x37c420",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x37c448",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37c45b",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x37c4c4",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x37c555",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37c58e",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37d222",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37d22b",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x37d27a",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x37d56c",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37d604",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37d7db",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37d9f3",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37df20",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x37e10e",
+    "text": " Capta"
+  },
+  {
+    "offset": "0x38541d",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x38559e",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x3855d1",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x3855ff",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x385630",
+    "text": "KNIGHT CAPTIAN"
+  },
+  {
+    "offset": "0x385672",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x3856c8",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x38573f",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x3857ed",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x385839",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x38588b",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x3858c5",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x385918",
+    "text": "KNIGHT CAPTAIN"
+  },
+  {
+    "offset": "0x389fc0",
+    "text": " woods "
+  },
+  {
+    "offset": "0x39c4eb",
+    "text": "n woods"
+  },
+  {
+    "offset": "0x39f993",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x39fa37",
+    "text": "BELTHASAR"
+  },
+  {
+    "offset": "0x3fb4fc",
+    "text": "HELMET"
+  }
+]

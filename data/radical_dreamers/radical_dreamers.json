@@ -1,0 +1,630 @@
+{
+  "game": "Radical Dreamers",
+  "version": "Demiforce v1.4 translation",
+  "size": 2097152,
+  "header": "RADICAL DREAMERS 1.4 1\u0002\u000b\u0002\u0001\u0004&\u0006",
+  "total_strings": 73484,
+  "character_references": {
+    "Kid": 1113,
+    "Magil": 571,
+    "Serge": 165,
+    "Frozen": 83,
+    "Flame": 117,
+    "Lynx": 248,
+    "Viper": 32,
+    "Guards": 0
+  },
+  "location_references": {
+    "Viper Manor": 26,
+    "Forest": 7,
+    "Sea": 2,
+    "Cave": 0,
+    "Beach": 0,
+    "Castle": 1
+  },
+  "menu_strings": [
+    {
+      "offset": "0x15009c",
+      "text": "@2003"
+    },
+    {
+      "offset": "0x1500a8",
+      "text": "@2005"
+    },
+    {
+      "offset": "0x1500b1",
+      "text": "SQUARESOFT"
+    },
+    {
+      "offset": "0x1500c0",
+      "text": "@DEMIFORCE"
+    },
+    {
+      "offset": "0x1500cf",
+      "text": "@PRESENT"
+    },
+    {
+      "offset": "0x1500f3",
+      "text": "@It"
+    },
+    {
+      "offset": "0x1500f7",
+      "text": "@was"
+    },
+    {
+      "offset": "0x1500fc",
+      "text": "@then"
+    },
+    {
+      "offset": "0x150102",
+      "text": "@that"
+    },
+    {
+      "offset": "0x15010b",
+      "text": "@opened"
+    },
+    {
+      "offset": "0x150113",
+      "text": "@the"
+    },
+    {
+      "offset": "0x150118",
+      "text": "@notebook"
+    },
+    {
+      "offset": "0x150122",
+      "text": "@my"
+    },
+    {
+      "offset": "0x150126",
+      "text": "@mother"
+    },
+    {
+      "offset": "0x15012e",
+      "text": "@had"
+    },
+    {
+      "offset": "0x150133",
+      "text": "given"
+    },
+    {
+      "offset": "0x150139",
+      "text": "@me"
+    },
+    {
+      "offset": "0x150145",
+      "text": "@she"
+    },
+    {
+      "offset": "0x15014a",
+      "text": "@said"
+    },
+    {
+      "offset": "0x150150",
+      "text": "@she"
+    },
+    {
+      "offset": "0x150155",
+      "text": "@found"
+    },
+    {
+      "offset": "0x15015c",
+      "text": "@it"
+    },
+    {
+      "offset": "0x150160",
+      "text": "@while"
+    },
+    {
+      "offset": "0x150167",
+      "text": "@cleaning"
+    },
+    {
+      "offset": "0x150171",
+      "text": "@out"
+    },
+    {
+      "offset": "0x150176",
+      "text": "@the"
+    },
+    {
+      "offset": "0x15017b",
+      "text": "closet"
+    },
+    {
+      "offset": "0x150192",
+      "text": "@Crumbling"
+    },
+    {
+      "offset": "0x15019d",
+      "text": "@and"
+    },
+    {
+      "offset": "0x1501a2",
+      "text": "@covered"
+    },
+    {
+      "offset": "0x1501ab",
+      "text": "@with"
+    },
+    {
+      "offset": "0x1501b1",
+      "text": "@dust"
+    },
+    {
+      "offset": "0x1501bb",
+      "text": "@it"
+    },
+    {
+      "offset": "0x1501bf",
+      "text": "@turned"
+    },
+    {
+      "offset": "0x1501c7",
+      "text": "@out"
+    },
+    {
+      "offset": "0x1501cc",
+      "text": "@to"
+    },
+    {
+      "offset": "0x1501d0",
+      "text": "@be"
+    },
+    {
+      "offset": "0x1501d4",
+      "text": "@the"
+    },
+    {
+      "offset": "0x1501d9",
+      "text": "diary"
+    },
+    {
+      "offset": "0x1501df",
+      "text": "@of"
+    },
+    {
+      "offset": "0x1501e3",
+      "text": "@my"
+    },
+    {
+      "offset": "0x1501e7",
+      "text": "@long"
+    },
+    {
+      "offset": "0x1501ed",
+      "text": "Llost"
+    },
+    {
+      "offset": "0x1501f3",
+      "text": "@grandfather"
+    },
+    {
+      "offset": "0x150222",
+      "text": "@you"
+    },
+    {
+      "offset": "0x150227",
+      "text": "@still"
+    },
+    {
+      "offset": "0x15022e",
+      "text": "@remember"
+    },
+    {
+      "offset": "0x150242",
+      "text": "@How"
+    },
+    {
+      "offset": "0x150247",
+      "text": "@we"
+    },
+    {
+      "offset": "0x15024b",
+      "text": "@first"
+    },
+    {
+      "offset": "0x150252",
+      "text": "@met"
+    },
+    {
+      "offset": "0x15025b",
+      "text": "@and"
+    },
+    {
+      "offset": "0x150260",
+      "text": "@all"
+    },
+    {
+      "offset": "0x150265",
+      "text": "@of"
+    },
+    {
+      "offset": "0x150269",
+      "text": "@our"
+    },
+    {
+      "offset": "0x15026e",
+      "text": "@adventures"
+    },
+    {
+      "offset": "0x15027a",
+      "text": "@since"
+    },
+    {
+      "offset": "0x15028a",
+      "text": "@It"
+    },
+    {
+      "offset": "0x15028e",
+      "text": "@all"
+    },
+    {
+      "offset": "0x150293",
+      "text": "@seems"
+    },
+    {
+      "offset": "0x15029a",
+      "text": "@like"
+    },
+    {
+      "offset": "0x1502a0",
+      "text": "@such"
+    },
+    {
+      "offset": "0x1502a9",
+      "text": "@dream"
+    },
+    {
+      "offset": "0x1502b0",
+      "text": "@nowadays"
+    },
+    {
+      "offset": "0x1502c2",
+      "text": "@You"
+    },
+    {
+      "offset": "0x1502c7",
+      "text": "@were"
+    },
+    {
+      "offset": "0x1502cf",
+      "text": "@piece"
+    },
+    {
+      "offset": "0x1502d6",
+      "text": "@of"
+    },
+    {
+      "offset": "0x1502dd",
+      "text": "@star"
+    },
+    {
+      "offset": "0x1502e3",
+      "text": "@that"
+    },
+    {
+      "offset": "0x1502e9",
+      "text": "@fell"
+    },
+    {
+      "offset": "0x1502ef",
+      "text": "@from"
+    },
+    {
+      "offset": "0x1502f5",
+      "text": "@the"
+    },
+    {
+      "offset": "0x1502fa",
+      "text": "@sky"
+    },
+    {
+      "offset": "0x15030d",
+      "text": "@Whenever"
+    },
+    {
+      "offset": "0x15031a",
+      "text": "@want"
+    },
+    {
+      "offset": "0x150320",
+      "text": "@to"
+    },
+    {
+      "offset": "0x150324",
+      "text": "@return"
+    },
+    {
+      "offset": "0x15032c",
+      "text": "@to"
+    },
+    {
+      "offset": "0x150330",
+      "text": "@those"
+    },
+    {
+      "offset": "0x150337",
+      "text": "@days"
+    },
+    {
+      "offset": "0x15033d",
+      "text": "@long"
+    },
+    {
+      "offset": "0x150343",
+      "text": "@gone"
+    },
+    {
+      "offset": "0x15034f",
+      "text": "@close"
+    },
+    {
+      "offset": "0x150356",
+      "text": "@my"
+    },
+    {
+      "offset": "0x15035a",
+      "text": "@eyes"
+    },
+    {
+      "offset": "0x150360",
+      "text": "@and"
+    },
+    {
+      "offset": "0x150365",
+      "text": "@whisper"
+    },
+    {
+      "offset": "0x15036e",
+      "text": "@your"
+    },
+    {
+      "offset": "0x150374",
+      "text": "@name"
+    },
+    {
+      "offset": "0x15037a",
+      "text": "@into"
+    },
+    {
+      "offset": "0x150380",
+      "text": "@the"
+    },
+    {
+      "offset": "0x150385",
+      "text": "@evening"
+    },
+    {
+      "offset": "0x15038e",
+      "text": "sky"
+    },
+    {
+      "offset": "0x1503a2",
+      "text": "@Kid"
+    },
+    {
+      "offset": "0x1503c0",
+      "text": "@Kid"
+    },
+    {
+      "offset": "0x1503d2",
+      "text": "-\"l"
+    },
+    {
+      "offset": "0x150406",
+      "text": "MKid"
+    },
+    {
+      "offset": "0x150421",
+      "text": "MHey"
+    },
+    {
+      "offset": "0x15042a",
+      "text": "@Kid"
+    }
+  ],
+  "dialog_sample": [
+    {
+      "offset": "0x1c0000",
+      "text": "ere"
+    },
+    {
+      "offset": "0x1c0007",
+      "text": "@little"
+    },
+    {
+      "offset": "0x1c000f",
+      "text": "@we"
+    },
+    {
+      "offset": "0x1c0013",
+      "text": "@can"
+    },
+    {
+      "offset": "0x1c0018",
+      "text": "@do"
+    },
+    {
+      "offset": "0x1c0020",
+      "text": "@We"
+    },
+    {
+      "offset": "0x1c0024",
+      "text": "@should"
+    },
+    {
+      "offset": "0x1c002c",
+      "text": "@return"
+    },
+    {
+      "offset": "0x1c0036",
+      "text": "once"
+    },
+    {
+      "offset": "0x1c003b",
+      "text": "@we"
+    },
+    {
+      "offset": "0x1c003f",
+      "text": "@know"
+    },
+    {
+      "offset": "0x1c0045",
+      "text": "@more"
+    },
+    {
+      "offset": "0x1c0051",
+      "text": "@Magil"
+    },
+    {
+      "offset": "0x1c0058",
+      "text": "@says"
+    },
+    {
+      "offset": "0x1c0072",
+      "text": "@Without"
+    },
+    {
+      "offset": "0x1c007b",
+      "text": "@saying"
+    },
+    {
+      "offset": "0x1c0086",
+      "text": "@word"
+    },
+    {
+      "offset": "0x1c0090",
+      "text": "@Magil"
+    },
+    {
+      "offset": "0x1c0097",
+      "text": "@shifts"
+    },
+    {
+      "offset": "0x1c009f",
+      "text": "@his"
+    },
+    {
+      "offset": "0x1c00a4",
+      "text": "@glance"
+    },
+    {
+      "offset": "0x1c00ac",
+      "text": "@over"
+    },
+    {
+      "offset": "0x1c00b2",
+      "text": "@to"
+    },
+    {
+      "offset": "0x1c00b8",
+      "text": "Kid"
+    },
+    {
+      "offset": "0x1c00c9",
+      "text": "What"
+    },
+    {
+      "offset": "0x1c00ce",
+      "text": "Fre"
+    },
+    {
+      "offset": "0x1c00d2",
+      "text": "@ya"
+    },
+    {
+      "offset": "0x1c00d6",
+      "text": "@lookin"
+    },
+    {
+      "offset": "0x1c00e0",
+      "text": "@at"
+    },
+    {
+      "offset": "0x1c00e4",
+      "text": "@me"
+    },
+    {
+      "offset": "0x1c00e8",
+      "text": "@for?"
+    },
+    {
+      "offset": "0x1c00f2",
+      "text": "@Kid"
+    },
+    {
+      "offset": "0x1c00f7",
+      "text": "@asks"
+    },
+    {
+      "offset": "0x1c00fd",
+      "text": "@defensively"
+    },
+    {
+      "offset": "0x1c010e",
+      "text": "@Magil"
+    },
+    {
+      "offset": "0x1c0115",
+      "text": "@points"
+    },
+    {
+      "offset": "0x1c011d",
+      "text": "@to"
+    },
+    {
+      "offset": "0x1c0121",
+      "text": "@her"
+    },
+    {
+      "offset": "0x1c0126",
+      "text": "@chest"
+    },
+    {
+      "offset": "0x1c0147",
+      "text": "@my"
+    },
+    {
+      "offset": "0x1c014b",
+      "text": "@bunny?"
+    },
+    {
+      "offset": "0x1c0157",
+      "text": "@Kid"
+    },
+    {
+      "offset": "0x1c015c",
+      "text": "@reluctantly"
+    },
+    {
+      "offset": "0x1c0169",
+      "text": "@reaches"
+    },
+    {
+      "offset": "0x1c0172",
+      "text": "@into"
+    },
+    {
+      "offset": "0x1c0178",
+      "text": "@her"
+    },
+    {
+      "offset": "0x1c017d",
+      "text": "@bosom"
+    },
+    {
+      "offset": "0x1c0188",
+      "text": "@She"
+    },
+    {
+      "offset": "0x1c018d",
+      "text": "@takes"
+    },
+    {
+      "offset": "0x1c0194",
+      "text": "@out"
+    }
+  ],
+  "dialog_lines": 6286
+}

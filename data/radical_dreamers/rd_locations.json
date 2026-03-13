@@ -1,0 +1,2002 @@
+[
+  {
+    "offset": "0x1509ad",
+    "text": "@forth"
+  },
+  {
+    "offset": "0x150ba5",
+    "text": "@door"
+  },
+  {
+    "offset": "0x150c38",
+    "text": "@ruins"
+  },
+  {
+    "offset": "0x150c5f",
+    "text": "northern"
+  },
+  {
+    "offset": "0x150c71",
+    "text": "@Forest"
+  },
+  {
+    "offset": "0x150e94",
+    "text": "@Homecoming:"
+  },
+  {
+    "offset": "0x15176b",
+    "text": "@forth"
+  },
+  {
+    "offset": "0x15178a",
+    "text": "@forth"
+  },
+  {
+    "offset": "0x1517a8",
+    "text": "@forth"
+  },
+  {
+    "offset": "0x151895",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x1519d4",
+    "text": "forest"
+  },
+  {
+    "offset": "0x151d85",
+    "text": "@town"
+  },
+  {
+    "offset": "0x1524fa",
+    "text": "@keeps"
+  },
+  {
+    "offset": "0x152a5e",
+    "text": "@least"
+  },
+  {
+    "offset": "0x152b2e",
+    "text": "@sudden?"
+  },
+  {
+    "offset": "0x1531d0",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x153501",
+    "text": "@keeping"
+  },
+  {
+    "offset": "0x1535fb",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x153989",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x153a49",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x153ace",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x153c6f",
+    "text": "@uncomfortable"
+  },
+  {
+    "offset": "0x153fbb",
+    "text": "@widen"
+  },
+  {
+    "offset": "0x1540dc",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x154208",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1545b0",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x1548f8",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x15498c",
+    "text": "@sears"
+  },
+  {
+    "offset": "0x154a0d",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x1552ed",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x155411",
+    "text": "@accidentally"
+  },
+  {
+    "offset": "0x15553c",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x1555d6",
+    "text": "Lair"
+  },
+  {
+    "offset": "0x155a60",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x155c04",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1560d6",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x156af5",
+    "text": "@comforting"
+  },
+  {
+    "offset": "0x156df2",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x156f63",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x1573d0",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x15754d",
+    "text": "@searching"
+  },
+  {
+    "offset": "0x1575c2",
+    "text": "garden"
+  },
+  {
+    "offset": "0x1576d8",
+    "text": "@fortress"
+  },
+  {
+    "offset": "0x157704",
+    "text": "@west"
+  },
+  {
+    "offset": "0x157c90",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x157d9b",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x157dc5",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x157e18",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x15835d",
+    "text": "@house"
+  },
+  {
+    "offset": "0x158609",
+    "text": "@door"
+  },
+  {
+    "offset": "0x158661",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1586c6",
+    "text": "@tower"
+  },
+  {
+    "offset": "0x1586cd",
+    "text": "@storeroom"
+  },
+  {
+    "offset": "0x158712",
+    "text": "@door"
+  },
+  {
+    "offset": "0x158726",
+    "text": "EKeep"
+  },
+  {
+    "offset": "0x1588b6",
+    "text": "@room"
+  },
+  {
+    "offset": "0x158914",
+    "text": "@storeroom"
+  },
+  {
+    "offset": "0x158990",
+    "text": "@tower"
+  },
+  {
+    "offset": "0x158a6a",
+    "text": "room"
+  },
+  {
+    "offset": "0x158afa",
+    "text": "@room"
+  },
+  {
+    "offset": "0x158bb8",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x158c75",
+    "text": "@room"
+  },
+  {
+    "offset": "0x158f4a",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1595f0",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x15999c",
+    "text": "incident"
+  },
+  {
+    "offset": "0x159ae3",
+    "text": "unfortunate"
+  },
+  {
+    "offset": "0x15a06f",
+    "text": "@comforted"
+  },
+  {
+    "offset": "0x15a1a0",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x15a551",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x15a57a",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15a6ec",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x15a8bc",
+    "text": "@search"
+  },
+  {
+    "offset": "0x15a8f0",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15aacb",
+    "text": "@search"
+  },
+  {
+    "offset": "0x15ab10",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15b0b6",
+    "text": "search"
+  },
+  {
+    "offset": "0x15b2dd",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15b429",
+    "text": "@investigate"
+  },
+  {
+    "offset": "0x15b68b",
+    "text": "door"
+  },
+  {
+    "offset": "0x15b728",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15b7dd",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15b82d",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15b956",
+    "text": "@doorway"
+  },
+  {
+    "offset": "0x15bcd2",
+    "text": "@maiden"
+  },
+  {
+    "offset": "0x15bd45",
+    "text": "@maiden"
+  },
+  {
+    "offset": "0x15bf31",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15c25c",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15c341",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x15c376",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15c576",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15c5cf",
+    "text": "keep"
+  },
+  {
+    "offset": "0x15c693",
+    "text": "room"
+  },
+  {
+    "offset": "0x15c982",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x15ca2a",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15ca56",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x15ca8b",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15cb16",
+    "text": "@mountain"
+  },
+  {
+    "offset": "0x15cdfd",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15d179",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x15d1ad",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15d1f9",
+    "text": "door"
+  },
+  {
+    "offset": "0x15d251",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15d276",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x15d5ac",
+    "text": "room"
+  },
+  {
+    "offset": "0x15d696",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15d908",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15d9f2",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15dab2",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15de0f",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x15df0a",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x15df3e",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15df88",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15e00b",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x15e0b8",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x15e0e6",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15e10a",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x15e211",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15e2aa",
+    "text": "room"
+  },
+  {
+    "offset": "0x15e394",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15e42c",
+    "text": "@mountain"
+  },
+  {
+    "offset": "0x15e48f",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15e6fc",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15edc8",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x15ef92",
+    "text": "@room"
+  },
+  {
+    "offset": "0x15f1e4",
+    "text": "@door"
+  },
+  {
+    "offset": "0x15f431",
+    "text": "room"
+  },
+  {
+    "offset": "0x15f9dc",
+    "text": "@roundhouse"
+  },
+  {
+    "offset": "0x1608dc",
+    "text": "@Keep"
+  },
+  {
+    "offset": "0x160c3f",
+    "text": "@effortlessly"
+  },
+  {
+    "offset": "0x1612d0",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x16134a",
+    "text": "@towers"
+  },
+  {
+    "offset": "0x161b29",
+    "text": "@search"
+  },
+  {
+    "offset": "0x161b97",
+    "text": "@scavenger"
+  },
+  {
+    "offset": "0x161d07",
+    "text": "@seal"
+  },
+  {
+    "offset": "0x161f9e",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x16282c",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1628d7",
+    "text": "door"
+  },
+  {
+    "offset": "0x162aac",
+    "text": "@door"
+  },
+  {
+    "offset": "0x162c66",
+    "text": "@room"
+  },
+  {
+    "offset": "0x162c91",
+    "text": "@tower"
+  },
+  {
+    "offset": "0x162cfc",
+    "text": "@room"
+  },
+  {
+    "offset": "0x162dbf",
+    "text": "@search"
+  },
+  {
+    "offset": "0x162e60",
+    "text": "@room"
+  },
+  {
+    "offset": "0x163210",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16325c",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x163293",
+    "text": "@room"
+  },
+  {
+    "offset": "0x1633e9",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16342c",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16346a",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1634b6",
+    "text": "@room"
+  },
+  {
+    "offset": "0x163507",
+    "text": "@door"
+  },
+  {
+    "offset": "0x163552",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1635c4",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1636d4",
+    "text": "@door"
+  },
+  {
+    "offset": "0x163713",
+    "text": "@door"
+  },
+  {
+    "offset": "0x163a16",
+    "text": "@western"
+  },
+  {
+    "offset": "0x163cdc",
+    "text": "@search"
+  },
+  {
+    "offset": "0x163fbf",
+    "text": "@door"
+  },
+  {
+    "offset": "0x164479",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1644df",
+    "text": "@least"
+  },
+  {
+    "offset": "0x16457a",
+    "text": "@temple"
+  },
+  {
+    "offset": "0x16473e",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x164791",
+    "text": "@door"
+  },
+  {
+    "offset": "0x164849",
+    "text": "@search"
+  },
+  {
+    "offset": "0x1648f4",
+    "text": "@hidden"
+  },
+  {
+    "offset": "0x164ae2",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x164f96",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16514b",
+    "text": "ballroom"
+  },
+  {
+    "offset": "0x165556",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x165597",
+    "text": "ballroom"
+  },
+  {
+    "offset": "0x165652",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16571b",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16578f",
+    "text": "@room"
+  },
+  {
+    "offset": "0x1657ee",
+    "text": "@house"
+  },
+  {
+    "offset": "0x1659b7",
+    "text": "@Unfortunately"
+  },
+  {
+    "offset": "0x165bd5",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x165d92",
+    "text": "@room"
+  },
+  {
+    "offset": "0x165e2b",
+    "text": "@door"
+  },
+  {
+    "offset": "0x165ed3",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x165ff0",
+    "text": "@door"
+  },
+  {
+    "offset": "0x166a4f",
+    "text": "@mountains"
+  },
+  {
+    "offset": "0x166f2b",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x16703c",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x167159",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1671bc",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16721c",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16726a",
+    "text": "@doorway"
+  },
+  {
+    "offset": "0x16729b",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1672df",
+    "text": "@room"
+  },
+  {
+    "offset": "0x167395",
+    "text": "@southerners"
+  },
+  {
+    "offset": "0x1673f1",
+    "text": "@door"
+  },
+  {
+    "offset": "0x16741c",
+    "text": "@room"
+  },
+  {
+    "offset": "0x167570",
+    "text": "@southern"
+  },
+  {
+    "offset": "0x1677b0",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1677c6",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x16784d",
+    "text": "doorway"
+  },
+  {
+    "offset": "0x1678b3",
+    "text": "@door"
+  },
+  {
+    "offset": "0x167a5d",
+    "text": "@door"
+  },
+  {
+    "offset": "0x167aa1",
+    "text": "@room"
+  },
+  {
+    "offset": "0x167b56",
+    "text": "@southerners"
+  },
+  {
+    "offset": "0x167bba",
+    "text": "@door"
+  },
+  {
+    "offset": "0x167be3",
+    "text": "@room"
+  },
+  {
+    "offset": "0x167fdc",
+    "text": "@southern"
+  },
+  {
+    "offset": "0x1681a8",
+    "text": "@search"
+  },
+  {
+    "offset": "0x1681d8",
+    "text": "@room"
+  },
+  {
+    "offset": "0x168270",
+    "text": "searchin"
+  },
+  {
+    "offset": "0x168318",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x168400",
+    "text": "@ballroom"
+  },
+  {
+    "offset": "0x168968",
+    "text": "ballroom"
+  },
+  {
+    "offset": "0x168b1b",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x168c38",
+    "text": "@door"
+  },
+  {
+    "offset": "0x168d6e",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x168e97",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1690fe",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x16921b",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1692ba",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16981c",
+    "text": "@Castle"
+  },
+  {
+    "offset": "0x169884",
+    "text": "@home"
+  },
+  {
+    "offset": "0x1699aa",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x16a489",
+    "text": "@western"
+  },
+  {
+    "offset": "0x16aaac",
+    "text": "@ocean"
+  },
+  {
+    "offset": "0x16b36a",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x16bcc1",
+    "text": "@mountains"
+  },
+  {
+    "offset": "0x16bf08",
+    "text": "@ballroom"
+  },
+  {
+    "offset": "0x16c023",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16c0ff",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16c4fd",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16c593",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x16c612",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x16c6b2",
+    "text": "room"
+  },
+  {
+    "offset": "0x16c9d4",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x16cc43",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x16ce97",
+    "text": "room"
+  },
+  {
+    "offset": "0x16d148",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x16d4e6",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x16d6ef",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16d929",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x16dd68",
+    "text": "room"
+  },
+  {
+    "offset": "0x16df79",
+    "text": "room"
+  },
+  {
+    "offset": "0x16e019",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x16e76e",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16ed15",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x16eda7",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16ee69",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16ef4c",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x16f111",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16f21d",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x16f25a",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16f2a7",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16f2c5",
+    "text": "@room"
+  },
+  {
+    "offset": "0x16f2d9",
+    "text": "EKeep"
+  },
+  {
+    "offset": "0x16f63a",
+    "text": "ballroom"
+  },
+  {
+    "offset": "0x1702fe",
+    "text": "@door"
+  },
+  {
+    "offset": "0x17035d",
+    "text": "@door"
+  },
+  {
+    "offset": "0x170375",
+    "text": "@door"
+  },
+  {
+    "offset": "0x170581",
+    "text": "@door"
+  },
+  {
+    "offset": "0x1705d1",
+    "text": "@door"
+  },
+  {
+    "offset": "0x170723",
+    "text": "@door"
+  },
+  {
+    "offset": "0x17079e",
+    "text": "@door"
+  },
+  {
+    "offset": "0x170998",
+    "text": "EKeep"
+  },
+  {
+    "offset": "0x1709cf",
+    "text": "EKeep"
+  },
+  {
+    "offset": "0x170c70",
+    "text": "@room"
+  },
+  {
+    "offset": "0x170d44",
+    "text": "@room"
+  },
+  {
+    "offset": "0x170db5",
+    "text": "door"
+  },
+  {
+    "offset": "0x170dd9",
+    "text": "@home"
+  },
+  {
+    "offset": "0x170e77",
+    "text": "doors"
+  },
+  {
+    "offset": "0x170eb5",
+    "text": "@door"
+  },
+  {
+    "offset": "0x17108a",
+    "text": "@least"
+  },
+  {
+    "offset": "0x1711e5",
+    "text": "@door"
+  },
+  {
+    "offset": "0x171c7c",
+    "text": "@least"
+  },
+  {
+    "offset": "0x171e41",
+    "text": "@Keeping"
+  },
+  {
+    "offset": "0x1726a4",
+    "text": "@temple"
+  },
+  {
+    "offset": "0x1728d5",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x172a5e",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x172abd",
+    "text": "@electricity"
+  },
+  {
+    "offset": "0x172fbd",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x173487",
+    "text": "@sea"
+  },
+  {
+    "offset": "0x173687",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x173b85",
+    "text": "@doors"
+  },
+  {
+    "offset": "0x173bc6",
+    "text": "@door"
+  },
+  {
+    "offset": "0x173cd1",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x173d2c",
+    "text": "@hidden"
+  },
+  {
+    "offset": "0x173e8b",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x173ecb",
+    "text": "@ruins"
+  },
+  {
+    "offset": "0x1744ba",
+    "text": "@keepsake"
+  },
+  {
+    "offset": "0x174b9d",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x174c55",
+    "text": "@Effortlessly"
+  },
+  {
+    "offset": "0x174fc7",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x176481",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1768f1",
+    "text": "@condensed"
+  },
+  {
+    "offset": "0x176c3b",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x176d97",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x1772cb",
+    "text": "@keeping"
+  },
+  {
+    "offset": "0x17764a",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1778fc",
+    "text": "@undeniable"
+  },
+  {
+    "offset": "0x177e61",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x178100",
+    "text": "@ocean"
+  },
+  {
+    "offset": "0x178cb6",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x178eb4",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x1791ef",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x179212",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x1792b8",
+    "text": "@cavern"
+  },
+  {
+    "offset": "0x179357",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x179371",
+    "text": "@search"
+  },
+  {
+    "offset": "0x17956b",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1795bc",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17abc2",
+    "text": "@widen"
+  },
+  {
+    "offset": "0x17b278",
+    "text": "@least"
+  },
+  {
+    "offset": "0x17b43a",
+    "text": "@least"
+  },
+  {
+    "offset": "0x17b5b7",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x17b6d2",
+    "text": "@least"
+  },
+  {
+    "offset": "0x17b7e4",
+    "text": "@home"
+  },
+  {
+    "offset": "0x17b83f",
+    "text": "@doorstep"
+  },
+  {
+    "offset": "0x17ba99",
+    "text": "Suddenly"
+  },
+  {
+    "offset": "0x17bdcd",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x17bf55",
+    "text": "@hidden"
+  },
+  {
+    "offset": "0x17c315",
+    "text": "@hardens"
+  },
+  {
+    "offset": "0x17c78a",
+    "text": "least"
+  },
+  {
+    "offset": "0x17c7d9",
+    "text": "towers"
+  },
+  {
+    "offset": "0x17c9b8",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x17d0ee",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17dd68",
+    "text": "@effortlessly"
+  },
+  {
+    "offset": "0x17e009",
+    "text": "@flair"
+  },
+  {
+    "offset": "0x17e8c4",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17eafe",
+    "text": "@accidentally"
+  },
+  {
+    "offset": "0x17ec3a",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17efc9",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x17f203",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x17f2a7",
+    "text": "@maddening"
+  },
+  {
+    "offset": "0x17f608",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17f7d1",
+    "text": "Suddenly"
+  },
+  {
+    "offset": "0x17f999",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17fa37",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x17fbab",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x17fc9b",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x17fcf6",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x180207",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x180694",
+    "text": "@lake"
+  },
+  {
+    "offset": "0x180ab3",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x180b98",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x180e12",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18103d",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18158c",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x181d21",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1821aa",
+    "text": "@Accidentally"
+  },
+  {
+    "offset": "0x1822b2",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x1826c9",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x182706",
+    "text": "roundhouse"
+  },
+  {
+    "offset": "0x182961",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x182e24",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x182f97",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x1831a7",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18362a",
+    "text": "unfortunately"
+  },
+  {
+    "offset": "0x183996",
+    "text": "@effortlessly"
+  },
+  {
+    "offset": "0x183de3",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x183fa7",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1840ae",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x184106",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x184815",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18492b",
+    "text": "EKeep"
+  },
+  {
+    "offset": "0x184a32",
+    "text": "keep"
+  },
+  {
+    "offset": "0x184c7d",
+    "text": "@unfortunately"
+  },
+  {
+    "offset": "0x184d57",
+    "text": "@roundhouse"
+  },
+  {
+    "offset": "0x184e7b",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18506f",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x185393",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x185552",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x185fc4",
+    "text": "@least"
+  },
+  {
+    "offset": "0x18628c",
+    "text": "@effortlessly"
+  },
+  {
+    "offset": "0x186c6c",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x18719f",
+    "text": "@dents"
+  },
+  {
+    "offset": "0x18764a",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x187e20",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x188b1c",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x188dc8",
+    "text": "@incident"
+  },
+  {
+    "offset": "0x189227",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x1892ea",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18958b",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x189a05",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x18a3f8",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18a78d",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x18ace5",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x18ad88",
+    "text": "@keeping"
+  },
+  {
+    "offset": "0x18b7ab",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x18c54a",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18d29b",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18dc7d",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18de38",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18df0a",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18e081",
+    "text": "@maiden"
+  },
+  {
+    "offset": "0x18e09f",
+    "text": "@maiden"
+  },
+  {
+    "offset": "0x18e2db",
+    "text": "confidently"
+  },
+  {
+    "offset": "0x18e57a",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18e65e",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18e9c8",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18f01f",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18f42e",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x18f6a9",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x18f9c3",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x18fa52",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x18fb15",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x18fe25",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x18ff8e",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19038b",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x190431",
+    "text": "@sears"
+  },
+  {
+    "offset": "0x1908f3",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x1909ca",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x190dd1",
+    "text": "Lladen"
+  },
+  {
+    "offset": "0x190e1a",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x190fea",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x191151",
+    "text": "@evidence"
+  },
+  {
+    "offset": "0x191857",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x191e10",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x191fa2",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x192064",
+    "text": "@keeping"
+  },
+  {
+    "offset": "0x1927fa",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x192cf8",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1933ca",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x193f24",
+    "text": "@least"
+  },
+  {
+    "offset": "0x194112",
+    "text": "@room"
+  },
+  {
+    "offset": "0x194192",
+    "text": "@room"
+  },
+  {
+    "offset": "0x194249",
+    "text": "@search"
+  },
+  {
+    "offset": "0x1942a8",
+    "text": "@room"
+  },
+  {
+    "offset": "0x194376",
+    "text": "@room"
+  },
+  {
+    "offset": "0x194445",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x1944e1",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x194674",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x194c3f",
+    "text": "@houses"
+  },
+  {
+    "offset": "0x194f48",
+    "text": "@home"
+  },
+  {
+    "offset": "0x1950a8",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195129",
+    "text": "door"
+  },
+  {
+    "offset": "0x195337",
+    "text": "@search"
+  },
+  {
+    "offset": "0x1953d8",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195668",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x1956a2",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19597b",
+    "text": "@search"
+  },
+  {
+    "offset": "0x1959d0",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195a0c",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195de3",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195e26",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195e93",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195f29",
+    "text": "@room"
+  },
+  {
+    "offset": "0x195fc5",
+    "text": "@room"
+  },
+  {
+    "offset": "0x19635c",
+    "text": "@hidden"
+  },
+  {
+    "offset": "0x19671e",
+    "text": "@room"
+  },
+  {
+    "offset": "0x196744",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x1967d6",
+    "text": "@search"
+  },
+  {
+    "offset": "0x19684a",
+    "text": "@room"
+  },
+  {
+    "offset": "0x196918",
+    "text": "@room"
+  },
+  {
+    "offset": "0x1969e7",
+    "text": "suddenly"
+  },
+  {
+    "offset": "0x196a83",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x196c16",
+    "text": "@sudden"
+  },
+  {
+    "offset": "0x1970fc",
+    "text": "@room"
+  },
+  {
+    "offset": "0x1971d2",
+    "text": "room"
+  },
+  {
+    "offset": "0x197367",
+    "text": "@door"
+  },
+  {
+    "offset": "0x197374",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1973e4",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x1974ed",
+    "text": "@door"
+  },
+  {
+    "offset": "0x197a8f",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x197ab4",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x197dd7",
+    "text": "@room"
+  },
+  {
+    "offset": "0x197e8a",
+    "text": "@misfortune"
+  },
+  {
+    "offset": "0x197ffd",
+    "text": "@room"
+  },
+  {
+    "offset": "0x1981de",
+    "text": "@room"
+  },
+  {
+    "offset": "0x19841d",
+    "text": "@unfortunate"
+  },
+  {
+    "offset": "0x198474",
+    "text": "@unfortunate"
+  },
+  {
+    "offset": "0x198a79",
+    "text": "@comfort"
+  },
+  {
+    "offset": "0x198bcd",
+    "text": "@door"
+  },
+  {
+    "offset": "0x198ce6",
+    "text": "@lake"
+  },
+  {
+    "offset": "0x198e54",
+    "text": "@room"
+  },
+  {
+    "offset": "0x198fbb",
+    "text": "@room"
+  },
+  {
+    "offset": "0x199095",
+    "text": "@room"
+  },
+  {
+    "offset": "0x19955d",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x19967c",
+    "text": "@hidden"
+  },
+  {
+    "offset": "0x199684",
+    "text": "@door"
+  },
+  {
+    "offset": "0x199857",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x199aac",
+    "text": "@room"
+  },
+  {
+    "offset": "0x199bf6",
+    "text": "@room?"
+  },
+  {
+    "offset": "0x199fb7",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x19a3e5",
+    "text": "@seal"
+  },
+  {
+    "offset": "0x19aad5",
+    "text": "@room"
+  },
+  {
+    "offset": "0x19abf1",
+    "text": "@room"
+  },
+  {
+    "offset": "0x19ac82",
+    "text": "@room"
+  },
+  {
+    "offset": "0x19b080",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19b2e9",
+    "text": "@least"
+  },
+  {
+    "offset": "0x19b5a5",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x19b5e2",
+    "text": "@keep"
+  },
+  {
+    "offset": "0x19b68f",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x19b81e",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x19bb57",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x19be07",
+    "text": "@forest"
+  },
+  {
+    "offset": "0x19be25",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19c14f",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19c195",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19c852",
+    "text": "@breast"
+  },
+  {
+    "offset": "0x19cabe",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x19cc7f",
+    "text": "@suddenly"
+  },
+  {
+    "offset": "0x19cd83",
+    "text": "@identical"
+  },
+  {
+    "offset": "0x19d9a5",
+    "text": "@Suddenly"
+  },
+  {
+    "offset": "0x19dcc3",
+    "text": "@suddenly"
+  }
+]

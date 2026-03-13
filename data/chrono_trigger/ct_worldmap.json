@@ -1,0 +1,26 @@
+[
+  {
+    "offset": "0x115800",
+    "width": 240,
+    "height": 241,
+    "tile_refs": 30
+  },
+  {
+    "offset": "0x115e00",
+    "width": 250,
+    "height": 249,
+    "tile_refs": 25
+  },
+  {
+    "offset": "0x12d200",
+    "width": 258,
+    "height": 258,
+    "tile_refs": 24
+  },
+  {
+    "offset": "0x12ea00",
+    "width": 246,
+    "height": 226,
+    "tile_refs": 30
+  }
+]

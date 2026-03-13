@@ -1,0 +1,138 @@
+{
+  "game": "Chrono Trigger",
+  "version": "USA",
+  "size": 4194304,
+  "header": "CHRONO TRIGGER       1\u0002\f\u0003\u00013\u0000sx",
+  "character_references": {
+    "Crono": 0,
+    "Lucca": 0,
+    "Marle": 0,
+    "Frog": 0,
+    "Robo": 0,
+    "Ayla": 0,
+    "Magus": 0
+  },
+  "lzss_blocks": 9694,
+  "credits": [
+    {
+      "offset": "0x115100",
+      "text": "PRODUCER//KAZUHIKO AOKI"
+    },
+    {
+      "offset": "0x115118",
+      "text": "DIRECTOR//TAKASHI TOKITA/YOSHINORI KITASE/AKIHIKO MATSUI"
+    },
+    {
+      "offset": "0x115151",
+      "text": "CHARACTER DESIGN//AKIRA TORIYAMA"
+    },
+    {
+      "offset": "0x115172",
+      "text": "SUPERVISOR//YUJI HORII/HIRONOBU SAKAGUCHI"
+    },
+    {
+      "offset": "0x11519c",
+      "text": "MUSIC//YASUNORI MITSUDA/NOBUO UEMATSU"
+    },
+    {
+      "offset": "0x1151c2",
+      "text": "MAIN PROGRAM//KEIZO KOKUBO/KATSUHISA HIGUCHI"
+    },
+    {
+      "offset": "0x1151ef",
+      "text": "SOUND PROGRAM//MINORU AKAO"
+    },
+    {
+      "offset": "0x11520a",
+      "text": "SOUND ENGINEER//EIJI NAKAMURA"
+    },
+    {
+      "offset": "0x115228",
+      "text": "GRAPHIC DIRECTOR//YASUHIKO KAMATA/MASANORI HOSHINO/TETSUYA T"
+    },
+    {
+      "offset": "0x11526d",
+      "text": "STORY PLAN//MASATO KATO"
+    },
+    {
+      "offset": "0x115285",
+      "text": "EVENT PLAN//HIROYUKI ITOU/KEISUKE MATSUHARA/HIROKI CHIBA"
+    },
+    {
+      "offset": "0x1152be",
+      "text": "FIELD PLAN//KEITA ETO/KENICHI NISHI"
+    },
+    {
+      "offset": "0x1152e2",
+      "text": "BATTLE PLAN//MAKOTO SHIMAMOTO/HARUYUKI NISHIDA/TOSHIAKI SUZU"
+    },
+    {
+      "offset": "0x115321",
+      "text": "BATTLE PROGRAM//TOSHIO ENDO/KIYOSHI YOSHII"
+    },
+    {
+      "offset": "0x11534c",
+      "text": "FIELD PROGRAM//KAZUMI KOBAYASHI"
+    },
+    {
+      "offset": "0x11536c",
+      "text": "MENU PROGRAM//AKIHIRO SHIMIZU"
+    },
+    {
+      "offset": "0x11538a",
+      "text": "VISUAL PROGRAM//KOJI SUGIMOTO/KEN NARITA"
+    },
+    {
+      "offset": "0x1153b3",
+      "text": "EFFECT GRAPHIC//HIROKATSU SASAKI/YUKIO NAKATANI"
+    },
+    {
+      "offset": "0x1153e3",
+      "text": "FIELD GRAPHIC//SHINICHIRO OKANIWA/MANABU DAISHIMA/TOSHIYA HA"
+    },
+    {
+      "offset": "0x115433",
+      "text": "FIELD GRAPHIC//TETSUYA NOMURA/KAZUHIRO OKAWA/YOSHINORI OGURA"
+    },
+    {
+      "offset": "0x115470",
+      "text": "FIELD GRAPHIC//YUSUKE NAORA/TAKAMICHI SHIBUYA/SHINICHIRO HAM"
+    },
+    {
+      "offset": "0x1154c2",
+      "text": "FIELD GRAPHIC//MASAAKI HAYASHI/TAKAYUKI ODACHI/YASUYUKI HONN"
+    },
+    {
+      "offset": "0x115500",
+      "text": "CHARACTER GRAPHIC//HIROSHI UCHIYAMA/TAIZO INUKAI"
+    },
+    {
+      "offset": "0x115531",
+      "text": "MONSTER GRAPHIC//KOICHI EBE/TSUTOMU TERADA/TADAYASU USUDA"
+    },
+    {
+      "offset": "0x11556b",
+      "text": "MAP DESIGN//MAMI KAWAI/AKANE HARUKI/HIROTO YAMAMOTO"
+    },
+    {
+      "offset": "0x11559f",
+      "text": "MAP DESIGN//FUMI NAKASHIMA/HIDETOSHI KEZUKA/KANAME TANAKA"
+    },
+    {
+      "offset": "0x1155d9",
+      "text": "EXECUTIVE PRODUCER//TETSUO MIZUNO/HITOSHI TAKEMURA/HISASHI S"
+    },
+    {
+      "offset": "0x11561b",
+      "text": "SOUND EFFECT//YOSHITAKA HIROTA/CHIHARU MINEKAWA/TADAKAZU OKA"
+    },
+    {
+      "offset": "0x115669",
+      "text": "ADVERTISEMENT//K.YAMASHITA/Y.HIRATA/T.NOMURA/K.SOUSUI/T.TSUR"
+    },
+    {
+      "offset": "0x1156d4",
+      "text": "SYSTEM ENGINEER//M.NAKAJIMA/M.OGURA/Y.ORIKASA/Y.OHDAIRA"
+    }
+  ]
+}

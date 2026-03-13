@@ -1,0 +1,198 @@
+{
+  "ct_hack_crimson_echoes": {
+    "filename": "Chrono Trigger I - Crimson Echoes (v2004) (USA).sfc",
+    "type": "fan_hack",
+    "size": 6291456,
+    "text_count": 1589,
+    "hack_specific_regions": 1758,
+    "sample_text": [
+      {
+        "offset": "0x1800",
+        "text": "u+ \u0000\u0003FdE `\u000b \u0000\u001d[  x||+ t t \u0000\u0002F `\u000b \u0000\u001d[  u||+ t \u0000\u0001F `"
+      },
+      {
+        "offset": "0x1a00",
+        "text": "\u0007\u0004`)~\u0011)~\t)~\u0001`dn0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }"
+      },
+      {
+        "offset": "0x2d00",
+        "text": "\u0010\u0004\t\u0002)\u000f\u001e4\u00154\u0004\u0003\u0000\u0018\u00194m\u001f4\u001f4\u0018\u001a4m 4 4\u001f40\u0018JJJJ )\u0000\u0018mo4o4x,~ "
+      },
+      {
+        "offset": "0x4000",
+        "text": "{8\n\u000e@\u0018`6@U@]@@@EAAAAAAAAAA|>n_n_n_n_\u0001 \u007f:\u0001 \u007f;\u0001 \u007f=d<"
+      },
+      {
+        "offset": "0x5e00",
+        "text": "ggg\fh)hFhhhh\u0013i=idiiiAii\u0012j\u001fjAEjtjjjjA kKkvkkkAk\u0004B\u001cl"
+      },
+      {
+        "offset": "0x5f00",
+        "text": "777'8[8t88888\u00199N9h:\u0007:7:l2Z4n_:\u001b;E;;:K;;\u0005<===0>\u0011<n_"
+      },
+      {
+        "offset": "0x6f00",
+        "text": "H\u0000\u0002N -`K\u0000\u0000H@\u0000N\u0001JM -0K\u0000\u0001H -pK0\u0000H@\u0000N\u0001JM -K0\u0001H - Tq``"
+      },
+      {
+        "offset": "0x7b00",
+        "text": "R\u001a% R\\TRJ% R0~J)\u0001@0~ \n\n\n\u0006~ !!\\TR\u001a% R0~J)\u0001@0~ \n\n\n\u0004~"
+      },
+      {
+        "offset": "0x7c00",
+        "text": "J% R0~J)\u0001@0~ \n\n\n\u0002~ !!\u0006~!\u0007~!T\\\n\u001a%!TR`J%!TX\u00012J% R0~J"
+      },
+      {
+        "offset": "0x8a00",
+        "text": "0\u0018i\u00100`\u0000\u0002\u0017 ,.\u0018i .-08 0`\u0010,.\u0018i\u0010.-08\u00100`\u0000\u0002\u0015,-.8 .08 0`,"
+      }
+    ]
+  },
+  "ct_hack_flames_eternity": {
+    "filename": "Chrono Trigger I - Flames of Eternity (vRC7C) (USA).sfc",
+    "type": "fan_hack",
+    "size": 6291456,
+    "text_count": 1591,
+    "hack_specific_regions": 1763,
+    "sample_text": [
+      {
+        "offset": "0x1800",
+        "text": "u+ \u0000\u0003FdE `\u000b \u0000\u001d[  x||+ t t \u0000\u0002F `\u000b \u0000\u001d[  u||+ t \u0000\u0001F `"
+      },
+      {
+        "offset": "0x1a00",
+        "text": "\u0007\u0004`)~\u0011)~\t)~\u0001`dn0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }"
+      },
+      {
+        "offset": "0x2d00",
+        "text": "\u0010\u0004\t\u0002)\u000f\u001e4\u00154\u0004\u0003\u0000\u0018\u00194m\u001f4\u001f4\u0018\u001a4m 4 4\u001f40\u0018JJJJ )\u0000\u0018mo4o4x,~ "
+      },
+      {
+        "offset": "0x4000",
+        "text": "{8\n\u000e@\u0018`6@U@]@@@EAAAAAAAAAA|>n_n_n_n_\u0001 \u007f:\u0001 \u007f;\u0001 \u007f=d<"
+      },
+      {
+        "offset": "0x5e00",
+        "text": "ggg\fh)hFhhhh\u0013i=idiiiAii\u0012j\u001fjAEjtjjjjA kKkvkkkAk\u0004B\u001cl"
+      },
+      {
+        "offset": "0x5f00",
+        "text": "777'8[8t88888\u00199N9h:\u0007:7:l2Z4n_:\u001b;E;;:K;;\u0005<===0>\u0011<n_"
+      },
+      {
+        "offset": "0x6f00",
+        "text": "H\u0000\u0002N -`K\u0000\u0000H@\u0000N\u0001JM -0K\u0000\u0001H -pK0\u0000H@\u0000N\u0001JM -K0\u0001H - Tq``"
+      },
+      {
+        "offset": "0x7b00",
+        "text": "R\u001a% R\\TRJ% R0~J)\u0001@0~ \n\n\n\u0006~ !!\\TR\u001a% R0~J)\u0001@0~ \n\n\n\u0004~"
+      },
+      {
+        "offset": "0x7c00",
+        "text": "J% R0~J)\u0001@0~ \n\n\n\u0002~ !!\u0006~!\u0007~!T\\\n\u001a%!TR`J%!TX\u00012J% R0~J"
+      },
+      {
+        "offset": "0x8a00",
+        "text": "0\u0018i\u00100`\u0000\u0002\u0017 ,.\u0018i .-08 0`\u0010,.\u0018i\u0010.-08\u00100`\u0000\u0002\u0015,-.8 .08 0`,"
+      }
+    ]
+  },
+  "ct_hack_prophets_guile": {
+    "filename": "Chrono Trigger - Prophets_Guile (USA).sfc",
+    "type": "fan_hack",
+    "size": 6291456,
+    "text_count": 1755,
+    "hack_specific_regions": 1741,
+    "sample_text": [
+      {
+        "offset": "0x1800",
+        "text": "u+ \u0000\u0003FdE `\u000b \u0000\u001d[  x||+ t t \u0000\u0002F `\u000b \u0000\u001d[  u||+ t \u0000\u0001F `"
+      },
+      {
+        "offset": "0x1a00",
+        "text": "\u0007\u0004`)~\u0011)~\t)~\u0001`dn0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }"
+      },
+      {
+        "offset": "0x2d00",
+        "text": "\u0010\u0004\t\u0002)\u000f\u001e4\u00154\u0004\u0003\u0000\u0018\u00194m\u001f4\u001f4\u0018\u001a4m 4 4\u001f40\u0018JJJJ )\u0000\u0018mo4o4x,~ "
+      },
+      {
+        "offset": "0x4000",
+        "text": "{8\n\u000e@\u0018`6@U@]@@@EAAAAAAAAAA|>n_n_n_n_\u0001 \u007f:\u0001 \u007f;\u0001 \u007f=d<"
+      },
+      {
+        "offset": "0x5e00",
+        "text": "ggg\fh)hFhhhh\u0013i=idiiiAii\u0012j\u001fjAEjtjjjjA kKkvkkkAk\u0004B\u001cl"
+      },
+      {
+        "offset": "0x5f00",
+        "text": "777'8[8t88888\u00199N9h:\u0007:7:l2Z4n_:\u001b;E;;:K;;\u0005<===0>\u0011<n_"
+      },
+      {
+        "offset": "0x6f00",
+        "text": "H\u0000\u0002N -`K\u0000\u0000H@\u0000N\u0001JM -0K\u0000\u0001H -pK0\u0000H@\u0000N\u0001JM -K0\u0001H - Tq``"
+      },
+      {
+        "offset": "0x7b00",
+        "text": "R\u001a% R\\TRJ% R0~J)\u0001@0~ \n\n\n\u0006~ !!\\TR\u001a% R0~J)\u0001@0~ \n\n\n\u0004~"
+      },
+      {
+        "offset": "0x7c00",
+        "text": "J% R0~J)\u0001@0~ \n\n\n\u0002~ !!\u0006~!\u0007~!T\\\n\u001a%!TR`J%!TX\u00012J% R0~J"
+      },
+      {
+        "offset": "0x8a00",
+        "text": "0\u0018i\u00100`\u0000\u0002\u0017 ,.\u0018i .-08 0`\u0010,.\u0018i\u0010.-08\u00100`\u0000\u0002\u0015,-.8 .08 0`,"
+      }
+    ]
+  },
+  "ct_hack_prophets_guile_fr": {
+    "filename": "Chrono Trigger - Prophets Guile (FR).sfc",
+    "type": "fan_hack",
+    "size": 6291456,
+    "text_count": 1745,
+    "hack_specific_regions": 1749,
+    "sample_text": [
+      {
+        "offset": "0x1800",
+        "text": "u+ \u0000\u0003FdE `\u000b \u0000\u001d[  x||+ t t \u0000\u0002F `\u000b \u0000\u001d[  u||+ t \u0000\u0001F `"
+      },
+      {
+        "offset": "0x1a00",
+        "text": "\u0007\u0004`)~\u0011)~\t)~\u0001`dn0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }Y0\u0005m }"
+      },
+      {
+        "offset": "0x2d00",
+        "text": "\u0010\u0004\t\u0002)\u000f\u001e4\u00154\u0004\u0003\u0000\u0018\u00194m\u001f4\u001f4\u0018\u001a4m 4 4\u001f40\u0018JJJJ )\u0000\u0018mo4o4x,~ "
+      },
+      {
+        "offset": "0x4000",
+        "text": "{8\n\u000e@\u0018`6@U@]@@@EAAAAAAAAAA|>n_n_n_n_\u0001 \u007f:\u0001 \u007f;\u0001 \u007f=d<"
+      },
+      {
+        "offset": "0x5e00",
+        "text": "ggg\fh)hFhhhh\u0013i=idiiiAii\u0012j\u001fjAEjtjjjjA kKkvkkkAk\u0004B\u001cl"
+      },
+      {
+        "offset": "0x5f00",
+        "text": "777'8[8t88888\u00199N9h:\u0007:7:l2Z4n_:\u001b;E;;:K;;\u0005<===0>\u0011<n_"
+      },
+      {
+        "offset": "0x6f00",
+        "text": "H\u0000\u0002N -`K\u0000\u0000H@\u0000N\u0001JM -0K\u0000\u0001H -pK0\u0000H@\u0000N\u0001JM -K0\u0001H - Tq``"
+      },
+      {
+        "offset": "0x7b00",
+        "text": "R\u001a% R\\TRJ% R0~J)\u0001@0~ \n\n\n\u0006~ !!\\TR\u001a% R0~J)\u0001@0~ \n\n\n\u0004~"
+      },
+      {
+        "offset": "0x7c00",
+        "text": "J% R0~J)\u0001@0~ \n\n\n\u0002~ !!\u0006~!\u0007~!T\\\n\u001a%!TR`J%!TX\u00012J% R0~J"
+      },
+      {
+        "offset": "0x8a00",
+        "text": "0\u0018i\u00100`\u0000\u0002\u0017 ,.\u0018i .-08 0`\u0010,.\u0018i\u0010.-08\u00100`\u0000\u0002\u0015,-.8 .08 0`,"
+      }
+    ]
+  }
+}

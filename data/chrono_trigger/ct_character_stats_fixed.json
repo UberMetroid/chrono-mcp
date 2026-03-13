@@ -1,0 +1,72 @@
+[
+  {
+    "index": 0,
+    "offset": "0x1ef000",
+    "hp": 61370,
+    "mp": 9895,
+    "attack": 59848,
+    "defense": 49414,
+    "speed": 49614,
+    "magic": 57055
+  },
+  {
+    "index": 1,
+    "offset": "0x1ef00c",
+    "hp": 44032,
+    "mp": 61394,
+    "attack": 52160,
+    "defense": 52299,
+    "speed": 21034,
+    "magic": 47855
+  },
+  {
+    "index": 2,
+    "offset": "0x1ef018",
+    "hp": 48111,
+    "mp": 27339,
+    "attack": 42991,
+    "defense": 51238,
+    "speed": 1502,
+    "magic": 12128
+  },
+  {
+    "index": 3,
+    "offset": "0x1ef024",
+    "hp": 61266,
+    "mp": 18367,
+    "attack": 61382,
+    "defense": 53958,
+    "speed": 52463,
+    "magic": 48578
+  },
+  {
+    "index": 4,
+    "offset": "0x1ef030",
+    "hp": 61374,
+    "mp": 61329,
+    "attack": 47807,
+    "defense": 49862,
+    "speed": 53957,
+    "magic": 1502
+  },
+  {
+    "index": 5,
+    "offset": "0x1ef03c",
+    "hp": 28071,
+    "mp": 48675,
+    "attack": 48675,
+    "defense": 241,
+    "speed": 49582,
+    "magic": 61417
+  },
+  {
+    "index": 6,
+    "offset": "0x1ef048",
+    "hp": 53958,
+    "mp": 49391,
+    "attack": 19403,
+    "defense": 10956,
+    "speed": 3038,
+    "magic": 33191
+  }
+]

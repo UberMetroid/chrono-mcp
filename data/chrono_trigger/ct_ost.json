@@ -1,0 +1,207 @@
+{
+  "ost_1": {
+    "name": "Chrono_Trigger_OST_1",
+    "track_count": 23,
+    "tracks": [
+      {
+        "filename": "01 - A Premonition.mp3",
+        "size_mb": 0.66
+      },
+      {
+        "filename": "02 - Chrono Trigger.mp3",
+        "size_mb": 2.32
+      },
+      {
+        "filename": "03 - Morning Sunlight.mp3",
+        "size_mb": 1.08
+      },
+      {
+        "filename": "04 - Peaceful Days.mp3",
+        "size_mb": 3.22
+      },
+      {
+        "filename": "05 - Memories of Green.mp3",
+        "size_mb": 4.42
+      },
+      {
+        "filename": "06 - Guardia Millenial Fair.mp3",
+        "size_mb": 3.76
+      },
+      {
+        "filename": "07 - Gonzalez's Song.mp3",
+        "size_mb": 0.81
+      },
+      {
+        "filename": "08 - A Strange Happening.mp3",
+        "size_mb": 1.97
+      },
+      {
+        "filename": "09 - Wind Scene.mp3",
+        "size_mb": 3.87
+      },
+      {
+        "filename": "10 - Goodnight.mp3",
+        "size_mb": 0.16
+      },
+      {
+        "filename": "11 - Secret of The Forest.mp3",
+        "size_mb": 5.46
+      },
+      {
+        "filename": "12 - Battle 1.mp3",
+        "size_mb": 2.84
+      },
+      {
+        "filename": "13 - Guardia Castle.mp3",
+        "size_mb": 3.98
+      },
+      {
+        "filename": "14 - Huh.mp3",
+        "size_mb": 0.11
+      },
+      {
+        "filename": "15 - Manoria Cathedral.mp3",
+        "size_mb": 1.41
+      },
+      {
+        "filename": "16 - A Prayer To The Road That Leads.mp3",
+        "size_mb": 0.23
+      },
+      {
+        "filename": "17 - Silent Light.mp3",
+        "size_mb": 2.74
+      },
+      {
+        "filename": "18 - Boss Battle.mp3",
+        "size_mb": 2.26
+      },
+      {
+        "filename": "19 - Frog's Theme.mp3",
+        "size_mb": 2.09
+      },
+      {
+        "filename": "20 - Fanfare 1.mp3",
+        "size_mb": 1.46
+      },
+      {
+        "filename": "21 - The Trial.mp3",
+        "size_mb": 4.28
+      },
+      {
+        "filename": "22 - The Hidden Truth.mp3",
+        "size_mb": 1.13
+      },
+      {
+        "filename": "23 - A Shot of Crisis.mp3",
+        "size_mb": 3.08
+      }
+    ]
+  },
+  "ost_2": {
+    "name": "Chrono_Trigger_OST_2",
+    "track_count": 24,
+    "tracks": [
+      {
+        "filename": "01 - Ruined World.mp3",
+        "size_mb": 3.9
+      },
+      {
+        "filename": "02 - Mystery of The Past.mp3",
+        "size_mb": 0.14
+      },
+      {
+        "filename": "03 - Dome-16's Ruin.mp3",
+        "size_mb": 1.8
+      },
+      {
+        "filename": "04 - People Who Threw Away The Will To Live.mp3",
+        "size_mb": 3.58
+      },
+      {
+        "filename": "05 - Lavos' Theme.mp3",
+        "size_mb": 5.93
+      },
+      {
+        "filename": "06 - The Day The World Revived.mp3",
+        "size_mb": 1.64
+      },
+      {
+        "filename": "07 - Robo Gang Johnny.mp3",
+        "size_mb": 2.7
+      },
+      {
+        "filename": "08 - Bike Chase.mp3",
+        "size_mb": 1.83
+      },
+      {
+        "filename": "09 - Robo's Theme.mp3",
+        "size_mb": 1.78
+      },
+      {
+        "filename": "10 - Remains of Factory.mp3",
+        "size_mb": 3.63
+      },
+      {
+        "filename": "11 - Battle 2.mp3",
+        "size_mb": 2.49
+      },
+      {
+        "filename": "12 - Fanfare 2.mp3",
+        "size_mb": 0.15
+      },
+      {
+        "filename": "13 - The Brink of Time.mp3",
+        "size_mb": 2.9
+      },
+      {
+        "filename": "14 - Delightful Spekkio.mp3",
+        "size_mb": 3.23
+      },
+      {
+        "filename": "15 - Fanfare 3.mp3",
+        "size_mb": 0.12
+      },
+      {
+        "filename": "16 - Underground Sewer.mp3",
+        "size_mb": 2.76
+      },
+      {
+        "filename": "17 - Boss Battle 2.mp3",
+        "size_mb": 3.08
+      },
+      {
+        "filename": "18 - Primitive Mountain.mp3",
+        "size_mb": 3.57
+      },
+      {
+        "filename": "19 - Ayla's Theme.mp3",
+        "size_mb": 1.61
+      },
+      {
+        "filename": "20 - Rhythm of Wind, Sky, And Earth.mp3",
+        "size_mb": 2.13
+      },
+      {
+        "filename": "21 - Burn! Bobonga!.mp3",
+        "size_mb": 2.53
+      },
+      {
+        "filename": "22 - Magus' Castle.mp3",
+        "size_mb": 0.56
+      },
+      {
+        "filename": "23 - Confusing Melody.mp3",
+        "size_mb": 1.91
+      },
+      {
+        "filename": "24 - Battle With Magus.mp3",
+        "size_mb": 4.06
+      }
+    ]
+  },
+  "ost_3": {
+    "name": "Chrono_Trigger_OST_3",
+    "track_count": 0,
+    "tracks": []
+  }
+}

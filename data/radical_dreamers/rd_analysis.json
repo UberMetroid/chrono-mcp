@@ -1,0 +1,14 @@
+{
+  "rom_size": 2097152,
+  "rom_size_mb": 2.0,
+  "encoding": {
+    "word_separator": "0x81 (@)"
+  },
+  "save_area": {
+    "offset": "0x1E0000-0x1F0000",
+    "size": "64KB"
+  },
+  "text_regions": {
+    "primary": "0x100000-0x200000"
+  }
+}

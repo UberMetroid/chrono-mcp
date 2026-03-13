@@ -1,0 +1,38 @@
+{
+  "RD_characters": {
+    "Kid": {
+      "count": 1113,
+      "first_offset": "0x1503a3"
+    },
+    "Magil": {
+      "count": 571,
+      "first_offset": "0x15051b"
+    },
+    "Serge": {
+      "count": 165,
+      "first_offset": "0x150c1d"
+    },
+    "Lynx": {
+      "count": 248,
+      "first_offset": "0x150536"
+    },
+    "Viper": {
+      "count": 32,
+      "first_offset": "0x1568a7"
+    }
+  },
+  "CT_characters": {
+    "PIP": {
+      "count": 4,
+      "first_offset": "0x10e121"
+    }
+  },
+  "RD_locations": {},
+  "CT_locations": {
+    "SEA": 1
+  },
+  "RD_items": {
+    "ARMOR": 1
+  },
+  "CT_items": {}
+}

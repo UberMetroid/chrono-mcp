@@ -1,0 +1,122 @@
+[
+  {
+    "offset": "0x200070",
+    "status_id": 2,
+    "duration": 65189,
+    "damage": 33024
+  },
+  {
+    "offset": "0x200130",
+    "status_id": 2,
+    "duration": 178,
+    "damage": 49472
+  },
+  {
+    "offset": "0x200140",
+    "status_id": 3,
+    "duration": 15377,
+    "damage": 32316
+  },
+  {
+    "offset": "0x200160",
+    "status_id": 1,
+    "duration": 32,
+    "damage": 15486
+  },
+  {
+    "offset": "0x200210",
+    "status_id": 1,
+    "duration": 4349,
+    "damage": 24827
+  },
+  {
+    "offset": "0x200280",
+    "status_id": 6,
+    "duration": 1280,
+    "damage": 1799
+  },
+  {
+    "offset": "0x200290",
+    "status_id": 2,
+    "duration": 9,
+    "damage": 2318
+  },
+  {
+    "offset": "0x200390",
+    "status_id": 3,
+    "duration": 9762,
+    "damage": 37753
+  },
+  {
+    "offset": "0x2003d0",
+    "status_id": 3,
+    "duration": 17923,
+    "damage": 513
+  },
+  {
+    "offset": "0x200430",
+    "status_id": 7,
+    "duration": 3343,
+    "damage": 1039
+  },
+  {
+    "offset": "0x200490",
+    "status_id": 11,
+    "duration": 32770,
+    "damage": 55544
+  },
+  {
+    "offset": "0x2004c0",
+    "status_id": 11,
+    "duration": 6662,
+    "damage": 3074
+  },
+  {
+    "offset": "0x200500",
+    "status_id": 2,
+    "duration": 3858,
+    "damage": 2057
+  },
+  {
+    "offset": "0x200510",
+    "status_id": 9,
+    "duration": 4352,
+    "damage": 28702
+  },
+  {
+    "offset": "0x200520",
+    "status_id": 2,
+    "duration": 49312,
+    "damage": 192
+  },
+  {
+    "offset": "0x200540",
+    "status_id": 9,
+    "duration": 55556,
+    "damage": 769
+  },
+  {
+    "offset": "0x200570",
+    "status_id": 6,
+    "duration": 1538,
+    "damage": 476
+  },
+  {
+    "offset": "0x200630",
+    "status_id": 11,
+    "duration": 609,
+    "damage": 54014
+  },
+  {
+    "offset": "0x200650",
+    "status_id": 8,
+    "duration": 14536,
+    "damage": 30856
+  },
+  {
+    "offset": "0x200680",
+    "status_id": 5,
+    "duration": 5381,
+    "damage": 49216
+  }
+]

@@ -1,0 +1,874 @@
+[
+  {
+    "offset": "0x6f073",
+    "text": "Guardia F"
+  },
+  {
+    "offset": "0x6f080",
+    "text": "Guardia C"
+  },
+  {
+    "offset": "0x6f1b5",
+    "text": "Robot vil"
+  },
+  {
+    "offset": "0x6f235",
+    "text": "bird"
+  },
+  {
+    "offset": "0xc0d01",
+    "text": "Megablast "
+  },
+  {
+    "offset": "0xc0d9b",
+    "text": "MegatonArm"
+  },
+  {
+    "offset": "0xc0dbc",
+    "text": "Giga Arm  "
+  },
+  {
+    "offset": "0xc0dc7",
+    "text": "Terra Arm "
+  },
+  {
+    "offset": "0xc12d9",
+    "text": "Black Rock"
+  },
+  {
+    "offset": "0xc12e4",
+    "text": "Blue Rock "
+  },
+  {
+    "offset": "0xc12fa",
+    "text": "White Rock"
+  },
+  {
+    "offset": "0xc16b7",
+    "text": "Fire 2    Mega Bomb  "
+  },
+  {
+    "offset": "0xc3104",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc32c6",
+    "text": " guard up"
+  },
+  {
+    "offset": "0xc32dd",
+    "text": " guard up"
+  },
+  {
+    "offset": "0xc3325",
+    "text": "l damage by 1"
+  },
+  {
+    "offset": "0xc3b39",
+    "text": "2x damage"
+  },
+  {
+    "offset": "0xc3b83",
+    "text": "e damage "
+  },
+  {
+    "offset": "0xc3c44",
+    "text": " damage "
+  },
+  {
+    "offset": "0xc3c55",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3c81",
+    "text": " damage "
+  },
+  {
+    "offset": "0xc3c93",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3d20",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3d73",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3ddd",
+    "text": "r damage"
+  },
+  {
+    "offset": "0xc3e30",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3e53",
+    "text": "r damage"
+  },
+  {
+    "offset": "0xc3e5c",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3e76",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3e8b",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3e9e",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3eb2",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3edb",
+    "text": "Damage "
+  },
+  {
+    "offset": "0xc3f05",
+    "text": " magic damage"
+  },
+  {
+    "offset": "0xc4269",
+    "text": " 2x damage "
+  },
+  {
+    "offset": "0xc4284",
+    "text": " damage "
+  },
+  {
+    "offset": "0xc6500",
+    "text": "Nu         Reptite    Terrasaur  Kilwala    Krawlie    Hench      Omicrone   Martello   Bellbird   Panel      Mammon M"
+  },
+  {
+    "offset": "0xc6846",
+    "text": "pole     Croaker    Amphibite  Bull Frog  Mad Bat    Vamp       Scouter    Flyclops   Bugger     Debugger   Debuggest  Sorcerer   Jinn       Barghest              Crater     Volcano    Shitake    Hetake     Rubble                Shist      Pahoehoe   Nereid                Mohavor    Shadow                Base       Acid       Alkaline   Ion        Anion      Thrasher              Lavos SpawnLasher     Goblin     Ogre       Cave Bat   Ogan       Flunky     Groupie                          Winged Ape Cave Ape   Megasaur   Omnicrone  Beast      Blue Beast Red Beast  Turret     Lizardactyl           Avian Rex  Blob       Alien      Rat        Gremlin    Runner     Proto 2    Proto 3    Proto 4    Bug        Beetle     Goon       Cyrus      Yakra      Rain Frog  Gato       Dragon TankGrinder    Golem      Synchrite  Masa       Mune       Masa "
+  },
+  {
+    "offset": "0xc6f55",
+    "text": "                 Roly BomberGolem Boss Johnny     Basher     Son of Sun            R Series   Magus      Magus       "
+  },
+  {
+    "offset": "0xccd95",
+    "text": "pairs damage"
+  },
+  {
+    "offset": "0xcd4aa",
+    "text": " damage"
+  },
+  {
+    "offset": "0xcd53e",
+    "text": "Golem Boss"
+  },
+  {
+    "offset": "0xcd615",
+    "text": " GolemBoss"
+  },
+  {
+    "offset": "0xcdd2f",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcdd53",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcdd6b",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcdd80",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcdd8e",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcdd9c",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcddaa",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0xcddb8",
+    "text": "GolemBoss "
+  },
+  {
+    "offset": "0x1619b3",
+    "text": "PbAT"
+  },
+  {
+    "offset": "0x18d106",
+    "text": "GUARDIA"
+  },
+  {
+    "offset": "0x18d17d",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x18d191",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x18d2ca",
+    "text": "En guarde"
+  },
+  {
+    "offset": "0x18dbf5",
+    "text": " GolemBoss"
+  },
+  {
+    "offset": "0x18e87c",
+    "text": "y bugs "
+  },
+  {
+    "offset": "0x18f1b6",
+    "text": "y damage"
+  },
+  {
+    "offset": "0x1ec4e9",
+    "text": "bird"
+  },
+  {
+    "offset": "0x1ec6e5",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x1ec7ed",
+    "text": "ll safeguard my d"
+  },
+  {
+    "offset": "0x1ecd12",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x1ecd63",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1ecda2",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1ece44",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x1ecead",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x1ecf16",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x1ecf41",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x1ecf72",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x1ed469",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1ed4af",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1eda9c",
+    "text": " bug "
+  },
+  {
+    "offset": "0x1edacc",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1edb05",
+    "text": " Boss"
+  },
+  {
+    "offset": "0x1edb24",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1edb50",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1edbaa",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1edc0b",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x1eddda",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x1ee4e7",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x1ee5af",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x1ee5c2",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x1ef1a7",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x1ef1bf",
+    "text": " Guardia C"
+  },
+  {
+    "offset": "0x1ef7f5",
+    "text": " Guardia C"
+  },
+  {
+    "offset": "0x1ef824",
+    "text": "m Guardia"
+  },
+  {
+    "offset": "0x1ef89c",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x36adcc",
+    "text": " Guardia l"
+  },
+  {
+    "offset": "0x36b6bb",
+    "text": "KING GUARDIA"
+  },
+  {
+    "offset": "0x36b738",
+    "text": "KING GUARDIA"
+  },
+  {
+    "offset": "0x36b842",
+    "text": "KING GUARDIA"
+  },
+  {
+    "offset": "0x36b87b",
+    "text": "KING GUARDIA"
+  },
+  {
+    "offset": "0x36b8dd",
+    "text": "KING GUARDIA XXI"
+  },
+  {
+    "offset": "0x36b8fa",
+    "text": "KING GUARDIA"
+  },
+  {
+    "offset": "0x36ba9f",
+    "text": " Guardia "
+  },
+  {
+    "offset": "0x36c0b5",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x370cbb",
+    "text": " Guardia "
+  },
+  {
+    "offset": "0x370fed",
+    "text": " guard "
+  },
+  {
+    "offset": "0x37125c",
+    "text": "r damage"
+  },
+  {
+    "offset": "0x371555",
+    "text": "r guard"
+  },
+  {
+    "offset": "0x371615",
+    "text": "r guard "
+  },
+  {
+    "offset": "0x371633",
+    "text": "e damage"
+  },
+  {
+    "offset": "0x371acd",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x371df7",
+    "text": "Guardia "
+  },
+  {
+    "offset": "0x372392",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x3723ee",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x37262c",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x372661",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x3726b2",
+    "text": "ROBOTS"
+  },
+  {
+    "offset": "0x3726c3",
+    "text": "ROBOTS"
+  },
+  {
+    "offset": "0x372792",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x3727b3",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x3727d4",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x3727e7",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x3727ff",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372813",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372e14",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372e2c",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372e95",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372ec7",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372f17",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372f44",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x372fe2",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x3740b1",
+    "text": "   Guard Ma"
+  },
+  {
+    "offset": "0x3741a6",
+    "text": "bot guard"
+  },
+  {
+    "offset": "0x3741de",
+    "text": " 2 guards "
+  },
+  {
+    "offset": "0x3742b8",
+    "text": "l guard"
+  },
+  {
+    "offset": "0x3743fb",
+    "text": "ROBOT"
+  },
+  {
+    "offset": "0x3756d6",
+    "text": "bot guards"
+  },
+  {
+    "offset": "0x3760b4",
+    "text": "Guardia K"
+  },
+  {
+    "offset": "0x37691d",
+    "text": "Guardia F"
+  },
+  {
+    "offset": "0x378059",
+    "text": "r guard up"
+  },
+  {
+    "offset": "0x378f97",
+    "text": "damage"
+  },
+  {
+    "offset": "0x379609",
+    "text": " 10 MegaElixirs"
+  },
+  {
+    "offset": "0x37ab8e",
+    "text": "bird"
+  },
+  {
+    "offset": "0x37abea",
+    "text": "bird"
+  },
+  {
+    "offset": "0x37abf0",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37af47",
+    "text": "bird"
+  },
+  {
+    "offset": "0x37afba",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x37b0ca",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x37b138",
+    "text": " guard"
+  },
+  {
+    "offset": "0x37b14e",
+    "text": " guard OFF GUARD"
+  },
+  {
+    "offset": "0x37b173",
+    "text": " guard "
+  },
+  {
+    "offset": "0x37b215",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x37b9d5",
+    "text": " bird"
+  },
+  {
+    "offset": "0x37baef",
+    "text": "bird"
+  },
+  {
+    "offset": "0x37bb9e",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bbb8",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bbf2",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bc39",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bc68",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bca4",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bce1",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37bd5f",
+    "text": " Guardia "
+  },
+  {
+    "offset": "0x37be14",
+    "text": " guard"
+  },
+  {
+    "offset": "0x37c36e",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37c549",
+    "text": " boss"
+  },
+  {
+    "offset": "0x37c651",
+    "text": "We MUST guard "
+  },
+  {
+    "offset": "0x37c923",
+    "text": " guard"
+  },
+  {
+    "offset": "0x37cb30",
+    "text": "KING GUARDIA"
+  },
+  {
+    "offset": "0x37cd60",
+    "text": " Guardia "
+  },
+  {
+    "offset": "0x37d315",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37ddf2",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x37e1fc",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37e20e",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37e31e",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37e398",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37e3cd",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37e3f0",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37e418",
+    "text": " Guardia XXXIII"
+  },
+  {
+    "offset": "0x37e59b",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x37ee34",
+    "text": " jail guardi"
+  },
+  {
+    "offset": "0x37f1f6",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x384e15",
+    "text": " Guards"
+  },
+  {
+    "offset": "0x3851d4",
+    "text": "pairs body damage"
+  },
+  {
+    "offset": "0x3851fd",
+    "text": "damage by L"
+  },
+  {
+    "offset": "0x38523c",
+    "text": "                     Guardia R "
+  },
+  {
+    "offset": "0x38544f",
+    "text": "m Guardia"
+  },
+  {
+    "offset": "0x385703",
+    "text": "ll DESTROY "
+  },
+  {
+    "offset": "0x3858bc",
+    "text": "r guard"
+  },
+  {
+    "offset": "0x386b80",
+    "text": " boss"
+  },
+  {
+    "offset": "0x386b8d",
+    "text": " boss"
+  },
+  {
+    "offset": "0x3870b3",
+    "text": "boss "
+  },
+  {
+    "offset": "0x3871b2",
+    "text": "guard "
+  },
+  {
+    "offset": "0x3892cb",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x3896db",
+    "text": " guardi"
+  },
+  {
+    "offset": "0x389b10",
+    "text": " BOSS"
+  },
+  {
+    "offset": "0x389c43",
+    "text": " boss"
+  },
+  {
+    "offset": "0x389d11",
+    "text": " boss "
+  },
+  {
+    "offset": "0x39b48f",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x39b4c2",
+    "text": "e guard "
+  },
+  {
+    "offset": "0x39b9f5",
+    "text": " Guardia"
+  },
+  {
+    "offset": "0x39c054",
+    "text": " guard"
+  },
+  {
+    "offset": "0x39d9c6",
+    "text": "bird "
+  },
+  {
+    "offset": "0x39ea81",
+    "text": " guard d"
+  },
+  {
+    "offset": "0x3cdce7",
+    "text": " guard w"
+  },
+  {
+    "offset": "0x3cdf6d",
+    "text": "e boss "
+  },
+  {
+    "offset": "0x3ce2d6",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x3ce499",
+    "text": "n Guardia XXI"
+  },
+  {
+    "offset": "0x3ceb3f",
+    "text": "GUARD"
+  },
+  {
+    "offset": "0x3f50b8",
+    "text": "THE 9999 damage po"
+  },
+  {
+    "offset": "0x3f5d8f",
+    "text": "bird"
+  },
+  {
+    "offset": "0x3f65f7",
+    "text": "bird"
+  },
+  {
+    "offset": "0x3f7143",
+    "text": " bird"
+  },
+  {
+    "offset": "0x3f7538",
+    "text": "guard"
+  },
+  {
+    "offset": "0x3f755f",
+    "text": "guardi"
+  },
+  {
+    "offset": "0x3f79cb",
+    "text": "SOLDIER"
+  },
+  {
+    "offset": "0x3f83d4",
+    "text": "BOSS"
+  },
+  {
+    "offset": "0x3f848d",
+    "text": "damage m"
+  },
+  {
+    "offset": "0x3fd156",
+    "text": "  The Rare Red Rock"
+  },
+  {
+    "offset": "0x3fd26e",
+    "text": "     The Final Battle"
+  },
+  {
+    "offset": "0x3fd46a",
+    "text": "Battle Mode"
+  },
+  {
+    "offset": "0x3fd488",
+    "text": "Save Battle Cursor"
+  },
+  {
+    "offset": "0x3fd4b4",
+    "text": "Battle Speed"
+  },
+  {
+    "offset": "0x3fd4ce",
+    "text": "Battle Gauge"
+  },
+  {
+    "offset": "0x3fd4f8",
+    "text": "Battle Gauge Speed"
+  },
+  {
+    "offset": "0x3fd50b",
+    "text": "Battle Mes"
+  }
+]

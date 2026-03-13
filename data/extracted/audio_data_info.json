@@ -1,0 +1,18 @@
+{
+  "Chrono Trigger": {
+    "music_markers": 3,
+    "instrument_markers": 0,
+    "sample_regions": 1672,
+    "note": "Custom SNES SPC engine - no SPC files embedded"
+  },
+  "Chrono Cross": {
+    "xa_markers": 8,
+    "adpcm_candidates": 185269,
+    "audio_sectors": 0,
+    "note": "PS1 uses XA/ADPCM audio in CD sectors"
+  },
+  "Radical Dreamers": {
+    "music_markers": 0,
+    "note": "Custom SPC-like audio"
+  }
+}

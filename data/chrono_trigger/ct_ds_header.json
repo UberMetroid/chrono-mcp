@@ -1,0 +1,10 @@
+{
+  "arm9_offset": "0x4000",
+  "arm9_size": 33556480,
+  "arm7_offset": "0x2000000",
+  "arm7_size": 262152,
+  "fnt_offset": "0x178a00",
+  "fnt_size": 174420,
+  "fat_offset": "0x1a3400",
+  "fat_size": 83200
+}

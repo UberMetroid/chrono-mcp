@@ -1,0 +1,301 @@
+{
+  "game": "Chrono Cross",
+  "platforms": [
+    "PS1"
+  ],
+  "release_year": 1999,
+  "developer": "Square",
+  "characters": [
+    {
+      "id": 0,
+      "name": "Serge",
+      "hp": 180,
+      "mp": 30,
+      "str": 18,
+      "def": 10,
+      "weapon": "sword",
+      "element": "white",
+      "first": true
+    },
+    {
+      "id": 1,
+      "name": "Kid",
+      "hp": 150,
+      "mp": 45,
+      "str": 12,
+      "def": 8,
+      "weapon": "dagger",
+      "element": "red",
+      "first": true
+    },
+    {
+      "id": 2,
+      "name": "Guinevere",
+      "hp": 160,
+      "mp": 50,
+      "str": 14,
+      "def": 9,
+      "weapon": "staff",
+      "element": "blue",
+      "first": true
+    },
+    {
+      "id": 3,
+      "name": "Harle",
+      "hp": 170,
+      "mp": 35,
+      "str": 16,
+      "def": 12,
+      "weapon": "sword",
+      "element": "black"
+    },
+    {
+      "id": 4,
+      "name": "Riddel",
+      "hp": 155,
+      "mp": 40,
+      "str": 15,
+      "def": 8,
+      "weapon": "bow",
+      "element": "green"
+    },
+    {
+      "id": 5,
+      "name": "Machina",
+      "hp": 200,
+      "mp": 20,
+      "str": 22,
+      "def": 15,
+      "weapon": "fist",
+      "element": "yellow"
+    },
+    {
+      "id": 6,
+      "name": "Karsh",
+      "hp": 190,
+      "mp": 25,
+      "str": 20,
+      "def": 14,
+      "weapon": "sword",
+      "element": "red"
+    },
+    {
+      "id": 7,
+      "name": "Zoah",
+      "hp": 210,
+      "mp": 15,
+      "str": 25,
+      "def": 12,
+      "weapon": "fist",
+      "element": "yellow"
+    },
+    {
+      "id": 8,
+      "name": "Marcy",
+      "hp": 140,
+      "mp": 55,
+      "str": 10,
+      "def": 6,
+      "weapon": "staff",
+      "element": "blue"
+    },
+    {
+      "id": 9,
+      "name": "Orl",
+      "hp": 175,
+      "mp": 30,
+      "str": 17,
+      "def": 10,
+      "weapon": "sword",
+      "element": "white"
+    },
+    {
+      "id": 10,
+      "name": "Miki",
+      "hp": 160,
+      "mp": 35,
+      "str": 14,
+      "def": 9,
+      "weapon": "fist",
+      "element": "green"
+    },
+    {
+      "id": 11,
+      "name": "Poshul",
+      "hp": 220,
+      "mp": 20,
+      "str": 18,
+      "def": 12,
+      "weapon": "fist",
+      "element": "red"
+    },
+    {
+      "id": 12,
+      "name": "Glenn",
+      "hp": 165,
+      "mp": 30,
+      "str": 16,
+      "def": 9,
+      "weapon": "sword",
+      "element": "green"
+    },
+    {
+      "id": 13,
+      "name": "Fargo",
+      "hp": 145,
+      "mp": 45,
+      "str": 12,
+      "def": 7,
+      "weapon": "dagger",
+      "element": "blue"
+    },
+    {
+      "id": 14,
+      "name": "Van",
+      "hp": 170,
+      "mp": 35,
+      "str": 15,
+      "def": 10,
+      "weapon": "sword",
+      "element": "black"
+    }
+  ],
+  "elements": [
+    {
+      "id": 0,
+      "name": "Fire",
+      "color": "red",
+      "weakness": "water",
+      "attack": "red"
+    },
+    {
+      "id": 1,
+      "name": "Water",
+      "color": "blue",
+      "weakness": "lightning",
+      "attack": "blue"
+    },
+    {
+      "id": 2,
+      "name": "Lightning",
+      "color": "yellow",
+      "weakness": "water",
+      "attack": "yellow"
+    },
+    {
+      "id": 3,
+      "name": "Ice",
+      "color": "cyan",
+      "weakness": "fire",
+      "attack": "cyan"
+    },
+    {
+      "id": 4,
+      "name": "Earth",
+      "color": "brown",
+      "weakness": "wind",
+      "attack": "brown"
+    },
+    {
+      "id": 5,
+      "name": "Wind",
+      "color": "green",
+      "weakness": "earth",
+      "attack": "green"
+    },
+    {
+      "id": 6,
+      "name": "Holy",
+      "color": "white",
+      "weakness": "dark",
+      "attack": "white"
+    },
+    {
+      "id": 7,
+      "name": "Dark",
+      "color": "purple",
+      "weakness": "holy",
+      "attack": "purple"
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Home",
+      "world": "Home",
+      "type": "village"
+    },
+    {
+      "id": 1,
+      "name": "Dead Sea",
+      "world": "Home",
+      "type": "dungeon"
+    },
+    {
+      "id": 2,
+      "name": "Waterway",
+      "world": "Home",
+      "type": "dungeon"
+    },
+    {
+      "id": 3,
+      "name": "Fort Dragonia",
+      "world": "Home",
+      "type": "fort"
+    },
+    {
+      "id": 4,
+      "name": "Guldove",
+      "world": "Home",
+      "type": "village"
+    },
+    {
+      "id": 5,
+      "name": "Terminus",
+      "world": "Home",
+      "type": "town"
+    },
+    {
+      "id": 6,
+      "name": "Sea of Eden",
+      "world": "Home",
+      "type": "dungeon"
+    },
+    {
+      "id": 7,
+      "name": "Another World",
+      "world": "Another",
+      "type": "world"
+    },
+    {
+      "id": 8,
+      "name": "Shadow",
+      "world": "Another",
+      "type": "dungeon"
+    },
+    {
+      "id": 9,
+      "name": "Rain",
+      "world": "Another",
+      "type": "town"
+    },
+    {
+      "id": 10,
+      "name": "Marbule",
+      "world": "Home",
+      "type": "village"
+    },
+    {
+      "id": 11,
+      "name": "Sky Dragon",
+      "world": "Another",
+      "type": "dungeon"
+    },
+    {
+      "id": 12,
+      "name": "Dimensional Vortex",
+      "world": "Both",
+      "type": "dungeon"
+    }
+  ]
+}

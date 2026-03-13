@@ -1,0 +1,26 @@
+[
+  {
+    "offset": "0x1e0000",
+    "char1_hp": 758,
+    "char2_hp": 756,
+    "sample": "f6020000f402f5020000000023034f000503000003030403000000005e005f00"
+  },
+  {
+    "offset": "0x1e6000",
+    "char1_hp": 115,
+    "char2_hp": 126,
+    "sample": "730000007e007200820083007600810007dcf7dc05ecf5ec000000007000ca40"
+  },
+  {
+    "offset": "0x1e8000",
+    "char1_hp": 40,
+    "char2_hp": 14,
+    "sample": "28000e000e000e0028000e00270028000e000e000e000e00b8def1cbb5f5e2cb"
+  },
+  {
+    "offset": "0x1fa000",
+    "char1_hp": 7312,
+    "char2_hp": 7617,
+    "sample": "901c8437c11d13001d57d8808ff17cbd00cf6ff37bcc2ee3ec60f308377f10e0"
+  }
+]

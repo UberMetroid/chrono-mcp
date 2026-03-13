@@ -1,0 +1,30 @@
+[
+  {
+    "offset": "0x25ef48",
+    "text": "quipped!"
+  },
+  {
+    "offset": "0x25ef52",
+    "text": "SAVE DATA TO YOUR MEMORY CARD."
+  },
+  {
+    "offset": "0x25ef72",
+    "text": "LOAD DATA FROM YOUR MEMORY CARD."
+  },
+  {
+    "offset": "0x25ef94",
+    "text": "SELECT A MEMORY CARD SLOT TO USE..."
+  },
+  {
+    "offset": "0x25efbb",
+    "text": "MEMORY CARD SLOT 1"
+  },
+  {
+    "offset": "0x25efd1",
+    "text": "MEMORY CARD SLOT 2"
+  },
+  {
+    "offset": "0x25efe5",
+    "text": "CHECKING THE MEMORY CARD"
+  }
+]

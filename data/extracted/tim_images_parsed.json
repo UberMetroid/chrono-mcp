@@ -1,0 +1,802 @@
+[
+  {
+    "type": "24-bit",
+    "width": 7,
+    "height": 772,
+    "pixel_size": 16212,
+    "palette_size": 0,
+    "offset": 11812
+  },
+  {
+    "type": "8-bit",
+    "width": 47,
+    "height": 608,
+    "pixel_size": 28576,
+    "palette_size": 512,
+    "offset": 23548
+  },
+  {
+    "type": "4-bit",
+    "width": 28,
+    "height": 1,
+    "pixel_size": 14,
+    "palette_size": 32,
+    "offset": 92000
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 10,
+    "pixel_size": 600,
+    "palette_size": 0,
+    "offset": 92008
+  },
+  {
+    "type": "16-bit",
+    "width": 32,
+    "height": 57,
+    "pixel_size": 3648,
+    "palette_size": 0,
+    "offset": 92024
+  },
+  {
+    "type": "16-bit",
+    "width": 32,
+    "height": 28,
+    "pixel_size": 1792,
+    "palette_size": 0,
+    "offset": 92260
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 92272
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 92276
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 92280
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 92616
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 92708
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 92712
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 92716
+  },
+  {
+    "type": "4-bit",
+    "width": 40,
+    "height": 10,
+    "pixel_size": 200,
+    "palette_size": 32,
+    "offset": 92720
+  },
+  {
+    "type": "8-bit",
+    "width": 16,
+    "height": 255,
+    "pixel_size": 4080,
+    "palette_size": 512,
+    "offset": 92984
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 93192
+  },
+  {
+    "type": "8-bit",
+    "width": 16,
+    "height": 255,
+    "pixel_size": 4080,
+    "palette_size": 512,
+    "offset": 93296
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 93548
+  },
+  {
+    "type": "4-bit",
+    "width": 6,
+    "height": 20,
+    "pixel_size": 60,
+    "palette_size": 32,
+    "offset": 93568
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 93632
+  },
+  {
+    "type": "4-bit",
+    "width": 24,
+    "height": 28,
+    "pixel_size": 336,
+    "palette_size": 32,
+    "offset": 93744
+  },
+  {
+    "type": "8-bit",
+    "width": 28,
+    "height": 32,
+    "pixel_size": 896,
+    "palette_size": 512,
+    "offset": 93748
+  },
+  {
+    "type": "16-bit",
+    "width": 32,
+    "height": 36,
+    "pixel_size": 2304,
+    "palette_size": 0,
+    "offset": 93752
+  },
+  {
+    "type": "24-bit",
+    "width": 36,
+    "height": 40,
+    "pixel_size": 4320,
+    "palette_size": 0,
+    "offset": 93756
+  },
+  {
+    "type": "4-bit",
+    "width": 24,
+    "height": 28,
+    "pixel_size": 336,
+    "palette_size": 32,
+    "offset": 94108
+  },
+  {
+    "type": "8-bit",
+    "width": 28,
+    "height": 32,
+    "pixel_size": 896,
+    "palette_size": 512,
+    "offset": 94112
+  },
+  {
+    "type": "16-bit",
+    "width": 32,
+    "height": 36,
+    "pixel_size": 2304,
+    "palette_size": 0,
+    "offset": 94116
+  },
+  {
+    "type": "24-bit",
+    "width": 36,
+    "height": 40,
+    "pixel_size": 4320,
+    "palette_size": 0,
+    "offset": 94120
+  },
+  {
+    "type": "16-bit",
+    "width": 28,
+    "height": 27,
+    "pixel_size": 1512,
+    "palette_size": 0,
+    "offset": 94168
+  },
+  {
+    "type": "24-bit",
+    "width": 16,
+    "height": 26,
+    "pixel_size": 1248,
+    "palette_size": 0,
+    "offset": 94176
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 94296
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 94300
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 94304
+  },
+  {
+    "type": "16-bit",
+    "width": 32,
+    "height": 65,
+    "pixel_size": 4160,
+    "palette_size": 0,
+    "offset": 95080
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 95360
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 95364
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 95368
+  },
+  {
+    "type": "4-bit",
+    "width": 20,
+    "height": 24,
+    "pixel_size": 240,
+    "palette_size": 32,
+    "offset": 95748
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 96012
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 96016
+  },
+  {
+    "type": "24-bit",
+    "width": 40,
+    "height": 16,
+    "pixel_size": 1920,
+    "palette_size": 0,
+    "offset": 96084
+  },
+  {
+    "type": "4-bit",
+    "width": 1,
+    "height": 19,
+    "pixel_size": 9,
+    "palette_size": 32,
+    "offset": 96096
+  },
+  {
+    "type": "4-bit",
+    "width": 2,
+    "height": 14,
+    "pixel_size": 14,
+    "palette_size": 32,
+    "offset": 96136
+  },
+  {
+    "type": "24-bit",
+    "width": 8,
+    "height": 48,
+    "pixel_size": 1152,
+    "palette_size": 0,
+    "offset": 96564
+  },
+  {
+    "type": "4-bit",
+    "width": 256,
+    "height": 20,
+    "pixel_size": 2560,
+    "palette_size": 32,
+    "offset": 96612
+  },
+  {
+    "type": "8-bit",
+    "width": 32,
+    "height": 16,
+    "pixel_size": 512,
+    "palette_size": 512,
+    "offset": 96624
+  },
+  {
+    "type": "24-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 96672
+  },
+  {
+    "type": "4-bit",
+    "width": 16,
+    "height": 20,
+    "pixel_size": 160,
+    "palette_size": 32,
+    "offset": 96724
+  },
+  {
+    "type": "4-bit",
+    "width": 1,
+    "height": 32,
+    "pixel_size": 16,
+    "palette_size": 32,
+    "offset": 96732
+  },
+  {
+    "type": "8-bit",
+    "width": 32,
+    "height": 16,
+    "pixel_size": 512,
+    "palette_size": 512,
+    "offset": 96736
+  },
+  {
+    "type": "24-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 96784
+  },
+  {
+    "type": "4-bit",
+    "width": 25,
+    "height": 26,
+    "pixel_size": 325,
+    "palette_size": 32,
+    "offset": 96888
+  },
+  {
+    "type": "8-bit",
+    "width": 36,
+    "height": 32,
+    "pixel_size": 1152,
+    "palette_size": 512,
+    "offset": 96952
+  },
+  {
+    "type": "16-bit",
+    "width": 32,
+    "height": 28,
+    "pixel_size": 1792,
+    "palette_size": 0,
+    "offset": 96956
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 96968
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 96972
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 96976
+  },
+  {
+    "type": "4-bit",
+    "width": 18,
+    "height": 8,
+    "pixel_size": 72,
+    "palette_size": 32,
+    "offset": 97044
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 24,
+    "pixel_size": 768,
+    "palette_size": 0,
+    "offset": 97232
+  },
+  {
+    "type": "4-bit",
+    "width": 32,
+    "height": 8,
+    "pixel_size": 128,
+    "palette_size": 32,
+    "offset": 97240
+  },
+  {
+    "type": "4-bit",
+    "width": 4,
+    "height": 8,
+    "pixel_size": 16,
+    "palette_size": 32,
+    "offset": 98824
+  },
+  {
+    "type": "4-bit",
+    "width": 2,
+    "height": 3,
+    "pixel_size": 3,
+    "palette_size": 32,
+    "offset": 99236
+  },
+  {
+    "type": "8-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 99532
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 99536
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 99540
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 99632
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 99684
+  },
+  {
+    "type": "8-bit",
+    "width": 3,
+    "height": 4,
+    "pixel_size": 12,
+    "palette_size": 512,
+    "offset": 99712
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 99756
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 99808
+  },
+  {
+    "type": "8-bit",
+    "width": 7,
+    "height": 3,
+    "pixel_size": 21,
+    "palette_size": 512,
+    "offset": 99888
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 4,
+    "pixel_size": 128,
+    "palette_size": 0,
+    "offset": 99904
+  },
+  {
+    "type": "4-bit",
+    "width": 5,
+    "height": 5,
+    "pixel_size": 12,
+    "palette_size": 32,
+    "offset": 99912
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 100236
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 100240
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 100332
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 20,
+    "pixel_size": 640,
+    "palette_size": 0,
+    "offset": 100344
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 100488
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 100492
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 100496
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 100604
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 100608
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 100756
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 100760
+  },
+  {
+    "type": "4-bit",
+    "width": 2,
+    "height": 8,
+    "pixel_size": 8,
+    "palette_size": 32,
+    "offset": 100788
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 24,
+    "pixel_size": 192,
+    "palette_size": 512,
+    "offset": 101168
+  },
+  {
+    "type": "24-bit",
+    "width": 1,
+    "height": 6,
+    "pixel_size": 18,
+    "palette_size": 0,
+    "offset": 101204
+  },
+  {
+    "type": "4-bit",
+    "width": 24,
+    "height": 8,
+    "pixel_size": 96,
+    "palette_size": 32,
+    "offset": 101448
+  },
+  {
+    "type": "24-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 768,
+    "palette_size": 0,
+    "offset": 101452
+  },
+  {
+    "type": "8-bit",
+    "width": 16,
+    "height": 32,
+    "pixel_size": 512,
+    "palette_size": 512,
+    "offset": 101500
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 101588
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 101592
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 101596
+  },
+  {
+    "type": "4-bit",
+    "width": 20,
+    "height": 32,
+    "pixel_size": 320,
+    "palette_size": 32,
+    "offset": 101644
+  },
+  {
+    "type": "24-bit",
+    "width": 20,
+    "height": 16,
+    "pixel_size": 960,
+    "palette_size": 0,
+    "offset": 101740
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 101744
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 40,
+    "pixel_size": 320,
+    "palette_size": 512,
+    "offset": 101748
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 101840
+  },
+  {
+    "type": "8-bit",
+    "width": 8,
+    "height": 32,
+    "pixel_size": 256,
+    "palette_size": 512,
+    "offset": 101844
+  },
+  {
+    "type": "16-bit",
+    "width": 16,
+    "height": 8,
+    "pixel_size": 256,
+    "palette_size": 0,
+    "offset": 101936
+  }
+]

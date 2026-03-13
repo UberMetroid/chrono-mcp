@@ -1,0 +1,127 @@
+{
+  "filename": "Chrono Trigger (USA) (v1.1) (1999) (Role Playing) (Playstation).bin",
+  "size": 547484448,
+  "text_entries": [
+    {
+      "offset": "0x3200",
+      "text": "\u0004\u0003\u0000 9 \u001b\u0000F\u0000D\u0000A\u0000\u0004\u0003\u0000 9 \u001c\u0000Y\u00007\u0000X\u0000\u0004\u0003\u0000 9 \u001c\u00007\u00006\u0000X\u0000\u0004\u0003\u0000 Bk \u001d"
+    },
+    {
+      "offset": "0x3400",
+      "text": "\u0004\u0003\u0000 Bk +\u0000\\\u0000Z\u0000w\u0000\u0004\u0003\u0000 Bk ,\u0000y\u0000T\u0000x\u0000\u0004\u0003\u0000 Bk ,\u0000T\u0000R\u0000x\u0000\u0004\u0003\u0000 B"
+    },
+    {
+      "offset": "0x9600",
+      "text": "2003041017512974$0000000000000000\u00000000000000000000"
+    },
+    {
+      "offset": "0xe600",
+      "text": "VIE.BIN\u0000BIN\\INIT00.BIN\u0000\u0000GAME2\\MINIGAME.BIN\u0000\u0000GAME2\\"
+    },
+    {
+      "offset": "0xf000",
+      "text": "*\u00073\u0007=\u0007H\u0007R\u0007\\\u0007f\u0007p\u0007{\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007snd\\crobgm.bin\u0000\u0000snd\\omkbg"
+    },
+    {
+      "offset": "0xf600",
+      "text": "$g\u0004$g\u0004SPU:T/O [%s]\n\u0000\u0000\u0000wait (reset)\u0000\u0000\u0000\u0000wait (wrdy H"
+    },
+    {
+      "offset": "0xfa00",
+      "text": "\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004<\u0004Access Denied. : file already open.\n\u0000\u0000\u0000\u0000"
+    },
+    {
+      "offset": "0xfc00",
+      "text": "ause\u0000\u0000\u0000\u0000CdlStop\u0000CdlStandby\u0000\u0000CdlReadN\u0000\u0000\u0000\u0000CdlBackwar"
+    },
+    {
+      "offset": "0xfe00",
+      "text": "akoto Exp $\u0000unexpected interrupt(%04x)\n\u0000intr timeo"
+    },
+    {
+      "offset": "0x10000",
+      "text": "...\n\u0000\u0000\u0000\u0000%s:bad RECT\u0000(%d,%d)-(%d,%d)\n\u0000\u0000\u0000\u0000MB\u0018}\bk\u0011B\u0014i"
+    },
+    {
+      "offset": "0x10200",
+      "text": "%08x,&08x)...\n\u0000\u0000PutDispEnv(%08x)...\n\u0000\u0000\u0000\u0000GPU timeou"
+    },
+    {
+      "offset": "0x11200",
+      "text": "b\u0001\u0000\u0005<\u001f4! @\u0002W\u0001\f!(\u0005\u0002\u0001\u0000\u0011<\u001f16!\u0011\u0002\u0006\u0002<H&B!  \u0002@(\u0002\u0000!(\u0000(\u0005\u0000#("
+    },
+    {
+      "offset": "0x14a00",
+      "text": "C&\u001d\bvrxrS4Tt\\\u001f.\u0015wo\b^1H\u0018I\u001f\f%\f>be\u001a2VJuLQU\u001fbY[\u000b(K2\\T}"
+    },
+    {
+      "offset": "0x1e600",
+      "text": "NV>=,+\u001bn\n`vk\u000fz/1K)( \u001c\u001e)+suZ}3Yp\u0015C2$\u0011c\u0018C\u0017j<\u001a\u0004L|M!L-"
+    },
+    {
+      "offset": "0x20200",
+      "text": "<\u0017X\u0005.\u00001(oUs4KiMM-\u0010\u001f~d`;3j@>\u001ez\u0016ZBMR\u0017+R4\u0013)):`p\u0000Ke0\fV"
+    },
+    {
+      "offset": "0x21400",
+      "text": "\u00136lT\u0016d$OC,)V{\u001b) q<>~\u0001)Cnh?}\u000bl\u0015b0\u0007\u0016NO\r%Q\n{vB ftTb'1"
+    },
+    {
+      "offset": "0x2cc00",
+      "text": "5vpP`et5!munEIe!Ng\u001e.?o5xb\u0013o~\u0000_$jUpJ\u001f=FZ7K/5pH\u0012$q*G"
+    },
+    {
+      "offset": "0x2fa00",
+      "text": "{]\u000fo_8*^Ynj\u001fx\n2.\u0011]>?\u001eJ,8\u0015<\t\u0014Th\u0011Y)VA\u007f;&kvXNFu\u0011]uq\u001c\r"
+    },
+    {
+      "offset": "0x37a00",
+      "text": "!\b\u0000 \u001c H(\u0003\u0004\u0000 \u0010 H\b\u0003 H\u0001>)\u0001MJM\u0017qwYm64/}kvC`\u0012\u0003sm_tJ=\u00123c"
+    },
+    {
+      "offset": "0x38200",
+      "text": "1_LX01_SAV\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0010\u0000\u0000\u0000GAME1_JWKBIN_BIN\u0000"
+    },
+    {
+      "offset": "0x38c00",
+      "text": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000|\u0005\u0001\u0000\u0000CROSTR_CTXMSE03_STR\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005"
+    },
+    {
+      "offset": "0x3c400",
+      "text": "xpjQp{t'\u001d^O;6\rnHUX\u0002Gh\t\\M7?0\"\u0007\u0017UH1/\u001ch*!B^7bw\bK\u0007\t\\7&"
+    },
+    {
+      "offset": "0x3d600",
+      "text": "V0AVA;/U\"g\u0007\u0013g\u001c\u0013g\u0013Tx\u0013Kx\u0013\u001bxv\u0013h\u0003h\u001fRh\u001fhe\u001fh\u0016X(\u0016wX.9qm<B"
+    },
+    {
+      "offset": "0x3f200",
+      "text": "1sn\u0015s\u0000bs\b{\"s\u0013{Js\u0002{f8{{\f{\u000e{{,{6T{\u0005\"{f;|R4\\6n{w-P&n$"
+    },
+    {
+      "offset": "0x40400",
+      "text": "ZaZA8Z 'Z\u0016&Z7Z\u00157WZ^7Z'7mE77C77j77\u0014\u001f7Fef\u000b\fHQgQQQJUQ"
+    },
+    {
+      "offset": "0x41c00",
+      "text": "#\u0001$\u0001$\u0001%\u0001%\u0001&\u0001&\u0001'\u0001'\u0001(\u0001(\u0001)\u0001)\u0001*\u0001*\u0001+\u0001+\u0001,\u0001,\u0001-\u0001-\u0001.\u0001.\u0001/\u0001/\u0001"
+    },
+    {
+      "offset": "0x42000",
+      "text": "#&J&Y&&E&L\u001a&@F\u0014 FSF$FmG\u00051l<z)A\u007fD|w\u0007\u0007T:$+\u0019B*}\u0018}:2Vl"
+    },
+    {
+      "offset": "0x43200",
+      "text": "*\b\u0007tpdlcHAo\u000eT/s^*s\u001avVzul#W\u0011\u0017v\u000fw^<e\u00173,G&~!\u001d\u0018DL\u0010hYHK"
+    },
+    {
+      "offset": "0x45800",
+      "text": "\u0000\u001d[  u||+ t \u0000\u0001F ` \u0000 \u0004%\u000b \u0000\u001d[  |+ t \u0000\u0004FdE ` \u0000  ``\u0001= "
+    },
+    {
+      "offset": "0x47000",
+      "text": "\u0018qCKrCMtCNuC\u000bB`\u0000\u001b!\u001b!\u001c!\u001c!pC4qCKrCMtCNuC\u000bB`x\u0000H\u0000!\u0000\u0000B\u000b"
+    }
+  ],
+  "tim_images": 14
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "ct_sfx_000.wav",
+    "offset": "0x200000"
+  },
+  {
+    "file": "ct_sfx_001.wav",
+    "offset": "0x200100"
+  },
+  {
+    "file": "ct_sfx_002.wav",
+    "offset": "0x200200"
+  },
+  {
+    "file": "ct_sfx_003.wav",
+    "offset": "0x200300"
+  },
+  {
+    "file": "ct_sfx_004.wav",
+    "offset": "0x200600"
+  },
+  {
+    "file": "ct_sfx_005.wav",
+    "offset": "0x200700"
+  },
+  {
+    "file": "ct_sfx_006.wav",
+    "offset": "0x200800"
+  },
+  {
+    "file": "ct_sfx_007.wav",
+    "offset": "0x200900"
+  },
+  {
+    "file": "ct_sfx_008.wav",
+    "offset": "0x200a00"
+  },
+  {
+    "file": "ct_sfx_009.wav",
+    "offset": "0x200b00"
+  },
+  {
+    "file": "ct_sfx_010.wav",
+    "offset": "0x200c00"
+  },
+  {
+    "file": "ct_sfx_011.wav",
+    "offset": "0x200d00"
+  },
+  {
+    "file": "ct_sfx_012.wav",
+    "offset": "0x200e00"
+  },
+  {
+    "file": "ct_sfx_013.wav",
+    "offset": "0x200f00"
+  },
+  {
+    "file": "ct_sfx_014.wav",
+    "offset": "0x201000"
+  },
+  {
+    "file": "ct_sfx_015.wav",
+    "offset": "0x201100"
+  },
+  {
+    "file": "ct_sfx_016.wav",
+    "offset": "0x201200"
+  },
+  {
+    "file": "ct_sfx_017.wav",
+    "offset": "0x201300"
+  },
+  {
+    "file": "ct_sfx_018.wav",
+    "offset": "0x201400"
+  },
+  {
+    "file": "ct_sfx_019.wav",
+    "offset": "0x201500"
+  },
+  {
+    "file": "ct_sfx_020.wav",
+    "offset": "0x201600"
+  },
+  {
+    "file": "ct_sfx_021.wav",
+    "offset": "0x201700"
+  },
+  {
+    "file": "ct_sfx_022.wav",
+    "offset": "0x201800"
+  },
+  {
+    "file": "ct_sfx_023.wav",
+    "offset": "0x201900"
+  },
+  {
+    "file": "ct_sfx_024.wav",
+    "offset": "0x201a00"
+  },
+  {
+    "file": "ct_sfx_025.wav",
+    "offset": "0x201b00"
+  },
+  {
+    "file": "ct_sfx_026.wav",
+    "offset": "0x201c00"
+  },
+  {
+    "file": "ct_sfx_027.wav",
+    "offset": "0x201d00"
+  },
+  {
+    "file": "ct_sfx_028.wav",
+    "offset": "0x201e00"
+  },
+  {
+    "file": "ct_sfx_029.wav",
+    "offset": "0x202200"
+  }
+]

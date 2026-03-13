@@ -1,0 +1,37 @@
+[
+  {
+    "pointer_offset": "0x2c60a4",
+    "target": "0x2e002e",
+    "offset_value": 65582
+  },
+  {
+    "pointer_offset": "0x2c668c",
+    "target": "0x2f007e",
+    "offset_value": 131198
+  },
+  {
+    "pointer_offset": "0x2ca20c",
+    "target": "0x2f1b33",
+    "offset_value": 138035
+  },
+  {
+    "pointer_offset": "0x2ccdd8",
+    "target": "0x2ffe01",
+    "offset_value": 196097
+  },
+  {
+    "pointer_offset": "0x2cd408",
+    "target": "0x2f207b",
+    "offset_value": 139387
+  },
+  {
+    "pointer_offset": "0x2cdd1c",
+    "target": "0x2ffc3c",
+    "offset_value": 195644
+  },
+  {
+    "pointer_offset": "0x2cddd4",
+    "target": "0x2f218d",
+    "offset_value": 139661
+  }
+]

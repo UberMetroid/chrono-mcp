@@ -1,0 +1,2002 @@
+[
+  {
+    "offset": "0x150f52",
+    "text": "@Death"
+  },
+  {
+    "offset": "0x1531ef",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1534a1",
+    "text": "@aware"
+  },
+  {
+    "offset": "0x154027",
+    "text": "fight"
+  },
+  {
+    "offset": "0x154134",
+    "text": "@beasts"
+  },
+  {
+    "offset": "0x154219",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1547c0",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x15496b",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x154a5e",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x154b3e",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x154b83",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x154d0a",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x154f9d",
+    "text": "upwards"
+  },
+  {
+    "offset": "0x154ff9",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1557b2",
+    "text": "@guarding"
+  },
+  {
+    "offset": "0x1557d2",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1558b6",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x155a95",
+    "text": "backwards"
+  },
+  {
+    "offset": "0x155c48",
+    "text": "@aware"
+  },
+  {
+    "offset": "0x155e55",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x15630a",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x156395",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x156a42",
+    "text": "towards"
+  },
+  {
+    "offset": "0x156aeb",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x157629",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x1576a9",
+    "text": "@death"
+  },
+  {
+    "offset": "0x158761",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x158eee",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x159209",
+    "text": "@warn"
+  },
+  {
+    "offset": "0x159810",
+    "text": "@enemy"
+  },
+  {
+    "offset": "0x15a205",
+    "text": "@warmth"
+  },
+  {
+    "offset": "0x15a8e3",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x15a9da",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15b5c2",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15b6fa",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15b84e",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15ba16",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15c4a7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15c71e",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15c7a6",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15c846",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15c8aa",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15cdac",
+    "text": "@warning"
+  },
+  {
+    "offset": "0x15cfa8",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15d131",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15dd8b",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15e50f",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x15e586",
+    "text": "@boss"
+  },
+  {
+    "offset": "0x15ebe6",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x15f5e6",
+    "text": "@boss"
+  },
+  {
+    "offset": "0x15f67e",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x15f70e",
+    "text": "@boss"
+  },
+  {
+    "offset": "0x15f7b4",
+    "text": "@reward"
+  },
+  {
+    "offset": "0x15f7d0",
+    "text": "@boss"
+  },
+  {
+    "offset": "0x1607e6",
+    "text": "skills"
+  },
+  {
+    "offset": "0x160d49",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x160fb7",
+    "text": "@killed"
+  },
+  {
+    "offset": "0x160fc3",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x16170c",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x161a93",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x161cb7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1620a2",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x162709",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16278a",
+    "text": "upwards"
+  },
+  {
+    "offset": "0x1631fe",
+    "text": "@warning"
+  },
+  {
+    "offset": "0x163761",
+    "text": "@death"
+  },
+  {
+    "offset": "0x163b4d",
+    "text": "@Knights"
+  },
+  {
+    "offset": "0x1651be",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1651ed",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x165e1d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x166a60",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x166f54",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x167d63",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x168576",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1685c3",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x168639",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x168867",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1688b4",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16893c",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16980b",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x16a008",
+    "text": "@Warning"
+  },
+  {
+    "offset": "0x16a015",
+    "text": "@Warning"
+  },
+  {
+    "offset": "0x16a0ef",
+    "text": "@enemy"
+  },
+  {
+    "offset": "0x16a109",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16aa0c",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x16aa2b",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x16ac08",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x16af65",
+    "text": "@war"
+  },
+  {
+    "offset": "0x16afbc",
+    "text": "@death"
+  },
+  {
+    "offset": "0x16b05e",
+    "text": "@war"
+  },
+  {
+    "offset": "0x16b2ea",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16b799",
+    "text": "towards"
+  },
+  {
+    "offset": "0x16bd48",
+    "text": "@death"
+  },
+  {
+    "offset": "0x16c394",
+    "text": "@ghost"
+  },
+  {
+    "offset": "0x16d054",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16d8ef",
+    "text": "@ward"
+  },
+  {
+    "offset": "0x16e0f8",
+    "text": "@swarm"
+  },
+  {
+    "offset": "0x16ea49",
+    "text": "@swarm"
+  },
+  {
+    "offset": "0x16f392",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x16f60f",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16f66f",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16f6ea",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16f86b",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16fa57",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16facc",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x16fce2",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x170012",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x170090",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x170226",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x17028b",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1706df",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1708db",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x1709a9",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1709e0",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x170b8c",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x170bfb",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x17107a",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x171319",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x171337",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1713cd",
+    "text": "upwards"
+  },
+  {
+    "offset": "0x17148d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x171644",
+    "text": "@death"
+  },
+  {
+    "offset": "0x172c2b",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x1730f3",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x173b67",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x173e03",
+    "text": "@warmly"
+  },
+  {
+    "offset": "0x174f30",
+    "text": "@upward"
+  },
+  {
+    "offset": "0x175742",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1758c5",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x175e31",
+    "text": "towards"
+  },
+  {
+    "offset": "0x176a10",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x177315",
+    "text": "@killing"
+  },
+  {
+    "offset": "0x177455",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x177511",
+    "text": "@death"
+  },
+  {
+    "offset": "0x17774d",
+    "text": "outward"
+  },
+  {
+    "offset": "0x177ea4",
+    "text": "@inward"
+  },
+  {
+    "offset": "0x177eb1",
+    "text": "@outwards"
+  },
+  {
+    "offset": "0x1781d0",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x17823f",
+    "text": "@death"
+  },
+  {
+    "offset": "0x17828a",
+    "text": "@ghosts"
+  },
+  {
+    "offset": "0x178906",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1789ae",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x178f8b",
+    "text": "@death"
+  },
+  {
+    "offset": "0x178ff4",
+    "text": "@soldiers"
+  },
+  {
+    "offset": "0x179025",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1790db",
+    "text": "@soldiers"
+  },
+  {
+    "offset": "0x1790eb",
+    "text": "@swarmed"
+  },
+  {
+    "offset": "0x17a4b7",
+    "text": "fighting"
+  },
+  {
+    "offset": "0x17a551",
+    "text": "@fightin"
+  },
+  {
+    "offset": "0x17b4e4",
+    "text": "@wary"
+  },
+  {
+    "offset": "0x17b9e5",
+    "text": "death"
+  },
+  {
+    "offset": "0x17c496",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x17d1a6",
+    "text": "@fighting"
+  },
+  {
+    "offset": "0x17d47a",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x17d61d",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x17d9db",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x17ee15",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x17eef0",
+    "text": "@backward"
+  },
+  {
+    "offset": "0x17f1b9",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x17f4e0",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x17f93e",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x17fb06",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x17ff22",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x180c01",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x180cab",
+    "text": "enemy"
+  },
+  {
+    "offset": "0x180f66",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x181914",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18247f",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1824db",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x1825eb",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x18276b",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x1827cf",
+    "text": "guard"
+  },
+  {
+    "offset": "0x182824",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x182974",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x182a53",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x182b57",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x182d44",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x182e69",
+    "text": "skeleton"
+  },
+  {
+    "offset": "0x182ec3",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x182faa",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x183132",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18319d",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x1834f9",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x183615",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x183680",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18384e",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x18397f",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x183bbf",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x183c0b",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1842bd",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x1846a0",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184733",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x18474d",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x1848b1",
+    "text": "@unaware"
+  },
+  {
+    "offset": "0x184a44",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x184a7d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x184a8b",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184acf",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184c5c",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184c6f",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184d77",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184e8e",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x184ede",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x1850b1",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18512a",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x185167",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x18531c",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18532a",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x185594",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1855a2",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x185609",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x185673",
+    "text": "@skeleton"
+  },
+  {
+    "offset": "0x1860b8",
+    "text": "skillful"
+  },
+  {
+    "offset": "0x18617b",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18662a",
+    "text": "@fighting"
+  },
+  {
+    "offset": "0x186738",
+    "text": "@enemy"
+  },
+  {
+    "offset": "0x186a0f",
+    "text": "@combat"
+  },
+  {
+    "offset": "0x18715a",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x187251",
+    "text": "@enemy"
+  },
+  {
+    "offset": "0x187597",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x187a4b",
+    "text": "@war"
+  },
+  {
+    "offset": "0x187a74",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x188449",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x188697",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1888af",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1888e5",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x188ca7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x188d64",
+    "text": "downwards"
+  },
+  {
+    "offset": "0x1894e6",
+    "text": "@downwards"
+  },
+  {
+    "offset": "0x189954",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x189c6b",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x189d4a",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x189e65",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18a103",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18a23c",
+    "text": "@fights"
+  },
+  {
+    "offset": "0x18a3ce",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x18a92d",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x18ac66",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18adab",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x18ae43",
+    "text": "@combat"
+  },
+  {
+    "offset": "0x18b2dd",
+    "text": "@fightin"
+  },
+  {
+    "offset": "0x18b32f",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x18b7b1",
+    "text": "@fighting"
+  },
+  {
+    "offset": "0x18bdee",
+    "text": "guard"
+  },
+  {
+    "offset": "0x18be66",
+    "text": "@wary"
+  },
+  {
+    "offset": "0x18c06c",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18c0df",
+    "text": "@aware"
+  },
+  {
+    "offset": "0x18c2e7",
+    "text": "@warmonger"
+  },
+  {
+    "offset": "0x18c704",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18c794",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18c89b",
+    "text": "@death"
+  },
+  {
+    "offset": "0x18ca0f",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x18cd69",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18cd82",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18ce00",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18ceb5",
+    "text": "@outwards"
+  },
+  {
+    "offset": "0x18cf7e",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18d455",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18d4e5",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18d830",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18d849",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18d8b5",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x18d961",
+    "text": "outward"
+  },
+  {
+    "offset": "0x18da01",
+    "text": "@war"
+  },
+  {
+    "offset": "0x18e52e",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x18e608",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x18e791",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x18e8ad",
+    "text": "@Warlock"
+  },
+  {
+    "offset": "0x18e90c",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x18f643",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x18ff71",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1900a9",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x190622",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x19081f",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x190954",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x191475",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x191d46",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x191d87",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x192385",
+    "text": "@outwards"
+  },
+  {
+    "offset": "0x19239d",
+    "text": "@dwarfing"
+  },
+  {
+    "offset": "0x1923cb",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x192867",
+    "text": "towards"
+  },
+  {
+    "offset": "0x192d79",
+    "text": "@upward"
+  },
+  {
+    "offset": "0x192de2",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x192fd7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1932ad",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1935df",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1936bd",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x195094",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x195119",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x19658a",
+    "text": "@warmth"
+  },
+  {
+    "offset": "0x1971db",
+    "text": "@Towards"
+  },
+  {
+    "offset": "0x1977c2",
+    "text": "towards"
+  },
+  {
+    "offset": "0x199ed0",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x199f36",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x19a2f8",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x19ac11",
+    "text": "@death"
+  },
+  {
+    "offset": "0x19b104",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x19d813",
+    "text": "@Monster"
+  },
+  {
+    "offset": "0x19e59a",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19e645",
+    "text": "@Monster"
+  },
+  {
+    "offset": "0x19e87e",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19e980",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19ebe9",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x19edc0",
+    "text": "@awkward"
+  },
+  {
+    "offset": "0x19efc8",
+    "text": "@kill"
+  },
+  {
+    "offset": "0x19efde",
+    "text": "@kill"
+  },
+  {
+    "offset": "0x19f077",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x19f08d",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19f0ed",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x19f496",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19f5ec",
+    "text": "@warning"
+  },
+  {
+    "offset": "0x19f63e",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19f7a1",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19f7bd",
+    "text": "@kill"
+  },
+  {
+    "offset": "0x19f851",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19fa27",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x19fe6a",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x19ffef",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x1a07f8",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x1a0820",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x1a0ba5",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1a0d45",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a0df7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a11a8",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1a11e3",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x1a1259",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x1a1751",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x1a1a5d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a1a6b",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a1d08",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x1a1e15",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a1f68",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x1a237b",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a2561",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a27e3",
+    "text": "@soldiers"
+  },
+  {
+    "offset": "0x1a2ef1",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a2eff",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1a323e",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a3446",
+    "text": "@outwards"
+  },
+  {
+    "offset": "0x1a37ba",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a3d64",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a4d74",
+    "text": "@kills"
+  },
+  {
+    "offset": "0x1a4edb",
+    "text": "@aware"
+  },
+  {
+    "offset": "0x1a4f01",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a4fe9",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a5008",
+    "text": "@upward"
+  },
+  {
+    "offset": "0x1a57a4",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x1a5863",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a58ec",
+    "text": "@upward"
+  },
+  {
+    "offset": "0x1a5ae4",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a5cb8",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a5cfe",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a5fe3",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a6196",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a61fb",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a6296",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x1a6335",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x1a65ad",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a663b",
+    "text": "@outwards"
+  },
+  {
+    "offset": "0x1a6a71",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a6b79",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a6bbe",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1a6d42",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x1a7060",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x1a776b",
+    "text": "downward"
+  },
+  {
+    "offset": "0x1a7a19",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a7bac",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a7c33",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a7c59",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a7ca1",
+    "text": "@battered"
+  },
+  {
+    "offset": "0x1a7cab",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a7d1d",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1a7dfe",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1a83fc",
+    "text": "monster"
+  },
+  {
+    "offset": "0x1a9379",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x1a9729",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x1a98b9",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x1a9fcf",
+    "text": "monster"
+  },
+  {
+    "offset": "0x1aa6ff",
+    "text": "@dragon"
+  },
+  {
+    "offset": "0x1aab3b",
+    "text": "@Dragon"
+  },
+  {
+    "offset": "0x1aacf2",
+    "text": "@Dragon"
+  },
+  {
+    "offset": "0x1ab137",
+    "text": "Death"
+  },
+  {
+    "offset": "0x1abe2f",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x1abf0c",
+    "text": "@warmth"
+  },
+  {
+    "offset": "0x1abfae",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x1ac8f0",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1acad2",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1acdf8",
+    "text": "@monsters"
+  },
+  {
+    "offset": "0x1acf99",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1ad2dc",
+    "text": "@aware"
+  },
+  {
+    "offset": "0x1ad3c1",
+    "text": "kill"
+  },
+  {
+    "offset": "0x1ad88d",
+    "text": "@wary"
+  },
+  {
+    "offset": "0x1adb4a",
+    "text": "@aware"
+  },
+  {
+    "offset": "0x1ae126",
+    "text": "ghost"
+  },
+  {
+    "offset": "0x1ae4c7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1ae60d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1ae653",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b071d",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x1b0e9f",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x1b139f",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b14aa",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b24d7",
+    "text": "@guards"
+  },
+  {
+    "offset": "0x1b26eb",
+    "text": "guards"
+  },
+  {
+    "offset": "0x1b2944",
+    "text": "@upwards"
+  },
+  {
+    "offset": "0x1b2c45",
+    "text": "@fighting"
+  },
+  {
+    "offset": "0x1b2e19",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b3139",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x1b4111",
+    "text": "@warm"
+  },
+  {
+    "offset": "0x1b509f",
+    "text": "@forward"
+  },
+  {
+    "offset": "0x1b5cf7",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b61d6",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x1b6ca0",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b747f",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1b76b4",
+    "text": "@kill"
+  },
+  {
+    "offset": "0x1b7c77",
+    "text": "reward"
+  },
+  {
+    "offset": "0x1b881a",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1ba18f",
+    "text": "@enemy"
+  },
+  {
+    "offset": "0x1ba7aa",
+    "text": "@awareness"
+  },
+  {
+    "offset": "0x1bb445",
+    "text": "@abate"
+  },
+  {
+    "offset": "0x1bb62d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1bb7fc",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1bc126",
+    "text": "@awkward"
+  },
+  {
+    "offset": "0x1bc7b2",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1bdf3d",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1be74c",
+    "text": "@outwards"
+  },
+  {
+    "offset": "0x1befd5",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1bf021",
+    "text": "@downward"
+  },
+  {
+    "offset": "0x1bf17a",
+    "text": "@battery"
+  },
+  {
+    "offset": "0x1bf895",
+    "text": "@killed"
+  },
+  {
+    "offset": "0x1c124c",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c1287",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x1c138a",
+    "text": "@backwards"
+  },
+  {
+    "offset": "0x1c1508",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1c15ec",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1c17a0",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x1c1905",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c1fb4",
+    "text": "fight"
+  },
+  {
+    "offset": "0x1c205c",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x1c24ec",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c355b",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1c35c3",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c3653",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c375a",
+    "text": "@kill"
+  },
+  {
+    "offset": "0x1c37c0",
+    "text": "towards"
+  },
+  {
+    "offset": "0x1c4828",
+    "text": "death"
+  },
+  {
+    "offset": "0x1c4c99",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c5766",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c683c",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1c694c",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1c6dbf",
+    "text": "@beast"
+  },
+  {
+    "offset": "0x1c8de0",
+    "text": "warp"
+  },
+  {
+    "offset": "0x1c8f46",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1c931c",
+    "text": "@wart"
+  },
+  {
+    "offset": "0x1c93da",
+    "text": "warnings"
+  },
+  {
+    "offset": "0x1cabfd",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1cb2aa",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1cbc7a",
+    "text": "towards"
+  },
+  {
+    "offset": "0x1cbebd",
+    "text": "@ghost"
+  },
+  {
+    "offset": "0x1cc894",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1ccb92",
+    "text": "@skeletons"
+  },
+  {
+    "offset": "0x1cce27",
+    "text": "@ghost"
+  },
+  {
+    "offset": "0x1cce79",
+    "text": "@ghost"
+  },
+  {
+    "offset": "0x1ccee1",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1ccf48",
+    "text": "@unaware"
+  },
+  {
+    "offset": "0x1cd195",
+    "text": "@ghost"
+  },
+  {
+    "offset": "0x1cd6b4",
+    "text": "@ghost"
+  },
+  {
+    "offset": "0x1ce234",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1ced43",
+    "text": "@wary"
+  },
+  {
+    "offset": "0x1cf78d",
+    "text": "@abated"
+  },
+  {
+    "offset": "0x1cfd0c",
+    "text": "death"
+  },
+  {
+    "offset": "0x1d0577",
+    "text": "@$X<Death"
+  },
+  {
+    "offset": "0x1d0895",
+    "text": "@fighting"
+  },
+  {
+    "offset": "0x1d1683",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1d1de0",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1d33c9",
+    "text": "@death"
+  },
+  {
+    "offset": "0x1d3650",
+    "text": "@onwards"
+  },
+  {
+    "offset": "0x1d75de",
+    "text": "@guard"
+  },
+  {
+    "offset": "0x1d83d1",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d83e7",
+    "text": "monster"
+  },
+  {
+    "offset": "0x1d844a",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x1d84e3",
+    "text": "@reward"
+  },
+  {
+    "offset": "0x1d8599",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x1d85b8",
+    "text": "@monsters"
+  },
+  {
+    "offset": "0x1d869b",
+    "text": "@battled"
+  },
+  {
+    "offset": "0x1d86ae",
+    "text": "@monster"
+  },
+  {
+    "offset": "0x1d928e",
+    "text": "@toward"
+  },
+  {
+    "offset": "0x1d9938",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x1d9a0c",
+    "text": "@battle"
+  },
+  {
+    "offset": "0x1d9a50",
+    "text": "@towards"
+  },
+  {
+    "offset": "0x1d9aa4",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9b56",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9b90",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9c27",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9c5b",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9cdd",
+    "text": "@Killing"
+  },
+  {
+    "offset": "0x1d9de7",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9e1b",
+    "text": "@fight"
+  },
+  {
+    "offset": "0x1d9e7b",
+    "text": "Killing"
+  },
+  {
+    "offset": "0x1da180",
+    "text": "@combat"
+  }
+]

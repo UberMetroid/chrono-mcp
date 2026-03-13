@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Guardia Shop",
+    "offset": "0x1c8000",
+    "items": [
+      91,
+      0,
+      0,
+      90,
+      77,
+      0,
+      0,
+      76
+    ]
+  },
+  {
+    "name": "Frogs Shop",
+    "offset": "0x1c8200",
+    "items": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Guru Shop",
+    "offset": "0x1c8400",
+    "items": [
+      0
+    ]
+  },
+  {
+    "name": "Sewers Shop",
+    "offset": "0x1c8600",
+    "items": [
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Factory Shop",
+    "offset": "0x1c8800",
+    "items": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Denadoro Shop",
+    "offset": "0x1c8a00",
+    "items": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

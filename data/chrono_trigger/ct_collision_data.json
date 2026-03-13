@@ -1,0 +1,152 @@
+[
+  {
+    "offset": "0x200000",
+    "unique_tiles": 34,
+    "sample": "b20e2e0001f001f00f00800100c04024e0800e5040c00e00205000300000e080"
+  },
+  {
+    "offset": "0x200240",
+    "unique_tiles": 33,
+    "sample": "397f3f7f73060400e61c06f8fcf0bfc0810210b3cc408060e001000060e0a0e0"
+  },
+  {
+    "offset": "0x200340",
+    "unique_tiles": 36,
+    "sample": "1800c838c838e8380100da030130020300300102a001021008040704d1000607"
+  },
+  {
+    "offset": "0x2003c0",
+    "unique_tiles": 39,
+    "sample": "a6e0a040403f2f3f00271f001f110f0e0302034601024f70477820003f203f10"
+  },
+  {
+    "offset": "0x200440",
+    "unique_tiles": 37,
+    "sample": "7e00393e010e010603054002060404c0001c012000d0701818e840e88030e8e8"
+  },
+  {
+    "offset": "0x200480",
+    "unique_tiles": 39,
+    "sample": "5c63487700607f243f181f090a0502000b180280f8d8f85800e4f88c8c7000d0"
+  },
+  {
+    "offset": "0x200500",
+    "unique_tiles": 36,
+    "sample": "0262120f090809112011121e131f6412090e00111e7000f000f010107040e000"
+  },
+  {
+    "offset": "0x200600",
+    "unique_tiles": 38,
+    "sample": "4a71617fc0935561264620e0c0c0d81332364020c0050107048401000522040a"
+  },
+  {
+    "offset": "0x200900",
+    "unique_tiles": 36,
+    "sample": "00fde6ff7cfb1a887800cc3ce61e6e1eff0140f9007c801ce71ca400432543c2"
+  },
+  {
+    "offset": "0x200c40",
+    "unique_tiles": 39,
+    "sample": "0824de0efe0001cf3d038563180020f8c63fb707000a050001a503031b033d00"
+  },
+  {
+    "offset": "0x200ec0",
+    "unique_tiles": 37,
+    "sample": "0001f003c0c000f050f80028f8a0fc74fc747e00f6c0c030f0c838e4001c641c"
+  },
+  {
+    "offset": "0x200f80",
+    "unique_tiles": 37,
+    "sample": "001474848c000001010007040f0b09071b1610130c370d0e00068f88009c9098"
+  },
+  {
+    "offset": "0x200fc0",
+    "unique_tiles": 36,
+    "sample": "8780c600808604a5817b4b0000000303c6c660636100216d69ca4bcc87000000"
+  },
+  {
+    "offset": "0x201000",
+    "unique_tiles": 39,
+    "sample": "f8e8100060c0b0e0d8f0f83000fc18fc888080e0600030101808040ccc0400ea"
+  },
+  {
+    "offset": "0x201180",
+    "unique_tiles": 38,
+    "sample": "304f63c870293080081a1818f0f0e064110060e000e1a0e342f400ec380818f8"
+  },
+  {
+    "offset": "0x201240",
+    "unique_tiles": 37,
+    "sample": "0f070403000100001f180f013f3f41004020301f1804051e001e3420fff0ee20"
+  },
+  {
+    "offset": "0x2019c0",
+    "unique_tiles": 39,
+    "sample": "260a2612c335000166020e063d314f023d00340e045f120e0e0b000b3731524a"
+  },
+  {
+    "offset": "0x201f00",
+    "unique_tiles": 35,
+    "sample": "612070f209de21249c0020a020402060d82240d821ec11e71840602340002000"
+  },
+  {
+    "offset": "0x201f40",
+    "unique_tiles": 36,
+    "sample": "7c207e207f200359710220223f103f081fe40707578008140e7090514030827f"
+  },
+  {
+    "offset": "0x201f80",
+    "unique_tiles": 30,
+    "sample": "00fd00fc00fc0010fc10f810f860f000c0e00000080088800018801810002050"
+  },
+  {
+    "offset": "0x202080",
+    "unique_tiles": 34,
+    "sample": "22e510710838012010f30478003f801e02c120500004828040c02420e120503f"
+  },
+  {
+    "offset": "0x2020c0",
+    "unique_tiles": 36,
+    "sample": "f0005e019020e040c03f3340801e125e201b004f03a051a851009e01032224a6"
+  },
+  {
+    "offset": "0x202100",
+    "unique_tiles": 31,
+    "sample": "0140f040702480307842000f4000440040104400a000a0800028a0082088f920"
+  },
+  {
+    "offset": "0x202140",
+    "unique_tiles": 33,
+    "sample": "ff0200022080f768f780400000ee01fc01f0000101020007001f3f407f8160fc"
+  },
+  {
+    "offset": "0x202180",
+    "unique_tiles": 30,
+    "sample": "f040f040f0a43000d303060001f001f00000010402400402844184620d200100"
+  },
+  {
+    "offset": "0x2021c0",
+    "unique_tiles": 31,
+    "sample": "0018007710ff63407f8fff7f8f0e5b200700000f001f007f007f00707e0000c0"
+  },
+  {
+    "offset": "0x2023c0",
+    "unique_tiles": 37,
+    "sample": "a160f0e0a091e300876b0f7420d800100b4202021040c6015088a06018e0e0c0"
+  },
+  {
+    "offset": "0x202540",
+    "unique_tiles": 36,
+    "sample": "20180a140806000703cf01a624f4f8c850506008a0c04039410830a05002dc03"
+  },
+  {
+    "offset": "0x202580",
+    "unique_tiles": 30,
+    "sample": "050601020102000b080e1500008080008000c0c020c0a08000c08048188080c0"
+  },
+  {
+    "offset": "0x2025c0",
+    "unique_tiles": 37,
+    "sample": "00181814141ec41a0357000800046fc04b00790ea0404090f001f001f002d003"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "game": "Radical Dreamers",
+  "platforms": [
+    "SNES",
+    "Satellaview"
+  ],
+  "release_year": 1996,
+  "developer": "Square",
+  "characters": [
+    {
+      "id": 0,
+      "name": "Karsh",
+      "hp": 100,
+      "mp": 20,
+      "str": 15,
+      "weapon": "sword"
+    },
+    {
+      "id": 1,
+      "name": "Marika",
+      "hp": 90,
+      "mp": 30,
+      "str": 10,
+      "weapon": "staff"
+    },
+    {
+      "id": 2,
+      "name": "Miranda",
+      "hp": 85,
+      "mp": 35,
+      "str": 8,
+      "weapon": "magic"
+    },
+    {
+      "id": 3,
+      "name": "Jaken",
+      "hp": 110,
+      "mp": 10,
+      "str": 18,
+      "weapon": "fist"
+    },
+    {
+      "id": 4,
+      "name": "Gem",
+      "hp": 95,
+      "mp": 25,
+      "str": 12,
+      "weapon": "bow"
+    },
+    {
+      "id": 5,
+      "name": "Neo",
+      "hp": 120,
+      "mp": 15,
+      "str": 20,
+      "weapon": "sword"
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Thorn",
+      "type": "town"
+    },
+    {
+      "id": 1,
+      "name": "Laruba",
+      "type": "village"
+    },
+    {
+      "id": 2,
+      "name": "Mine",
+      "type": "dungeon"
+    },
+    {
+      "id": 3,
+      "name": "Fort",
+      "type": "dungeon"
+    },
+    {
+      "id": 4,
+      "name": "Rain",
+      "type": "town"
+    }
+  ]
+}

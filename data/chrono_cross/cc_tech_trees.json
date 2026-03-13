@@ -1,0 +1,602 @@
+[
+  {
+    "offset": "0x300070",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300090",
+    "character": 4,
+    "tech_id": 35,
+    "level": 97
+  },
+  {
+    "offset": "0x3000a0",
+    "character": 8,
+    "tech_id": 5,
+    "level": 8
+  },
+  {
+    "offset": "0x3000f0",
+    "character": 2,
+    "tech_id": 1,
+    "level": 0
+  },
+  {
+    "offset": "0x300110",
+    "character": 5,
+    "tech_id": 35,
+    "level": 83
+  },
+  {
+    "offset": "0x300120",
+    "character": 5,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x300170",
+    "character": 2,
+    "tech_id": 2,
+    "level": 0
+  },
+  {
+    "offset": "0x300180",
+    "character": 5,
+    "tech_id": 1,
+    "level": 8
+  },
+  {
+    "offset": "0x3001a0",
+    "character": 5,
+    "tech_id": 5,
+    "level": 4
+  },
+  {
+    "offset": "0x3001f0",
+    "character": 2,
+    "tech_id": 1,
+    "level": 0
+  },
+  {
+    "offset": "0x300220",
+    "character": 4,
+    "tech_id": 4,
+    "level": 3
+  },
+  {
+    "offset": "0x300270",
+    "character": 3,
+    "tech_id": 1,
+    "level": 0
+  },
+  {
+    "offset": "0x3002a0",
+    "character": 4,
+    "tech_id": 4,
+    "level": 3
+  },
+  {
+    "offset": "0x3002f0",
+    "character": 3,
+    "tech_id": 2,
+    "level": 0
+  },
+  {
+    "offset": "0x300320",
+    "character": 4,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300370",
+    "character": 3,
+    "tech_id": 3,
+    "level": 1
+  },
+  {
+    "offset": "0x3003a0",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300520",
+    "character": 3,
+    "tech_id": 3,
+    "level": 1
+  },
+  {
+    "offset": "0x300550",
+    "character": 3,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x3005a0",
+    "character": 3,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x3005b0",
+    "character": 8,
+    "tech_id": 8,
+    "level": 8
+  },
+  {
+    "offset": "0x3005c0",
+    "character": 8,
+    "tech_id": 8,
+    "level": 8
+  },
+  {
+    "offset": "0x3005d0",
+    "character": 3,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x300620",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300630",
+    "character": 8,
+    "tech_id": 8,
+    "level": 8
+  },
+  {
+    "offset": "0x300640",
+    "character": 8,
+    "tech_id": 8,
+    "level": 8
+  },
+  {
+    "offset": "0x300650",
+    "character": 3,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x3006a0",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x3006b0",
+    "character": 8,
+    "tech_id": 8,
+    "level": 8
+  },
+  {
+    "offset": "0x3006c0",
+    "character": 8,
+    "tech_id": 8,
+    "level": 8
+  },
+  {
+    "offset": "0x3006d0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300720",
+    "character": 4,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300730",
+    "character": 8,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x300740",
+    "character": 8,
+    "tech_id": 8,
+    "level": 5
+  },
+  {
+    "offset": "0x300750",
+    "character": 1,
+    "tech_id": 1,
+    "level": 3
+  },
+  {
+    "offset": "0x3007a0",
+    "character": 4,
+    "tech_id": 4,
+    "level": 4
+  },
+  {
+    "offset": "0x3007b0",
+    "character": 8,
+    "tech_id": 8,
+    "level": 5
+  },
+  {
+    "offset": "0x3007c0",
+    "character": 8,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x3007d0",
+    "character": 1,
+    "tech_id": 1,
+    "level": 3
+  },
+  {
+    "offset": "0x300820",
+    "character": 4,
+    "tech_id": 5,
+    "level": 8
+  },
+  {
+    "offset": "0x300830",
+    "character": 8,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x300840",
+    "character": 5,
+    "tech_id": 5,
+    "level": 4
+  },
+  {
+    "offset": "0x300850",
+    "character": 1,
+    "tech_id": 1,
+    "level": 3
+  },
+  {
+    "offset": "0x3008a0",
+    "character": 4,
+    "tech_id": 5,
+    "level": 8
+  },
+  {
+    "offset": "0x3008b0",
+    "character": 5,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x3008c0",
+    "character": 5,
+    "tech_id": 5,
+    "level": 4
+  },
+  {
+    "offset": "0x3008d0",
+    "character": 1,
+    "tech_id": 2,
+    "level": 3
+  },
+  {
+    "offset": "0x300920",
+    "character": 5,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x300930",
+    "character": 5,
+    "tech_id": 5,
+    "level": 5
+  },
+  {
+    "offset": "0x300940",
+    "character": 5,
+    "tech_id": 4,
+    "level": 3
+  },
+  {
+    "offset": "0x300950",
+    "character": 1,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x3009a0",
+    "character": 4,
+    "tech_id": 5,
+    "level": 4
+  },
+  {
+    "offset": "0x3009b0",
+    "character": 5,
+    "tech_id": 4,
+    "level": 5
+  },
+  {
+    "offset": "0x3009c0",
+    "character": 4,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x3009d0",
+    "character": 1,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300a20",
+    "character": 4,
+    "tech_id": 3,
+    "level": 4
+  },
+  {
+    "offset": "0x300a30",
+    "character": 4,
+    "tech_id": 4,
+    "level": 4
+  },
+  {
+    "offset": "0x300a40",
+    "character": 3,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x300a50",
+    "character": 1,
+    "tech_id": 3,
+    "level": 4
+  },
+  {
+    "offset": "0x300aa0",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300ab0",
+    "character": 3,
+    "tech_id": 4,
+    "level": 4
+  },
+  {
+    "offset": "0x300ac0",
+    "character": 2,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x300ad0",
+    "character": 2,
+    "tech_id": 4,
+    "level": 4
+  },
+  {
+    "offset": "0x300b20",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300b30",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300b40",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300b50",
+    "character": 1,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300ba0",
+    "character": 3,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300bb0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300bc0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300bd0",
+    "character": 2,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300c20",
+    "character": 3,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x300c30",
+    "character": 1,
+    "tech_id": 2,
+    "level": 1
+  },
+  {
+    "offset": "0x300c40",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300c50",
+    "character": 2,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x300ca0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300cb0",
+    "character": 1,
+    "tech_id": 2,
+    "level": 0
+  },
+  {
+    "offset": "0x300cc0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300cd0",
+    "character": 2,
+    "tech_id": 3,
+    "level": 2
+  },
+  {
+    "offset": "0x300e50",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300e60",
+    "character": 2,
+    "tech_id": 1,
+    "level": 1
+  },
+  {
+    "offset": "0x300e70",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300e80",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300ed0",
+    "character": 1,
+    "tech_id": 2,
+    "level": 1
+  },
+  {
+    "offset": "0x300ee0",
+    "character": 2,
+    "tech_id": 1,
+    "level": 1
+  },
+  {
+    "offset": "0x300ef0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300f00",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300f50",
+    "character": 1,
+    "tech_id": 2,
+    "level": 1
+  },
+  {
+    "offset": "0x300f60",
+    "character": 2,
+    "tech_id": 1,
+    "level": 1
+  },
+  {
+    "offset": "0x300f70",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300f80",
+    "character": 1,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x300fd0",
+    "character": 1,
+    "tech_id": 1,
+    "level": 0
+  },
+  {
+    "offset": "0x300fe0",
+    "character": 2,
+    "tech_id": 1,
+    "level": 2
+  },
+  {
+    "offset": "0x300ff0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x301000",
+    "character": 1,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x301050",
+    "character": 2,
+    "tech_id": 3,
+    "level": 0
+  },
+  {
+    "offset": "0x301070",
+    "character": 2,
+    "tech_id": 2,
+    "level": 3
+  },
+  {
+    "offset": "0x301080",
+    "character": 1,
+    "tech_id": 3,
+    "level": 3
+  },
+  {
+    "offset": "0x3010d0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  },
+  {
+    "offset": "0x3010f0",
+    "character": 2,
+    "tech_id": 2,
+    "level": 2
+  }
+]

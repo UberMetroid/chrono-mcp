@@ -1,0 +1,918 @@
+{
+  "game": "Chrono Trigger",
+  "platforms": [
+    "SNES",
+    "DS",
+    "PS1",
+    "MSU1"
+  ],
+  "characters": [
+    {
+      "id": 0,
+      "name": "Crono",
+      "type": " swordsman",
+      "hp": 100,
+      "mp": 20,
+      "str": 10,
+      "speed": 10
+    },
+    {
+      "id": 1,
+      "name": "Marle",
+      "type": "healer",
+      "hp": 80,
+      "mp": 35,
+      "str": 5,
+      "speed": 12
+    },
+    {
+      "id": 2,
+      "name": "Lucca",
+      "type": "mage",
+      "hp": 75,
+      "mp": 40,
+      "str": 6,
+      "speed": 8
+    },
+    {
+      "id": 3,
+      "name": "Frog",
+      "type": "swordsman",
+      "hp": 90,
+      "mp": 25,
+      "str": 12,
+      "speed": 9
+    },
+    {
+      "id": 4,
+      "name": "Robo",
+      "type": "robot",
+      "hp": 120,
+      "mp": 15,
+      "str": 15,
+      "speed": 5
+    },
+    {
+      "id": 5,
+      "name": "Ayla",
+      "type": "fighter",
+      "hp": 150,
+      "mp": 0,
+      "str": 20,
+      "speed": 15
+    },
+    {
+      "id": 6,
+      "name": "Magus",
+      "type": "mage",
+      "hp": 85,
+      "mp": 50,
+      "str": 8,
+      "speed": 14
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "name": "Masamune",
+      "type": "weapon",
+      "price": 0,
+      "power": 0
+    },
+    {
+      "id": 1,
+      "name": "Falcach",
+      "type": "weapon",
+      "price": 100,
+      "power": 10
+    },
+    {
+      "id": 2,
+      "name": "Sonic Arrow",
+      "type": "weapon",
+      "price": 150,
+      "power": 15
+    },
+    {
+      "id": 3,
+      "name": "Bolt Sword",
+      "type": "weapon",
+      "price": 250,
+      "power": 20
+    },
+    {
+      "id": 4,
+      "name": "Gold Thunder",
+      "type": "weapon",
+      "price": 400,
+      "power": 30
+    },
+    {
+      "id": 5,
+      "name": "Silver Point",
+      "type": "weapon",
+      "price": 600,
+      "power": 40
+    },
+    {
+      "id": 6,
+      "name": "Ruin Blade",
+      "type": "weapon",
+      "price": 900,
+      "power": 55
+    },
+    {
+      "id": 7,
+      "name": "Dark Scythe",
+      "type": "weapon",
+      "price": 1200,
+      "power": 70
+    },
+    {
+      "id": 8,
+      "name": "Slasher",
+      "type": "weapon",
+      "price": 1500,
+      "power": 85
+    },
+    {
+      "id": 9,
+      "name": "Fabulous",
+      "type": "weapon",
+      "price": 2000,
+      "power": 100
+    },
+    {
+      "id": 10,
+      "name": "Giga Arm",
+      "type": "weapon",
+      "price": 2500,
+      "power": 120
+    },
+    {
+      "id": 11,
+      "name": "Star Sword",
+      "type": "weapon",
+      "price": 3000,
+      "power": 150
+    },
+    {
+      "id": 12,
+      "name": "Masa",
+      "type": "weapon",
+      "price": 0,
+      "power": 0
+    },
+    {
+      "id": 13,
+      "name": "Mune",
+      "type": "weapon",
+      "price": 0,
+      "power": 0
+    },
+    {
+      "id": 20,
+      "name": "Mystic",
+      "type": "armor",
+      "price": 100,
+      "defense": 10
+    },
+    {
+      "id": 21,
+      "name": "Luminous",
+      "type": "armor",
+      "price": 200,
+      "defense": 20
+    },
+    {
+      "id": 22,
+      "name": "Aegis",
+      "type": "armor",
+      "price": 350,
+      "defense": 35
+    },
+    {
+      "id": 23,
+      "name": "Gloom",
+      "type": "armor",
+      "price": 500,
+      "defense": 50
+    },
+    {
+      "id": 24,
+      "name": "Power Seal",
+      "type": "armor",
+      "price": 750,
+      "defense": 70
+    },
+    {
+      "id": 25,
+      "name": "Hero's Medal",
+      "type": "accessory",
+      "price": 100
+    },
+    {
+      "id": 26,
+      "name": "Powersquare",
+      "type": "accessory",
+      "price": 150
+    },
+    {
+      "id": 27,
+      "name": "Silver Crown",
+      "type": "accessory",
+      "price": 200
+    },
+    {
+      "id": 28,
+      "name": "Gold Crown",
+      "type": "accessory",
+      "price": 300
+    },
+    {
+      "id": 29,
+      "name": "Ruby Crown",
+      "type": "accessory",
+      "price": 500
+    },
+    {
+      "id": 30,
+      "name": "Earrings",
+      "type": "accessory",
+      "price": 400
+    },
+    {
+      "id": 50,
+      "name": "Tonic",
+      "type": "item",
+      "price": 10
+    },
+    {
+      "id": 51,
+      "name": "Tonic (M)",
+      "type": "item",
+      "price": 20
+    },
+    {
+      "id": 52,
+      "name": "Ether",
+      "type": "item",
+      "price": 50
+    },
+    {
+      "id": 53,
+      "name": "Ether (M)",
+      "type": "item",
+      "price": 100
+    },
+    {
+      "id": 54,
+      "name": "Elixir",
+      "type": "item",
+      "price": 200
+    },
+    {
+      "id": 55,
+      "name": "Megalixir",
+      "type": "item",
+      "price": 500
+    }
+  ],
+  "enemies": [
+    {
+      "id": 0,
+      "name": "Slave",
+      "hp": 20,
+      "exp": 1,
+      "weakness": "fire"
+    },
+    {
+      "id": 1,
+      "name": "Gnash",
+      "hp": 30,
+      "exp": 2,
+      "weakness": "ice"
+    },
+    {
+      "id": 2,
+      "name": "Rat",
+      "hp": 10,
+      "exp": 1,
+      "weakness": "fire"
+    },
+    {
+      "id": 3,
+      "name": "Flight",
+      "hp": 40,
+      "exp": 3,
+      "weakness": "lightning"
+    },
+    {
+      "id": 4,
+      "name": "Jagger",
+      "hp": 50,
+      "exp": 5,
+      "weakness": "water"
+    },
+    {
+      "id": 5,
+      "name": "Sauirer",
+      "hp": 25,
+      "exp": 2,
+      "weakness": "fire"
+    },
+    {
+      "id": 6,
+      "name": "Cybot",
+      "hp": 60,
+      "exp": 7,
+      "weakness": "lightning"
+    },
+    {
+      "id": 7,
+      "name": "Hawk",
+      "hp": 35,
+      "exp": 3,
+      "weakness": "ice"
+    },
+    {
+      "id": 8,
+      "name": "Riders",
+      "hp": 80,
+      "exp": 10,
+      "weakness": "water"
+    },
+    {
+      "id": 9,
+      "name": "Leader",
+      "hp": 100,
+      "exp": 15,
+      "weakness": "water"
+    },
+    {
+      "id": 10,
+      "name": "Gurguante",
+      "hp": 120,
+      "exp": 20,
+      "weakness": "ice"
+    },
+    {
+      "id": 11,
+      "name": "Vaper",
+      "hp": 45,
+      "exp": 5,
+      "weakness": "fire"
+    },
+    {
+      "id": 12,
+      "name": "Lapidon",
+      "hp": 180,
+      "exp": 30,
+      "weakness": "water"
+    },
+    {
+      "id": 13,
+      "name": "Dragon",
+      "hp": 500,
+      "exp": 100,
+      "weakness": "ice"
+    },
+    {
+      "id": 14,
+      "name": "Golem",
+      "hp": 300,
+      "exp": 50,
+      "weakness": "water"
+    },
+    {
+      "id": 15,
+      "name": "Boss",
+      "hp": 1000,
+      "exp": 200,
+      "weakness": "lightning"
+    }
+  ],
+  "locations": [
+    {
+      "id": 0,
+      "name": "Truce",
+      "era": "1000 AD",
+      "type": "town"
+    },
+    {
+      "id": 1,
+      "name": "Guardia Castle",
+      "era": "1000 AD",
+      "type": "castle"
+    },
+    {
+      "id": 2,
+      "name": "King's Study",
+      "era": "1000 AD",
+      "type": "room"
+    },
+    {
+      "id": 3,
+      "name": "Sewers",
+      "era": "1000 AD",
+      "type": "dungeon"
+    },
+    {
+      "id": 4,
+      "name": "Forest",
+      "era": "1000 AD",
+      "type": "overworld"
+    },
+    {
+      "id": 5,
+      "name": "Mystic Mountain",
+      "era": "1000 AD",
+      "type": "mountain"
+    },
+    {
+      "id": 6,
+      "name": "Humbaba Village",
+      "era": "600 AD",
+      "type": "village"
+    },
+    {
+      "id": 7,
+      "name": "Denadoro Mountains",
+      "era": "600 AD",
+      "type": "mountain"
+    },
+    {
+      "id": 8,
+      "name": "Temple of Fiends",
+      "era": "600 AD",
+      "type": "temple"
+    },
+    {
+      "id": 9,
+      "name": "Frog's House",
+      "era": "600 AD",
+      "type": "house"
+    },
+    {
+      "id": 10,
+      "name": "Future World",
+      "era": "2100 AD",
+      "type": "world"
+    },
+    {
+      "id": 11,
+      "name": "Der Whirl",
+      "era": "2100 AD",
+      "type": "dungeon"
+    },
+    {
+      "id": 12,
+      "name": "Genoa Dome",
+      "era": "2100 AD",
+      "type": "dungeon"
+    },
+    {
+      "id": 13,
+      "name": "Sun Keep",
+      "era": "2100 AD",
+      "type": "dungeon"
+    },
+    {
+      "id": 14,
+      "name": "Ocean Palace",
+      "era": "2100 AD",
+      "type": "dungeon"
+    },
+    {
+      "id": 15,
+      "name": "Zeal Kingdom",
+      "era": "12000 BC",
+      "type": "kingdom"
+    },
+    {
+      "id": 16,
+      "name": "Kashmir",
+      "era": "12000 BC",
+      "type": "world"
+    },
+    {
+      "id": 17,
+      "name": "Guru's House",
+      "era": "1000 AD",
+      "type": "house"
+    },
+    {
+      "id": 18,
+      "name": "Ozzie's Fort",
+      "era": "600 AD",
+      "type": "fort"
+    },
+    {
+      "id": 19,
+      "name": "The End",
+      "era": "Any",
+      "type": "final"
+    }
+  ],
+  "techs": [
+    {
+      "char": "Crono",
+      "name": "Slash",
+      "mp": 0,
+      "power": 10
+    },
+    {
+      "char": "Crono",
+      "name": "Lightning",
+      "mp": 1,
+      "power": 15
+    },
+    {
+      "char": "Crono",
+      "name": "Lightning 2",
+      "mp": 3,
+      "power": 30
+    },
+    {
+      "char": "Crono",
+      "name": "Lightning 3",
+      "mp": 8,
+      "power": 80
+    },
+    {
+      "char": "Crono",
+      "name": "Cyclone",
+      "mp": 2,
+      "power": 25
+    },
+    {
+      "char": "Crono",
+      "name": "Confuse",
+      "mp": 2,
+      "power": 0
+    },
+    {
+      "char": "Marle",
+      "name": "Aura",
+      "mp": 1,
+      "power": 10
+    },
+    {
+      "char": "Marle",
+      "name": "Cure",
+      "mp": 2,
+      "power": 0
+    },
+    {
+      "char": "Marle",
+      "name": "Cure 2",
+      "mp": 5,
+      "power": 0
+    },
+    {
+      "char": "Marle",
+      "name": "Cure 3",
+      "mp": 10,
+      "power": 0
+    },
+    {
+      "char": "Marle",
+      "name": "Ice",
+      "mp": 1,
+      "power": 15
+    },
+    {
+      "char": "Marle",
+      "name": "Ice 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Marle",
+      "name": "Ice 3",
+      "mp": 9,
+      "power": 80
+    },
+    {
+      "char": "Lucca",
+      "name": "Flame",
+      "mp": 1,
+      "power": 15
+    },
+    {
+      "char": "Lucca",
+      "name": "Flame 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Lucca",
+      "name": "Flame 3",
+      "mp": 9,
+      "power": 80
+    },
+    {
+      "char": "Lucca",
+      "name": "Hypnowave",
+      "mp": 2,
+      "power": 0
+    },
+    {
+      "char": "Lucca",
+      "name": "Napalm",
+      "mp": 5,
+      "power": 60
+    },
+    {
+      "char": "Frog",
+      "name": "Slurp",
+      "mp": 1,
+      "power": 0
+    },
+    {
+      "char": "Frog",
+      "name": "Water",
+      "mp": 1,
+      "power": 15
+    },
+    {
+      "char": "Frog",
+      "name": "Water 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Frog",
+      "name": "Water 3",
+      "mp": 9,
+      "power": 80
+    },
+    {
+      "char": "Frog",
+      "name": "Frog Squash",
+      "mp": 0,
+      "power": 30
+    },
+    {
+      "char": "Robo",
+      "name": "Laser",
+      "mp": 1,
+      "power": 15
+    },
+    {
+      "char": "Robo",
+      "name": "Laser 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Robo",
+      "name": "Heal",
+      "mp": 2,
+      "power": 0
+    },
+    {
+      "char": "Robo",
+      "name": "Heal 2",
+      "mp": 5,
+      "power": 0
+    },
+    {
+      "char": "Ayla",
+      "name": "Kiss",
+      "mp": 0,
+      "power": 0
+    },
+    {
+      "char": "Ayla",
+      "name": "Charm",
+      "mp": 0,
+      "power": 0
+    },
+    {
+      "char": "Ayla",
+      "name": "Tail",
+      "mp": 0,
+      "power": 35
+    },
+    {
+      "char": "Ayla",
+      "name": "Rock Throw",
+      "mp": 0,
+      "power": 25
+    },
+    {
+      "char": "Magus",
+      "name": "Dark Bomb",
+      "mp": 5,
+      "power": 70
+    },
+    {
+      "char": "Magus",
+      "name": "Fire 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Magus",
+      "name": "Ice 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Magus",
+      "name": "Lightning 2",
+      "mp": 4,
+      "power": 30
+    },
+    {
+      "char": "Magus",
+      "name": "Dark Mist",
+      "mp": 8,
+      "power": 100
+    }
+  ],
+  "combos": [
+    {
+      "chars": [
+        "Crono",
+        "Marle"
+      ],
+      "name": "Dual Cut",
+      "power": 40
+    },
+    {
+      "chars": [
+        "Crono",
+        "Lucca"
+      ],
+      "name": "Fire Sword",
+      "power": 50
+    },
+    {
+      "chars": [
+        "Marle",
+        "Lucca"
+      ],
+      "name": "Ice Sword",
+      "power": 50
+    },
+    {
+      "chars": [
+        "Crono",
+        "Frog"
+      ],
+      "name": "X-Strike",
+      "power": 70
+    },
+    {
+      "chars": [
+        "Marle",
+        "Frog"
+      ],
+      "name": "Twin Charm",
+      "power": 30
+    },
+    {
+      "chars": [
+        "Lucca",
+        "Frog"
+      ],
+      "name": "Blade Toss",
+      "power": 60
+    },
+    {
+      "chars": [
+        "Crono",
+        "Robo"
+      ],
+      "name": "Power Dome",
+      "power": 55
+    },
+    {
+      "chars": [
+        "Marle",
+        "Robo"
+      ],
+      "name": "Robo-Beat",
+      "power": 45
+    },
+    {
+      "chars": [
+        "Lucca",
+        "Robo"
+      ],
+      "name": "Tank Gun",
+      "power": 65
+    },
+    {
+      "chars": [
+        "Ayla",
+        "Frog"
+      ],
+      "name": "Drill Kick",
+      "power": 50
+    },
+    {
+      "chars": [
+        "Magus",
+        "Marle"
+      ],
+      "name": "Dark Ages",
+      "power": 80
+    }
+  ],
+  "elements": [
+    {
+      "name": "Fire",
+      "weakness": "water",
+      "absorb": "fire"
+    },
+    {
+      "name": "Ice",
+      "weakness": "fire",
+      "absorb": "ice"
+    },
+    {
+      "name": "Lightning",
+      "weakness": "ground",
+      "absorb": "lightning"
+    },
+    {
+      "name": "Water",
+      "weakness": "lightning",
+      "absorb": "water"
+    }
+  ],
+  "status_effects": [
+    {
+      "name": "Poison",
+      "damage": 8
+    },
+    {
+      "name": "Blind",
+      "accuracy": -50
+    },
+    {
+      "name": "Silence",
+      "mp_block": true
+    },
+    {
+      "name": "Confuse",
+      "random": true
+    },
+    {
+      "name": "Stop",
+      "action_block": true
+    },
+    {
+      "name": "Sleep",
+      "action_block": true
+    },
+    {
+      "name": "Petrify",
+      "action_block": true
+    },
+    {
+      "name": "Death",
+      "instant": true
+    }
+  ],
+  "bosses": [
+    {
+      "name": "Dragon",
+      "hp": 500,
+      "location": "Denadoro"
+    },
+    {
+      "name": "Golem",
+      "hp": 300,
+      "location": "Future"
+    },
+    {
+      "name": "Humbaba",
+      "hp": 1000,
+      "location": "Humbaba"
+    },
+    {
+      "name": "Tyrano",
+      "hp": 600,
+      "location": "600 AD"
+    },
+    {
+      "name": "Zombor",
+      "hp": 400,
+      "location": "Sewers"
+    },
+    {
+      "name": "Magus",
+      "hp": 2000,
+      "location": "Dark"
+    },
+    {
+      "name": "Lavos",
+      "hp": 12000,
+      "location": "The End"
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "offset": "0x1c0000",
+    "hp": 3,
+    "mp": 1,
+    "strength": 2,
+    "defense": 0,
+    "magic": 33,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c0080",
+    "hp": 36,
+    "mp": 34,
+    "strength": 35,
+    "defense": 0,
+    "magic": 20,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c0100",
+    "hp": 13,
+    "mp": 11,
+    "strength": 12,
+    "defense": 0,
+    "magic": 0,
+    "speed": 67
+  },
+  {
+    "offset": "0x1c0120",
+    "hp": 25,
+    "mp": 23,
+    "strength": 24,
+    "defense": 0,
+    "magic": 8,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c0180",
+    "hp": 44,
+    "mp": 768,
+    "strength": 60,
+    "defense": 0,
+    "magic": 4,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c01a0",
+    "hp": 64,
+    "mp": 0,
+    "strength": 63,
+    "defense": 0,
+    "magic": 94,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c01e0",
+    "hp": 61,
+    "mp": 0,
+    "strength": 6,
+    "defense": 0,
+    "magic": 82,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c0240",
+    "hp": 64,
+    "mp": 0,
+    "strength": 63,
+    "defense": 0,
+    "magic": 102,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c02c0",
+    "hp": 97,
+    "mp": 0,
+    "strength": 96,
+    "defense": 0,
+    "magic": 255,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c0380",
+    "hp": 77,
+    "mp": 75,
+    "strength": 76,
+    "defense": 0,
+    "magic": 107,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c0720",
+    "hp": 271,
+    "mp": 315,
+    "strength": 14,
+    "defense": 1,
+    "magic": 4,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c0740",
+    "hp": 740,
+    "mp": 284,
+    "strength": 93,
+    "defense": 1,
+    "magic": 15,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c0780",
+    "hp": 276,
+    "mp": 274,
+    "strength": 19,
+    "defense": 1,
+    "magic": 47,
+    "speed": 65
+  },
+  {
+    "offset": "0x1c07e0",
+    "hp": 781,
+    "mp": 288,
+    "strength": 12,
+    "defense": 3,
+    "magic": 63,
+    "speed": 65
+  },
+  {
+    "offset": "0x1c0900",
+    "hp": 268,
+    "mp": 0,
+    "strength": 11,
+    "defense": 1,
+    "magic": 252,
+    "speed": 225
+  },
+  {
+    "offset": "0x1c0940",
+    "hp": 36,
+    "mp": 306,
+    "strength": 51,
+    "defense": 1,
+    "magic": 118,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c09e0",
+    "hp": 36,
+    "mp": 34,
+    "strength": 35,
+    "defense": 0,
+    "magic": 148,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c0a00",
+    "hp": 417,
+    "mp": 70,
+    "strength": 61,
+    "defense": 65,
+    "magic": 33,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c0a40",
+    "hp": 49,
+    "mp": 47,
+    "strength": 48,
+    "defense": 0,
+    "magic": 4,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c0a60",
+    "hp": 22,
+    "mp": 0,
+    "strength": 92,
+    "defense": 1,
+    "magic": 53,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c0ae0",
+    "hp": 54,
+    "mp": 0,
+    "strength": 53,
+    "defense": 0,
+    "magic": 255,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c0b20",
+    "hp": 36,
+    "mp": 34,
+    "strength": 35,
+    "defense": 0,
+    "magic": 118,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c0b40",
+    "hp": 339,
+    "mp": 337,
+    "strength": 80,
+    "defense": 1,
+    "magic": 109,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c0bc0",
+    "hp": 313,
+    "mp": 0,
+    "strength": 56,
+    "defense": 1,
+    "magic": 220,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c0c60",
+    "hp": 383,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c0d60",
+    "hp": 438,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 249,
+    "speed": 8
+  },
+  {
+    "offset": "0x1c0ec0",
+    "hp": 455,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 230,
+    "speed": 65
+  },
+  {
+    "offset": "0x1c0f00",
+    "hp": 436,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 211,
+    "speed": 65
+  },
+  {
+    "offset": "0x1c0f40",
+    "hp": 534,
+    "mp": 532,
+    "strength": 21,
+    "defense": 2,
+    "magic": 1,
+    "speed": 221
+  },
+  {
+    "offset": "0x1c0f80",
+    "hp": 524,
+    "mp": 522,
+    "strength": 11,
+    "defense": 2,
+    "magic": 251,
+    "speed": 65
+  },
+  {
+    "offset": "0x1c1140",
+    "hp": 563,
+    "mp": 517,
+    "strength": 50,
+    "defense": 2,
+    "magic": 80,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1160",
+    "hp": 564,
+    "mp": 593,
+    "strength": 18,
+    "defense": 2,
+    "magic": 38,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1180",
+    "hp": 553,
+    "mp": 0,
+    "strength": 40,
+    "defense": 2,
+    "magic": 69,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c11e0",
+    "hp": 563,
+    "mp": 517,
+    "strength": 50,
+    "defense": 2,
+    "magic": 80,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1200",
+    "hp": 564,
+    "mp": 593,
+    "strength": 18,
+    "defense": 2,
+    "magic": 38,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1220",
+    "hp": 553,
+    "mp": 0,
+    "strength": 40,
+    "defense": 2,
+    "magic": 69,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1260",
+    "hp": 297,
+    "mp": 0,
+    "strength": 54,
+    "defense": 3,
+    "magic": 248,
+    "speed": 228
+  },
+  {
+    "offset": "0x1c1300",
+    "hp": 592,
+    "mp": 547,
+    "strength": 79,
+    "defense": 2,
+    "magic": 253,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c13a0",
+    "hp": 729,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 248,
+    "speed": 228
+  },
+  {
+    "offset": "0x1c1500",
+    "hp": 571,
+    "mp": 569,
+    "strength": 58,
+    "defense": 2,
+    "magic": 88,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1520",
+    "hp": 587,
+    "mp": 0,
+    "strength": 74,
+    "defense": 2,
+    "magic": 42,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1540",
+    "hp": 561,
+    "mp": 559,
+    "strength": 48,
+    "defense": 2,
+    "magic": 78,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c15a0",
+    "hp": 571,
+    "mp": 569,
+    "strength": 58,
+    "defense": 2,
+    "magic": 88,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c15c0",
+    "hp": 587,
+    "mp": 0,
+    "strength": 74,
+    "defense": 2,
+    "magic": 42,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c15e0",
+    "hp": 561,
+    "mp": 559,
+    "strength": 48,
+    "defense": 2,
+    "magic": 78,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c16c0",
+    "hp": 49,
+    "mp": 47,
+    "strength": 48,
+    "defense": 0,
+    "magic": 4,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c16e0",
+    "hp": 22,
+    "mp": 0,
+    "strength": 21,
+    "defense": 0,
+    "magic": 53,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c1700",
+    "hp": 38,
+    "mp": 0,
+    "strength": 37,
+    "defense": 0,
+    "magic": 21,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c17c0",
+    "hp": 5,
+    "mp": 736,
+    "strength": 4,
+    "defense": 0,
+    "magic": 23,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c1800",
+    "hp": 748,
+    "mp": 777,
+    "strength": 10,
+    "defense": 3,
+    "magic": 4,
+    "speed": 223
+  },
+  {
+    "offset": "0x1c18c0",
+    "hp": 869,
+    "mp": 861,
+    "strength": 94,
+    "defense": 3,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c18e0",
+    "hp": 870,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 86,
+    "speed": 3
+  },
+  {
+    "offset": "0x1c1900",
+    "hp": 812,
+    "mp": 274,
+    "strength": 19,
+    "defense": 1,
+    "magic": 73,
+    "speed": 3
+  },
+  {
+    "offset": "0x1c1bc0",
+    "hp": 397,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 248,
+    "speed": 17
+  },
+  {
+    "offset": "0x1c2200",
+    "hp": 729,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 250,
+    "speed": 227
+  },
+  {
+    "offset": "0x1c2220",
+    "hp": 698,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 217,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c2240",
+    "hp": 711,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 184,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c22a0",
+    "hp": 729,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 250,
+    "speed": 227
+  },
+  {
+    "offset": "0x1c22c0",
+    "hp": 785,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 217,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c22e0",
+    "hp": 715,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 188,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c2300",
+    "hp": 682,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 201,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c2340",
+    "hp": 729,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 250,
+    "speed": 227
+  },
+  {
+    "offset": "0x1c2360",
+    "hp": 698,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 217,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c23a0",
+    "hp": 745,
+    "mp": 682,
+    "strength": 46,
+    "defense": 2,
+    "magic": 5,
+    "speed": 3
+  },
+  {
+    "offset": "0x1c2480",
+    "hp": 796,
+    "mp": 0,
+    "strength": 27,
+    "defense": 3,
+    "magic": 0,
+    "speed": 226
+  },
+  {
+    "offset": "0x1c24e0",
+    "hp": 617,
+    "mp": 0,
+    "strength": 22,
+    "defense": 3,
+    "magic": 137,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c2520",
+    "hp": 835,
+    "mp": 0,
+    "strength": 69,
+    "defense": 3,
+    "magic": 252,
+    "speed": 225
+  },
+  {
+    "offset": "0x1c2580",
+    "hp": 797,
+    "mp": 789,
+    "strength": 24,
+    "defense": 3,
+    "magic": 30,
+    "speed": 67
+  },
+  {
+    "offset": "0x1c2860",
+    "hp": 18,
+    "mp": 0,
+    "strength": 49,
+    "defense": 0,
+    "magic": 50,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c28a0",
+    "hp": 7,
+    "mp": 0,
+    "strength": 6,
+    "defense": 0,
+    "magic": 39,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2900",
+    "hp": 229,
+    "mp": 46,
+    "strength": 47,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c29e0",
+    "hp": 74,
+    "mp": 0,
+    "strength": 73,
+    "defense": 0,
+    "magic": 106,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c2a60",
+    "hp": 100,
+    "mp": 98,
+    "strength": 99,
+    "defense": 0,
+    "magic": 82,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c2b20",
+    "hp": 27,
+    "mp": 0,
+    "strength": 26,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2bc0",
+    "hp": 12,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 45,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c2c40",
+    "hp": 3,
+    "mp": 38,
+    "strength": 39,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2c60",
+    "hp": 2,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 30,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2ce0",
+    "hp": 130,
+    "mp": 841,
+    "strength": 74,
+    "defense": 3,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2d60",
+    "hp": 229,
+    "mp": 80,
+    "strength": 88,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2da0",
+    "hp": 66,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 97,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c2ea0",
+    "hp": 153,
+    "mp": 2,
+    "strength": 1,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2ee0",
+    "hp": 192,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 194,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c2f20",
+    "hp": 2,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 8,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c2f80",
+    "hp": 196,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 227,
+    "speed": 64
+  },
+  {
+    "offset": "0x1c3080",
+    "hp": 201,
+    "mp": 8,
+    "strength": 9,
+    "defense": 0,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c30c0",
+    "hp": 187,
+    "mp": 0,
+    "strength": 59,
+    "defense": 1,
+    "magic": 219,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c31a0",
+    "hp": 158,
+    "mp": 229,
+    "strength": 0,
+    "defense": 0,
+    "magic": 248,
+    "speed": 224
+  },
+  {
+    "offset": "0x1c3240",
+    "hp": 2,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 8,
+    "speed": 225
+  },
+  {
+    "offset": "0x1c3260",
+    "hp": 598,
+    "mp": 849,
+    "strength": 82,
+    "defense": 3,
+    "magic": 2,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c33a0",
+    "hp": 272,
+    "mp": 306,
+    "strength": 0,
+    "defense": 0,
+    "magic": 49,
+    "speed": 65
+  },
+  {
+    "offset": "0x1c3460",
+    "hp": 364,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 94,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c3480",
+    "hp": 324,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 108,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c34e0",
+    "hp": 322,
+    "mp": 336,
+    "strength": 81,
+    "defense": 1,
+    "magic": 98,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c3500",
+    "hp": 313,
+    "mp": 0,
+    "strength": 27,
+    "defense": 1,
+    "magic": 41,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c35a0",
+    "hp": 376,
+    "mp": 0,
+    "strength": 0,
+    "defense": 0,
+    "magic": 104,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c3760",
+    "hp": 423,
+    "mp": 0,
+    "strength": 55,
+    "defense": 3,
+    "magic": 197,
+    "speed": 1
+  },
+  {
+    "offset": "0x1c3800",
+    "hp": 8,
+    "mp": 565,
+    "strength": 0,
+    "defense": 0,
+    "magic": 51,
+    "speed": 2
+  },
+  {
+    "offset": "0x1c3820",
+    "hp": 551,
+    "mp": 582,
+    "strength": 71,
+    "defense": 2,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c38a0",
+    "hp": 243,
+    "mp": 523,
+    "strength": 12,
+    "defense": 2,
+    "magic": 0,
+    "speed": 0
+  },
+  {
+    "offset": "0x1c3920",
+    "hp": 510,
+    "mp": 508,
+    "strength": 10,
+    "defense": 2,
+    "magic": 6,
+    "speed": 224
+  }
+]

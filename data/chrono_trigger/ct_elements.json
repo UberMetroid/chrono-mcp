@@ -1,0 +1,142 @@
+[
+  {
+    "offset": "0x200140",
+    "element_id": 3,
+    "absorb": 60,
+    "weak": 122,
+    "data": "0320113c3c7e00287a58fea0f6d2bf02"
+  },
+  {
+    "offset": "0x200160",
+    "element_id": 1,
+    "absorb": 126,
+    "weak": 63,
+    "data": "013820007e3c6f6c3f5a7d6400bab08b"
+  },
+  {
+    "offset": "0x200280",
+    "element_id": 6,
+    "absorb": 7,
+    "weak": 4,
+    "data": "060200050707050504400604060a0c0b"
+  },
+  {
+    "offset": "0x200500",
+    "element_id": 2,
+    "absorb": 9,
+    "weak": 32,
+    "data": "0262120f090809112011121e131f6412"
+  },
+  {
+    "offset": "0x200520",
+    "element_id": 2,
+    "absorb": 192,
+    "weak": 60,
+    "data": "0200a0c0c0008e8e3c0c284888f80810"
+  },
+  {
+    "offset": "0x200540",
+    "element_id": 9,
+    "absorb": 1,
+    "weak": 155,
+    "data": "090904d90103e9019b14031a1b1617c8"
+  },
+  {
+    "offset": "0x200680",
+    "element_id": 5,
+    "absorb": 64,
+    "weak": 112,
+    "data": "0565051540c0c0f070003f2537251210"
+  },
+  {
+    "offset": "0x200740",
+    "element_id": 5,
+    "absorb": 128,
+    "weak": 160,
+    "data": "0560158f8080767fa020dcb7f89ec043"
+  },
+  {
+    "offset": "0x2007e0",
+    "element_id": 4,
+    "absorb": 8,
+    "weak": 3,
+    "data": "040e001d082f0d01031212000008050d"
+  },
+  {
+    "offset": "0x200a00",
+    "element_id": 1,
+    "absorb": 128,
+    "weak": 128,
+    "data": "01800480807f5f7f804e3f003f221f1c"
+  },
+  {
+    "offset": "0x200c40",
+    "element_id": 8,
+    "absorb": 254,
+    "weak": 61,
+    "data": "0824de0efe0001cf3d038563180020f8"
+  },
+  {
+    "offset": "0x200d00",
+    "element_id": 7,
+    "absorb": 192,
+    "weak": 0,
+    "data": "0705bd0dc084f680007414c6023220c0"
+  },
+  {
+    "offset": "0x200d80",
+    "element_id": 8,
+    "absorb": 55,
+    "weak": 48,
+    "data": "08037809371e30703070700c000c1414"
+  },
+  {
+    "offset": "0x200de0",
+    "element_id": 7,
+    "absorb": 62,
+    "weak": 12,
+    "data": "07bf025f3e9e200c0c0f0b043e05ae1e"
+  },
+  {
+    "offset": "0x200fe0",
+    "element_id": 7,
+    "absorb": 127,
+    "weak": 184,
+    "data": "07029e097f5bff00b8ff3cff1fff0707"
+  },
+  {
+    "offset": "0x201020",
+    "element_id": 6,
+    "absorb": 131,
+    "weak": 240,
+    "data": "06fa06ff83ff1f00f020fe78f7101706"
+  },
+  {
+    "offset": "0x201160",
+    "element_id": 7,
+    "absorb": 136,
+    "weak": 93,
+    "data": "074a8600882ca7245d18d9c0007fa2bc"
+  },
+  {
+    "offset": "0x2012c0",
+    "element_id": 5,
+    "absorb": 32,
+    "weak": 169,
+    "data": "05354d1c209d1d93a9a760137dc80074"
+  },
+  {
+    "offset": "0x2013a0",
+    "element_id": 8,
+    "absorb": 4,
+    "weak": 3,
+    "data": "080f08e7045def20037d1ee36c8700b3"
+  },
+  {
+    "offset": "0x201400",
+    "element_id": 3,
+    "absorb": 114,
+    "weak": 15,
+    "data": "030c0c19721046750f03eb60203061c5"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "offset": "0x101b40",
+    "item_id": 8,
+    "quantity": 64,
+    "location_id": 0
+  },
+  {
+    "offset": "0x107cc0",
+    "item_id": 96,
+    "quantity": 0,
+    "location_id": 48
+  },
+  {
+    "offset": "0x1084e0",
+    "item_id": 256,
+    "quantity": 1,
+    "location_id": 1
+  },
+  {
+    "offset": "0x108520",
+    "item_id": 4,
+    "quantity": 0,
+    "location_id": 16
+  },
+  {
+    "offset": "0x108540",
+    "item_id": 16,
+    "quantity": 16,
+    "location_id": 16
+  },
+  {
+    "offset": "0x108560",
+    "item_id": 40,
+    "quantity": 96,
+    "location_id": 24
+  },
+  {
+    "offset": "0x108580",
+    "item_id": 56,
+    "quantity": 3,
+    "location_id": 0
+  },
+  {
+    "offset": "0x1085c0",
+    "item_id": 1,
+    "quantity": 0,
+    "location_id": 2280
+  },
+  {
+    "offset": "0x108600",
+    "item_id": 127,
+    "quantity": 0,
+    "location_id": 0
+  },
+  {
+    "offset": "0x1087e0",
+    "item_id": 80,
+    "quantity": 0,
+    "location_id": 0
+  },
+  {
+    "offset": "0x10dde0",
+    "item_id": 46,
+    "quantity": 16,
+    "location_id": 49
+  },
+  {
+    "offset": "0x10f340",
+    "item_id": 41,
+    "quantity": 0,
+    "location_id": 31339
+  },
+  {
+    "offset": "0x10f780",
+    "item_id": 10,
+    "quantity": 0,
+    "location_id": 31307
+  },
+  {
+    "offset": "0x118160",
+    "item_id": 24,
+    "quantity": 69,
+    "location_id": 108
+  },
+  {
+    "offset": "0x1183e0",
+    "item_id": 24,
+    "quantity": 98,
+    "location_id": 12
+  },
+  {
+    "offset": "0x119420",
+    "item_id": 24,
+    "quantity": 81,
+    "location_id": 8210
+  },
+  {
+    "offset": "0x119720",
+    "item_id": 24,
+    "quantity": 71,
+    "location_id": 6162
+  },
+  {
+    "offset": "0x1199e0",
+    "item_id": 13,
+    "quantity": 7,
+    "location_id": 65535
+  },
+  {
+    "offset": "0x11b1a0",
+    "item_id": 24,
+    "quantity": 66,
+    "location_id": 132
+  },
+  {
+    "offset": "0x11b340",
+    "item_id": 13,
+    "quantity": 6,
+    "location_id": 32786
+  },
+  {
+    "offset": "0x11be80",
+    "item_id": 24,
+    "quantity": 70,
+    "location_id": 22546
+  },
+  {
+    "offset": "0x11c600",
+    "item_id": 24,
+    "quantity": 80,
+    "location_id": 180
+  },
+  {
+    "offset": "0x11efc0",
+    "item_id": 26,
+    "quantity": 81,
+    "location_id": 2
+  },
+  {
+    "offset": "0x11f6a0",
+    "item_id": 24,
+    "quantity": 67,
+    "location_id": 20498
+  },
+  {
+    "offset": "0x1216a0",
+    "item_id": 24,
+    "quantity": 68,
+    "location_id": 6083
+  },
+  {
+    "offset": "0x133940",
+    "item_id": 26,
+    "quantity": 98,
+    "location_id": 6162
+  },
+  {
+    "offset": "0x133980",
+    "item_id": 26,
+    "quantity": 67,
+    "location_id": 4114
+  },
+  {
+    "offset": "0x14c2e0",
+    "item_id": 88,
+    "quantity": 0,
+    "location_id": 89
+  },
+  {
+    "offset": "0x14c320",
+    "item_id": 101,
+    "quantity": 0,
+    "location_id": 102
+  },
+  {
+    "offset": "0x14c340",
+    "item_id": 109,
+    "quantity": 0,
+    "location_id": 110
+  },
+  {
+    "offset": "0x14c360",
+    "item_id": 116,
+    "quantity": 0,
+    "location_id": 117
+  },
+  {
+    "offset": "0x14c3a0",
+    "item_id": 102,
+    "quantity": 0,
+    "location_id": 126
+  },
+  {
+    "offset": "0x14c3c0",
+    "item_id": 131,
+    "quantity": 0,
+    "location_id": 132
+  },
+  {
+    "offset": "0x14c440",
+    "item_id": 147,
+    "quantity": 0,
+    "location_id": 148
+  },
+  {
+    "offset": "0x14c480",
+    "item_id": 160,
+    "quantity": 0,
+    "location_id": 161
+  },
+  {
+    "offset": "0x14c4a0",
+    "item_id": 168,
+    "quantity": 0,
+    "location_id": 169
+  },
+  {
+    "offset": "0x14c560",
+    "item_id": 205,
+    "quantity": 0,
+    "location_id": 206
+  },
+  {
+    "offset": "0x14c580",
+    "item_id": 213,
+    "quantity": 0,
+    "location_id": 214
+  },
+  {
+    "offset": "0x14c600",
+    "item_id": 60,
+    "quantity": 0,
+    "location_id": 64
+  },
+  {
+    "offset": "0x14c620",
+    "item_id": 256,
+    "quantity": 2,
+    "location_id": 3
+  },
+  {
+    "offset": "0x14c7c0",
+    "item_id": 9,
+    "quantity": 12,
+    "location_id": 38
+  },
+  {
+    "offset": "0x14c860",
+    "item_id": 1,
+    "quantity": 3,
+    "location_id": 7
+  },
+  {
+    "offset": "0x14c9e0",
+    "item_id": 4,
+    "quantity": 8,
+    "location_id": 16
+  },
+  {
+    "offset": "0x14ca00",
+    "item_id": 2,
+    "quantity": 0,
+    "location_id": 4
+  },
+  {
+    "offset": "0x14cce0",
+    "item_id": 37,
+    "quantity": 0,
+    "location_id": 0
+  },
+  {
+    "offset": "0x14cf80",
+    "item_id": 256,
+    "quantity": 0,
+    "location_id": 0
+  },
+  {
+    "offset": "0x14d340",
+    "item_id": 50,
+    "quantity": 60,
+    "location_id": 70
+  },
+  {
+    "offset": "0x153ca0",
+    "item_id": 24,
+    "quantity": 82,
+    "location_id": 46140
+  },
+  {
+    "offset": "0x15a4c0",
+    "item_id": 10,
+    "quantity": 15,
+    "location_id": 0
+  },
+  {
+    "offset": "0x15a540",
+    "item_id": 7,
+    "quantity": 7,
+    "location_id": 4123
+  },
+  {
+    "offset": "0x15a5e0",
+    "item_id": 248,
+    "quantity": 0,
+    "location_id": 0
+  },
+  {
+    "offset": "0x15a6a0",
+    "item_id": 60,
+    "quantity": 80,
+    "location_id": 32
+  },
+  {
+    "offset": "0x15a7a0",
+    "item_id": 12,
+    "quantity": 14,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15a7c0",
+    "item_id": 42,
+    "quantity": 43,
+    "location_id": 14
+  },
+  {
+    "offset": "0x15a8c0",
+    "item_id": 39,
+    "quantity": 40,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15a8e0",
+    "item_id": 49,
+    "quantity": 50,
+    "location_id": 40
+  },
+  {
+    "offset": "0x15a9e0",
+    "item_id": 46,
+    "quantity": 47,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15aa00",
+    "item_id": 56,
+    "quantity": 57,
+    "location_id": 47
+  },
+  {
+    "offset": "0x15ab00",
+    "item_id": 31,
+    "quantity": 54,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15ab20",
+    "item_id": 63,
+    "quantity": 64,
+    "location_id": 54
+  },
+  {
+    "offset": "0x15ac20",
+    "item_id": 61,
+    "quantity": 62,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15ade0",
+    "item_id": 64,
+    "quantity": 65,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15ae00",
+    "item_id": 74,
+    "quantity": 75,
+    "location_id": 65
+  },
+  {
+    "offset": "0x15af00",
+    "item_id": 27,
+    "quantity": 72,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15af20",
+    "item_id": 81,
+    "quantity": 82,
+    "location_id": 72
+  },
+  {
+    "offset": "0x15b020",
+    "item_id": 79,
+    "quantity": 80,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15b040",
+    "item_id": 89,
+    "quantity": 32,
+    "location_id": 80
+  },
+  {
+    "offset": "0x15b140",
+    "item_id": 86,
+    "quantity": 87,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15b160",
+    "item_id": 96,
+    "quantity": 97,
+    "location_id": 87
+  },
+  {
+    "offset": "0x15b260",
+    "item_id": 93,
+    "quantity": 94,
+    "location_id": 32896
+  },
+  {
+    "offset": "0x15b280",
+    "item_id": 11,
+    "quantity": 9,
+    "location_id": 94
+  },
+  {
+    "offset": "0x15b800",
+    "item_id": 8,
+    "quantity": 10,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15b860",
+    "item_id": 16,
+    "quantity": 18,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15b8c0",
+    "item_id": 37,
+    "quantity": 38,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15b920",
+    "item_id": 41,
+    "quantity": 42,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15b980",
+    "item_id": 33,
+    "quantity": 45,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15b9e0",
+    "item_id": 48,
+    "quantity": 49,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15ba40",
+    "item_id": 52,
+    "quantity": 53,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15baa0",
+    "item_id": 55,
+    "quantity": 56,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bb00",
+    "item_id": 59,
+    "quantity": 60,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bb60",
+    "item_id": 29,
+    "quantity": 63,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bbc0",
+    "item_id": 66,
+    "quantity": 67,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bc20",
+    "item_id": 70,
+    "quantity": 71,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bc80",
+    "item_id": 73,
+    "quantity": 74,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bce0",
+    "item_id": 77,
+    "quantity": 78,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bd40",
+    "item_id": 25,
+    "quantity": 81,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15bda0",
+    "item_id": 84,
+    "quantity": 85,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15be00",
+    "item_id": 88,
+    "quantity": 89,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15be60",
+    "item_id": 91,
+    "quantity": 92,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x15c020",
+    "item_id": 97,
+    "quantity": 98,
+    "location_id": 51400
+  },
+  {
+    "offset": "0x166320",
+    "item_id": 16,
+    "quantity": 32,
+    "location_id": 64
+  },
+  {
+    "offset": "0x166540",
+    "item_id": 12,
+    "quantity": 24,
+    "location_id": 36
+  },
+  {
+    "offset": "0x166560",
+    "item_id": 10,
+    "quantity": 26,
+    "location_id": 42
+  },
+  {
+    "offset": "0x1665a0",
+    "item_id": 22,
+    "quantity": 17,
+    "location_id": 20
+  },
+  {
+    "offset": "0x166d80",
+    "item_id": 239,
+    "quantity": 29,
+    "location_id": 30
+  },
+  {
+    "offset": "0x16c220",
+    "item_id": 32,
+    "quantity": 96,
+    "location_id": 160
+  },
+  {
+    "offset": "0x16c360",
+    "item_id": 109,
+    "quantity": 9,
+    "location_id": 22116
+  },
+  {
+    "offset": "0x16c3a0",
+    "item_id": 10,
+    "quantity": 8,
+    "location_id": 20320
+  },
+  {
+    "offset": "0x16c3e0",
+    "item_id": 2,
+    "quantity": 2,
+    "location_id": 22116
+  },
+  {
+    "offset": "0x16c460",
+    "item_id": 103,
+    "quantity": 10,
+    "location_id": 22102
+  }
+]

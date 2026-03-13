@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "description": "Chrono Series ROM Extraction Index",
+  "games": {
+    "Chrono Trigger": {
+      "rom": "Chrono Trigger (USA).sfc",
+      "size": "4MB",
+      "format": "SNES HiROM",
+      "extracted": {
+        "dialog": {
+          "file": "ct_dialog_resolved.json",
+          "count": 251,
+          "description": "Decompressed dialog with substring table resolution"
+        },
+        "credits": {
+          "file": "ct_credits.json",
+          "count": 2920,
+          "description": "Game credits extracted from ROM"
+        },
+        "substring_table": {
+          "file": "ct_substring_table.json", 
+          "count": 150,
+          "description": "Text substring reference table"
+        }
+      }
+    },
+    "Chrono Cross": {
+      "rom": "Chrono Cross (Disc 1).bin",
+      "size": "702MB",
+      "format": "PS1 CD-ROM",
+      "extracted": {
+        "readable_text": {
+          "file": "chrono_cross_readable.json",
+          "count": 384,
+          "description": "Decoded readable text strings"
+        },
+        "tim_images": {
+          "file": "cc_tim_extracted.json",
+          "count": 20,
+          "description": "Extracted TIM images as PPM"
+        }
+      }
+    },
+    "Radical Dreamers": {
+      "rom": "BS Radical Dreamers (Demiforce translation).sfc",
+      "size": "2MB",
+      "format": "SNES",
+      "extracted": {
+        "dialog": {
+          "file": "radical_dreamers_dialog.json",
+          "count": 3721,
+          "description": "ASCII dialog lines"
+        }
+      }
+    }
+  },
+  "encoding": {
+    "Chrono Trigger": {
+      "text": "Custom encoding (0xA0-0xB9 = A-Z, 0xBA-0xD3 = a-z, 0xD4-0xDD = 0-9)",
+      "compression": "LZSS (0x10 = 4KB window, 0x11 = 2KB window)",
+      "substring_table": "0x1EC800"
+    },
+    "Chrono Cross": {
+      "text": "PS1 standard encoding",
+      "images": "TIM format"
+    },
+    "Radical Dreamers": {
+      "text": "ASCII (uncompressed)"
+    }
+  }
+}
