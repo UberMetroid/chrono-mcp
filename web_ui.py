@@ -16,11 +16,22 @@ app = Flask(__name__)
 BASE_DIR = Path(os.environ.get("CHRONO_BASE", "/home/jeryd/Code/Chrono_Series"))
 DATA_DIR = BASE_DIR / "data"
 
+_data_cache = None
+
 # Load data
-def load_data():
+def load_data(force_reload=False):
     """Load all game data"""
-    with open(DATA_DIR / "extracted/chrono_master_complete.json") as f:
-        return json.load(f)
+    global _data_cache
+    if _data_cache is None or force_reload:
+        with open(DATA_DIR / "extracted/chrono_master_complete.json") as f:
+            _data_cache = json.load(f)
+    return _data_cache
+
+@app.route('/api/refresh')
+def api_refresh():
+    """Force reload data from files"""
+    load_data(force_reload=True)
+    return jsonify({"status": "ok", "message": "Data refreshed"})
 
 @app.route('/')
 def index():
@@ -185,10 +196,19 @@ HTML_TEMPLATE = '''
         th, td { padding: 10px; text-align: left; border-bottom: 1px solid #0f3460; }
         th { background: #e94560; }
         tr:hover { background: #0f3460; }
+        .header { display: flex; justify-content: space-between; align-items: center; }
+        .refresh-btn { background: #e94560; color: #fff; border: none; padding: 10px 20px; 
+                     border-radius: 6px; cursor: pointer; margin-left: 20px; }
+        .refresh-btn:hover { background: #ff6b8a; }
+        .status { font-size: 12px; color: #888; }
     </style>
 </head>
 <body>
-    <h1>⚔️ Chrono ROM Tools</h1>
+    <div class="header">
+        <h1>⚔️ Chrono ROM Tools</h1>
+        <button class="refresh-btn" onclick="refreshData()">🔄 Refresh Data</button>
+    </div>
+    <p class="status" id="status">Data loads automatically from JSON files</p>
     
     <div class="search-box">
         <input type="text" id="search" placeholder="Search all games... (e.g., 'sword', 'fire', 'crono')" 
@@ -209,6 +229,8 @@ HTML_TEMPLATE = '''
         let gameData = {};
         
         async function loadGames() {
+            const status = document.getElementById('status');
+            status.textContent = 'Loading...';
             const games = await fetch('/api/games').then(r => r.json());
             const container = document.getElementById('results');
             
@@ -258,6 +280,12 @@ HTML_TEMPLATE = '''
         
         function closeModal() {
             document.getElementById('modal').style.display = 'none';
+        }
+        
+        async function refreshData() {
+            await fetch('/api/refresh').then(r => r.json());
+            document.getElementById('status').textContent = 'Data refreshed!';
+            loadGames();
         }
         
         async function search(query) {
