@@ -819,6 +819,118 @@ def get_game_timeline() -> dict:
         return {"error": str(e)}
 
 
+@mcp.tool()
+def fuzzy_search(query: str, game: str = None, threshold: float = 0.5) -> dict:
+    """Fuzzy search across all data. Returns results with similarity scores."""
+    from lib.chrono import load_json
+    import difflib
+    
+    results = {"query": query, "matches": []}
+    query_lower = query.lower()
+    
+    try:
+        unified = load_json("extracted/chrono_master_complete.json")
+        games = unified.get("games", {})
+        
+        for game_name, game_data in games.items():
+            if game and game_name != game:
+                continue
+                
+            for category, items in game_data.items():
+                if not isinstance(items, list):
+                    continue
+                    
+                for item in items:
+                    if isinstance(item, dict):
+                        # Search in all values
+                        for key, val in item.items():
+                            if isinstance(val, str):
+                                ratio = difflib.SequenceMatcher(None, query_lower, val.lower()).ratio()
+                                if ratio >= threshold:
+                                    results["matches"].append({
+                                        "game": game_name,
+                                        "category": category,
+                                        "field": key,
+                                        "value": val,
+                                        "score": round(ratio, 2)
+                                    })
+                    elif isinstance(item, str):
+                        ratio = difflib.SequenceMatcher(None, query_lower, item.lower()).ratio()
+                        if ratio >= threshold:
+                            results["matches"].append({
+                                "game": game_name,
+                                "category": category,
+                                "value": item,
+                                "score": round(ratio, 2)
+                            })
+        
+        # Sort by score
+        results["matches"].sort(key=lambda x: x.get("score", 0), reverse=True)
+        results["matches"] = results["matches"][:50]  # Limit results
+        
+    except Exception as e:
+        results["error"] = str(e)
+    
+    return results
+
+
+@mcp.tool()
+def advanced_filter(
+    game: str = None, 
+    category: str = None,
+    min_stat: int = None,
+    max_stat: int = None,
+    stat_name: str = "hp"
+) -> dict:
+    """Filter items/enemies by stat range. Example: min_stat=100, stat_name='hp' finds strong enemies."""
+    from lib.chrono import load_json
+    
+    results = {"filters": {"game": game, "category": category, f"min_{stat_name}": min_stat}, "matches": []}
+    
+    try:
+        unified = load_json("extracted/chrono_master_complete.json")
+        games = unified.get("games", {})
+        
+        for game_name, game_data in games.items():
+            if game and game_name != game:
+                continue
+                
+            for cat, items in game_data.items():
+                if category and cat != category:
+                    continue
+                if not isinstance(items, list):
+                    continue
+                    
+                for item in items:
+                    if isinstance(item, dict):
+                        val = item.get(stat_name, 0)
+                        if isinstance(val, str):
+                            try:
+                                val = int(val.replace(",", ""))
+                            except:
+                                val = 0
+                        
+                        if min_stat and val and val >= min_stat:
+                            results["matches"].append({
+                                "game": game_name,
+                                "category": cat,
+                                stat_name: val,
+                                "name": item.get("name", str(item)[:30])
+                            })
+                        elif max_stat and val and val <= max_stat:
+                            results["matches"].append({
+                                "game": game_name,
+                                "category": cat,
+                                stat_name: val,
+                                "name": item.get("name", str(item)[:30])
+                            })
+        
+    except Exception as e:
+        results["error"] = str(e)
+    
+    return results
+
+
 if __name__ == "__main__":
     transport = os.environ.get("MCP_TRANSPORT", "stdio")
     
