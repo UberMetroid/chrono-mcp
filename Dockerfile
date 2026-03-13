@@ -29,7 +29,7 @@ ENV MCP_PORT=8080
 
 # Labels
 LABEL maintainer="Chrono MCP"
-LABEL description="Chrono ROM Tools - MCP server and web UI"
+LABEL description="Crono MCP - Chrono ROM analysis tools"
 
 EXPOSE 5000 8080
 

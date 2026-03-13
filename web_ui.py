@@ -165,7 +165,7 @@ HTML_TEMPLATE = '''
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chrono ROM Tools</title>
+    <title>Crono MCP</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
@@ -205,7 +205,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
     <div class="header">
-        <h1>⚔️ Chrono ROM Tools</h1>
+        <h1>⚔️ Crono MCP</h1>
         <button class="refresh-btn" onclick="refreshData()">🔄 Refresh Data</button>
     </div>
     <p class="status" id="status">Data loads automatically from JSON files</p>

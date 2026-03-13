@@ -1,6 +1,6 @@
 # Self-Hosting Guide
 
-## Chrono ROM Tools - Self-Hosted Deployment
+## Crono MCP - Self-Hosted Deployment
 
 ### Quick Start
 

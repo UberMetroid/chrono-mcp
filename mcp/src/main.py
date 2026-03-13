@@ -24,7 +24,7 @@ from lib.chrono import (
 )
 
 # Create MCP server
-mcp = FastMCP("Chrono ROM Tools")
+mcp = FastMCP("Crono MCP")
 
 # Cache for ROM data
 _rom_cache = {}
