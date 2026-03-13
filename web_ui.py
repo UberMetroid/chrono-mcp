@@ -557,6 +557,67 @@ def serve_audio(filename):
     from flask import send_from_directory
     return send_from_directory(DATA_DIR / "audio", filename)
 
+@app.route('/api/plot')
+def api_plot():
+    """List available plot trees"""
+    import os
+    extracted_dir = DATA_DIR / "extracted"
+    if not extracted_dir.exists():
+        return jsonify({"plots": []})
+    
+    plots = []
+    for f in os.listdir(extracted_dir):
+        if f.endswith('_plot_tree.json'):
+            game_name = f.replace('_plot_tree.json', '').replace('_', ' ').title()
+            if game_name == 'Ct':
+                game_name = 'Chrono Trigger'
+            elif game_name == 'Cc':
+                game_name = 'Chrono Cross'
+            elif game_name == 'Rd':
+                game_name = 'Radical Dreamers'
+            plots.append({
+                "game": game_name,
+                "file": f"/api/plot/{f.replace('.json', '')}"
+            })
+    
+    return jsonify({"plots": plots})
+
+@app.route('/api/plot/<plot_id>')
+def api_plot_detail(plot_id):
+    """Get specific plot tree"""
+    import os
+    import json
+    
+    # Sanitize and validate
+    plot_id = sanitize_input(plot_id, max_length=50)
+    if '..' in plot_id or '/' in plot_id:
+        return jsonify({"error": "Invalid plot ID"})
+    
+    # Map IDs to filenames
+    id_map = {
+        "ct": "ct_plot_tree.json",
+        "chrono_trigger": "ct_plot_tree.json",
+        "cc": "cc_plot_tree.json", 
+        "chrono_cross": "cc_plot_tree.json",
+        "rd": "rd_plot_tree.json",
+        "radical_dreamers": "rd_plot_tree.json"
+    }
+    
+    filename = id_map.get(plot_id.lower())
+    if not filename:
+        return jsonify({"error": "Plot not found"})
+    
+    filepath = DATA_DIR / "extracted" / filename
+    if not filepath.exists():
+        return jsonify({"error": "Plot file not found"})
+    
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)})
+
 # Simple HTML template
 HTML_TEMPLATE = '''
 <!DOCTYPE html>
@@ -595,9 +656,15 @@ HTML_TEMPLATE = '''
         .game-card ul { list-style: none; }
         .game-card li { padding: 8px; border-bottom: 1px solid var(--border); }
         .game-card li:hover { background: var(--border); }
+        .section { margin: 20px 0; }
+        .section h2 { color: var(--accent); margin-bottom: 15px; }
         .category-btn { background: var(--border); color: var(--text); border: none; padding: 10px 20px; 
                        margin: 5px; border-radius: 6px; cursor: pointer; }
         .category-btn:hover { background: var(--accent); }
+        .clickable-item { cursor: pointer; }
+        .clickable-item:hover { background: var(--accent); color: white; }
+        .search-result-item { padding: 8px; border-bottom: 1px solid var(--border); cursor: pointer; }
+        .search-result-item:hover { background: var(--border); }
         .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
                  background: rgba(0,0,0,0.8); z-index: 100; }
         .modal-content { background: var(--bg-secondary); margin: 50px auto; padding: 30px; 
@@ -640,6 +707,13 @@ HTML_TEMPLATE = '''
     <div class="search-box">
         <input type="text" id="search" placeholder="Search all games... (e.g., 'sword', 'fire', 'crono')" 
                onkeyup="search(this.value)">
+    </div>
+    
+    <div class="section">
+        <h2 onclick="toggleSection('plots')" style="cursor:pointer">📖 Plot/Story ▾</h2>
+        <div id="plots-section" style="display:none">
+            <div id="plots" class="games"></div>
+        </div>
     </div>
     
     <div id="results" class="games"></div>
@@ -715,6 +789,79 @@ HTML_TEMPLATE = '''
             localStorage.setItem('theme', document.body.classList.contains('light-theme') ? 'light' : 'dark');
         }
         
+        function toggleSection(id) {
+            const el = document.getElementById(id + '-section');
+            el.style.display = el.style.display === 'none' ? 'block' : 'none';
+        }
+        
+        async function loadPlots() {
+            try {
+                const response = await fetch('/api/plot');
+                const data = await response.json();
+                const container = document.getElementById('plots');
+                
+                if (!data.plots || data.plots.length === 0) {
+                    container.innerHTML = '<p>No plot data available</p>';
+                    return;
+                }
+                
+                for (const plot of data.plots) {
+                    const card = document.createElement('div');
+                    card.className = 'game-card';
+                    const plotId = plot.file.split('/').pop().replace('_plot_tree', '');
+                    card.innerHTML = `<h3>${plot.game}</h3><button class="btn" onclick="showPlot('${plotId}')">View Story</button>`;
+                    container.appendChild(card);
+                }
+            } catch(e) {
+                console.error('Failed to load plots:', e);
+            }
+        }
+        
+        async function showPlot(url) {
+            const data = await fetch(url).then(r => r.json());
+            let html = `<p><strong>${data.description}</strong></p>`;
+            
+            if (data.eras) {
+                html += '<h3>Eras/Timeline</h3><ul>';
+                for (const era of data.eras) {
+                    html += `<li><strong>${era.name}</strong> (${era.year}): ${era.description}</li>`;
+                }
+                html += '</ul>';
+            } else if (data.worlds) {
+                html += '<h3>Worlds</h3><ul>';
+                for (const world of data.worlds) {
+                    html += `<li><strong>${world.name}</strong>: ${world.description}</li>`;
+                }
+                html += '</ul>';
+            } else if (data.episodes) {
+                html += '<h3>Episodes</h3><ul>';
+                for (const ep of data.episodes) {
+                    html += `<li><strong>${ep.name}</strong>: ${ep.description}</li>`;
+                }
+                html += '</ul>';
+            }
+            
+            if (data.character_arcs) {
+                html += '<h3>Character Arcs</h3><ul>';
+                for (const arc of data.character_arcs) {
+                    html += `<li><strong>${arc.character}</strong>: ${arc.arc}</li>`;
+                }
+                html += '</ul>';
+            }
+            
+            if (data.endings) {
+                html += '<h3>Endings</h3><ul>';
+                for (const ending of data.endings) {
+                    html += `<li><strong>${ending.name}</strong>: ${ending.description}</li>`;
+                }
+                html += '</ul>';
+            }
+            
+            document.getElementById('modal-title').textContent = data.game + ' - Plot Tree';
+            document.getElementById('modal-body').innerHTML = html;
+            document.getElementById('modal').style.display = 'block';
+        }
+        
         // Load saved theme
         if (localStorage.getItem('theme') === 'light') {
             document.body.classList.add('light-theme');
@@ -742,19 +889,56 @@ HTML_TEMPLATE = '''
                 return;
             }
             
-            // Group by game
+            // Group by game and category
             const byGame = {};
             for (const m of results.matches) {
-                if (!byGame[m.game]) byGame[m.game] = [];
-                byGame[m.game].push(m);
+                const key = m.game + '|' + m.category;
+                if (!byGame[key]) byGame[key] = [];
+                byGame[key].push(m);
             }
             
-            for (const [game, matches] of Object.entries(byGame)) {
+            for (const [key, matches] of Object.entries(byGame)) {
+                const [game, category] = key.split('|');
                 const card = document.createElement('div');
                 card.className = 'game-card';
-                card.innerHTML = `<h2>${game}</h2><p>${matches.length} matches</p>`;
+                
+                // Show individual items with clickable links
+                let itemsHtml = matches.slice(0, 20).map(m => {
+                    const data = m.data || {};
+                    const name = data.name || data.text || data.character || JSON.stringify(data).slice(0, 30);
+                    const id = data.id || data.offset || '';
+                    return `<li class="clickable-item" onclick="showSearchItem('${game}', '${category}', ${JSON.stringify(data).replace(/'/g, "&#39;")})">${name}</li>`;
+                }).join('');
+                
+                if (matches.length > 20) {
+                    itemsHtml += `<li>... and ${matches.length - 20} more</li>`;
+                }
+                
+                card.innerHTML = `
+                    <h2>${game} - ${category}</h2>
+                    <p>${matches.length} matches</p>
+                    <ul>${itemsHtml}</ul>
+                `;
                 container.appendChild(card);
             }
+        }
+        
+        function showSearchItem(game, category, data) {
+            // Show clicked item in modal
+            document.getElementById('modal-title').textContent = game + ' - ' + category;
+            
+            if (typeof data === 'object') {
+                let html = '<table>';
+                for (const [key, val] of Object.entries(data)) {
+                    html += `<tr><th>${key}</th><td>${val}</td></tr>`;
+                }
+                html += '</table>';
+                document.getElementById('modal-body').innerHTML = html;
+            } else {
+                document.getElementById('modal-body').innerHTML = '<pre>' + data + '</pre>';
+            }
+            
+            document.getElementById('modal').style.display = 'block';
         }
         
         // Close modal on outside click
@@ -763,6 +947,7 @@ HTML_TEMPLATE = '''
         }
         
         loadGames();
+        loadPlots();
     </script>
 </body>
 </html>
