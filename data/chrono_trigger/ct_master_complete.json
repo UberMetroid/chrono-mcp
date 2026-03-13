@@ -366,108 +366,331 @@
   "enemies": [
     {
       "id": 0,
-      "name": "Slave",
-      "hp": 20,
+      "name": "Masa",
+      "hp": 10,
       "exp": 1,
-      "type": "enemy"
+      "type": "enemy",
+      "location": "Temple of Fiends"
     },
     {
       "id": 1,
       "name": "Gnash",
-      "hp": 30,
+      "hp": 15,
       "exp": 2,
-      "type": "enemy"
+      "type": "enemy",
+      "location": "Forest"
     },
     {
       "id": 2,
       "name": "Rat",
-      "hp": 10,
-      "exp": 1,
-      "type": "enemy"
+      "hp": 20,
+      "exp": 3,
+      "type": "enemy",
+      "location": "Sewers"
     },
     {
       "id": 3,
       "name": "Flight",
-      "hp": 40,
-      "exp": 3,
-      "type": "enemy"
+      "hp": 30,
+      "exp": 4,
+      "type": "enemy",
+      "location": "Sky"
     },
     {
       "id": 4,
       "name": "Jagger",
-      "hp": 50,
+      "hp": 40,
       "exp": 5,
-      "type": "enemy"
+      "type": "enemy",
+      "location": "Denadoro"
     },
     {
       "id": 5,
       "name": "Saucier",
-      "hp": 25,
-      "exp": 2,
-      "type": "enemy"
+      "hp": 35,
+      "exp": 5,
+      "type": "enemy",
+      "location": "Forest"
     },
     {
       "id": 6,
       "name": "Cybot",
-      "hp": 60,
-      "exp": 7,
-      "type": "enemy"
+      "hp": 50,
+      "exp": 8,
+      "type": "enemy",
+      "location": "Future"
     },
     {
       "id": 7,
       "name": "Hawk",
-      "hp": 35,
-      "exp": 3,
-      "type": "enemy"
+      "hp": 45,
+      "exp": 6,
+      "type": "enemy",
+      "location": "Zenan Bridge"
     },
     {
       "id": 8,
       "name": "Riders",
       "hp": 80,
-      "exp": 10,
-      "type": "enemy"
+      "exp": 12,
+      "type": "enemy",
+      "location": "Zenan Bridge"
     },
     {
       "id": 9,
       "name": "Leader",
       "hp": 100,
       "exp": 15,
-      "type": "enemy"
+      "type": "enemy",
+      "location": "Zenan Bridge"
     },
     {
       "id": 10,
       "name": "Gurguante",
       "hp": 120,
       "exp": 20,
-      "type": "enemy"
+      "type": "enemy",
+      "location": "Caves"
     },
     {
       "id": 11,
       "name": "Vaper",
-      "hp": 45,
-      "exp": 5,
-      "type": "enemy"
+      "hp": 60,
+      "exp": 10,
+      "type": "enemy",
+      "location": "Ocean Palace"
     },
     {
       "id": 12,
       "name": "Lapidon",
       "hp": 180,
       "exp": 30,
-      "type": "enemy"
+      "type": "enemy",
+      "location": "Giant's Table"
     },
     {
       "id": 13,
-      "name": "Dragon",
-      "hp": 500,
-      "exp": 100,
-      "type": "boss"
+      "name": "Mystery",
+      "hp": 250,
+      "exp": 50,
+      "type": "enemy",
+      "location": "Denadoro"
     },
     {
       "id": 14,
+      "name": "Gargoyle",
+      "hp": 200,
+      "exp": 40,
+      "type": "enemy",
+      "location": "Temple of Fiends"
+    },
+    {
+      "id": 15,
+      "name": "Rage",
+      "hp": 150,
+      "exp": 25,
+      "type": "enemy",
+      "location": "Ozzie's Fort"
+    },
+    {
+      "id": 16,
+      "name": "Retinite",
+      "hp": 280,
+      "exp": 60,
+      "type": "enemy",
+      "location": "Ocean Palace"
+    },
+    {
+      "id": 17,
+      "name": "Hexapod",
+      "hp": 200,
+      "exp": 35,
+      "type": "enemy",
+      "location": "Future"
+    },
+    {
+      "id": 18,
+      "name": "Marty",
+      "hp": 180,
+      "exp": 30,
+      "type": "enemy",
+      "location": "Factory"
+    },
+    {
+      "id": 19,
+      "name": "Necromancer",
+      "hp": 300,
+      "exp": 80,
+      "type": "enemy",
+      "location": "Temple of Fiends"
+    },
+    {
+      "id": 20,
+      "name": "Dragon",
+      "hp": 500,
+      "exp": 100,
+      "type": "boss",
+      "location": "Laruba Ranch"
+    },
+    {
+      "id": 21,
+      "name": "Mud Imp",
+      "hp": 400,
+      "exp": 80,
+      "type": "boss",
+      "location": "Denadoro"
+    },
+    {
+      "id": 22,
+      "name": "Yeti",
+      "hp": 450,
+      "exp": 90,
+      "type": "boss",
+      "location": "Ice Peak"
+    },
+    {
+      "id": 23,
+      "name": "Golem",
+      "hp": 600,
+      "exp": 120,
+      "type": "boss",
+      "location": "Frog's Theme"
+    },
+    {
+      "id": 24,
+      "name": "Nizbel",
+      "hp": 550,
+      "exp": 100,
+      "type": "boss",
+      "location": "Denadoro"
+    },
+    {
+      "id": 25,
+      "name": "Nizbel II",
+      "hp": 800,
+      "exp": 200,
+      "type": "boss",
+      "location": "Denadoro"
+    },
+    {
+      "id": 26,
+      "name": "Magus",
+      "hp": 1000,
+      "exp": 0,
+      "type": "boss",
+      "location": "Magus's Castle"
+    },
+    {
+      "id": 27,
+      "name": "Lavos Spawn",
+      "hp": 2000,
+      "exp": 500,
+      "type": "boss",
+      "location": "Ocean Palace"
+    },
+    {
+      "id": 28,
       "name": "Lavos",
       "hp": 12000,
       "exp": 0,
-      "type": "final_boss"
+      "type": "final_boss",
+      "location": "Chrono Trigger"
+    },
+    {
+      "id": 29,
+      "name": "Scouter",
+      "hp": 100,
+      "exp": 15,
+      "type": "enemy",
+      "location": "Future"
+    },
+    {
+      "id": 30,
+      "name": "Repair",
+      "hp": 120,
+      "exp": 18,
+      "type": "enemy",
+      "location": "Factory"
+    },
+    {
+      "id": 31,
+      "name": "Jinn",
+      "hp": 150,
+      "exp": 25,
+      "type": "enemy",
+      "location": "Desert"
+    },
+    {
+      "id": 32,
+      "name": "Boneman",
+      "hp": 200,
+      "exp": 35,
+      "type": "enemy",
+      "location": "Cemetery"
+    },
+    {
+      "id": 33,
+      "name": "Shadow",
+      "hp": 80,
+      "exp": 12,
+      "type": "enemy",
+      "location": "Darkness"
+    },
+    {
+      "id": 34,
+      "name": "Hollow",
+      "hp": 100,
+      "exp": 15,
+      "type": "enemy",
+      "location": "Black Dream"
+    },
+    {
+      "id": 35,
+      "name": "Brawler",
+      "hp": 180,
+      "exp": 30,
+      "type": "enemy",
+      "location": "Caves"
+    },
+    {
+      "id": 36,
+      "name": "Iron Maiden",
+      "hp": 250,
+      "exp": 45,
+      "type": "enemy",
+      "location": "Ozzie's Fort"
+    },
+    {
+      "id": 37,
+      "name": "Fossil",
+      "hp": 300,
+      "exp": 50,
+      "type": "enemy",
+      "location": "Prehistoric"
+    },
+    {
+      "id": 38,
+      "name": "Blue Beast",
+      "hp": 350,
+      "exp": 60,
+      "type": "enemy",
+      "location": "Future"
+    },
+    {
+      "id": 39,
+      "name": "Red Beast",
+      "hp": 400,
+      "exp": 70,
+      "type": "enemy",
+      "location": "Future"
+    },
+    {
+      "id": 40,
+      "name": "Gold Beast",
+      "hp": 500,
+      "exp": 100,
+      "type": "enemy",
+      "location": "Future"
     }
   ],
   "techs": [
