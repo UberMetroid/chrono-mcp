@@ -5093,6 +5093,8 @@
       "platforms": [
         "PS1"
       ],
+      "release_year": 1999,
+      "developer": "Square",
       "characters": [
         {
           "id": 0,
@@ -5101,7 +5103,7 @@
           "mp": 30,
           "str": 18,
           "def": 10,
-          "element": "non-elemental"
+          "element": "-"
         },
         {
           "id": 1,
@@ -5110,7 +5112,7 @@
           "mp": 45,
           "str": 12,
           "def": 8,
-          "element": "shadow"
+          "element": "Shadow"
         },
         {
           "id": 2,
@@ -5119,7 +5121,7 @@
           "mp": 50,
           "str": 14,
           "def": 9,
-          "element": "white"
+          "element": "White"
         },
         {
           "id": 3,
@@ -5128,7 +5130,7 @@
           "mp": 35,
           "str": 16,
           "def": 12,
-          "element": "dark"
+          "element": "Dark"
         },
         {
           "id": 4,
@@ -5137,7 +5139,7 @@
           "mp": 20,
           "str": 22,
           "def": 15,
-          "element": "shadow"
+          "element": "Shadow"
         },
         {
           "id": 5,
@@ -5146,7 +5148,7 @@
           "mp": 15,
           "str": 25,
           "def": 12,
-          "element": "earth"
+          "element": "Earth"
         },
         {
           "id": 6,
@@ -5155,7 +5157,7 @@
           "mp": 40,
           "str": 18,
           "def": 10,
-          "element": "water"
+          "element": "Water"
         },
         {
           "id": 7,
@@ -5164,7 +5166,7 @@
           "mp": 25,
           "str": 20,
           "def": 18,
-          "element": "non-elemental"
+          "element": "-"
         },
         {
           "id": 8,
@@ -5173,7 +5175,7 @@
           "mp": 55,
           "str": 10,
           "def": 7,
-          "element": "wind"
+          "element": "Wind"
         },
         {
           "id": 9,
@@ -5182,122 +5184,450 @@
           "mp": 50,
           "str": 14,
           "def": 10,
-          "element": "lightning"
+          "element": "Lightning"
         },
         {
           "id": 10,
-          "name": "Harle (Astral)",
+          "name": "King",
           "hp": 180,
-          "mp": 40,
+          "mp": 30,
           "str": 18,
+          "def": 12,
+          "element": "-"
+        },
+        {
+          "id": 11,
+          "name": "Queen",
+          "hp": 170,
+          "mp": 45,
+          "str": 16,
+          "def": 10,
+          "element": "-"
+        },
+        {
+          "id": 12,
+          "name": "Orlha",
+          "hp": 160,
+          "mp": 35,
+          "str": 15,
+          "def": 11,
+          "element": "Ice"
+        },
+        {
+          "id": 13,
+          "name": "Moot",
+          "hp": 130,
+          "mp": 60,
+          "str": 8,
+          "def": 5,
+          "element": "Fire"
+        },
+        {
+          "id": 14,
+          "name": "Turner",
+          "hp": 175,
+          "mp": 20,
+          "str": 20,
           "def": 14,
-          "element": "dark"
+          "element": "-"
         }
       ],
       "elements": [
         {
-          "id": 0,
           "name": "Fire",
-          "color": "red"
+          "color": "Red"
         },
         {
-          "id": 1,
           "name": "Ice",
-          "color": "cyan"
+          "color": "Cyan"
         },
         {
-          "id": 2,
           "name": "Water",
-          "color": "blue"
+          "color": "Blue"
         },
         {
-          "id": 3,
           "name": "Lightning",
-          "color": "yellow"
+          "color": "Yellow"
         },
         {
-          "id": 4,
           "name": "Earth",
-          "color": "brown"
+          "color": "Brown"
         },
         {
-          "id": 5,
           "name": "Wind",
-          "color": "green"
+          "color": "Green"
         },
         {
-          "id": 6,
           "name": "Dark",
-          "color": "purple"
+          "color": "Purple"
         },
         {
-          "id": 7,
           "name": "Holy",
-          "color": "white"
+          "color": "White"
         }
       ],
       "locations": [
         {
-          "id": 0,
           "name": "Home",
-          "type": "town",
-          "region": "Home"
+          "region": "Coast"
         },
         {
-          "id": 1,
           "name": "Arni Village",
-          "type": "town",
           "region": "Coast"
         },
         {
-          "id": 2,
           "name": "Lucca's Theater",
-          "type": "building",
           "region": "Coast"
         },
         {
-          "id": 3,
           "name": "Marbule",
-          "type": "town",
           "region": "West"
         },
         {
-          "id": 4,
           "name": "Guldove",
-          "type": "town",
           "region": "Islands"
         },
         {
-          "id": 5,
           "name": "Termina",
-          "type": "town",
           "region": "Central"
         },
         {
-          "id": 6,
           "name": "Viper Manor",
-          "type": "dungeon",
           "region": "West"
         },
         {
-          "id": 7,
           "name": "Dead Sea",
-          "type": "dungeon",
           "region": "Islands"
+        },
+        {
+          "name": "Fort Dragonia",
+          "region": "Islands"
+        },
+        {
+          "name": "Temporal Vortex",
+          "region": "Other"
+        },
+        {
+          "name": "Dragon's Peak",
+          "region": "West"
+        },
+        {
+          "name": "Sylvan Village",
+          "region": "Forest"
+        },
+        {
+          "name": "Hermits Hideout",
+          "region": "Mountains"
+        }
+      ],
+      "items": [
+        {
+          "id": 0,
+          "name": "Potion",
+          "effect": "HP+50",
+          "price": 10
+        },
+        {
+          "id": 1,
+          "name": "Ether",
+          "effect": "MP+10",
+          "price": 20
+        },
+        {
+          "id": 2,
+          "name": "Elixir",
+          "effect": "Full restore",
+          "price": 100
+        },
+        {
+          "id": 3,
+          "name": "Antidote",
+          "effect": "Cure poison",
+          "price": 5
+        },
+        {
+          "id": 4,
+          "name": "Soft",
+          "effect": "Cure petrify",
+          "price": 10
+        },
+        {
+          "id": 5,
+          "name": "Phoenix",
+          "effect": "Revive",
+          "price": 50
+        },
+        {
+          "id": 6,
+          "name": "Power Tab",
+          "effect": "STR+1",
+          "price": 100
+        },
+        {
+          "id": 7,
+          "name": "Magic Tab",
+          "effect": "MP+3",
+          "price": 100
         },
         {
           "id": 8,
-          "name": "Fort Dragonia",
-          "type": "dungeon",
-          "region": "Islands"
+          "name": "Speed Tab",
+          "effect": "SPD+1",
+          "price": 100
         },
         {
           "id": 9,
-          "name": "Temporal Vortex",
-          "type": "dungeon",
-          "region": "Other"
+          "name": "Defense Tab",
+          "effect": "DEF+1",
+          "price": 100
         }
-      ]
+      ],
+      "enemies": [
+        {
+          "id": 0,
+          "name": "Goblin",
+          "hp": 30,
+          "exp": 5,
+          "type": "enemy"
+        },
+        {
+          "id": 1,
+          "name": "Bat",
+          "hp": 20,
+          "exp": 3,
+          "type": "enemy"
+        },
+        {
+          "id": 2,
+          "name": "Skeleton",
+          "hp": 50,
+          "exp": 10,
+          "type": "enemy"
+        },
+        {
+          "id": 3,
+          "name": "Ghost",
+          "hp": 40,
+          "exp": 8,
+          "type": "enemy"
+        },
+        {
+          "id": 4,
+          "name": "Slime",
+          "hp": 25,
+          "exp": 4,
+          "type": "enemy"
+        },
+        {
+          "id": 5,
+          "name": "Wolf",
+          "hp": 45,
+          "exp": 9,
+          "type": "enemy"
+        },
+        {
+          "id": 6,
+          "name": "Golem",
+          "hp": 200,
+          "exp": 50,
+          "type": "boss"
+        },
+        {
+          "id": 7,
+          "name": "Dragon",
+          "hp": 500,
+          "exp": 100,
+          "type": "boss"
+        },
+        {
+          "id": 8,
+          "name": "Lava",
+          "hp": 150,
+          "exp": 30,
+          "type": "enemy"
+        },
+        {
+          "id": 9,
+          "name": "Dodon",
+          "hp": 300,
+          "exp": 60,
+          "type": "boss"
+        },
+        {
+          "id": 10,
+          "name": "Flea",
+          "hp": 800,
+          "exp": 150,
+          "type": "boss"
+        },
+        {
+          "id": 11,
+          "name": "Grobyc",
+          "hp": 1000,
+          "exp": 200,
+          "type": "boss"
+        },
+        {
+          "id": 12,
+          "name": "Harle",
+          "hp": 1200,
+          "exp": 250,
+          "type": "boss"
+        },
+        {
+          "id": 13,
+          "name": "Lynx",
+          "hp": 1500,
+          "exp": 300,
+          "type": "boss"
+        },
+        {
+          "id": 14,
+          "name": "Time Guardian",
+          "hp": 2000,
+          "exp": 500,
+          "type": "boss"
+        },
+        {
+          "id": 15,
+          "name": "Fate",
+          "hp": 3000,
+          "exp": 1000,
+          "type": "final_boss"
+        }
+      ],
+      "techs": [
+        {
+          "name": "Attack",
+          "owner": "Serge"
+        },
+        {
+          "name": "Thunder",
+          "owner": "Serge"
+        },
+        {
+          "name": "Double Slash",
+          "owner": "Serge"
+        },
+        {
+          "name": "Lightning",
+          "owner": "Kid"
+        },
+        {
+          "name": "Fire",
+          "owner": "Kid"
+        },
+        {
+          "name": "Ice",
+          "owner": "Kid"
+        },
+        {
+          "name": "Heal",
+          "owner": "Guinevere"
+        },
+        {
+          "name": "Recover",
+          "owner": "Guinevere"
+        },
+        {
+          "name": "Drill",
+          "owner": "Harle"
+        },
+        {
+          "name": "Aura",
+          "owner": "Harle"
+        },
+        {
+          "name": "Claw",
+          "owner": "Lynx"
+        },
+        {
+          "name": "Slash",
+          "owner": "Lynx"
+        },
+        {
+          "name": "Punch",
+          "owner": "Viper"
+        },
+        {
+          "name": "Kick",
+          "owner": "Viper"
+        },
+        {
+          "name": "Water",
+          "owner": "Frog"
+        },
+        {
+          "name": "Slime",
+          "owner": "Frog"
+        },
+        {
+          "name": "Gun",
+          "owner": "Radius"
+        },
+        {
+          "name": "Sniper",
+          "owner": "Radius"
+        },
+        {
+          "name": "Dance",
+          "owner": "Marcie"
+        },
+        {
+          "name": "Magic",
+          "owner": "Marcie"
+        },
+        {
+          "name": "Nurse",
+          "owner": "Doc"
+        },
+        {
+          "name": "Cure",
+          "owner": "Doc"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Arni Shop",
+          "location": "Arni Village"
+        },
+        {
+          "name": "Termina Shop",
+          "location": "Termina"
+        },
+        {
+          "name": "Marbule Shop",
+          "location": "Marbule"
+        },
+        {
+          "name": "Guldove Shop",
+          "location": "Guldove"
+        },
+        {
+          "name": "Fort Dragonia Shop",
+          "location": "Fort Dragonia"
+        }
+      ],
+      "dialog": {
+        "count": 572,
+        "source": "cc_dialog_complete.json"
+      },
+      "npcs": {
+        "count": 200,
+        "source": "cc_npcs.json"
+      },
+      "treasure": {
+        "count": 100,
+        "source": "cc_treasure.json"
+      },
+      "monster_drops": {
+        "count": 50,
+        "source": "cc_monster_drops.json"
+      },
+      "tim_images": {
+        "count": 4637,
+        "source": "cc_tim_all.json"
+      }
     },
     "Radical Dreamers": {
       "game": "Radical Dreamers",
