@@ -212,12 +212,5386 @@
       "location": "Dream Sanctuary"
     }
   ],
-  "dialog": {
-    "count": 1282,
-    "source": "rd_dialog_complete.json"
-  },
-  "treasure": {
-    "count": 50,
-    "source": "rd_treasure.json"
-  }
+  "dialog": [
+    {
+      "offset": "0x1e6b",
+      "text": ")\"&&\"e&D'K'"
+    },
+    {
+      "offset": "0x2c44",
+      "text": "/00G0|0~051N.}0l1q1"
+    },
+    {
+      "offset": "0x2c6a",
+      "text": "5#516?7S7f7g7"
+    },
+    {
+      "offset": "0x42cc",
+      "text": "|yvspmjgc`]ZWTQOLIFC@>;8631.,*'%#!"
+    },
+    {
+      "offset": "0x4329",
+      "text": "!#%'*,.1368;>@CFILOQTWZ]`cgjmpsvy|"
+    },
+    {
+      "offset": "0x4aa3",
+      "text": ";c\\g\\g]k}k}k}k~o~o~o"
+    },
+    {
+      "offset": "0x4ca3",
+      "text": ":c|g\\g]k}k}k}k~o~o~o"
+    },
+    {
+      "offset": "0x50c6",
+      "text": "C4K4K5O5SWWW[Y_"
+    },
+    {
+      "offset": "0x52c3",
+      "text": "sGS;RGSKtOtOvSw["
+    },
+    {
+      "offset": "0x5a03",
+      "text": "sJsJsJsJsJsJsJsJsJsJsJsJsJsJsJ"
+    },
+    {
+      "offset": "0x6009",
+      "text": "a\"a)a,a/a2a@aJaTa^ahakanaqatawaza}a"
+    },
+    {
+      "offset": "0x6069",
+      "text": "b!b$b.b1b4b<bDbLbObRbUbXb[b^babdbnbqb{b"
+    },
+    {
+      "offset": "0x60c5",
+      "text": "b\"c:a=aGcJcMc"
+    },
+    {
+      "offset": "0x61ba",
+      "text": "BBBBBBBBCCCCCCCC"
+    },
+    {
+      "offset": "0x61ce",
+      "text": "DBDCCCCCBCBBDDBCECE"
+    },
+    {
+      "offset": "0x64b9",
+      "text": "g!g2gCgLgUg^ggg"
+    },
+    {
+      "offset": "0x64f1",
+      "text": "l-lBlSlhl}l~m"
+    },
+    {
+      "offset": "0x651f",
+      "text": "p,q1q6q;q@q"
+    },
+    {
+      "offset": "0x657d",
+      "text": "{'{8{I{N{S{X{]{"
+    },
+    {
+      "offset": "0x66a3",
+      "text": "PLB0@L@0P<\"0@< 0P,"
+    },
+    {
+      "offset": "0x6a98",
+      "text": "q.6qq,6aq*4"
+    },
+    {
+      "offset": "0x6b77",
+      "text": "[n=w[l=g[j=W[h="
+    },
+    {
+      "offset": "0x6b87",
+      "text": "KN=wKL=gKJ=WKH="
+    },
+    {
+      "offset": "0x6b97",
+      "text": ";.=w;,=g;*=W;(="
+    },
+    {
+      "offset": "0x7013",
+      "text": "_l:P_b:@_`:"
+    },
+    {
+      "offset": "0x7023",
+      "text": "OL:`OD:POB:@O@:"
+    },
+    {
+      "offset": "0x703b",
+      "text": "?(:p?&:`?$:P?\":"
+    },
+    {
+      "offset": "0x708d",
+      "text": "Oof:?od:/ob:O_F:?_D:/_B:OO&:?O$:/O\":"
+    },
+    {
+      "offset": "0x7160",
+      "text": "*K`\"*[`\"*{0\"*"
+    },
+    {
+      "offset": "0x7197",
+      "text": "\"*kP\"*K`\"*Kp\"*{0\"*"
+    },
+    {
+      "offset": "0x71fe",
+      "text": "B6Pw$6@w\"6Pg"
+    },
+    {
+      "offset": "0x7211",
+      "text": "`wn(Pwl(`gN(PgL("
+    },
+    {
+      "offset": "0x7222",
+      "text": "`gJ(PgH(`wn(Pwl("
+    },
+    {
+      "offset": "0x7236",
+      "text": "(Pwl(`gN(PgL("
+    },
+    {
+      "offset": "0x7247",
+      "text": "(`gJ(PgH(Pwl("
+    },
+    {
+      "offset": "0x7298",
+      "text": "$adf$Qdd$Adb$1d`$aTF$QTD$ATB$aD&$QD$$a4"
+    },
+    {
+      "offset": "0x767c",
+      "text": "`f8x`d8h`b8X``8"
+    },
+    {
+      "offset": "0x768c",
+      "text": "PF8xPD8hPB8XP@8x@$8h@\"8x0"
+    },
+    {
+      "offset": "0x76b9",
+      "text": "`n:x`l:h`j:X`h:"
+    },
+    {
+      "offset": "0x76c9",
+      "text": "PN:xPL:hPJ:XPH:"
+    },
+    {
+      "offset": "0x76d9",
+      "text": "@.:x@,:h@*:x0"
+    },
+    {
+      "offset": "0x793c",
+      "text": "_h4p_f4`_d4P_b4"
+    },
+    {
+      "offset": "0x7954",
+      "text": "OH4pOF4`OD4POB4@O@4"
+    },
+    {
+      "offset": "0x7970",
+      "text": "?(4p?&4`?$4P?\"4@? 4"
+    },
+    {
+      "offset": "0x79c5",
+      "text": "lh8zlf8jld8Zlb8"
+    },
+    {
+      "offset": "0x79d9",
+      "text": "\\H8z\\F8j\\D8Z\\B8"
+    },
+    {
+      "offset": "0x79ed",
+      "text": "L(8zL&8jL$8ZL\"8"
+    },
+    {
+      "offset": "0x7a2a",
+      "text": "{F;v{D;f{B;V{@;"
+    },
+    {
+      "offset": "0x7a3e",
+      "text": "k&;vk$;fk\";Vk ;"
+    },
+    {
+      "offset": "0x7bcb",
+      "text": "sH(osF(_sD(?"
+    },
+    {
+      "offset": "0x7be4",
+      "text": "b(OsB(_c$(Oc\"("
+    },
+    {
+      "offset": "0x7c2a",
+      "text": "FH8qFF8qVD8"
+    },
+    {
+      "offset": "0x7c4f",
+      "text": "OH8}OF8mOD8]OB8MO@8"
+    },
+    {
+      "offset": "0x7c63",
+      "text": "?(8}?&8m?$8]?\"8M? 8}/"
+    },
+    {
+      "offset": "0x80b6",
+      "text": "8pfb8`f`8pVB8`V@8pF\"8`F 8p6"
+    },
+    {
+      "offset": "0x8538",
+      "text": "\\vF'LvD'\\f&'Lf$'"
+    },
+    {
+      "offset": "0x8549",
+      "text": "\\vJ'LvH'\\f*'Lf('"
+    },
+    {
+      "offset": "0x8563",
+      "text": "DvFgTvDgDf&gTf$g"
+    },
+    {
+      "offset": "0x8574",
+      "text": "DvJgTvHgDf*gTf(g"
+    },
+    {
+      "offset": "0x87dc",
+      "text": "0hxd0Xxb0Hx`0hhD0XhB0Hh@0hX$0XX\"0HX 0"
+    },
+    {
+      "offset": "0x89ea",
+      "text": "6Zmb6Jm`6Z]B6J]@6"
+    },
+    {
+      "offset": "0x8a72",
+      "text": "$:k@F:k0&:k"
+    },
+    {
+      "offset": "0x8ba3",
+      "text": "TO*SdO(StO&S"
+    },
+    {
+      "offset": "0x8bf3",
+      "text": "'IU*]YU(]iU&]yU$]"
+    },
+    {
+      "offset": "0x8d67",
+      "text": "9h^h9X^f9H^d98^b9(^`9hNH9XNF9HND98NB9(N@9"
+    },
+    {
+      "offset": "0xa000",
+      "text": "Ver.10/29cx"
+    },
+    {
+      "offset": "0xbe0d",
+      "text": "BdCdD8dPdQ`"
+    },
+    {
+      "offset": "0xdfa3",
+      "text": "0dXdZd\\d^ p"
+    },
+    {
+      "offset": "0xea5a",
+      "text": "@0KZS[V0Ly2"
+    },
+    {
+      "offset": "0xeb07",
+      "text": "?0Pu~7KQ=t2"
+    },
+    {
+      "offset": "0xeb29",
+      "text": "@CO7vCR;xtV"
+    },
+    {
+      "offset": "0xeb60",
+      "text": "u0PjSn??W0Rn"
+    },
+    {
+      "offset": "0xffc0",
+      "text": "RADICAL DREAMERS 1.4 1"
+    },
+    {
+      "offset": "0x153d4",
+      "text": "789:;\"#$%&'()*+,-<=>?@AB"
+    },
+    {
+      "offset": "0x153ef",
+      "text": "CDE./0123456789:;FGHIJKL"
+    },
+    {
+      "offset": "0x1540a",
+      "text": "MN<=>?@ABCDEFGHIOPQRSTU"
+    },
+    {
+      "offset": "0x15427",
+      "text": "JKLMNOPQRSTUVXYZ[\\]^"
+    },
+    {
+      "offset": "0x15443",
+      "text": "WXYZ[\\]abcdefg"
+    },
+    {
+      "offset": "0x15589",
+      "text": "789:;#$%&'()*+,-./=>?@AB"
+    },
+    {
+      "offset": "0x155a4",
+      "text": "CDE0123456789:;<=>GHIJKL"
+    },
+    {
+      "offset": "0x155bf",
+      "text": "MN?@ABCDEFGHIJKLMPQRSTU"
+    },
+    {
+      "offset": "0x155d9",
+      "text": "VWNOPQRSTUVWXYZ[\\YZ[\\]^"
+    },
+    {
+      "offset": "0x155f3",
+      "text": "_`]^_`abcdefghijbcdefg"
+    },
+    {
+      "offset": "0x15612",
+      "text": "lmnopqrstuvmnopq"
+    },
+    {
+      "offset": "0x15625",
+      "text": "rstuvwxwxyz{|}~z{|}"
+    },
+    {
+      "offset": "0x16bc9",
+      "text": "!\"#@ABpq1234567@AB"
+    },
+    {
+      "offset": "0x16bdd",
+      "text": "EFG0123@ABtu123PQR"
+    },
+    {
+      "offset": "0x16bf1",
+      "text": "ABCDEFGPQRrsUVW@ABCPQR"
+    },
+    {
+      "offset": "0x16c0d",
+      "text": "abrsQRSTUVW`ab"
+    },
+    {
+      "offset": "0x16ed9",
+      "text": "89./<=89:+,-8')*;<=()*;<=89:8')*HI>?LMHIJ"
+    },
+    {
+      "offset": "0x17150",
+      "text": "hiZ\\]ijkhiXYh\\][hihiXYZ[h\\]iZ[XYxyjlmyz{xyhixlmkxyxyhijkxlmyjkhi"
+    },
+    {
+      "offset": "0x17263",
+      "text": "!\"#C%&#\"#&'[["
+    },
+    {
+      "offset": "0x1c0ac",
+      "text": "/ !\"#$E&'^^"
+    },
+    {
+      "offset": "0x1c0c0",
+      "text": ">?01234E6'^^"
+    },
+    {
+      "offset": "0x1c0dd",
+      "text": "O@ABCDEFG^^"
+    },
+    {
+      "offset": "0x1c0f0",
+      "text": "QRSTUVWXYll"
+    },
+    {
+      "offset": "0x1c0fc",
+      "text": "_PQRSTUV'XYZ[\\^^"
+    },
+    {
+      "offset": "0x1c10f",
+      "text": "abcdefghijkll"
+    },
+    {
+      "offset": "0x1c11d",
+      "text": "`abcdefghijklmno"
+    },
+    {
+      "offset": "0x1c13f",
+      "text": "pqrstuvwxyz"
+    },
+    {
+      "offset": "0x1c44f",
+      "text": "y`y`u@u@q@V"
+    },
+    {
+      "offset": "0x1c45b",
+      "text": "y`y`u@u@q`u"
+    },
+    {
+      "offset": "0x1c4b5",
+      "text": "y`y@V@V@V@V@V@V@V@VM"
+    },
+    {
+      "offset": "0x1c4d7",
+      "text": "y@V@V@V@V@V@V@V@V"
+    },
+    {
+      "offset": "0x264f5",
+      "text": "PQRSTUVWXYZ[{("
+    },
+    {
+      "offset": "0x26514",
+      "text": "`abcdefghijk"
+    },
+    {
+      "offset": "0x28c62",
+      "text": "VWTSRQPWabcdefWW"
+    },
+    {
+      "offset": "0x28dc4",
+      "text": "\"#$%&'()*+,WW"
+    },
+    {
+      "offset": "0x28de0",
+      "text": "23456789:;<WW"
+    },
+    {
+      "offset": "0x28dee",
+      "text": "()*+765432WW"
+    },
+    {
+      "offset": "0x28dfb",
+      "text": "BCDEFGHIJKWW"
+    },
+    {
+      "offset": "0x28e08",
+      "text": "89:;GFEDCBWW"
+    },
+    {
+      "offset": "0x28e15",
+      "text": "QRSTUVWXYWW"
+    },
+    {
+      "offset": "0x28e21",
+      "text": "JKWVUTSRQWW"
+    },
+    {
+      "offset": "0x28e2d",
+      "text": "bcdefghiWklWW"
+    },
+    {
+      "offset": "0x28e3b",
+      "text": "XihgfedcbWW"
+    },
+    {
+      "offset": "0x295e0",
+      "text": "$4098<H>\\^T~`"
+    },
+    {
+      "offset": "0x295ff",
+      "text": "2$407898ZH=L>T^\\"
+    },
+    {
+      "offset": "0x2961c",
+      "text": "2(5478yH:<:H>P>\\~d"
+    },
+    {
+      "offset": "0x2963f",
+      "text": "/$3,54747<:8;D=P"
+    },
+    {
+      "offset": "0x2ba0f",
+      "text": "HIJKLMNO@ABCDEF"
+    },
+    {
+      "offset": "0x2ba21",
+      "text": "XYZ[\\]^_PQRSTUV"
+    },
+    {
+      "offset": "0x2ba33",
+      "text": "hijklmno`abcde"
+    },
+    {
+      "offset": "0x2ce78",
+      "text": "rLrLrNpNpNp"
+    },
+    {
+      "offset": "0x2d065",
+      "text": "LpNpNpNpNpLpNpLp"
+    },
+    {
+      "offset": "0x2ddd3",
+      "text": ">LpLpLpLpLpLpLpLp"
+    },
+    {
+      "offset": "0x2ea00",
+      "text": "789:;<=>NMLKJIHGF"
+    },
+    {
+      "offset": "0x2ea22",
+      "text": "FGHIJKLMN^]\\[ZYXWV"
+    },
+    {
+      "offset": "0x2ea45",
+      "text": "VWXYZ[\\]^nmlkjihgf"
+    },
+    {
+      "offset": "0x2ea68",
+      "text": "fghijklmn~}|{zyxwv"
+    },
+    {
+      "offset": "0x31e93",
+      "text": "IHGFEDCBA@@"
+    },
+    {
+      "offset": "0x31ece",
+      "text": "\\]^_onmlkjih"
+    },
+    {
+      "offset": "0x31ef4",
+      "text": "~}|{zyxwvutsrqpp"
+    },
+    {
+      "offset": "0x31f05",
+      "text": "qrstuvwxyz{|}~"
+    },
+    {
+      "offset": "0x320ce",
+      "text": "VUTS'()PQRSTUV"
+    },
+    {
+      "offset": "0x320ec",
+      "text": "fedc789`abcdef"
+    },
+    {
+      "offset": "0x3210c",
+      "text": "utsGHIpqrstu"
+    },
+    {
+      "offset": "0x35e34",
+      "text": ":;<=>?@ABCDEF"
+    },
+    {
+      "offset": "0x35e54",
+      "text": "GHIJKLMNOPQ"
+    },
+    {
+      "offset": "0x38e49",
+      "text": "JIHGFEDCBAA"
+    },
+    {
+      "offset": "0x38e61",
+      "text": "ZYXWVUTSRQQ"
+    },
+    {
+      "offset": "0x38e79",
+      "text": "jihgfedcbaa"
+    },
+    {
+      "offset": "0x38e91",
+      "text": "zyxwvutsrqq"
+    },
+    {
+      "offset": "0x3a094",
+      "text": "GxOp78787878"
+    },
+    {
+      "offset": "0x3c0be",
+      "text": "78787878787878`a78"
+    },
+    {
+      "offset": "0x3d4e4",
+      "text": "@ @p ` ` `0"
+    },
+    {
+      "offset": "0x3e158",
+      "text": "ABCDEFGHIJKLMNO@NMLKJIHGFEDCBA"
+    },
+    {
+      "offset": "0x3e179",
+      "text": "QRSTUVWXYZ["
+    },
+    {
+      "offset": "0x3e188",
+      "text": "P^]\\[ZYXWVUTSRQ"
+    },
+    {
+      "offset": "0x3e19a",
+      "text": "abcdefghijklmno`nmlkjihgfedcba"
+    },
+    {
+      "offset": "0x3e1ca",
+      "text": "p~}|{zyxwvutsrq"
+    },
+    {
+      "offset": "0x3e47a",
+      "text": "!1A!1AQ!1AQaq"
+    },
+    {
+      "offset": "0x3e4a3",
+      "text": "\"2B\"2BR\"2BRbr"
+    },
+    {
+      "offset": "0x427a6",
+      "text": "@ABCDEFGHIJKLMNO"
+    },
+    {
+      "offset": "0x427b9",
+      "text": "PQRSTUVWXYZ[\\]^_"
+    },
+    {
+      "offset": "0x427df",
+      "text": "pqrstuvwxyz{|}~"
+    },
+    {
+      "offset": "0x445a9",
+      "text": "@ABCDEFGHIJKLMN"
+    },
+    {
+      "offset": "0x445bb",
+      "text": "PQRSTUVWXYZ[\\]^"
+    },
+    {
+      "offset": "0x445cd",
+      "text": "`abcdefghijklmn"
+    },
+    {
+      "offset": "0x4470d",
+      "text": "!\"#C$DEeFfg"
+    },
+    {
+      "offset": "0x491b9",
+      "text": "ghijklmno !\"#$%&'()*+"
+    },
+    {
+      "offset": "0x4a46f",
+      "text": "u0\\x$(t(u(uh5h5"
+    },
+    {
+      "offset": "0x4bb30",
+      "text": "1#3CScs0+;K["
+    },
+    {
+      "offset": "0x50209",
+      "text": "(8HXhx.>N^n(=L]kz"
+    },
+    {
+      "offset": "0x5282f",
+      "text": "C6M.E'&'\"#)!"
+    },
+    {
+      "offset": "0x52fd5",
+      "text": ",HPX\\ptxy~~"
+    },
+    {
+      "offset": "0x52ff8",
+      "text": "(0DHPlxptyy"
+    },
+    {
+      "offset": "0x53a01",
+      "text": "aL6La0dI0;yIy]yu"
+    },
+    {
+      "offset": "0x54830",
+      "text": ",9$],T9k9k0"
+    },
+    {
+      "offset": "0x54b50",
+      "text": "dLdQd0ukuI["
+    },
+    {
+      "offset": "0x5534a",
+      "text": "?@ABCDEFGHIJKLM"
+    },
+    {
+      "offset": "0x5535c",
+      "text": "NOPQRSTUVWXYZ[\\"
+    },
+    {
+      "offset": "0x5536e",
+      "text": "]^_`abcdefghi"
+    },
+    {
+      "offset": "0x5537e",
+      "text": "jklmnopqrstuv"
+    },
+    {
+      "offset": "0x5546c",
+      "text": "YL1j)L-L!HAJ1,)dYGII%I)"
+    },
+    {
+      "offset": "0x55485",
+      "text": "EM*)'A'5)%))"
+    },
+    {
+      "offset": "0x5911c",
+      "text": "OCPQRSTUVWX"
+    },
+    {
+      "offset": "0x597ef",
+      "text": "&%$'&'%&'$%&'$012:9:;8?AA"
+    },
+    {
+      "offset": "0x59818",
+      "text": "12/01289:;A@AA"
+    },
+    {
+      "offset": "0x59c94",
+      "text": "$0@Xdmqnv{vnq"
+    },
+    {
+      "offset": "0x5d2c5",
+      "text": "<f`l x`P@qACC"
+    },
+    {
+      "offset": "0x5e5aa",
+      "text": "lc`cdgbebee"
+    },
+    {
+      "offset": "0x5e69d",
+      "text": "8(XhX P(XxHXHXHXH"
+    },
+    {
+      "offset": "0x5e730",
+      "text": "H8X0`0H8XH8"
+    },
+    {
+      "offset": "0x5ebb3",
+      "text": "|LJ<N\\|\\|\\|(8,<D|^vr~"
+    },
+    {
+      "offset": "0x602cb",
+      "text": "`P`xph@`@ @"
+    },
+    {
+      "offset": "0x62efb",
+      "text": "a.a.a.a.a.c,<0<"
+    },
+    {
+      "offset": "0x65173",
+      "text": "}WK|+?3>sy|~"
+    },
+    {
+      "offset": "0x69404",
+      "text": "i\"!$#\"!('&%"
+    },
+    {
+      "offset": "0x69412",
+      "text": "x32143218765"
+    },
+    {
+      "offset": "0x6dcc5",
+      "text": "<=>?@AEFGHIJK"
+    },
+    {
+      "offset": "0x6dce5",
+      "text": "EFGHIJKLQRSTUVWX"
+    },
+    {
+      "offset": "0x6dcfc",
+      "text": "MNOPQRSTUVWXY[\\]^_`ab"
+    },
+    {
+      "offset": "0x6dd62",
+      "text": "mnopqrstuss"
+    },
+    {
+      "offset": "0x70ccb",
+      "text": "6789:;<abcd<;:9876"
+    },
+    {
+      "offset": "0x70ce0",
+      "text": "FGHIJKLqrstLKJIHGF"
+    },
+    {
+      "offset": "0x70faa",
+      "text": "CDEFGHIJKLMNO@ABLKJIHGFEDC"
+    },
+    {
+      "offset": "0x70fc5",
+      "text": "0@PQRSTUVWXYZ[\\]^_PQR\\[ZYXWVUTSRQP`abcdefghijklmno`ablkjihgfedcba`pqrstuvwxyz{"
+    },
+    {
+      "offset": "0x7101b",
+      "text": "{zyxwvutsrqp"
+    },
+    {
+      "offset": "0x728ff",
+      "text": "zXKhpblxuwtwo}"
+    },
+    {
+      "offset": "0x734d6",
+      "text": "@ABCDEFGHIJKLMNO@ABCDEFGHIJKLM"
+    },
+    {
+      "offset": "0x734f6",
+      "text": "PQRSTUVWXYZ[\\]^_PQRSTUVWXYZ[\\]"
+    },
+    {
+      "offset": "0x73515",
+      "text": "`abcdefghijklmno`abcdefghijklm"
+    },
+    {
+      "offset": "0x73546",
+      "text": "pqrstuvwxyz{|}."
+    },
+    {
+      "offset": "0x7481a",
+      "text": "BCDEFGHIJKL"
+    },
+    {
+      "offset": "0x7482b",
+      "text": "RSTUVWXYZ[\\"
+    },
+    {
+      "offset": "0x7483c",
+      "text": "bcdefghijkl"
+    },
+    {
+      "offset": "0x7484d",
+      "text": "rstuvwxyz{|"
+    },
+    {
+      "offset": "0x7a53e",
+      "text": "({[ZYXWVUTSRQP"
+    },
+    {
+      "offset": "0x7a55d",
+      "text": "kjihgfedcba`"
+    },
+    {
+      "offset": "0x7a57c",
+      "text": "zyxwvutsrqp"
+    },
+    {
+      "offset": "0x80dde",
+      "text": "%@ABCDEFGHII"
+    },
+    {
+      "offset": "0x80df7",
+      "text": "PQRSTUVWXYY"
+    },
+    {
+      "offset": "0x80e0f",
+      "text": "`abcdefghii"
+    },
+    {
+      "offset": "0x83bc3",
+      "text": "ONMLKJIHGFEDCBA@"
+    },
+    {
+      "offset": "0x83bd6",
+      "text": "_^]\\[ZYXWVUTSRQP"
+    },
+    {
+      "offset": "0x83be9",
+      "text": "onmlkjihgfedcba`"
+    },
+    {
+      "offset": "0x83bfd",
+      "text": "~}|{zyxwvutsrqp"
+    },
+    {
+      "offset": "0x856bd",
+      "text": "0@P@P@P@P`$4D"
+    },
+    {
+      "offset": "0x856df",
+      "text": "!1AQAQAQAQa%5E"
+    },
+    {
+      "offset": "0x85701",
+      "text": "\"#3CS2SC3#B&6F"
+    },
+    {
+      "offset": "0x8e521",
+      "text": "cdefghijklmno"
+    },
+    {
+      "offset": "0x8e539",
+      "text": "pqrstuvwxyz{"
+    },
+    {
+      "offset": "0x8e6d5",
+      "text": "89:;89:;89:;<=>?@ABCDEFG"
+    },
+    {
+      "offset": "0x8e6f5",
+      "text": "HIJKHIJKHIJKLMNOPQRSTUVW"
+    },
+    {
+      "offset": "0x8e716",
+      "text": "XYZ[XYZ[XYZ[\\]^_`abcdefg"
+    },
+    {
+      "offset": "0x8e741",
+      "text": "ijklmnopqrss"
+    },
+    {
+      "offset": "0x8ec27",
+      "text": "Wgkgskwsws{s"
+    },
+    {
+      "offset": "0x8ec37",
+      "text": ";/?CGKO[cw{k{"
+    },
+    {
+      "offset": "0x902a5",
+      "text": "-9BNZ^cow=="
+    },
+    {
+      "offset": "0x93e05",
+      "text": "@?@?@?D8D8D8D8"
+    },
+    {
+      "offset": "0x93fef",
+      "text": "D8G8@?@?C<D8D8D8"
+    },
+    {
+      "offset": "0x941ea",
+      "text": "D8D8D8D;@?@?"
+    },
+    {
+      "offset": "0x948c6",
+      "text": "@ABCDEFGHIJKLMNO/"
+    },
+    {
+      "offset": "0x948da",
+      "text": "PQRSTUVWXYZ[\\]^_?"
+    },
+    {
+      "offset": "0x948ee",
+      "text": "`abcdefghijklmnoO"
+    },
+    {
+      "offset": "0x94c5d",
+      "text": "*%*)J)J-j)j-"
+    },
+    {
+      "offset": "0x94c70",
+      "text": "%+)+-K)K-k-k1"
+    },
+    {
+      "offset": "0x94d09",
+      "text": "$3J3NSJSNsN"
+    },
+    {
+      "offset": "0x98cbe",
+      "text": "defghijklmno"
+    },
+    {
+      "offset": "0x98cdc",
+      "text": "rstuvwxyz{|}~"
+    },
+    {
+      "offset": "0x99213",
+      "text": "@cba@A@CABRA@@"
+    },
+    {
+      "offset": "0x9a9b3",
+      "text": "KLohijklmnohijklmnohiohijklmnohi[\\"
+    },
+    {
+      "offset": "0x9aa91",
+      "text": ";<;<ohijklmnohijklmnohijklmnohijkLKL"
+    },
+    {
+      "offset": "0x9ab71",
+      "text": "+,KLohijklmnohijohijklmnohijklmnoh[\\"
+    },
+    {
+      "offset": "0x9ac53",
+      "text": ";<ohijklmnohijklYZ[\\]^_XYZ[\\]^_XKL[\\]^_XYZ[\\]^_XYZ[\\]^_XYZ[\\]^_X[\\klmnohijklmnohijklmnohijklmnohkl{|}~"
+    },
+    {
+      "offset": "0x9acd2",
+      "text": "xKL[\\]^_XYZ[\\]^_XYZ[\\]^_XYZ[\\]^_X[\\klmnohijklmnohijklmnohijklmnoh"
+    },
+    {
+      "offset": "0x9c3c8",
+      "text": "!)19BJRZcks"
+    },
+    {
+      "offset": "0x9c409",
+      "text": "%-5=FNV^cks"
+    },
+    {
+      "offset": "0x9c45a",
+      "text": "$-5=ENV^fow"
+    },
+    {
+      "offset": "0x9c82b",
+      "text": "fE$>951-)%!"
+    },
+    {
+      "offset": "0x9c978",
+      "text": "cB!B=951-)%!"
+    },
+    {
+      "offset": "0x9c99b",
+      "text": "NJFB=951-)%!"
+    },
+    {
+      "offset": "0x9c9bb",
+      "text": "ZVRNJFB=951-)%!"
+    },
+    {
+      "offset": "0x9c9db",
+      "text": "^ZVRNJFB=951-)%!"
+    },
+    {
+      "offset": "0x9c9f8",
+      "text": "kJ)c^ZVRNJFB=951-)%{Z9"
+    },
+    {
+      "offset": "0x9ca1b",
+      "text": "okgc^ZVRNJFB=951"
+    },
+    {
+      "offset": "0x9ca40",
+      "text": "okgc^ZVRNJFB=ZZ"
+    },
+    {
+      "offset": "0x9f1f4",
+      "text": "@6h4R0wLy27)"
+    },
+    {
+      "offset": "0x9f5e8",
+      "text": "2~7yp7W.8OR;w"
+    },
+    {
+      "offset": "0x9fc13",
+      "text": "#&&#&.#&'#&M#"
+    },
+    {
+      "offset": "0x9fe1c",
+      "text": "{7OKnZDoV0J"
+    },
+    {
+      "offset": "0xa0014",
+      "text": "Wj9?jxw?TWVO"
+    },
+    {
+      "offset": "0xa01a1",
+      "text": "zCWMuvT2Cy~av74w"
+    },
+    {
+      "offset": "0xa060b",
+      "text": "~;w{GKkK0DoV"
+    },
+    {
+      "offset": "0xa0a11",
+      "text": "([g6~a;ujGV8u"
+    },
+    {
+      "offset": "0xa1662",
+      "text": "ZEeR~2mR0;Z~V8mRJ"
+    },
+    {
+      "offset": "0xa17da",
+      "text": "TvnUI2T.890?"
+    },
+    {
+      "offset": "0xa1d12",
+      "text": ".ZaKvT[<xSn"
+    },
+    {
+      "offset": "0xa1f2d",
+      "text": "ApOTP9p8OK7"
+    },
+    {
+      "offset": "0xa2327",
+      "text": "7K{uh\"#pxpxT0OK"
+    },
+    {
+      "offset": "0xa2ca1",
+      "text": "{=8{7uV0T02"
+    },
+    {
+      "offset": "0xa3355",
+      "text": "ZE9j7u{F7WZJ;"
+    },
+    {
+      "offset": "0xa3f14",
+      "text": "dWnT%R87jCR.w"
+    },
+    {
+      "offset": "0xa59a9",
+      "text": "mj0SL_'CV8u"
+    },
+    {
+      "offset": "0xa5ce2",
+      "text": "u0R;ZP;QjvW"
+    },
+    {
+      "offset": "0xa6130",
+      "text": "PkW'P=LAY\\VuX"
+    },
+    {
+      "offset": "0xa6d94",
+      "text": "02=tGBIx8V;R@"
+    },
+    {
+      "offset": "0xa7b1e",
+      "text": "#E;8]n[V0uC"
+    },
+    {
+      "offset": "0xaafe6",
+      "text": "GOR>xl(Z^D8"
+    },
+    {
+      "offset": "0xae968",
+      "text": "IyvIyvT.TFA("
+    },
+    {
+      "offset": "0xb3bb6",
+      "text": "lm3(Fu0KKKK"
+    },
+    {
+      "offset": "0xb3e0b",
+      "text": "I(4rCp8OK!f"
+    },
+    {
+      "offset": "0xb4e7d",
+      "text": "w8*(X+~79lCqP"
+    },
+    {
+      "offset": "0xb508e",
+      "text": "869jvZ.0APS"
+    },
+    {
+      "offset": "0xb5703",
+      "text": "#1S%]OT[D=8^"
+    },
+    {
+      "offset": "0xb5c44",
+      "text": "\"TxL=S[.vjG"
+    },
+    {
+      "offset": "0xb6cf7",
+      "text": "{[.y29Zt{xw"
+    },
+    {
+      "offset": "0xb8ceb",
+      "text": "-(lW)puV0ZZ1"
+    },
+    {
+      "offset": "0xb8d1a",
+      "text": ".Cz),RO9v-Z"
+    },
+    {
+      "offset": "0xba2e0",
+      "text": "@u:///w1111)0K{Y+"
+    },
+    {
+      "offset": "0xbb371",
+      "text": "|KM~;uORpw{"
+    },
+    {
+      "offset": "0xbc504",
+      "text": "1-[.9xw(~tI"
+    },
+    {
+      "offset": "0xbc90a",
+      "text": "{KC8?uCmRpv"
+    },
+    {
+      "offset": "0xbd2ae",
+      "text": "J=RkwTKUKUC"
+    },
+    {
+      "offset": "0xbd8da",
+      "text": "uxK;M-L'qYK"
+    },
+    {
+      "offset": "0xbfb17",
+      "text": "+.@jCg2ZWpbA7"
+    },
+    {
+      "offset": "0xbfb27",
+      "text": "Vv[e!aFjI8v"
+    },
+    {
+      "offset": "0xc011a",
+      "text": "2RnjKCRn-)$"
+    },
+    {
+      "offset": "0xc01d7",
+      "text": "2zfW  @wuC0"
+    },
+    {
+      "offset": "0xc0dda",
+      "text": "[]6AO9-8bM?{CK%?"
+    },
+    {
+      "offset": "0xc3027",
+      "text": "<F'@^s0^s0hB`"
+    },
+    {
+      "offset": "0xc37ec",
+      "text": "Z7ORap=R9H!.jv"
+    },
+    {
+      "offset": "0xc5cb0",
+      "text": "`7xKnZ82OEuT"
+    },
+    {
+      "offset": "0xc71bd",
+      "text": "~2upjC8uxKO"
+    },
+    {
+      "offset": "0xc74a4",
+      "text": "N77v)-[IxZ%"
+    },
+    {
+      "offset": "0xc9007",
+      "text": "Cm_vR0w\\7vS"
+    },
+    {
+      "offset": "0xc9136",
+      "text": "@XkP=V;RnEl"
+    },
+    {
+      "offset": "0xc9e1f",
+      "text": "~.V0VN8KZCne"
+    },
+    {
+      "offset": "0xcce77",
+      "text": "_g@*[.jvZEAjDA"
+    },
+    {
+      "offset": "0xcd486",
+      "text": ">41t?~9nM{w*"
+    },
+    {
+      "offset": "0xce099",
+      "text": "g~^w84(G!AOT"
+    },
+    {
+      "offset": "0xcf184",
+      "text": "M{_R6uxjEr41"
+    },
+    {
+      "offset": "0xd2bf8",
+      "text": "zUUffffgfzVfUUTD3Cj3S!"
+    },
+    {
+      "offset": "0xd2c31",
+      "text": "!#3DDUzUVfVgfff{feUeDDD2"
+    },
+    {
+      "offset": "0xd3496",
+      "text": "7#7.7D7]7r7"
+    },
+    {
+      "offset": "0xd34b4",
+      "text": "8-888C8K8W8m8"
+    },
+    {
+      "offset": "0xd34d2",
+      "text": "9!9.9<9J9T9f9p9"
+    },
+    {
+      "offset": "0xd34ea",
+      "text": ":3:M:[:m:o:"
+    },
+    {
+      "offset": "0xd3524",
+      "text": "<\"<7<U<W<_<"
+    },
+    {
+      "offset": "0xd354c",
+      "text": "=5=7=O=Q=\\=^=g=i=q=s=z=~="
+    },
+    {
+      "offset": "0xd4619",
+      "text": "&L@$6(%A@$9F"
+    },
+    {
+      "offset": "0xd474e",
+      "text": "#L@%KT%F(&6"
+    },
+    {
+      "offset": "0xd4dc3",
+      "text": "$\"5U1\"jc/\"$"
+    },
+    {
+      "offset": "0xd50a1",
+      "text": "#z#C3DB\"!\"j"
+    },
+    {
+      "offset": "0xd5262",
+      "text": "23jDgfVTE3#Z\""
+    },
+    {
+      "offset": "0xd528b",
+      "text": "334VffjTEC2!"
+    },
+    {
+      "offset": "0xd52b3",
+      "text": "\"\"j4EfUTEC\"Zc"
+    },
+    {
+      "offset": "0xd52d8",
+      "text": "EjC\"\"!#EUVjTDC32"
+    },
+    {
+      "offset": "0xd5329",
+      "text": "#jUB22#3UejeET4C"
+    },
+    {
+      "offset": "0xd5357",
+      "text": "j2#DUTUDCj3!"
+    },
+    {
+      "offset": "0xd53a4",
+      "text": "$C32j!#$UUDUCjDC"
+    },
+    {
+      "offset": "0xd53cc",
+      "text": "j$D432##VjUEUSEC!"
+    },
+    {
+      "offset": "0xd53f6",
+      "text": "D24j\"\"#5TFU4jE41"
+    },
+    {
+      "offset": "0xd5447",
+      "text": "\"3Cj3!\"4TEETj4e2!"
+    },
+    {
+      "offset": "0xd5476",
+      "text": "3jETTUCUS!Z"
+    },
+    {
+      "offset": "0xd5499",
+      "text": "\"4jC2\"35DUUj4ET1!"
+    },
+    {
+      "offset": "0xd54c3",
+      "text": "43B!#j4DEDDDE2Z0"
+    },
+    {
+      "offset": "0xd5519",
+      "text": "j$4UDDETDZS\"1"
+    },
+    {
+      "offset": "0xd553d",
+      "text": "j3C2\"#D4UjCDFC3"
+    },
+    {
+      "offset": "0xd556c",
+      "text": "C4U3D4UZd21"
+    },
+    {
+      "offset": "0xd55b8",
+      "text": "4C\"j234TECDUjCB"
+    },
+    {
+      "offset": "0xd55e1",
+      "text": "332##35jTC4US2\"!j"
+    },
+    {
+      "offset": "0xd560a",
+      "text": "42j#\"#DEC3EjT2\"!"
+    },
+    {
+      "offset": "0xd5633",
+      "text": "32#\"\"4jDC4DDC\"\"Z0"
+    },
+    {
+      "offset": "0xd565c",
+      "text": "Cj\"3#4DE44jVC3\"!"
+    },
+    {
+      "offset": "0xd5684",
+      "text": "#3#3\"$jTDCDTT3#ZC\""
+    },
+    {
+      "offset": "0xd56d6",
+      "text": "TVTUDj4DC45TC2ZUB"
+    },
+    {
+      "offset": "0xd56fe",
+      "text": "5j33\"345DCj4UT231"
+    },
+    {
+      "offset": "0xd5727",
+      "text": "4VfuTj3ET3EDUCZeT31"
+    },
+    {
+      "offset": "0xd5752",
+      "text": "32\"24S3jCDT232!"
+    },
+    {
+      "offset": "0xd5779",
+      "text": "#EdTj#3D34DD3j43!"
+    },
+    {
+      "offset": "0xd57a3",
+      "text": "#22\"CCDjC4DT3C!\"Z1"
+    },
+    {
+      "offset": "0xd57cb",
+      "text": "CWUj\"44D3DDSj4C#!"
+    },
+    {
+      "offset": "0xd57f5",
+      "text": "\"2#\"#Ej3$4C432!Z\""
+    },
+    {
+      "offset": "0xd581d",
+      "text": "4Ej\"\"#CC2CDjB331"
+    },
+    {
+      "offset": "0xd5847",
+      "text": "2#\"#DjC34DCCC\"ZS3"
+    },
+    {
+      "offset": "0xd586e",
+      "text": "\"Dj#1#3D344j4C3\"2!"
+    },
+    {
+      "offset": "0xd5898",
+      "text": "2EBDejC23C342#ZD2"
+    },
+    {
+      "offset": "0xd58c1",
+      "text": "Z344FfvUfZwfvUTC2"
+    },
+    {
+      "offset": "0xd58ea",
+      "text": "DECVj43434434Ze4C"
+    },
+    {
+      "offset": "0xd5912",
+      "text": "Z44DEVwffj3D3322!"
+    },
+    {
+      "offset": "0xd593c",
+      "text": "#4DZEgeVffffZUSD!"
+    },
+    {
+      "offset": "0xd5965",
+      "text": "#44FfffZWvfweUUCZ"
+    },
+    {
+      "offset": "0xd598d",
+      "text": "#D4ZVVwfgvgvZwUVD!"
+    },
+    {
+      "offset": "0xd59b7",
+      "text": "4CDfffZffvgfVUDZ2"
+    },
+    {
+      "offset": "0xd59e0",
+      "text": "#ZCUUeVfUfZeVTT1"
+    },
+    {
+      "offset": "0xd5a09",
+      "text": "#DEfVZvVguWvUeZD"
+    },
+    {
+      "offset": "0xd5a31",
+      "text": "#ZDEfWfgfgZffeuT2"
+    },
+    {
+      "offset": "0xd5a5a",
+      "text": "\"34eUZVeueVeUeZE1"
+    },
+    {
+      "offset": "0xd5a83",
+      "text": "Z#3DDfUUVZdVTUe2"
+    },
+    {
+      "offset": "0xd5aac",
+      "text": "#$4eZVefefeVeZeT1"
+    },
+    {
+      "offset": "0xd5ad4",
+      "text": "Z\"3DUefvVZffUffTB Z"
+    },
+    {
+      "offset": "0xd5aff",
+      "text": "4SZTUVeFTVTZUTB"
+    },
+    {
+      "offset": "0xd5b28",
+      "text": "$3EEUVZUTUUEdT"
+    },
+    {
+      "offset": "0xd5b4f",
+      "text": "#DZDUWdfVUVZVeU2"
+    },
+    {
+      "offset": "0xd5b79",
+      "text": "$$UFfVZfVuUfVeCJR"
+    },
+    {
+      "offset": "0xd5ba2",
+      "text": "3ZDDUVeEeTZVEeC\""
+    },
+    {
+      "offset": "0xd5bcc",
+      "text": "35TFZUFcUTEeDJd."
+    },
+    {
+      "offset": "0xd5bf4",
+      "text": "Z3DEfUVVVZdEfeC"
+    },
+    {
+      "offset": "0xd5c1d",
+      "text": "$5EVZfUfeVDvUZT1"
+    },
+    {
+      "offset": "0xd5c45",
+      "text": "Z33DUVeUVZUDVeD2"
+    },
+    {
+      "offset": "0xd5c70",
+      "text": "4EZEUFUET5VZT2"
+    },
+    {
+      "offset": "0xd5c96",
+      "text": "Z!\"EEUUeVZeTUeUT!"
+    },
+    {
+      "offset": "0xd5cbf",
+      "text": "!$CFZeeefvTefZUdC"
+    },
+    {
+      "offset": "0xd5ce9",
+      "text": "#CEUVeWZfTVUVd3"
+    },
+    {
+      "offset": "0xd5d12",
+      "text": "#4ZUTUVVUDEZfDC"
+    },
+    {
+      "offset": "0xd5d3b",
+      "text": "\"4EdUVZefDUVUD2Z"
+    },
+    {
+      "offset": "0xd5d63",
+      "text": "#Dj#3#343#3ZUfu2!"
+    },
+    {
+      "offset": "0xd5d8c",
+      "text": "#3UVUuZgfUVVfTDJ2"
+    },
+    {
+      "offset": "0xd5db5",
+      "text": "#ZCUUTVfTEZUEUD"
+    },
+    {
+      "offset": "0xd5ddf",
+      "text": "35UTZFeUTUEUTJT"
+    },
+    {
+      "offset": "0xd5e05",
+      "text": "\"ZDTVUfvVeZVeVeC"
+    },
+    {
+      "offset": "0xd5e2f",
+      "text": "#3EeUZVwfVUVfUZS\""
+    },
+    {
+      "offset": "0xd5e58",
+      "text": "Z\"$dDEeUUZTTEUR\""
+    },
+    {
+      "offset": "0xd5e82",
+      "text": "3ESZUTfeDUUUZTB"
+    },
+    {
+      "offset": "0xd5eab",
+      "text": "\"\"22423ZvVUWeT"
+    },
+    {
+      "offset": "0xd5ed2",
+      "text": "\"#UeZUfgfgUUfZfT2"
+    },
+    {
+      "offset": "0xd5efd",
+      "text": "5DDEUVZTUDEdT\""
+    },
+    {
+      "offset": "0xd5f25",
+      "text": "#DZDTUUeETUZEt3"
+    },
+    {
+      "offset": "0xd5f4e",
+      "text": "4EUEffZffeUfuU2Z"
+    },
+    {
+      "offset": "0xd5f76",
+      "text": "3EZVUUgvVUfZVfTC"
+    },
+    {
+      "offset": "0xd5fa0",
+      "text": "$SEDUZVUTEDeTBZ"
+    },
+    {
+      "offset": "0xd5fc9",
+      "text": "ZS5DUUUUTZEUVC\""
+    },
+    {
+      "offset": "0xd5ff1",
+      "text": "#EUUVZvVfuVVveZC"
+    },
+    {
+      "offset": "0xd601a",
+      "text": "ZDUUWefffZUVftD\""
+    },
+    {
+      "offset": "0xd6043",
+      "text": "43SEZVTeTFDEuZ$0"
+    },
+    {
+      "offset": "0xd606b",
+      "text": "Z\"3CDVEUUZSeEdU3"
+    },
+    {
+      "offset": "0xd6096",
+      "text": "TUZUgeVuEfuZeT\""
+    },
+    {
+      "offset": "0xd60be",
+      "text": "35UUffVZfeTgeTB Z"
+    },
+    {
+      "offset": "0xd60e7",
+      "text": "43ZTUUTVTDFZUE2"
+    },
+    {
+      "offset": "0xd6110",
+      "text": "#3ETEfZETTUUcT Z"
+    },
+    {
+      "offset": "0xd6138",
+      "text": "#DZDeVUvUUeZVuU2!"
+    },
+    {
+      "offset": "0xd6161",
+      "text": "#4TUfeZgVeUVfeCJR"
+    },
+    {
+      "offset": "0xd618a",
+      "text": "#Z4DUeUUUdZEUdS\""
+    },
+    {
+      "offset": "0xd61b4",
+      "text": "35EEZVEdU5UFTJD"
+    },
+    {
+      "offset": "0xd61dc",
+      "text": "Z44VUUfVUZdUfe3!"
+    },
+    {
+      "offset": "0xd6205",
+      "text": "$4UVZfVVeFUfVZC2"
+    },
+    {
+      "offset": "0xd622d",
+      "text": "Z24DUVUVVZETUeT\""
+    },
+    {
+      "offset": "0xd6258",
+      "text": "DDZUTVTUSEUZU2"
+    },
+    {
+      "offset": "0xd6280",
+      "text": "#5EUUfU[eTUfET!"
+    },
+    {
+      "offset": "0xdbe6c",
+      "text": "EDjvC!#Ed!\"z"
+    },
+    {
+      "offset": "0xdc9b7",
+      "text": "j#CDDUC\"\"Z1"
+    },
+    {
+      "offset": "0xdcace",
+      "text": "ZDVuUC\"$3j#4ED4343Z!"
+    },
+    {
+      "offset": "0xdcb10",
+      "text": "!#DD4Cj4T2!"
+    },
+    {
+      "offset": "0xdcbbc",
+      "text": "5UWvgj4EED!"
+    },
+    {
+      "offset": "0xdcbf4",
+      "text": "#3Ej4234UES!Z"
+    },
+    {
+      "offset": "0xdcc68",
+      "text": "DEUTj#4UUS2"
+    },
+    {
+      "offset": "0xdcca1",
+      "text": "4j#\"\"#4UUTZt."
+    },
+    {
+      "offset": "0xdccdb",
+      "text": "\"\"!\"#CjEeUB"
+    },
+    {
+      "offset": "0xdcd13",
+      "text": "$4C#j\"#3FfT2"
+    },
+    {
+      "offset": "0xdcee5",
+      "text": "3FvT2!JCeUT"
+    },
+    {
+      "offset": "0xdcf91",
+      "text": "#FUT3ZS44C2"
+    },
+    {
+      "offset": "0xdd004",
+      "text": "#DUT2#\"ZUDB"
+    },
+    {
+      "offset": "0xdd03d",
+      "text": "#DESZfdTUTC"
+    },
+    {
+      "offset": "0xdd076",
+      "text": "6jDDDC\"3\"3ZB"
+    },
+    {
+      "offset": "0xdd0b0",
+      "text": "\"4DDC\"ZVfeB"
+    },
+    {
+      "offset": "0xdd195",
+      "text": "$VjC32#D3C!Z1"
+    },
+    {
+      "offset": "0xdd208",
+      "text": "#EeUj23CC32!"
+    },
+    {
+      "offset": "0xdd242",
+      "text": "j#\"#\"4C43Zf\""
+    },
+    {
+      "offset": "0xdd27c",
+      "text": "CEDVVj4C42\""
+    },
+    {
+      "offset": "0xdd2b5",
+      "text": "$Dj\"\"3CCCB\"Z?"
+    },
+    {
+      "offset": "0xdd328",
+      "text": "2#CDj334D4\""
+    },
+    {
+      "offset": "0xdd620",
+      "text": "J\"4fud2##JD\""
+    },
+    {
+      "offset": "0xdd6cb",
+      "text": "JB4UUeC34JEDC"
+    },
+    {
+      "offset": "0xdd6fe",
+      "text": "\"4DZfD\"#\"#2\"JC3UET\""
+    },
+    {
+      "offset": "0xdd736",
+      "text": "%ZFgwUD232JeT34DUUcJ!"
+    },
+    {
+      "offset": "0xdd771",
+      "text": "EWfeDZC#32!\"\"\"JEVD1"
+    },
+    {
+      "offset": "0xdd7aa",
+      "text": "5eZgeU33##2J#D4EVT\"!J"
+    },
+    {
+      "offset": "0xdd7e4",
+      "text": "$VwfT42JVtUS24EUJVC"
+    },
+    {
+      "offset": "0xdd856",
+      "text": "$ZUfvTD333JTT#4EVUSJ"
+    },
+    {
+      "offset": "0xdd891",
+      "text": "EgeVSZ3332\"!"
+    },
+    {
+      "offset": "0xdd8ca",
+      "text": "5f[ffT33222@"
+    },
+    {
+      "offset": "0xdd918",
+      "text": "#$C\"4D4zT7b\"5FdC"
+    },
+    {
+      "offset": "0xdd946",
+      "text": "DB#24\"jFe1!"
+    },
+    {
+      "offset": "0xdd988",
+      "text": "\"S%jFfECW3R4z#4e4ETE#ze4D5dD\"3z44d3$2"
+    },
+    {
+      "offset": "0xdd9ae",
+      "text": "$zCDBB53$Sz35\"Q"
+    },
+    {
+      "offset": "0xdd9f4",
+      "text": "R!&j4dU$24SUz#4S4SD3$zDUC#2#34zD4\"3\"\"\"3z#C#C345Bz5231\"!\"!j"
+    },
+    {
+      "offset": "0xdda6b",
+      "text": "4j4d4S45Vfz2#!3\"33Cz4C343DDDzEDEEUTVSzU3DA##!\"j1"
+    },
+    {
+      "offset": "0xddad6",
+      "text": "B3ZC2$TDef1j!"
+    },
+    {
+      "offset": "0xddaef",
+      "text": "33T3z\"323$4B3jvCDE3\"#"
+    },
+    {
+      "offset": "0xddb2e",
+      "text": "#D4ez\"#23C23\"jb$335S#Sj43U4T!$3jC#B$DCD4j2\"33344Ej$fCgeDE2j\"2\""
+    },
+    {
+      "offset": "0xddb99",
+      "text": "$33U4z34C4D#3\"jFUeUeDUgjVdDFT4GDjDD4U3eD3j\"33#C2"
+    },
+    {
+      "offset": "0xddc04",
+      "text": "34ETFwzDTDT44C5zS3CCDDDDz4DC3D34Cz24R442##jUTFUDVdDjUFTD32"
+    },
+    {
+      "offset": "0xddc72",
+      "text": "#DVfz434#4433z3C3DDDD4zE4D4D3DDz3DC4C323jUeVVUTVUjeUTC3\""
+    },
+    {
+      "offset": "0xddcdd",
+      "text": "\"\"3$Dz34DCDCDDzCUCEUTEUzDETT4UDDzDUD44#43jwUVfUftVjfC4S"
+    },
+    {
+      "offset": "0xddd4a",
+      "text": "CDDejUefegVgfz3DDDDDDUzD4UCTTTEzdDT4DD3DzC4C444D3jweTD2\"!\"z"
+    },
+    {
+      "offset": "0xdddb4",
+      "text": "\"34U4ejUeUeUffuz4C3D3TC3zD3DCDCDDzC4C34333z424333D#jEU\"!B"
+    },
+    {
+      "offset": "0xdde21",
+      "text": "24C5TjEEDUUUVVz334C3333z4C#T34E3z4D24B3CCz3444D3C2jUSD34\""
+    },
+    {
+      "offset": "0xdde89",
+      "text": "j\"\"3D4DDDjTDTDDUTEjfUVTEEDVjUEDVTVTTjDDD3D2C4jDTSED22#Z#C"
+    },
+    {
+      "offset": "0xddef3",
+      "text": "\"DjDUVuVwfgz4C$343DCzD4343434z33C4C#33jTfDTED5fjUDET432\"j"
+    },
+    {
+      "offset": "0xddf5e",
+      "text": "\"3Dz\"\"3232D#z33#43444jfFvfuVuVjwVgefefEjUDCETEUUjDUC4C\"2!j"
+    },
+    {
+      "offset": "0xddfc8",
+      "text": "2\"4DEz#433C3D4z34CDCCD3zD33433C3jgfwffUUEjT5DEUTUEjT3D32\"! j"
+    },
+    {
+      "offset": "0xde035",
+      "text": "\"#3EjUUFegVVfz33CC3C34z33$34#33z4C#3###\"j4UCUUTDSj4S#2\"!"
+    },
+    {
+      "offset": "0xde0a0",
+      "text": "\"4DDVz33#C2C43zD34C43C#vgvUTDDUUjveeTTDECjE4T5T4D4ZEgTB2"
+    },
+    {
+      "offset": "0xde10c",
+      "text": "3$CVEjUEeVVVffjfuWevVefjefUWdgffjfUUTFDEDjUUETEEDTj3B$!\"!"
+    },
+    {
+      "offset": "0xde177",
+      "text": "4C5UUUjFUUVfUfUjUfUeEUUDjTSEETEDDjD3333#3#jB$33332\"ZC41"
+    },
+    {
+      "offset": "0xde1df",
+      "text": "\"j$#DUUVdUjfeffvUVfjfVeUVTUEjUDUUTVDTj44C4C334jBDC3D22#ZD43!\""
+    },
+    {
+      "offset": "0xde24c",
+      "text": "j34CE4UDFjTUUTTETFjDECDD333jC43E1322Zf$d$CC&TZTFCU4CD#J2U#C"
+    },
+    {
+      "offset": "0xde2b4",
+      "text": "!\"\"4jEDVDUfUfjUUfEVUEUjUED3D3D3jT3C3233\"Ze$S#4FD5ZDECEB"
+    },
+    {
+      "offset": "0xde321",
+      "text": "#3CjDUTEeUfUjVeTUUUUTjDD3C3D3CZEgFUUTCCZ#22#C"
+    },
+    {
+      "offset": "0xde38b",
+      "text": "\"#3DDjUUUVfVfVjVUUeeUUTj4DC4D343ZUgFu5TS#Z42\"33"
+    },
+    {
+      "offset": "0xde3f7",
+      "text": "\"##EDjUEeVeVvUjfEeVeUEUk4D3DCC3C^"
+    },
+    {
+      "offset": "0xe30ec",
+      "text": "B$BDh#%2\"BC"
+    },
+    {
+      "offset": "0xe31e1",
+      "text": "36h!113#2$Ah24"
+    },
+    {
+      "offset": "0xe332e",
+      "text": "24X#05T5#5RXQb434A"
+    },
+    {
+      "offset": "0xe3433",
+      "text": "$$X4#335E14X31242"
+    },
+    {
+      "offset": "0xe353a",
+      "text": "HB!42$C3\"HTCFAC#F\"H3#"
+    },
+    {
+      "offset": "0xe363d",
+      "text": "#QH%T#3c5bDH#R%RC"
+    },
+    {
+      "offset": "0xe368c",
+      "text": "C5#DHB%B#3#"
+    },
+    {
+      "offset": "0xe378e",
+      "text": "C223$D$H#2CR3\"3\"8Dg"
+    },
+    {
+      "offset": "0xe37d6",
+      "text": "#SD#BU48C4E$2ETC8#$213\"!A("
+    },
+    {
+      "offset": "0xe5869",
+      "text": "6B!$C##3xFfTfUeVTxeeEfSVeD"
+    },
+    {
+      "offset": "0xe5941",
+      "text": "#$C#2333xUefeVVUfxUVUfDfUdxUeTVUEUexDUVDUTESx$fCe##5Tx5B!\"4d"
+    },
+    {
+      "offset": "0xe5a43",
+      "text": "4\"xU4V\"GSE3"
+    },
+    {
+      "offset": "0xe5d59",
+      "text": "FfT!x$Fd1#ECF"
+    },
+    {
+      "offset": "0xe5d6f",
+      "text": "x5D3\"5D##xD2"
+    },
+    {
+      "offset": "0xf7318",
+      "text": "p,O]`/! .tOK"
+    },
+    {
+      "offset": "0xfb554",
+      "text": "BBBBBBBBBBBBBBBBBBBBBBBD"
+    },
+    {
+      "offset": "0xfccc3",
+      "text": "%3O%3Ok3OkyO"
+    },
+    {
+      "offset": "0x108cf8",
+      "text": "Q@Q@J@J@J@D@D@"
+    },
+    {
+      "offset": "0x10a378",
+      "text": "Q@Q@Q@J@J@D@D@"
+    },
+    {
+      "offset": "0x10aa04",
+      "text": "D@D@D@D@D@D@D@D@"
+    },
+    {
+      "offset": "0x1501f3",
+      "text": "@grandfather"
+    },
+    {
+      "offset": "0x15026e",
+      "text": "@adventures"
+    },
+    {
+      "offset": "0x150996",
+      "text": "adventurers"
+    },
+    {
+      "offset": "0x1509c1",
+      "text": "@unsuspecting"
+    },
+    {
+      "offset": "0x150b1e",
+      "text": "@downstairs"
+    },
+    {
+      "offset": "0x150bba",
+      "text": "@energetically"
+    },
+    {
+      "offset": "0x150e3c",
+      "text": "@SuperXtreme"
+    },
+    {
+      "offset": "0x150e49",
+      "text": "@Alphacosmos"
+    },
+    {
+      "offset": "0x150e94",
+      "text": "@Homecoming:"
+    },
+    {
+      "offset": "0x150ee7",
+      "text": "@Gigaweapon:"
+    },
+    {
+      "offset": "0x1514ee",
+      "text": "@information"
+    },
+    {
+      "offset": "0x151526",
+      "text": "counterspell"
+    },
+    {
+      "offset": "0x151603",
+      "text": "@undetected"
+    },
+    {
+      "offset": "0x151b9e",
+      "text": "@daydreamin"
+    },
+    {
+      "offset": "0x151be2",
+      "text": "@disappearing"
+    },
+    {
+      "offset": "0x151c38",
+      "text": "@frantically"
+    },
+    {
+      "offset": "0x151eaf",
+      "text": "@professional"
+    },
+    {
+      "offset": "0x151ef2",
+      "text": "@devilishly"
+    },
+    {
+      "offset": "0x151f25",
+      "text": "personality"
+    },
+    {
+      "offset": "0x151f94",
+      "text": "@completely"
+    },
+    {
+      "offset": "0x152117",
+      "text": "@exaggerates"
+    },
+    {
+      "offset": "0x152218",
+      "text": "@relentless"
+    },
+    {
+      "offset": "0x15224a",
+      "text": "@considering"
+    },
+    {
+      "offset": "0x15236b",
+      "text": "@silhouette"
+    },
+    {
+      "offset": "0x152643",
+      "text": "@interesting"
+    },
+    {
+      "offset": "0x152650",
+      "text": "@experience"
+    },
+    {
+      "offset": "0x1529da",
+      "text": "@definitely"
+    },
+    {
+      "offset": "0x152a8c",
+      "text": "@Remembering"
+    },
+    {
+      "offset": "0x152dfe",
+      "text": "@ahahahahaha"
+    },
+    {
+      "offset": "0x1533d6",
+      "text": "@approaches"
+    },
+    {
+      "offset": "0x1536f8",
+      "text": "disappearing"
+    },
+    {
+      "offset": "0x153793",
+      "text": "@cautiously"
+    },
+    {
+      "offset": "0x153b62",
+      "text": "@shimmering"
+    },
+    {
+      "offset": "0x153c6f",
+      "text": "@uncomfortable"
+    },
+    {
+      "offset": "0x154102",
+      "text": "@delivering"
+    },
+    {
+      "offset": "0x1544d4",
+      "text": "@petrifying"
+    },
+    {
+      "offset": "0x154768",
+      "text": "@incredible"
+    },
+    {
+      "offset": "0x1549b6",
+      "text": "@Struggling"
+    },
+    {
+      "offset": "0x154ce0",
+      "text": "@Screeching"
+    },
+    {
+      "offset": "0x154f57",
+      "text": "@Scrambling"
+    },
+    {
+      "offset": "0x1551d7",
+      "text": "@opportunity"
+    },
+    {
+      "offset": "0x155225",
+      "text": "@incantation"
+    },
+    {
+      "offset": "0x155358",
+      "text": "@Shuddering"
+    },
+    {
+      "offset": "0x155411",
+      "text": "@accidentally"
+    },
+    {
+      "offset": "0x155657",
+      "text": "@extinguish"
+    },
+    {
+      "offset": "0x1556a5",
+      "text": "@smoldering"
+    },
+    {
+      "offset": "0x15577f",
+      "text": "@desperation"
+    },
+    {
+      "offset": "0x155953",
+      "text": "@unbearable"
+    },
+    {
+      "offset": "0x15596c",
+      "text": "@everything"
+    },
+    {
+      "offset": "0x155b30",
+      "text": "@helplessly"
+    },
+    {
+      "offset": "0x156091",
+      "text": "@underneath"
+    },
+    {
+      "offset": "0x1560ef",
+      "text": "@atmosphere"
+    },
+    {
+      "offset": "0x1561b3",
+      "text": "@screeching"
+    },
+    {
+      "offset": "0x15646b",
+      "text": "@adrenaline"
+    },
+    {
+      "offset": "0x15675a",
+      "text": "@expressionless"
+    },
+    {
+      "offset": "0x1567e5",
+      "text": "@overflowing"
+    },
+    {
+      "offset": "0x156835",
+      "text": "@complaining"
+    },
+    {
+      "offset": "0x156aa5",
+      "text": "@reflection"
+    },
+    {
+      "offset": "0x156af5",
+      "text": "@comforting"
+    },
+    {
+      "offset": "0x157006",
+      "text": "@aristocrat"
+    },
+    {
+      "offset": "0x157066",
+      "text": "@apparently"
+    },
+    {
+      "offset": "0x1570cd",
+      "text": "@possession"
+    },
+    {
+      "offset": "0x1571db",
+      "text": "@victorious"
+    },
+    {
+      "offset": "0x157279",
+      "text": "@impossible"
+    },
+    {
+      "offset": "0x1575d7",
+      "text": "@relatively"
+    },
+    {
+      "offset": "0x157cff",
+      "text": "@wilderness"
+    },
+    {
+      "offset": "0x157d3d",
+      "text": "@glittering"
+    },
+    {
+      "offset": "0x157d6d",
+      "text": "@momentarily"
+    },
+    {
+      "offset": "0x157e38",
+      "text": "@disappeared"
+    },
+    {
+      "offset": "0x157ff8",
+      "text": "@exasperated"
+    },
+    {
+      "offset": "0x1581bf",
+      "text": "@passageway"
+    },
+    {
+      "offset": "0x1581e4",
+      "text": "@stretching"
+    },
+    {
+      "offset": "0x15828b",
+      "text": "@illuminate"
+    },
+    {
+      "offset": "0x1589ff",
+      "text": "@connecting"
+    },
+    {
+      "offset": "0x158eb0",
+      "text": "@immediately"
+    },
+    {
+      "offset": "0x1593c7",
+      "text": "imaginative"
+    },
+    {
+      "offset": "0x1593e0",
+      "text": "@predictable"
+    },
+    {
+      "offset": "0x15973f",
+      "text": "@Outnumbered"
+    },
+    {
+      "offset": "0x159753",
+      "text": "overpowered"
+    },
+    {
+      "offset": "0x15976d",
+      "text": "@eventually"
+    },
+    {
+      "offset": "0x1598f1",
+      "text": "@mysterious"
+    },
+    {
+      "offset": "0x15996b",
+      "text": "@throughout"
+    },
+    {
+      "offset": "0x159aac",
+      "text": "@inhabitants"
+    },
+    {
+      "offset": "0x159ae3",
+      "text": "unfortunate"
+    },
+    {
+      "offset": "0x159c22",
+      "text": "@continuing"
+    },
+    {
+      "offset": "0x15a375",
+      "text": "@relentlessly"
+    },
+    {
+      "offset": "0x15a73f",
+      "text": "@generosity"
+    },
+    {
+      "offset": "0x15abf9",
+      "text": "@convincing"
+    },
+    {
+      "offset": "0x15af23",
+      "text": "@understand"
+    },
+    {
+      "offset": "0x15af35",
+      "text": "apprehension"
+    },
+    {
+      "offset": "0x15b429",
+      "text": "@investigate"
+    },
+    {
+      "offset": "0x15b97b",
+      "text": "@reassurance"
+    },
+    {
+      "offset": "0x15c149",
+      "text": "@reluctantly"
+    },
+    {
+      "offset": "0x15c2c3",
+      "text": "@Proceeding"
+    },
+    {
+      "offset": "0x15c555",
+      "text": "@Frustrated"
+    },
+    {
+      "offset": "0x15cd39",
+      "text": "frivolities"
+    },
+    {
+      "offset": "0x15cd92",
+      "text": "@Regardless"
+    },
+    {
+      "offset": "0x15d261",
+      "text": "@mechanical"
+    },
+    {
+      "offset": "0x15d2fa",
+      "text": "@uneasiness"
+    },
+    {
+      "offset": "0x15da80",
+      "text": "@frustratedly"
+    },
+    {
+      "offset": "0x15db05",
+      "text": "@investigating"
+    },
+    {
+      "offset": "0x15dc19",
+      "text": "@inscription"
+    },
+    {
+      "offset": "0x15e702",
+      "text": "@restlessly"
+    },
+    {
+      "offset": "0x15e734",
+      "text": "@Eventually"
+    },
+    {
+      "offset": "0x15ec35",
+      "text": "@Hekeikekekekeke"
+    },
+    {
+      "offset": "0x15ece5",
+      "text": "@exchanging"
+    },
+    {
+      "offset": "0x15ed2e",
+      "text": "@frightening"
+    },
+    {
+      "offset": "0x15efda",
+      "text": "@themselves"
+    },
+    {
+      "offset": "0x15f3bc",
+      "text": "@especially"
+    },
+    {
+      "offset": "0x15f4c8",
+      "text": "@expressions"
+    },
+    {
+      "offset": "0x15f5c0",
+      "text": "@accommodate"
+    },
+    {
+      "offset": "0x15f62a",
+      "text": "@hesitation"
+    },
+    {
+      "offset": "0x15f8bb",
+      "text": "@everywhere"
+    },
+    {
+      "offset": "0x15f9dc",
+      "text": "@roundhouse"
+    },
+    {
+      "offset": "0x15fb71",
+      "text": "simultaneously"
+    },
+    {
+      "offset": "0x160110",
+      "text": "preparation"
+    },
+    {
+      "offset": "0x16051c",
+      "text": "@Frantically"
+    },
+    {
+      "offset": "0x16096f",
+      "text": "@pulverizing"
+    },
+    {
+      "offset": "0x160af6",
+      "text": "@fingertips"
+    },
+    {
+      "offset": "0x160b06",
+      "text": "@transforming"
+    },
+    {
+      "offset": "0x160c3f",
+      "text": "@effortlessly"
+    },
+    {
+      "offset": "0x160c6e",
+      "text": "@expression"
+    },
+    {
+      "offset": "0x160f9b",
+      "text": "@resignation"
+    },
+    {
+      "offset": "0x1612b7",
+      "text": "@Scampering"
+    },
+    {
+      "offset": "0x161931",
+      "text": "@cheapskate"
+    },
+    {
+      "offset": "0x162516",
+      "text": "@glimmering"
+    },
+    {
+      "offset": "0x162b28",
+      "text": "@hesitantly"
+    },
+    {
+      "offset": "0x162b54",
+      "text": "@enthusiastic"
+    },
+    {
+      "offset": "0x1630a6",
+      "text": "@unreadable"
+    },
+    {
+      "offset": "0x1632dc",
+      "text": "frantically"
+    },
+    {
+      "offset": "0x163a2e",
+      "text": "@Gerzbuehle"
+    },
+    {
+      "offset": "0x163e54",
+      "text": "@Everything"
+    },
+    {
+      "offset": "0x1640d7",
+      "text": "@difference"
+    },
+    {
+      "offset": "0x164c6f",
+      "text": "@desperately"
+    },
+    {
+      "offset": "0x165016",
+      "text": "@directions"
+    },
+    {
+      "offset": "0x16503d",
+      "text": "@descending"
+    },
+    {
+      "offset": "0x16552d",
+      "text": "@beautifully"
+    },
+    {
+      "offset": "0x1657e1",
+      "text": "@bookshelves"
+    },
+    {
+      "offset": "0x1659b7",
+      "text": "@Unfortunately"
+    },
+    {
+      "offset": "0x1659fd",
+      "text": "@mentioning"
+    },
+    {
+      "offset": "0x165d9f",
+      "text": "questioning"
+    },
+    {
+      "offset": "0x1662a5",
+      "text": "@imagination"
+    },
+    {
+      "offset": "0x16673c",
+      "text": "@thunderstorm"
+    },
+    {
+      "offset": "0x1668df",
+      "text": "@illuminated"
+    },
+    {
+      "offset": "0x166a3c",
+      "text": "unbelievably"
+    },
+    {
+      "offset": "0x166bca",
+      "text": "@furthermore"
+    },
+    {
+      "offset": "0x166c50",
+      "text": "@watercolor"
+    },
+    {
+      "offset": "0x167242",
+      "text": "@candlelight"
+    },
+    {
+      "offset": "0x167395",
+      "text": "@southerners"
+    },
+    {
+      "offset": "0x16740b",
+      "text": "@blanketing"
+    },
+    {
+      "offset": "0x1677e2",
+      "text": "@motionless"
+    },
+    {
+      "offset": "0x16787f",
+      "text": "@candlestick"
+    },
+    {
+      "offset": "0x1678bd",
+      "text": "@Tightening"
+    },
+    {
+      "offset": "0x16880b",
+      "text": "@passageways"
+    },
+    {
+      "offset": "0x168930",
+      "text": "@proceeding"
+    },
+    {
+      "offset": "0x168e08",
+      "text": "@chandeliers"
+    },
+    {
+      "offset": "0x168e2f",
+      "text": "@directionless"
+    },
+    {
+      "offset": "0x169020",
+      "text": "@scribbling"
+    },
+    {
+      "offset": "0x1692c4",
+      "text": "@surrounded"
+    },
+    {
+      "offset": "0x169395",
+      "text": "@remembered"
+    },
+    {
+      "offset": "0x16989d",
+      "text": "@generations"
+    },
+    {
+      "offset": "0x16a077",
+      "text": "@Antiparticle"
+    },
+    {
+      "offset": "0x16a456",
+      "text": "@backwaters"
+    },
+    {
+      "offset": "0x16a46d",
+      "text": "unfashionable"
+    },
+    {
+      "offset": "0x16a4c1",
+      "text": "@unregarded"
+    },
+    {
+      "offset": "0x16a53b",
+      "text": "@insignificant"
+    },
+    {
+      "offset": "0x16a8b5",
+      "text": "@convoluted"
+    },
+    {
+      "offset": "0x16a978",
+      "text": "@enthralling"
+    },
+    {
+      "offset": "0x16a99a",
+      "text": "temptations"
+    },
+    {
+      "offset": "0x16a9d9",
+      "text": "suspiciousness"
+    },
+    {
+      "offset": "0x16aa6c",
+      "text": "@apprehension"
+    },
+    {
+      "offset": "0x16aa7f",
+      "text": "@vulnerability"
+    },
+    {
+      "offset": "0x16aaa0",
+      "text": "pleasureful"
+    },
+    {
+      "offset": "0x16ad2f",
+      "text": "@reassemble"
+    },
+    {
+      "offset": "0x16af79",
+      "text": "@importance"
+    },
+    {
+      "offset": "0x16b0cc",
+      "text": "@deliberations"
+    },
+    {
+      "offset": "0x16b103",
+      "text": "@conditions"
+    },
+    {
+      "offset": "0x16b1a3",
+      "text": "@witchcraft?"
+    },
+    {
+      "offset": "0x16b7d5",
+      "text": "responsibility"
+    },
+    {
+      "offset": "0x16b851",
+      "text": "@victimhood"
+    },
+    {
+      "offset": "0x16bbd1",
+      "text": "@apotheosis"
+    },
+    {
+      "offset": "0x16bc6e",
+      "text": "@waterless;"
+    },
+    {
+      "offset": "0x16bd38",
+      "text": "@nightmares"
+    },
+    {
+      "offset": "0x16bf21",
+      "text": "@decorative"
+    },
+    {
+      "offset": "0x16bfcd",
+      "text": "@sculptures"
+    },
+    {
+      "offset": "0x16c0db",
+      "text": "@flickering"
+    },
+    {
+      "offset": "0x16c0e9",
+      "text": "luminescence"
+    },
+    {
+      "offset": "0x16c5ba",
+      "text": "@objections"
+    },
+    {
+      "offset": "0x16c69d",
+      "text": "@illuminating"
+    },
+    {
+      "offset": "0x16c74e",
+      "text": "mysteriously"
+    },
+    {
+      "offset": "0x16cdb8",
+      "text": "@entranceway"
+    },
+    {
+      "offset": "0x16d57e",
+      "text": "@dumbfoundedly"
+    },
+    {
+      "offset": "0x16dc24",
+      "text": "@outnumbered"
+    },
+    {
+      "offset": "0x16e81c",
+      "text": "@simultaneously"
+    },
+    {
+      "offset": "0x16e932",
+      "text": "@disintegrating"
+    },
+    {
+      "offset": "0x16ea98",
+      "text": "Aaaaahhhhhh"
+    },
+    {
+      "offset": "0x16ecae",
+      "text": "@subterranean"
+    },
+    {
+      "offset": "0x16f000",
+      "text": "imagination"
+    },
+    {
+      "offset": "0x16f277",
+      "text": "@unsettling"
+    },
+    {
+      "offset": "0x16f330",
+      "text": "@Continuing"
+    },
+    {
+      "offset": "0x170fee",
+      "text": "@headstrong"
+    },
+    {
+      "offset": "0x171131",
+      "text": "@Incredible"
+    },
+    {
+      "offset": "0x17114f",
+      "text": "@admiration"
+    },
+    {
+      "offset": "0x17168d",
+      "text": "subterranean"
+    },
+    {
+      "offset": "0x1717ad",
+      "text": "@lightening"
+    },
+    {
+      "offset": "0x17181e",
+      "text": "@conversation"
+    },
+    {
+      "offset": "0x171c42",
+      "text": "@altogether"
+    },
+    {
+      "offset": "0x171cea",
+      "text": "@metropolis"
+    },
+    {
+      "offset": "0x172944",
+      "text": "@suspiciously"
+    },
+    {
+      "offset": "0x172a36",
+      "text": "@splattered"
+    },
+    {
+      "offset": "0x172abd",
+      "text": "@electricity"
+    },
+    {
+      "offset": "0x172aca",
+      "text": "@approaching"
+    },
+    {
+      "offset": "0x172e91",
+      "text": "@Thankfully"
+    },
+    {
+      "offset": "0x1730b9",
+      "text": "@whatsoever"
+    },
+    {
+      "offset": "0x1732c7",
+      "text": "@forcefully"
+    },
+    {
+      "offset": "0x1733f0",
+      "text": "@excruciatingly"
+    },
+    {
+      "offset": "0x173950",
+      "text": "@bloodcurdling"
+    },
+    {
+      "offset": "0x173e26",
+      "text": "@responding"
+    },
+    {
+      "offset": "0x174108",
+      "text": "@interrupts"
+    },
+    {
+      "offset": "0x174295",
+      "text": "@eradicated"
+    },
+    {
+      "offset": "0x1742ef",
+      "text": "@successfully"
+    },
+    {
+      "offset": "0x174314",
+      "text": "@gluttonous"
+    },
+    {
+      "offset": "0x1743a4",
+      "text": "@frighteningly"
+    },
+    {
+      "offset": "0x174675",
+      "text": "@generously"
+    },
+    {
+      "offset": "0x174681",
+      "text": "@demonstrated"
+    },
+    {
+      "offset": "0x1746d3",
+      "text": "@unsheathes"
+    },
+    {
+      "offset": "0x174714",
+      "text": "@overlooked"
+    },
+    {
+      "offset": "0x174c55",
+      "text": "@Effortlessly"
+    },
+    {
+      "offset": "0x174f4b",
+      "text": "@concentration"
+    },
+    {
+      "offset": "0x17515e",
+      "text": "@threadlike"
+    },
+    {
+      "offset": "0x175266",
+      "text": "@immobilize"
+    },
+    {
+      "offset": "0x175410",
+      "text": "@Dumbfounded"
+    },
+    {
+      "offset": "0x175709",
+      "text": "@persuasion"
+    },
+    {
+      "offset": "0x175c74",
+      "text": "@forgetting"
+    },
+    {
+      "offset": "0x175e13",
+      "text": "@fearlessly"
+    },
+    {
+      "offset": "0x175e8e",
+      "text": "@Immediately"
+    },
+    {
+      "offset": "0x175f0b",
+      "text": "@unknowingly"
+    },
+    {
+      "offset": "0x1765f6",
+      "text": "@disgusting"
+    },
+    {
+      "offset": "0x176aa8",
+      "text": "@tightening"
+    },
+    {
+      "offset": "0x176ef5",
+      "text": "@consciousness"
+    },
+    {
+      "offset": "0x1770d0",
+      "text": "@Abandoning"
+    },
+    {
+      "offset": "0x17775c",
+      "text": "@glistening"
+    },
+    {
+      "offset": "0x1778fc",
+      "text": "@undeniable"
+    },
+    {
+      "offset": "0x177c95",
+      "text": "@scattering"
+    },
+    {
+      "offset": "0x178147",
+      "text": "@tranquillities"
+    },
+    {
+      "offset": "0x1782ca",
+      "text": "@Everywhere"
+    },
+    {
+      "offset": "0x17866d",
+      "text": "@reminiscence"
+    },
+    {
+      "offset": "0x179aa2",
+      "text": "@unstealable"
+    },
+    {
+      "offset": "0x179dc6",
+      "text": "@disappears"
+    },
+    {
+      "offset": "0x179f5b",
+      "text": "@dissolving"
+    },
+    {
+      "offset": "0x17a209",
+      "text": "@determination"
+    },
+    {
+      "offset": "0x17a663",
+      "text": "@mischievous"
+    },
+    {
+      "offset": "0x17a803",
+      "text": "@something?"
+    },
+    {
+      "offset": "0x17b09d",
+      "text": "@hopelessly"
+    },
+    {
+      "offset": "0x17b2cb",
+      "text": "@appearance"
+    },
+    {
+      "offset": "0x17b5c9",
+      "text": "@reasonable"
+    },
+    {
+      "offset": "0x17b974",
+      "text": "@recklessness"
+    },
+    {
+      "offset": "0x17c2f6",
+      "text": "@Fearlessly"
+    },
+    {
+      "offset": "0x17c5e6",
+      "text": "@monstrosity"
+    },
+    {
+      "offset": "0x17ca6c",
+      "text": "@discovered"
+    },
+    {
+      "offset": "0x17d1fc",
+      "text": "@distracted"
+    },
+    {
+      "offset": "0x17d24c",
+      "text": "@instinctively"
+    },
+    {
+      "offset": "0x17d413",
+      "text": "@excruciating"
+    },
+    {
+      "offset": "0x17d840",
+      "text": "frightening"
+    },
+    {
+      "offset": "0x17d878",
+      "text": "@disoriented"
+    },
+    {
+      "offset": "0x17de9a",
+      "text": "@unconscious"
+    },
+    {
+      "offset": "0x17f1ca",
+      "text": "@paralyzing"
+    },
+    {
+      "offset": "0x17f37b",
+      "text": "@tremendous"
+    },
+    {
+      "offset": "0x17f75a",
+      "text": "@thundering"
+    },
+    {
+      "offset": "0x17fb29",
+      "text": "@terrifying"
+    },
+    {
+      "offset": "0x17fe0a",
+      "text": "@coagulates"
+    },
+    {
+      "offset": "0x17fe77",
+      "text": "@poltergeist"
+    },
+    {
+      "offset": "0x17fea8",
+      "text": "@whispering"
+    },
+    {
+      "offset": "0x17fed5",
+      "text": "@increasing"
+    },
+    {
+      "offset": "0x1800a1",
+      "text": "@unsheathing"
+    },
+    {
+      "offset": "0x1801a4",
+      "text": "@surrounding"
+    },
+    {
+      "offset": "0x18021e",
+      "text": "@incredibly"
+    },
+    {
+      "offset": "0x180813",
+      "text": "@scratching"
+    },
+    {
+      "offset": "0x180cbe",
+      "text": "@apparition"
+    },
+    {
+      "offset": "0x181016",
+      "text": "reverberate"
+    },
+    {
+      "offset": "0x1813da",
+      "text": "@distraught"
+    },
+    {
+      "offset": "0x1815c7",
+      "text": "@temperature"
+    },
+    {
+      "offset": "0x181a25",
+      "text": "@overcoming"
+    },
+    {
+      "offset": "0x181a96",
+      "text": "@penetrates"
+    },
+    {
+      "offset": "0x181d74",
+      "text": "@transluscent"
+    },
+    {
+      "offset": "0x181ed9",
+      "text": "@unraveling"
+    },
+    {
+      "offset": "0x1821aa",
+      "text": "@Accidentally"
+    },
+    {
+      "offset": "0x1828b5",
+      "text": "@unquestionably"
+    },
+    {
+      "offset": "0x18359b",
+      "text": "@vengefully"
+    },
+    {
+      "offset": "0x18362a",
+      "text": "unfortunately"
+    },
+    {
+      "offset": "0x183a73",
+      "text": "@outstretched"
+    },
+    {
+      "offset": "0x183c41",
+      "text": "@apologetically"
+    },
+    {
+      "offset": "0x18464e",
+      "text": "@inevitable"
+    },
+    {
+      "offset": "0x18465a",
+      "text": "@confrontation"
+    },
+    {
+      "offset": "0x184adb",
+      "text": "immediately"
+    },
+    {
+      "offset": "0x184c7d",
+      "text": "@unfortunately"
+    },
+    {
+      "offset": "0x185af6",
+      "text": "@clattering"
+    },
+    {
+      "offset": "0x185de7",
+      "text": "@Exchanging"
+    },
+    {
+      "offset": "0x185f07",
+      "text": "intelligent"
+    },
+    {
+      "offset": "0x186e72",
+      "text": "unprotected"
+    },
+    {
+      "offset": "0x1875d3",
+      "text": "sandwiching"
+    },
+    {
+      "offset": "0x187d3a",
+      "text": "@defenseless"
+    },
+    {
+      "offset": "0x187ec5",
+      "text": "@distraction"
+    },
+    {
+      "offset": "0x18838c",
+      "text": "materializes"
+    },
+    {
+      "offset": "0x18846d",
+      "text": "@infuriated"
+    },
+    {
+      "offset": "0x189840",
+      "text": "@mercilessly"
+    },
+    {
+      "offset": "0x189d52",
+      "text": "@strategies"
+    },
+    {
+      "offset": "0x189d7e",
+      "text": "@encouragement"
+    },
+    {
+      "offset": "0x189e57",
+      "text": "@bloodthirsty"
+    },
+    {
+      "offset": "0x18a811",
+      "text": "@camouflage"
+    },
+    {
+      "offset": "0x18aafe",
+      "text": "@shattering"
+    },
+    {
+      "offset": "0x18b9cd",
+      "text": "@collapsing"
+    },
+    {
+      "offset": "0x18c2da",
+      "text": "@adrenalized"
+    },
+    {
+      "offset": "0x18e2db",
+      "text": "confidently"
+    },
+    {
+      "offset": "0x18eb14",
+      "text": "@bloodsucking"
+    },
+    {
+      "offset": "0x18f219",
+      "text": "@bloodsuckers"
+    },
+    {
+      "offset": "0x18f53a",
+      "text": "@accumulate"
+    },
+    {
+      "offset": "0x18f827",
+      "text": "@slithering"
+    },
+    {
+      "offset": "0x18fd54",
+      "text": "@strangling"
+    },
+    {
+      "offset": "0x1904b1",
+      "text": "MEverything"
+    },
+    {
+      "offset": "0x1907e9",
+      "text": "@anticipates"
+    },
+    {
+      "offset": "0x190a29",
+      "text": "@hallucinations"
+    },
+    {
+      "offset": "0x190f03",
+      "text": "unimaginable"
+    },
+    {
+      "offset": "0x190f10",
+      "text": "@intelligence"
+    },
+    {
+      "offset": "0x191419",
+      "text": "@controlled"
+    },
+    {
+      "offset": "0x191a02",
+      "text": "@inspection"
+    },
+    {
+      "offset": "0x191edb",
+      "text": "extinguishes"
+    },
+    {
+      "offset": "0x192158",
+      "text": "@evaporating"
+    },
+    {
+      "offset": "0x192281",
+      "text": "@incapacitate"
+    },
+    {
+      "offset": "0x192637",
+      "text": "incantation"
+    },
+    {
+      "offset": "0x192663",
+      "text": "@remembering"
+    },
+    {
+      "offset": "0x192b63",
+      "text": "@remorsefully"
+    },
+    {
+      "offset": "0x192ca1",
+      "text": "@communicate"
+    },
+    {
+      "offset": "0x193330",
+      "text": "@Nevertheless"
+    },
+    {
+      "offset": "0x193d0f",
+      "text": "@Throughout"
+    },
+    {
+      "offset": "0x193df0",
+      "text": "handkerchief"
+    },
+    {
+      "offset": "0x194105",
+      "text": "@dilapidated"
+    },
+    {
+      "offset": "0x1941ea",
+      "text": "@suggestive"
+    },
+    {
+      "offset": "0x194473",
+      "text": "@interference"
+    },
+    {
+      "offset": "0x1945d5",
+      "text": "@Fancifully"
+    },
+    {
+      "offset": "0x194c58",
+      "text": "@materialize"
+    },
+    {
+      "offset": "0x194d36",
+      "text": "@nonetheless"
+    },
+    {
+      "offset": "0x19526a",
+      "text": "@materializes"
+    },
+    {
+      "offset": "0x195345",
+      "text": "disregarding"
+    },
+    {
+      "offset": "0x1953b9",
+      "text": "brilliantly"
+    },
+    {
+      "offset": "0x195900",
+      "text": "@acknowledges"
+    },
+    {
+      "offset": "0x195bbd",
+      "text": "mischievous"
+    },
+    {
+      "offset": "0x195c52",
+      "text": "redecoratin"
+    },
+    {
+      "offset": "0x195deb",
+      "text": "satisfactorily"
+    },
+    {
+      "offset": "0x196226",
+      "text": "@particularly"
+    },
+    {
+      "offset": "0x196441",
+      "text": "@malnutrition"
+    },
+    {
+      "offset": "0x196459",
+      "text": "@constitution"
+    },
+    {
+      "offset": "0x1964bf",
+      "text": "sensitivity"
+    },
+    {
+      "offset": "0x197007",
+      "text": "@measurements"
+    },
+    {
+      "offset": "0x197715",
+      "text": "@yourselves"
+    },
+    {
+      "offset": "0x1978d3",
+      "text": "@transferred"
+    },
+    {
+      "offset": "0x197bf1",
+      "text": "Momentarily"
+    },
+    {
+      "offset": "0x197db2",
+      "text": "@reflecting"
+    },
+    {
+      "offset": "0x197e8a",
+      "text": "@misfortune"
+    },
+    {
+      "offset": "0x19841d",
+      "text": "@unfortunate"
+    },
+    {
+      "offset": "0x198441",
+      "text": "@opportunities"
+    },
+    {
+      "offset": "0x198916",
+      "text": "Furthermore"
+    },
+    {
+      "offset": "0x1992cb",
+      "text": "@sarcastically"
+    },
+    {
+      "offset": "0x199332",
+      "text": "@Remarkably"
+    },
+    {
+      "offset": "0x199880",
+      "text": "@concealing"
+    },
+    {
+      "offset": "0x199ac5",
+      "text": "unsheathing"
+    },
+    {
+      "offset": "0x199d3f",
+      "text": "@interested"
+    },
+    {
+      "offset": "0x199db8",
+      "text": "@appreciation"
+    },
+    {
+      "offset": "0x199e0e",
+      "text": "@invitation"
+    },
+    {
+      "offset": "0x19a137",
+      "text": "@struggling"
+    },
+    {
+      "offset": "0x19aa35",
+      "text": "@kaleidoscope"
+    },
+    {
+      "offset": "0x19aa49",
+      "text": "reflections"
+    },
+    {
+      "offset": "0x19b182",
+      "text": "@cannonball"
+    },
+    {
+      "offset": "0x19b294",
+      "text": "@gracefully"
+    },
+    {
+      "offset": "0x19b3be",
+      "text": "@acknowledging"
+    },
+    {
+      "offset": "0x19b54e",
+      "text": "@Relentlessly"
+    },
+    {
+      "offset": "0x19b6cd",
+      "text": "@assortment"
+    },
+    {
+      "offset": "0x19b99f",
+      "text": "@impression"
+    },
+    {
+      "offset": "0x19bbdd",
+      "text": "@sunflower?"
+    },
+    {
+      "offset": "0x19bd89",
+      "text": "EConcentrate"
+    },
+    {
+      "offset": "0x19bef7",
+      "text": "@concentrate"
+    },
+    {
+      "offset": "0x19c4df",
+      "text": "@Apparently"
+    },
+    {
+      "offset": "0x19c795",
+      "text": "@mademoiselle"
+    },
+    {
+      "offset": "0x19cb32",
+      "text": "Gyaaahhhhhhhhhhhhhhhhhhhh"
+    },
+    {
+      "offset": "0x19cd98",
+      "text": "@predecessor"
+    },
+    {
+      "offset": "0x19d1d7",
+      "text": "@sunflowers"
+    },
+    {
+      "offset": "0x19d254",
+      "text": "@rationalizing"
+    },
+    {
+      "offset": "0x19d451",
+      "text": "@nothingness"
+    },
+    {
+      "offset": "0x19db51",
+      "text": "entanglement"
+    },
+    {
+      "offset": "0x19e02f",
+      "text": "@restraining"
+    },
+    {
+      "offset": "0x19e856",
+      "text": "@listlessly"
+    },
+    {
+      "offset": "0x19e887",
+      "text": "@establishes"
+    },
+    {
+      "offset": "0x19e99b",
+      "text": "@intertwine"
+    },
+    {
+      "offset": "0x19e9d5",
+      "text": "@sentiments"
+    },
+    {
+      "offset": "0x19eae1",
+      "text": "preparations"
+    },
+    {
+      "offset": "0x19ecf7",
+      "text": "@Magiiiilll"
+    },
+    {
+      "offset": "0x19f769",
+      "text": "@embarrassed"
+    },
+    {
+      "offset": "0x19f77a",
+      "text": "@professing"
+    },
+    {
+      "offset": "0x19f9ab",
+      "text": "@thunderous"
+    },
+    {
+      "offset": "0x19fc85",
+      "text": "obliterated"
+    },
+    {
+      "offset": "0x19fea4",
+      "text": "@intimidating"
+    },
+    {
+      "offset": "0x1a04e8",
+      "text": "@psychedelic"
+    },
+    {
+      "offset": "0x1a0646",
+      "text": "@pinstriped"
+    },
+    {
+      "offset": "0x1a0dab",
+      "text": "@impozzible"
+    },
+    {
+      "offset": "0x1a108b",
+      "text": "@employment"
+    },
+    {
+      "offset": "0x1a1134",
+      "text": "@consolation"
+    },
+    {
+      "offset": "0x1a14bf",
+      "text": "@experiencez"
+    },
+    {
+      "offset": "0x1a1620",
+      "text": "@handkerchief"
+    },
+    {
+      "offset": "0x1a171b",
+      "text": "@bittersweet"
+    },
+    {
+      "offset": "0x1a17a2",
+      "text": "@unanswered"
+    },
+    {
+      "offset": "0x1a18d5",
+      "text": "Gonyogonyogonyogonyo"
+    },
+    {
+      "offset": "0x1a1b85",
+      "text": "mademoiselle"
+    },
+    {
+      "offset": "0x1a1bb8",
+      "text": "@experienzes"
+    },
+    {
+      "offset": "0x1a1c7b",
+      "text": "@devastated"
+    },
+    {
+      "offset": "0x1a1f4d",
+      "text": "incredulously"
+    },
+    {
+      "offset": "0x1a209c",
+      "text": "@spitefully"
+    },
+    {
+      "offset": "0x1a2285",
+      "text": "@Aaaaaaaaaaaahhhhh"
+    },
+    {
+      "offset": "0x1a2a50",
+      "text": "@somewhere?"
+    },
+    {
+      "offset": "0x1a34b9",
+      "text": "@indiscriminately"
+    },
+    {
+      "offset": "0x1a34cb",
+      "text": "@evaporates"
+    },
+    {
+      "offset": "0x1a354e",
+      "text": "@Stretching"
+    },
+    {
+      "offset": "0x1a35e4",
+      "text": "Unbelievable"
+    },
+    {
+      "offset": "0x1a3822",
+      "text": "@impatience"
+    },
+    {
+      "offset": "0x1a38d6",
+      "text": "@unexpected"
+    },
+    {
+      "offset": "0x1a3906",
+      "text": "nervousness"
+    },
+    {
+      "offset": "0x1a39d2",
+      "text": "@levitation"
+    },
+    {
+      "offset": "0x1a3cb4",
+      "text": "@magnetized"
+    },
+    {
+      "offset": "0x1a417a",
+      "text": "@environment"
+    },
+    {
+      "offset": "0x1a43f4",
+      "text": "concentrating"
+    },
+    {
+      "offset": "0x1a451e",
+      "text": "@possibilities"
+    },
+    {
+      "offset": "0x1a45f3",
+      "text": "@alternative"
+    },
+    {
+      "offset": "0x1a4655",
+      "text": "@preparations"
+    },
+    {
+      "offset": "0x1a4916",
+      "text": "reinforcement"
+    },
+    {
+      "offset": "0x1a4b57",
+      "text": "impenetrable"
+    },
+    {
+      "offset": "0x1a502c",
+      "text": "desperately"
+    },
+    {
+      "offset": "0x1a50a6",
+      "text": "@dangerously"
+    },
+    {
+      "offset": "0x1a51b0",
+      "text": "@completing"
+    },
+    {
+      "offset": "0x1a5220",
+      "text": "@unsheathed"
+    },
+    {
+      "offset": "0x1a524e",
+      "text": "uncertainty"
+    },
+    {
+      "offset": "0x1a6078",
+      "text": "@erratically"
+    },
+    {
+      "offset": "0x1a6231",
+      "text": "@excrutiating"
+    },
+    {
+      "offset": "0x1a6755",
+      "text": "@regretfully"
+    },
+    {
+      "offset": "0x1a6ba7",
+      "text": "hesitatingly"
+    },
+    {
+      "offset": "0x1a6cdf",
+      "text": "@supporting"
+    },
+    {
+      "offset": "0x1a6f08",
+      "text": "@faithfully"
+    },
+    {
+      "offset": "0x1a7c24",
+      "text": "@incapacitated"
+    },
+    {
+      "offset": "0x1a7cdb",
+      "text": "@Shimmering"
+    },
+    {
+      "offset": "0x1a8022",
+      "text": "@everlasting"
+    },
+    {
+      "offset": "0x1a815f",
+      "text": "@particular"
+    },
+    {
+      "offset": "0x1a8321",
+      "text": "uncontrollably"
+    },
+    {
+      "offset": "0x1a841c",
+      "text": "@sacrificed"
+    },
+    {
+      "offset": "0x1a8516",
+      "text": "@artificial"
+    },
+    {
+      "offset": "0x1a8f5e",
+      "text": "@truthfully"
+    },
+    {
+      "offset": "0x1a9342",
+      "text": "accidentally"
+    },
+    {
+      "offset": "0x1a935f",
+      "text": "@Momentarily"
+    },
+    {
+      "offset": "0x1a961e",
+      "text": "@rrraaaaaaaahhhhh"
+    },
+    {
+      "offset": "0x1a986b",
+      "text": "@Disregarding"
+    },
+    {
+      "offset": "0x1a9a4d",
+      "text": "@trememndous"
+    },
+    {
+      "offset": "0x1a9c23",
+      "text": "@temperamental"
+    },
+    {
+      "offset": "0x1a9f64",
+      "text": "@Kiiiiiiiidddd"
+    },
+    {
+      "offset": "0x1aa3b3",
+      "text": "@replaceable"
+    },
+    {
+      "offset": "0x1aa8c9",
+      "text": "@performing"
+    },
+    {
+      "offset": "0x1aabc8",
+      "text": "@succession"
+    },
+    {
+      "offset": "0x1aabe2",
+      "text": "@enchantment"
+    },
+    {
+      "offset": "0x1aac5c",
+      "text": "@hypnotized"
+    },
+    {
+      "offset": "0x1aad50",
+      "text": "@absolutely"
+    },
+    {
+      "offset": "0x1ab192",
+      "text": "Destruction"
+    },
+    {
+      "offset": "0x1abb7f",
+      "text": "@kitchenette"
+    },
+    {
+      "offset": "0x1ac107",
+      "text": "@ingredient"
+    },
+    {
+      "offset": "0x1ac295",
+      "text": "@independent"
+    },
+    {
+      "offset": "0x1ac534",
+      "text": "@personality"
+    },
+    {
+      "offset": "0x1acbeb",
+      "text": "reluctantly"
+    },
+    {
+      "offset": "0x1ad6a1",
+      "text": "@transforms"
+    },
+    {
+      "offset": "0x1ae048",
+      "text": "@doubtfully"
+    },
+    {
+      "offset": "0x1ae252",
+      "text": "@persuasiveness"
+    },
+    {
+      "offset": "0x1ae286",
+      "text": "unconvinced"
+    },
+    {
+      "offset": "0x1ae88c",
+      "text": "@surprisingly"
+    },
+    {
+      "offset": "0x1ae98f",
+      "text": "@sentimental"
+    },
+    {
+      "offset": "0x1aea8d",
+      "text": "@bewildered"
+    },
+    {
+      "offset": "0x1aeabe",
+      "text": "@companions"
+    },
+    {
+      "offset": "0x1aeb62",
+      "text": "@bequeathed"
+    },
+    {
+      "offset": "0x1af218",
+      "text": "@meaningless?"
+    },
+    {
+      "offset": "0x1af24f",
+      "text": "@overshadowed"
+    },
+    {
+      "offset": "0x1af499",
+      "text": "@misunderstanding"
+    },
+    {
+      "offset": "0x1af501",
+      "text": "@confidence"
+    },
+    {
+      "offset": "0x1af95b",
+      "text": "@interjects"
+    },
+    {
+      "offset": "0x1afc86",
+      "text": "@feverishly"
+    },
+    {
+      "offset": "0x1afd5e",
+      "text": "@associate?"
+    },
+    {
+      "offset": "0x1b039a",
+      "text": "@recognition"
+    },
+    {
+      "offset": "0x1b0783",
+      "text": "@associates"
+    },
+    {
+      "offset": "0x1b07bc",
+      "text": "@introduction"
+    },
+    {
+      "offset": "0x1b097a",
+      "text": "@illustrious"
+    },
+    {
+      "offset": "0x1b0ade",
+      "text": "momentarily"
+    },
+    {
+      "offset": "0x1b0af1",
+      "text": "@recomposing"
+    },
+    {
+      "offset": "0x1b0e7d",
+      "text": "@conspiring"
+    },
+    {
+      "offset": "0x1b112d",
+      "text": "@confronting"
+    },
+    {
+      "offset": "0x1b133c",
+      "text": "@addressing"
+    },
+    {
+      "offset": "0x1b144c",
+      "text": "@accomplice"
+    },
+    {
+      "offset": "0x1b20ab",
+      "text": "@Mentioning"
+    },
+    {
+      "offset": "0x1b2165",
+      "text": "@swallowing"
+    },
+    {
+      "offset": "0x1b239b",
+      "text": "@relationship"
+    },
+    {
+      "offset": "0x1b25e6",
+      "text": "@fluttering"
+    },
+    {
+      "offset": "0x1b2951",
+      "text": "@dumbfounded"
+    },
+    {
+      "offset": "0x1b2c75",
+      "text": "@apologizing"
+    },
+    {
+      "offset": "0x1b2f00",
+      "text": "@comfortably"
+    },
+    {
+      "offset": "0x1b3233",
+      "text": "@carelessly"
+    },
+    {
+      "offset": "0x1b3328",
+      "text": "@disregarding"
+    },
+    {
+      "offset": "0x1b386d",
+      "text": "@differently"
+    },
+    {
+      "offset": "0x1b39bb",
+      "text": "@fascinated"
+    },
+    {
+      "offset": "0x1b4054",
+      "text": "misunderstanding"
+    },
+    {
+      "offset": "0x1b40bf",
+      "text": "@abandoning"
+    },
+    {
+      "offset": "0x1b4cfb",
+      "text": "@approached"
+    },
+    {
+      "offset": "0x1b4da9",
+      "text": "@intentions"
+    },
+    {
+      "offset": "0x1b549f",
+      "text": "@recomposes"
+    },
+    {
+      "offset": "0x1b5d22",
+      "text": "@photograph"
+    },
+    {
+      "offset": "0x1b62a8",
+      "text": "underestimate"
+    },
+    {
+      "offset": "0x1b6718",
+      "text": "@tablecloth"
+    },
+    {
+      "offset": "0x1b68b6",
+      "text": "@protruding"
+    },
+    {
+      "offset": "0x1b6918",
+      "text": "@reputation"
+    },
+    {
+      "offset": "0x1b6ea9",
+      "text": "@Chimpanzee"
+    },
+    {
+      "offset": "0x1b724c",
+      "text": "@Succumbing"
+    },
+    {
+      "offset": "0x1b7681",
+      "text": "@nervousness"
+    },
+    {
+      "offset": "0x1b77df",
+      "text": "@collection"
+    },
+    {
+      "offset": "0x1b78c8",
+      "text": "@reservation"
+    },
+    {
+      "offset": "0x1b7a85",
+      "text": "@misunderstand"
+    },
+    {
+      "offset": "0x1b7b93",
+      "text": "@adventurer"
+    },
+    {
+      "offset": "0x1b7c84",
+      "text": "@storytellers"
+    },
+    {
+      "offset": "0x1b8692",
+      "text": "@outrageous"
+    },
+    {
+      "offset": "0x1b86d1",
+      "text": "@restaurant"
+    },
+    {
+      "offset": "0x1b8b10",
+      "text": "@harnessing"
+    },
+    {
+      "offset": "0x1b8bce",
+      "text": "@connection"
+    },
+    {
+      "offset": "0x1b98e1",
+      "text": "@entertaining"
+    },
+    {
+      "offset": "0x1b99ac",
+      "text": "compartment"
+    },
+    {
+      "offset": "0x1b9d90",
+      "text": "@accordance"
+    },
+    {
+      "offset": "0x1b9f92",
+      "text": "experiences"
+    },
+    {
+      "offset": "0x1ba464",
+      "text": "thermodynamics"
+    },
+    {
+      "offset": "0x1ba503",
+      "text": "@thermonuclear"
+    },
+    {
+      "offset": "0x1ba58b",
+      "text": "@Fascinating"
+    },
+    {
+      "offset": "0x1ba9a5",
+      "text": "consciousness"
+    },
+    {
+      "offset": "0x1baba4",
+      "text": "@prominently"
+    },
+    {
+      "offset": "0x1bad74",
+      "text": "@uncontrollably"
+    },
+    {
+      "offset": "0x1badef",
+      "text": "@redshifted"
+    },
+    {
+      "offset": "0x1badfb",
+      "text": "@afterimage"
+    },
+    {
+      "offset": "0x1bae1e",
+      "text": "temperatures"
+    },
+    {
+      "offset": "0x1bb33d",
+      "text": "@transfixed"
+    },
+    {
+      "offset": "0x1bb49e",
+      "text": "@diagonally"
+    },
+    {
+      "offset": "0x1bb4b5",
+      "text": "broadswords"
+    },
+    {
+      "offset": "0x1bb4ee",
+      "text": "@interlocking"
+    },
+    {
+      "offset": "0x1bb5ee",
+      "text": "@gobbledygook"
+    },
+    {
+      "offset": "0x1bbbc4",
+      "text": "@insecticide"
+    },
+    {
+      "offset": "0x1bc152",
+      "text": "@teleprompter"
+    },
+    {
+      "offset": "0x1bc672",
+      "text": "@magnificent"
+    },
+    {
+      "offset": "0x1bc703",
+      "text": "@technology"
+    },
+    {
+      "offset": "0x1bca04",
+      "text": "@controlling"
+    },
+    {
+      "offset": "0x1bceb5",
+      "text": "@apologetic"
+    },
+    {
+      "offset": "0x1bcee7",
+      "text": "@scampering"
+    },
+    {
+      "offset": "0x1bcff4",
+      "text": "@obtainable"
+    },
+    {
+      "offset": "0x1bd3ce",
+      "text": "@potentially"
+    },
+    {
+      "offset": "0x1bd79b",
+      "text": "@suspiciousness"
+    },
+    {
+      "offset": "0x1bdbf1",
+      "text": "@components"
+    },
+    {
+      "offset": "0x1bdc1b",
+      "text": "@integrated"
+    },
+    {
+      "offset": "0x1be315",
+      "text": "@refrigerator"
+    },
+    {
+      "offset": "0x1be330",
+      "text": "@refrigerators"
+    },
+    {
+      "offset": "0x1be822",
+      "text": "@Frightened"
+    },
+    {
+      "offset": "0x1be9dd",
+      "text": "@frustrated"
+    },
+    {
+      "offset": "0x1beebe",
+      "text": "@deactivate"
+    },
+    {
+      "offset": "0x1bf0e2",
+      "text": "@miraculously"
+    },
+    {
+      "offset": "0x1bf0ff",
+      "text": "@lifelessly"
+    },
+    {
+      "offset": "0x1bf19d",
+      "text": "@separately"
+    },
+    {
+      "offset": "0x1bf61f",
+      "text": "@background"
+    },
+    {
+      "offset": "0x1bf7ac",
+      "text": "@luminescent"
+    },
+    {
+      "offset": "0x1bf866",
+      "text": "@mountainous"
+    },
+    {
+      "offset": "0x1bfca1",
+      "text": "@blistering"
+    },
+    {
+      "offset": "0x1bff44",
+      "text": "@counteract"
+    },
+    {
+      "offset": "0x1c00fd",
+      "text": "@defensively"
+    },
+    {
+      "offset": "0x1c050b",
+      "text": "@philosophy"
+    },
+    {
+      "offset": "0x1c05ec",
+      "text": "comprehension"
+    },
+    {
+      "offset": "0x1c0ada",
+      "text": "@appropriately"
+    },
+    {
+      "offset": "0x1c0bb6",
+      "text": "Lextinguish"
+    },
+    {
+      "offset": "0x1c0c0b",
+      "text": "@instrument"
+    },
+    {
+      "offset": "0x1c0c2b",
+      "text": "@temporarily"
+    },
+    {
+      "offset": "0x1c0cd0",
+      "text": "@assistance"
+    },
+    {
+      "offset": "0x1c1123",
+      "text": "@underground"
+    },
+    {
+      "offset": "0x1c1613",
+      "text": "@hopelessness"
+    },
+    {
+      "offset": "0x1c1888",
+      "text": "@electrified"
+    },
+    {
+      "offset": "0x1c1aa1",
+      "text": "@dazzlingly"
+    },
+    {
+      "offset": "0x1c1ba2",
+      "text": "enthusiastic"
+    },
+    {
+      "offset": "0x1c1d67",
+      "text": "@dissonance"
+    },
+    {
+      "offset": "0x1c2148",
+      "text": "@metamorphosis"
+    },
+    {
+      "offset": "0x1c25e4",
+      "text": "@antithesis"
+    },
+    {
+      "offset": "0x1c2dcb",
+      "text": "Mothership?"
+    },
+    {
+      "offset": "0x1c37eb",
+      "text": "@confidently"
+    },
+    {
+      "offset": "0x1c3846",
+      "text": "enchantment"
+    },
+    {
+      "offset": "0x1c38f0",
+      "text": "@detonation"
+    },
+    {
+      "offset": "0x1c3eb3",
+      "text": "@sweltering"
+    },
+    {
+      "offset": "0x1c400d",
+      "text": "@stratosphere"
+    },
+    {
+      "offset": "0x1c40c5",
+      "text": "@Supporting"
+    },
+    {
+      "offset": "0x1c4276",
+      "text": "@translucent"
+    },
+    {
+      "offset": "0x1c43d1",
+      "text": "@replacement"
+    },
+    {
+      "offset": "0x1c4424",
+      "text": "@interstellar"
+    },
+    {
+      "offset": "0x1c4467",
+      "text": "@ironically"
+    },
+    {
+      "offset": "0x1c45be",
+      "text": "@triumphantly"
+    },
+    {
+      "offset": "0x1c490e",
+      "text": "illuminating"
+    },
+    {
+      "offset": "0x1c4c5d",
+      "text": "@paralyzed?"
+    },
+    {
+      "offset": "0x1c4e73",
+      "text": "@resonating"
+    },
+    {
+      "offset": "0x1c5034",
+      "text": "@witchcraft"
+    },
+    {
+      "offset": "0x1c5048",
+      "text": "@necromancy"
+    },
+    {
+      "offset": "0x1c52cd",
+      "text": "desecrating"
+    },
+    {
+      "offset": "0x1c5371",
+      "text": "@necessarily"
+    },
+    {
+      "offset": "0x1c5967",
+      "text": "@undulating"
+    },
+    {
+      "offset": "0x1c5d39",
+      "text": "@suspicious"
+    },
+    {
+      "offset": "0x1c5d58",
+      "text": "@contraption"
+    },
+    {
+      "offset": "0x1c5fd6",
+      "text": "@monocotyledon"
+    },
+    {
+      "offset": "0x1c6088",
+      "text": "@assembling"
+    },
+    {
+      "offset": "0x1c650d",
+      "text": "@aquamarine"
+    },
+    {
+      "offset": "0x1c6892",
+      "text": "@maintaining"
+    },
+    {
+      "offset": "0x1c6acd",
+      "text": "@whitecapped"
+    },
+    {
+      "offset": "0x1c6da4",
+      "text": "@unrelenting"
+    },
+    {
+      "offset": "0x1c6f35",
+      "text": "@underwater"
+    },
+    {
+      "offset": "0x1c700e",
+      "text": "@vigorously"
+    },
+    {
+      "offset": "0x1c71f2",
+      "text": "@waterlogged"
+    },
+    {
+      "offset": "0x1c76c2",
+      "text": "@peacefully"
+    },
+    {
+      "offset": "0x1c874f",
+      "text": "@determined"
+    },
+    {
+      "offset": "0x1c88ec",
+      "text": "@ridiculous"
+    },
+    {
+      "offset": "0x1c964f",
+      "text": "@unmistakable"
+    },
+    {
+      "offset": "0x1c966a",
+      "text": "intimidation"
+    },
+    {
+      "offset": "0x1ca4d6",
+      "text": "information"
+    },
+    {
+      "offset": "0x1ca589",
+      "text": "@bottomless"
+    },
+    {
+      "offset": "0x1cb0d5",
+      "text": "@suffocating"
+    },
+    {
+      "offset": "0x1cb1c9",
+      "text": "@dislocated"
+    },
+    {
+      "offset": "0x1cbd8b",
+      "text": "@suppressing"
+    },
+    {
+      "offset": "0x1cbdc2",
+      "text": "maintaining"
+    },
+    {
+      "offset": "0x1cbff3",
+      "text": "@comfortingly"
+    },
+    {
+      "offset": "0x1cc60b",
+      "text": "@dominating"
+    },
+    {
+      "offset": "0x1cc812",
+      "text": "@protecting"
+    },
+    {
+      "offset": "0x1cced4",
+      "text": "incarcerated"
+    },
+    {
+      "offset": "0x1cd461",
+      "text": "@luminescence"
+    },
+    {
+      "offset": "0x1cd653",
+      "text": "surroundings"
+    },
+    {
+      "offset": "0x1cd9c1",
+      "text": "@surroundings"
+    },
+    {
+      "offset": "0x1cdabe",
+      "text": "@consistent"
+    },
+    {
+      "offset": "0x1cdc7b",
+      "text": "@arrangement"
+    },
+    {
+      "offset": "0x1ceaf1",
+      "text": "@downstairs?"
+    },
+    {
+      "offset": "0x1cf3de",
+      "text": "@concentrated"
+    },
+    {
+      "offset": "0x1cf562",
+      "text": "@constructed"
+    },
+    {
+      "offset": "0x1cf8a4",
+      "text": "@resurrection"
+    },
+    {
+      "offset": "0x1cf9b4",
+      "text": "@explanation"
+    },
+    {
+      "offset": "0x1cfb68",
+      "text": "@intensifies"
+    },
+    {
+      "offset": "0x1cfd8e",
+      "text": "@originator"
+    },
+    {
+      "offset": "0x1cfe9a",
+      "text": "undisturbed"
+    },
+    {
+      "offset": "0x1d0de4",
+      "text": "@travellers"
+    },
+    {
+      "offset": "0x1d120e",
+      "text": "@rrraaaaaahhhhhh"
+    },
+    {
+      "offset": "0x1d17b9",
+      "text": "rejuvenation"
+    },
+    {
+      "offset": "0x1d1883",
+      "text": "@illegitimately"
+    },
+    {
+      "offset": "0x1d2eb0",
+      "text": "bloodstained"
+    },
+    {
+      "offset": "0x1d2f35",
+      "text": "@ravenously"
+    },
+    {
+      "offset": "0x1d2ffb",
+      "text": "@bloodstained"
+    },
+    {
+      "offset": "0x1d3293",
+      "text": "@influenced"
+    },
+    {
+      "offset": "0x1d3392",
+      "text": "@unnaturally"
+    },
+    {
+      "offset": "0x1d394e",
+      "text": "@congregational"
+    },
+    {
+      "offset": "0x1d3ec1",
+      "text": "@Forgetting"
+    },
+    {
+      "offset": "0x1d5ec6",
+      "text": "@furnishings"
+    },
+    {
+      "offset": "0x1d64d4",
+      "text": "EInvestigate"
+    },
+    {
+      "offset": "0x1d6aa7",
+      "text": "@concentrating"
+    },
+    {
+      "offset": "0x1d6b41",
+      "text": "@inspecting"
+    },
+    {
+      "offset": "0x1d6e75",
+      "text": "@transported"
+    },
+    {
+      "offset": "0x1d6e89",
+      "text": "Transported"
+    },
+    {
+      "offset": "0x1d7d09",
+      "text": "@vaporized?"
+    },
+    {
+      "offset": "0x1d7f6f",
+      "text": "@possibility"
+    },
+    {
+      "offset": "0x1d8582",
+      "text": "@Teleportation"
+    },
+    {
+      "offset": "0x1d89a8",
+      "text": "@teleported"
+    },
+    {
+      "offset": "0x1d94c5",
+      "text": "entranceway"
+    },
+    {
+      "offset": "0x1d9726",
+      "text": "@immobilized"
+    },
+    {
+      "offset": "0x1d97f9",
+      "text": "@Illusionist"
+    },
+    {
+      "offset": "0x1d99bb",
+      "text": "@competitors"
+    },
+    {
+      "offset": "0x1d9a73",
+      "text": "@questions?"
+    },
+    {
+      "offset": "0x1d9ef6",
+      "text": "@indefinitely"
+    },
+    {
+      "offset": "0x1d9f24",
+      "text": "@conducting"
+    },
+    {
+      "offset": "0x1d9f4c",
+      "text": "individuals"
+    },
+    {
+      "offset": "0x1da286",
+      "text": "@Gigaweapon"
+    },
+    {
+      "offset": "0x1da46d",
+      "text": "@dissipates"
+    },
+    {
+      "offset": "0x1da51b",
+      "text": "transformed"
+    },
+    {
+      "offset": "0x1da695",
+      "text": "@contestants"
+    },
+    {
+      "offset": "0x1dab4c",
+      "text": "@resemblance"
+    },
+    {
+      "offset": "0x1dabfe",
+      "text": "@staggering"
+    },
+    {
+      "offset": "0x1db19a",
+      "text": "@overwhelming"
+    },
+    {
+      "offset": "0x1db56c",
+      "text": "@destination"
+    },
+    {
+      "offset": "0x1db8b0",
+      "text": "Graaaaaaaaaah"
+    },
+    {
+      "offset": "0x1db969",
+      "text": "@Slaaaaaaaaaam"
+    },
+    {
+      "offset": "0x1dbbff",
+      "text": "@Thuuuuuuuump"
+    },
+    {
+      "offset": "0x1dbfb5",
+      "text": "@Gigaweapon?"
+    },
+    {
+      "offset": "0x1dbff8",
+      "text": "Grrrraaaaaaaaah"
+    },
+    {
+      "offset": "0x1dc0e6",
+      "text": "@supposedly"
+    },
+    {
+      "offset": "0x1dc1ef",
+      "text": "Graaaaaaaaaaaaaaaa"
+    },
+    {
+      "offset": "0x1dc2ba",
+      "text": "@Slaaaaaaaaaaaam"
+    },
+    {
+      "offset": "0x1dc560",
+      "text": "Graaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "offset": "0x1dc6c2",
+      "text": "@unremorsefully"
+    },
+    {
+      "offset": "0x1dc7af",
+      "text": "@Slaaaaaaaaaaaaam"
+    },
+    {
+      "offset": "0x1dc8a7",
+      "text": "@Slammmmmmmmm"
+    },
+    {
+      "offset": "0x1dc975",
+      "text": "@Slammmmmmm"
+    },
+    {
+      "offset": "0x1dcf65",
+      "text": "opportunity"
+    },
+    {
+      "offset": "0x1de424",
+      "text": "@initiative"
+    },
+    {
+      "offset": "0x1de5a0",
+      "text": "@consistency"
+    },
+    {
+      "offset": "0x1de7eb",
+      "text": "Illusionist"
+    },
+    {
+      "offset": "0x1de820",
+      "text": "@unspeakable"
+    },
+    {
+      "offset": "0x1de84c",
+      "text": "@indefinite"
+    },
+    {
+      "offset": "0x1de888",
+      "text": "@demonstrate"
+    },
+    {
+      "offset": "0x1dec1a",
+      "text": "disappeared"
+    },
+    {
+      "offset": "0x1dfe74",
+      "text": "Lacquaintance"
+    },
+    {
+      "offset": "0x1dffbe",
+      "text": "Assistance?"
+    },
+    {
+      "offset": "0x1e02c6",
+      "text": "@astonished"
+    },
+    {
+      "offset": "0x1e05d4",
+      "text": "@commanding"
+    },
+    {
+      "offset": "0x1e0791",
+      "text": "@nonchalant"
+    },
+    {
+      "offset": "0x1e08b8",
+      "text": "@representation"
+    },
+    {
+      "offset": "0x1e1334",
+      "text": "@unimportant"
+    },
+    {
+      "offset": "0x1e1446",
+      "text": "FGigaweapon"
+    },
+    {
+      "offset": "0x1e149e",
+      "text": "@gladiators"
+    },
+    {
+      "offset": "0x1e1675",
+      "text": "@Gahahahaha"
+    },
+    {
+      "offset": "0x1e194f",
+      "text": "@Explosions"
+    },
+    {
+      "offset": "0x1e1bb1",
+      "text": "@impenetrable"
+    },
+    {
+      "offset": "0x1e2052",
+      "text": "loudspeaker"
+    },
+    {
+      "offset": "0x1e21ad",
+      "text": "@Slaaaaaaaam"
+    },
+    {
+      "offset": "0x1e223d",
+      "text": "devastating"
+    },
+    {
+      "offset": "0x1e24d5",
+      "text": "@Transfusion"
+    },
+    {
+      "offset": "0x1e24e2",
+      "text": "@Infernoblast"
+    },
+    {
+      "offset": "0x1e258d",
+      "text": "@incinerating"
+    },
+    {
+      "offset": "0x1e2f60",
+      "text": "@spontaneously"
+    },
+    {
+      "offset": "0x1e317c",
+      "text": "@withdrawal"
+    },
+    {
+      "offset": "0x1e3322",
+      "text": "@adventurers"
+    },
+    {
+      "offset": "0x1e3831",
+      "text": "@invitations"
+    },
+    {
+      "offset": "0x1e401c",
+      "text": "@acknowledge"
+    },
+    {
+      "offset": "0x1e433b",
+      "text": "@shortcomings"
+    },
+    {
+      "offset": "0x1e53e5",
+      "text": "straightforward"
+    },
+    {
+      "offset": "0x1e5ae2",
+      "text": "@desecrated"
+    },
+    {
+      "offset": "0x1e5d76",
+      "text": "entranceway?"
+    },
+    {
+      "offset": "0x1e5ee8",
+      "text": "@shuddering"
+    },
+    {
+      "offset": "0x1e6c4e",
+      "text": "@overstaying"
+    },
+    {
+      "offset": "0x1e70c3",
+      "text": "@resentments"
+    },
+    {
+      "offset": "0x1e7993",
+      "text": "inscription"
+    },
+    {
+      "offset": "0x1e7faf",
+      "text": "intimidating"
+    },
+    {
+      "offset": "0x1e825f",
+      "text": "@tentatively"
+    },
+    {
+      "offset": "0x1e895a",
+      "text": "@indentation"
+    },
+    {
+      "offset": "0x1e8b37",
+      "text": "@innocently"
+    },
+    {
+      "offset": "0x1e8c1c",
+      "text": "@accessories"
+    },
+    {
+      "offset": "0x1e94d3",
+      "text": "@centipede?"
+    },
+    {
+      "offset": "0x1ea01a",
+      "text": "@emergencies"
+    },
+    {
+      "offset": "0x1eaaa6",
+      "text": "@practically"
+    },
+    {
+      "offset": "0x1eabe8",
+      "text": "@techniques?"
+    },
+    {
+      "offset": "0x1eaded",
+      "text": "transmitting"
+    },
+    {
+      "offset": "0x1eafae",
+      "text": "@Bewildered"
+    },
+    {
+      "offset": "0x1eb70f",
+      "text": "@happening?"
+    },
+    {
+      "offset": "0x1eb89e",
+      "text": "@regrettably"
+    },
+    {
+      "offset": "0x1ebe02",
+      "text": "@unbelievable"
+    },
+    {
+      "offset": "0x1ec2bd",
+      "text": "@interrupting"
+    },
+    {
+      "offset": "0x1ec497",
+      "text": "@frightened"
+    },
+    {
+      "offset": "0x1ec5dd",
+      "text": "@spectacularly"
+    },
+    {
+      "offset": "0x1ec7e8",
+      "text": "translucent"
+    },
+    {
+      "offset": "0x1ec7fd",
+      "text": "@materializing"
+    },
+    {
+      "offset": "0x1ecbce",
+      "text": "@chandelier"
+    },
+    {
+      "offset": "0x1ed529",
+      "text": "@solidifies"
+    },
+    {
+      "offset": "0x1ed63f",
+      "text": "@transition"
+    },
+    {
+      "offset": "0x1ed664",
+      "text": "extinguishing"
+    },
+    {
+      "offset": "0x1ed72b",
+      "text": "@accumulates"
+    },
+    {
+      "offset": "0x1ed74e",
+      "text": "rectangular"
+    },
+    {
+      "offset": "0x1ed7d7",
+      "text": "@effectively"
+    },
+    {
+      "offset": "0x1edcbd",
+      "text": "weightlessly"
+    },
+    {
+      "offset": "0x1ee375",
+      "text": "@terrorizing"
+    },
+    {
+      "offset": "0x1ee566",
+      "text": "@convulsions"
+    },
+    {
+      "offset": "0x1ee6f7",
+      "text": "Circumstances"
+    },
+    {
+      "offset": "0x1ee7e2",
+      "text": "@delicately"
+    },
+    {
+      "offset": "0x1ee86c",
+      "text": "inadvertently"
+    },
+    {
+      "offset": "0x1eea9c",
+      "text": "@circumstances"
+    },
+    {
+      "offset": "0x1eeec2",
+      "text": "@solidifying"
+    },
+    {
+      "offset": "0x1ef1fb",
+      "text": "Lmaterializes"
+    },
+    {
+      "offset": "0x1ef40e",
+      "text": "@entanglement"
+    },
+    {
+      "offset": "0x1ef929",
+      "text": "@containing"
+    },
+    {
+      "offset": "0x1f002f",
+      "text": "@collecting"
+    },
+    {
+      "offset": "0x1f00eb",
+      "text": "@wonderment"
+    },
+    {
+      "offset": "0x1f07ad",
+      "text": "@expectation"
+    },
+    {
+      "offset": "0x1f1659",
+      "text": "@astonishment"
+    }
+  ],
+  "treasure": [
+    {
+      "offset": "0x108040",
+      "item_id": 48,
+      "quantity": 72
+    },
+    {
+      "offset": "0x108070",
+      "item_id": 96,
+      "quantity": 96
+    },
+    {
+      "offset": "0x108080",
+      "item_id": 12,
+      "quantity": 12
+    },
+    {
+      "offset": "0x1080a0",
+      "item_id": 12,
+      "quantity": 12
+    },
+    {
+      "offset": "0x1080b0",
+      "item_id": 12,
+      "quantity": 12
+    },
+    {
+      "offset": "0x1080d0",
+      "item_id": 4,
+      "quantity": 0
+    },
+    {
+      "offset": "0x1080e0",
+      "item_id": 4,
+      "quantity": 4
+    },
+    {
+      "offset": "0x1081c0",
+      "item_id": 2,
+      "quantity": 0
+    },
+    {
+      "offset": "0x1081d0",
+      "item_id": 9,
+      "quantity": 4
+    },
+    {
+      "offset": "0x1081f0",
+      "item_id": 12,
+      "quantity": 0
+    },
+    {
+      "offset": "0x108200",
+      "item_id": 9,
+      "quantity": 4
+    },
+    {
+      "offset": "0x108250",
+      "item_id": 76,
+      "quantity": 2
+    },
+    {
+      "offset": "0x1082e0",
+      "item_id": 16,
+      "quantity": 32
+    },
+    {
+      "offset": "0x1082f0",
+      "item_id": 16,
+      "quantity": 8
+    },
+    {
+      "offset": "0x108320",
+      "item_id": 10,
+      "quantity": 10
+    },
+    {
+      "offset": "0x108340",
+      "item_id": 4,
+      "quantity": 4
+    },
+    {
+      "offset": "0x1083e0",
+      "item_id": 1,
+      "quantity": 1
+    },
+    {
+      "offset": "0x108400",
+      "item_id": 16,
+      "quantity": 32
+    },
+    {
+      "offset": "0x108410",
+      "item_id": 1,
+      "quantity": 1
+    },
+    {
+      "offset": "0x108430",
+      "item_id": 16,
+      "quantity": 16
+    },
+    {
+      "offset": "0x108440",
+      "item_id": 1,
+      "quantity": 1
+    },
+    {
+      "offset": "0x108460",
+      "item_id": 16,
+      "quantity": 16
+    },
+    {
+      "offset": "0x108490",
+      "item_id": 32,
+      "quantity": 32
+    },
+    {
+      "offset": "0x1084a0",
+      "item_id": 1,
+      "quantity": 1
+    },
+    {
+      "offset": "0x1084c0",
+      "item_id": 16,
+      "quantity": 32
+    },
+    {
+      "offset": "0x1084f0",
+      "item_id": 36,
+      "quantity": 72
+    },
+    {
+      "offset": "0x108500",
+      "item_id": 1,
+      "quantity": 1
+    },
+    {
+      "offset": "0x108520",
+      "item_id": 16,
+      "quantity": 16
+    },
+    {
+      "offset": "0x108530",
+      "item_id": 5,
+      "quantity": 5
+    },
+    {
+      "offset": "0x108560",
+      "item_id": 3,
+      "quantity": 2
+    },
+    {
+      "offset": "0x108580",
+      "item_id": 24,
+      "quantity": 24
+    },
+    {
+      "offset": "0x108590",
+      "item_id": 4,
+      "quantity": 4
+    },
+    {
+      "offset": "0x108640",
+      "item_id": 8,
+      "quantity": 16
+    },
+    {
+      "offset": "0x108650",
+      "item_id": 6,
+      "quantity": 24
+    },
+    {
+      "offset": "0x108670",
+      "item_id": 12,
+      "quantity": 48
+    },
+    {
+      "offset": "0x108680",
+      "item_id": 48,
+      "quantity": 14
+    },
+    {
+      "offset": "0x108700",
+      "item_id": 4,
+      "quantity": 4
+    },
+    {
+      "offset": "0x108710",
+      "item_id": 72,
+      "quantity": 48
+    },
+    {
+      "offset": "0x1087a0",
+      "item_id": 1,
+      "quantity": 14
+    },
+    {
+      "offset": "0x1087d0",
+      "item_id": 73,
+      "quantity": 50
+    },
+    {
+      "offset": "0x108800",
+      "item_id": 17,
+      "quantity": 10
+    },
+    {
+      "offset": "0x108850",
+      "item_id": 1,
+      "quantity": 17
+    },
+    {
+      "offset": "0x108860",
+      "item_id": 16,
+      "quantity": 16
+    },
+    {
+      "offset": "0x108880",
+      "item_id": 31,
+      "quantity": 31
+    },
+    {
+      "offset": "0x108950",
+      "item_id": 14,
+      "quantity": 31
+    },
+    {
+      "offset": "0x108970",
+      "item_id": 10,
+      "quantity": 10
+    },
+    {
+      "offset": "0x1089e0",
+      "item_id": 32,
+      "quantity": 64
+    },
+    {
+      "offset": "0x108a00",
+      "item_id": 4,
+      "quantity": 4
+    },
+    {
+      "offset": "0x108a10",
+      "item_id": 4,
+      "quantity": 4
+    },
+    {
+      "offset": "0x108a40",
+      "item_id": 33,
+      "quantity": 33
+    }
+  ]
 }

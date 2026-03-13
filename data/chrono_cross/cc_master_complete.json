@@ -522,20 +522,5404 @@
     "count": 572,
     "source": "cc_dialog_complete.json"
   },
-  "npcs": {
-    "count": 200,
-    "source": "cc_npcs.json"
-  },
-  "treasure": {
-    "count": 100,
-    "source": "cc_treasure.json"
-  },
-  "monster_drops": {
-    "count": 50,
-    "source": "cc_monster_drops.json"
-  },
+  "npcs": [
+    {
+      "offset": "0x210590",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 0,
+      "movement_type": 41088,
+      "dialog_id": 65488
+    },
+    {
+      "offset": "0x211eb0",
+      "sprite_id": 2,
+      "x": 1121,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 127
+    },
+    {
+      "offset": "0x213020",
+      "sprite_id": 24,
+      "x": 100,
+      "y": 48,
+      "movement_type": 44980,
+      "dialog_id": 80
+    },
+    {
+      "offset": "0x213290",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 64,
+      "movement_type": 10173,
+      "dialog_id": 65504
+    },
+    {
+      "offset": "0x2136e0",
+      "sprite_id": 2,
+      "x": 1089,
+      "y": 16,
+      "movement_type": 44976,
+      "dialog_id": 127
+    },
+    {
+      "offset": "0x213e90",
+      "sprite_id": 2,
+      "x": 1121,
+      "y": 56,
+      "movement_type": 10161,
+      "dialog_id": 127
+    },
+    {
+      "offset": "0x214e50",
+      "sprite_id": 3,
+      "x": 11,
+      "y": 0,
+      "movement_type": 9,
+      "dialog_id": 892
+    },
+    {
+      "offset": "0x214f10",
+      "sprite_id": 16,
+      "x": 0,
+      "y": 8,
+      "movement_type": 0,
+      "dialog_id": 44
+    },
+    {
+      "offset": "0x214fa0",
+      "sprite_id": 8,
+      "x": 0,
+      "y": 44,
+      "movement_type": 0,
+      "dialog_id": 800
+    },
+    {
+      "offset": "0x214fd0",
+      "sprite_id": 76,
+      "x": 0,
+      "y": 776,
+      "movement_type": 91,
+      "dialog_id": 4
+    },
+    {
+      "offset": "0x215030",
+      "sprite_id": 44,
+      "x": 0,
+      "y": 800,
+      "movement_type": 93,
+      "dialog_id": 16
+    },
+    {
+      "offset": "0x216b60",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 32,
+      "movement_type": 10173,
+      "dialog_id": 65512
+    },
+    {
+      "offset": "0x217730",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 24,
+      "movement_type": 10173,
+      "dialog_id": 65416
+    },
+    {
+      "offset": "0x218ea0",
+      "sprite_id": 2,
+      "x": 1089,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 127
+    },
+    {
+      "offset": "0x2198c0",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 56,
+      "movement_type": 10173,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x21a850",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 48,
+      "movement_type": 10173,
+      "dialog_id": 65424
+    },
+    {
+      "offset": "0x21c830",
+      "sprite_id": 2,
+      "x": 1153,
+      "y": 56,
+      "movement_type": 41890,
+      "dialog_id": 127
+    },
+    {
+      "offset": "0x21d2e0",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 40,
+      "movement_type": 10173,
+      "dialog_id": 65432
+    },
+    {
+      "offset": "0x220070",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 168,
+      "movement_type": 10173,
+      "dialog_id": 65480
+    },
+    {
+      "offset": "0x22ad50",
+      "sprite_id": 48,
+      "x": 1121,
+      "y": 20,
+      "movement_type": 44547,
+      "dialog_id": 32799
+    },
+    {
+      "offset": "0x232130",
+      "sprite_id": 8,
+      "x": 992,
+      "y": 80,
+      "movement_type": 10173,
+      "dialog_id": 65408
+    },
+    {
+      "offset": "0x239e10",
+      "sprite_id": 2,
+      "x": 0,
+      "y": 5,
+      "movement_type": 0,
+      "dialog_id": 4
+    },
+    {
+      "offset": "0x239e70",
+      "sprite_id": 29,
+      "x": 0,
+      "y": 14,
+      "movement_type": 0,
+      "dialog_id": 30
+    },
+    {
+      "offset": "0x239ed0",
+      "sprite_id": 76,
+      "x": 0,
+      "y": 77,
+      "movement_type": 0,
+      "dialog_id": 108
+    },
+    {
+      "offset": "0x239f00",
+      "sprite_id": 108,
+      "x": 0,
+      "y": 109,
+      "movement_type": 0,
+      "dialog_id": 26962
+    },
+    {
+      "offset": "0x239f30",
+      "sprite_id": 123,
+      "x": 0,
+      "y": 124,
+      "movement_type": 0,
+      "dialog_id": 126
+    },
+    {
+      "offset": "0x23af50",
+      "sprite_id": 15,
+      "x": 0,
+      "y": 210,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x23c7b0",
+      "sprite_id": 210,
+      "x": 165,
+      "y": 103,
+      "movement_type": 169,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x23d0e0",
+      "sprite_id": 46,
+      "x": 16,
+      "y": 49,
+      "movement_type": 83,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x23d200",
+      "sprite_id": 44,
+      "x": 0,
+      "y": 880,
+      "movement_type": 220,
+      "dialog_id": 16
+    },
+    {
+      "offset": "0x23ed00",
+      "sprite_id": 44,
+      "x": 0,
+      "y": 864,
+      "movement_type": 218,
+      "dialog_id": 16
+    },
+    {
+      "offset": "0x23f1e0",
+      "sprite_id": 14,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x23f2a0",
+      "sprite_id": 6,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 234
+    },
+    {
+      "offset": "0x241340",
+      "sprite_id": 24,
+      "x": 24,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 31601
+    },
+    {
+      "offset": "0x2413a0",
+      "sprite_id": 18,
+      "x": 0,
+      "y": 0,
+      "movement_type": 47904,
+      "dialog_id": 21883
+    },
+    {
+      "offset": "0x2413d0",
+      "sprite_id": 306,
+      "x": 0,
+      "y": 0,
+      "movement_type": 30851,
+      "dialog_id": 39317
+    },
+    {
+      "offset": "0x241730",
+      "sprite_id": 273,
+      "x": 0,
+      "y": 0,
+      "movement_type": 4352,
+      "dialog_id": 4369
+    },
+    {
+      "offset": "0x241760",
+      "sprite_id": 17,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 4369
+    },
+    {
+      "offset": "0x243140",
+      "sprite_id": 165,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 48288
+    },
+    {
+      "offset": "0x243680",
+      "sprite_id": 233,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 48352
+    },
+    {
+      "offset": "0x2438c0",
+      "sprite_id": 44,
+      "x": 0,
+      "y": 768,
+      "movement_type": 247,
+      "dialog_id": 16
+    },
+    {
+      "offset": "0x244550",
+      "sprite_id": 164,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 31392
+    },
+    {
+      "offset": "0x245e70",
+      "sprite_id": 4,
+      "x": 12,
+      "y": 16,
+      "movement_type": 0,
+      "dialog_id": 8
+    },
+    {
+      "offset": "0x2464a0",
+      "sprite_id": 140,
+      "x": 0,
+      "y": 863,
+      "movement_type": 239,
+      "dialog_id": 4
+    },
+    {
+      "offset": "0x2466e0",
+      "sprite_id": 16,
+      "x": 1,
+      "y": 288,
+      "movement_type": 4228,
+      "dialog_id": 15556
+    },
+    {
+      "offset": "0x2467d0",
+      "sprite_id": 140,
+      "x": 0,
+      "y": 879,
+      "movement_type": 239,
+      "dialog_id": 4
+    },
+    {
+      "offset": "0x246a70",
+      "sprite_id": 7,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x247040",
+      "sprite_id": 32,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 25971
+    },
+    {
+      "offset": "0x2470a0",
+      "sprite_id": 1,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x2472e0",
+      "sprite_id": 298,
+      "x": 0,
+      "y": 814,
+      "movement_type": 79,
+      "dialog_id": 11
+    },
+    {
+      "offset": "0x248450",
+      "sprite_id": 15,
+      "x": 1529,
+      "y": 509,
+      "movement_type": 4048,
+      "dialog_id": 63744
+    },
+    {
+      "offset": "0x249710",
+      "sprite_id": 17,
+      "x": 255,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 40848
+    },
+    {
+      "offset": "0x249bc0",
+      "sprite_id": 1,
+      "x": 16,
+      "y": 256,
+      "movement_type": 0,
+      "dialog_id": 40848
+    },
+    {
+      "offset": "0x24a100",
+      "sprite_id": 250,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x24a970",
+      "sprite_id": 9,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 40848
+    },
+    {
+      "offset": "0x24ab50",
+      "sprite_id": 256,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 4096
+    },
+    {
+      "offset": "0x24ab80",
+      "sprite_id": 15,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x24b060",
+      "sprite_id": 16,
+      "x": 0,
+      "y": 256,
+      "movement_type": 16,
+      "dialog_id": 272
+    },
+    {
+      "offset": "0x24b1b0",
+      "sprite_id": 4,
+      "x": 64,
+      "y": 16,
+      "movement_type": 0,
+      "dialog_id": 8
+    },
+    {
+      "offset": "0x24b300",
+      "sprite_id": 31,
+      "x": 0,
+      "y": 0,
+      "movement_type": 496,
+      "dialog_id": 272
+    },
+    {
+      "offset": "0x24c200",
+      "sprite_id": 245,
+      "x": 1008,
+      "y": 0,
+      "movement_type": 2480,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x24c9b0",
+      "sprite_id": 242,
+      "x": 0,
+      "y": 203,
+      "movement_type": 2272,
+      "dialog_id": 501
+    },
+    {
+      "offset": "0x24d070",
+      "sprite_id": 24,
+      "x": 0,
+      "y": 0,
+      "movement_type": 4115,
+      "dialog_id": 8
+    },
+    {
+      "offset": "0x24d730",
+      "sprite_id": 1,
+      "x": 352,
+      "y": 385,
+      "movement_type": 0,
+      "dialog_id": 26209
+    },
+    {
+      "offset": "0x24e120",
+      "sprite_id": 29,
+      "x": 17,
+      "y": 0,
+      "movement_type": 16,
+      "dialog_id": 41160
+    },
+    {
+      "offset": "0x24e780",
+      "sprite_id": 59,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x24f170",
+      "sprite_id": 273,
+      "x": 0,
+      "y": 242,
+      "movement_type": 1760,
+      "dialog_id": 4352
+    },
+    {
+      "offset": "0x24fad0",
+      "sprite_id": 53,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 50752
+    },
+    {
+      "offset": "0x24fe60",
+      "sprite_id": 49,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 17472
+    },
+    {
+      "offset": "0x2555c0",
+      "sprite_id": 258,
+      "x": 0,
+      "y": 0,
+      "movement_type": 256,
+      "dialog_id": 257
+    },
+    {
+      "offset": "0x2582f0",
+      "sprite_id": 16,
+      "x": 1,
+      "y": 1056,
+      "movement_type": 2113,
+      "dialog_id": 3170
+    },
+    {
+      "offset": "0x2583e0",
+      "sprite_id": 4,
+      "x": 20,
+      "y": 16,
+      "movement_type": 0,
+      "dialog_id": 8
+    },
+    {
+      "offset": "0x2584a0",
+      "sprite_id": 11,
+      "x": 0,
+      "y": 0,
+      "movement_type": 45056,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x2586b0",
+      "sprite_id": 2,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x258bc0",
+      "sprite_id": 11,
+      "x": 0,
+      "y": 1271,
+      "movement_type": 0,
+      "dialog_id": 28672
+    },
+    {
+      "offset": "0x258d40",
+      "sprite_id": 7,
+      "x": 0,
+      "y": 1271,
+      "movement_type": 0,
+      "dialog_id": 57200
+    },
+    {
+      "offset": "0x259a00",
+      "sprite_id": 127,
+      "x": 0,
+      "y": 0,
+      "movement_type": 65506,
+      "dialog_id": 53247
+    },
+    {
+      "offset": "0x259a30",
+      "sprite_id": 191,
+      "x": 0,
+      "y": 764,
+      "movement_type": 36704,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x25b080",
+      "sprite_id": 63,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x25b200",
+      "sprite_id": 79,
+      "x": 0,
+      "y": 0,
+      "movement_type": 24576,
+      "dialog_id": 59
+    },
+    {
+      "offset": "0x25d090",
+      "sprite_id": 107,
+      "x": 0,
+      "y": 767,
+      "movement_type": 32576,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x25d240",
+      "sprite_id": 3,
+      "x": 0,
+      "y": 832,
+      "movement_type": 0,
+      "dialog_id": 45056
+    },
+    {
+      "offset": "0x25d570",
+      "sprite_id": 2,
+      "x": 0,
+      "y": 1632,
+      "movement_type": 0,
+      "dialog_id": 45056
+    },
+    {
+      "offset": "0x25d840",
+      "sprite_id": 61,
+      "x": 0,
+      "y": 191,
+      "movement_type": 32656,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x260270",
+      "sprite_id": 222,
+      "x": 0,
+      "y": 269,
+      "movement_type": 0,
+      "dialog_id": 322
+    },
+    {
+      "offset": "0x260b10",
+      "sprite_id": 16,
+      "x": 1,
+      "y": 0,
+      "movement_type": 32767,
+      "dialog_id": 31
+    },
+    {
+      "offset": "0x260ba0",
+      "sprite_id": 272,
+      "x": 273,
+      "y": 17,
+      "movement_type": 272,
+      "dialog_id": 4368
+    },
+    {
+      "offset": "0x2616e0",
+      "sprite_id": 340,
+      "x": 356,
+      "y": 1,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x261fe0",
+      "sprite_id": 144,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x2620a0",
+      "sprite_id": 128,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x262c40",
+      "sprite_id": 152,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x262cd0",
+      "sprite_id": 168,
+      "x": 0,
+      "y": 293,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x262d00",
+      "sprite_id": 96,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x263030",
+      "sprite_id": 106,
+      "x": 0,
+      "y": 286,
+      "movement_type": 13558,
+      "dialog_id": 2054
+    },
+    {
+      "offset": "0x263060",
+      "sprite_id": 120,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x2633f0",
+      "sprite_id": 228,
+      "x": 0,
+      "y": 293,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x263450",
+      "sprite_id": 20,
+      "x": 0,
+      "y": 221,
+      "movement_type": 376,
+      "dialog_id": 4097
+    },
+    {
+      "offset": "0x2647a0",
+      "sprite_id": 276,
+      "x": 0,
+      "y": 293,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x265490",
+      "sprite_id": 128,
+      "x": 8,
+      "y": 338,
+      "movement_type": 13558,
+      "dialog_id": 3586
+    },
+    {
+      "offset": "0x2654f0",
+      "sprite_id": 88,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x265520",
+      "sprite_id": 56,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x265550",
+      "sprite_id": 24,
+      "x": 0,
+      "y": 284,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x265580",
+      "sprite_id": 21,
+      "x": 0,
+      "y": 160,
+      "movement_type": 0,
+      "dialog_id": 284
+    },
+    {
+      "offset": "0x265910",
+      "sprite_id": 184,
+      "x": 0,
+      "y": 293,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x265dc0",
+      "sprite_id": 196,
+      "x": 0,
+      "y": 293,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x266060",
+      "sprite_id": 9,
+      "x": 0,
+      "y": 85,
+      "movement_type": 0,
+      "dialog_id": 293
+    },
+    {
+      "offset": "0x2661b0",
+      "sprite_id": 66,
+      "x": 0,
+      "y": 467,
+      "movement_type": 13558,
+      "dialog_id": 3077
+    },
+    {
+      "offset": "0x266420",
+      "sprite_id": 154,
+      "x": 0,
+      "y": 293,
+      "movement_type": 13558,
+      "dialog_id": 2056
+    },
+    {
+      "offset": "0x267740",
+      "sprite_id": 5,
+      "x": 0,
+      "y": 155,
+      "movement_type": 16,
+      "dialog_id": 60988
+    },
+    {
+      "offset": "0x267e90",
+      "sprite_id": 3,
+      "x": 0,
+      "y": 0,
+      "movement_type": 65460,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x2683d0",
+      "sprite_id": 106,
+      "x": 106,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 106
+    },
+    {
+      "offset": "0x2686d0",
+      "sprite_id": 149,
+      "x": 13,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 144
+    },
+    {
+      "offset": "0x268790",
+      "sprite_id": 332,
+      "x": 348,
+      "y": 364,
+      "movement_type": 380,
+      "dialog_id": 396
+    },
+    {
+      "offset": "0x2694e0",
+      "sprite_id": 20,
+      "x": 0,
+      "y": 32,
+      "movement_type": 119,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x2696c0",
+      "sprite_id": 40,
+      "x": 0,
+      "y": 20,
+      "movement_type": 0,
+      "dialog_id": 41
+    },
+    {
+      "offset": "0x2696f0",
+      "sprite_id": 20,
+      "x": 0,
+      "y": 45,
+      "movement_type": 119,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x269900",
+      "sprite_id": 20,
+      "x": 0,
+      "y": 47,
+      "movement_type": 119,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x269ae0",
+      "sprite_id": 44,
+      "x": 20,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 9
+    },
+    {
+      "offset": "0x269b10",
+      "sprite_id": 20,
+      "x": 0,
+      "y": 120,
+      "movement_type": 34,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x269ed0",
+      "sprite_id": 50,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 99
+    },
+    {
+      "offset": "0x269fc0",
+      "sprite_id": 64,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x26a0e0",
+      "sprite_id": 67,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 149
+    },
+    {
+      "offset": "0x26a2f0",
+      "sprite_id": 84,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 131
+    },
+    {
+      "offset": "0x26a320",
+      "sprite_id": 60,
+      "x": 2,
+      "y": 117,
+      "movement_type": 12578,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26ad10",
+      "sprite_id": 44,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 464
+    },
+    {
+      "offset": "0x26b100",
+      "sprite_id": 60,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 509
+    },
+    {
+      "offset": "0x26b130",
+      "sprite_id": 15,
+      "x": 2,
+      "y": 508,
+      "movement_type": 0,
+      "dialog_id": 2055
+    },
+    {
+      "offset": "0x26b310",
+      "sprite_id": 60,
+      "x": 0,
+      "y": 10,
+      "movement_type": 1,
+      "dialog_id": 421
+    },
+    {
+      "offset": "0x26b490",
+      "sprite_id": 136,
+      "x": 0,
+      "y": 513,
+      "movement_type": 0,
+      "dialog_id": 8320
+    },
+    {
+      "offset": "0x26b520",
+      "sprite_id": 52,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 276
+    },
+    {
+      "offset": "0x26b640",
+      "sprite_id": 225,
+      "x": 0,
+      "y": 0,
+      "movement_type": 141,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x26b760",
+      "sprite_id": 10,
+      "x": 1,
+      "y": 438,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26b7f0",
+      "sprite_id": 16,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x26bb50",
+      "sprite_id": 10,
+      "x": 1,
+      "y": 212,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26bd60",
+      "sprite_id": 10,
+      "x": 1,
+      "y": 238,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26bf70",
+      "sprite_id": 33,
+      "x": 0,
+      "y": 219,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26c150",
+      "sprite_id": 23,
+      "x": 20,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 152
+    },
+    {
+      "offset": "0x26c330",
+      "sprite_id": 28,
+      "x": 10,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 471
+    },
+    {
+      "offset": "0x26c570",
+      "sprite_id": 10,
+      "x": 1,
+      "y": 242,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26c960",
+      "sprite_id": 23,
+      "x": 10,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 302
+    },
+    {
+      "offset": "0x26cd50",
+      "sprite_id": 2,
+      "x": 36,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 286
+    },
+    {
+      "offset": "0x26cd80",
+      "sprite_id": 10,
+      "x": 1,
+      "y": 312,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26cf60",
+      "sprite_id": 5,
+      "x": 45,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 291
+    },
+    {
+      "offset": "0x26d080",
+      "sprite_id": 255,
+      "x": 255,
+      "y": 255,
+      "movement_type": 255,
+      "dialog_id": 255
+    },
+    {
+      "offset": "0x26d0e0",
+      "sprite_id": 255,
+      "x": 0,
+      "y": 129,
+      "movement_type": 0,
+      "dialog_id": 64
+    },
+    {
+      "offset": "0x26d110",
+      "sprite_id": 129,
+      "x": 0,
+      "y": 64,
+      "movement_type": 12800,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x26d6e0",
+      "sprite_id": 255,
+      "x": 0,
+      "y": 136,
+      "movement_type": 0,
+      "dialog_id": 128
+    },
+    {
+      "offset": "0x26d710",
+      "sprite_id": 136,
+      "x": 0,
+      "y": 128,
+      "movement_type": 256,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x26d830",
+      "sprite_id": 8,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 255
+    },
+    {
+      "offset": "0x26db00",
+      "sprite_id": 255,
+      "x": 0,
+      "y": 1,
+      "movement_type": 0,
+      "dialog_id": 16512
+    },
+    {
+      "offset": "0x26e190",
+      "sprite_id": 10,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 311
+    },
+    {
+      "offset": "0x26ebb0",
+      "sprite_id": 12,
+      "x": 20,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 398
+    },
+    {
+      "offset": "0x26ed30",
+      "sprite_id": 255,
+      "x": 0,
+      "y": 8,
+      "movement_type": 0,
+      "dialog_id": 1152
+    },
+    {
+      "offset": "0x26edc0",
+      "sprite_id": 20,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 478
+    },
+    {
+      "offset": "0x26f150",
+      "sprite_id": 1,
+      "x": 0,
+      "y": 1152,
+      "movement_type": 8192,
+      "dialog_id": 16
+    },
+    {
+      "offset": "0x26f1b0",
+      "sprite_id": 13,
+      "x": 1,
+      "y": 16,
+      "movement_type": 32,
+      "dialog_id": 355
+    },
+    {
+      "offset": "0x26f1e0",
+      "sprite_id": 16,
+      "x": 4,
+      "y": 357,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x26f3c0",
+      "sprite_id": 50,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 459
+    },
+    {
+      "offset": "0x26f4b0",
+      "sprite_id": 256,
+      "x": 0,
+      "y": 255,
+      "movement_type": 255,
+      "dialog_id": 255
+    },
+    {
+      "offset": "0x26f5d0",
+      "sprite_id": 14,
+      "x": 30,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 174
+    },
+    {
+      "offset": "0x26f7e0",
+      "sprite_id": 70,
+      "x": 40,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 423
+    },
+    {
+      "offset": "0x270950",
+      "sprite_id": 40,
+      "x": 576,
+      "y": 9,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x270a40",
+      "sprite_id": 300,
+      "x": 320,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x270a70",
+      "sprite_id": 300,
+      "x": 1088,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x270aa0",
+      "sprite_id": 300,
+      "x": 576,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 65535
+    },
+    {
+      "offset": "0x2722a0",
+      "sprite_id": 262,
+      "x": 16,
+      "y": 23,
+      "movement_type": 2659,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x272330",
+      "sprite_id": 19,
+      "x": 1377,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x2735c0",
+      "sprite_id": 257,
+      "x": 0,
+      "y": 64,
+      "movement_type": 8,
+      "dialog_id": 32
+    },
+    {
+      "offset": "0x273650",
+      "sprite_id": 64,
+      "x": 8,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x273710",
+      "sprite_id": 256,
+      "x": 0,
+      "y": 32,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x273a70",
+      "sprite_id": 8,
+      "x": 0,
+      "y": 1,
+      "movement_type": 1,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x273b00",
+      "sprite_id": 128,
+      "x": 0,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x274220",
+      "sprite_id": 96,
+      "x": 218,
+      "y": 202,
+      "movement_type": 224,
+      "dialog_id": 46737
+    },
+    {
+      "offset": "0x2755d0",
+      "sprite_id": 200,
+      "x": 52,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x275600",
+      "sprite_id": 10,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x275630",
+      "sprite_id": 26,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x275660",
+      "sprite_id": 9,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x275690",
+      "sprite_id": 100,
+      "x": 100,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x275780",
+      "sprite_id": 98,
+      "x": 16,
+      "y": 2,
+      "movement_type": 0,
+      "dialog_id": 0
+    },
+    {
+      "offset": "0x275840",
+      "sprite_id": 76,
+      "x": 16,
+      "y": 32,
+      "movement_type": 4106,
+      "dialog_id": 576
+    },
+    {
+      "offset": "0x275900",
+      "sprite_id": 34,
+      "x": 0,
+      "y": 16,
+      "movement_type": 0,
+      "dialog_id": 2
+    },
+    {
+      "offset": "0x275a20",
+      "sprite_id": 166,
+      "x": 32,
+      "y": 0,
+      "movement_type": 0,
+      "dialog_id": 20
+    },
+    {
+      "offset": "0x277a90",
+      "sprite_id": 38,
+      "x": 32,
+      "y": 32,
+      "movement_type": 19518,
+      "dialog_id": 20559
+    },
+    {
+      "offset": "0x2784e0",
+      "sprite_id": 32,
+      "x": 32,
+      "y": 32,
+      "movement_type": 32,
+      "dialog_id": 32
+    },
+    {
+      "offset": "0x27eea0",
+      "sprite_id": 257,
+      "x": 1,
+      "y": 1,
+      "movement_type": 38179,
+      "dialog_id": 5176
+    },
+    {
+      "offset": "0x2840c0",
+      "sprite_id": 7,
+      "x": 1028,
+      "y": 4,
+      "movement_type": 10247,
+      "dialog_id": 10280
+    },
+    {
+      "offset": "0x288200",
+      "sprite_id": 379,
+      "x": 513,
+      "y": 514,
+      "movement_type": 514,
+      "dialog_id": 514
+    },
+    {
+      "offset": "0x28ea70",
+      "sprite_id": 1,
+      "x": 0,
+      "y": 256,
+      "movement_type": 1283,
+      "dialog_id": 9501
+    },
+    {
+      "offset": "0x299690",
+      "sprite_id": 1,
+      "x": 256,
+      "y": 257,
+      "movement_type": 1281,
+      "dialog_id": 6178
+    },
+    {
+      "offset": "0x2999c0",
+      "sprite_id": 257,
+      "x": 257,
+      "y": 257,
+      "movement_type": 257,
+      "dialog_id": 5144
+    },
+    {
+      "offset": "0x299cc0",
+      "sprite_id": 256,
+      "x": 0,
+      "y": 256,
+      "movement_type": 257,
+      "dialog_id": 5154
+    },
+    {
+      "offset": "0x299e40",
+      "sprite_id": 256,
+      "x": 1,
+      "y": 0,
+      "movement_type": 257,
+      "dialog_id": 5144
+    },
+    {
+      "offset": "0x29a470",
+      "sprite_id": 2,
+      "x": 0,
+      "y": 256,
+      "movement_type": 257,
+      "dialog_id": 6691
+    },
+    {
+      "offset": "0x29a5f0",
+      "sprite_id": 5,
+      "x": 0,
+      "y": 1,
+      "movement_type": 257,
+      "dialog_id": 5911
+    },
+    {
+      "offset": "0x29a770",
+      "sprite_id": 18,
+      "x": 0,
+      "y": 256,
+      "movement_type": 257,
+      "dialog_id": 5911
+    },
+    {
+      "offset": "0x29a8f0",
+      "sprite_id": 26,
+      "x": 0,
+      "y": 257,
+      "movement_type": 257,
+      "dialog_id": 5911
+    },
+    {
+      "offset": "0x29f750",
+      "sprite_id": 257,
+      "x": 514,
+      "y": 257,
+      "movement_type": 257,
+      "dialog_id": 256
+    },
+    {
+      "offset": "0x2a07a0",
+      "sprite_id": 256,
+      "x": 1283,
+      "y": 1285,
+      "movement_type": 2827,
+      "dialog_id": 514
+    },
+    {
+      "offset": "0x2a1a00",
+      "sprite_id": 257,
+      "x": 513,
+      "y": 514,
+      "movement_type": 514,
+      "dialog_id": 514
+    },
+    {
+      "offset": "0x2a1d00",
+      "sprite_id": 257,
+      "x": 1,
+      "y": 256,
+      "movement_type": 0,
+      "dialog_id": 513
+    }
+  ],
+  "treasure": [
+    {
+      "offset": "0x101b40",
+      "item_id": 8,
+      "quantity": 64,
+      "location_id": 0
+    },
+    {
+      "offset": "0x107cc0",
+      "item_id": 96,
+      "quantity": 0,
+      "location_id": 48
+    },
+    {
+      "offset": "0x1084e0",
+      "item_id": 256,
+      "quantity": 1,
+      "location_id": 1
+    },
+    {
+      "offset": "0x108520",
+      "item_id": 4,
+      "quantity": 0,
+      "location_id": 16
+    },
+    {
+      "offset": "0x108540",
+      "item_id": 16,
+      "quantity": 16,
+      "location_id": 16
+    },
+    {
+      "offset": "0x108560",
+      "item_id": 40,
+      "quantity": 96,
+      "location_id": 24
+    },
+    {
+      "offset": "0x108580",
+      "item_id": 56,
+      "quantity": 3,
+      "location_id": 0
+    },
+    {
+      "offset": "0x1085c0",
+      "item_id": 1,
+      "quantity": 0,
+      "location_id": 2280
+    },
+    {
+      "offset": "0x108600",
+      "item_id": 127,
+      "quantity": 0,
+      "location_id": 0
+    },
+    {
+      "offset": "0x1087e0",
+      "item_id": 80,
+      "quantity": 0,
+      "location_id": 0
+    },
+    {
+      "offset": "0x10dde0",
+      "item_id": 46,
+      "quantity": 16,
+      "location_id": 49
+    },
+    {
+      "offset": "0x10f340",
+      "item_id": 41,
+      "quantity": 0,
+      "location_id": 31339
+    },
+    {
+      "offset": "0x10f780",
+      "item_id": 10,
+      "quantity": 0,
+      "location_id": 31307
+    },
+    {
+      "offset": "0x118160",
+      "item_id": 24,
+      "quantity": 69,
+      "location_id": 108
+    },
+    {
+      "offset": "0x1183e0",
+      "item_id": 24,
+      "quantity": 98,
+      "location_id": 12
+    },
+    {
+      "offset": "0x119420",
+      "item_id": 24,
+      "quantity": 81,
+      "location_id": 8210
+    },
+    {
+      "offset": "0x119720",
+      "item_id": 24,
+      "quantity": 71,
+      "location_id": 6162
+    },
+    {
+      "offset": "0x1199e0",
+      "item_id": 13,
+      "quantity": 7,
+      "location_id": 65535
+    },
+    {
+      "offset": "0x11b1a0",
+      "item_id": 24,
+      "quantity": 66,
+      "location_id": 132
+    },
+    {
+      "offset": "0x11b340",
+      "item_id": 13,
+      "quantity": 6,
+      "location_id": 32786
+    },
+    {
+      "offset": "0x11be80",
+      "item_id": 24,
+      "quantity": 70,
+      "location_id": 22546
+    },
+    {
+      "offset": "0x11c600",
+      "item_id": 24,
+      "quantity": 80,
+      "location_id": 180
+    },
+    {
+      "offset": "0x11efc0",
+      "item_id": 26,
+      "quantity": 81,
+      "location_id": 2
+    },
+    {
+      "offset": "0x11f6a0",
+      "item_id": 24,
+      "quantity": 67,
+      "location_id": 20498
+    },
+    {
+      "offset": "0x1216a0",
+      "item_id": 24,
+      "quantity": 68,
+      "location_id": 6083
+    },
+    {
+      "offset": "0x133940",
+      "item_id": 26,
+      "quantity": 98,
+      "location_id": 6162
+    },
+    {
+      "offset": "0x133980",
+      "item_id": 26,
+      "quantity": 67,
+      "location_id": 4114
+    },
+    {
+      "offset": "0x14c2e0",
+      "item_id": 88,
+      "quantity": 0,
+      "location_id": 89
+    },
+    {
+      "offset": "0x14c320",
+      "item_id": 101,
+      "quantity": 0,
+      "location_id": 102
+    },
+    {
+      "offset": "0x14c340",
+      "item_id": 109,
+      "quantity": 0,
+      "location_id": 110
+    },
+    {
+      "offset": "0x14c360",
+      "item_id": 116,
+      "quantity": 0,
+      "location_id": 117
+    },
+    {
+      "offset": "0x14c3a0",
+      "item_id": 102,
+      "quantity": 0,
+      "location_id": 126
+    },
+    {
+      "offset": "0x14c3c0",
+      "item_id": 131,
+      "quantity": 0,
+      "location_id": 132
+    },
+    {
+      "offset": "0x14c440",
+      "item_id": 147,
+      "quantity": 0,
+      "location_id": 148
+    },
+    {
+      "offset": "0x14c480",
+      "item_id": 160,
+      "quantity": 0,
+      "location_id": 161
+    },
+    {
+      "offset": "0x14c4a0",
+      "item_id": 168,
+      "quantity": 0,
+      "location_id": 169
+    },
+    {
+      "offset": "0x14c560",
+      "item_id": 205,
+      "quantity": 0,
+      "location_id": 206
+    },
+    {
+      "offset": "0x14c580",
+      "item_id": 213,
+      "quantity": 0,
+      "location_id": 214
+    },
+    {
+      "offset": "0x14c600",
+      "item_id": 60,
+      "quantity": 0,
+      "location_id": 64
+    },
+    {
+      "offset": "0x14c620",
+      "item_id": 256,
+      "quantity": 2,
+      "location_id": 3
+    },
+    {
+      "offset": "0x14c7c0",
+      "item_id": 9,
+      "quantity": 12,
+      "location_id": 38
+    },
+    {
+      "offset": "0x14c860",
+      "item_id": 1,
+      "quantity": 3,
+      "location_id": 7
+    },
+    {
+      "offset": "0x14c9e0",
+      "item_id": 4,
+      "quantity": 8,
+      "location_id": 16
+    },
+    {
+      "offset": "0x14ca00",
+      "item_id": 2,
+      "quantity": 0,
+      "location_id": 4
+    },
+    {
+      "offset": "0x14cce0",
+      "item_id": 37,
+      "quantity": 0,
+      "location_id": 0
+    },
+    {
+      "offset": "0x14cf80",
+      "item_id": 256,
+      "quantity": 0,
+      "location_id": 0
+    },
+    {
+      "offset": "0x14d340",
+      "item_id": 50,
+      "quantity": 60,
+      "location_id": 70
+    },
+    {
+      "offset": "0x153ca0",
+      "item_id": 24,
+      "quantity": 82,
+      "location_id": 46140
+    },
+    {
+      "offset": "0x15a4c0",
+      "item_id": 10,
+      "quantity": 15,
+      "location_id": 0
+    },
+    {
+      "offset": "0x15a540",
+      "item_id": 7,
+      "quantity": 7,
+      "location_id": 4123
+    },
+    {
+      "offset": "0x15a5e0",
+      "item_id": 248,
+      "quantity": 0,
+      "location_id": 0
+    },
+    {
+      "offset": "0x15a6a0",
+      "item_id": 60,
+      "quantity": 80,
+      "location_id": 32
+    },
+    {
+      "offset": "0x15a7a0",
+      "item_id": 12,
+      "quantity": 14,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15a7c0",
+      "item_id": 42,
+      "quantity": 43,
+      "location_id": 14
+    },
+    {
+      "offset": "0x15a8c0",
+      "item_id": 39,
+      "quantity": 40,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15a8e0",
+      "item_id": 49,
+      "quantity": 50,
+      "location_id": 40
+    },
+    {
+      "offset": "0x15a9e0",
+      "item_id": 46,
+      "quantity": 47,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15aa00",
+      "item_id": 56,
+      "quantity": 57,
+      "location_id": 47
+    },
+    {
+      "offset": "0x15ab00",
+      "item_id": 31,
+      "quantity": 54,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15ab20",
+      "item_id": 63,
+      "quantity": 64,
+      "location_id": 54
+    },
+    {
+      "offset": "0x15ac20",
+      "item_id": 61,
+      "quantity": 62,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15ade0",
+      "item_id": 64,
+      "quantity": 65,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15ae00",
+      "item_id": 74,
+      "quantity": 75,
+      "location_id": 65
+    },
+    {
+      "offset": "0x15af00",
+      "item_id": 27,
+      "quantity": 72,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15af20",
+      "item_id": 81,
+      "quantity": 82,
+      "location_id": 72
+    },
+    {
+      "offset": "0x15b020",
+      "item_id": 79,
+      "quantity": 80,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15b040",
+      "item_id": 89,
+      "quantity": 32,
+      "location_id": 80
+    },
+    {
+      "offset": "0x15b140",
+      "item_id": 86,
+      "quantity": 87,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15b160",
+      "item_id": 96,
+      "quantity": 97,
+      "location_id": 87
+    },
+    {
+      "offset": "0x15b260",
+      "item_id": 93,
+      "quantity": 94,
+      "location_id": 32896
+    },
+    {
+      "offset": "0x15b280",
+      "item_id": 11,
+      "quantity": 9,
+      "location_id": 94
+    },
+    {
+      "offset": "0x15b800",
+      "item_id": 8,
+      "quantity": 10,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15b860",
+      "item_id": 16,
+      "quantity": 18,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15b8c0",
+      "item_id": 37,
+      "quantity": 38,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15b920",
+      "item_id": 41,
+      "quantity": 42,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15b980",
+      "item_id": 33,
+      "quantity": 45,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15b9e0",
+      "item_id": 48,
+      "quantity": 49,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15ba40",
+      "item_id": 52,
+      "quantity": 53,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15baa0",
+      "item_id": 55,
+      "quantity": 56,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bb00",
+      "item_id": 59,
+      "quantity": 60,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bb60",
+      "item_id": 29,
+      "quantity": 63,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bbc0",
+      "item_id": 66,
+      "quantity": 67,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bc20",
+      "item_id": 70,
+      "quantity": 71,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bc80",
+      "item_id": 73,
+      "quantity": 74,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bce0",
+      "item_id": 77,
+      "quantity": 78,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bd40",
+      "item_id": 25,
+      "quantity": 81,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15bda0",
+      "item_id": 84,
+      "quantity": 85,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15be00",
+      "item_id": 88,
+      "quantity": 89,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15be60",
+      "item_id": 91,
+      "quantity": 92,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x15c020",
+      "item_id": 97,
+      "quantity": 98,
+      "location_id": 51400
+    },
+    {
+      "offset": "0x166320",
+      "item_id": 16,
+      "quantity": 32,
+      "location_id": 64
+    },
+    {
+      "offset": "0x166540",
+      "item_id": 12,
+      "quantity": 24,
+      "location_id": 36
+    },
+    {
+      "offset": "0x166560",
+      "item_id": 10,
+      "quantity": 26,
+      "location_id": 42
+    },
+    {
+      "offset": "0x1665a0",
+      "item_id": 22,
+      "quantity": 17,
+      "location_id": 20
+    },
+    {
+      "offset": "0x166d80",
+      "item_id": 239,
+      "quantity": 29,
+      "location_id": 30
+    },
+    {
+      "offset": "0x16c220",
+      "item_id": 32,
+      "quantity": 96,
+      "location_id": 160
+    },
+    {
+      "offset": "0x16c360",
+      "item_id": 109,
+      "quantity": 9,
+      "location_id": 22116
+    },
+    {
+      "offset": "0x16c3a0",
+      "item_id": 10,
+      "quantity": 8,
+      "location_id": 20320
+    },
+    {
+      "offset": "0x16c3e0",
+      "item_id": 2,
+      "quantity": 2,
+      "location_id": 22116
+    },
+    {
+      "offset": "0x16c460",
+      "item_id": 103,
+      "quantity": 10,
+      "location_id": 22102
+    }
+  ],
+  "monster_drops": [
+    {
+      "enemy_id": 144,
+      "common_drop": 148,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 5,
+      "common_drop": 28,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 1,
+      "common_drop": 1,
+      "rare_drop": 5
+    },
+    {
+      "enemy_id": 6,
+      "common_drop": 10,
+      "rare_drop": 11
+    },
+    {
+      "enemy_id": 15,
+      "common_drop": 36,
+      "rare_drop": 17
+    },
+    {
+      "enemy_id": 36,
+      "common_drop": 16,
+      "rare_drop": 22
+    },
+    {
+      "enemy_id": 16,
+      "common_drop": 4,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 20,
+      "common_drop": 4,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 22,
+      "common_drop": 6,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 17,
+      "common_drop": 6,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 3,
+      "common_drop": 9,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 4,
+      "common_drop": 3,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 9,
+      "common_drop": 5,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 7,
+      "common_drop": 5,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 11,
+      "common_drop": 5,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 13,
+      "common_drop": 5,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 5,
+      "common_drop": 11,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 16,
+      "common_drop": 4,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 20,
+      "common_drop": 1,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 20,
+      "common_drop": 4,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 2,
+      "common_drop": 36,
+      "rare_drop": 12
+    },
+    {
+      "enemy_id": 47,
+      "common_drop": 77,
+      "rare_drop": 39
+    },
+    {
+      "enemy_id": 62,
+      "common_drop": 125,
+      "rare_drop": 46
+    },
+    {
+      "enemy_id": 27,
+      "common_drop": 163,
+      "rare_drop": 39
+    },
+    {
+      "enemy_id": 33,
+      "common_drop": 184,
+      "rare_drop": 3
+    },
+    {
+      "enemy_id": 47,
+      "common_drop": 109,
+      "rare_drop": 97
+    },
+    {
+      "enemy_id": 24,
+      "common_drop": 54,
+      "rare_drop": 29
+    },
+    {
+      "enemy_id": 22,
+      "common_drop": 101,
+      "rare_drop": 17
+    },
+    {
+      "enemy_id": 25,
+      "common_drop": 95,
+      "rare_drop": 13
+    },
+    {
+      "enemy_id": 25,
+      "common_drop": 96,
+      "rare_drop": 22
+    },
+    {
+      "enemy_id": 21,
+      "common_drop": 23,
+      "rare_drop": 29
+    },
+    {
+      "enemy_id": 43,
+      "common_drop": 55,
+      "rare_drop": 32
+    },
+    {
+      "enemy_id": 2,
+      "common_drop": 49,
+      "rare_drop": 39
+    },
+    {
+      "enemy_id": 6,
+      "common_drop": 100,
+      "rare_drop": 17
+    },
+    {
+      "enemy_id": 24,
+      "common_drop": 107,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 13,
+      "common_drop": 94,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 15,
+      "common_drop": 90,
+      "rare_drop": 30
+    },
+    {
+      "enemy_id": 9,
+      "common_drop": 48,
+      "rare_drop": 0
+    },
+    {
+      "enemy_id": 21,
+      "common_drop": 65,
+      "rare_drop": 31
+    },
+    {
+      "enemy_id": 53,
+      "common_drop": 96,
+      "rare_drop": 85
+    },
+    {
+      "enemy_id": 26,
+      "common_drop": 178,
+      "rare_drop": 90
+    },
+    {
+      "enemy_id": 36,
+      "common_drop": 178,
+      "rare_drop": 50
+    },
+    {
+      "enemy_id": 25,
+      "common_drop": 28,
+      "rare_drop": 37
+    },
+    {
+      "enemy_id": 26,
+      "common_drop": 121,
+      "rare_drop": 34
+    },
+    {
+      "enemy_id": 61,
+      "common_drop": 250,
+      "rare_drop": 72
+    },
+    {
+      "enemy_id": 38,
+      "common_drop": 216,
+      "rare_drop": 45
+    },
+    {
+      "enemy_id": 22,
+      "common_drop": 223,
+      "rare_drop": 30
+    },
+    {
+      "enemy_id": 38,
+      "common_drop": 59,
+      "rare_drop": 140
+    },
+    {
+      "enemy_id": 9,
+      "common_drop": 49,
+      "rare_drop": 25
+    },
+    {
+      "enemy_id": 39,
+      "common_drop": 51,
+      "rare_drop": 25
+    }
+  ],
   "tim_images": {
     "count": 4637,
     "source": "cc_tim_all.json"
-  }
+  },
+  "tech_trees": [
+    {
+      "offset": "0x300070",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300090",
+      "character": 4,
+      "tech_id": 35,
+      "level": 97
+    },
+    {
+      "offset": "0x3000a0",
+      "character": 8,
+      "tech_id": 5,
+      "level": 8
+    },
+    {
+      "offset": "0x3000f0",
+      "character": 2,
+      "tech_id": 1,
+      "level": 0
+    },
+    {
+      "offset": "0x300110",
+      "character": 5,
+      "tech_id": 35,
+      "level": 83
+    },
+    {
+      "offset": "0x300120",
+      "character": 5,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x300170",
+      "character": 2,
+      "tech_id": 2,
+      "level": 0
+    },
+    {
+      "offset": "0x300180",
+      "character": 5,
+      "tech_id": 1,
+      "level": 8
+    },
+    {
+      "offset": "0x3001a0",
+      "character": 5,
+      "tech_id": 5,
+      "level": 4
+    },
+    {
+      "offset": "0x3001f0",
+      "character": 2,
+      "tech_id": 1,
+      "level": 0
+    },
+    {
+      "offset": "0x300220",
+      "character": 4,
+      "tech_id": 4,
+      "level": 3
+    },
+    {
+      "offset": "0x300270",
+      "character": 3,
+      "tech_id": 1,
+      "level": 0
+    },
+    {
+      "offset": "0x3002a0",
+      "character": 4,
+      "tech_id": 4,
+      "level": 3
+    },
+    {
+      "offset": "0x3002f0",
+      "character": 3,
+      "tech_id": 2,
+      "level": 0
+    },
+    {
+      "offset": "0x300320",
+      "character": 4,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300370",
+      "character": 3,
+      "tech_id": 3,
+      "level": 1
+    },
+    {
+      "offset": "0x3003a0",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300520",
+      "character": 3,
+      "tech_id": 3,
+      "level": 1
+    },
+    {
+      "offset": "0x300550",
+      "character": 3,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x3005a0",
+      "character": 3,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x3005b0",
+      "character": 8,
+      "tech_id": 8,
+      "level": 8
+    },
+    {
+      "offset": "0x3005c0",
+      "character": 8,
+      "tech_id": 8,
+      "level": 8
+    },
+    {
+      "offset": "0x3005d0",
+      "character": 3,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x300620",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300630",
+      "character": 8,
+      "tech_id": 8,
+      "level": 8
+    },
+    {
+      "offset": "0x300640",
+      "character": 8,
+      "tech_id": 8,
+      "level": 8
+    },
+    {
+      "offset": "0x300650",
+      "character": 3,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x3006a0",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x3006b0",
+      "character": 8,
+      "tech_id": 8,
+      "level": 8
+    },
+    {
+      "offset": "0x3006c0",
+      "character": 8,
+      "tech_id": 8,
+      "level": 8
+    },
+    {
+      "offset": "0x3006d0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300720",
+      "character": 4,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300730",
+      "character": 8,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x300740",
+      "character": 8,
+      "tech_id": 8,
+      "level": 5
+    },
+    {
+      "offset": "0x300750",
+      "character": 1,
+      "tech_id": 1,
+      "level": 3
+    },
+    {
+      "offset": "0x3007a0",
+      "character": 4,
+      "tech_id": 4,
+      "level": 4
+    },
+    {
+      "offset": "0x3007b0",
+      "character": 8,
+      "tech_id": 8,
+      "level": 5
+    },
+    {
+      "offset": "0x3007c0",
+      "character": 8,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x3007d0",
+      "character": 1,
+      "tech_id": 1,
+      "level": 3
+    },
+    {
+      "offset": "0x300820",
+      "character": 4,
+      "tech_id": 5,
+      "level": 8
+    },
+    {
+      "offset": "0x300830",
+      "character": 8,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x300840",
+      "character": 5,
+      "tech_id": 5,
+      "level": 4
+    },
+    {
+      "offset": "0x300850",
+      "character": 1,
+      "tech_id": 1,
+      "level": 3
+    },
+    {
+      "offset": "0x3008a0",
+      "character": 4,
+      "tech_id": 5,
+      "level": 8
+    },
+    {
+      "offset": "0x3008b0",
+      "character": 5,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x3008c0",
+      "character": 5,
+      "tech_id": 5,
+      "level": 4
+    },
+    {
+      "offset": "0x3008d0",
+      "character": 1,
+      "tech_id": 2,
+      "level": 3
+    },
+    {
+      "offset": "0x300920",
+      "character": 5,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x300930",
+      "character": 5,
+      "tech_id": 5,
+      "level": 5
+    },
+    {
+      "offset": "0x300940",
+      "character": 5,
+      "tech_id": 4,
+      "level": 3
+    },
+    {
+      "offset": "0x300950",
+      "character": 1,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x3009a0",
+      "character": 4,
+      "tech_id": 5,
+      "level": 4
+    },
+    {
+      "offset": "0x3009b0",
+      "character": 5,
+      "tech_id": 4,
+      "level": 5
+    },
+    {
+      "offset": "0x3009c0",
+      "character": 4,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x3009d0",
+      "character": 1,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300a20",
+      "character": 4,
+      "tech_id": 3,
+      "level": 4
+    },
+    {
+      "offset": "0x300a30",
+      "character": 4,
+      "tech_id": 4,
+      "level": 4
+    },
+    {
+      "offset": "0x300a40",
+      "character": 3,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x300a50",
+      "character": 1,
+      "tech_id": 3,
+      "level": 4
+    },
+    {
+      "offset": "0x300aa0",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300ab0",
+      "character": 3,
+      "tech_id": 4,
+      "level": 4
+    },
+    {
+      "offset": "0x300ac0",
+      "character": 2,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x300ad0",
+      "character": 2,
+      "tech_id": 4,
+      "level": 4
+    },
+    {
+      "offset": "0x300b20",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300b30",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300b40",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300b50",
+      "character": 1,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300ba0",
+      "character": 3,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300bb0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300bc0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300bd0",
+      "character": 2,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300c20",
+      "character": 3,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x300c30",
+      "character": 1,
+      "tech_id": 2,
+      "level": 1
+    },
+    {
+      "offset": "0x300c40",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300c50",
+      "character": 2,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x300ca0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300cb0",
+      "character": 1,
+      "tech_id": 2,
+      "level": 0
+    },
+    {
+      "offset": "0x300cc0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300cd0",
+      "character": 2,
+      "tech_id": 3,
+      "level": 2
+    },
+    {
+      "offset": "0x300e50",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300e60",
+      "character": 2,
+      "tech_id": 1,
+      "level": 1
+    },
+    {
+      "offset": "0x300e70",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300e80",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300ed0",
+      "character": 1,
+      "tech_id": 2,
+      "level": 1
+    },
+    {
+      "offset": "0x300ee0",
+      "character": 2,
+      "tech_id": 1,
+      "level": 1
+    },
+    {
+      "offset": "0x300ef0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300f00",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300f50",
+      "character": 1,
+      "tech_id": 2,
+      "level": 1
+    },
+    {
+      "offset": "0x300f60",
+      "character": 2,
+      "tech_id": 1,
+      "level": 1
+    },
+    {
+      "offset": "0x300f70",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300f80",
+      "character": 1,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x300fd0",
+      "character": 1,
+      "tech_id": 1,
+      "level": 0
+    },
+    {
+      "offset": "0x300fe0",
+      "character": 2,
+      "tech_id": 1,
+      "level": 2
+    },
+    {
+      "offset": "0x300ff0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x301000",
+      "character": 1,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x301050",
+      "character": 2,
+      "tech_id": 3,
+      "level": 0
+    },
+    {
+      "offset": "0x301070",
+      "character": 2,
+      "tech_id": 2,
+      "level": 3
+    },
+    {
+      "offset": "0x301080",
+      "character": 1,
+      "tech_id": 3,
+      "level": 3
+    },
+    {
+      "offset": "0x3010d0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    },
+    {
+      "offset": "0x3010f0",
+      "character": 2,
+      "tech_id": 2,
+      "level": 2
+    }
+  ],
+  "maps": [
+    {
+      "offset": "0x11c600",
+      "width": 24,
+      "height": 80,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x11d000",
+      "width": 26,
+      "height": 114,
+      "tile_types": 19
+    },
+    {
+      "offset": "0x135e00",
+      "width": 24,
+      "height": 98,
+      "tile_types": 17
+    },
+    {
+      "offset": "0x142400",
+      "width": 24,
+      "height": 69,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x14ce00",
+      "width": 160,
+      "height": 179,
+      "tile_types": 30
+    },
+    {
+      "offset": "0x151a00",
+      "width": 210,
+      "height": 165,
+      "tile_types": 26
+    },
+    {
+      "offset": "0x15aa00",
+      "width": 56,
+      "height": 57,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x15ae00",
+      "width": 74,
+      "height": 75,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x15b800",
+      "width": 8,
+      "height": 10,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x15be00",
+      "width": 88,
+      "height": 89,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x16e000",
+      "width": 24,
+      "height": 139,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x18a800",
+      "width": 30,
+      "height": 32,
+      "tile_types": 30
+    },
+    {
+      "offset": "0x194000",
+      "width": 21,
+      "height": 20,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x195a00",
+      "width": 127,
+      "height": 64,
+      "tile_types": 18
+    },
+    {
+      "offset": "0x196c00",
+      "width": 92,
+      "height": 93,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x197800",
+      "width": 161,
+      "height": 162,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x199400",
+      "width": 63,
+      "height": 198,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x19a000",
+      "width": 63,
+      "height": 180,
+      "tile_types": 19
+    },
+    {
+      "offset": "0x19ac00",
+      "width": 63,
+      "height": 183,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x19ae00",
+      "width": 192,
+      "height": 197,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x19da00",
+      "width": 29,
+      "height": 19,
+      "tile_types": 20
+    },
+    {
+      "offset": "0x1a4a00",
+      "width": 77,
+      "height": 100,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x1a5000",
+      "width": 33,
+      "height": 16,
+      "tile_types": 18
+    },
+    {
+      "offset": "0x1a5600",
+      "width": 63,
+      "height": 308,
+      "tile_types": 21
+    },
+    {
+      "offset": "0x1a6600",
+      "width": 132,
+      "height": 155,
+      "tile_types": 17
+    },
+    {
+      "offset": "0x1a7000",
+      "width": 442,
+      "height": 444,
+      "tile_types": 19
+    },
+    {
+      "offset": "0x1a7400",
+      "width": 174,
+      "height": 194,
+      "tile_types": 17
+    },
+    {
+      "offset": "0x1a7a00",
+      "width": 63,
+      "height": 152,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x1a8000",
+      "width": 358,
+      "height": 404,
+      "tile_types": 15
+    },
+    {
+      "offset": "0x1b8000",
+      "width": 26,
+      "height": 23,
+      "tile_types": 21
+    },
+    {
+      "offset": "0x1bb000",
+      "width": 17,
+      "height": 16,
+      "tile_types": 17
+    },
+    {
+      "offset": "0x1bc800",
+      "width": 512,
+      "height": 512,
+      "tile_types": 21
+    },
+    {
+      "offset": "0x1bec00",
+      "width": 226,
+      "height": 73,
+      "tile_types": 17
+    },
+    {
+      "offset": "0x214000",
+      "width": 24,
+      "height": 83,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x21c400",
+      "width": 24,
+      "height": 100,
+      "tile_types": 16
+    },
+    {
+      "offset": "0x266c00",
+      "width": 48,
+      "height": 104,
+      "tile_types": 17
+    },
+    {
+      "offset": "0x26d000",
+      "width": 255,
+      "height": 255,
+      "tile_types": 26
+    },
+    {
+      "offset": "0x273c00",
+      "width": 8,
+      "height": 176,
+      "tile_types": 28
+    },
+    {
+      "offset": "0x275600",
+      "width": 10,
+      "height": 100,
+      "tile_types": 30
+    },
+    {
+      "offset": "0x42ba00",
+      "width": 12,
+      "height": 27,
+      "tile_types": 21
+    },
+    {
+      "offset": "0x42bc00",
+      "width": 44,
+      "height": 91,
+      "tile_types": 24
+    },
+    {
+      "offset": "0x42be00",
+      "width": 9,
+      "height": 155,
+      "tile_types": 24
+    },
+    {
+      "offset": "0x42c200",
+      "width": 68,
+      "height": 245,
+      "tile_types": 23
+    },
+    {
+      "offset": "0x42cc00",
+      "width": 33,
+      "height": 414,
+      "tile_types": 23
+    },
+    {
+      "offset": "0x42ce00",
+      "width": 16,
+      "height": 446,
+      "tile_types": 19
+    },
+    {
+      "offset": "0x42fa00",
+      "width": 250,
+      "height": 316,
+      "tile_types": 20
+    },
+    {
+      "offset": "0x43ba00",
+      "width": 30,
+      "height": 21,
+      "tile_types": 27
+    },
+    {
+      "offset": "0x43f200",
+      "width": 90,
+      "height": 39,
+      "tile_types": 21
+    },
+    {
+      "offset": "0x440400",
+      "width": 54,
+      "height": 78,
+      "tile_types": 22
+    },
+    {
+      "offset": "0x443600",
+      "width": 270,
+      "height": 28,
+      "tile_types": 17
+    }
+  ],
+  "animations": [
+    {
+      "offset": "0x400f20",
+      "frames": 2,
+      "speed": 249
+    },
+    {
+      "offset": "0x401940",
+      "frames": 23,
+      "speed": 42
+    },
+    {
+      "offset": "0x4019c0",
+      "frames": 25,
+      "speed": 45
+    },
+    {
+      "offset": "0x402120",
+      "frames": 18,
+      "speed": 75
+    },
+    {
+      "offset": "0x4021a0",
+      "frames": 17,
+      "speed": 179
+    },
+    {
+      "offset": "0x402280",
+      "frames": 23,
+      "speed": 23
+    },
+    {
+      "offset": "0x402300",
+      "frames": 23,
+      "speed": 26
+    },
+    {
+      "offset": "0x402380",
+      "frames": 26,
+      "speed": 31
+    },
+    {
+      "offset": "0x4034e0",
+      "frames": 26,
+      "speed": 26
+    },
+    {
+      "offset": "0x403560",
+      "frames": 26,
+      "speed": 26
+    },
+    {
+      "offset": "0x4035e0",
+      "frames": 26,
+      "speed": 26
+    },
+    {
+      "offset": "0x403660",
+      "frames": 26,
+      "speed": 26
+    },
+    {
+      "offset": "0x4037e0",
+      "frames": 13,
+      "speed": 31
+    },
+    {
+      "offset": "0x403ca0",
+      "frames": 30,
+      "speed": 27
+    },
+    {
+      "offset": "0x403d40",
+      "frames": 12,
+      "speed": 110
+    },
+    {
+      "offset": "0x404f20",
+      "frames": 17,
+      "speed": 185
+    },
+    {
+      "offset": "0x405900",
+      "frames": 21,
+      "speed": 1
+    },
+    {
+      "offset": "0x4061a0",
+      "frames": 11,
+      "speed": 205
+    },
+    {
+      "offset": "0x406300",
+      "frames": 10,
+      "speed": 175
+    },
+    {
+      "offset": "0x406440",
+      "frames": 21,
+      "speed": 88
+    },
+    {
+      "offset": "0x406480",
+      "frames": 25,
+      "speed": 58
+    },
+    {
+      "offset": "0x406a60",
+      "frames": 22,
+      "speed": 66
+    },
+    {
+      "offset": "0x406b20",
+      "frames": 28,
+      "speed": 84
+    },
+    {
+      "offset": "0x406b60",
+      "frames": 26,
+      "speed": 233
+    },
+    {
+      "offset": "0x407220",
+      "frames": 27,
+      "speed": 66
+    },
+    {
+      "offset": "0x4072a0",
+      "frames": 9,
+      "speed": 22
+    },
+    {
+      "offset": "0x407320",
+      "frames": 24,
+      "speed": 8
+    },
+    {
+      "offset": "0x4075e0",
+      "frames": 15,
+      "speed": 35
+    },
+    {
+      "offset": "0x407660",
+      "frames": 3,
+      "speed": 8
+    },
+    {
+      "offset": "0x4076e0",
+      "frames": 25,
+      "speed": 16
+    },
+    {
+      "offset": "0x4079e0",
+      "frames": 25,
+      "speed": 25
+    },
+    {
+      "offset": "0x407b60",
+      "frames": 16,
+      "speed": 36
+    },
+    {
+      "offset": "0x407be0",
+      "frames": 25,
+      "speed": 36
+    },
+    {
+      "offset": "0x407d00",
+      "frames": 25,
+      "speed": 123
+    },
+    {
+      "offset": "0x408000",
+      "frames": 20,
+      "speed": 51
+    },
+    {
+      "offset": "0x408080",
+      "frames": 12,
+      "speed": 26
+    },
+    {
+      "offset": "0x408100",
+      "frames": 3,
+      "speed": 12
+    },
+    {
+      "offset": "0x408180",
+      "frames": 9,
+      "speed": 6
+    },
+    {
+      "offset": "0x408300",
+      "frames": 15,
+      "speed": 34
+    },
+    {
+      "offset": "0x408380",
+      "frames": 3,
+      "speed": 38
+    },
+    {
+      "offset": "0x4083a0",
+      "frames": 10,
+      "speed": 160
+    },
+    {
+      "offset": "0x408420",
+      "frames": 2,
+      "speed": 121
+    },
+    {
+      "offset": "0x4084a0",
+      "frames": 2,
+      "speed": 40
+    },
+    {
+      "offset": "0x408520",
+      "frames": 5,
+      "speed": 10
+    },
+    {
+      "offset": "0x4085a0",
+      "frames": 5,
+      "speed": 2
+    },
+    {
+      "offset": "0x4086c0",
+      "frames": 4,
+      "speed": 226
+    },
+    {
+      "offset": "0x408dc0",
+      "frames": 26,
+      "speed": 36
+    },
+    {
+      "offset": "0x408e40",
+      "frames": 26,
+      "speed": 36
+    },
+    {
+      "offset": "0x408ec0",
+      "frames": 20,
+      "speed": 36
+    },
+    {
+      "offset": "0x409000",
+      "frames": 20,
+      "speed": 164
+    }
+  ],
+  "sfx": [
+    {
+      "file": "cc_sfx_000.wav",
+      "offset": "0x300400"
+    },
+    {
+      "file": "cc_sfx_001.wav",
+      "offset": "0x301600"
+    },
+    {
+      "file": "cc_sfx_002.wav",
+      "offset": "0x301a00"
+    },
+    {
+      "file": "cc_sfx_003.wav",
+      "offset": "0x301c00"
+    },
+    {
+      "file": "cc_sfx_004.wav",
+      "offset": "0x302000"
+    },
+    {
+      "file": "cc_sfx_005.wav",
+      "offset": "0x302200"
+    },
+    {
+      "file": "cc_sfx_006.wav",
+      "offset": "0x302400"
+    },
+    {
+      "file": "cc_sfx_007.wav",
+      "offset": "0x302600"
+    },
+    {
+      "file": "cc_sfx_008.wav",
+      "offset": "0x302800"
+    },
+    {
+      "file": "cc_sfx_009.wav",
+      "offset": "0x302a00"
+    },
+    {
+      "file": "cc_sfx_010.wav",
+      "offset": "0x302e00"
+    },
+    {
+      "file": "cc_sfx_011.wav",
+      "offset": "0x303200"
+    },
+    {
+      "file": "cc_sfx_012.wav",
+      "offset": "0x304400"
+    },
+    {
+      "file": "cc_sfx_013.wav",
+      "offset": "0x304800"
+    },
+    {
+      "file": "cc_sfx_014.wav",
+      "offset": "0x304a00"
+    },
+    {
+      "file": "cc_sfx_015.wav",
+      "offset": "0x304c00"
+    },
+    {
+      "file": "cc_sfx_016.wav",
+      "offset": "0x304e00"
+    },
+    {
+      "file": "cc_sfx_017.wav",
+      "offset": "0x305000"
+    },
+    {
+      "file": "cc_sfx_018.wav",
+      "offset": "0x305200"
+    },
+    {
+      "file": "cc_sfx_019.wav",
+      "offset": "0x305400"
+    },
+    {
+      "file": "cc_sfx_020.wav",
+      "offset": "0x305600"
+    },
+    {
+      "file": "cc_sfx_021.wav",
+      "offset": "0x305800"
+    },
+    {
+      "file": "cc_sfx_022.wav",
+      "offset": "0x305a00"
+    },
+    {
+      "file": "cc_sfx_023.wav",
+      "offset": "0x305c00"
+    },
+    {
+      "file": "cc_sfx_024.wav",
+      "offset": "0x305e00"
+    },
+    {
+      "file": "cc_sfx_025.wav",
+      "offset": "0x306000"
+    },
+    {
+      "file": "cc_sfx_026.wav",
+      "offset": "0x306200"
+    },
+    {
+      "file": "cc_sfx_027.wav",
+      "offset": "0x306400"
+    },
+    {
+      "file": "cc_sfx_028.wav",
+      "offset": "0x306600"
+    },
+    {
+      "file": "cc_sfx_029.wav",
+      "offset": "0x306800"
+    }
+  ],
+  "dialog_readable": [
+    {
+      "region": "shop_menu",
+      "text": "Which Element do"
+    },
+    {
+      "region": "shop_menu",
+      "text": "you want to buy?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "you want to sell?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "How many do you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "want to buy?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "want to sell?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "The rest of the Elements"
+    },
+    {
+      "region": "shop_menu",
+      "text": "are currently allocated"
+    },
+    {
+      "region": "shop_menu",
+      "text": "to the listed members."
+    },
+    {
+      "region": "shop_menu",
+      "text": "From whose Grid do"
+    },
+    {
+      "region": "shop_menu",
+      "text": "you want to remove"
+    },
+    {
+      "region": "shop_menu",
+      "text": "an Element to sell?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "I'll trade you goods for"
+    },
+    {
+      "region": "shop_menu",
+      "text": "your unwanted Elements."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which goods do you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "want to trade me for?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Select the Elements from"
+    },
+    {
+      "region": "shop_menu",
+      "text": "your current stock that"
+    },
+    {
+      "region": "shop_menu",
+      "text": "you want to trade in."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Make the exchange?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "How can I help you?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "What do you want"
+    },
+    {
+      "region": "shop_menu",
+      "text": "me to forge?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "me to disassemble?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "What do you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which weapon do you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "want me to make?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which armor do you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which accessory do"
+    },
+    {
+      "region": "shop_menu",
+      "text": "you want me to make?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Forge ahead?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Not enough raw materials"
+    },
+    {
+      "region": "shop_menu",
+      "text": "to make that weapon!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "to make that armor!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "to make that accessory!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "You don't have"
+    },
+    {
+      "region": "shop_menu",
+      "text": "enough money!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Here you go..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "I hope you like it!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "want to disassemble?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which accessory do you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "OK to disassemble it?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "I can't disassemble what"
+    },
+    {
+      "region": "shop_menu",
+      "text": "you still have equipped."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Disassembly complete!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "You can't carry more than"
+    },
+    {
+      "region": "shop_menu",
+      "text": "99 materials, so I bought"
+    },
+    {
+      "region": "shop_menu",
+      "text": "the surplus from you!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which weapon do"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Which armor do"
+    },
+    {
+      "region": "shop_menu",
+      "text": "I can't buy what you"
+    },
+    {
+      "region": "shop_menu",
+      "text": "still have e"
+    },
+    {
+      "region": "shop_menu",
+      "text": "SAVE DATA TO YOUR MEMORY CARD."
+    },
+    {
+      "region": "shop_menu",
+      "text": "LOAD DATA FROM YOUR MEMORY CARD."
+    },
+    {
+      "region": "shop_menu",
+      "text": "SELECT A MEMORY CARD SLOT TO USE..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARD SLOT 1"
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARD SLOT 2"
+    },
+    {
+      "region": "shop_menu",
+      "text": "CHECKING THE MEMORY CARD"
+    },
+    {
+      "region": "shop_menu",
+      "text": "IN MEMORY CARD SLOT 1..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "IN MEMORY CARD SLOT 2..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "PLEASE DO NOT OPEN THE"
+    },
+    {
+      "region": "shop_menu",
+      "text": "DISC COVER OR REMOVE/INSERT"
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARDS OR CONTROLLERS!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "PLEASE SELECT A BLOCK..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "DATA FROM ANOTHER GAME TITLE"
+    },
+    {
+      "region": "shop_menu",
+      "text": "EMPTY BLOCK"
+    },
+    {
+      "region": "shop_menu",
+      "text": "SAVING DATA TO THE MEMORY CARD"
+    },
+    {
+      "region": "shop_menu",
+      "text": "PREVIOUS DATA WILL"
+    },
+    {
+      "region": "shop_menu",
+      "text": "BE OVERWRITTEN!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "OKAY TO PROCEED?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "NO DATA EXISTS!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "LOADING DATA FROM THE MEMORY"
+    },
+    {
+      "region": "shop_menu",
+      "text": "CARD IN MEMORY CARD SLOT 1..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "CARD IN MEMORY CARD SLOT 2..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "THE MEMORY CARD IN"
+    },
+    {
+      "region": "shop_menu",
+      "text": "HAS NOT BEEN FORMATTED!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "DO YOU WANT TO FORMAT IT?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "NOW FORMATTING THE MEMORY"
+    },
+    {
+      "region": "shop_menu",
+      "text": "NO MEMORY CARD FOUND"
+    },
+    {
+      "region": "shop_menu",
+      "text": "IN MEMORY CARD SLOT 1!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "IN MEMORY CARD SLOT 2!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "FAILED TO SAVE DATA TO THE MEMORY"
+    },
+    {
+      "region": "shop_menu",
+      "text": "CARD IN MEMORY CARD SLOT 1!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "PLEASE TRY AGAIN!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "CARD IN MEMORY CARD SLOT 2!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "FAILED TO LOAD DATA FROM THE MEMORY"
+    },
+    {
+      "region": "shop_menu",
+      "text": "THE PREVIOUSLY SAVED DATA"
+    },
+    {
+      "region": "shop_menu",
+      "text": "ON THE MEMORY CARD IN MEMORY"
+    },
+    {
+      "region": "shop_menu",
+      "text": "CARD SLOT 1 IS UNUSABLE!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "CARD SLOT 2 IS UNUSABLE!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "NO PREVIOUSLY SAVED DATA ON THE"
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARD IN MEMORY CARD SLOT 1!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARD IN MEMORY CARD SLOT 2!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "FAILED TO FORMAT THE MEMORY"
+    },
+    {
+      "region": "shop_menu",
+      "text": "INSUFFICIENT FREE BLOCKS"
+    },
+    {
+      "region": "shop_menu",
+      "text": "ON THE MEMORY CARD IN"
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARD SLOT 1!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "MEMORY CARD SLOT 2!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Remove all the currently"
+    },
+    {
+      "region": "shop_menu",
+      "text": "allocated Elements from"
+    },
+    {
+      "region": "shop_menu",
+      "text": "the Element Grid."
+    },
+    {
+      "region": "shop_menu",
+      "text": "osen Element"
+    },
+    {
+      "region": "shop_menu",
+      "text": "from the Element Grid."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Rearrange the Elements"
+    },
+    {
+      "region": "shop_menu",
+      "text": "in all Grids to achieve"
+    },
+    {
+      "region": "shop_menu",
+      "text": "a recommended setup."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Fill empty Grid positions"
+    },
+    {
+      "region": "shop_menu",
+      "text": "with recommended Elements"
+    },
+    {
+      "region": "shop_menu",
+      "text": "from your current stock."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Whole Party"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Sort Elements by..."
+    },
+    {
+      "region": "shop_menu",
+      "text": "    - Innate Attribute Color First"
+    },
+    {
+      "region": "shop_menu",
+      "text": "    - Attack First"
+    },
+    {
+      "region": "shop_menu",
+      "text": "    - Healing & Supplemental First"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Auto Allocate"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Fill Blanks"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Window Frame"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Cursor Position"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Accuracy Selection"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Button Pressed ="
+    },
+    {
+      "region": "shop_menu",
+      "text": "Vibration Function"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Stick Sensitivity"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Custom Window Frame"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gArnian Wood"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gSimple Line"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gTropical Paradise"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gSnakes & Orbs"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gPorre's Furnace"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gValencian Cloth"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gQuill and Papyrus"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gIron Plate"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gMonster's Mouth"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gInfrared Vision"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gTea For Three"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gOur Favorite Martian"
+    },
+    {
+      "region": "shop_menu",
+      "text": "gGuldovian Stitch"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Field Screen Controller Configuration"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Cancel/Hold down to run"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Open/Close Key Items Window"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Open Menu Screen"
+    },
+    {
+      "region": "shop_menu",
+      "text": "(Same function as "
+    },
+    {
+      "region": "shop_menu",
+      "text": "Slow Motion"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Fast Forward"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Change direction on the spot"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Battle Screen Controller Configuration"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Change character (=right button)"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Change view (at target selection)"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Change character (=left button)"
+    },
+    {
+      "region": "shop_menu",
+      "text": " button to choose/confirm."
+    },
+    {
+      "region": "shop_menu",
+      "text": " to remove all Elements."
+    },
+    {
+      "region": "shop_menu",
+      "text": " to unequip all accessories."
+    },
+    {
+      "region": "shop_menu",
+      "text": "This data lets you continue the game in a strong state."
+    },
+    {
+      "region": "shop_menu",
+      "text": "This game data has been completed."
+    },
+    {
+      "region": "shop_menu",
+      "text": "Alright to proceed?"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Exchange Rate"
+    },
+    {
+      "region": "shop_menu",
+      "text": "No. in Stock"
+    },
+    {
+      "region": "shop_menu",
+      "text": " Elements only!"
+    },
+    {
+      "region": "shop_menu",
+      "text": "All Element Colors"
+    },
+    {
+      "region": "shop_menu",
+      "text": " levels' worth"
+    },
+    {
+      "region": "shop_menu",
+      "text": " levels' worth to go"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Requirement fulfilled."
+    },
+    {
+      "region": "shop_menu",
+      "text": "No. equipped"
+    },
+    {
+      "region": "shop_menu",
+      "text": "No. stockpiled"
+    },
+    {
+      "region": "shop_menu",
+      "text": "Needed / Stock"
+    },
+    {
+      "region": "shop_menu",
+      "text": "After Separation / Stock"
+    },
+    {
+      "region": "shop_menu",
+      "text": "ELEMENT SHOP"
+    },
+    {
+      "region": "shop_menu",
+      "text": "No. allocated"
+    },
+    {
+      "region": "battle_menu",
+      "text": "TRADING POST"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Single Ally"
+    },
+    {
+      "region": "battle_menu",
+      "text": "All Foes&Allies"
+    },
+    {
+      "region": "battle_menu",
+      "text": "ngle Foe/Ally"
+    },
+    {
+      "region": "battle_menu",
+      "text": "(Only if Innate color "
+    },
+    {
+      "region": "battle_menu",
+      "text": "Cancel/Hold down to walk"
+    },
+    {
+      "region": "battle_menu",
+      "text": "An Ancient Fort -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Chasing phantoms in one's dreams..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Arni Village -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Where the tides start to turn..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Opassa Beach -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "A calling from beyond time..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Nothing has changed but everything!"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Cape Howl -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "A reminder of one's former self..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Heading North -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "In search of some answers..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "The Port Town of Termina -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "The pride of the Acacia Dragoons..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "$Viper Manor -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Where lies the key to the past..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Where ripples become waves..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "@Hermit's Hideaway -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Meeting with the 'other' swordsman..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "HFrom Pirate Ship to Ghost Ship -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "A mariner's worst nightmare..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "POn to Water Dragon Isle -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "In search of the dragon blue..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "\\Fort Dragonia -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Ancient dragons' dream in ruins..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "dTemporal Vortex -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Where lost souls wander..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "lBack from the Darkness -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "And on with a new journey..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "pThe Lost Portal -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Isolation of people from the world..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "tTermina - "
+    },
+    {
+      "region": "battle_menu",
+      "text": "Knight or day...?"
+    },
+    {
+      "region": "battle_menu",
+      "text": "The village of the demi-humans..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "The Masamune -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "The blood-stained sword of evil..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "The Dead Sea -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "A place forsaken by the gods..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "A Portal Reopened -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "And the planet began to shake..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Back to Viper Manor -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "A captive audience awaits..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Surprise Attack!!! -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Pursuers with heavy-hearts..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "To the Sea of Eden -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Through the hidden holes in time..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "The Arbiter of Time -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "On whom the three Fates smile..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Terra Tower -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Caught in an echo of time..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "Chrono Cross -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "The point where destinies meet..."
+    },
+    {
+      "region": "battle_menu",
+      "text": "For all the Dreamers -"
+    },
+    {
+      "region": "battle_menu",
+      "text": "Our planet's dream is not over yet..."
+    },
+    {
+      "region": "0x250000",
+      "text": "u\\99B?5CLLLLLUdK: "
+    },
+    {
+      "region": "0x250000",
+      "text": "~pfffZZZZZZSB:...BJX`mv||xxxx`. Y"
+    },
+    {
+      "region": "0x250000",
+      "text": "pffZZSZZZZSSB:((.:BJJXXSSB:( .l"
+    },
+    {
+      "region": "0x250000",
+      "text": "~ppffZZSSJJBBBBB:::( ( "
+    },
+    {
+      "region": "0x250000",
+      "text": "pppppcSSSJBBBJJB::. ( "
+    },
+    {
+      "region": "0x250000",
+      "text": "pp~~pcSSSJBBJJSBB.  "
+    },
+    {
+      "region": "0x270000",
+      "text": "QZ]RTYR P\\`T[XPY_&"
+    },
+    {
+      "region": "0x270000",
+      "text": ":WW`^_]TZ`^ CLTYMZb DSPWW&"
+    },
+    {
+      "region": "0x270000",
+      "text": "EPX[P] XL_P]TLW QZ]"
+    },
+    {
+      "region": "0x270000",
+      "text": "=PRPYOL]d _PX[P] XL_P]TLW"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 WL]RP ZL] XLOP Q]ZX"
+    },
+    {
+      "region": "0x270000",
+      "text": "L RTLY_ QT^SMZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": ">LOP Z`_ ZQ OPYLOZ]T_P&"
+    },
+    {
+      "region": "0x270000",
+      "text": ">LOP Z`_ ZQ CLTYMZb DSPWW&"
+    },
+    {
+      "region": "0x270000",
+      "text": "ESP ^PNZYO LOaPY_ ZQ _SP"
+    },
+    {
+      "region": "0x270000",
+      "text": "SZWd ^bZ]O >L^LX`YPg"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 VYTQP XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 ]ZO XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 bLYO XLOP Z`_ ZQ"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 ^bZ]O XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": ":YaZVP^ SP]ZTN [ZbP]^"
+    },
+    {
+      "region": "0x270000",
+      "text": "bSPY NZXMTYPO bT_S _SP"
+    },
+    {
+      "region": "0x270000",
+      "text": "9P]Zs^ DSTPWO LYO >POLWg"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 ^[PNTLW _]T[WP#MWLOPO"
+    },
+    {
+      "region": "0x270000",
+      "text": "bPL[ZY `^PO PcNW`^TaPWd"
+    },
+    {
+      "region": "0x270000",
+      "text": "ESP O]LRZY ^bZ]O "
+    },
+    {
+      "region": "0x270000",
+      "text": "ESP O]LRZY ^bZ]O"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 SLYOR`Y XLOP Z`_ ZQ"
+    },
+    {
+      "region": "0x270000",
+      "text": "[ZbP]Q`W ^SZNVbLaP^&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 [TNVLc XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "!8ZZO QZ] bSPY dZ` SLaP"
+    },
+    {
+      "region": "0x270000",
+      "text": "L MZYP _Z [TNVg\""
+    },
+    {
+      "region": "0x270000",
+      "text": "]PTYQZ]NPO bT_S ^ZXP"
+    },
+    {
+      "region": "0x270000",
+      "text": "2Y Lc XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "ESP WPRPYOL]d SLXXP]"
+    },
+    {
+      "region": "0x270000",
+      "text": "ZQ _SP MWLNV^XT_S^&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 MZZXP]LYR XLOP Z`_ ZQ"
+    },
+    {
+      "region": "0x270000",
+      "text": "ESP Q`YN_TZY ZQ _SP^P"
+    },
+    {
+      "region": "0x270000",
+      "text": "NL]O^ T^ `YMPWTPaLMWP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 WL]RP ^[ZZY XLOP Q]ZX"
+    },
+    {
+      "region": "0x270000",
+      "text": "MZYP& !8ZZO QZ] ^XLNVTYR"
+    },
+    {
+      "region": "0x270000",
+      "text": "NSTWO]PYs^ MZ__ZX^"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 WLOWP XLOP Z`_ ZQ"
+    },
+    {
+      "region": "0x270000",
+      "text": "RZZO QZ] ^XLNVTYRg\""
+    },
+    {
+      "region": "0x270000",
+      "text": "YZY#^_TNV OPYLOZ]T_P&"
+    },
+    {
+      "region": "0x270000",
+      "text": "!DZ PL^d _Z NWPLYg\""
+    },
+    {
+      "region": "0x270000",
+      "text": "ZQ CLTYMZb DSPWW&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 RWZaP XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "=TRS_ L]XZ] XLOP Q]ZX"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 dPWWZb#NZWZ]PO"
+    },
+    {
+      "region": "0x270000",
+      "text": "7Z] QPXLWP `^P ZYWdg"
+    },
+    {
+      "region": "0x270000",
+      "text": "4STWO]PYs^ ^TeP ZYWd&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2`_ZXL_TNLWWd ]PNZaP]^"
+    },
+    {
+      "region": "0x270000",
+      "text": "]PLWWd MLO _L^_Pg"
+    },
+    {
+      "region": "0x270000",
+      "text": "STX WZZV QPXTYTYP& !3`_ dZ`"
+    },
+    {
+      "region": "0x270000",
+      "text": "NLY bPL] T_ ZY dZ`] SPLOg\""
+    },
+    {
+      "region": "0x270000",
+      "text": "A]Z_PN_TZY LRLTY^_ [ZT^ZY&"
+    },
+    {
+      "region": "0x270000",
+      "text": "SP]Zs^ NZWWPN_TZY& A]ZaP^"
+    },
+    {
+      "region": "0x270000",
+      "text": "SP]Zs^ NZWWPN_TZY&"
+    },
+    {
+      "region": "0x270000",
+      "text": "2 SPWXP_ XLOP Q]ZX MZYP&"
+    },
+    {
+      "region": "0x270000",
+      "text": "ZQ 9A dZ` SLaP O`]TYR"
+    },
+    {
+      "region": "0x270000",
+      "text": "A]Z_PN_TZY LRLTY^_"
+    },
+    {
+      "region": "0x270000",
+      "text": "2Y_T8]PPY LYO R]PPY"
+    },
+    {
+      "region": "0x270000",
+      "text": "2Y_TJPWWZb LYO dPWWZb"
+    },
+    {
+      "region": "0x270000",
+      "text": "2Y_THST_P LYO bST_P"
+    },
+    {
+      "region": "0x270000",
+      "text": "A]Z_PN_TZY LRLTY^_ "
+    },
+    {
+      "region": "0x270000",
+      "text": "2Y_T3WLNV LYO MWLNV"
+    },
+    {
+      "region": "0x270000",
+      "text": "bT_S dZ`] 6WPXPY_ AZbP]"
+    },
+    {
+      "region": "0x270000",
+      "text": "=PaPW TYN]PL^PO Md )&"
+    },
+    {
+      "region": "0x270000",
+      "text": "=PaPW TYN]PL^PO Md *&"
+    },
+    {
+      "region": "0x270000",
+      "text": "DWTRS_Wd TYN]PL^P^ _SP"
+    },
+    {
+      "region": "0x270000",
+      "text": "LXZ`Y_ ZQ RZWO ]PNPTaPO"
+    },
+    {
+      "region": "0x270000",
+      "text": "CPO`NP^ _SP OLXLRP OZYP"
+    },
+    {
+      "region": "0x270000",
+      "text": "Md LWW VTYO^ ZQ L__LNV^"
+    },
+    {
+      "region": "0x270000",
+      "text": "dZ` ]PNPTaP Q]ZX PYPXTP^&"
+    },
+    {
+      "region": "0x270000",
+      "text": ":YN]PL^P^ _SP OLXLRP OZYP"
+    },
+    {
+      "region": "0x270000",
+      "text": "dZ` XLVP ZY dZ`] PYPXTP^&"
+    },
+    {
+      "region": "0x270000",
+      "text": "PNPTaPO _Z bPL[ZY&"
+    },
+    {
+      "region": "0x270000",
+      "text": "!=Zb#WPaPW 6WPXPY_^ ZYWd&\""
+    },
+    {
+      "region": "0x270000",
+      "text": "L__LNV^ ]PNPTaPO _Z bPL[ZY&"
+    },
+    {
+      "region": "0x270000",
+      "text": "`^PO TY 5Z[[PWRLYR LMTWT_d&"
+    },
+    {
+      "region": "0x270000",
+      "text": "A]Z_PN_TZY Q]ZX _SP QW`"
+    },
+    {
+      "region": "0x270000",
+      "text": "=PaPW TYN]PL^PO Md 0&"
+    },
+    {
+      "region": "0x290000",
+      "text": "pP BIbA+4+',FOMaV]J"
+    },
+    {
+      "region": "0x2c0000",
+      "text": "F/( 2QchcQQhocF:/"
+    },
+    {
+      "region": "0x2c0000",
+      "text": " 5qwwwwwqwqS__L{"
+    },
+    {
+      "region": "0x2d0000",
+      "text": " QbbRG@222@GIIPPIIPY`qvvxxohG<"
+    },
+    {
+      "region": "0x2e0000",
+      "text": "~fXKPB2*     #)arC:JOOJOOOUZZs"
+    },
+    {
+      "region": "0x2e0000",
+      "text": "~ffffpp\\VKKKAA5* "
+    },
+    {
+      "region": "0x2e0000",
+      "text": "VVVVVVVVVVVQQQQIIIIIIIIIIE????433* "
+    },
+    {
+      "region": "0x2f0000",
+      "text": " 4IIQQQI?44LZZMNXdrwa="
+    },
+    {
+      "region": "0x2f0000",
+      "text": " ?IVVVVVVQQQQIE/"
+    },
+    {
+      "region": "0x2f0000",
+      "text": "/Hdd[wwxnnhhh[: )LLG19?"
+    },
+    {
+      "region": "0x2f0000",
+      "text": "LZdddR) /Hlhgg_gZ_hZH)6RZLG?1?."
+    },
+    {
+      "region": "0x300000",
+      "text": "::?iqH6EE0EXHBX`MBBMBXk`H?HNE(\" "
+    },
+    {
+      "region": "0x300000",
+      "text": " )8CLLLKLLLLLLLLLLLK]]]SS5!"
+    },
+    {
+      "region": "0x300000",
+      "text": " 38<IIILLLLLLLLLLLKKKGB;5#"
+    },
+    {
+      "region": "0x300000",
+      "text": " 3BGGGGGGGKGKKLLGB;#q^"
+    },
+    {
+      "region": "0x310000",
+      "text": "wbbbbbnnnhhbbbYDDDD:0 "
+    },
+    {
+      "region": "0x310000",
+      "text": "iiibYYYYXXPPPD::0+ "
+    },
+    {
+      "region": "0x310000",
+      "text": "pbpbYPPPPPPD::0+ "
+    },
+    {
+      "region": "0x320000",
+      "text": "  ''  -:=@HFFXxxXXFCPSXSSp"
+    },
+    {
+      "region": "0x330000",
+      "text": " '\"#;daF<FSSXapppppp"
+    },
+    {
+      "region": "0x330000",
+      "text": "   \"#;T[SFFFFSSSSSSXXXiryymmm[PCF<5<iwwwyrmmmr"
+    },
+    {
+      "region": "0x340000",
+      "text": "vg`d\\\\PPPIPPP= (;PdZ"
+    },
+    {
+      "region": "0x340000",
+      "text": "   ,;CCCC;EEEERVV\\\\ivv"
+    },
+    {
+      "region": "0x350000",
+      "text": "~vuee\\OSTTTTaaTS\\\\eu~e !---k"
+    },
+    {
+      "region": "0x350000",
+      "text": "uMGJSTTaaaaTTaaaaaTTTTf= "
+    },
+    {
+      "region": "0x360000",
+      "text": "^;KPCCB;B;;2 %BVeeeerz"
+    },
+    {
+      "region": "0x360000",
+      "text": "jBBPKCCKCCC5 *Ceeorzz"
+    },
+    {
+      "region": "0x360000",
+      "text": "tK5PPPKPP]]; *Keozr"
+    },
+    {
+      "region": "0x360000",
+      "text": "gCB;;;KK;BCCC;*%;;2KoeC2DXccppD BPj"
+    },
+    {
+      "region": "0x370000",
+      "text": "9 Dk]XMkkkkk]k]9Xu"
+    },
+    {
+      "region": "0x370000",
+      "text": "wmmmmmmmeeeeeeeme39D "
+    },
+    {
+      "region": "0x370000",
+      "text": "vggggvvjRD-   .=v"
+    },
+    {
+      "region": "0x380000",
+      "text": " 7\\{{seVRIIIC=CRV`````eekkkkeeee``\\AAT\\VRC/,,=az"
+    },
+    {
+      "region": "0x380000",
+      "text": "~uk`\\\\VIR\\`ekekksuuu{uu{{ukeeTTe```e\\R/ ,Tz"
+    },
+    {
+      "region": "0x380000",
+      "text": "wcXD3-3KXZ? (7V`eeeeeeek"
+    },
+    {
+      "region": "0x390000",
+      "text": " S,IIIIOLVVV]VVN;6"
+    },
+    {
+      "region": "0x390000",
+      "text": "}sTB:&+BTTZgTOOLLL "
+    },
+    {
+      "region": "0x390000",
+      "text": "kkkkg[[PFFF99FFFPPSSS[cclxyl[c[[PF9.   "
+    },
+    {
+      "region": "0x390000",
+      "text": "~~~~~oolccccccccclsyyyxc[[[PF..   "
+    },
+    {
+      "region": "0x390000",
+      "text": "~~xolllllllllsxyyysc[[PF9.   "
+    },
+    {
+      "region": "0x390000",
+      "text": "~~~xxxxxyyysssyyyylc[PF9..  "
+    },
+    {
+      "region": "0x390000",
+      "text": "yyyyyyysl[[PF9.  "
+    },
+    {
+      "region": "0x390000",
+      "text": "yyyyyyysc[[F9.. "
+    },
+    {
+      "region": "0x390000",
+      "text": "yysc]SSSSEE:+   "
+    },
+    {
+      "region": "0x3a0000",
+      "text": "SccYCPC/   /CPPP<'"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "zvvzvqlkkll_dd_S #"
+    },
+    {
+      "region": "0x3b0000",
+      "text": " --Gd@!9EEEEEBBBBBBBBBEEENNNNN``||"
+    },
+    {
+      "region": "0x3b0000",
+      "text": ">GGSGGO>88  GbUYUUUU"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "-GGOOGS_dlG-- 8YdY_d "
+    },
+    {
+      "region": "0x3b0000",
+      "text": " >GOOGO_dhl>-- Gdd_dS"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "zvzqlllkhhhdhhhdhhO #n"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "zvvvlllrlkdddddhdddS n"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "zzvrlqlkkhdhddhhhY8 "
+    },
+    {
+      "region": "0x3b0000",
+      "text": "zzzzvqllkkkkl_hddhO R"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "vvvvvvvkkkdkld__S  "
+    },
+    {
+      "region": "0x3b0000",
+      "text": " ;MMMMMclcMMMMMMMMS"
+    },
+    {
+      "region": "0x3b0000",
+      "text": " PcMM[c[MSttllMMDDAA&"
+    },
+    {
+      "region": "0x3b0000",
+      "text": "hY $JYYYGGGJJ((99KT@KK?66Urrb?$"
+    },
+    {
+      "region": "0x3b0000",
+      "text": " $$JbbbbbrrbrrrbUJ?bbUKU("
+    },
+    {
+      "region": "0x3c0000",
+      "text": "!!0EZT 0hqhZTZZME8!"
+    },
+    {
+      "region": "0x3c0000",
+      "text": "!088MM 8ZhhhTZhhTTTE 0h"
+    },
+    {
+      "region": "0x3c0000",
+      "text": "!888MT  ZTTTMTZZZTMM8Mq"
+    },
+    {
+      "region": "0x3c0000",
+      "text": "`NmvrrrrvkkB3.0%%%%! <KdpppV"
+    },
+    {
+      "region": "0x3d0000",
+      "text": "ssbbbbbbbiiibSC "
+    },
+    {
+      "region": "0x3d0000",
+      "text": "{shbZZZbbbbbbSC "
+    },
+    {
+      "region": "0x3e0000",
+      "text": "> ^qfqqf^^fqwwwwwwwwww"
+    },
+    {
+      "region": "0x3e0000",
+      "text": "+ri9ccWcqqc1 +BWccWcccccWWWW"
+    },
+    {
+      "region": "0x3e0000",
+      "text": "dIZ`fkl~sdls~vsf`XJ=+  "
+    },
+    {
+      "region": "0x3e0000",
+      "text": "MJJHH]ddMVlslsk`XXPC8.#  "
+    },
+    {
+      "region": "0x3e0000",
+      "text": "o%6HWOHOdsld]kfXPPXPI=/'  "
+    },
+    {
+      "region": "0x3e0000",
+      "text": "3JXH?Wf]VO]kfZXLLLLPLC8+# "
+    },
+    {
+      "region": "0x3f0000",
+      "text": "ObbWWbboobbWTLLQVZaQ?/+%   "
+    },
+    {
+      "region": "0x3f0000",
+      "text": "'KYVYbibbYTKKKI<3//++% "
+    },
+    {
+      "region": "0x3f0000",
+      "text": "H:YYYisoiobbbbYTLI??</% "
+    },
+    {
+      "region": "0x3f0000",
+      "text": "'VYYosssossssib``VQI</% "
+    }
+  ],
+  "worldmap": [
+    {
+      "offset": "0x1bc800",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "offset": "0x26d000",
+      "width": 255,
+      "height": 255
+    },
+    {
+      "offset": "0x26dc00",
+      "width": 255,
+      "height": 255
+    },
+    {
+      "offset": "0x26e800",
+      "width": 255,
+      "height": 255
+    }
+  ],
+  "save_structure": [
+    {
+      "offset": "0x100000",
+      "char1_hp": 68,
+      "char2_hp": 1
+    },
+    {
+      "offset": "0x102000",
+      "char1_hp": 4160,
+      "char2_hp": 4129
+    },
+    {
+      "offset": "0x110000",
+      "char1_hp": 180,
+      "char2_hp": 176
+    },
+    {
+      "offset": "0x112000",
+      "char1_hp": 308,
+      "char2_hp": 304
+    },
+    {
+      "offset": "0x11e000",
+      "char1_hp": 32,
+      "char2_hp": 28
+    },
+    {
+      "offset": "0x120000",
+      "char1_hp": 13,
+      "char2_hp": 4114
+    },
+    {
+      "offset": "0x122000",
+      "char1_hp": 5120,
+      "char2_hp": 3
+    },
+    {
+      "offset": "0x12c000",
+      "char1_hp": 4139,
+      "char2_hp": 6177
+    },
+    {
+      "offset": "0x130000",
+      "char1_hp": 4224,
+      "char2_hp": 4129
+    },
+    {
+      "offset": "0x134000",
+      "char1_hp": 8225,
+      "char2_hp": 8
+    },
+    {
+      "offset": "0x136000",
+      "char1_hp": 42,
+      "char2_hp": 24
+    },
+    {
+      "offset": "0x13a000",
+      "char1_hp": 36,
+      "char2_hp": 32
+    },
+    {
+      "offset": "0x13e000",
+      "char1_hp": 1,
+      "char2_hp": 3
+    },
+    {
+      "offset": "0x142000",
+      "char1_hp": 4129,
+      "char2_hp": 20
+    },
+    {
+      "offset": "0x146000",
+      "char1_hp": 4608,
+      "char2_hp": 4133
+    },
+    {
+      "offset": "0x14c000",
+      "char1_hp": 36,
+      "char2_hp": 32
+    },
+    {
+      "offset": "0x154000",
+      "char1_hp": 8227,
+      "char2_hp": 92
+    },
+    {
+      "offset": "0x162000",
+      "char1_hp": 4131,
+      "char2_hp": 8130
+    },
+    {
+      "offset": "0x166000",
+      "char1_hp": 192,
+      "char2_hp": 44
+    },
+    {
+      "offset": "0x170000",
+      "char1_hp": 2312,
+      "char2_hp": 1
+    }
+  ]
 }
