@@ -84,7 +84,6 @@ def api_search():
             if isinstance(items, list):
                 for item in items:
                     if isinstance(item, dict):
-                        # Search in all values
                         for key, val in item.items():
                             if isinstance(val, str) and query in val.lower():
                                 results["matches"].append({
@@ -101,6 +100,30 @@ def api_search():
                         })
     
     return jsonify(results)
+
+@app.route('/api/images')
+def api_images():
+    """List available images"""
+    import os
+    art_dir = DATA_DIR / "art"
+    if not art_dir.exists():
+        return jsonify({"images": []})
+    
+    images = []
+    for f in os.listdir(art_dir):
+        if f.endswith(('.ppm', '.png', '.jpg')):
+            images.append({
+                "name": f,
+                "path": f"/data/art/{f}"
+            })
+    
+    return jsonify({"images": images[:100]})
+
+@app.route('/data/art/<filename>')
+def serve_image(filename):
+    """Serve extracted images"""
+    from flask import send_from_directory
+    return send_from_directory(DATA_DIR / "art", filename)
 
 # Simple HTML template
 HTML_TEMPLATE = '''
