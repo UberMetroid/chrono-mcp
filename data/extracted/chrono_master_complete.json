@@ -1199,18 +1199,1512 @@
           "location": "Denadoro Mountains"
         }
       ],
-      "npcs": {
-        "count": 200,
-        "data": "ct_npcs.json"
-      },
-      "treasure": {
-        "count": 100,
-        "data": "ct_treasure.json"
-      },
-      "monster_drops": {
-        "count": 50,
-        "data": "ct_monster_drops.json"
-      }
+      "npcs": [
+        {
+          "id": 0,
+          "offset": "0x1e0500",
+          "sprite_id": 77,
+          "dialog_id": 534
+        },
+        {
+          "id": 1,
+          "offset": "0x1e06c0",
+          "sprite_id": 175,
+          "dialog_id": 159
+        },
+        {
+          "id": 2,
+          "offset": "0x1e06e0",
+          "sprite_id": 10,
+          "dialog_id": 42
+        },
+        {
+          "id": 3,
+          "offset": "0x1e0720",
+          "sprite_id": 122,
+          "dialog_id": 58374
+        },
+        {
+          "id": 4,
+          "offset": "0x1e0780",
+          "sprite_id": 137,
+          "dialog_id": 169
+        },
+        {
+          "id": 5,
+          "offset": "0x1e07e0",
+          "sprite_id": 93,
+          "dialog_id": 16507
+        },
+        {
+          "id": 6,
+          "offset": "0x1e08a0",
+          "sprite_id": 108,
+          "dialog_id": 16476
+        },
+        {
+          "id": 7,
+          "offset": "0x1e09c0",
+          "sprite_id": 10,
+          "dialog_id": 1080
+        },
+        {
+          "id": 8,
+          "offset": "0x1e0e20",
+          "sprite_id": 25,
+          "dialog_id": 797
+        },
+        {
+          "id": 9,
+          "offset": "0x1e15e0",
+          "sprite_id": 65,
+          "dialog_id": 39
+        },
+        {
+          "id": 10,
+          "offset": "0x1e1620",
+          "sprite_id": 178,
+          "dialog_id": 56834
+        },
+        {
+          "id": 11,
+          "offset": "0x1e1640",
+          "sprite_id": 165,
+          "dialog_id": 127
+        },
+        {
+          "id": 12,
+          "offset": "0x1e1680",
+          "sprite_id": 74,
+          "dialog_id": 85
+        },
+        {
+          "id": 13,
+          "offset": "0x1e16c0",
+          "sprite_id": 149,
+          "dialog_id": 57349
+        },
+        {
+          "id": 14,
+          "offset": "0x1e16e0",
+          "sprite_id": 17,
+          "dialog_id": 16433
+        },
+        {
+          "id": 15,
+          "offset": "0x1e1760",
+          "sprite_id": 50,
+          "dialog_id": 57340
+        },
+        {
+          "id": 16,
+          "offset": "0x1e17a0",
+          "sprite_id": 129,
+          "dialog_id": 16497
+        },
+        {
+          "id": 17,
+          "offset": "0x1e17c0",
+          "sprite_id": 65,
+          "dialog_id": 39
+        },
+        {
+          "id": 18,
+          "offset": "0x1e1820",
+          "sprite_id": 17,
+          "dialog_id": 16433
+        },
+        {
+          "id": 19,
+          "offset": "0x1e1840",
+          "sprite_id": 34,
+          "dialog_id": 16400
+        },
+        {
+          "id": 20,
+          "offset": "0x1e1ac0",
+          "sprite_id": 85,
+          "dialog_id": 69
+        },
+        {
+          "id": 21,
+          "offset": "0x1e1d00",
+          "sprite_id": 149,
+          "dialog_id": 57605
+        },
+        {
+          "id": 22,
+          "offset": "0x1e1d20",
+          "sprite_id": 74,
+          "dialog_id": 85
+        },
+        {
+          "id": 23,
+          "offset": "0x1e1d60",
+          "sprite_id": 77,
+          "dialog_id": 16464
+        },
+        {
+          "id": 24,
+          "offset": "0x1e1e80",
+          "sprite_id": 46,
+          "dialog_id": 0
+        },
+        {
+          "id": 25,
+          "offset": "0x1e2180",
+          "sprite_id": 23,
+          "dialog_id": 0
+        },
+        {
+          "id": 26,
+          "offset": "0x1e22e0",
+          "sprite_id": 169,
+          "dialog_id": 698
+        },
+        {
+          "id": 27,
+          "offset": "0x1e23a0",
+          "sprite_id": 10,
+          "dialog_id": 146
+        },
+        {
+          "id": 28,
+          "offset": "0x1e27c0",
+          "sprite_id": 26,
+          "dialog_id": 0
+        },
+        {
+          "id": 29,
+          "offset": "0x1e2e80",
+          "sprite_id": 78,
+          "dialog_id": 57344
+        },
+        {
+          "id": 30,
+          "offset": "0x1e2ec0",
+          "sprite_id": 47,
+          "dialog_id": 16446
+        },
+        {
+          "id": 31,
+          "offset": "0x1e2fe0",
+          "sprite_id": 14,
+          "dialog_id": 16415
+        },
+        {
+          "id": 32,
+          "offset": "0x1e3060",
+          "sprite_id": 48,
+          "dialog_id": 54009
+        },
+        {
+          "id": 33,
+          "offset": "0x1e3120",
+          "sprite_id": 18,
+          "dialog_id": 64
+        },
+        {
+          "id": 34,
+          "offset": "0x1e3160",
+          "sprite_id": 2,
+          "dialog_id": 16387
+        },
+        {
+          "id": 35,
+          "offset": "0x1e32a0",
+          "sprite_id": 22,
+          "dialog_id": 0
+        },
+        {
+          "id": 36,
+          "offset": "0x1e33c0",
+          "sprite_id": 12,
+          "dialog_id": 26
+        },
+        {
+          "id": 37,
+          "offset": "0x1e33e0",
+          "sprite_id": 71,
+          "dialog_id": 12
+        },
+        {
+          "id": 38,
+          "offset": "0x1e3480",
+          "sprite_id": 18,
+          "dialog_id": 0
+        },
+        {
+          "id": 39,
+          "offset": "0x1e3520",
+          "sprite_id": 12,
+          "dialog_id": 0
+        },
+        {
+          "id": 40,
+          "offset": "0x1e3560",
+          "sprite_id": 2,
+          "dialog_id": 62199
+        },
+        {
+          "id": 41,
+          "offset": "0x1e3580",
+          "sprite_id": 24,
+          "dialog_id": 2
+        },
+        {
+          "id": 42,
+          "offset": "0x1e36a0",
+          "sprite_id": 26,
+          "dialog_id": 16393
+        },
+        {
+          "id": 43,
+          "offset": "0x1e36c0",
+          "sprite_id": 33,
+          "dialog_id": 56552
+        },
+        {
+          "id": 44,
+          "offset": "0x1e3780",
+          "sprite_id": 14,
+          "dialog_id": 16389
+        },
+        {
+          "id": 45,
+          "offset": "0x1e37e0",
+          "sprite_id": 8,
+          "dialog_id": 57344
+        },
+        {
+          "id": 46,
+          "offset": "0x1e3840",
+          "sprite_id": 4,
+          "dialog_id": 34
+        },
+        {
+          "id": 47,
+          "offset": "0x1e3880",
+          "sprite_id": 24,
+          "dialog_id": 63728
+        },
+        {
+          "id": 48,
+          "offset": "0x1e38a0",
+          "sprite_id": 15,
+          "dialog_id": 13
+        },
+        {
+          "id": 49,
+          "offset": "0x1e38c0",
+          "sprite_id": 5,
+          "dialog_id": 19
+        },
+        {
+          "id": 50,
+          "offset": "0x1e38e0",
+          "sprite_id": 11,
+          "dialog_id": 9
+        },
+        {
+          "id": 51,
+          "offset": "0x1e39e0",
+          "sprite_id": 9,
+          "dialog_id": 0
+        },
+        {
+          "id": 52,
+          "offset": "0x1e3a20",
+          "sprite_id": 1,
+          "dialog_id": 0
+        },
+        {
+          "id": 53,
+          "offset": "0x1e3a80",
+          "sprite_id": 6,
+          "dialog_id": 0
+        },
+        {
+          "id": 54,
+          "offset": "0x1e3be0",
+          "sprite_id": 4,
+          "dialog_id": 0
+        },
+        {
+          "id": 55,
+          "offset": "0x1e3c40",
+          "sprite_id": 19,
+          "dialog_id": 57344
+        },
+        {
+          "id": 56,
+          "offset": "0x1e3ca0",
+          "sprite_id": 3,
+          "dialog_id": 0
+        },
+        {
+          "id": 57,
+          "offset": "0x1e3d00",
+          "sprite_id": 7,
+          "dialog_id": 0
+        },
+        {
+          "id": 58,
+          "offset": "0x1e3d40",
+          "sprite_id": 3,
+          "dialog_id": 0
+        },
+        {
+          "id": 59,
+          "offset": "0x1e3e80",
+          "sprite_id": 23,
+          "dialog_id": 0
+        },
+        {
+          "id": 60,
+          "offset": "0x1e3ec0",
+          "sprite_id": 9,
+          "dialog_id": 57348
+        },
+        {
+          "id": 61,
+          "offset": "0x1e3ee0",
+          "sprite_id": 12,
+          "dialog_id": 18
+        },
+        {
+          "id": 62,
+          "offset": "0x1e3f00",
+          "sprite_id": 24,
+          "dialog_id": 21
+        },
+        {
+          "id": 63,
+          "offset": "0x1e3f60",
+          "sprite_id": 15,
+          "dialog_id": 60656
+        },
+        {
+          "id": 64,
+          "offset": "0x1e4020",
+          "sprite_id": 5,
+          "dialog_id": 11
+        },
+        {
+          "id": 65,
+          "offset": "0x1e4040",
+          "sprite_id": 20,
+          "dialog_id": 16
+        },
+        {
+          "id": 66,
+          "offset": "0x1e4060",
+          "sprite_id": 27,
+          "dialog_id": 35
+        },
+        {
+          "id": 67,
+          "offset": "0x1e40a0",
+          "sprite_id": 11,
+          "dialog_id": 56577
+        },
+        {
+          "id": 68,
+          "offset": "0x1e40c0",
+          "sprite_id": 8,
+          "dialog_id": 0
+        },
+        {
+          "id": 69,
+          "offset": "0x1e40e0",
+          "sprite_id": 1,
+          "dialog_id": 12
+        },
+        {
+          "id": 70,
+          "offset": "0x1e4100",
+          "sprite_id": 23,
+          "dialog_id": 15
+        },
+        {
+          "id": 71,
+          "offset": "0x1e4140",
+          "sprite_id": 32,
+          "dialog_id": 61680
+        },
+        {
+          "id": 72,
+          "offset": "0x1e42c0",
+          "sprite_id": 4,
+          "dialog_id": 0
+        },
+        {
+          "id": 73,
+          "offset": "0x1e4360",
+          "sprite_id": 2,
+          "dialog_id": 3
+        },
+        {
+          "id": 74,
+          "offset": "0x1e4380",
+          "sprite_id": 2,
+          "dialog_id": 2
+        },
+        {
+          "id": 75,
+          "offset": "0x1e43e0",
+          "sprite_id": 4,
+          "dialog_id": 4
+        },
+        {
+          "id": 76,
+          "offset": "0x1e4400",
+          "sprite_id": 2,
+          "dialog_id": 1
+        },
+        {
+          "id": 77,
+          "offset": "0x1e4480",
+          "sprite_id": 4,
+          "dialog_id": 0
+        },
+        {
+          "id": 78,
+          "offset": "0x1e4540",
+          "sprite_id": 53,
+          "dialog_id": 50
+        },
+        {
+          "id": 79,
+          "offset": "0x1e45c0",
+          "sprite_id": 38,
+          "dialog_id": 43
+        },
+        {
+          "id": 80,
+          "offset": "0x1e45e0",
+          "sprite_id": 53,
+          "dialog_id": 50
+        },
+        {
+          "id": 81,
+          "offset": "0x1e4600",
+          "sprite_id": 46,
+          "dialog_id": 53
+        },
+        {
+          "id": 82,
+          "offset": "0x1e47e0",
+          "sprite_id": 8,
+          "dialog_id": 0
+        },
+        {
+          "id": 83,
+          "offset": "0x1e4820",
+          "sprite_id": 12,
+          "dialog_id": 61680
+        },
+        {
+          "id": 84,
+          "offset": "0x1e4920",
+          "sprite_id": 34,
+          "dialog_id": 0
+        },
+        {
+          "id": 85,
+          "offset": "0x1e49a0",
+          "sprite_id": 14,
+          "dialog_id": 13
+        },
+        {
+          "id": 86,
+          "offset": "0x1e49c0",
+          "sprite_id": 5,
+          "dialog_id": 7
+        },
+        {
+          "id": 87,
+          "offset": "0x1e4b00",
+          "sprite_id": 56,
+          "dialog_id": 16420
+        },
+        {
+          "id": 88,
+          "offset": "0x1e4c00",
+          "sprite_id": 14,
+          "dialog_id": 16415
+        },
+        {
+          "id": 89,
+          "offset": "0x1e4c80",
+          "sprite_id": 48,
+          "dialog_id": 54009
+        },
+        {
+          "id": 90,
+          "offset": "0x1e4d40",
+          "sprite_id": 18,
+          "dialog_id": 64
+        },
+        {
+          "id": 91,
+          "offset": "0x1e4d60",
+          "sprite_id": 73,
+          "dialog_id": 71
+        },
+        {
+          "id": 92,
+          "offset": "0x1e4d80",
+          "sprite_id": 67,
+          "dialog_id": 35
+        },
+        {
+          "id": 93,
+          "offset": "0x1e4e60",
+          "sprite_id": 116,
+          "dialog_id": 80
+        },
+        {
+          "id": 94,
+          "offset": "0x1e4e80",
+          "sprite_id": 113,
+          "dialog_id": 49408
+        },
+        {
+          "id": 95,
+          "offset": "0x1e4f00",
+          "sprite_id": 116,
+          "dialog_id": 63
+        },
+        {
+          "id": 96,
+          "offset": "0x1e4f20",
+          "sprite_id": 113,
+          "dialog_id": 50944
+        },
+        {
+          "id": 97,
+          "offset": "0x1e4fa0",
+          "sprite_id": 97,
+          "dialog_id": 79
+        },
+        {
+          "id": 98,
+          "offset": "0x1e4fc0",
+          "sprite_id": 94,
+          "dialog_id": 49920
+        },
+        {
+          "id": 99,
+          "offset": "0x1e5040",
+          "sprite_id": 116,
+          "dialog_id": 63
+        }
+      ],
+      "treasure": [
+        {
+          "id": 0,
+          "offset": "0x1c0000",
+          "item_id": 3,
+          "quantity": 0
+        },
+        {
+          "id": 1,
+          "offset": "0x1c0010",
+          "item_id": 17,
+          "quantity": 0
+        },
+        {
+          "id": 2,
+          "offset": "0x1c0080",
+          "item_id": 36,
+          "quantity": 0
+        },
+        {
+          "id": 3,
+          "offset": "0x1c0090",
+          "item_id": 52,
+          "quantity": 0
+        },
+        {
+          "id": 4,
+          "offset": "0x1c00a0",
+          "item_id": 42,
+          "quantity": 0
+        },
+        {
+          "id": 5,
+          "offset": "0x1c00b0",
+          "item_id": 10,
+          "quantity": 0
+        },
+        {
+          "id": 6,
+          "offset": "0x1c00f0",
+          "item_id": 3,
+          "quantity": 0
+        },
+        {
+          "id": 7,
+          "offset": "0x1c0100",
+          "item_id": 13,
+          "quantity": 0
+        },
+        {
+          "id": 8,
+          "offset": "0x1c0120",
+          "item_id": 25,
+          "quantity": 0
+        },
+        {
+          "id": 9,
+          "offset": "0x1c0130",
+          "item_id": 71,
+          "quantity": 0
+        },
+        {
+          "id": 10,
+          "offset": "0x1c0170",
+          "item_id": 28,
+          "quantity": 0
+        },
+        {
+          "id": 11,
+          "offset": "0x1c0180",
+          "item_id": 44,
+          "quantity": 0
+        },
+        {
+          "id": 12,
+          "offset": "0x1c0190",
+          "item_id": 29,
+          "quantity": 0
+        },
+        {
+          "id": 13,
+          "offset": "0x1c01a0",
+          "item_id": 64,
+          "quantity": 0
+        },
+        {
+          "id": 14,
+          "offset": "0x1c01e0",
+          "item_id": 61,
+          "quantity": 0
+        },
+        {
+          "id": 15,
+          "offset": "0x1c01f0",
+          "item_id": 68,
+          "quantity": 0
+        },
+        {
+          "id": 16,
+          "offset": "0x1c0230",
+          "item_id": 46,
+          "quantity": 0
+        },
+        {
+          "id": 17,
+          "offset": "0x1c0240",
+          "item_id": 64,
+          "quantity": 0
+        },
+        {
+          "id": 18,
+          "offset": "0x1c02b0",
+          "item_id": 81,
+          "quantity": 0
+        },
+        {
+          "id": 19,
+          "offset": "0x1c02c0",
+          "item_id": 97,
+          "quantity": 0
+        },
+        {
+          "id": 20,
+          "offset": "0x1c0300",
+          "item_id": 84,
+          "quantity": 85
+        },
+        {
+          "id": 21,
+          "offset": "0x1c0350",
+          "item_id": 89,
+          "quantity": 0
+        },
+        {
+          "id": 22,
+          "offset": "0x1c0370",
+          "item_id": 5,
+          "quantity": 0
+        },
+        {
+          "id": 23,
+          "offset": "0x1c0380",
+          "item_id": 77,
+          "quantity": 0
+        },
+        {
+          "id": 24,
+          "offset": "0x1c03c0",
+          "item_id": 5,
+          "quantity": 0
+        },
+        {
+          "id": 25,
+          "offset": "0x1c03f0",
+          "item_id": 93,
+          "quantity": 0
+        },
+        {
+          "id": 26,
+          "offset": "0x1c0410",
+          "item_id": 5,
+          "quantity": 0
+        },
+        {
+          "id": 27,
+          "offset": "0x1c0940",
+          "item_id": 36,
+          "quantity": 0
+        },
+        {
+          "id": 28,
+          "offset": "0x1c0970",
+          "item_id": 17,
+          "quantity": 0
+        },
+        {
+          "id": 29,
+          "offset": "0x1c09e0",
+          "item_id": 36,
+          "quantity": 0
+        },
+        {
+          "id": 30,
+          "offset": "0x1c09f0",
+          "item_id": 52,
+          "quantity": 0
+        },
+        {
+          "id": 31,
+          "offset": "0x1c0a10",
+          "item_id": 17,
+          "quantity": 0
+        },
+        {
+          "id": 32,
+          "offset": "0x1c0a30",
+          "item_id": 33,
+          "quantity": 0
+        },
+        {
+          "id": 33,
+          "offset": "0x1c0a40",
+          "item_id": 49,
+          "quantity": 0
+        },
+        {
+          "id": 34,
+          "offset": "0x1c0a60",
+          "item_id": 22,
+          "quantity": 0
+        },
+        {
+          "id": 35,
+          "offset": "0x1c0ad0",
+          "item_id": 38,
+          "quantity": 0
+        },
+        {
+          "id": 36,
+          "offset": "0x1c0ae0",
+          "item_id": 54,
+          "quantity": 0
+        },
+        {
+          "id": 37,
+          "offset": "0x1c0b20",
+          "item_id": 36,
+          "quantity": 0
+        },
+        {
+          "id": 38,
+          "offset": "0x1c0b30",
+          "item_id": 52,
+          "quantity": 0
+        },
+        {
+          "id": 39,
+          "offset": "0x1c0dc0",
+          "item_id": 5,
+          "quantity": 0
+        },
+        {
+          "id": 40,
+          "offset": "0x1c0df0",
+          "item_id": 93,
+          "quantity": 0
+        },
+        {
+          "id": 41,
+          "offset": "0x1c16b0",
+          "item_id": 33,
+          "quantity": 0
+        },
+        {
+          "id": 42,
+          "offset": "0x1c16c0",
+          "item_id": 49,
+          "quantity": 0
+        },
+        {
+          "id": 43,
+          "offset": "0x1c16d0",
+          "item_id": 7,
+          "quantity": 0
+        },
+        {
+          "id": 44,
+          "offset": "0x1c16e0",
+          "item_id": 22,
+          "quantity": 0
+        },
+        {
+          "id": 45,
+          "offset": "0x1c1700",
+          "item_id": 38,
+          "quantity": 0
+        },
+        {
+          "id": 46,
+          "offset": "0x1c1710",
+          "item_id": 54,
+          "quantity": 0
+        },
+        {
+          "id": 47,
+          "offset": "0x1c17c0",
+          "item_id": 5,
+          "quantity": 0
+        },
+        {
+          "id": 48,
+          "offset": "0x1c2850",
+          "item_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 49,
+          "offset": "0x1c2860",
+          "item_id": 18,
+          "quantity": 19
+        },
+        {
+          "id": 50,
+          "offset": "0x1c28a0",
+          "item_id": 7,
+          "quantity": 0
+        },
+        {
+          "id": 51,
+          "offset": "0x1c28b0",
+          "item_id": 23,
+          "quantity": 0
+        },
+        {
+          "id": 52,
+          "offset": "0x1c2920",
+          "item_id": 93,
+          "quantity": 0
+        },
+        {
+          "id": 53,
+          "offset": "0x1c29e0",
+          "item_id": 74,
+          "quantity": 0
+        },
+        {
+          "id": 54,
+          "offset": "0x1c29f0",
+          "item_id": 90,
+          "quantity": 91
+        },
+        {
+          "id": 55,
+          "offset": "0x1c2b20",
+          "item_id": 27,
+          "quantity": 0
+        },
+        {
+          "id": 56,
+          "offset": "0x1c2bc0",
+          "item_id": 12,
+          "quantity": 13
+        },
+        {
+          "id": 57,
+          "offset": "0x1c2c10",
+          "item_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 58,
+          "offset": "0x1c2c20",
+          "item_id": 18,
+          "quantity": 19
+        },
+        {
+          "id": 59,
+          "offset": "0x1c2c40",
+          "item_id": 3,
+          "quantity": 0
+        },
+        {
+          "id": 60,
+          "offset": "0x1c2c60",
+          "item_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 61,
+          "offset": "0x1c2c70",
+          "item_id": 14,
+          "quantity": 15
+        },
+        {
+          "id": 62,
+          "offset": "0x1c2c90",
+          "item_id": 92,
+          "quantity": 93
+        },
+        {
+          "id": 63,
+          "offset": "0x1c2da0",
+          "item_id": 66,
+          "quantity": 67
+        },
+        {
+          "id": 64,
+          "offset": "0x1c2db0",
+          "item_id": 80,
+          "quantity": 81
+        },
+        {
+          "id": 65,
+          "offset": "0x1c2f20",
+          "item_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 66,
+          "offset": "0x1c2f40",
+          "item_id": 64,
+          "quantity": 65
+        },
+        {
+          "id": 67,
+          "offset": "0x1c3200",
+          "item_id": 10,
+          "quantity": 11
+        },
+        {
+          "id": 68,
+          "offset": "0x1c3210",
+          "item_id": 12,
+          "quantity": 13
+        },
+        {
+          "id": 69,
+          "offset": "0x1c3240",
+          "item_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 70,
+          "offset": "0x1c3800",
+          "item_id": 8,
+          "quantity": 9
+        },
+        {
+          "id": 71,
+          "offset": "0x1c38d0",
+          "item_id": 57,
+          "quantity": 0
+        },
+        {
+          "id": 72,
+          "offset": "0x1c3b10",
+          "item_id": 9,
+          "quantity": 0
+        },
+        {
+          "id": 73,
+          "offset": "0x1c3b20",
+          "item_id": 25,
+          "quantity": 0
+        },
+        {
+          "id": 74,
+          "offset": "0x1c4040",
+          "item_id": 94,
+          "quantity": 95
+        },
+        {
+          "id": 75,
+          "offset": "0x1c4130",
+          "item_id": 94,
+          "quantity": 95
+        },
+        {
+          "id": 76,
+          "offset": "0x1c4790",
+          "item_id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 77,
+          "offset": "0x1c47e0",
+          "item_id": 64,
+          "quantity": 65
+        },
+        {
+          "id": 78,
+          "offset": "0x1c4f10",
+          "item_id": 6,
+          "quantity": 0
+        },
+        {
+          "id": 79,
+          "offset": "0x1c4f20",
+          "item_id": 22,
+          "quantity": 0
+        },
+        {
+          "id": 80,
+          "offset": "0x1c4f40",
+          "item_id": 40,
+          "quantity": 0
+        },
+        {
+          "id": 81,
+          "offset": "0x1c4f50",
+          "item_id": 56,
+          "quantity": 0
+        },
+        {
+          "id": 82,
+          "offset": "0x1c4f60",
+          "item_id": 10,
+          "quantity": 0
+        },
+        {
+          "id": 83,
+          "offset": "0x1c4f70",
+          "item_id": 26,
+          "quantity": 0
+        },
+        {
+          "id": 84,
+          "offset": "0x1c4fb0",
+          "item_id": 72,
+          "quantity": 0
+        },
+        {
+          "id": 85,
+          "offset": "0x1c4fc0",
+          "item_id": 88,
+          "quantity": 0
+        },
+        {
+          "id": 86,
+          "offset": "0x1c5000",
+          "item_id": 64,
+          "quantity": 0
+        },
+        {
+          "id": 87,
+          "offset": "0x1c5010",
+          "item_id": 16,
+          "quantity": 0
+        },
+        {
+          "id": 88,
+          "offset": "0x1c5030",
+          "item_id": 34,
+          "quantity": 0
+        },
+        {
+          "id": 89,
+          "offset": "0x1c5040",
+          "item_id": 50,
+          "quantity": 0
+        },
+        {
+          "id": 90,
+          "offset": "0x1c5050",
+          "item_id": 4,
+          "quantity": 0
+        },
+        {
+          "id": 91,
+          "offset": "0x1c5060",
+          "item_id": 20,
+          "quantity": 0
+        },
+        {
+          "id": 92,
+          "offset": "0x1c5080",
+          "item_id": 96,
+          "quantity": 0
+        },
+        {
+          "id": 93,
+          "offset": "0x1c50a0",
+          "item_id": 66,
+          "quantity": 0
+        },
+        {
+          "id": 94,
+          "offset": "0x1c50b0",
+          "item_id": 82,
+          "quantity": 0
+        },
+        {
+          "id": 95,
+          "offset": "0x1c50d0",
+          "item_id": 100,
+          "quantity": 0
+        },
+        {
+          "id": 96,
+          "offset": "0x1c52d0",
+          "item_id": 10,
+          "quantity": 0
+        },
+        {
+          "id": 97,
+          "offset": "0x1c52e0",
+          "item_id": 26,
+          "quantity": 0
+        },
+        {
+          "id": 98,
+          "offset": "0x1c5320",
+          "item_id": 72,
+          "quantity": 0
+        },
+        {
+          "id": 99,
+          "offset": "0x1c5330",
+          "item_id": 88,
+          "quantity": 0
+        }
+      ],
+      "monster_drops": [
+        {
+          "id": 0,
+          "enemy_id": 85,
+          "common_drop": 84,
+          "rare_drop": 0
+        },
+        {
+          "id": 1,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 2,
+          "enemy_id": 10,
+          "common_drop": 10,
+          "rare_drop": 0
+        },
+        {
+          "id": 3,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 4,
+          "enemy_id": 10,
+          "common_drop": 10,
+          "rare_drop": 0
+        },
+        {
+          "id": 5,
+          "enemy_id": 5,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 6,
+          "enemy_id": 10,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 7,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 8,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 9,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 10,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 11,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 12,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 13,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 14,
+          "enemy_id": 10,
+          "common_drop": 10,
+          "rare_drop": 0
+        },
+        {
+          "id": 15,
+          "enemy_id": 5,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 16,
+          "enemy_id": 10,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 17,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 18,
+          "enemy_id": 15,
+          "common_drop": 15,
+          "rare_drop": 0
+        },
+        {
+          "id": 19,
+          "enemy_id": 15,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 20,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 21,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 22,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 23,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 24,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 25,
+          "enemy_id": 10,
+          "common_drop": 10,
+          "rare_drop": 0
+        },
+        {
+          "id": 26,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 27,
+          "enemy_id": 15,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 28,
+          "enemy_id": 15,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 29,
+          "enemy_id": 15,
+          "common_drop": 15,
+          "rare_drop": 0
+        },
+        {
+          "id": 30,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 31,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 32,
+          "enemy_id": 20,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 33,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 34,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 35,
+          "enemy_id": 5,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 36,
+          "enemy_id": 10,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 37,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 38,
+          "enemy_id": 5,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 39,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 40,
+          "enemy_id": 26,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 41,
+          "enemy_id": 15,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 42,
+          "enemy_id": 5,
+          "common_drop": 15,
+          "rare_drop": 0
+        },
+        {
+          "id": 43,
+          "enemy_id": 5,
+          "common_drop": 15,
+          "rare_drop": 0
+        },
+        {
+          "id": 44,
+          "enemy_id": 5,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 45,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 46,
+          "enemy_id": 5,
+          "common_drop": 5,
+          "rare_drop": 0
+        },
+        {
+          "id": 47,
+          "enemy_id": 11,
+          "common_drop": 63,
+          "rare_drop": 39
+        },
+        {
+          "id": 48,
+          "enemy_id": 3,
+          "common_drop": 0,
+          "rare_drop": 0
+        },
+        {
+          "id": 49,
+          "enemy_id": 56,
+          "common_drop": 40,
+          "rare_drop": 0
+        }
+      ]
     },
     "Chrono Cross": {
       "game": "Chrono Cross",
