@@ -233,6 +233,7 @@ HTML_TEMPLATE = '''
             status.textContent = 'Loading...';
             const games = await fetch('/api/games').then(r => r.json());
             const container = document.getElementById('results');
+            container.innerHTML = '';  // Clear previous results
             
             for (const game of games) {
                 const data = await fetch('/api/' + game).then(r => r.json());
@@ -283,8 +284,8 @@ HTML_TEMPLATE = '''
         }
         
         async function refreshData() {
+            gameData = {};  // Clear cache
             await fetch('/api/refresh').then(r => r.json());
-            document.getElementById('status').textContent = 'Data refreshed!';
             loadGames();
         }
         
