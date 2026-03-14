@@ -339,6 +339,7 @@ HTML_TEMPLATE = '''
     <script>
         console.log('JavaScript loaded successfully - immediate execution');
         let gameData = {};
+        let gamesLoaded = false;
 
         // Simple immediate test
         try {
@@ -359,12 +360,16 @@ HTML_TEMPLATE = '''
         }, 100);
 
         async function loadGames() {
+            if (gamesLoaded) {
+                console.log('Games already loaded, skipping');
+                return;
+            }
             console.log('loadGames called');
             const status = document.getElementById('status') || document.getElementById('connection-status');
             if (status) status.textContent = 'Loading...';
-            
+
             try {
-                const games = await fetch('/api/games').then(r => r.json());
+                const games = [...new Set(await fetch('/api/games').then(r => r.json()))];
                 console.log('Games loaded:', games);
                 const container = document.getElementById('results');
                 container.innerHTML = '';  // Clear previous results
@@ -376,18 +381,19 @@ HTML_TEMPLATE = '''
                     const card = document.createElement('div');
                     card.className = 'game-card';
 
-                    let categories = Object.keys(data).filter(k => Array.isArray(data[k]));
+                    let categories = Object.keys(data).filter(k => Array.isArray(data[k]) && k !== 'platforms');
                     let catsHtml = categories.map(cat =>
                         `<button class="category-btn" onclick="showCategory('${game}', '${cat}')">${cat.replace('_', ' ')} (${data[cat].length})</button>`
                     ).join('');
 
                     card.innerHTML = `
                         <h2>${game}</h2>
-                        <p>Platforms: ${(data.platforms || []).join(', ')}</p>
+                        <p>Platforms: ${[...new Set(data.platforms || [])].join(', ')}</p>
                         <div style="margin-top:15px">${catsHtml}</div>
                     `;
                     container.appendChild(card);
                 }
+                gamesLoaded = true;
                 if (status) status.innerHTML = '🔗 Connected';
             } catch (e) {
                 console.error('Failed to load games:', e);
