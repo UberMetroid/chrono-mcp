@@ -932,11 +932,12 @@ HTML_TEMPLATE = '''
                         `;
 
                         matches.slice(0, 10).forEach((match, idx) => {
-                            const matchText = match.match.length > 100 ? match.match.substring(0, 100) + '...' : match.match;
+                            const item = match.item || {};
+                            const itemName = item.name || JSON.stringify(item).substring(0, 50);
+                            const matchText = itemName.length > 100 ? itemName.substring(0, 100) + '...' : itemName;
                             html += `
                                 <div class="search-result-item clickable-item" onclick="showSearchResult('${gameName}', '${cat}', ${idx})">
                                     <div class="result-text">${matchText}</div>
-                                    ${match.score ? `<div class="result-score">Match: ${(match.score * 100).toFixed(0)}%</div>` : ''}
                                 </div>
                             `;
                         });
@@ -1452,15 +1453,16 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
             const gameCategoryMatches = matches.filter(m => m.game === game && m.category === category);
             const targetMatch = gameCategoryMatches[index];
 
-            if (targetMatch) {
+            if (targetMatch && targetMatch.item) {
                 document.getElementById('modal-title').textContent = `${game} - ${category}`;
 
                 let content = `<h4>Search Result Details</h4>`;
 
-                // Show the matched field and value
-                content += `<p><strong>Field:</strong> ${targetMatch.field}</p>`;
-                content += `<p><strong>Match:</strong> ${targetMatch.match}</p>`;
-                content += `<p><strong>Score:</strong> ${(targetMatch.score * 100).toFixed(1)}%</p>`;
+                // Show the item details
+                const item = targetMatch.item;
+                for (const [key, value] of Object.entries(item)) {
+                    content += `<p><strong>${key}:</strong> ${value}</p>`;
+                }
 
                 // Try to get full item details from the API
                 try {
