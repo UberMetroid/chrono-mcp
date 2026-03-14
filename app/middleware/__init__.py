@@ -80,9 +80,13 @@ def setup_request_logging(app: Flask):
 
     @app.after_request
     def log_response_info(response: Response) -> Response:
-        duration = datetime.utcnow() - g.start_time
-        duration_ms = duration.total_seconds() * 1000
-        logger.info(f"Response: {response.status_code} [ID: {g.get('request_id', 'unknown')}] Duration: {duration_ms:.2f}ms")
+        start_time = getattr(g, 'start_time', None)
+        if start_time:
+            duration = datetime.utcnow() - start_time
+            duration_ms = duration.total_seconds() * 1000
+            logger.info(f"Response: {response.status_code} [ID: {g.get('request_id', 'unknown')}] Duration: {duration_ms:.2f}ms")
+        else:
+            logger.info(f"Response: {response.status_code} [ID: {g.get('request_id', 'unknown')}]")
         response.headers['X-Request-ID'] = g.get('request_id', 'unknown')
         return response
 
