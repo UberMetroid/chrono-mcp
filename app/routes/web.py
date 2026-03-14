@@ -91,6 +91,17 @@ HTML_TEMPLATE = '''
         .code-block { background: var(--bg-tertiary); padding: 15px; margin: 10px 0; border-radius: 4px; }
         .code-block code { font-family: 'Courier New', monospace; background: var(--border); padding: 2px 4px; border-radius: 3px; display: block; margin-top: 5px; }
 
+        .plot-card { background: var(--bg-secondary); padding: 20px; border-radius: 12px;
+                     box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .plot-header { margin-bottom: 15px; }
+        .plot-header h3 { color: var(--accent); margin-bottom: 8px; }
+        .plot-stats { display: flex; gap: 15px; flex-wrap: wrap; font-size: 14px; opacity: 0.8; }
+        .plot-stats span { background: var(--border); padding: 4px 8px; border-radius: 4px; }
+        .plot-description { color: var(--text); line-height: 1.5; margin-bottom: 15px; }
+        .plot-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+        .plot-actions .btn.primary { background: var(--accent); }
+        .plot-actions .btn.secondary { background: var(--border); }
+
         .footer { background: var(--bg-tertiary); border-top: 1px solid var(--border); margin-top: 40px; }
         .footer-content { display: flex; justify-content: space-between; padding: 30px 20px; flex-wrap: wrap; gap: 20px; }
         .footer-section { flex: 1; min-width: 200px; }
@@ -147,7 +158,7 @@ HTML_TEMPLATE = '''
     <nav class="nav">
         <button class="nav-btn active" onclick="showSection('games')">🎮 Games</button>
         <button class="nav-btn" onclick="showSection('search')">🔍 Search</button>
-        <button class="nav-btn" onclick="showSection('plots')">📖 Stories</button>
+        <button class="nav-btn" onclick="showSection('plots')">📚 Plot Database</button>
         <button class="nav-btn" onclick="showSection('api')">🔌 API</button>
     </nav>
 
@@ -161,7 +172,7 @@ HTML_TEMPLATE = '''
     </div>
 
     <div class="section">
-        <h2 onclick="toggleSection('plots')" style="cursor:pointer">📖 Plot/Story ▾</h2>
+        <h2 onclick="toggleSection('plots')" style="cursor:pointer">📚 Complete Plot Database ▾</h2>
         <div id="plots-section" style="display:none">
             <div id="plots" class="games"></div>
         </div>
@@ -258,9 +269,39 @@ HTML_TEMPLATE = '''
 
                 for (const plot of data.plots) {
                     const card = document.createElement('div');
-                    card.className = 'game-card';
+                    card.className = 'plot-card';
                     const plotId = plot.file.split('/').pop().replace('_plot_tree', '');
-                    card.innerHTML = `<h3>${plot.game}</h3><button class="btn" onclick="showPlot('${plotId}')">View Story</button>`;
+
+                    // Get basic plot info
+                    fetch(`/api/plot/${plotId}`).then(r => r.json()).then(plotData => {
+                        const description = plotData.description || 'No description available';
+                        const shortDesc = description.length > 150 ? description.substring(0, 150) + '...' : description;
+
+                        const eras = plotData.eras ? plotData.eras.length : 0;
+                        const worlds = plotData.worlds ? plotData.worlds.length : 0;
+                        const episodes = plotData.episodes ? plotData.episodes.length : 0;
+                        const characters = plotData.character_arcs ? plotData.character_arcs.length : 0;
+
+                        card.innerHTML = `
+                            <div class="plot-header">
+                                <h3>${plot.game}</h3>
+                                <div class="plot-stats">
+                                    ${eras > 0 ? `<span>📅 ${eras} Era${eras > 1 ? 's' : ''}</span>` : ''}
+                                    ${worlds > 0 ? `<span>🌍 ${worlds} World${worlds > 1 ? 's' : ''}</span>` : ''}
+                                    ${episodes > 0 ? `<span>🎭 ${episodes} Episode${episodes > 1 ? 's' : ''}</span>` : ''}
+                                    ${characters > 0 ? `<span>👥 ${characters} Character${characters > 1 ? 's' : ''}</span>` : ''}
+                                </div>
+                            </div>
+                            <p class="plot-description">${shortDesc}</p>
+                            <div class="plot-actions">
+                                <button class="btn primary" onclick="showPlot('${plotId}')">📖 View Full Story</button>
+                                <button class="btn secondary" onclick="showPlotOutline('${plotId}')">📋 Quick Outline</button>
+                            </div>
+                        `;
+                    }).catch(e => {
+                        card.innerHTML = `<h3>${plot.game}</h3><p>Error loading plot data</p><button class="btn" onclick="showPlot('${plotId}')">View Story</button>`;
+                    });
+
                     container.appendChild(card);
                 }
             } catch(e) {
@@ -309,6 +350,65 @@ HTML_TEMPLATE = '''
             }
 
             document.getElementById('modal-title').textContent = data.game + ' - Plot Tree';
+                document.getElementById('modal-body').innerHTML = html;
+                document.getElementById('modal').style.display = 'block';
+            }
+        }
+
+        async function showPlotOutline(plotId) {
+            const data = await fetch(`/api/plot/${plotId}`).then(r => r.json());
+            document.getElementById('modal-title').textContent = `${data.game} - Story Outline`;
+
+            let html = `<p><strong>${data.description}</strong></p>`;
+
+            // Quick overview
+            if (data.eras) {
+                html += '<h4>📅 Timeline Overview</h4><ul>';
+                data.eras.slice(0, 3).forEach(era => {
+                    html += `<li><strong>${era.name}</strong> (${era.year}): ${era.description}</li>`;
+                });
+                if (data.eras.length > 3) html += '<li>... and more eras</li>';
+                html += '</ul>';
+            }
+
+            if (data.worlds) {
+                html += '<h4>🌍 Parallel Worlds</h4><ul>';
+                data.worlds.forEach(world => {
+                    html += `<li><strong>${world.name}</strong>: ${world.description}</li>`;
+                });
+                html += '</ul>';
+            }
+
+            if (data.episodes) {
+                html += '<h4>🎭 Story Episodes</h4><ul>';
+                data.episodes.forEach(ep => {
+                    html += `<li><strong>${ep.name}</strong>: ${ep.description}</li>`;
+                });
+                html += '</ul>';
+            }
+
+            if (data.character_arcs) {
+                html += '<h4>👥 Key Characters</h4><ul>';
+                data.character_arcs.slice(0, 5).forEach(char => {
+                    const shortArc = char.arc.length > 100 ? char.arc.substring(0, 100) + '...' : char.arc;
+                    html += `<li><strong>${char.character}</strong>: ${shortArc}</li>`;
+                });
+                if (data.character_arcs.length > 5) html += '<li>... and more characters</li>';
+                html += '</ul>';
+            }
+
+            if (data.endings) {
+                html += '<h4>🏁 Possible Endings</h4><ul>';
+                data.endings.forEach(ending => {
+                    html += `<li><strong>${ending.name}</strong>: ${ending.description}</li>`;
+                });
+                html += '</ul>';
+            }
+
+            html += '<div style="margin-top:20px; text-align:center;">';
+            html += `<button class="btn" onclick="showPlot('${plotId}')">📖 View Complete Story Details</button>`;
+            html += '</div>';
+
             document.getElementById('modal-body').innerHTML = html;
             document.getElementById('modal').style.display = 'block';
         }
