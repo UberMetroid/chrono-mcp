@@ -296,6 +296,7 @@ HTML_TEMPLATE = '''
     <!-- Navigation -->
     <nav class="nav">
         <button class="nav-btn active" data-section="home">🏠 Home</button>
+        <button class="nav-btn" data-section="games">🎮 Games</button>
         <button class="nav-btn" data-section="api">🔌 API Explorer</button>
         <button class="nav-btn" data-section="search">🔍 Search</button>
         <button class="nav-btn" data-section="analytics">📈 Analytics</button>
@@ -741,16 +742,20 @@ HTML_TEMPLATE = '''
                     document.querySelector('.nav-btn:nth-child(1)').classList.add('active');
                     document.getElementById('results').innerHTML = '<div style="text-align:center;padding:40px"><h2>Welcome to Chrono MCP</h2><p>Select a section from the navigation above.</p></div>';
                     break;
-                case 'api':
+                case 'games':
                     document.querySelector('.nav-btn:nth-child(2)').classList.add('active');
+                    loadGames();
+                    break;
+                case 'api':
+                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
                     showAPIInterface();
                     break;
                 case 'search':
-                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
+                    document.querySelector('.nav-btn:nth-child(4)').classList.add('active');
                     showSearchInterface();
                     break;
                 case 'analytics':
-                    document.querySelector('.nav-btn:nth-child(4)').classList.add('active');
+                    document.querySelector('.nav-btn:nth-child(5)').classList.add('active');
                     showAnalyticsInterface();
                     break;
             }
@@ -1546,8 +1551,8 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
         // Initialize immediately - DOM should be ready since script is at end of body
         console.log('About to initialize...');
         try {
-            // Initialize to home section
-            showSection('home');
+            // Initialize to games section by default
+            showSection('games');
             loadStats();
             console.log('Initialization completed');
         } catch (e) {
@@ -1568,34 +1573,6 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                     <span>🤖 MCP Server</span>
                     <span>🔍 Full-text Search</span>
                 </div>
-            </div>
-
-            <div class="footer-section">
-                <h4>📚 Games Covered</h4>
-                <div class="game-links">
-                    <div class="game-link" onclick="searchForGame('Chrono Trigger')">
-                        <strong>Chrono Trigger</strong> (1995)<br>
-                        <small>SNES • RPG • Time Travel</small>
-                    </div>
-                    <div class="game-link" onclick="searchForGame('Chrono Cross')">
-                        <strong>Chrono Cross</strong> (1999)<br>
-                        <small>PS1 • Epic • Parallel Worlds</small>
-                    </div>
-                    <div class="game-link" onclick="searchForGame('Radical Dreamers')">
-                        <strong>Radical Dreamers</strong> (1996)<br>
-                        <small>Satellaview • Action • Mystery</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-section">
-                <h4>🔗 Quick Links</h4>
-                <ul>
-                    <li><a href="#" onclick="showSection('games')">🎮 Browse Games</a></li>
-                    <li><a href="#" onclick="showSection('search')">🔍 Advanced Search</a></li>
-                    <li><a href="#" onclick="showSection('plots')">📚 Plot Database</a></li>
-                    <li><a href="#" onclick="showSection('api')">🚀 API Documentation</a></li>
-                </ul>
             </div>
 
             <div class="footer-section">
