@@ -16,9 +16,12 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Union
 from flask import Flask, Response, g, jsonify, render_template_string, request
 from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 # Type aliases
-JSON = Union[Dict[str, Any], List[Any]]
+JSON = Dict[str, Any]
+JSONList = List[Any]
 
 # Configure logging
 logging.basicConfig(
@@ -29,8 +32,21 @@ logger = logging.getLogger("chrono_web")
 
 app = Flask(__name__)
 
-# Enable CORS for all routes
-CORS(app, resources={r"/api/*": {"origins": "*"}})
+# Rate limiting
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"]
+)
+
+# Enable CORS with restrictions
+CORS(app, resources={
+    r"/api/*": {
+        "origins": ["http://localhost:5000", "http://127.0.0.1:5000"],
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type", "X-Request-ID"]
+    }
+})
 
 # Request ID middleware
 @app.before_request
@@ -60,7 +76,7 @@ PUBLIC_ENDPOINTS: set = {'/health', '/api/ready', '/api/version', '/', '/api/gam
                    '/api/search', '/api/export', '/data/art', '/data/audio', '/api/categories'}
 
 # Cache globals
-_data_cache: Optional[JSON] = None
+_data_cache: Optional[Dict[str, Any]] = None
 _load_error: Optional[str] = None
 _cache_hits: int = 0
 _cache_misses: int = 0
@@ -97,7 +113,7 @@ MAX_RETRIES = 3
 RETRY_DELAY = 0.5  # seconds
 
 # Load data with caching and retry
-def load_data(force_reload=False):
+def load_data(force_reload=False) -> Optional[Dict[str, Any]]:
     """Load all game data with retry logic"""
     global _data_cache, _load_error, _cache_hits, _cache_misses
     
@@ -242,14 +258,18 @@ def index():
 def api_games():
     """Get all games"""
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     return jsonify(list(data.get("games", {}).keys()))
 
 @app.route('/api/categories')
 def api_categories():
     """Get all available categories across all games"""
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     all_categories = set()
-    
+
     for game_data in data.get("games", {}).values():
         for key, value in game_data.items():
             if isinstance(value, list):
@@ -264,8 +284,10 @@ def api_game(game):
     game = validate_game_name(game)
     if not game:
         return jsonify({"error": "Invalid game name"})
-    
+
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     games = data.get("games", {})
     
     # Handle URL encoding
@@ -287,8 +309,10 @@ def api_export_game_json(game):
     game = validate_game_name(game)
     if not game:
         return jsonify({"error": "Invalid game name"})
-    
+
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     games = data.get("games", {})
     
     game_key = game.replace("%20", " ")
@@ -306,11 +330,13 @@ def api_export_category_json(game, category):
     """Export category as JSON"""
     game = validate_game_name(game)
     category = sanitize_input(category, max_length=50)
-    
+
     if not game or not category:
         return jsonify({"error": "Invalid parameters"})
-    
+
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     games = data.get("games", {})
     
     game_key = game.replace("%20", " ")
@@ -331,14 +357,16 @@ def api_export_category_csv(game, category):
     """Export category as CSV"""
     import csv
     import io
-    
+
     game = validate_game_name(game)
     category = sanitize_input(category, max_length=50)
-    
+
     if not game or not category:
         return jsonify({"error": "Invalid parameters"})
-    
+
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     games = data.get("games", {})
     
     game_key = game.replace("%20", " ")
@@ -383,8 +411,10 @@ def api_category(game, category):
     
     if not game or not category:
         return jsonify({"error": "Invalid parameters"})
-    
+
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available"})
     games = data.get("games", {})
     
     game_key = game.replace("%20", " ")
@@ -417,6 +447,7 @@ def api_category(game, category):
     return jsonify({"error": "Not found"})
 
 @app.route('/api/search')
+@limiter.limit("10 per minute")
 def api_search():
     """Search across all games with fuzzy matching"""
     import difflib
@@ -436,8 +467,10 @@ def api_search():
         return jsonify({"query": "", "matches": [], "error": "Empty query"})
     
     data = load_data()
+    if data is None:
+        return jsonify({"error": "Data not available", "matches": []})
     results = {"query": query, "matches": [], "count": 0}
-    
+
     for game_name, game_data in data.get("games", {}).items():
         # Filter by game if specified
         if game_filter and game_filter.lower() not in game_name.lower():
