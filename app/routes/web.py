@@ -340,6 +340,7 @@ HTML_TEMPLATE = '''
         console.log('JavaScript loaded successfully - immediate execution');
         let gameData = {};
         let gamesLoaded = false;
+        let plotsLoaded = false;
 
         // Simple immediate test
         try {
@@ -435,10 +436,18 @@ HTML_TEMPLATE = '''
 
         function toggleSection(id) {
             const el = document.getElementById(id + '-section');
-            el.style.display = el.style.display === 'none' ? 'block' : 'none';
+            const wasHidden = el.style.display === 'none';
+            el.style.display = wasHidden ? 'block' : 'none';
+            if (id === 'plots' && wasHidden && !plotsLoaded) {
+                loadPlots();
+            }
         }
 
         async function loadPlots() {
+            if (plotsLoaded) {
+                console.log('Plots already loaded, skipping');
+                return;
+            }
             try {
                 const response = await fetch('/api/plot');
                 const data = await response.json();
@@ -492,6 +501,7 @@ HTML_TEMPLATE = '''
 
                     container.appendChild(card);
                 }
+                plotsLoaded = true;
             } catch(e) {
                 console.error('Failed to load plots:', e);
             }
@@ -730,6 +740,7 @@ HTML_TEMPLATE = '''
                 case 'plots':
                     document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
                     document.getElementById('plots-section').style.display = 'block';
+                    loadPlots();
                     break;
                 case 'api':
                     document.querySelector('.nav-btn:nth-child(4)').classList.add('active');

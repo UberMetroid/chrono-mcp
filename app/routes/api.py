@@ -33,8 +33,8 @@ def ready():
     """Readiness check"""
     data = load_data()
     if data is None:
-        return jsonify({"status": "not ready", "error": "Data not loaded"}), 503
-    return jsonify({"status": "ready"})
+        return jsonify({"ready": False, "status": "not ready", "error": "Data not loaded"}), 503
+    return jsonify({"ready": True, "status": "ready"})
 
 @api_bp.route('/version')
 def version():
@@ -142,6 +142,83 @@ def api_category(game, category):
     except Exception as e:
         logger.error(f"Failed to get category {game}/{category}: {e}")
         return jsonify({"error": "Database error"}), 500
+
+# ============ PLOT ROUTES ============
+
+@api_bp.route('/plot')
+def api_plot_list():
+    """Get list of available plot files"""
+    try:
+        # For now, return dummy data since plot extraction is not implemented
+        plots = [
+            {
+                "file": "ct_plot_tree.json",
+                "game": "Chrono Trigger",
+                "description": "Complete plot tree for Chrono Trigger"
+            },
+            {
+                "file": "cc_plot_tree.json",
+                "game": "Chrono Cross",
+                "description": "Complete plot tree for Chrono Cross"
+            },
+            {
+                "file": "rd_plot_tree.json",
+                "game": "Radical Dreamers",
+                "description": "Complete plot tree for Radical Dreamers"
+            }
+        ]
+        return jsonify({"plots": plots})
+    except Exception as e:
+        logger.error(f"Failed to get plot list: {e}")
+        return jsonify({"error": "Database error"}), 500
+
+@api_bp.route('/plot/<plot_id>')
+def api_plot_detail(plot_id):
+    """Get detailed plot data"""
+    try:
+        # Dummy data for now
+        if plot_id == "ct_plot_tree":
+            data = {
+                "game": "Chrono Trigger",
+                "description": "The complete storyline of Chrono Trigger",
+                "eras": [
+                    {"name": "Present", "year": "1000 AD", "description": "The story begins in the present day"},
+                    {"name": "Middle Ages", "year": "600 AD", "description": "Journey to the medieval period"}
+                ],
+                "character_arcs": [
+                    {"character": "Crono", "arc": "From ordinary boy to legendary hero"}
+                ],
+                "endings": [
+                    {"name": "Good Ending", "description": "Save Lucca and defeat Lavos"}
+                ]
+            }
+        elif plot_id == "cc_plot_tree":
+            data = {
+                "game": "Chrono Cross",
+                "description": "The complex narrative of Chrono Cross",
+                "worlds": [
+                    {"name": "Home World", "description": "The primary timeline"}
+                ],
+                "character_arcs": [
+                    {"character": "Serge", "arc": "Dual existence between worlds"}
+                ],
+                "endings": [
+                    {"name": "Good Ending", "description": "Reunite the dimensions"}
+                ]
+            }
+        else:
+            data = {
+                "game": "Radical Dreamers",
+                "description": "The mystery adventure of Radical Dreamers",
+                "episodes": [
+                    {"name": "The Mansion", "description": "Investigate the mysterious mansion"}
+                ]
+            }
+
+        return jsonify(data)
+    except Exception as e:
+        logger.error(f"Failed to get plot {plot_id}: {e}")
+        return jsonify({"error": "Plot not found"}), 404
 
 # ============ EXPORT ROUTES ============
 
