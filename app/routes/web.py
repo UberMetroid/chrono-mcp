@@ -371,6 +371,9 @@ HTML_TEMPLATE = '''
 
             try {
                 const gamesResponse = await fetch('/api/games');
+                if (!gamesResponse.ok) {
+                    throw new Error('Failed to fetch games: ' + gamesResponse.status);
+                }
                 const gamesList = await gamesResponse.json();
                 const games = [...new Set(gamesList)];
                 console.log('Games loaded:', games);
@@ -408,6 +411,10 @@ HTML_TEMPLATE = '''
                 console.log('All games loaded successfully');
             } catch (e) {
                 console.error('Failed to load games:', e);
+                const container = document.getElementById('results');
+                if (container) {
+                    container.innerHTML = `<p style="color:red">Error loading games: ${e.message}</p>`;
+                }
                 if (status) status.textContent = 'Failed to load';
             }
         }
@@ -1384,29 +1391,30 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 return;
             }
 
-            const response = await fetch('/api/search?q=' + encodeURIComponent(query));
-            const results = await response.json();
-            const container = document.getElementById('results');
-            
-            if (results.error) {
-                container.innerHTML = `<h2>Search Error</h2><p>${results.error}</p>`;
-                return;
-            }
-            
-            container.innerHTML = `<h2>Search Results for "${query}"</h2>`;
+            try {
+                const response = await fetch('/api/search?q=' + encodeURIComponent(query));
+                const results = await response.json();
+                const container = document.getElementById('results');
+                
+                if (results.error) {
+                    container.innerHTML = `<h2>Search Error</h2><p>${results.error}</p>`;
+                    return;
+                }
+                
+                container.innerHTML = `<h2>Search Results for "${query}"</h2>`;
 
-            if (!results.matches || results.matches.length === 0) {
-                container.innerHTML += '<p>No results found.</p>';
-                return;
-            }
+                if (!results.matches || results.matches.length === 0) {
+                    container.innerHTML += '<p>No results found.</p>';
+                    return;
+                }
 
-            // Group by game then category
-            const byGame = {};
-            for (const m of results.matches) {
-                if (!byGame[m.game]) byGame[m.game] = {};
-                if (!byGame[m.game][m.category]) byGame[m.game][m.category] = [];
-                byGame[m.game][m.category].push(m);
-            }
+                // Group by game then category
+                const byGame = {};
+                for (const m of results.matches) {
+                    if (!byGame[m.game]) byGame[m.game] = {};
+                    if (!byGame[m.game][m.category]) byGame[m.game][m.category] = [];
+                    byGame[m.game][m.category].push(m);
+                }
 
             for (const [game, categories] of Object.entries(byGame)) {
                 const card = document.createElement('div');
@@ -1445,6 +1453,10 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                     card.appendChild(catSection);
                 }
                 container.appendChild(card);
+            }
+            } catch (e) {
+                console.error('Search error:', e);
+                document.getElementById('results').innerHTML = `<h2>Search Error</h2><p>Error: ${e.message}</p>`;
             }
         }
 
