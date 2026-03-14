@@ -295,10 +295,8 @@ HTML_TEMPLATE = '''
 
     <!-- Navigation -->
     <nav class="nav">
-        <button class="nav-btn active" data-section="games">🎮 Games</button>
+        <button class="nav-btn active" data-section="api">🔌 API Explorer</button>
         <button class="nav-btn" data-section="search">🔍 Search</button>
-        <button class="nav-btn" data-section="plots">📚 Plot Database</button>
-        <button class="nav-btn" data-section="api">🔌 API</button>
         <button class="nav-btn" data-section="analytics">📈 Analytics</button>
     </nav>
 
@@ -315,15 +313,11 @@ HTML_TEMPLATE = '''
     </div>
 
     <div class="search-box">
-        <input type="text" id="search" placeholder="Search all games... (e.g., 'sword', 'fire', 'crono')"
+        <input type="text" id="search" placeholder="Search the database... (e.g., 'crono', 'sword', 'fire')"
                onkeyup="search(this.value)">
     </div>
 
     <div id="results" class="games"></div>
-
-    <div id="plots-section" style="display:none">
-        <div id="plots" class="games"></div>
-    </div>
 
     <div id="modal" class="modal">
         <div class="modal-content">
@@ -739,29 +733,19 @@ HTML_TEMPLATE = '''
 
             // Hide all sections
             document.getElementById('results').innerHTML = '';
-            document.getElementById('plots-section').style.display = 'none';
             document.getElementById('search').value = '';
 
             switch(section) {
-                case 'games':
+                case 'api':
                     document.querySelector('.nav-btn:nth-child(1)').classList.add('active');
-                    loadGames();
+                    showAPIInterface();
                     break;
                 case 'search':
                     document.querySelector('.nav-btn:nth-child(2)').classList.add('active');
                     showSearchInterface();
                     break;
-                case 'plots':
-                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
-                    document.getElementById('plots-section').style.display = 'block';
-                    loadPlots();
-                    break;
-                case 'api':
-                    document.querySelector('.nav-btn:nth-child(4)').classList.add('active');
-                    showAPIInterface();
-                    break;
                 case 'analytics':
-                    document.querySelector('.nav-btn:nth-child(5)').classList.add('active');
+                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
                     showAnalyticsInterface();
                     break;
             }
@@ -1557,8 +1541,8 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
         // Initialize immediately - DOM should be ready since script is at end of body
         console.log('About to initialize...');
         try {
-            // Initialize to games section - hide plots by default
-            showSection('games');
+            // Initialize to API section
+            showSection('api');
             loadStats();
             console.log('Initialization completed');
         } catch (e) {
