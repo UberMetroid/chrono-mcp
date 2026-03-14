@@ -1370,7 +1370,6 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
         async function search(query) {
             if (query.length < 2) {
                 document.getElementById('results').innerHTML = '';
-                loadGames();
                 return;
             }
 
@@ -1528,8 +1527,7 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
         // Initialize immediately - DOM should be ready since script is at end of body
         console.log('About to initialize...');
         try {
-            initNavigation();
-            loadGames();
+            // Don't call loadGames here - it's already called in DOMContentLoaded
             loadPlots();
             loadStats();
             console.log('Initialization completed');

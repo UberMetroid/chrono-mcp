@@ -370,68 +370,6 @@ def api_search():
         logger.error(f"Search failed: {e}")
         return jsonify({"error": "Search error", "matches": []}), 500
 
-# ============ PLOT ROUTES ============
-
-@api_bp.route('/plot')
-def api_plot():
-    """List available plot trees"""
-    import os
-    extracted_dir = config.EXTRACTED_DIR
-    if not extracted_dir.exists():
-        return jsonify({"plots": []})
-
-    plots = []
-    for f in os.listdir(extracted_dir):
-        if f.endswith('_plot_tree.json'):
-            game_name = f.replace('_plot_tree.json', '').replace('_', ' ').title()
-            if game_name == 'Ct':
-                game_name = 'Chrono Trigger'
-            elif game_name == 'Cc':
-                game_name = 'Chrono Cross'
-            elif game_name == 'Rd':
-                game_name = 'Radical Dreamers'
-            plots.append({
-                "game": game_name,
-                "file": f"/api/plot/{f.replace('.json', '')}"
-            })
-
-    return jsonify({"plots": plots})
-
-@api_bp.route('/plot/<plot_id>')
-def api_plot_detail(plot_id: str):
-    """Get specific plot tree"""
-    import os
-
-    # Sanitize and validate
-    plot_id = sanitize_input(plot_id, max_length=50)
-    if '..' in plot_id or '/' in plot_id:
-        return jsonify({"error": "Invalid plot ID"})
-
-    # Map IDs to filenames
-    id_map = {
-        "ct": "ct_plot_tree.json",
-        "chrono_trigger": "ct_plot_tree.json",
-        "cc": "cc_plot_tree.json",
-        "chrono_cross": "cc_plot_tree.json",
-        "rd": "rd_plot_tree.json",
-        "radical_dreamers": "rd_plot_tree.json"
-    }
-
-    filename = id_map.get(plot_id.lower())
-    if not filename:
-        return jsonify({"error": "Plot not found"})
-
-    filepath = config.EXTRACTED_DIR / filename
-    if not filepath.exists():
-        return jsonify({"error": "Plot file not found"})
-
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return jsonify(data)
-    except Exception as e:
-        return jsonify({"error": str(e)})
-
 # ============ MEDIA ROUTES ============
 
 @api_bp.route('/images')
