@@ -272,40 +272,57 @@ HTML_TEMPLATE = '''
                     card.className = 'plot-card';
                     const plotId = plot.file.split('/').pop().replace('_plot_tree', '');
 
-                    // Get basic plot info
-                    fetch(`/api/plot/${plotId}`).then(r => r.json()).then(plotData => {
-                        const description = plotData.description || 'No description available';
-                        const shortDesc = description.length > 150 ? description.substring(0, 150) + '...' : description;
-
-                        const eras = plotData.eras ? plotData.eras.length : 0;
-                        const worlds = plotData.worlds ? plotData.worlds.length : 0;
-                        const episodes = plotData.episodes ? plotData.episodes.length : 0;
-                        const characters = plotData.character_arcs ? plotData.character_arcs.length : 0;
-
-                        card.innerHTML = `
-                            <div class="plot-header">
-                                <h3>${plot.game}</h3>
-                                <div class="plot-stats">
-                                    ${eras > 0 ? `<span>📅 ${eras} Era${eras > 1 ? 's' : ''}</span>` : ''}
-                                    ${worlds > 0 ? `<span>🌍 ${worlds} World${worlds > 1 ? 's' : ''}</span>` : ''}
-                                    ${episodes > 0 ? `<span>🎭 ${episodes} Episode${episodes > 1 ? 's' : ''}</span>` : ''}
-                                    ${characters > 0 ? `<span>👥 ${characters} Character${characters > 1 ? 's' : ''}</span>` : ''}
-                                </div>
+                    // Create initial card structure
+                    card.innerHTML = `
+                        <div class="plot-header">
+                            <h3>${plot.game}</h3>
+                            <div class="plot-stats">
+                                <span>📚 Loading story details...</span>
                             </div>
-                            <p class="plot-description">${shortDesc}</p>
-                            <div class="plot-actions">
-                                <button class="btn primary" onclick="showPlot('${plotId}')">📖 View Full Story</button>
-                                <button class="btn secondary" onclick="showPlotOutline('${plotId}')">📋 Quick Outline</button>
-                            </div>
-                        `;
-                    }).catch(e => {
-                        card.innerHTML = `<h3>${plot.game}</h3><p>Error loading plot data</p><button class="btn" onclick="showPlot('${plotId}')">View Story</button>`;
-                    });
+                        </div>
+                        <p class="plot-description">Click to explore the complete plot and story arcs for ${plot.game}.</p>
+                        <div class="plot-actions">
+                            <button class="btn primary" onclick="showPlot('${plotId}')">📖 View Full Story</button>
+                            <button class="btn secondary" onclick="showPlotOutline('${plotId}')">📋 Quick Outline</button>
+                        </div>
+                    `;
+
+                    // Load enhanced info asynchronously
+                    loadPlotCardInfo(card, plotId, plot.game);
 
                     container.appendChild(card);
                 }
             } catch(e) {
                 console.error('Failed to load plots:', e);
+            }
+        }
+
+        async function loadPlotCardInfo(card, plotId, gameName) {
+            try {
+                const response = await fetch(`/api/plot/${plotId}`);
+                if (!response.ok) return;
+
+                const plotData = await response.json();
+                const description = plotData.description || 'No description available';
+                const shortDesc = description.length > 150 ? description.substring(0, 150) + '...' : description;
+
+                const eras = plotData.eras ? plotData.eras.length : 0;
+                const worlds = plotData.worlds ? plotData.worlds.length : 0;
+                const episodes = plotData.episodes ? plotData.episodes.length : 0;
+                const characters = plotData.character_arcs ? plotData.character_arcs.length : 0;
+
+                const statsHtml = [];
+                if (eras > 0) statsHtml.push(`<span>📅 ${eras} Era${eras > 1 ? 's' : ''}</span>`);
+                if (worlds > 0) statsHtml.push(`<span>🌍 ${worlds} World${worlds > 1 ? 's' : ''}</span>`);
+                if (episodes > 0) statsHtml.push(`<span>🎭 ${episodes} Episode${episodes > 1 ? 's' : ''}</span>`);
+                if (characters > 0) statsHtml.push(`<span>👥 ${characters} Character${characters > 1 ? 's' : ''}</span>`);
+
+                card.querySelector('.plot-stats').innerHTML = statsHtml.join('');
+                card.querySelector('.plot-description').textContent = shortDesc;
+
+            } catch (e) {
+                console.log(`Could not load enhanced info for ${gameName}:`, e);
+                // Keep the default content
             }
         }
 
