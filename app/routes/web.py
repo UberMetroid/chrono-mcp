@@ -295,11 +295,11 @@ HTML_TEMPLATE = '''
 
     <!-- Navigation -->
     <nav class="nav">
-        <button class="nav-btn active" onclick="showSection('games')">🎮 Games</button>
-        <button class="nav-btn" onclick="showSection('search')">🔍 Search</button>
-        <button class="nav-btn" onclick="showSection('plots')">📚 Plot Database</button>
-        <button class="nav-btn" onclick="showSection('api')">🔌 API</button>
-        <button class="nav-btn" onclick="showSection('analytics')">📈 Analytics</button>
+        <button class="nav-btn active" data-section="games">🎮 Games</button>
+        <button class="nav-btn" data-section="search">🔍 Search</button>
+        <button class="nav-btn" data-section="plots">📚 Plot Database</button>
+        <button class="nav-btn" data-section="api">🔌 API</button>
+        <button class="nav-btn" data-section="analytics">📈 Analytics</button>
     </nav>
 
     <div class="stats-bar" id="stats-bar">
@@ -370,13 +370,22 @@ HTML_TEMPLATE = '''
             if (status) status.textContent = 'Loading...';
 
             try {
-                const games = [...new Set(await fetch('/api/games').then(r => r.json()))];
+                const gamesResponse = await fetch('/api/games');
+                const gamesList = await gamesResponse.json();
+                const games = [...new Set(gamesList)];
                 console.log('Games loaded:', games);
+                
                 const container = document.getElementById('results');
                 container.innerHTML = '';  // Clear previous results
 
                 for (const game of games) {
-                    const data = await fetch('/api/' + encodeURIComponent(game)).then(r => r.json());
+                    console.log('Loading game:', game);
+                    const gameResponse = await fetch('/api/' + encodeURIComponent(game));
+                    if (!gameResponse.ok) {
+                        console.error('Failed to load game:', game, gameResponse.status);
+                        continue;
+                    }
+                    const data = await gameResponse.json();
                     gameData[game] = data;
 
                     const card = document.createElement('div');
@@ -396,6 +405,7 @@ HTML_TEMPLATE = '''
                 }
                 gamesLoaded = true;
                 if (status) status.innerHTML = '🔗 Connected';
+                console.log('All games loaded successfully');
             } catch (e) {
                 console.error('Failed to load games:', e);
                 if (status) status.textContent = 'Failed to load';
@@ -711,7 +721,7 @@ HTML_TEMPLATE = '''
             // Set up navigation button handlers
             document.querySelectorAll('.nav-btn').forEach(btn => {
                 btn.addEventListener('click', function() {
-                    const section = this.textContent.trim().split(' ')[1].toLowerCase();
+                    const section = this.getAttribute('data-section');
                     showSection(section);
                 });
             });
