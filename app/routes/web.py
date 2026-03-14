@@ -1475,13 +1475,15 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 try {
                     const gameData = await fetch('/api/' + encodeURIComponent(game) + '/' + encodeURIComponent(category)).then(r => r.json());
                     if (gameData && gameData.items) {
-                        // Find the item that contains this match
+                        // Find the item that matches
+                        const targetItem = targetMatch.item;
+                        const targetName = targetItem && targetItem.name ? targetItem.name : JSON.stringify(targetItem).substring(0, 50);
                         const fullItem = gameData.items.find(item => {
                             if (typeof item === 'string') {
-                                return item.toLowerCase().includes(targetMatch.match.toLowerCase());
+                                return item.toLowerCase().includes(targetName.toLowerCase());
                             } else if (typeof item === 'object') {
                                 return Object.values(item).some(val =>
-                                    val && val.toString().toLowerCase().includes(targetMatch.match.toLowerCase())
+                                    val && val.toString().toLowerCase().includes(targetName.toLowerCase())
                                 );
                             }
                             return false;
