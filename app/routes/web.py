@@ -319,14 +319,11 @@ HTML_TEMPLATE = '''
                onkeyup="search(this.value)">
     </div>
 
-    <div class="section">
-        <h2 onclick="toggleSection('plots')" style="cursor:pointer">📚 Complete Plot Database ▾</h2>
-        <div id="plots-section" style="display:none">
-            <div id="plots" class="games"></div>
-        </div>
-    </div>
-
     <div id="results" class="games"></div>
+
+    <div id="plots-section" style="display:none">
+        <div id="plots" class="games"></div>
+    </div>
 
     <div id="modal" class="modal">
         <div class="modal-content">
