@@ -1384,11 +1384,18 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 return;
             }
 
-            const results = await fetch('/api/search?q=' + encodeURIComponent(query)).then(r => r.json());
+            const response = await fetch('/api/search?q=' + encodeURIComponent(query));
+            const results = await response.json();
             const container = document.getElementById('results');
+            
+            if (results.error) {
+                container.innerHTML = `<h2>Search Error</h2><p>${results.error}</p>`;
+                return;
+            }
+            
             container.innerHTML = `<h2>Search Results for "${query}"</h2>`;
 
-            if (results.matches.length === 0) {
+            if (!results.matches || results.matches.length === 0) {
                 container.innerHTML += '<p>No results found.</p>';
                 return;
             }
