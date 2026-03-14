@@ -281,6 +281,10 @@ HTML_TEMPLATE = '''
         <div class="header-content">
             <h1>Chrono MCP</h1>
             <p class="subtitle">Complete Chrono Series Database - All Games Decoded</p>
+            <noscript style="color: #ff6b6b; font-weight: bold; margin-top: 10px;">
+                ⚠️ JavaScript is required for this application to function properly.
+                Please enable JavaScript in your browser and reload the page.
+            </noscript>
         </div>
         <div class="header-buttons">
             <button class="btn" onclick="toggleTheme()">🌓 Theme</button>
@@ -333,33 +337,61 @@ HTML_TEMPLATE = '''
     </div>
 
     <script>
+        console.log('JavaScript loaded successfully - immediate execution');
         let gameData = {};
 
+        // Simple immediate test
+        try {
+            document.querySelector('h1').style.color = 'red';
+            console.log('DOM manipulation successful');
+        } catch (e) {
+            console.error('DOM manipulation failed:', e);
+        }
+
+        // Immediate test - not waiting for DOMContentLoaded
+        setTimeout(() => {
+            console.log('Timeout executed - JavaScript is running');
+            fetch('/api/health').then(r => r.json()).then(data => {
+                console.log('Immediate API test successful:', data);
+            }).catch(e => {
+                console.error('Immediate API test failed:', e);
+            });
+        }, 100);
+
         async function loadGames() {
-            const status = document.getElementById('status');
-            status.textContent = 'Loading...';
-            const games = await fetch('/api/games').then(r => r.json());
-            const container = document.getElementById('results');
-            container.innerHTML = '';  // Clear previous results
+            console.log('loadGames called');
+            const status = document.getElementById('status') || document.getElementById('connection-status');
+            if (status) status.textContent = 'Loading...';
+            
+            try {
+                const games = await fetch('/api/games').then(r => r.json());
+                console.log('Games loaded:', games);
+                const container = document.getElementById('results');
+                container.innerHTML = '';  // Clear previous results
 
-            for (const game of games) {
-                const data = await fetch('/api/' + game).then(r => r.json());
-                gameData[game] = data;
+                for (const game of games) {
+                    const data = await fetch('/api/' + encodeURIComponent(game)).then(r => r.json());
+                    gameData[game] = data;
 
-                const card = document.createElement('div');
-                card.className = 'game-card';
+                    const card = document.createElement('div');
+                    card.className = 'game-card';
 
-                let categories = Object.keys(data).filter(k => Array.isArray(data[k]));
-                let catsHtml = categories.map(cat =>
-                    `<button class="category-btn" onclick="showCategory('${game}', '${cat}')">${cat} (${data[cat].length})</button>`
-                ).join('');
+                    let categories = Object.keys(data).filter(k => Array.isArray(data[k]));
+                    let catsHtml = categories.map(cat =>
+                        `<button class="category-btn" onclick="showCategory('${game}', '${cat}')">${cat.replace('_', ' ')} (${data[cat].length})</button>`
+                    ).join('');
 
-                card.innerHTML = `
-                    <h2>${game}</h2>
-                    <p>Platforms: ${(data.platforms || []).join(', ')}</p>
-                    <div style="margin-top:15px">${catsHtml}</div>
-                `;
-                container.appendChild(card);
+                    card.innerHTML = `
+                        <h2>${game}</h2>
+                        <p>Platforms: ${(data.platforms || []).join(', ')}</p>
+                        <div style="margin-top:15px">${catsHtml}</div>
+                    `;
+                    container.appendChild(card);
+                }
+                if (status) status.innerHTML = '🔗 Connected';
+            } catch (e) {
+                console.error('Failed to load games:', e);
+                if (status) status.textContent = 'Failed to load';
             }
         }
 
@@ -492,9 +524,9 @@ HTML_TEMPLATE = '''
             }
         }
 
-        async function showPlot(url) {
+        async function showPlot(plotId) {
             try {
-                const response = await fetch(url);
+                const response = await fetch(`/api/plot/${plotId}`);
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
@@ -645,6 +677,19 @@ HTML_TEMPLATE = '''
         if (localStorage.getItem('theme') === 'light') {
             document.body.classList.add('light-theme');
         }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM fully loaded - initializing application');
+
+            // Initialize navigation
+            initNavigation();
+
+            // Load initial data
+            loadGames();
+            loadStats();
+
+            console.log('Application initialized successfully');
+        });
 
         function initNavigation() {
             // Set up navigation button handlers
@@ -833,43 +878,50 @@ HTML_TEMPLATE = '''
                     <div class="search-results-grid">
                 `;
 
-                // Group by game and category
-                const grouped = {};
+                // Group by game then category
+                const groupedByGame = {};
                 results.matches.forEach(match => {
-                    const key = `${match.game}|${match.category}`;
-                    if (!grouped[key]) grouped[key] = [];
-                    grouped[key].push(match);
+                    if (!groupedByGame[match.game]) groupedByGame[match.game] = {};
+                    if (!groupedByGame[match.game][match.category]) groupedByGame[match.game][match.category] = [];
+                    groupedByGame[match.game][match.category].push(match);
                 });
 
-                Object.entries(grouped).forEach(([key, matches]) => {
-                    const [gameName, cat] = key.split('|');
-                    const categoryName = cat.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-
+                Object.entries(groupedByGame).forEach(([gameName, categories]) => {
                     html += `
-                        <div class="search-group">
-                            <div class="search-group-header">
-                                <h4>${gameName}</h4>
-                                <span class="category-badge">${categoryName}</span>
-                                <span class="result-count">${matches.length} result${matches.length > 1 ? 's' : ''}</span>
-                            </div>
-                            <div class="search-items">
+                        <div class="search-group" style="margin-bottom: 20px;">
+                            <h3 style="color: var(--accent); margin-bottom: 15px; border-bottom: 2px solid var(--accent); padding-bottom: 5px;">${gameName}</h3>
                     `;
-
-                    matches.slice(0, 10).forEach((match, idx) => {
-                        const matchText = match.match.length > 100 ? match.match.substring(0, 100) + '...' : match.match;
+                    
+                    Object.entries(categories).forEach(([cat, matches]) => {
+                        const categoryName = cat.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                        
                         html += `
-                            <div class="search-result-item clickable-item" onclick="showSearchResult('${gameName}', '${cat}', ${idx})">
-                                <div class="result-text">${matchText}</div>
-                                ${match.score ? `<div class="result-score">Match: ${(match.score * 100).toFixed(0)}%</div>` : ''}
-                            </div>
+                            <div class="category-section" style="margin-bottom: 20px;">
+                                <div class="search-group-header" style="margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;">
+                                    <span class="category-badge">${categoryName}</span>
+                                    <span class="result-count" style="font-size: 0.8em;">${matches.length} result${matches.length > 1 ? 's' : ''}</span>
+                                </div>
+                                <div class="search-items">
                         `;
+
+                        matches.slice(0, 10).forEach((match, idx) => {
+                            const matchText = match.match.length > 100 ? match.match.substring(0, 100) + '...' : match.match;
+                            html += `
+                                <div class="search-result-item clickable-item" onclick="showSearchResult('${gameName}', '${cat}', ${idx})">
+                                    <div class="result-text">${matchText}</div>
+                                    ${match.score ? `<div class="result-score">Match: ${(match.score * 100).toFixed(0)}%</div>` : ''}
+                                </div>
+                            `;
+                        });
+
+                        if (matches.length > 10) {
+                            html += `<div class="more-results">... and ${matches.length - 10} more results in ${categoryName}</div>`;
+                        }
+
+                        html += '</div></div>';
                     });
-
-                    if (matches.length > 10) {
-                        html += `<div class="more-results">... and ${matches.length - 10} more results</div>`;
-                    }
-
-                    html += '</div></div>';
+                    
+                    html += '</div>';
                 });
 
                 html += '</div>';
@@ -1278,14 +1330,6 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 connectionStatus.innerHTML = '🔄 Retrying connection...';
             }
         }
-                }
-
-                const stats = document.getElementById('stats-content');
-                stats.innerHTML = `📊 ${games.length} Games • ${totalCategories} Categories • ${totalItems.toLocaleString()} Items Decoded`;
-            } catch (e) {
-                console.error('Failed to load stats:', e);
-            }
-        }
 
         function showStats() {
             const statsBar = document.getElementById('stats-bar');
@@ -1322,43 +1366,50 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 return;
             }
 
-            // Group by game and category
+            // Group by game then category
             const byGame = {};
             for (const m of results.matches) {
-                const key = m.game + '|' + m.category;
-                if (!byGame[key]) byGame[key] = [];
-                byGame[key].push(m);
+                if (!byGame[m.game]) byGame[m.game] = {};
+                if (!byGame[m.game][m.category]) byGame[m.game][m.category] = [];
+                byGame[m.game][m.category].push(m);
             }
 
-            for (const [key, matches] of Object.entries(byGame)) {
-                const [game, category] = key.split('|');
+            for (const [game, categories] of Object.entries(byGame)) {
                 const card = document.createElement('div');
                 card.className = 'game-card';
+                card.innerHTML = `<h2 style="margin-bottom: 15px; border-bottom: 2px solid var(--accent); padding-bottom: 5px;">${game}</h2>`;
 
+                for (const [category, matches] of Object.entries(categories)) {
+                    const categoryName = category.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                    const itemsHtml = matches.slice(0, 10).map((match, idx) => {
+                        let displayText = '';
+                        if (match.item && typeof match.item === 'object') {
+                            // Show key info from the matched item
+                            const keys = Object.keys(match.item).slice(0, 3);
+                            displayText = keys.map(k => `${k}: ${match.item[k]}`).join(', ');
+                        } else {
+                            displayText = match.item || 'Unknown';
+                        }
 
-                const itemsHtml = matches.slice(0, 10).map((match, idx) => {
-                    let displayText = '';
-                    if (match.item && typeof match.item === 'object') {
-                        // Show key info from the matched item
-                        const keys = Object.keys(match.item).slice(0, 3);
-                        displayText = keys.map(k => `${k}: ${match.item[k]}`).join(', ');
-                    } else {
-                        displayText = match.item || 'Unknown';
-                    }
+                        return `<div class="search-result-item clickable-item" onclick="showSearchResult('${game}', '${category}', ${idx})" title="Click to view full details">
+                            <strong>${match.item.name || match.item || 'Item'}</strong><br>
+                            <small>${displayText}</small>
+                            ${match.similarity ? `<br><em>Match: ${(match.similarity * 100).toFixed(0)}%</em>` : ''}
+                        </div>`;
+                    }).join('');
 
-                    return `<div class="search-result-item clickable-item" onclick="showSearchResult('${game}', '${category}', ${idx})" title="Click to view full details">
-                        <strong>${match.item.name || match.item || 'Item'}</strong><br>
-                        <small>${displayText}</small>
-                        ${match.similarity ? `<br><em>Match: ${(match.similarity * 100).toFixed(0)}%</em>` : ''}
-                    </div>`;
-                }).join('');
-
-                card.innerHTML = `
-                    <h3>${game} - ${category}</h3>
-                    <p>${matches.length} matches</p>
-                    <div>${itemsHtml}</div>
-                    ${matches.length > 10 ? `<p>... and ${matches.length - 10} more</p>` : ''}
-                `;
+                    const catSection = document.createElement('div');
+                    catSection.style.marginBottom = '15px';
+                    catSection.innerHTML = `
+                        <h3 style="font-size: 1.1em; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;">
+                            <span class="category-badge">${categoryName}</span>
+                            <span class="result-count" style="font-size: 0.8em; font-weight: normal;">${matches.length} matches</span>
+                        </h3>
+                        <div class="search-items">${itemsHtml}</div>
+                        ${matches.length > 10 ? `<div class="more-results" style="margin-top: 10px; font-style: italic; font-size: 0.9em; opacity: 0.8;">... and ${matches.length - 10} more in ${categoryName}</div>` : ''}
+                    `;
+                    card.appendChild(catSection);
+                }
                 container.appendChild(card);
             }
         }
@@ -1457,12 +1508,17 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
             }
         }
 
-        // Initialize navigation
-        initNavigation();
-
-        loadGames();
-        loadPlots();
-        loadStats();
+        // Initialize immediately - DOM should be ready since script is at end of body
+        console.log('About to initialize...');
+        try {
+            initNavigation();
+            loadGames();
+            loadPlots();
+            loadStats();
+            console.log('Initialization completed');
+        } catch (e) {
+            console.error('Initialization failed:', e);
+        }
     </script>
 
     <!-- Footer -->

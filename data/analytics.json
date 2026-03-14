@@ -1,0 +1,23 @@
+{
+  "total_visits": 2,
+  "unique_sessions": [
+    "test-session-123",
+    "web-session-001"
+  ],
+  "page_views": {
+    "/test": 1,
+    "/": 1
+  },
+  "daily_stats": {
+    "2026-03-13": {
+      "page_views": 2,
+      "unique_visitors": 2,
+      "api_calls": 0,
+      "search_queries": 0,
+      "sessions": [
+        "test-session-123",
+        "web-session-001"
+      ]
+    }
+  }
+}

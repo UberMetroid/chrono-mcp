@@ -1,0 +1,492 @@
+2026-03-13 19:20:16,481 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.172:5000
+2026-03-13 19:20:16,482 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-13 19:20:16,483 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:20:16,924 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:20:16,940 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:20:19,096 - chrono_web - INFO - Request: GET /health [ID: f1d8a5c5-9d77-44ef-adc0-b9548cb89d7a]
+2026-03-13 19:20:19,097 - chrono_web - INFO - Response: 404 [ID: f1d8a5c5-9d77-44ef-adc0-b9548cb89d7a] Duration: 0.57ms
+2026-03-13 19:20:19,097 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:19] "[33mGET /health HTTP/1.1[0m" 404 -
+2026-03-13 19:20:27,536 - chrono_web - INFO - Request: GET /api/health [ID: 9aa4371d-a63f-4cbf-84a1-83b588d90a25]
+2026-03-13 19:20:27,537 - chrono_web - INFO - Response: 200 [ID: 9aa4371d-a63f-4cbf-84a1-83b588d90a25] Duration: 0.20ms
+2026-03-13 19:20:27,537 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:27] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 19:20:31,312 - chrono_web - INFO - Request: GET / [ID: a576dcf2-d466-4166-bbd2-9fd778b63d7d]
+2026-03-13 19:20:31,317 - chrono_web - INFO - Response: 200 [ID: a576dcf2-d466-4166-bbd2-9fd778b63d7d] Duration: 4.63ms
+2026-03-13 19:20:31,317 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:31] "GET / HTTP/1.1" 200 -
+2026-03-13 19:20:34,948 - chrono_web - INFO - Request: GET / [ID: 9215989b-ad41-4198-8da3-184b8fad7b98]
+2026-03-13 19:20:34,952 - chrono_web - INFO - Response: 200 [ID: 9215989b-ad41-4198-8da3-184b8fad7b98] Duration: 4.61ms
+2026-03-13 19:20:34,952 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:34] "GET / HTTP/1.1" 200 -
+2026-03-13 19:20:37,905 - chrono_web - INFO - Request: GET /api/plot/ct [ID: 4f2595fb-4f0a-4907-9429-c11b1dc67e55]
+2026-03-13 19:20:37,906 - chrono_web - INFO - Response: 200 [ID: 4f2595fb-4f0a-4907-9429-c11b1dc67e55] Duration: 0.48ms
+2026-03-13 19:20:37,906 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:37] "GET /api/plot/ct HTTP/1.1" 200 -
+2026-03-13 19:20:50,273 - chrono_web - INFO - Request: GET /api/plot [ID: 37cb88b9-62a8-4d1c-80ba-6b9f55124294]
+2026-03-13 19:20:50,273 - chrono_web - INFO - Response: 200 [ID: 37cb88b9-62a8-4d1c-80ba-6b9f55124294] Duration: 0.24ms
+2026-03-13 19:20:50,274 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:50] "GET /api/plot HTTP/1.1" 200 -
+2026-03-13 19:20:50,276 - chrono_web - INFO - Request: GET /api/plot/ct [ID: 21c0cc34-f023-4cf1-a457-5602375767d0]
+2026-03-13 19:20:50,276 - chrono_web - INFO - Response: 200 [ID: 21c0cc34-f023-4cf1-a457-5602375767d0] Duration: 0.33ms
+2026-03-13 19:20:50,276 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:50] "GET /api/plot/ct HTTP/1.1" 200 -
+2026-03-13 19:20:50,278 - chrono_web - INFO - Request: GET / [ID: 29477412-0eb4-4a98-be39-06b4169a46b9]
+2026-03-13 19:20:50,283 - chrono_web - INFO - Response: 200 [ID: 29477412-0eb4-4a98-be39-06b4169a46b9] Duration: 4.48ms
+2026-03-13 19:20:50,283 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:20:50] "GET / HTTP/1.1" 200 -
+2026-03-13 19:39:16,007 - chrono_web - INFO - Request: GET / [ID: cb715a74-1b6e-4841-9e60-3790d7dcb7f7]
+2026-03-13 19:39:16,011 - chrono_web - INFO - Response: 200 [ID: cb715a74-1b6e-4841-9e60-3790d7dcb7f7] Duration: 4.07ms
+2026-03-13 19:39:16,012 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "GET / HTTP/1.1" 200 -
+2026-03-13 19:39:16,119 - chrono_web - INFO - Request: GET /api/plot [ID: 6269074a-b7e4-4227-9774-7fe4af01e7c6]
+2026-03-13 19:39:16,120 - chrono_web - INFO - Request: GET /api/games [ID: a5a47ee5-1def-48db-b52b-96926fd711c5]
+2026-03-13 19:39:16,120 - chrono_web - INFO - Response: 200 [ID: 6269074a-b7e4-4227-9774-7fe4af01e7c6] Duration: 1.44ms
+2026-03-13 19:39:16,120 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,120 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "GET /api/plot HTTP/1.1" 200 -
+2026-03-13 19:39:16,121 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:16,121 - sqlalchemy.engine.Engine - INFO - [generated in 0.00031s] ()
+2026-03-13 19:39:16,125 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,125 - chrono_web - INFO - Response: 200 [ID: a5a47ee5-1def-48db-b52b-96926fd711c5] Duration: 5.86ms
+2026-03-13 19:39:16,126 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "GET /api/games HTTP/1.1" 200 -
+2026-03-13 19:39:16,127 - chrono_web - INFO - Request: GET /api/plot/ct [ID: 08311b39-283e-41f3-a103-eddd9ac3d832]
+2026-03-13 19:39:16,128 - chrono_web - INFO - Request: GET /api/plot/cc [ID: 8aa00888-ad4a-49c8-bfcc-cb9d68b890d9]
+2026-03-13 19:39:16,128 - chrono_web - INFO - Request: GET /api/plot/rd [ID: 3948f240-c504-4fe4-937c-3443bfc5532d]
+2026-03-13 19:39:16,129 - chrono_web - INFO - Response: 200 [ID: 08311b39-283e-41f3-a103-eddd9ac3d832] Duration: 1.90ms
+2026-03-13 19:39:16,129 - chrono_web - INFO - Response: 200 [ID: 8aa00888-ad4a-49c8-bfcc-cb9d68b890d9] Duration: 1.39ms
+2026-03-13 19:39:16,129 - chrono_web - INFO - Response: 200 [ID: 3948f240-c504-4fe4-937c-3443bfc5532d] Duration: 0.93ms
+2026-03-13 19:39:16,130 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "GET /api/plot/ct HTTP/1.1" 200 -
+2026-03-13 19:39:16,130 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "GET /api/plot/cc HTTP/1.1" 200 -
+2026-03-13 19:39:16,130 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "GET /api/plot/rd HTTP/1.1" 200 -
+2026-03-13 19:39:16,132 - chrono_web - INFO - Request: GET /api/Chrono Cross [ID: f33ad44d-d98b-4d0c-ac48-66979ee3f331]
+2026-03-13 19:39:16,132 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,133 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:39:16,134 - sqlalchemy.engine.Engine - INFO - [generated in 0.00021s] ('chrono_cross', 1, 0)
+2026-03-13 19:39:16,134 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,134 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,134 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:16,134 - sqlalchemy.engine.Engine - INFO - [cached since 0.01335s ago] ()
+2026-03-13 19:39:16,135 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,135 - chrono_web - INFO - Response: 404 [ID: f33ad44d-d98b-4d0c-ac48-66979ee3f331] Duration: 3.15ms
+2026-03-13 19:39:16,135 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "[33mGET /api/Chrono%20Cross HTTP/1.1[0m" 404 -
+2026-03-13 19:39:16,139 - chrono_web - INFO - Request: GET /api/Chrono Trigger [ID: b4b71ad9-c149-403e-a95e-e83f2252c58c]
+2026-03-13 19:39:16,140 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,140 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:39:16,140 - sqlalchemy.engine.Engine - INFO - [cached since 0.006708s ago] ('chrono_trigger', 1, 0)
+2026-03-13 19:39:16,141 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,141 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,141 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:16,141 - sqlalchemy.engine.Engine - INFO - [cached since 0.02006s ago] ()
+2026-03-13 19:39:16,141 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,142 - chrono_web - INFO - Response: 404 [ID: b4b71ad9-c149-403e-a95e-e83f2252c58c] Duration: 2.70ms
+2026-03-13 19:39:16,142 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "[33mGET /api/Chrono%20Trigger HTTP/1.1[0m" 404 -
+2026-03-13 19:39:16,150 - chrono_web - INFO - Request: GET /api/Radical Dreamers [ID: f92880ba-ad51-4229-abe7-70bb8251e9dc]
+2026-03-13 19:39:16,151 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,151 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:39:16,151 - sqlalchemy.engine.Engine - INFO - [cached since 0.01807s ago] ('radical_dreamers', 1, 0)
+2026-03-13 19:39:16,152 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,152 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:16,152 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:16,153 - sqlalchemy.engine.Engine - INFO - [cached since 0.03144s ago] ()
+2026-03-13 19:39:16,153 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:16,153 - chrono_web - INFO - Response: 404 [ID: f92880ba-ad51-4229-abe7-70bb8251e9dc] Duration: 2.93ms
+2026-03-13 19:39:16,153 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:16] "[33mGET /api/Radical%20Dreamers HTTP/1.1[0m" 404 -
+2026-03-13 19:39:18,681 - chrono_web - INFO - Request: GET /api/categories [ID: d9a8a8e1-20b6-465b-9495-4bfd1fb5b321]
+2026-03-13 19:39:18,681 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:18,682 - sqlalchemy.engine.Engine - INFO - SELECT DISTINCT categories.name AS categories_name 
+FROM categories
+2026-03-13 19:39:18,682 - sqlalchemy.engine.Engine - INFO - [generated in 0.00014s] ()
+2026-03-13 19:39:18,682 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:18,682 - chrono_web - INFO - Response: 200 [ID: d9a8a8e1-20b6-465b-9495-4bfd1fb5b321] Duration: 1.59ms
+2026-03-13 19:39:18,683 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:18] "GET /api/categories HTTP/1.1" 200 -
+2026-03-13 19:39:18,685 - chrono_web - INFO - Request: GET /api/categories [ID: d94dc6fc-9464-4119-a8fc-8636d5249cc5]
+2026-03-13 19:39:18,686 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:18,686 - sqlalchemy.engine.Engine - INFO - SELECT DISTINCT categories.name AS categories_name 
+FROM categories
+2026-03-13 19:39:18,686 - sqlalchemy.engine.Engine - INFO - [cached since 0.004326s ago] ()
+2026-03-13 19:39:18,686 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:18,687 - chrono_web - INFO - Response: 200 [ID: d94dc6fc-9464-4119-a8fc-8636d5249cc5] Duration: 1.06ms
+2026-03-13 19:39:18,687 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:18] "GET /api/categories HTTP/1.1" 200 -
+2026-03-13 19:39:21,936 - chrono_web - INFO - Request: GET /ct [ID: 79f7c3b4-c4a6-45f6-804a-53212f04bfc0]
+2026-03-13 19:39:21,936 - chrono_web - INFO - Response: 404 [ID: 79f7c3b4-c4a6-45f6-804a-53212f04bfc0] Duration: 0.38ms
+2026-03-13 19:39:21,936 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:21] "[33mGET /ct HTTP/1.1[0m" 404 -
+2026-03-13 19:39:24,726 - chrono_web - INFO - Request: GET /api/refresh [ID: 47f21484-7a32-4f6c-9848-b3c60b0508b6]
+2026-03-13 19:39:24,726 - chrono_web - INFO - Response: 400 [ID: 47f21484-7a32-4f6c-9848-b3c60b0508b6] Duration: 0.20ms
+2026-03-13 19:39:24,726 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:24] "[31m[1mGET /api/refresh HTTP/1.1[0m" 400 -
+2026-03-13 19:39:24,730 - chrono_web - INFO - Request: GET /api/games [ID: b1d499fb-d245-41c8-9bb4-293a19c77737]
+2026-03-13 19:39:24,731 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,731 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:24,731 - sqlalchemy.engine.Engine - INFO - [cached since 8.61s ago] ()
+2026-03-13 19:39:24,731 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,731 - chrono_web - INFO - Response: 200 [ID: b1d499fb-d245-41c8-9bb4-293a19c77737] Duration: 1.04ms
+2026-03-13 19:39:24,732 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:24] "GET /api/games HTTP/1.1" 200 -
+2026-03-13 19:39:24,735 - chrono_web - INFO - Request: GET /api/Chrono Cross [ID: 5ded5b14-f6ca-44e9-ae66-b874dda25d24]
+2026-03-13 19:39:24,736 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,736 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:39:24,736 - sqlalchemy.engine.Engine - INFO - [cached since 8.603s ago] ('chrono_cross', 1, 0)
+2026-03-13 19:39:24,736 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,737 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,737 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:24,737 - sqlalchemy.engine.Engine - INFO - [cached since 8.616s ago] ()
+2026-03-13 19:39:24,737 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,737 - chrono_web - INFO - Response: 404 [ID: 5ded5b14-f6ca-44e9-ae66-b874dda25d24] Duration: 1.68ms
+2026-03-13 19:39:24,737 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:24] "[33mGET /api/Chrono%20Cross HTTP/1.1[0m" 404 -
+2026-03-13 19:39:24,744 - chrono_web - INFO - Request: GET /api/Chrono Trigger [ID: aa712e54-f400-4e94-84f1-aa3025d359f6]
+2026-03-13 19:39:24,744 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - [cached since 8.611s ago] ('chrono_trigger', 1, 0)
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - [cached since 8.624s ago] ()
+2026-03-13 19:39:24,745 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,746 - chrono_web - INFO - Response: 404 [ID: aa712e54-f400-4e94-84f1-aa3025d359f6] Duration: 1.58ms
+2026-03-13 19:39:24,746 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:24] "[33mGET /api/Chrono%20Trigger HTTP/1.1[0m" 404 -
+2026-03-13 19:39:24,750 - chrono_web - INFO - Request: GET /api/Radical Dreamers [ID: 3fd64da6-66e7-41c1-bdd5-96e8147d6f05]
+2026-03-13 19:39:24,750 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,750 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:39:24,750 - sqlalchemy.engine.Engine - INFO - [cached since 8.617s ago] ('radical_dreamers', 1, 0)
+2026-03-13 19:39:24,751 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,751 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:39:24,751 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:39:24,751 - sqlalchemy.engine.Engine - INFO - [cached since 8.63s ago] ()
+2026-03-13 19:39:24,751 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:39:24,751 - chrono_web - INFO - Response: 404 [ID: 3fd64da6-66e7-41c1-bdd5-96e8147d6f05] Duration: 1.61ms
+2026-03-13 19:39:24,752 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:24] "[33mGET /api/Radical%20Dreamers HTTP/1.1[0m" 404 -
+2026-03-13 19:39:37,735 - chrono_web - INFO - Request: GET /api/plot/ct [ID: 042357f9-e343-4a66-852c-5d552a8d6d32]
+2026-03-13 19:39:37,736 - chrono_web - INFO - Response: 200 [ID: 042357f9-e343-4a66-852c-5d552a8d6d32] Duration: 0.44ms
+2026-03-13 19:39:37,736 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:39:37] "GET /api/plot/ct HTTP/1.1" 200 -
+2026-03-13 19:39:59,808 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:39:59,976 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:00,354 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:00,356 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:04,611 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:04,840 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:05,267 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:05,269 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:11,608 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:11,787 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:12,188 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:12,190 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:19,582 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:19,723 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:20,110 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:20,113 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:25,436 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:25,589 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:25,994 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:25,996 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:33,375 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:33,536 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:33,913 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:33,915 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:42,347 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:42,507 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:42,875 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:42,877 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:40:54,438 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:40:54,634 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:40:55,037 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:40:55,039 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:41:03,478 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:41:03,681 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:41:04,058 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:41:04,060 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:41:18,759 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:41:18,952 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:41:19,388 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:41:19,391 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:41:49,744 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:41:49,906 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:41:50,287 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:41:50,289 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:41:59,761 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:41:59,914 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:42:00,283 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:42:00,285 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:42:37,931 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:42:38,091 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:42:38,465 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:42:38,467 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:42:58,534 - chrono_web - INFO - Request: GET /health [ID: eebbb09d-2623-452e-a694-5f8b2a8c7764]
+2026-03-13 19:42:58,535 - chrono_web - INFO - Response: 404 [ID: eebbb09d-2623-452e-a694-5f8b2a8c7764] Duration: 0.90ms
+2026-03-13 19:42:58,536 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:42:58] "[33mGET /health HTTP/1.1[0m" 404 -
+2026-03-13 19:43:07,823 - chrono_web - INFO - Request: GET /health [ID: fae5ccbf-6bac-4a13-9b2e-fb9615d763aa]
+2026-03-13 19:43:07,823 - chrono_web - INFO - Response: 404 [ID: fae5ccbf-6bac-4a13-9b2e-fb9615d763aa] Duration: 0.34ms
+2026-03-13 19:43:07,823 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:07] "[33mGET /health HTTP/1.1[0m" 404 -
+2026-03-13 19:43:14,251 - chrono_web - INFO - Request: GET /api/health [ID: 6444ed0f-ac10-45ac-b00a-b6e9d70644ef]
+2026-03-13 19:43:14,251 - chrono_web - INFO - Response: 200 [ID: 6444ed0f-ac10-45ac-b00a-b6e9d70644ef] Duration: 0.23ms
+2026-03-13 19:43:14,251 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:14] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 19:43:19,266 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/demo_enhanced_interface.py', reloading
+2026-03-13 19:43:19,468 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:43:19,867 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:43:19,869 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:43:25,365 - chrono_web - INFO - Request: GET /api/health [ID: 1acf09b1-c1dd-43ea-ab43-3b3d7b5e7882]
+2026-03-13 19:43:25,366 - chrono_web - INFO - Response: 200 [ID: 1acf09b1-c1dd-43ea-ab43-3b3d7b5e7882] Duration: 0.19ms
+2026-03-13 19:43:25,366 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 19:43:25,368 - chrono_web - INFO - Request: GET / [ID: a672ce8a-606f-4f8d-8626-caacde3916b1]
+2026-03-13 19:43:25,375 - chrono_web - INFO - Response: 200 [ID: a672ce8a-606f-4f8d-8626-caacde3916b1] Duration: 6.79ms
+2026-03-13 19:43:25,376 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET / HTTP/1.1" 200 -
+2026-03-13 19:43:25,379 - chrono_web - INFO - Request: GET /api/games [ID: 03ed6a16-a446-44a5-9848-a758289c30b2]
+2026-03-13 19:43:25,379 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,380 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:43:25,380 - sqlalchemy.engine.Engine - INFO - [generated in 0.00012s] ()
+2026-03-13 19:43:25,380 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,380 - chrono_web - INFO - Response: 200 [ID: 03ed6a16-a446-44a5-9848-a758289c30b2] Duration: 1.47ms
+2026-03-13 19:43:25,380 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET /api/games HTTP/1.1" 200 -
+2026-03-13 19:43:25,382 - chrono_web - INFO - Request: GET /api/Chrono Trigger [ID: 30e48f8d-07eb-4780-b0d3-9fdb457df054]
+2026-03-13 19:43:25,383 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,384 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:43:25,384 - sqlalchemy.engine.Engine - INFO - [generated in 0.00015s] ('chrono_trigger', 1, 0)
+2026-03-13 19:43:25,384 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,384 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,384 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:43:25,385 - sqlalchemy.engine.Engine - INFO - [cached since 0.005053s ago] ()
+2026-03-13 19:43:25,385 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,385 - chrono_web - INFO - Response: 404 [ID: 30e48f8d-07eb-4780-b0d3-9fdb457df054] Duration: 2.51ms
+2026-03-13 19:43:25,385 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "[33mGET /api/Chrono%20Trigger HTTP/1.1[0m" 404 -
+2026-03-13 19:43:25,387 - chrono_web - INFO - Request: GET /api/search [ID: d9609548-e08d-4f35-aa9a-db3a06b6c4d9]
+2026-03-13 19:43:25,388 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,389 - sqlalchemy.engine.Engine - INFO - SELECT items.id AS items_id, items.category_id AS items_category_id, items.data AS items_data, items.searchable_text AS items_searchable_text, items.created_at AS items_created_at 
+FROM items JOIN categories ON categories.id = items.category_id JOIN games ON games.id = categories.game_id 
+WHERE (items.searchable_text LIKE '%' || ? || '%')
+ LIMIT ? OFFSET ?
+2026-03-13 19:43:25,389 - sqlalchemy.engine.Engine - INFO - [generated in 0.00017s] ('crono', 500, 0)
+2026-03-13 19:43:25,430 - sqlalchemy.engine.Engine - INFO - SELECT categories.id AS categories_id, categories.name AS categories_name, categories.display_name AS categories_display_name, categories.game_id AS categories_game_id, categories.item_count AS categories_item_count, categories.created_at AS categories_created_at 
+FROM categories 
+WHERE categories.id = ?
+2026-03-13 19:43:25,431 - sqlalchemy.engine.Engine - INFO - [generated in 0.00021s] (2,)
+2026-03-13 19:43:25,432 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.id = ?
+2026-03-13 19:43:25,432 - sqlalchemy.engine.Engine - INFO - [generated in 0.00012s] (1,)
+2026-03-13 19:43:25,432 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,432 - chrono_web - INFO - Response: 200 [ID: d9609548-e08d-4f35-aa9a-db3a06b6c4d9] Duration: 45.00ms
+2026-03-13 19:43:25,432 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET /api/search?q=crono HTTP/1.1" 200 -
+2026-03-13 19:43:25,435 - chrono_web - INFO - Request: GET /api/plot [ID: 82f2c11d-c29b-4cd8-b547-0f909d6ffae6]
+2026-03-13 19:43:25,435 - chrono_web - INFO - Response: 200 [ID: 82f2c11d-c29b-4cd8-b547-0f909d6ffae6] Duration: 0.17ms
+2026-03-13 19:43:25,435 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET /api/plot HTTP/1.1" 200 -
+2026-03-13 19:43:25,437 - chrono_web - INFO - Request: GET /api/plot/ct [ID: 304f0e47-0c03-4243-bff9-24006dbdb090]
+2026-03-13 19:43:25,437 - chrono_web - INFO - Response: 200 [ID: 304f0e47-0c03-4243-bff9-24006dbdb090] Duration: 0.30ms
+2026-03-13 19:43:25,437 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET /api/plot/ct HTTP/1.1" 200 -
+2026-03-13 19:43:25,439 - chrono_web - INFO - Request: GET /api/games [ID: d8081362-04ce-414a-97e4-bf6f80ac44bd]
+2026-03-13 19:43:25,439 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,439 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:43:25,439 - sqlalchemy.engine.Engine - INFO - [cached since 0.05996s ago] ()
+2026-03-13 19:43:25,440 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,440 - chrono_web - INFO - Response: 200 [ID: d8081362-04ce-414a-97e4-bf6f80ac44bd] Duration: 0.81ms
+2026-03-13 19:43:25,440 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "GET /api/games HTTP/1.1" 200 -
+2026-03-13 19:43:25,441 - chrono_web - INFO - Request: GET /api/Chrono Cross [ID: 82ce4240-27da-4bd6-bc79-aea43f5cf06e]
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - [cached since 0.05816s ago] ('chrono_cross', 1, 0)
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - [cached since 0.06282s ago] ()
+2026-03-13 19:43:25,442 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,443 - chrono_web - INFO - Response: 404 [ID: 82ce4240-27da-4bd6-bc79-aea43f5cf06e] Duration: 1.26ms
+2026-03-13 19:43:25,443 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "[33mGET /api/Chrono%20Cross HTTP/1.1[0m" 404 -
+2026-03-13 19:43:25,444 - chrono_web - INFO - Request: GET /api/Chrono Trigger [ID: e7057b9b-a08c-4c4b-9915-695fb1b190a0]
+2026-03-13 19:43:25,444 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - [cached since 0.06106s ago] ('chrono_trigger', 1, 0)
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - [cached since 0.06574s ago] ()
+2026-03-13 19:43:25,445 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,445 - chrono_web - INFO - Response: 404 [ID: e7057b9b-a08c-4c4b-9915-695fb1b190a0] Duration: 1.27ms
+2026-03-13 19:43:25,446 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "[33mGET /api/Chrono%20Trigger HTTP/1.1[0m" 404 -
+2026-03-13 19:43:25,447 - chrono_web - INFO - Request: GET /api/Radical Dreamers [ID: 070c41c1-55f4-4600-ac1b-6f0c1b10939c]
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - SELECT games.id AS games_id, games.name AS games_name, games.display_name AS games_display_name, games.platforms AS games_platforms, games.release_year AS games_release_year, games.developer AS games_developer, games.description AS games_description, games.created_at AS games_created_at, games.updated_at AS games_updated_at 
+FROM games 
+WHERE games.name = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - [cached since 0.0642s ago] ('radical_dreamers', 1, 0)
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:43:25,448 - sqlalchemy.engine.Engine - INFO - [cached since 0.06898s ago] ()
+2026-03-13 19:43:25,449 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:43:25,449 - chrono_web - INFO - Response: 404 [ID: 070c41c1-55f4-4600-ac1b-6f0c1b10939c] Duration: 1.43ms
+2026-03-13 19:43:25,449 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:43:25] "[33mGET /api/Radical%20Dreamers HTTP/1.1[0m" 404 -
+2026-03-13 19:48:23,198 - chrono_web - INFO - Request: GET / [ID: fba3ecab-c5dc-4d12-ac57-6e82581b2aa2]
+2026-03-13 19:48:23,206 - chrono_web - INFO - Response: 200 [ID: fba3ecab-c5dc-4d12-ac57-6e82581b2aa2] Duration: 7.59ms
+2026-03-13 19:48:23,206 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:48:23] "GET / HTTP/1.1" 200 -
+2026-03-13 19:48:24,430 - chrono_web - INFO - Request: GET / [ID: 99ad7601-2964-45ea-b36d-16d881336346]
+2026-03-13 19:48:24,437 - chrono_web - INFO - Response: 200 [ID: 99ad7601-2964-45ea-b36d-16d881336346] Duration: 6.31ms
+2026-03-13 19:48:24,437 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:48:24] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:30,302 - chrono_web - INFO - Request: GET / [ID: 562661fe-5229-499d-8065-0305e6580cfc]
+2026-03-13 19:49:30,308 - chrono_web - INFO - Response: 200 [ID: 562661fe-5229-499d-8065-0305e6580cfc] Duration: 5.78ms
+2026-03-13 19:49:30,308 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:30] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:33,662 - chrono_web - INFO - Request: GET / [ID: 5e9f700c-5024-420e-bb4d-689b1574702e]
+2026-03-13 19:49:33,668 - chrono_web - INFO - Response: 200 [ID: 5e9f700c-5024-420e-bb4d-689b1574702e] Duration: 6.31ms
+2026-03-13 19:49:33,669 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:33] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:34,483 - chrono_web - INFO - Request: GET / [ID: afc848d9-a2e1-4aa2-8eb1-ce95c057c101]
+2026-03-13 19:49:34,489 - chrono_web - INFO - Response: 200 [ID: afc848d9-a2e1-4aa2-8eb1-ce95c057c101] Duration: 5.54ms
+2026-03-13 19:49:34,489 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:34] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:34,620 - chrono_web - INFO - Request: GET / [ID: 81b5d211-7e5a-4a56-adee-e1255f629f44]
+2026-03-13 19:49:34,627 - chrono_web - INFO - Response: 200 [ID: 81b5d211-7e5a-4a56-adee-e1255f629f44] Duration: 6.43ms
+2026-03-13 19:49:34,628 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:34] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:35,690 - chrono_web - INFO - Request: GET / [ID: c33d4b64-a09b-42b9-bc0e-7c8cf2fef702]
+2026-03-13 19:49:35,696 - chrono_web - INFO - Response: 200 [ID: c33d4b64-a09b-42b9-bc0e-7c8cf2fef702] Duration: 6.49ms
+2026-03-13 19:49:35,697 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:35] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:35,729 - chrono_web - INFO - Request: GET /favicon.ico [ID: 6bcefd42-240e-4eef-8dcf-a8fbcd4e2f95]
+2026-03-13 19:49:35,730 - chrono_web - INFO - Response: 404 [ID: 6bcefd42-240e-4eef-8dcf-a8fbcd4e2f95] Duration: 0.39ms
+2026-03-13 19:49:35,730 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:49:36,064 - chrono_web - INFO - Request: GET / [ID: 02ce9ede-e204-4ba2-88d4-5f16991131e1]
+2026-03-13 19:49:36,071 - chrono_web - INFO - Response: 200 [ID: 02ce9ede-e204-4ba2-88d4-5f16991131e1] Duration: 6.99ms
+2026-03-13 19:49:36,072 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:36,106 - chrono_web - INFO - Request: GET /favicon.ico [ID: d2b4acb3-5fef-45a2-8ccc-22088f703df3]
+2026-03-13 19:49:36,106 - chrono_web - INFO - Response: 404 [ID: d2b4acb3-5fef-45a2-8ccc-22088f703df3] Duration: 0.37ms
+2026-03-13 19:49:36,106 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:49:36,233 - chrono_web - INFO - Request: GET / [ID: cab7e7f0-f550-4acf-bc45-abfe8a97340b]
+2026-03-13 19:49:36,240 - chrono_web - INFO - Response: 200 [ID: cab7e7f0-f550-4acf-bc45-abfe8a97340b] Duration: 6.35ms
+2026-03-13 19:49:36,241 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:36,279 - chrono_web - INFO - Request: GET /favicon.ico [ID: fc7e80da-f819-4e54-a94a-755b93ef2ba4]
+2026-03-13 19:49:36,279 - chrono_web - INFO - Response: 404 [ID: fc7e80da-f819-4e54-a94a-755b93ef2ba4] Duration: 0.37ms
+2026-03-13 19:49:36,279 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:49:36,383 - chrono_web - INFO - Request: GET / [ID: 634c7bc4-de73-437e-86f4-34f2333e09af]
+2026-03-13 19:49:36,389 - chrono_web - INFO - Response: 200 [ID: 634c7bc4-de73-437e-86f4-34f2333e09af] Duration: 6.51ms
+2026-03-13 19:49:36,390 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:36,419 - chrono_web - INFO - Request: GET /favicon.ico [ID: 61bfb4a8-5ede-401a-af58-20af741e04cf]
+2026-03-13 19:49:36,419 - chrono_web - INFO - Response: 404 [ID: 61bfb4a8-5ede-401a-af58-20af741e04cf] Duration: 0.38ms
+2026-03-13 19:49:36,420 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:49:36,514 - chrono_web - INFO - Request: GET / [ID: 12cf8dbd-a5d6-4d95-9932-363c2658563f]
+2026-03-13 19:49:36,520 - chrono_web - INFO - Response: 200 [ID: 12cf8dbd-a5d6-4d95-9932-363c2658563f] Duration: 6.66ms
+2026-03-13 19:49:36,521 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "GET / HTTP/1.1" 200 -
+2026-03-13 19:49:36,545 - chrono_web - INFO - Request: GET /favicon.ico [ID: 35f2333f-1053-4ade-bdfa-ecedac3d10da]
+2026-03-13 19:49:36,546 - chrono_web - INFO - Response: 404 [ID: 35f2333f-1053-4ade-bdfa-ecedac3d10da] Duration: 0.40ms
+2026-03-13 19:49:36,546 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:49:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:50:25,591 - chrono_web - INFO - Request: GET /api/games [ID: cb56c1e8-12aa-4928-8d92-6cd05c249b6e]
+2026-03-13 19:50:25,591 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:50:25,591 - sqlalchemy.engine.Engine - INFO - SELECT games.name AS games_name 
+FROM games
+2026-03-13 19:50:25,591 - sqlalchemy.engine.Engine - INFO - [cached since 420.2s ago] ()
+2026-03-13 19:50:25,592 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:50:25,592 - chrono_web - INFO - Response: 200 [ID: cb56c1e8-12aa-4928-8d92-6cd05c249b6e] Duration: 1.03ms
+2026-03-13 19:50:25,592 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:50:25] "GET /api/games HTTP/1.1" 200 -
+2026-03-13 19:50:29,431 - chrono_web - INFO - Request: GET / [ID: 9a7005ac-6b74-4674-9c22-bb85eac12d3b]
+2026-03-13 19:50:29,437 - chrono_web - INFO - Response: 200 [ID: 9a7005ac-6b74-4674-9c22-bb85eac12d3b] Duration: 5.96ms
+2026-03-13 19:50:29,438 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:50:29] "GET / HTTP/1.1" 200 -
+2026-03-13 19:50:32,448 - chrono_web - INFO - Request: GET / [ID: a394eed4-a3f5-4e13-b5a3-0ec1983c3c86]
+2026-03-13 19:50:32,453 - chrono_web - INFO - Response: 200 [ID: a394eed4-a3f5-4e13-b5a3-0ec1983c3c86] Duration: 5.68ms
+2026-03-13 19:50:32,454 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:50:32] "GET / HTTP/1.1" 200 -
+2026-03-13 19:50:39,496 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/models/__init__.py', reloading
+2026-03-13 19:50:39,670 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:52:30,107 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.172:5000
+2026-03-13 19:52:30,107 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-13 19:52:30,107 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:52:30,509 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:52:30,511 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:52:35,956 - chrono_web - INFO - Request: POST /api/analytics/track [ID: f3dde274-a7ee-45c6-a452-d32c62403afe]
+2026-03-13 19:52:35,957 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2026-03-13 19:52:35,958 - sqlalchemy.engine.Engine - INFO - SELECT daily_stats.id AS daily_stats_id, daily_stats.date AS daily_stats_date, daily_stats.total_visitors AS daily_stats_total_visitors, daily_stats.unique_visitors AS daily_stats_unique_visitors, daily_stats.page_views AS daily_stats_page_views, daily_stats.api_calls AS daily_stats_api_calls, daily_stats.search_queries AS daily_stats_search_queries, daily_stats.popular_searches AS daily_stats_popular_searches, daily_stats.popular_pages AS daily_stats_popular_pages 
+FROM daily_stats 
+WHERE daily_stats.date = ?
+ LIMIT ? OFFSET ?
+2026-03-13 19:52:35,958 - sqlalchemy.engine.Engine - INFO - [generated in 0.00018s] ('2026-03-13', 1, 0)
+2026-03-13 19:52:35,958 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2026-03-13 19:52:35,959 - chrono_web - INFO - Response: 500 [ID: f3dde274-a7ee-45c6-a452-d32c62403afe] Duration: 3.05ms
+2026-03-13 19:52:35,959 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:52:35] "[35m[1mPOST /api/analytics/track HTTP/1.1[0m" 500 -
+2026-03-13 19:52:45,219 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/analytics.py', reloading
+2026-03-13 19:52:45,410 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:52:45,839 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:52:45,841 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:52:50,101 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/analytics.py', reloading
+2026-03-13 19:52:50,355 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:52:50,815 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:52:50,817 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:52:56,128 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/analytics.py', reloading
+2026-03-13 19:52:56,290 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:52:56,692 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:52:56,694 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:53:01,995 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/analytics.py', reloading
+2026-03-13 19:53:02,157 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:53:02,547 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:53:02,549 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:53:06,806 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/analytics.py', reloading
+2026-03-13 19:53:06,968 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:53:07,348 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:53:07,350 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:53:16,819 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/analytics.py', reloading
+2026-03-13 19:53:16,971 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:53:17,352 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:53:17,354 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:53:21,271 - chrono_web - INFO - Request: POST /api/analytics/track [ID: bf25ae93-98c3-4027-9766-358c460e6d33]
+2026-03-13 19:53:21,271 - chrono_web - INFO - Response: 200 [ID: bf25ae93-98c3-4027-9766-358c460e6d33] Duration: 0.65ms
+2026-03-13 19:53:21,272 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:53:21] "POST /api/analytics/track HTTP/1.1" 200 -
+2026-03-13 19:53:24,720 - chrono_web - INFO - Request: GET /api/analytics/stats [ID: 9cc44e88-106e-4cc9-99c2-4c33c2eb5f6a]
+2026-03-13 19:53:24,720 - chrono_web - INFO - Response: 200 [ID: 9cc44e88-106e-4cc9-99c2-4c33c2eb5f6a] Duration: 0.32ms
+2026-03-13 19:53:24,721 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:53:24] "GET /api/analytics/stats HTTP/1.1" 200 -
+2026-03-13 19:53:33,096 - werkzeug - INFO -  * Detected change in '/home/jeryd/Code/Chrono_Series/app/routes/web.py', reloading
+2026-03-13 19:53:33,264 - werkzeug - INFO -  * Restarting with stat
+2026-03-13 19:53:33,635 - werkzeug - WARNING -  * Debugger is active!
+2026-03-13 19:53:33,637 - werkzeug - INFO -  * Debugger PIN: 116-367-757
+2026-03-13 19:53:37,187 - chrono_web - INFO - Request: GET / [ID: 1b9d0323-7e1d-4bc7-b96c-5d6d087fc1c8]
+2026-03-13 19:53:37,194 - chrono_web - INFO - Response: 200 [ID: 1b9d0323-7e1d-4bc7-b96c-5d6d087fc1c8] Duration: 7.71ms
+2026-03-13 19:53:37,195 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:53:37] "GET / HTTP/1.1" 200 -
+2026-03-13 19:53:40,387 - chrono_web - INFO - Request: POST /api/analytics/track [ID: dd4780d8-a2b2-46a2-b871-0b70212826ce]
+2026-03-13 19:53:40,387 - chrono_web - INFO - Response: 200 [ID: dd4780d8-a2b2-46a2-b871-0b70212826ce] Duration: 0.68ms
+2026-03-13 19:53:40,388 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:53:40] "POST /api/analytics/track HTTP/1.1" 200 -
+2026-03-13 19:53:44,345 - chrono_web - INFO - Request: GET /api/analytics/stats [ID: 5c11ed4d-fe16-4bc0-a93f-88ac4dc35c45]
+2026-03-13 19:53:44,345 - chrono_web - INFO - Response: 200 [ID: 5c11ed4d-fe16-4bc0-a93f-88ac4dc35c45] Duration: 0.28ms
+2026-03-13 19:53:44,345 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:53:44] "GET /api/analytics/stats HTTP/1.1" 200 -
+2026-03-13 19:54:32,445 - chrono_web - INFO - Request: GET / [ID: 08c2197f-2dad-49f7-941f-ec9853e6bcda]
+2026-03-13 19:54:32,454 - chrono_web - INFO - Response: 200 [ID: 08c2197f-2dad-49f7-941f-ec9853e6bcda] Duration: 8.33ms
+2026-03-13 19:54:32,454 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:54:32] "GET / HTTP/1.1" 200 -
+2026-03-13 19:54:32,496 - chrono_web - INFO - Request: GET /favicon.ico [ID: f3838751-76f2-47c5-8889-af6c0520e4f2]
+2026-03-13 19:54:32,497 - chrono_web - INFO - Response: 404 [ID: f3838751-76f2-47c5-8889-af6c0520e4f2] Duration: 0.37ms
+2026-03-13 19:54:32,497 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:54:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:54:35,528 - chrono_web - INFO - Request: GET / [ID: bbb413da-5280-4d20-a16d-19f3ec8b2c55]
+2026-03-13 19:54:35,535 - chrono_web - INFO - Response: 200 [ID: bbb413da-5280-4d20-a16d-19f3ec8b2c55] Duration: 7.25ms
+2026-03-13 19:54:35,536 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:54:35] "GET / HTTP/1.1" 200 -
+2026-03-13 19:54:35,569 - chrono_web - INFO - Request: GET /favicon.ico [ID: b2cb5bfa-3649-4d6e-a921-ecfc5aad7d42]
+2026-03-13 19:54:35,569 - chrono_web - INFO - Response: 404 [ID: b2cb5bfa-3649-4d6e-a921-ecfc5aad7d42] Duration: 0.37ms
+2026-03-13 19:54:35,569 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:54:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 19:54:40,761 - chrono_web - INFO - Request: GET / [ID: d6fb7b60-e879-45d4-b917-cd4795af12bf]
+2026-03-13 19:54:40,769 - chrono_web - INFO - Response: 200 [ID: d6fb7b60-e879-45d4-b917-cd4795af12bf] Duration: 8.02ms
+2026-03-13 19:54:40,770 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:54:40] "GET / HTTP/1.1" 200 -
+2026-03-13 19:54:40,805 - chrono_web - INFO - Request: GET /favicon.ico [ID: 59bfbb0a-9c8f-4153-8f45-c856821ae252]
+2026-03-13 19:54:40,805 - chrono_web - INFO - Response: 404 [ID: 59bfbb0a-9c8f-4153-8f45-c856821ae252] Duration: 0.37ms
+2026-03-13 19:54:40,806 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2026 19:54:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

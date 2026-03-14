@@ -133,7 +133,8 @@ class TestWebUI:
     def app(self):
         """Create Flask test client"""
         sys.path.insert(0, str(Path(__file__).parent.parent))
-        from web_ui import app
+        from app import create_app
+        app = create_app()
         app.config['TESTING'] = True
         return app
     
@@ -194,7 +195,8 @@ class TestEdgeCases:
     def app(self):
         """Create Flask test client"""
         sys.path.insert(0, str(Path(__file__).parent.parent))
-        from web_ui import app
+        from app import create_app
+        app = create_app()
         app.config['TESTING'] = True
         return app
     

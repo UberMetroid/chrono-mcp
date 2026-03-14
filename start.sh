@@ -29,7 +29,7 @@ sleep 2
 # Start web UI
 echo "Starting web UI on port 5000..."
 cd /app
-python web_ui.py > /tmp/web.log 2>&1 &
+python web_ui_refactored.py > /tmp/web.log 2>&1 &
 WEB_PID=$!
 
 echo "Both services started. MCP PID: $MCP_PID, Web PID: $WEB_PID"

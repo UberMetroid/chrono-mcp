@@ -22,7 +22,8 @@ COPY lib/ ./lib/
 COPY data/ ./data/
 COPY docs/ ./docs/
 COPY mcp/ ./mcp/
-COPY web_ui.py ./
+COPY app/ ./app/
+COPY web_ui_refactored.py ./
 COPY start.sh ./
 
 RUN touch /app/lib/__init__.py
