@@ -310,8 +310,13 @@ HTML_TEMPLATE = '''
         }
 
         async function showPlot(url) {
-            const data = await fetch(url).then(r => r.json());
-            let html = `<p><strong>${data.description}</strong></p>`;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                const data = await response.json();
+                let html = `<p><strong>${data.description}</strong></p>`;
 
             if (data.eras) {
                 html += '<h3>Eras/Timeline</h3><ul>';
@@ -342,21 +347,55 @@ HTML_TEMPLATE = '''
             }
 
             if (data.endings) {
-                html += '<h3>Endings</h3><ul>';
+                html += '<h3>🏁 Endings</h3><ul>';
                 for (const ending of data.endings) {
                     html += `<li><strong>${ending.name}</strong>: ${ending.description}</li>`;
                 }
                 html += '</ul>';
             }
 
-            document.getElementById('modal-title').textContent = data.game + ' - Plot Tree';
-                document.getElementById('modal-body').innerHTML = html;
+            if (data.branching_decisions) {
+                html += '<h3>🔀 Branching Decisions</h3><ul>';
+                for (const decision of data.branching_decisions) {
+                    html += `<li><strong>${decision.point}</strong>: ${decision.description}</li>`;
+                }
+                html += '</ul>';
+            }
+
+            if (data.factions) {
+                html += '<h3>⚔️ Factions</h3><ul>';
+                for (const faction of data.factions) {
+                    html += `<li><strong>${faction.name}</strong>: ${faction.description}</li>`;
+                }
+                html += '</ul>';
+            }
+
+            if (data.important_locations) {
+                html += '<h3>📍 Important Locations</h3><ul>';
+                for (const location of data.important_locations) {
+                    html += `<li><strong>${location.name}</strong>: ${location.description}</li>`;
+                }
+                html += '</ul>';
+            }
+
+            document.getElementById('modal-title').textContent = data.game + ' - Complete Plot Tree';
+            document.getElementById('modal-body').innerHTML = html;
+            document.getElementById('modal').style.display = 'block';
+            } catch (error) {
+                console.error('Error loading plot:', error);
+                document.getElementById('modal-title').textContent = 'Error Loading Plot';
+                document.getElementById('modal-body').innerHTML = `<p>Sorry, there was an error loading the plot data: ${error.message}</p>`;
                 document.getElementById('modal').style.display = 'block';
             }
         }
 
         async function showPlotOutline(plotId) {
-            const data = await fetch(`/api/plot/${plotId}`).then(r => r.json());
+            try {
+                const response = await fetch(`/api/plot/${plotId}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                const data = await response.json();
             document.getElementById('modal-title').textContent = `${data.game} - Story Outline`;
 
             let html = `<p><strong>${data.description}</strong></p>`;
@@ -411,6 +450,12 @@ HTML_TEMPLATE = '''
 
             document.getElementById('modal-body').innerHTML = html;
             document.getElementById('modal').style.display = 'block';
+            } catch (error) {
+                console.error('Error loading plot outline:', error);
+                document.getElementById('modal-title').textContent = 'Error Loading Plot Outline';
+                document.getElementById('modal-body').innerHTML = `<p>Sorry, there was an error loading the plot outline: ${error.message}</p>`;
+                document.getElementById('modal').style.display = 'block';
+            }
         }
 
         // Load saved theme
