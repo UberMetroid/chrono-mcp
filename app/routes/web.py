@@ -161,6 +161,34 @@ HTML_TEMPLATE = '''
         .response-examples h4 { color: var(--accent); margin: 20px 0 10px 0; }
         .response-examples pre { background: var(--border); padding: 15px; border-radius: 6px; overflow-x: auto; }
 
+        .analytics-interface { max-width: 1400px; margin: 0 auto; }
+        .analytics-header { text-align: center; margin-bottom: 40px; }
+        .analytics-header h2 { color: var(--accent); margin-bottom: 10px; }
+        .analytics-header p { opacity: 0.8; }
+
+        .analytics-dashboard { min-height: 400px; }
+        .analytics-loading { text-align: center; padding: 40px; opacity: 0.7; }
+
+        .analytics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .analytics-card { background: var(--bg-secondary); padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .analytics-card h3 { color: var(--accent); margin-bottom: 20px; border-bottom: 2px solid var(--accent); padding-bottom: 5px; }
+
+        .analytics-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .metric { text-align: center; padding: 15px; background: var(--bg-tertiary); border-radius: 8px; }
+        .metric-value { display: block; font-size: 24px; font-weight: bold; color: var(--accent); }
+        .metric-label { display: block; font-size: 12px; opacity: 0.8; margin-top: 5px; }
+
+        .popular-list { display: grid; gap: 10px; }
+        .popular-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--bg-tertiary); border-radius: 6px; }
+        .popular-page { font-family: 'Courier New', monospace; font-size: 14px; }
+        .popular-count { font-size: 12px; opacity: 0.7; background: var(--accent); color: white; padding: 2px 6px; border-radius: 10px; }
+
+        .activity-summary { text-align: center; padding: 20px; }
+        .activity-summary strong { font-size: 24px; color: var(--accent); }
+
+        .analytics-footer { text-align: center; margin-top: 30px; padding: 20px; background: var(--bg-tertiary); border-radius: 8px; }
+        .analytics-error { text-align: center; padding: 40px; opacity: 0.7; }
+
         .plot-card { background: var(--bg-secondary); padding: 25px; border-radius: 16px;
                      box-shadow: 0 8px 16px rgba(0,0,0,0.15); margin-bottom: 25px; border: 1px solid var(--border);
                      transition: transform 0.2s, box-shadow 0.2s; }
@@ -267,6 +295,7 @@ HTML_TEMPLATE = '''
         <button class="nav-btn" onclick="showSection('search')">🔍 Search</button>
         <button class="nav-btn" onclick="showSection('plots')">📚 Plot Database</button>
         <button class="nav-btn" onclick="showSection('api')">🔌 API</button>
+        <button class="nav-btn" onclick="showSection('analytics')">📈 Analytics</button>
     </nav>
 
     <div class="stats-bar" id="stats-bar">
@@ -654,6 +683,10 @@ HTML_TEMPLATE = '''
                 case 'api':
                     document.querySelector('.nav-btn:nth-child(4)').classList.add('active');
                     showAPIInterface();
+                    break;
+                case 'analytics':
+                    document.querySelector('.nav-btn:nth-child(5)').classList.add('active');
+                    showAnalyticsInterface();
                     break;
             }
         }
@@ -1055,6 +1088,132 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
             `;
         }
 
+        async function showAnalyticsInterface() {
+            const container = document.getElementById('results');
+            container.innerHTML = `
+                <div class="analytics-interface">
+                    <div class="analytics-header">
+                        <h2>📈 Site Analytics</h2>
+                        <p>Visitor statistics and usage metrics for the Chrono MCP database</p>
+                    </div>
+
+                    <div class="analytics-dashboard">
+                        <div class="analytics-loading">
+                            <span class="loading"></span>
+                            Loading analytics data...
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Load analytics data
+            try {
+                const statsResponse = await fetch('/api/analytics/stats');
+                const popularResponse = await fetch('/api/analytics/popular');
+
+                if (statsResponse.ok && popularResponse.ok) {
+                    const stats = await statsResponse.json();
+                    const popular = await popularResponse.json();
+
+                    renderAnalyticsDashboard(stats, popular);
+                } else {
+                    throw new Error('Failed to load analytics');
+                }
+            } catch (e) {
+                console.error('Analytics loading failed:', e);
+                document.querySelector('.analytics-dashboard').innerHTML = `
+                    <div class="analytics-error">
+                        <h3>📊 Analytics Unavailable</h3>
+                        <p>Unable to load visitor statistics at this time.</p>
+                        <p>This may be because the analytics system is still initializing.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderAnalyticsDashboard(stats, popular) {
+            const dashboard = document.querySelector('.analytics-dashboard');
+
+            dashboard.innerHTML = `
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <h3>📅 Today's Activity</h3>
+                        <div class="analytics-metrics">
+                            <div class="metric">
+                                <span class="metric-value">${stats.today.page_views}</span>
+                                <span class="metric-label">Page Views</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">${stats.today.unique_visitors}</span>
+                                <span class="metric-label">Unique Visitors</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">${stats.today.api_calls}</span>
+                                <span class="metric-label">API Calls</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">${stats.today.search_queries}</span>
+                                <span class="metric-label">Searches</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analytics-card">
+                        <h3>📊 All-Time Totals</h3>
+                        <div class="analytics-metrics">
+                            <div class="metric">
+                                <span class="metric-value">${stats.total.page_views.toLocaleString()}</span>
+                                <span class="metric-label">Total Views</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">${stats.total.unique_visitors.toLocaleString()}</span>
+                                <span class="metric-label">Total Visitors</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analytics-card">
+                        <h3>🔥 Popular Pages</h3>
+                        <div class="popular-list">
+                            ${popular.popular_pages.slice(0, 5).map(page => `
+                                <div class="popular-item">
+                                    <span class="popular-page">${page.page}</span>
+                                    <span class="popular-count">${page.views} views</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <div class="analytics-card">
+                        <h3>📈 Recent Activity</h3>
+                        <div class="activity-summary">
+                            <p><strong>${popular.recent_activity}</strong> recent interactions</p>
+                            <p>People are actively exploring the Chrono database!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analytics-footer">
+                    <p>Analytics data is updated in real-time as visitors interact with the site.</p>
+                    <button class="btn" onclick="refreshAnalytics()">🔄 Refresh Data</button>
+                </div>
+            `;
+        }
+
+        async function refreshAnalytics() {
+            const button = event.target;
+            const originalText = button.textContent;
+            button.textContent = '⏳ Refreshing...';
+            button.disabled = true;
+
+            try {
+                await showAnalyticsInterface();
+            } finally {
+                button.textContent = originalText;
+                button.disabled = false;
+            }
+        }
+
         async function loadStats() {
             try {
                 const statsContent = document.getElementById('stats-content');
@@ -1062,30 +1221,59 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 // Show loading state
                 statsContent.innerHTML = '<span class="loading"></span> Loading statistics...';
 
-                // Get basic game count
-                const games = await fetch('/api/games').then(r => r.json());
+                // Get basic game count first
+                let games = [];
+                try {
+                    const gamesResponse = await fetch('/api/games');
+                    if (gamesResponse.ok) {
+                        games = await gamesResponse.json();
+                    } else {
+                        throw new Error(`Games API failed: ${gamesResponse.status}`);
+                    }
+                } catch (e) {
+                    console.warn('Games API failed, using fallback:', e);
+                    games = ['Chrono Trigger', 'Chrono Cross', 'Radical Dreamers'];
+                }
 
-                // Get detailed stats
+                // Get detailed stats with timeout and error handling
                 let totalItems = 0;
                 let totalCategories = 0;
                 const gameDetails = [];
+                const timeout = 3000; // 3 second timeout per game
 
                 for (const game of games) {
                     try {
-                        const gameData = await fetch('/api/' + encodeURIComponent(game)).then(r => r.json());
-                        const categories = Object.keys(gameData).filter(k => Array.isArray(gameData[k]));
-                        const items = categories.reduce((sum, cat) => sum + gameData[cat].length, 0);
+                        const controller = new AbortController();
+                        const timeoutId = setTimeout(() => controller.abort(), timeout);
 
-                        gameDetails.push({
-                            name: game,
-                            categories: categories.length,
-                            items: items
+                        const response = await fetch('/api/' + encodeURIComponent(game), {
+                            signal: controller.signal
                         });
 
-                        totalCategories += categories.length;
-                        totalItems += items;
+                        clearTimeout(timeoutId);
+
+                        if (response.ok) {
+                            const gameData = await response.json();
+                            const categories = Object.keys(gameData).filter(k => Array.isArray(gameData[k]));
+                            const items = categories.reduce((sum, cat) => {
+                                const catData = gameData[cat];
+                                return sum + (Array.isArray(catData) ? catData.length : 0);
+                            }, 0);
+
+                            gameDetails.push({
+                                name: game,
+                                categories: categories.length,
+                                items: items
+                            });
+
+                            totalCategories += categories.length;
+                            totalItems += items;
+                        } else {
+                            throw new Error(`HTTP ${response.status}`);
+                        }
                     } catch (e) {
-                        console.warn(`Could not load details for ${game}:`, e);
+                        console.warn(`Could not load details for ${game}:`, e.message);
+                        // Still add the game with zero stats
                         gameDetails.push({
                             name: game,
                             categories: 0,
@@ -1101,7 +1289,7 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                     ${totalCategories} Categories •
                     ${totalItems.toLocaleString()} Items Decoded
                     <span style="margin-left:15px; opacity:0.7;">
-                        ${gameDetails.map(g => `${g.name}:${g.items}`).join(' • ')}
+                        ${gameDetails.map(g => `${g.name.split(' ')[0]}:${g.items}`).join(' • ')}
                     </span>
                 `;
 
@@ -1111,13 +1299,19 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
                 const connectionStatus = document.getElementById('connection-status');
                 connectionStatus.innerHTML = '🔗 Online • API: OK • DB: OK';
 
+                // Track this page view
+                trackVisit('/');
+
             } catch (e) {
                 console.error('Failed to load stats:', e);
                 const statsContent = document.getElementById('stats-content');
-                statsContent.innerHTML = '❌ Failed to load statistics';
+                statsContent.innerHTML = '⚠️ Stats loading... (retrying)';
+
+                // Retry after a delay
+                setTimeout(() => loadStats(), 2000);
 
                 const connectionStatus = document.getElementById('connection-status');
-                connectionStatus.innerHTML = '🔌 Connection issues';
+                connectionStatus.innerHTML = '🔄 Retrying connection...';
             }
         }
                 }
@@ -1270,6 +1464,32 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
             const modal = document.getElementById('modal');
             if (event.target == modal) {
                 closeModal();
+            }
+        }
+
+        // Initialize visitor tracking
+        let sessionId = localStorage.getItem('sessionId');
+        if (!sessionId) {
+            sessionId = Math.random().toString(36).substring(2, 15);
+            localStorage.setItem('sessionId', sessionId);
+        }
+
+        // Track page views
+        async function trackVisit(page) {
+            try {
+                await fetch('/api/analytics/track', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        page: page,
+                        session_id: sessionId,
+                        referrer: document.referrer || null
+                    })
+                });
+            } catch (e) {
+                console.log('Analytics tracking failed:', e);
             }
         }
 
