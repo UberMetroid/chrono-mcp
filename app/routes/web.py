@@ -295,7 +295,8 @@ HTML_TEMPLATE = '''
 
     <!-- Navigation -->
     <nav class="nav">
-        <button class="nav-btn active" data-section="api">🔌 API Explorer</button>
+        <button class="nav-btn active" data-section="home">🏠 Home</button>
+        <button class="nav-btn" data-section="api">🔌 API Explorer</button>
         <button class="nav-btn" data-section="search">🔍 Search</button>
         <button class="nav-btn" data-section="analytics">📈 Analytics</button>
     </nav>
@@ -736,16 +737,20 @@ HTML_TEMPLATE = '''
             document.getElementById('search').value = '';
 
             switch(section) {
-                case 'api':
+                case 'home':
                     document.querySelector('.nav-btn:nth-child(1)').classList.add('active');
+                    document.getElementById('results').innerHTML = '<div style="text-align:center;padding:40px"><h2>Welcome to Chrono MCP</h2><p>Select a section from the navigation above.</p></div>';
+                    break;
+                case 'api':
+                    document.querySelector('.nav-btn:nth-child(2)').classList.add('active');
                     showAPIInterface();
                     break;
                 case 'search':
-                    document.querySelector('.nav-btn:nth-child(2)').classList.add('active');
+                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
                     showSearchInterface();
                     break;
                 case 'analytics':
-                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
+                    document.querySelector('.nav-btn:nth-child(4)').classList.add('active');
                     showAnalyticsInterface();
                     break;
             }
@@ -1541,8 +1546,8 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
         // Initialize immediately - DOM should be ready since script is at end of body
         console.log('About to initialize...');
         try {
-            // Initialize to API section
-            showSection('api');
+            // Initialize to home section
+            showSection('home');
             loadStats();
             console.log('Initialization completed');
         } catch (e) {
