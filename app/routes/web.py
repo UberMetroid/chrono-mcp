@@ -45,9 +45,19 @@ HTML_TEMPLATE = '''
             --text: #202124;
             --border: #dadce0;
         }
-        .header { background: var(--bg-secondary); padding: 20px; border-bottom: 2px solid var(--accent); }
-        .header h1 { color: var(--accent); font-size: 2.5em; margin-bottom: 10px; }
-        .header-buttons { display: flex; gap: 10px; margin-top: 15px; }
+        .header { background: var(--bg-secondary); padding: 20px; border-bottom: 2px solid var(--accent); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+        .header-content { flex: 1; }
+        .header h1 { color: var(--accent); font-size: 2.5em; margin-bottom: 5px; }
+        .subtitle { color: var(--text); opacity: 0.8; font-size: 1.1em; margin: 0; }
+        .header-buttons { display: flex; gap: 10px; }
+
+        .nav { background: var(--bg-tertiary); padding: 10px 20px; border-bottom: 1px solid var(--border); }
+        .nav-btn { background: var(--border); color: var(--text); border: none; padding: 10px 20px;
+                  margin: 0 5px; border-radius: 6px; cursor: pointer; transition: all 0.2s; }
+        .nav-btn:hover, .nav-btn.active { background: var(--accent); color: white; }
+
+        .stats-bar { background: var(--bg-tertiary); padding: 10px 20px; border-bottom: 1px solid var(--border);
+                    font-size: 14px; color: var(--text); }
         .status { font-size: 12px; color: #888; margin: 10px 0; }
         .games { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; }
         .game-card { background: var(--bg-secondary); padding: 20px; border-radius: 12px;
@@ -67,6 +77,29 @@ HTML_TEMPLATE = '''
         .clickable-item:hover { background: var(--accent); color: white; }
         .search-result-item { padding: 8px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background 0.2s; }
         .search-result-item:hover { background: var(--accent); color: white; }
+
+        .search-interface, .api-interface { max-width: 1200px; margin: 0 auto; }
+        .search-controls { background: var(--bg-secondary); padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .search-results-grid { display: grid; gap: 20px; }
+        .search-group { background: var(--bg-secondary); padding: 15px; border-radius: 8px; }
+        .search-items { margin-top: 10px; }
+
+        .api-section { background: var(--bg-secondary); padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .endpoint { background: var(--bg-tertiary); padding: 10px; margin: 10px 0; border-radius: 4px; }
+        .endpoint code { font-family: 'Courier New', monospace; background: var(--border); padding: 2px 4px; border-radius: 3px; }
+        .code-examples { margin-top: 15px; }
+        .code-block { background: var(--bg-tertiary); padding: 15px; margin: 10px 0; border-radius: 4px; }
+        .code-block code { font-family: 'Courier New', monospace; background: var(--border); padding: 2px 4px; border-radius: 3px; display: block; margin-top: 5px; }
+
+        .footer { background: var(--bg-tertiary); border-top: 1px solid var(--border); margin-top: 40px; }
+        .footer-content { display: flex; justify-content: space-between; padding: 30px 20px; flex-wrap: wrap; gap: 20px; }
+        .footer-section { flex: 1; min-width: 200px; }
+        .footer-section h4 { color: var(--accent); margin-bottom: 10px; }
+        .footer-section ul { list-style: none; }
+        .footer-section li { margin: 5px 0; }
+        .footer-section a { color: var(--text); text-decoration: none; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { text-align: center; padding: 15px 20px; border-top: 1px solid var(--border); color: var(--text); opacity: 0.7; font-size: 14px; }
         .search-result-item:hover { background: var(--border); }
         .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
                 background: rgba(0,0,0,0.8); z-index: 100; }
@@ -99,13 +132,28 @@ HTML_TEMPLATE = '''
 </head>
 <body>
     <div class="header">
-        <h1>Chrono MCP</h1>
+        <div class="header-content">
+            <h1>Chrono MCP</h1>
+            <p class="subtitle">Complete Chrono Series Database - All Games Decoded</p>
+        </div>
         <div class="header-buttons">
             <button class="btn" onclick="toggleTheme()">🌓 Theme</button>
             <button class="btn" onclick="refreshData()">🔄 Refresh</button>
+            <button class="btn" onclick="showStats()">📊 Stats</button>
         </div>
     </div>
-    <p class="status" id="status">Data loads automatically from JSON files</p>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <button class="nav-btn active" onclick="showSection('games')">🎮 Games</button>
+        <button class="nav-btn" onclick="showSection('search')">🔍 Search</button>
+        <button class="nav-btn" onclick="showSection('plots')">📖 Stories</button>
+        <button class="nav-btn" onclick="showSection('api')">🔌 API</button>
+    </nav>
+
+    <div class="stats-bar" id="stats-bar" style="display:none">
+        <span id="stats-content">Loading stats...</span>
+    </div>
 
     <div class="search-box">
         <input type="text" id="search" placeholder="Search all games... (e.g., 'sword', 'fire', 'crono')"
@@ -270,10 +318,249 @@ HTML_TEMPLATE = '''
             document.body.classList.add('light-theme');
         }
 
+        function initNavigation() {
+            // Set up navigation button handlers
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const section = this.textContent.trim().split(' ')[1].toLowerCase();
+                    showSection(section);
+                });
+            });
+        }
+
+        function showSection(section) {
+            // Update navigation buttons
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Hide all sections
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('plots-section').style.display = 'none';
+            document.getElementById('search').value = '';
+
+            switch(section) {
+                case 'games':
+                    document.querySelector('.nav-btn:nth-child(1)').classList.add('active');
+                    loadGames();
+                    break;
+                case 'search':
+                    document.querySelector('.nav-btn:nth-child(2)').classList.add('active');
+                    showSearchInterface();
+                    break;
+                case 'plots':
+                    document.querySelector('.nav-btn:nth-child(3)').classList.add('active');
+                    document.getElementById('plots-section').style.display = 'block';
+                    break;
+                case 'api':
+                    document.querySelector('.nav-btn:nth-child(4)').classList.add('active');
+                    showAPIInterface();
+                    break;
+            }
+        }
+
+        function showSearchInterface() {
+            const container = document.getElementById('results');
+            container.innerHTML = `
+                <div class="search-interface">
+                    <h2>Advanced Search</h2>
+                    <div class="search-controls">
+                        <input type="text" id="adv-search" placeholder="Search all games..." style="width: 100%; padding: 12px; margin-bottom: 10px;">
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                            <select id="game-filter">
+                                <option value="">All Games</option>
+                                <option value="Chrono Trigger">Chrono Trigger</option>
+                                <option value="Chrono Cross">Chrono Cross</option>
+                                <option value="Radical Dreamers">Radical Dreamers</option>
+                            </select>
+                            <select id="category-filter">
+                                <option value="">All Categories</option>
+                            </select>
+                        </div>
+                        <button class="btn" onclick="performAdvancedSearch()">🔍 Search</button>
+                    </div>
+                    <div id="search-results"></div>
+                </div>
+            `;
+
+            // Populate category filter
+            populateCategoryFilter();
+
+            // Set up search input handler
+            document.getElementById('adv-search').addEventListener('keyup', function(e) {
+                if (e.key === 'Enter') {
+                    performAdvancedSearch();
+                }
+            });
+        }
+
+        function populateCategoryFilter() {
+            const select = document.getElementById('category-filter');
+            // Get categories from API
+            fetch('/api/categories').then(r => r.json()).then(categories => {
+                categories.forEach(cat => {
+                    const option = document.createElement('option');
+                    option.value = cat;
+                    option.textContent = cat.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    select.appendChild(option);
+                });
+            });
+        }
+
+        function performAdvancedSearch() {
+            const query = document.getElementById('adv-search').value;
+            const game = document.getElementById('game-filter').value;
+            const category = document.getElementById('category-filter').value;
+
+            if (!query) return;
+
+            let url = `/api/search?q=${encodeURIComponent(query)}`;
+            if (game) url += `&game=${encodeURIComponent(game)}`;
+            if (category) url += `&category=${encodeURIComponent(category)}`;
+
+            fetch(url).then(r => r.json()).then(results => {
+                const container = document.getElementById('search-results');
+                if (results.matches.length === 0) {
+                    container.innerHTML = '<p>No results found.</p>';
+                    return;
+                }
+
+                let html = `<h3>Found ${results.count} results</h3>`;
+                html += '<div class="search-results-grid">';
+
+                // Group by game and category
+                const grouped = {};
+                results.matches.forEach(match => {
+                    const key = `${match.game}|${match.category}`;
+                    if (!grouped[key]) grouped[key] = [];
+                    grouped[key].push(match);
+                });
+
+                Object.entries(grouped).forEach(([key, matches]) => {
+                    const [game, cat] = key.split('|');
+                    html += `
+                        <div class="search-group">
+                            <h4>${game} - ${cat.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())} (${matches.length})</h4>
+                            <div class="search-items">
+                    `;
+
+                    matches.slice(0, 5).forEach((match, idx) => {
+                        html += `<div class="search-result-item clickable-item" onclick="showSearchResult('${game}', '${cat}', ${idx})">${match.match}</div>`;
+                    });
+
+                    if (matches.length > 5) {
+                        html += `<p>... and ${matches.length - 5} more</p>`;
+                    }
+
+                    html += '</div></div>';
+                });
+
+                html += '</div>';
+                container.innerHTML = html;
+            });
+        }
+
+        function showAPIInterface() {
+            const container = document.getElementById('results');
+            container.innerHTML = `
+                <div class="api-interface">
+                    <h2>API Documentation</h2>
+                    <div class="api-section">
+                        <h3>REST API Endpoints</h3>
+                        <div class="api-endpoints">
+                            <div class="endpoint">
+                                <code>GET /api/games</code>
+                                <p>List all available games</p>
+                            </div>
+                            <div class="endpoint">
+                                <code>GET /api/{game}</code>
+                                <p>Get all data for a specific game</p>
+                            </div>
+                            <div class="endpoint">
+                                <code>GET /api/{game}/{category}</code>
+                                <p>Get category data with pagination</p>
+                            </div>
+                            <div class="endpoint">
+                                <code>GET /api/search?q={query}</code>
+                                <p>Search across all games</p>
+                            </div>
+                            <div class="endpoint">
+                                <code>GET /api/plot</code>
+                                <p>List available plot trees</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="api-section">
+                        <h3>MCP Server</h3>
+                        <p>The MCP (Model Context Protocol) server provides 61 tools for AI assistants to query Chrono game data programmatically.</p>
+                        <div class="endpoint">
+                            <code>HTTP: localhost:8080</code>
+                            <p>JSON-RPC over HTTP with Server-Sent Events</p>
+                        </div>
+                    </div>
+
+                    <div class="api-section">
+                        <h3>Example API Calls</h3>
+                        <div class="code-examples">
+                            <div class="code-block">
+                                <strong>Get all games:</strong><br>
+                                <code>curl http://localhost:5000/api/games</code>
+                            </div>
+                            <div class="code-block">
+                                <strong>Search for characters:</strong><br>
+                                <code>curl "http://localhost:5000/api/search?q=crono"</code>
+                            </div>
+                            <div class="code-block">
+                                <strong>Get character data:</strong><br>
+                                <code>curl http://localhost:5000/api/Chrono%20Trigger/characters</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function loadStats() {
+            try {
+                const games = await fetch('/api/games').then(r => r.json());
+                let totalItems = 0;
+                let totalCategories = 0;
+
+                for (const game of games) {
+                    const gameData = await fetch('/api/' + encodeURIComponent(game)).then(r => r.json());
+                    const categories = Object.keys(gameData).filter(k => Array.isArray(gameData[k]));
+                    totalCategories += categories.length;
+
+                    for (const cat of categories) {
+                        totalItems += gameData[cat].length;
+                    }
+                }
+
+                const stats = document.getElementById('stats-content');
+                stats.innerHTML = `📊 ${games.length} Games • ${totalCategories} Categories • ${totalItems.toLocaleString()} Items Decoded`;
+            } catch (e) {
+                console.error('Failed to load stats:', e);
+            }
+        }
+
+        function showStats() {
+            const statsBar = document.getElementById('stats-bar');
+            statsBar.style.display = statsBar.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function searchForGame(gameName) {
+            // Navigate to search section and filter by game
+            showSection('search');
+            document.getElementById('game-filter').value = gameName;
+            document.getElementById('adv-search').focus();
+        }
+
         async function refreshData() {
             gameData = {};  // Clear cache
             await fetch('/api/refresh').then(r => r.json());
             loadGames();
+            loadStats();
         }
 
         async function search(query) {
@@ -401,9 +688,43 @@ HTML_TEMPLATE = '''
             }
         }
 
+        // Initialize navigation
+        initNavigation();
+
         loadGames();
         loadPlots();
+        loadStats();
     </script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Chrono MCP Database</h4>
+                <p>Complete decoded data from all Chrono series games</p>
+                <p>Built with Python, Flask, and SQLite</p>
+            </div>
+            <div class="footer-section">
+                <h4>Games Covered</h4>
+                <ul>
+                    <li><a href="#" onclick="showSection('games'); searchForGame('Chrono Trigger')">Chrono Trigger (1995)</a></li>
+                    <li><a href="#" onclick="showSection('games'); searchForGame('Chrono Cross')">Chrono Cross (1999)</a></li>
+                    <li><a href="#" onclick="showSection('games'); searchForGame('Radical Dreamers')">Radical Dreamers (1996)</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#" onclick="showSection('api')">API Documentation</a></li>
+                    <li><a href="#" onclick="showSection('plots')">Plot Trees</a></li>
+                    <li><a href="https://github.com/UberMetroid/chrono-mcp" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chrono MCP Project - All Chrono series content property of Square Enix</p>
+        </div>
+    </footer>
 </body>
 </html>
 '''
