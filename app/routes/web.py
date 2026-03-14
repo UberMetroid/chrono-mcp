@@ -1557,8 +1557,8 @@ curl "http://localhost:5000/api/search?q=time+travel"</code></pre>
         // Initialize immediately - DOM should be ready since script is at end of body
         console.log('About to initialize...');
         try {
-            // Don't call loadGames here - it's already called in DOMContentLoaded
-            loadPlots();
+            // Initialize to games section - hide plots by default
+            showSection('games');
             loadStats();
             console.log('Initialization completed');
         } catch (e) {
