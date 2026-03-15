@@ -271,18 +271,6 @@ def get_extracted_data_summary() -> dict:
 
 
 @mcp.tool()
-def search_all_games(query: str) -> dict:
-    """Search dialog across all games for a query"""
-    results = {
-        "query": query,
-        "Chrono Trigger": search_dialog("Chrono Trigger", query),
-        "Chrono Cross": search_dialog("Chrono Cross", query),
-        "Radical Dreamers": search_dialog("Radical Dreamers", query),
-    }
-    return results
-
-
-@mcp.tool()
 def get_sample_dialog(game: str = "Radical Dreamers", count: int = 10) -> list:
     """Get sample dialog lines from a game"""
     return get_dialog(game, count)
@@ -931,11 +919,245 @@ def advanced_filter(
     return results
 
 
+# ============ MULTI-PLATFORM ROM MANAGER TOOLS ============
+
+@mcp.tool()
+def get_rom_file_info(file_path: str) -> dict:
+    """Get structural information about any SNES, PS1, NDS, or Switch ROM file."""
+    try:
+        from lib.rom_manager import create_rom_handler, SwitchRomManager
+        # Quick Switch check since it's just a folder builder for now
+        if file_path.startswith("SWITCH:"):
+            title_id = file_path.split(":")[1]
+            mgr = SwitchRomManager(title_id, "test_mod")
+            return {"platform": "Switch LayeredFS", "title_id": title_id, "mod_dir": str(mgr.mod_dir)}
+            
+        handler = create_rom_handler(file_path)
+        handler.load()
+        return handler.get_info()
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def read_rom_bytes(file_path: str, hex_address: str, length: int) -> dict:
+    """Read bytes from a ROM (Currently fully supports SNES SFC/SMC)."""
+    try:
+        from lib.rom_manager import create_rom_handler
+        address = int(hex_address, 16)
+        handler = create_rom_handler(file_path)
+        if handler.platform != "SNES":
+            return {"error": f"read_rom_bytes currently only fully implemented for SNES. Platform detected: {handler.platform}"}
+            
+        if not handler.load():
+            return {"error": "Failed to load ROM"}
+            
+        data = handler.read_bytes(address, length)
+        return {
+            "address": hex(address),
+            "length": length,
+            "hex": data.hex(' ').upper(),
+            "ascii": ''.join(chr(b) if 32 <= b <= 126 else '.' for b in data)
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+
+@mcp.tool()
+def extract_nds_file(nds_path: str, internal_path: str, out_path: str) -> dict:
+    """Extract a file from an NDS ROM's filesystem."""
+    try:
+        from lib.rom_manager import create_rom_handler
+        handler = create_rom_handler(nds_path)
+        if handler.platform != "NDS":
+            return {"error": "Target is not an NDS ROM."}
+            
+        handler.load()
+        success = handler.extract_file(internal_path, out_path)
+        return {"success": success, "extracted_to": out_path}
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def init_switch_mod(title_id: str, mod_name: str) -> dict:
+    """Initialize a Switch LayeredFS mod structure."""
+    try:
+        from lib.rom_manager import SwitchRomManager
+        mgr = SwitchRomManager(title_id, mod_name)
+        mod_dir = mgr.init_mod_structure()
+        return {"success": True, "layeredfs_path": mod_dir}
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def get_live_emulator_state() -> dict:
+    """Get the live RAM state and connection status from a hooked emulator (BizHawk/RetroArch)."""
+    try:
+        from lib.emulator_hook import get_emulator_state
+        return get_emulator_state()
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def disassemble_bytes(hex_bytes: str, address: str, platform: str) -> dict:
+    """
+    Disassemble a raw hex string into assembly code for SNES, PS1, NDS, or Switch.
+    Args:
+        hex_bytes: Space separated or continuous hex string (e.g., 'A9 05 8D 22 21')
+        address: The memory address (in hex) these bytes execute at (e.g., '0xC00000')
+        platform: 'SNES', 'PS1', 'NDS_ARM9', 'NDS_THUMB', or 'SWITCH'
+    """
+    try:
+        from lib.disassembler import disassembler
+        # Clean hex string
+        clean_hex = hex_bytes.replace(" ", "").replace("0x", "")
+        data = bytes.fromhex(clean_hex)
+        start_addr = int(address, 16)
+        
+        # Use existing logic in lib
+        instructions = disassembler.disassemble(data, start_addr, platform.upper())
+        
+        # Build pretty print
+        if not instructions or "error" in instructions[0]:
+            return {"error": instructions[0].get("error", "Failed to decode")}
+            
+        output = []
+        for i in instructions:
+            byte_str = i['bytes'].ljust(15)
+            output.append(f"{i['address']}:  {byte_str} {i['mnemonic'].ljust(8)} {i['op_str']}")
+            
+        return {
+            "platform": platform.upper(),
+            "address": address,
+            "disassembly": "\n".join(output),
+            "instructions": instructions
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def render_snes_sprite(file_path: str, tile_address_hex: str, pal_address_hex: str, width_tiles: int, height_tiles: int) -> dict:
+    """
+    Extracts an SNES sprite from the ROM and returns a Base64 encoded PNG for display.
+    """
+    try:
+        from lib.rom_manager import create_rom_handler
+        from lib.graphics_engine import graphics_engine
+        
+        handler = create_rom_handler(file_path)
+        if not handler.load():
+            return {"error": "Failed to load ROM"}
+            
+        if handler.platform != "SNES":
+            return {"error": f"Tool expects SNES ROM, got {handler.platform}"}
+            
+        tile_addr = int(tile_address_hex, 16)
+        pal_addr = int(pal_address_hex, 16)
+        
+        b64 = graphics_engine.render_snes_sprite(handler.rom_data, handler.snes_to_pc(tile_addr), handler.snes_to_pc(pal_addr), width_tiles, height_tiles)
+        
+        return {
+            "success": True,
+            "message": f"Successfully decoded {width_tiles}x{height_tiles} sprite.",
+            "png_base64": b64
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def encode_game_text(text: str, platform: str) -> dict:
+    """
+    Encode standard text into game-specific byte arrays (e.g., SNES DTE compression, NDS Shift-JIS).
+    Args:
+        text: The string to encode (e.g., 'Chrono')
+        platform: 'SNES', 'PS1', 'NDS', or 'SWITCH'
+    """
+    try:
+        from lib.dte_text import text_encoder
+        encoded = text_encoder.encode_text(text, platform)
+        return {
+            "text": text,
+            "platform": platform,
+            "hex_bytes": encoded.hex(' ').upper(),
+            "byte_length": len(encoded)
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def decode_game_text(hex_bytes: str, platform: str) -> dict:
+    """
+    Decode game-specific byte arrays into readable text.
+    Args:
+        hex_bytes: Space separated hex string (e.g., '0A 01 02')
+        platform: 'SNES', 'PS1', 'NDS', or 'SWITCH'
+    """
+    try:
+        from lib.dte_text import text_encoder
+        clean_hex = hex_bytes.replace(" ", "").replace("0x", "")
+        data = bytes.fromhex(clean_hex)
+        decoded = text_encoder.decode_text(data, platform)
+        return {
+            "platform": platform,
+            "hex_bytes": hex_bytes,
+            "decoded_text": decoded
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def decompress_rom_data(game: str, offset: int) -> dict:
+    """
+    Decompress LZSS-compressed data from a specific ROM offset.
+    Commonly used for SNES/PS1 graphics and map data.
+    """
+    try:
+        from lib.chrono import read_rom, lzss_decompress
+        data = read_rom(game)
+        if not data:
+            return {"error": f"ROM not found: {game}"}
+            
+        decompressed, new_offset = lzss_decompress(data, offset)
+        return {
+            "game": game,
+            "original_offset": hex(offset),
+            "new_offset": hex(new_offset),
+            "decompressed_size": len(decompressed),
+            "hex_preview": decompressed[:64].hex(' ').upper()
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@mcp.tool()
+def generate_ips_patch(original_rom_path: str, modified_rom_path: str, output_patch_path: str) -> dict:
+    """
+    Compare two SNES/PS1 ROMs and generate a standard .ips patch file.
+    """
+    try:
+        from lib.patch_generator import patch_generator
+        with open(original_rom_path, 'rb') as f1, open(modified_rom_path, 'rb') as f2:
+            orig_data = f1.read()
+            mod_data = f2.read()
+            
+        success = patch_generator.generate_ips(orig_data, mod_data, output_patch_path)
+        return {
+            "success": success,
+            "patch_path": output_patch_path if success else None
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
 if __name__ == "__main__":
     import sys
     
     # Add parent directory to path for imports
     sys.path.insert(0, str(Path(__file__).parent.parent))
+    
+    # Start the background Emulator TCP Server
+    try:
+        from lib.emulator_hook import hook_server
+        hook_server.start_server()
+    except Exception as e:
+        print(f"Warning: Failed to start emulator hook server: {e}")
     
     transport = os.environ.get("MCP_TRANSPORT", "stdio")
     

@@ -1,39 +1,26 @@
 version: '3.8'
 
 services:
+  # The main Crono MCP application
   chronomcp:
     build: .
     image: chrono-mcp:latest
     container_name: chrono-mcp
     ports:
-      - "5000:5000"
-      - "8080:8080"
+      - "5000:5000"  # Web UI
+      - "8080:8080"  # MCP Server
+      - "8081:8081"  # Emulator TCP Hook
     volumes:
-      - ./data:/app/data:ro
-      - ./storage:/app/storage:Z
+      - ./data:/app/data:Z
+      # Uncomment during development to live-reload code
+      # - ./mcp:/app/mcp
+      # - ./lib:/app/lib
+      # - ./app:/app/app
     environment:
-      - CHRONO_BASE=/app
-      - WEB_PORT=5000
-      - MCP_PORT=8080
       - MCP_TRANSPORT=http
-      - FLASK_DEBUG=false
-      - DATABASE_URL=sqlite:////app/storage/chrono.db
-      - LOG_FILE=/app/storage/chrono.log
+      - MCP_PORT=8080
+      - FLASK_ENV=development
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 10s
-    deploy:
-      resources:
-        limits:
-          memory: 512M
-          cpus: '1.0'
-        reservations:
-          memory: 256M
-          cpus: '0.5'
     networks:
       - chrononet
 

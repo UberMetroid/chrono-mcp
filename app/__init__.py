@@ -1,5 +1,6 @@
-from flask import Flask, send_from_directory, jsonify, render_template_string
+from flask import Flask, send_from_directory, jsonify, render_template_string, request
 import logging
+from flask_wtf.csrf import CSRFProtect
 from app.config import get_config
 from app.middleware import init_middleware
 from app.routes.api import api_bp
@@ -33,11 +34,35 @@ def create_app(config_name=None):
     # Initialize middleware
     middleware = init_middleware(app)
 
+    # Initialize CSRF protection
+    csrf = CSRFProtect(app)
+
     # Register blueprints
     app.register_blueprint(api_bp)
     app.register_blueprint(web_bp)
     app.register_blueprint(auth_bp)
     app.register_blueprint(analytics_bp)
+
+    # Error handlers
+    @app.errorhandler(404)
+    def not_found(error):
+        if request.path.startswith('/api/'):
+            return jsonify({"error": "Resource not found"}), 404
+        return render_template_string("<h1>404 - Page Not Found</h1>"), 404
+
+    @app.errorhandler(500)
+    def internal_error(error):
+        logger.error(f"Internal server error: {error}")
+        if request.path.startswith('/api/'):
+            return jsonify({"error": "Internal server error"}), 500
+        return render_template_string("<h1>500 - Internal Server Error</h1>"), 500
+
+    @app.errorhandler(Exception)
+    def handle_exception(error):
+        logger.error(f"Unhandled exception: {error}", exc_info=True)
+        if request.path.startswith('/api/'):
+            return jsonify({"error": "An unexpected error occurred"}), 500
+        return render_template_string("<h1>500 - Internal Server Error</h1>"), 500
 
     # Static file routes
     @app.route('/data/art/<filename>')

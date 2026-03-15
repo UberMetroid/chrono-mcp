@@ -153,27 +153,3 @@ def _load_from_json_and_populate_db(force_reload: bool = False) -> Optional[Dict
 
     _load_error = last_error
     return _data_cache
-
-    _cache_misses += 1
-
-    last_error = None
-    for attempt in range(MAX_RETRIES):
-        try:
-            data_file = config.EXTRACTED_DIR / "chrono_master_complete.json"
-            with open(data_file, encoding='utf-8') as f:
-                _data_cache = json.load(f)
-            _load_error = None
-            return _data_cache
-        except json.JSONDecodeError as e:
-            last_error = f"JSON parse error: {e}"
-            _data_cache = {"games": {}}
-        except FileNotFoundError as e:
-            last_error = f"File not found: {e}"
-            _data_cache = {"games": {}}
-        except IOError as e:
-            last_error = f"IO error: {e}"
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_DELAY * (attempt + 1))
-
-    _load_error = last_error
-    return _data_cache

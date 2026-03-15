@@ -2,7 +2,7 @@ import json
 import logging
 from pathlib import Path
 from typing import Dict, List, Any, Optional
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, selectinload
 from app.models import Game, Category, Item, User, SessionLocal, init_db, reset_db
 from app.config import get_config
 
@@ -162,7 +162,9 @@ class DatabaseService:
         """Get all data for a specific game"""
         db = SessionLocal()
         try:
-            game = db.query(Game).filter(Game.name == game_name).first()
+            game = db.query(Game).options(
+                selectinload(Game.categories).selectinload(Category.items)
+            ).filter(Game.name == game_name).first()
             if not game:
                 return None
 

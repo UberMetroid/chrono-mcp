@@ -7,7 +7,7 @@ from app.config import get_config
 import bcrypt
 
 config = get_config()
-engine = create_engine(config.DATABASE_URL, echo=config.DEBUG)
+engine = create_engine(config.DATABASE_URL, echo=config.DEBUG, pool_pre_ping=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()

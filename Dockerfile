@@ -21,6 +21,7 @@ COPY --from=builder /install /usr/local
 COPY lib/ ./lib/
 COPY data/ ./data/
 COPY docs/ ./docs/
+COPY lua/ ./lua/
 COPY mcp/ ./mcp/
 COPY app/ ./app/
 COPY web_ui_refactored.py ./
@@ -47,7 +48,7 @@ LABEL version="1.0.0"
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:5000/health || exit 1
 
-EXPOSE 5000 8080
+# Expose Web UI, MCP server, and Emulator Hook ports
+EXPOSE 5000 8080 8081
 
-# Run both web UI and MCP server
 CMD ["./start.sh"]

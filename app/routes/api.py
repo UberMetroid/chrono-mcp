@@ -12,21 +12,190 @@ from app.config import get_config
 
 config = get_config()
 
+from app.mcp_client import get_mcp_tools, call_mcp_tool
+
 # Create blueprint
 api_bp = Blueprint('api', __name__, url_prefix='/api')
 
+# Setup simple in-memory cache manually to guarantee it works without circular dependencies
+_db_stats_cache = {"data": None, "timestamp": 0}
+CACHE_TIMEOUT = 300 # 5 minutes
+
+# ============ MCP ROUTES ============
+@api_bp.route('/mcp/tools')
+def mcp_tools():
+    """Get all tools from the MCP server"""
+    try:
+        tools = get_mcp_tools()
+        if tools is not None:
+            return jsonify(tools)
+        return jsonify({"error": "Failed to load tools from MCP server"}), 503
+    except Exception as e:
+        logger.error(f"Error fetching tools: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@api_bp.route('/mcp/tools/<tool_name>/run', methods=['POST'])
+def run_mcp_tool(tool_name):
+    """Execute a specific MCP tool with provided JSON arguments"""
+    try:
+        args = request.get_json() or {}
+        # Protect against malicious commands if any exist
+        result = call_mcp_tool(tool_name, args)
+        return jsonify(result)
+    except Exception as e:
+        logger.error(f"Failed to run tool {tool_name}: {e}")
+        return jsonify({"success": False, "error": str(e)}), 500
+
+# ============ DB STATS ============
+@api_bp.route('/db_stats')
+def api_db_stats():
+    """Get statistics about the extracted database (Cached for 5 minutes)"""
+    import time
+    global _db_stats_cache
+    
+    current_time = time.time()
+    
+    # Return cached data if valid
+    if _db_stats_cache["data"] and current_time - _db_stats_cache["timestamp"] < CACHE_TIMEOUT:
+        return jsonify(_db_stats_cache["data"])
+        
+    try:
+        from app.models.database import SessionLocal
+        from app.models import Game, Category, Item
+        from sqlalchemy import func
+        
+        db = SessionLocal()
+        stats = {
+            "total_games": db.query(Game).count(),
+            "total_categories": db.query(Category).count(),
+            "total_items": db.query(Item).count(),
+            "games_data": []
+        }
+        
+        games = db.query(Game).all()
+        for game in games:
+            game_stat = {
+                "name": game.name,
+                "total_categories": len(game.categories),
+                "total_items": sum(c.item_count for c in game.categories),
+                "categories": {c.name: c.item_count for c in game.categories}
+            }
+            stats["games_data"].append(game_stat)
+            
+        db.close()
+        
+        # Save to cache
+        _db_stats_cache = {"data": stats, "timestamp": current_time}
+        
+        return jsonify(stats)
+    except Exception as e:
+        logger.error(f"Failed to get db stats: {e}")
+        return jsonify({"error": str(e)}), 500
+
 # ============ HEALTH AND INFO ROUTES ============
+def get_health_data():
+    """Helper to get current health status"""
+    import socket
+    import datetime
+    
+    mcp_healthy = False
+    try:
+        mcp_port = int(getattr(config, 'MCP_PORT', 8080))
+        with socket.create_connection(("localhost", mcp_port), timeout=1):
+            mcp_healthy = True
+    except OSError:
+        pass
+
+    try:
+        cache_stats = get_cache_stats()
+    except Exception:
+        cache_stats = {"error": "Cache unavailable"}
+        
+    # Get Emulator Hook Status
+    try:
+        import urllib.request
+        # We query the MCP tool directly or we just have a small helper.
+        # It's easier to just try calling the MCP tool over HTTP via mcp_client.
+        # But for health check we need it quickly.
+        # Let's import the hook directly if possible, or just call the tool.
+        from app.mcp_client import call_mcp_tool
+        hook_resp = call_mcp_tool('get_live_emulator_state', {})
+        if hook_resp and hook_resp.get("success"):
+            import ast
+            res_str = hook_resp.get("result", "{}")
+            try:
+                hook_state = json.loads(res_str)
+            except:
+                # Fallback if fastmcp stringified it as a python dict
+                hook_state = ast.literal_eval(res_str)
+        else:
+            hook_state = {"connected": False, "error": hook_resp.get("error") if hook_resp else "Unknown"}
+    except Exception as e:
+        hook_state = {"connected": False, "error": str(e)}
+
+    return {
+        "status": "healthy",
+        "mcp_status": "online" if mcp_healthy else "offline",
+        "emulator_hook": hook_state,
+        "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
+        "version": "1.0.0",
+        "cache": cache_stats
+    }
 
 @api_bp.route('/health')
 def health():
     """Health check endpoint"""
-    cache_stats = get_cache_stats()
-    return jsonify({
-        "status": "healthy",
-        "timestamp": "2026-03-13T16:30:00Z",
-        "version": "1.0.0",
-        "cache": cache_stats
-    })
+    try:
+        return jsonify(get_health_data())
+    except Exception as e:
+        logger.error(f"Health check failed: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@api_bp.route('/health/stream')
+def health_stream():
+    """Server-Sent Events stream for real-time health updates"""
+    import time
+    
+    def generate():
+        while True:
+            try:
+                data = get_health_data()
+                # Format exactly as SSE requires
+                yield f"data: {json.dumps(data)}\n\n"
+            except Exception as e:
+                logger.error(f"SSE error: {e}")
+                # Send error but keep stream alive
+                yield f"data: {{\"error\": \"{str(e)}\"}}\n\n"
+            time.sleep(3) # Push updates every 3 seconds server-side
+            
+    return Response(generate(), mimetype='text/event-stream')
+
+@api_bp.route('/lua/download')
+def download_lua():
+    """Download the BizHawk Lua Hook script"""
+    try:
+        import os
+        from flask import send_file
+        lua_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "lua", "bizhawk_hook.lua")
+        return send_file(lua_path, as_attachment=True, download_name="chrono_mcp_hook.lua")
+    except Exception as e:
+        return jsonify({"error": str(e)}), 404
+
+@api_bp.route('/download')
+def download_file():
+    """Download a generated file (like IPS patches)"""
+    path = request.args.get('path')
+    if not path:
+        return "Path required", 400
+    try:
+        from flask import send_file
+        import os
+        # Basic safety check
+        if ".." in path or not os.path.exists(path):
+            return "File not found or invalid path", 404
+        return send_file(path, as_attachment=True)
+    except Exception as e:
+        return str(e), 500
 
 @api_bp.route('/ready')
 def ready():

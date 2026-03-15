@@ -201,17 +201,16 @@ class TestEdgeCases:
         return app
     
     def test_missing_game_returns_error(self, app):
-        """Test that missing game returns error"""
+        """Test that missing game returns 404"""
         with app.test_client() as client:
             response = client.get('/api/NonExistentGame')
-            assert response.status_code == 200  # Returns empty error in data
+            assert response.status_code == 404
     
     def test_invalid_category_returns_error(self, app):
-        """Test that invalid category is handled"""
+        """Test that invalid category returns 404"""
         with app.test_client() as client:
             response = client.get('/api/Chrono Trigger/invalid_category')
-            # Should return empty or error
-            assert response.status_code == 200
+            assert response.status_code == 404
     
     def test_search_empty_query(self, app):
         """Test search with empty query"""
@@ -228,7 +227,7 @@ class TestEdgeCases:
     def test_health_check(self, app):
         """Test health endpoint"""
         with app.test_client() as client:
-            response = client.get('/health')
+            response = client.get('/api/health')
             assert response.status_code in [200, 503]
             data = json.loads(response.data)
             assert "status" in data
