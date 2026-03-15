@@ -4,8 +4,10 @@ import json
 
 # Need to ensure we can import from mcp/src
 import os
-sys.path.insert(0, '/app/mcp/src')
-sys.path.insert(0, '/app')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(current_dir)
+sys.path.insert(0, os.path.join(project_root, 'mcp', 'src'))
+sys.path.insert(0, project_root)
 
 from main import mcp
 

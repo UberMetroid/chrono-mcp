@@ -1,0 +1,36 @@
+{
+  "games": {
+    "Chrono Trigger": {
+      "name": "Chrono Trigger",
+      "platforms": ["SNES", "DS", "PS1"],
+      "release_year": 1995,
+      "developer": "Square",
+      "characters": [{"name": "Crono"}, {"name": "Lucca"}, {"name": "Marle"}],
+      "techs": [{"name": "Cyclone"}, {"name": "Flame Toss"}],
+      "items": [{"name": "Mop"}, {"name": "Woodman"}],
+      "enemies": [{"name": "Gato"}, {"name": "Yakra"}],
+      "locations": [{"name": "Truce"}, {"name": "600 AD"}]
+    },
+    "Chrono Cross": {
+      "name": "Chrono Cross",
+      "platforms": ["PS1"],
+      "release_year": 1999,
+      "developer": "Square",
+      "characters": [{"name": "Serge"}, {"name": "Kid"}],
+      "elements": [{"name": "Fireball"}, {"name": "Uplift"}],
+      "items": [{"name": "Shark Tooth"}],
+      "enemies": [{"name": "Mama Dingo"}],
+      "locations": [{"name": "Arni Village"}]
+    },
+    "Radical Dreamers": {
+      "name": "Radical Dreamers",
+      "platforms": ["SNES"],
+      "release_year": 1996,
+      "developer": "Square",
+      "characters": [{"name": "Serge"}, {"name": "Kid"}, {"name": "Magil"}],
+      "items": [{"name": "Silver Compass"}],
+      "enemies": [{"name": "Guard"}],
+      "locations": [{"name": "Viper Manor"}]
+    }
+  }
+}

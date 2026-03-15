@@ -126,7 +126,10 @@ def _load_from_json_and_populate_db(force_reload: bool = False) -> Optional[Dict
     last_error = None
     for attempt in range(MAX_RETRIES):
         try:
-            data_file = config.EXTRACTED_DIR / "chrono_master_complete.json"
+            # Allow overriding for tests
+            default_path = config.EXTRACTED_DIR / "chrono_master_complete.json"
+            data_file = Path(os.environ.get("CHRONO_DATA_FILE", str(default_path)))
+            
             with open(data_file, encoding='utf-8') as f:
                 _data_cache = json.load(f)
             _load_error = None

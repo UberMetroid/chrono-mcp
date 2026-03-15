@@ -29,8 +29,9 @@ jobs:
     
     - name: Verify data files
       run: |
-        python -c "import json; json.load(open('data/extracted/chrono_master_complete.json'))"
-        echo "Data files valid"
+        # Use mock data for CI verification since master JSON is gitignored
+        python -c "import json; json.load(open('tests/mock_data.json'))"
+        echo "Mock data files valid"
 
   security:
     runs-on: ubuntu-latest
