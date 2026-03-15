@@ -7,15 +7,20 @@
 #### Option 1: Docker (Recommended)
 
 ```bash
-# Pull from GitHub Container Registry (after first build)
+# Pull from GitHub Container Registry
 docker pull ghcr.io/ubermetroid/chrono-mcp:latest
 
-# Run web UI
-docker run -d -p 5000:5000 ghcr.io/ubermetroid/chrono-mcp:latest
-
-# Or run MCP server
-docker run -d -p 8080:8080 ghcr.io/ubermetroid/chrono-mcp:latest python -c "import sys; sys.path.insert(0, '/app'); from lib.chrono import *; sys.path.insert(0, '/app/mcp'); from src import main; main.mcp.run(transport='streamable-http', host='0.0.0.0', port=8080)"
+# Run the complete stack (Web UI on 5000, MCP on 8080, Hook on 8081)
+docker run -d \
+  -p 5000:5000 \
+  -p 8080:8080 \
+  -p 8081:8081 \
+  --name chrono-mcp \
+  ghcr.io/ubermetroid/chrono-mcp:latest
 ```
+
+The container automatically starts both services via `start.sh`.
+
 
 #### Option 2: Build Locally
 
@@ -44,7 +49,7 @@ docker run -d -p 5000:5000 chrono-mcp
 #### MCP Server (Port 8080)
 - AI/LLM integration
 - JSON-RPC protocol
-- 60+ tools for data queries
+- 62 tools for data queries
 
 **URL:** http://localhost:8080/mcp
 
